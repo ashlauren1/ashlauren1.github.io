@@ -12,10 +12,10 @@ function isNumericColumn(columnIndex, rows) {
 }
 
 // General sort function for any table and column
-function sortTable(tableId, columnIndex) {
-    let table = document.getElementById(tableId);
+function sortTable(team_gamelogs, columnIndex) {
+    let table = document.getElementById(team_gamelogs);
     let rows = Array.from(table.rows).slice(1);  // Skip the header row
-    let dir = sortDirection[tableId + columnIndex] === "asc" ? "desc" : "asc";  // Track sorting direction
+    let dir = sortDirection[team_gamelogs + columnIndex] === "asc" ? "desc" : "asc";  // Track sorting direction
 
     // Determine if the column is numeric
     let isNumeric = isNumericColumn(columnIndex, rows);
@@ -37,5 +37,5 @@ function sortTable(tableId, columnIndex) {
 
     rows.forEach(row => table.tBodies[0].appendChild(row));
 
-    sortDirection[tableId + columnIndex] = dir;
+    sortDirection[team_gamelogs + columnIndex] = dir;
 }
