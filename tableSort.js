@@ -14,7 +14,7 @@ function isNumericColumn(columnIndex, rows) {
 // General sort function for any table and column
 function sortTable(tableId, columnIndex) {
     let table = document.getElementById(tableId);
-    let rows = Array.from(table.rows).slice(1);  // Skip the header row
+    let rows = Array.from(table.rows).slice(2);  // Skip the header row
     let dir = sortDirection[tableId + columnIndex] === "asc" ? "desc" : "asc";  // Track sorting direction
 
     // Determine if the column is numeric
