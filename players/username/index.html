@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Player 1</title>
+    <link rel="stylesheet" href="/assets/css/styles.css">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav id="navbar">
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/players/">Players</a></li>
+            <li><a href="/teams/">Teams</a></li>
+            <li><a href="/leaders/">Leaders</a></li>
+            <li><a href="/probabilities/">Probabilities</a></li>
+            <li><a href="/boxscores/">Boxscores</a></li>
+            <li><a href="/schedule/">Schedule</a></li>
+            <li>
+                <input type="text" id="search-bar" placeholder="Search players or teams..." onkeyup="showSuggestions(this.value)">
+                <ul id="suggestions" class="suggestion-list"></ul>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- Content Unique to Player 1 -->
+    <main id="content">
+        <h2>Player 1</h2>
+        <p>Position: Forward</p>
+        <p>Team: Team 1</p>
+        <p>Stats: [Player's stats go here]</p>
+    </main>
+
+    <script src="/assets/js/script.js"></script>
+
+</body>
+</html>
