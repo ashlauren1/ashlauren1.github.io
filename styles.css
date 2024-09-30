@@ -1,0 +1,114 @@
+/* Basic page setup */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+/* Navigation Bar Styles */
+#navbar {
+    background-color: #0044cc;
+    padding: 15px;
+}
+
+#navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#navbar ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+#navbar ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+#navbar ul li input[type="text"] {
+    padding: 5px;
+    border-radius: 4px;
+}
+
+/* Suggestions List */
+.suggestion-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    background-color: white;
+    border: 1px solid #ccc;
+    width: 200px;
+    display: none; /* Will show when there are suggestions */
+}
+
+.suggestion-list li {
+    padding: 8px;
+    cursor: pointer;
+}
+
+.suggestion-list li:hover {
+    background-color: #f0f0f0;
+}
+
+/* Layout Styles */
+main {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.left-section, .right-section {
+    width: 45%;
+    margin: 10px;
+    padding: 10px;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+ul li a {
+    color: #0044cc;
+    text-decoration: none;
+}
+
+/* Divider */
+hr {
+    width: 100%;
+    margin: 20px 0;
+    border: 1px solid #ccc;
+}
+
+/* Schedule Section */
+#schedule {
+    text-align: center;
+    margin-top: 30px;
+}
+
+#calendar-placeholder {
+    border: 2px dashed #ccc;
+    padding: 50px;
+    color: #777;
+    font-size: 1.2rem;
+}
