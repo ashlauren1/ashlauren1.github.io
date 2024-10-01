@@ -1,3830 +1,827 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Joonas Korpisalo</title>
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script src="/assets/searchBar.js" defer></script>
+  <script src="/assets/tableSort.js"></script>
+  
+  <style>
+    tr:hover {background-color: #F0FFF0;}
+  </style>
+</head>
 
-        <!DOCTYPE html>
-        <html lang="en">
-        <head>
-            <meta charset="UTF-8">
-            <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <title>korpijo01 Profile</title>
-        </head>
-        <body>
-            
-    <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Player korpijo01 Stats</title>
-        <link rel="stylesheet" href="/assets/css/styles.css"> <!-- Assuming a shared stylesheet -->
-    </head>
-    <body>
-        <nav id="navbar">
-            <ul>
-                <li><a href="/">Home</a></li>
-                <li><a href="/players/">Players</a></li>
-                <li><a href="/teams/">Teams</a></li>
-                <li><a href="/leaders/">Leaders</a></li>
-                <li><a href="/probabilities/">Probabilities</a></li>
-                <li><a href="/boxscores/">Boxscores</a></li>
-                <li><a href="/schedule/">Schedule</a></li>
-            </ul>
-        </nav>
+<body>
+  <!-- Navigation Bar -->
+  <nav id="navbar">
+    <a href="/">Home</a>
+    <a href="/players/">Players</a>
+    <a href="/teams/">Teams</a>
+    <a href="/leaders/">Leaders</a>
+    <a href="/probabilities/">Probabilities</a>
+    <a href="/boxscores/">Boxscores</a>
+    <a href="/schedule/">Schedule</a>
 
-        <main id="content">
-            <h1>Player korpijo01 Stats</h1>
-            <table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th>Goalie</th>
-      <th>Player_ID</th>
-      <th>Gm</th>
-      <th>Game ID</th>
-      <th>Date</th>
-      <th>Team</th>
-      <th>Location</th>
-      <th>Opp</th>
-      <th>W/L</th>
-      <th>Goals 
-Allowed</th>
-      <th>Shots 
-Against</th>
-      <th>Saves</th>
-      <th>Save 
-Percentage</th>
-      <th>TOI</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>14</td>
-      <td>202311160OTT</td>
-      <td>11/16/2023</td>
-      <td>OTT</td>
-      <td>vs</td>
-      <td>DET</td>
-      <td>W</td>
-      <td>4</td>
-      <td>41</td>
-      <td>37</td>
-      <td>0.90</td>
-      <td>64.97</td>
-    </tr>
-    <tr>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>65</td>
-      <td>202403160NYI</td>
-      <td>3/16/2024</td>
-      <td>OTT</td>
-      <td>@</td>
-      <td>NYI</td>
-      <td>W</td>
-      <td>3</td>
-      <td>33</td>
-      <td>30</td>
-      <td>0.91</td>
-      <td>64.55</td>
-    </tr>
-    <tr>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>41</td>
-      <td>202401200OTT</td>
-      <td>1/20/2024</td>
-      <td>OTT</td>
-      <td>vs</td>
-      <td>WPG</td>
-      <td>L-OT</td>
-      <td>2</td>
-      <td>29</td>
-      <td>27</td>
-      <td>0.93</td>
-      <td>64.23</td>
-    </tr>
-    <tr>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>80</td>
-      <td>202404130OTT</td>
-      <td>4/13/2024</td>
-      <td>OTT</td>
-      <td>vs</td>
-      <td>MTL</td>
-      <td>W</td>
-      <td>4</td>
-      <td>25</td>
-      <td>21</td>
-      <td>0.84</td>
-      <td>64.18</td>
-    </tr>
-    <tr>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>63</td>
-      <td>202403120OTT</td>
-      <td>3/12/2024</td>
-      <td>OTT</td>
-      <td>vs</td>
-      <td>PIT</td>
-      <td>W</td>
-      <td>1</td>
-      <td>35</td>
-      <td>34</td>
-      <td>0.97</td>
-      <td>63.13</td>
-    </tr>
-    <tr>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>47</td>
-      <td>202401310DET</td>
-      <td>1/31/2024</td>
-      <td>OTT</td>
-      <td>@</td>
-      <td>DET</td>
-      <td>W</td>
-      <td>2</td>
-      <td>25</td>
-      <td>23</td>
-      <td>0.92</td>
-      <td>62.08</td>
-    </tr>
-    <tr>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>61</td>
-      <td>202403070LAK</td>
-      <td>3/7/2024</td>
-      <td>OTT</td>
-      <td>@</td>
-      <td>LAK</td>
-      <td>L-OT</td>
-      <td>4</td>
-      <td>35</td>
-      <td>31</td>
-      <td>0.89</td>
-      <td>62.00</td>
-    </tr>
-    <tr>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>44</td>
-      <td>202401250OTT</td>
-      <td>1/25/2024</td>
-      <td>OTT</td>
-      <td>vs</td>
-      <td>BOS</td>
-      <td>L-OT</td>
-      <td>3</td>
-      <td>23</td>
-      <td>20</td>
-      <td>0.87</td>
-      <td>61.80</td>
-    </tr>
-    <tr>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>53</td>
-      <td>202402200FLA</td>
-      <td>2/20/2024</td>
-      <td>OTT</td>
-      <td>@</td>
-      <td>FLA</td>
-      <td>L-OT</td>
-      <td>3</td>
-      <td>34</td>
-      <td>31</td>
-      <td>0.91</td>
-      <td>61.60</td>
-    </tr>
-    <tr>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>77</td>
-      <td>202404070WSH</td>
-      <td>4/7/2024</td>
-      <td>OTT</td>
-      <td>@</td>
-      <td>WSH</td>
-      <td>W</td>
-      <td>2</td>
-      <td>22</td>
-      <td>20</td>
-      <td>0.91</td>
-      <td>60.08</td>
-    </tr>
-    <tr>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>22</td>
-      <td>202312090DET</td>
-      <td>12/9/2023</td>
-      <td>OTT</td>
-      <td>@</td>
-      <td>DET</td>
-      <td>W</td>
-      <td>1</td>
-      <td>31</td>
-      <td>30</td>
-      <td>0.97</td>
-      <td>60.00</td>
-    </tr>
-    <tr>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>13</td>
-      <td>202311110OTT</td>
-      <td>11/11/2023</td>
-      <td>OTT</td>
-      <td>vs</td>
-      <td>CGY</td>
-      <td>W</td>
-      <td>1</td>
-      <td>25</td>
-      <td>24</td>
-      <td>0.96</td>
-      <td>60.00</td>
-    </tr>
-    <tr>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>43</td>
-      <td>202401230MTL</td>
-      <td>1/23/2024</td>
-      <td>OTT</td>
-      <td>@</td>
-      <td>MTL</td>
-      <td>W</td>
-      <td>1</td>
-      <td>25</td>
-      <td>24</td>
-      <td>0.96</td>
-      <td>60.00</td>
-    </tr>
-    <tr>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>8</td>
-      <td>202310280PIT</td>
-      <td>10/28/2023</td>
-      <td>OTT</td>
-      <td>@</td>
-      <td>PIT</td>
-      <td>W</td>
-      <td>2</td>
-      <td>43</td>
-      <td>41</td>
-      <td>0.95</td>
-      <td>60.00</td>
-    </tr>
-    <tr>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>30</td>
-      <td>202312270TOR</td>
-      <td>12/27/2023</td>
-      <td>OTT</td>
-      <td>@</td>
-      <td>TOR</td>
-      <td>W</td>
-      <td>2</td>
-      <td>36</td>
-      <td>34</td>
-      <td>0.94</td>
-      <td>60.00</td>
-    </tr>
-    <tr>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>71</td>
-      <td>202403270BUF</td>
-      <td>3/27/2024</td>
-      <td>OTT</td>
-      <td>@</td>
-      <td>BUF</td>
-      <td>W</td>
-      <td>2</td>
-      <td>36</td>
-      <td>34</td>
-      <td>0.94</td>
-      <td>60.00</td>
-    </tr>
-    <tr>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>73</td>
-      <td>202403300WPG</td>
-      <td>3/30/2024</td>
-      <td>OTT</td>
-      <td>@</td>
-      <td>WPG</td>
-      <td>W</td>
-      <td>2</td>
-      <td>30</td>
-      <td>28</td>
-      <td>0.93</td>
-      <td>60.00</td>
-    </tr>
-    <tr>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>70</td>
-      <td>202403240OTT</td>
-      <td>3/24/2024</td>
-      <td>OTT</td>
-      <td>vs</td>
-      <td>EDM</td>
-      <td>W</td>
-      <td>3</td>
-      <td>36</td>
-      <td>33</td>
-      <td>0.92</td>
-      <td>60.00</td>
-    </tr>
-    <tr>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>48</td>
-      <td>202402100OTT</td>
-      <td>2/10/2024</td>
-      <td>OTT</td>
-      <td>vs</td>
-      <td>TOR</td>
-      <td>W</td>
-      <td>3</td>
-      <td>35</td>
-      <td>32</td>
-      <td>0.91</td>
-      <td>60.00</td>
-    </tr>
-    <tr>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>11</td>
-      <td>202311080TOR</td>
-      <td>11/8/2023</td>
-      <td>OTT</td>
-      <td>@</td>
-      <td>TOR</td>
-      <td>W</td>
-      <td>3</td>
-      <td>30</td>
-      <td>27</td>
-      <td>0.90</td>
-      <td>60.00</td>
-    </tr>
-    <tr>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>57</td>
-      <td>202402270NSH</td>
-      <td>2/27/2024</td>
-      <td>OTT</td>
-      <td>@</td>
-      <td>NSH</td>
-      <td>L</td>
-      <td>4</td>
-      <td>36</td>
-      <td>32</td>
-      <td>0.89</td>
-      <td>60.00</td>
-    </tr>
-    <tr>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>81</td>
-      <td>202404150NYR</td>
-      <td>4/15/2024</td>
-      <td>OTT</td>
-      <td>@</td>
-      <td>NYR</td>
-      <td>L</td>
-      <td>4</td>
-      <td>34</td>
-      <td>30</td>
-      <td>0.88</td>
-      <td>60.00</td>
-    </tr>
-    <tr>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>17</td>
-      <td>202311270OTT</td>
-      <td>11/27/2023</td>
-      <td>OTT</td>
-      <td>vs</td>
-      <td>FLA</td>
-      <td>L</td>
-      <td>5</td>
-      <td>37</td>
-      <td>32</td>
-      <td>0.87</td>
-      <td>60.00</td>
-    </tr>
-    <tr>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>26</td>
-      <td>202312170VEG</td>
-      <td>12/17/2023</td>
-      <td>OTT</td>
-      <td>@</td>
-      <td>VEG</td>
-      <td>L</td>
-      <td>6</td>
-      <td>31</td>
-      <td>25</td>
-      <td>0.81</td>
-      <td>60.00</td>
-    </tr>
-    <tr>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>31</td>
-      <td>202312290OTT</td>
-      <td>12/29/2023</td>
-      <td>OTT</td>
-      <td>vs</td>
-      <td>NJD</td>
-      <td>L</td>
-      <td>6</td>
-      <td>30</td>
-      <td>24</td>
-      <td>0.80</td>
-      <td>60.00</td>
-    </tr>
-    <tr>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>38</td>
-      <td>202401130OTT</td>
-      <td>1/13/2024</td>
-      <td>OTT</td>
-      <td>vs</td>
-      <td>SJS</td>
-      <td>W</td>
-      <td>4</td>
-      <td>18</td>
-      <td>14</td>
-      <td>0.78</td>
-      <td>60.00</td>
-    </tr>
-    <tr>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>67</td>
-      <td>202403190BOS</td>
-      <td>3/19/2024</td>
-      <td>OTT</td>
-      <td>@</td>
-      <td>BOS</td>
-      <td>L</td>
-      <td>6</td>
-      <td>26</td>
-      <td>20</td>
-      <td>0.77</td>
-      <td>60.00</td>
-    </tr>
-    <tr>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>50</td>
-      <td>202402150OTT</td>
-      <td>2/15/2024</td>
-      <td>OTT</td>
-      <td>vs</td>
-      <td>ANA</td>
-      <td>L</td>
-      <td>5</td>
-      <td>20</td>
-      <td>15</td>
-      <td>0.75</td>
-      <td>60.00</td>
-    </tr>
-    <tr>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>40</td>
-      <td>202401180OTT</td>
-      <td>1/18/2024</td>
-      <td>OTT</td>
-      <td>vs</td>
-      <td>MTL</td>
-      <td>W</td>
-      <td>2</td>
-      <td>23</td>
-      <td>21</td>
-      <td>0.91</td>
-      <td>59.92</td>
-    </tr>
-    <tr>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>69</td>
-      <td>202403230NJD</td>
-      <td>3/23/2024</td>
-      <td>OTT</td>
-      <td>@</td>
-      <td>NJD</td>
-      <td>W</td>
-      <td>2</td>
-      <td>20</td>
-      <td>18</td>
-      <td>0.90</td>
-      <td>59.87</td>
-    </tr>
-    <tr>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>23</td>
-      <td>202312120OTT</td>
-      <td>12/12/2023</td>
-      <td>OTT</td>
-      <td>vs</td>
-      <td>CAR</td>
-      <td>L</td>
-      <td>4</td>
-      <td>28</td>
-      <td>24</td>
-      <td>0.86</td>
-      <td>59.78</td>
-    </tr>
-    <tr>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>36</td>
-      <td>202401090CGY</td>
-      <td>1/9/2024</td>
-      <td>OTT</td>
-      <td>@</td>
-      <td>CGY</td>
-      <td>L</td>
-      <td>5</td>
-      <td>35</td>
-      <td>30</td>
-      <td>0.86</td>
-      <td>59.73</td>
-    </tr>
-    <tr>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>5</td>
-      <td>202310210OTT</td>
-      <td>10/21/2023</td>
-      <td>OTT</td>
-      <td>vs</td>
-      <td>DET</td>
-      <td>L</td>
-      <td>5</td>
-      <td>23</td>
-      <td>18</td>
-      <td>0.78</td>
-      <td>59.60</td>
-    </tr>
-    <tr>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>3</td>
-      <td>202310150OTT</td>
-      <td>10/15/2023</td>
-      <td>OTT</td>
-      <td>vs</td>
-      <td>TBL</td>
-      <td>W</td>
-      <td>2</td>
-      <td>24</td>
-      <td>22</td>
-      <td>0.92</td>
-      <td>59.57</td>
-    </tr>
-    <tr>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>1</td>
-      <td>202310110CAR</td>
-      <td>10/11/2023</td>
-      <td>OTT</td>
-      <td>@</td>
-      <td>CAR</td>
-      <td>L</td>
-      <td>5</td>
-      <td>42</td>
-      <td>37</td>
-      <td>0.88</td>
-      <td>59.42</td>
-    </tr>
-    <tr>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>28</td>
-      <td>202312210COL</td>
-      <td>12/21/2023</td>
-      <td>OTT</td>
-      <td>@</td>
-      <td>COL</td>
-      <td>L</td>
-      <td>5</td>
-      <td>38</td>
-      <td>33</td>
-      <td>0.87</td>
-      <td>59.38</td>
-    </tr>
-    <tr>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>9</td>
-      <td>202311020OTT</td>
-      <td>11/2/2023</td>
-      <td>OTT</td>
-      <td>vs</td>
-      <td>LAK</td>
-      <td>L</td>
-      <td>3</td>
-      <td>38</td>
-      <td>35</td>
-      <td>0.92</td>
-      <td>59.37</td>
-    </tr>
-    <tr>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>7</td>
-      <td>202310260NYI</td>
-      <td>10/26/2023</td>
-      <td>OTT</td>
-      <td>@</td>
-      <td>NYI</td>
-      <td>L</td>
-      <td>3</td>
-      <td>38</td>
-      <td>35</td>
-      <td>0.92</td>
-      <td>58.92</td>
-    </tr>
-    <tr>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>78</td>
-      <td>202404090FLA</td>
-      <td>4/9/2024</td>
-      <td>OTT</td>
-      <td>@</td>
-      <td>FLA</td>
-      <td>L</td>
-      <td>2</td>
-      <td>30</td>
-      <td>28</td>
-      <td>0.93</td>
-      <td>58.78</td>
-    </tr>
-    <tr>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>24</td>
-      <td>202312140STL</td>
-      <td>12/14/2023</td>
-      <td>OTT</td>
-      <td>@</td>
-      <td>STL</td>
-      <td>L</td>
-      <td>4</td>
-      <td>30</td>
-      <td>26</td>
-      <td>0.87</td>
-      <td>58.53</td>
-    </tr>
-    <tr>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>34</td>
-      <td>202401040SEA</td>
-      <td>1/4/2024</td>
-      <td>OTT</td>
-      <td>@</td>
-      <td>SEA</td>
-      <td>L</td>
-      <td>3</td>
-      <td>27</td>
-      <td>24</td>
-      <td>0.89</td>
-      <td>58.47</td>
-    </tr>
-    <tr>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>27</td>
-      <td>202312190ARI</td>
-      <td>12/19/2023</td>
-      <td>OTT</td>
-      <td>@</td>
-      <td>ARI</td>
-      <td>L</td>
-      <td>4</td>
-      <td>38</td>
-      <td>34</td>
-      <td>0.90</td>
-      <td>58.33</td>
-    </tr>
-    <tr>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>74</td>
-      <td>202404020MIN</td>
-      <td>4/2/2024</td>
-      <td>OTT</td>
-      <td>@</td>
-      <td>MIN</td>
-      <td>L</td>
-      <td>3</td>
-      <td>19</td>
-      <td>16</td>
-      <td>0.84</td>
-      <td>58.28</td>
-    </tr>
-    <tr>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>51</td>
-      <td>202402170CHI</td>
-      <td>2/17/2024</td>
-      <td>OTT</td>
-      <td>@</td>
-      <td>CHI</td>
-      <td>L</td>
-      <td>3</td>
-      <td>22</td>
-      <td>19</td>
-      <td>0.86</td>
-      <td>58.03</td>
-    </tr>
-    <tr>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>18</td>
-      <td>202312010CBJ</td>
-      <td>12/1/2023</td>
-      <td>OTT</td>
-      <td>@</td>
-      <td>CBJ</td>
-      <td>L</td>
-      <td>4</td>
-      <td>23</td>
-      <td>19</td>
-      <td>0.83</td>
-      <td>57.85</td>
-    </tr>
-    <tr>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>62</td>
-      <td>202403090SJS</td>
-      <td>3/9/2024</td>
-      <td>OTT</td>
-      <td>@</td>
-      <td>SJS</td>
-      <td>L</td>
-      <td>2</td>
-      <td>21</td>
-      <td>19</td>
-      <td>0.91</td>
-      <td>57.22</td>
-    </tr>
-    <tr>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>46</td>
-      <td>202401290OTT</td>
-      <td>1/29/2024</td>
-      <td>OTT</td>
-      <td>vs</td>
-      <td>NSH</td>
-      <td>W</td>
-      <td>0</td>
-      <td>17</td>
-      <td>17</td>
-      <td>1.00</td>
-      <td>43.60</td>
-    </tr>
-    <tr>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>33</td>
-      <td>202401020VAN</td>
-      <td>1/2/2024</td>
-      <td>OTT</td>
-      <td>@</td>
-      <td>VAN</td>
-      <td>L</td>
-      <td>2</td>
-      <td>13</td>
-      <td>11</td>
-      <td>0.85</td>
-      <td>42.72</td>
-    </tr>
-    <tr>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>76</td>
-      <td>202404060OTT</td>
-      <td>4/6/2024</td>
-      <td>OTT</td>
-      <td>vs</td>
-      <td>NJD</td>
-      <td>L</td>
-      <td>1</td>
-      <td>18</td>
-      <td>17</td>
-      <td>0.94</td>
-      <td>42.32</td>
-    </tr>
-    <tr>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>37</td>
-      <td>202401110BUF</td>
-      <td>1/11/2024</td>
-      <td>OTT</td>
-      <td>@</td>
-      <td>BUF</td>
-      <td>L</td>
-      <td>3</td>
-      <td>24</td>
-      <td>21</td>
-      <td>0.88</td>
-      <td>42.18</td>
-    </tr>
-    <tr>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>56</td>
-      <td>202402260WSH</td>
-      <td>2/26/2024</td>
-      <td>OTT</td>
-      <td>@</td>
-      <td>WSH</td>
-      <td>L</td>
-      <td>2</td>
-      <td>10</td>
-      <td>8</td>
-      <td>0.80</td>
-      <td>40.00</td>
-    </tr>
-    <tr>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>45</td>
-      <td>202401270OTT</td>
-      <td>1/27/2024</td>
-      <td>OTT</td>
-      <td>vs</td>
-      <td>NYR</td>
-      <td>L</td>
-      <td>4</td>
-      <td>17</td>
-      <td>13</td>
-      <td>0.77</td>
-      <td>31.18</td>
-    </tr>
-    <tr>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>10</td>
-      <td>202311040OTT</td>
-      <td>11/4/2023</td>
-      <td>OTT</td>
-      <td>vs</td>
-      <td>TBL</td>
-      <td>L</td>
-      <td>3</td>
-      <td>21</td>
-      <td>18</td>
-      <td>0.86</td>
-      <td>24.95</td>
-    </tr>
-    <tr>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>75</td>
-      <td>202404040OTT</td>
-      <td>4/4/2024</td>
-      <td>OTT</td>
-      <td>vs</td>
-      <td>FLA</td>
-      <td>L</td>
-      <td>4</td>
-      <td>17</td>
-      <td>13</td>
-      <td>0.77</td>
-      <td>24.13</td>
-    </tr>
-    <tr>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>6</td>
-      <td>202310240OTT</td>
-      <td>10/24/2023</td>
-      <td>OTT</td>
-      <td>vs</td>
-      <td>BUF</td>
-      <td>L</td>
-      <td>0</td>
-      <td>5</td>
-      <td>5</td>
-      <td>1.00</td>
-      <td>19.70</td>
-    </tr>
-  </tbody>
-</table>
-        </main>
-    </body>
-    </html>
+    <!-- Search Bar -->
+    <div class="search-container">
+      <input type="text" id="searchInput" placeholder="Search players or teams..." oninput="searchEntities()" />
+      <ul id="suggestions"></ul> <!-- This will show the search suggestions -->
+    </div>
+  </nav>
+
+  <h1>Joonas Korpisalo - Gamelogs</h1>
+  <table border="1">
+    <thead>
+      <tr>
+        <th>Season</th>
+        <th>Date</th>
+        <th>Team</th>
+        <th>Location</th>
+        <th>Opponent</th>
+        <th>Result</th>
+        <th>GA</th>
+        <th>SA</th>
+        <th>SV</th>
+        <th>SV%</th>
+        <th>TOI</th>
+      </tr>
+    </thead>
+    <tbody>
     
-            <h2>Penalties</h2>
-            <p>No penalties table available</p>
-            <h2>Scoring</h2>
-            
-    <h2>Goals Allowed by korpijo01</h2>
-    <table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th>Date</th>
-      <th>Tm</th>
-      <th>Location</th>
-      <th>Opp</th>
-      <th>Result</th>
-      <th>Scorer</th>
-      <th>scorer username</th>
-      <th>Assist1</th>
-      <th>ast 1 username</th>
-      <th>Assist2</th>
-      <th>ast 2 username</th>
-      <th>Goalie</th>
-      <th>goalie username</th>
-      <th>Per.</th>
-      <th>Time</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>10/11/2023</td>
-      <td>CAR</td>
-      <td>vs</td>
-      <td>OTT</td>
-      <td>W</td>
-      <td>Michael Bunting</td>
-      <td>buntimi01</td>
-      <td>Sebastian Aho</td>
-      <td>ahose01</td>
-      <td>Tony DeAngelo</td>
-      <td>deangan01</td>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>2</td>
-      <td>2.92</td>
-    </tr>
-    <tr>
-      <td>10/11/2023</td>
-      <td>CAR</td>
-      <td>vs</td>
-      <td>OTT</td>
-      <td>W</td>
-      <td>Teuvo Teräväinen</td>
-      <td>teravte01</td>
-      <td>Martin Nečas</td>
-      <td>necasma01</td>
-      <td>Brady Skjei</td>
-      <td>skjeibr01</td>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>2</td>
-      <td>17.95</td>
-    </tr>
-    <tr>
-      <td>10/11/2023</td>
-      <td>CAR</td>
-      <td>vs</td>
-      <td>OTT</td>
-      <td>W</td>
-      <td>Jordan Staal</td>
-      <td>staaljo01</td>
-      <td>Jordan Martinook</td>
-      <td>martijo01</td>
-      <td>-</td>
-      <td>NaN</td>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>3</td>
-      <td>0.33</td>
-    </tr>
-    <tr>
-      <td>10/11/2023</td>
-      <td>CAR</td>
-      <td>vs</td>
-      <td>OTT</td>
-      <td>W</td>
-      <td>Brady Skjei</td>
-      <td>skjeibr01</td>
-      <td>Jesper Fast</td>
-      <td>fastje01</td>
-      <td>Jordan Staal</td>
-      <td>staaljo01</td>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>3</td>
-      <td>7.85</td>
-    </tr>
-    <tr>
-      <td>10/11/2023</td>
-      <td>CAR</td>
-      <td>vs</td>
-      <td>OTT</td>
-      <td>W</td>
-      <td>Jaccob Slavin</td>
-      <td>slavija01</td>
-      <td>Jesperi Kotkaniemi</td>
-      <td>kotkaje01</td>
-      <td>Seth Jarvis</td>
-      <td>jarvise01</td>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>3</td>
-      <td>11.08</td>
-    </tr>
-    <tr>
-      <td>10/15/2023</td>
-      <td>TBL</td>
-      <td>@</td>
-      <td>OTT</td>
-      <td>L</td>
-      <td>Anthony Cirelli</td>
-      <td>cirelan01</td>
-      <td>Darren Raddysh</td>
-      <td>raddyda01</td>
-      <td>Tanner Jeannot</td>
-      <td>jeannta01</td>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>2</td>
-      <td>1.00</td>
-    </tr>
-    <tr>
-      <td>10/15/2023</td>
-      <td>TBL</td>
-      <td>@</td>
-      <td>OTT</td>
-      <td>L</td>
-      <td>Tanner Jeannot</td>
-      <td>jeannta01</td>
-      <td>Michael Eyssimont</td>
-      <td>eyssimi01</td>
-      <td>Victor Hedman</td>
-      <td>hedmavi01</td>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>2</td>
-      <td>13.00</td>
-    </tr>
-    <tr>
-      <td>10/21/2023</td>
-      <td>DET</td>
-      <td>@</td>
-      <td>OTT</td>
-      <td>W</td>
-      <td>Shayne Gostisbehere</td>
-      <td>gostish01</td>
-      <td>Dylan Larkin</td>
-      <td>larkidy01</td>
-      <td>David Perron</td>
-      <td>perroda01</td>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>1</td>
-      <td>18.25</td>
-    </tr>
-    <tr>
-      <td>10/21/2023</td>
-      <td>DET</td>
-      <td>@</td>
-      <td>OTT</td>
-      <td>W</td>
-      <td>Joe Veleno</td>
-      <td>velenjo01</td>
-      <td>Christian Fischer</td>
-      <td>fischch01</td>
-      <td>-</td>
-      <td>NaN</td>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>2</td>
-      <td>4.30</td>
-    </tr>
-    <tr>
-      <td>10/21/2023</td>
-      <td>DET</td>
-      <td>@</td>
-      <td>OTT</td>
-      <td>W</td>
-      <td>David Perron</td>
-      <td>perroda01</td>
-      <td>Dylan Larkin</td>
-      <td>larkidy01</td>
-      <td>Moritz Seider</td>
-      <td>seidemo01</td>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>2</td>
-      <td>14.90</td>
-    </tr>
-    <tr>
-      <td>10/21/2023</td>
-      <td>DET</td>
-      <td>@</td>
-      <td>OTT</td>
-      <td>W</td>
-      <td>Dylan Larkin</td>
-      <td>larkidy01</td>
-      <td>Shayne Gostisbehere</td>
-      <td>gostish01</td>
-      <td>Moritz Seider</td>
-      <td>seidemo01</td>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>3</td>
-      <td>0.47</td>
-    </tr>
-    <tr>
-      <td>10/21/2023</td>
-      <td>DET</td>
-      <td>@</td>
-      <td>OTT</td>
-      <td>W</td>
-      <td>Joe Veleno</td>
-      <td>velenjo01</td>
-      <td>Daniel Sprong</td>
-      <td>spronda01</td>
-      <td>-</td>
-      <td>NaN</td>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>3</td>
-      <td>7.38</td>
-    </tr>
-    <tr>
-      <td>10/26/2023</td>
-      <td>NYI</td>
-      <td>vs</td>
-      <td>OTT</td>
-      <td>W</td>
-      <td>Bo Horvat</td>
-      <td>horvabo01</td>
-      <td>Kyle Palmieri</td>
-      <td>palmiky01</td>
-      <td>Noah Dobson</td>
-      <td>dobsono01</td>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>1</td>
-      <td>2.68</td>
-    </tr>
-    <tr>
-      <td>10/26/2023</td>
-      <td>NYI</td>
-      <td>vs</td>
-      <td>OTT</td>
-      <td>W</td>
-      <td>Cal Clutterbuck</td>
-      <td>cluttca01</td>
-      <td>Casey Cizikas</td>
-      <td>cizikca01</td>
-      <td>-</td>
-      <td>NaN</td>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>1</td>
-      <td>13.08</td>
-    </tr>
-    <tr>
-      <td>10/26/2023</td>
-      <td>NYI</td>
-      <td>vs</td>
-      <td>OTT</td>
-      <td>W</td>
-      <td>Noah Dobson</td>
-      <td>dobsono01</td>
-      <td>Mathew Barzal</td>
-      <td>barzama01</td>
-      <td>Bo Horvat</td>
-      <td>horvabo01</td>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>3</td>
-      <td>6.75</td>
-    </tr>
-    <tr>
-      <td>10/28/2023</td>
-      <td>PIT</td>
-      <td>vs</td>
-      <td>OTT</td>
-      <td>L</td>
-      <td>Sidney Crosby</td>
-      <td>crosbsi01</td>
-      <td>Bryan Rust</td>
-      <td>rustbr01</td>
-      <td>Kris Letang</td>
-      <td>letankr01</td>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>2</td>
-      <td>17.57</td>
-    </tr>
-    <tr>
-      <td>10/28/2023</td>
-      <td>PIT</td>
-      <td>vs</td>
-      <td>OTT</td>
-      <td>L</td>
-      <td>Jake Guentzel</td>
-      <td>guentja01</td>
-      <td>Sidney Crosby</td>
-      <td>crosbsi01</td>
-      <td>Chad Ruhwedel</td>
-      <td>ruhwech01</td>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>3</td>
-      <td>19.43</td>
-    </tr>
-    <tr>
-      <td>11/2/2023</td>
-      <td>LAK</td>
-      <td>@</td>
-      <td>OTT</td>
-      <td>W</td>
-      <td>Phillip Danault</td>
-      <td>danauph01</td>
-      <td>Trevor Moore</td>
-      <td>mooretr01</td>
-      <td>Quinton Byfield</td>
-      <td>byfiequ01</td>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>1</td>
-      <td>3.18</td>
-    </tr>
-    <tr>
-      <td>11/2/2023</td>
-      <td>LAK</td>
-      <td>@</td>
-      <td>OTT</td>
-      <td>W</td>
-      <td>Carl Grundström</td>
-      <td>grundca01</td>
-      <td>Adrian Kempe</td>
-      <td>kempead01</td>
-      <td>-</td>
-      <td>NaN</td>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>2</td>
-      <td>5.00</td>
-    </tr>
-    <tr>
-      <td>11/2/2023</td>
-      <td>LAK</td>
-      <td>@</td>
-      <td>OTT</td>
-      <td>W</td>
-      <td>Anže Kopitar</td>
-      <td>kopitan01</td>
-      <td>Andreas Englund</td>
-      <td>engluan01</td>
-      <td>Adrian Kempe</td>
-      <td>kempead01</td>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>2</td>
-      <td>8.92</td>
-    </tr>
-    <tr>
-      <td>11/4/2023</td>
-      <td>TBL</td>
-      <td>@</td>
-      <td>OTT</td>
-      <td>W</td>
-      <td>Victor Hedman</td>
-      <td>hedmavi01</td>
-      <td>Nikita Kucherov</td>
-      <td>kucheni01</td>
-      <td>Brayden Point</td>
-      <td>pointbr01</td>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>1</td>
-      <td>17.08</td>
-    </tr>
-    <tr>
-      <td>11/4/2023</td>
-      <td>TBL</td>
-      <td>@</td>
-      <td>OTT</td>
-      <td>W</td>
-      <td>Brayden Point</td>
-      <td>pointbr01</td>
-      <td>Nikita Kucherov</td>
-      <td>kucheni01</td>
-      <td>-</td>
-      <td>NaN</td>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>2</td>
-      <td>0.53</td>
-    </tr>
-    <tr>
-      <td>11/4/2023</td>
-      <td>TBL</td>
-      <td>@</td>
-      <td>OTT</td>
-      <td>W</td>
-      <td>Michael Eyssimont</td>
-      <td>eyssimi01</td>
-      <td>Anthony Cirelli</td>
-      <td>cirelan01</td>
-      <td>-</td>
-      <td>NaN</td>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>2</td>
-      <td>4.95</td>
-    </tr>
-    <tr>
-      <td>11/8/2023</td>
-      <td>TOR</td>
-      <td>vs</td>
-      <td>OTT</td>
-      <td>L</td>
-      <td>William Nylander</td>
-      <td>nylanwi01</td>
-      <td>Auston Matthews</td>
-      <td>matthau01</td>
-      <td>John Tavares</td>
-      <td>tavarjo01</td>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>1</td>
-      <td>5.78</td>
-    </tr>
-    <tr>
-      <td>11/8/2023</td>
-      <td>TOR</td>
-      <td>vs</td>
-      <td>OTT</td>
-      <td>L</td>
-      <td>Tyler Bertuzzi</td>
-      <td>bertuty01</td>
-      <td>William Nylander</td>
-      <td>nylanwi01</td>
-      <td>John Tavares</td>
-      <td>tavarjo01</td>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>2</td>
-      <td>4.27</td>
-    </tr>
-    <tr>
-      <td>11/8/2023</td>
-      <td>TOR</td>
-      <td>vs</td>
-      <td>OTT</td>
-      <td>L</td>
-      <td>Nicholas Robertson</td>
-      <td>roberni01</td>
-      <td>Max Domi</td>
-      <td>domima01</td>
-      <td>Calle Järnkrok</td>
-      <td>jarnkca01</td>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>3</td>
-      <td>7.70</td>
-    </tr>
-    <tr>
-      <td>11/11/2023</td>
-      <td>CGY</td>
-      <td>@</td>
-      <td>OTT</td>
-      <td>L</td>
-      <td>Blake Coleman</td>
-      <td>colembl01</td>
-      <td>Martin Pospisil</td>
-      <td>pospima01</td>
-      <td>-</td>
-      <td>NaN</td>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>2</td>
-      <td>15.87</td>
-    </tr>
-    <tr>
-      <td>11/16/2023</td>
-      <td>DET</td>
-      <td>@</td>
-      <td>OTT</td>
-      <td>L</td>
-      <td>Lucas Raymond</td>
-      <td>raymolu01</td>
-      <td>-</td>
-      <td>NaN</td>
-      <td>-</td>
-      <td>NaN</td>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>2</td>
-      <td>9.65</td>
-    </tr>
-    <tr>
-      <td>11/16/2023</td>
-      <td>DET</td>
-      <td>@</td>
-      <td>OTT</td>
-      <td>L</td>
-      <td>David Perron</td>
-      <td>perroda01</td>
-      <td>Olli Määttä</td>
-      <td>maattol01</td>
-      <td>Shayne Gostisbehere</td>
-      <td>gostish01</td>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>2</td>
-      <td>13.33</td>
-    </tr>
-    <tr>
-      <td>11/16/2023</td>
-      <td>DET</td>
-      <td>@</td>
-      <td>OTT</td>
-      <td>L</td>
-      <td>Alex DeBrincat</td>
-      <td>debrial01</td>
-      <td>Shayne Gostisbehere</td>
-      <td>gostish01</td>
-      <td>J.T. Compher</td>
-      <td>comphj.01</td>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>2</td>
-      <td>16.55</td>
-    </tr>
-    <tr>
-      <td>11/16/2023</td>
-      <td>DET</td>
-      <td>@</td>
-      <td>OTT</td>
-      <td>L</td>
-      <td>Shayne Gostisbehere</td>
-      <td>gostish01</td>
-      <td>J.T. Compher</td>
-      <td>comphj.01</td>
-      <td>Olli Määttä</td>
-      <td>maattol01</td>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>2</td>
-      <td>17.20</td>
-    </tr>
-    <tr>
-      <td>11/27/2023</td>
-      <td>FLA</td>
-      <td>@</td>
-      <td>OTT</td>
-      <td>W</td>
-      <td>Sam Reinhart</td>
-      <td>reinhsa01</td>
-      <td>Matthew Tkachuk</td>
-      <td>tkachma01</td>
-      <td>Aleksander Barkov</td>
-      <td>barkoal01</td>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>1</td>
-      <td>1.47</td>
-    </tr>
-    <tr>
-      <td>11/27/2023</td>
-      <td>FLA</td>
-      <td>@</td>
-      <td>OTT</td>
-      <td>W</td>
-      <td>Sam Reinhart</td>
-      <td>reinhsa01</td>
-      <td>Sam Bennett</td>
-      <td>bennesa01</td>
-      <td>Aleksander Barkov</td>
-      <td>barkoal01</td>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>2</td>
-      <td>5.98</td>
-    </tr>
-    <tr>
-      <td>11/27/2023</td>
-      <td>FLA</td>
-      <td>@</td>
-      <td>OTT</td>
-      <td>W</td>
-      <td>Sam Bennett</td>
-      <td>bennesa01</td>
-      <td>Aleksander Barkov</td>
-      <td>barkoal01</td>
-      <td>Brandon Montour</td>
-      <td>montobr01</td>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>2</td>
-      <td>7.15</td>
-    </tr>
-    <tr>
-      <td>11/27/2023</td>
-      <td>FLA</td>
-      <td>@</td>
-      <td>OTT</td>
-      <td>W</td>
-      <td>Carter Verhaeghe</td>
-      <td>verhaca01</td>
-      <td>Dmitry Kulikov</td>
-      <td>kulikdm01</td>
-      <td>-</td>
-      <td>NaN</td>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>3</td>
-      <td>11.98</td>
-    </tr>
-    <tr>
-      <td>11/27/2023</td>
-      <td>FLA</td>
-      <td>@</td>
-      <td>OTT</td>
-      <td>W</td>
-      <td>Eetu Luostarinen</td>
-      <td>luostee01</td>
-      <td>-</td>
-      <td>NaN</td>
-      <td>-</td>
-      <td>NaN</td>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>3</td>
-      <td>16.53</td>
-    </tr>
-    <tr>
-      <td>12/1/2023</td>
-      <td>CBJ</td>
-      <td>vs</td>
-      <td>OTT</td>
-      <td>W</td>
-      <td>Patrik Laine</td>
-      <td>lainepa01</td>
-      <td>Johnny Gaudreau</td>
-      <td>gaudrjo01</td>
-      <td>Zach Werenski</td>
-      <td>werenza01</td>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>1</td>
-      <td>14.88</td>
-    </tr>
-    <tr>
-      <td>12/1/2023</td>
-      <td>CBJ</td>
-      <td>vs</td>
-      <td>OTT</td>
-      <td>W</td>
-      <td>Dmitri Voronkov</td>
-      <td>vorondi01</td>
-      <td>-</td>
-      <td>NaN</td>
-      <td>-</td>
-      <td>NaN</td>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>1</td>
-      <td>15.60</td>
-    </tr>
-    <tr>
-      <td>12/1/2023</td>
-      <td>CBJ</td>
-      <td>vs</td>
-      <td>OTT</td>
-      <td>W</td>
-      <td>Adam Fantilli</td>
-      <td>fantiad01</td>
-      <td>Ivan Provorov</td>
-      <td>provoiv01</td>
-      <td>Justin Danforth</td>
-      <td>danfoju01</td>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>2</td>
-      <td>5.27</td>
-    </tr>
-    <tr>
-      <td>12/1/2023</td>
-      <td>CBJ</td>
-      <td>vs</td>
-      <td>OTT</td>
-      <td>W</td>
-      <td>Boone Jenner</td>
-      <td>jennebo01</td>
-      <td>Zach Werenski</td>
-      <td>werenza01</td>
-      <td>Johnny Gaudreau</td>
-      <td>gaudrjo01</td>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>2</td>
-      <td>8.90</td>
-    </tr>
-    <tr>
-      <td>12/9/2023</td>
-      <td>DET</td>
-      <td>vs</td>
-      <td>OTT</td>
-      <td>L</td>
-      <td>Patrick Kane</td>
-      <td>kanepa01</td>
-      <td>Alex DeBrincat</td>
-      <td>debrial01</td>
-      <td>Alex Lyon</td>
-      <td>lyonal01</td>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>1</td>
-      <td>14.82</td>
-    </tr>
-    <tr>
-      <td>12/12/2023</td>
-      <td>CAR</td>
-      <td>@</td>
-      <td>OTT</td>
-      <td>W</td>
-      <td>Martin Nečas</td>
-      <td>necasma01</td>
-      <td>Brady Skjei</td>
-      <td>skjeibr01</td>
-      <td>Jack Drury</td>
-      <td>druryja01</td>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>1</td>
-      <td>18.82</td>
-    </tr>
-    <tr>
-      <td>12/12/2023</td>
-      <td>CAR</td>
-      <td>@</td>
-      <td>OTT</td>
-      <td>W</td>
-      <td>Sebastian Aho</td>
-      <td>ahose01</td>
-      <td>Tony DeAngelo</td>
-      <td>deangan01</td>
-      <td>Teuvo Teräväinen</td>
-      <td>teravte01</td>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>2</td>
-      <td>12.30</td>
-    </tr>
-    <tr>
-      <td>12/12/2023</td>
-      <td>CAR</td>
-      <td>@</td>
-      <td>OTT</td>
-      <td>W</td>
-      <td>Seth Jarvis</td>
-      <td>jarvise01</td>
-      <td>Sebastian Aho</td>
-      <td>ahose01</td>
-      <td>Dmitry Orlov</td>
-      <td>orlovdm01</td>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>2</td>
-      <td>13.65</td>
-    </tr>
-    <tr>
-      <td>12/12/2023</td>
-      <td>CAR</td>
-      <td>@</td>
-      <td>OTT</td>
-      <td>W</td>
-      <td>Sebastian Aho</td>
-      <td>ahose01</td>
-      <td>Brett Pesce</td>
-      <td>pescebr01</td>
-      <td>Brady Skjei</td>
-      <td>skjeibr01</td>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>2</td>
-      <td>17.32</td>
-    </tr>
-    <tr>
-      <td>12/14/2023</td>
-      <td>STL</td>
-      <td>vs</td>
-      <td>OTT</td>
-      <td>W</td>
-      <td>Robert Thomas</td>
-      <td>thomaro01</td>
-      <td>Justin Faulk</td>
-      <td>faulkju01</td>
-      <td>Pavel Buchnevich</td>
-      <td>buchnpa01</td>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>1</td>
-      <td>8.33</td>
-    </tr>
-    <tr>
-      <td>12/14/2023</td>
-      <td>STL</td>
-      <td>vs</td>
-      <td>OTT</td>
-      <td>W</td>
-      <td>Robert Thomas</td>
-      <td>thomaro01</td>
-      <td>Justin Faulk</td>
-      <td>faulkju01</td>
-      <td>Torey Krug</td>
-      <td>krugto01</td>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>2</td>
-      <td>5.28</td>
-    </tr>
-    <tr>
-      <td>12/14/2023</td>
-      <td>STL</td>
-      <td>vs</td>
-      <td>OTT</td>
-      <td>W</td>
-      <td>Brandon Saad</td>
-      <td>saadbr01</td>
-      <td>Nick Leddy</td>
-      <td>leddyni01</td>
-      <td>Kasperi Kapanen</td>
-      <td>kapanka01</td>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>2</td>
-      <td>8.70</td>
-    </tr>
-    <tr>
-      <td>12/14/2023</td>
-      <td>STL</td>
-      <td>vs</td>
-      <td>OTT</td>
-      <td>W</td>
-      <td>Pavel Buchnevich</td>
-      <td>buchnpa01</td>
-      <td>Jordan Kyrou</td>
-      <td>kyroujo01</td>
-      <td>Robert Thomas</td>
-      <td>thomaro01</td>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>3</td>
-      <td>7.12</td>
-    </tr>
-    <tr>
-      <td>12/17/2023</td>
-      <td>VEG</td>
-      <td>vs</td>
-      <td>OTT</td>
-      <td>W</td>
-      <td>Jack Eichel</td>
-      <td>eicheja01</td>
-      <td>Ivan Barbashev</td>
-      <td>barbaiv01</td>
-      <td>Ben Hutton</td>
-      <td>huttobe01</td>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>1</td>
-      <td>1.62</td>
-    </tr>
-    <tr>
-      <td>12/17/2023</td>
-      <td>VEG</td>
-      <td>vs</td>
-      <td>OTT</td>
-      <td>W</td>
-      <td>Jonathan Marchessault</td>
-      <td>audymjo01</td>
-      <td>Brett Howden</td>
-      <td>howdebr01</td>
-      <td>Brayden McNabb</td>
-      <td>mcnabbr01</td>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>1</td>
-      <td>13.53</td>
-    </tr>
-    <tr>
-      <td>12/17/2023</td>
-      <td>VEG</td>
-      <td>vs</td>
-      <td>OTT</td>
-      <td>W</td>
-      <td>Nicolas Roy</td>
-      <td>royni01</td>
-      <td>Ben Hutton</td>
-      <td>huttobe01</td>
-      <td>-</td>
-      <td>NaN</td>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>2</td>
-      <td>9.88</td>
-    </tr>
-    <tr>
-      <td>12/17/2023</td>
-      <td>VEG</td>
-      <td>vs</td>
-      <td>OTT</td>
-      <td>W</td>
-      <td>Chandler Stephenson</td>
-      <td>stephch02</td>
-      <td>Mark Stone</td>
-      <td>stonema01</td>
-      <td>-</td>
-      <td>NaN</td>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>2</td>
-      <td>11.52</td>
-    </tr>
-    <tr>
-      <td>12/17/2023</td>
-      <td>VEG</td>
-      <td>vs</td>
-      <td>OTT</td>
-      <td>W</td>
-      <td>Ivan Barbashev</td>
-      <td>barbaiv01</td>
-      <td>Nicolas Hague</td>
-      <td>hagueni01</td>
-      <td>Mark Stone</td>
-      <td>stonema01</td>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>2</td>
-      <td>19.80</td>
-    </tr>
-    <tr>
-      <td>12/17/2023</td>
-      <td>VEG</td>
-      <td>vs</td>
-      <td>OTT</td>
-      <td>W</td>
-      <td>William Karlsson</td>
-      <td>karlswi01</td>
-      <td>Mark Stone</td>
-      <td>stonema01</td>
-      <td>Jack Eichel</td>
-      <td>eicheja01</td>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>3</td>
-      <td>5.72</td>
-    </tr>
-    <tr>
-      <td>12/19/2023</td>
-      <td>ARI</td>
-      <td>vs</td>
-      <td>OTT</td>
-      <td>W</td>
-      <td>Jack McBain</td>
-      <td>mcbaija03</td>
-      <td>Logan Cooley</td>
-      <td>coolelo01</td>
-      <td>Michael Carcone</td>
-      <td>carcomi01</td>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>2</td>
-      <td>14.17</td>
-    </tr>
-    <tr>
-      <td>12/19/2023</td>
-      <td>ARI</td>
-      <td>vs</td>
-      <td>OTT</td>
-      <td>W</td>
-      <td>J.J. Moser</td>
-      <td>moserja01</td>
-      <td>Matias Maccelli</td>
-      <td>maccema01</td>
-      <td>Mathew Dumba</td>
-      <td>dumbama01</td>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>3</td>
-      <td>9.23</td>
-    </tr>
-    <tr>
-      <td>12/19/2023</td>
-      <td>ARI</td>
-      <td>vs</td>
-      <td>OTT</td>
-      <td>W</td>
-      <td>Clayton Keller</td>
-      <td>kellecl01</td>
-      <td>Troy Stecher</td>
-      <td>stechtr01</td>
-      <td>Alexander Kerfoot</td>
-      <td>kerfoal01</td>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>3</td>
-      <td>9.78</td>
-    </tr>
-    <tr>
-      <td>12/19/2023</td>
-      <td>ARI</td>
-      <td>vs</td>
-      <td>OTT</td>
-      <td>W</td>
-      <td>Michael Kesselring</td>
-      <td>kessemi01</td>
-      <td>Zach Sanford</td>
-      <td>sanfoza01</td>
-      <td>Jack McBain</td>
-      <td>mcbaija03</td>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>3</td>
-      <td>16.45</td>
-    </tr>
-    <tr>
-      <td>12/21/2023</td>
-      <td>COL</td>
-      <td>vs</td>
-      <td>OTT</td>
-      <td>W</td>
-      <td>Nathan MacKinnon</td>
-      <td>mackina01</td>
-      <td>Jonathan Drouin</td>
-      <td>drouijo01</td>
-      <td>Cale Makar</td>
-      <td>makarca01</td>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>1</td>
-      <td>2.72</td>
-    </tr>
-    <tr>
-      <td>12/21/2023</td>
-      <td>COL</td>
-      <td>vs</td>
-      <td>OTT</td>
-      <td>W</td>
-      <td>Nathan MacKinnon</td>
-      <td>mackina01</td>
-      <td>Valeri Nichushkin</td>
-      <td>nichuva01</td>
-      <td>-</td>
-      <td>NaN</td>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>1</td>
-      <td>18.47</td>
-    </tr>
-    <tr>
-      <td>12/21/2023</td>
-      <td>COL</td>
-      <td>vs</td>
-      <td>OTT</td>
-      <td>W</td>
-      <td>Mikko Rantanen</td>
-      <td>rantami01</td>
-      <td>-</td>
-      <td>NaN</td>
-      <td>-</td>
-      <td>NaN</td>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>2</td>
-      <td>19.72</td>
-    </tr>
-    <tr>
-      <td>12/21/2023</td>
-      <td>COL</td>
-      <td>vs</td>
-      <td>OTT</td>
-      <td>W</td>
-      <td>Nathan MacKinnon</td>
-      <td>mackina01</td>
-      <td>Devon Toews</td>
-      <td>toewsde01</td>
-      <td>Valeri Nichushkin</td>
-      <td>nichuva01</td>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>3</td>
-      <td>6.27</td>
-    </tr>
-    <tr>
-      <td>12/21/2023</td>
-      <td>COL</td>
-      <td>vs</td>
-      <td>OTT</td>
-      <td>W</td>
-      <td>Mikko Rantanen</td>
-      <td>rantami01</td>
-      <td>Nathan MacKinnon</td>
-      <td>mackina01</td>
-      <td>Cale Makar</td>
-      <td>makarca01</td>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>3</td>
-      <td>7.17</td>
-    </tr>
-    <tr>
-      <td>12/27/2023</td>
-      <td>TOR</td>
-      <td>vs</td>
-      <td>OTT</td>
-      <td>L</td>
-      <td>Matthew Knies</td>
-      <td>kniesma01</td>
-      <td>Auston Matthews</td>
-      <td>matthau01</td>
-      <td>-</td>
-      <td>NaN</td>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>1</td>
-      <td>5.68</td>
-    </tr>
-    <tr>
-      <td>12/27/2023</td>
-      <td>TOR</td>
-      <td>vs</td>
-      <td>OTT</td>
-      <td>L</td>
-      <td>Tyler Bertuzzi</td>
-      <td>bertuty01</td>
-      <td>Morgan Rielly</td>
-      <td>riellmo01</td>
-      <td>William Nylander</td>
-      <td>nylanwi01</td>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>1</td>
-      <td>6.07</td>
-    </tr>
-    <tr>
-      <td>12/29/2023</td>
-      <td>NJD</td>
-      <td>@</td>
-      <td>OTT</td>
-      <td>W</td>
-      <td>Jack Hughes</td>
-      <td>hugheja03</td>
-      <td>Luke Hughes</td>
-      <td>hughelu01</td>
-      <td>Jesper Bratt</td>
-      <td>brattje01</td>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>1</td>
-      <td>13.17</td>
-    </tr>
-    <tr>
-      <td>12/29/2023</td>
-      <td>NJD</td>
-      <td>@</td>
-      <td>OTT</td>
-      <td>W</td>
-      <td>Jesper Bratt</td>
-      <td>brattje01</td>
-      <td>Jack Hughes</td>
-      <td>hugheja03</td>
-      <td>Luke Hughes</td>
-      <td>hughelu01</td>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>1</td>
-      <td>19.87</td>
-    </tr>
-    <tr>
-      <td>12/29/2023</td>
-      <td>NJD</td>
-      <td>@</td>
-      <td>OTT</td>
-      <td>W</td>
-      <td>Dawson Mercer</td>
-      <td>merceda01</td>
-      <td>-</td>
-      <td>NaN</td>
-      <td>-</td>
-      <td>NaN</td>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>2</td>
-      <td>7.28</td>
-    </tr>
-    <tr>
-      <td>12/29/2023</td>
-      <td>NJD</td>
-      <td>@</td>
-      <td>OTT</td>
-      <td>W</td>
-      <td>Tyler Toffoli</td>
-      <td>toffoty01</td>
-      <td>Jesper Bratt</td>
-      <td>brattje01</td>
-      <td>Jack Hughes</td>
-      <td>hugheja03</td>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>2</td>
-      <td>14.78</td>
-    </tr>
-    <tr>
-      <td>12/29/2023</td>
-      <td>NJD</td>
-      <td>@</td>
-      <td>OTT</td>
-      <td>W</td>
-      <td>Brendan Smith</td>
-      <td>smithbr05</td>
-      <td>Nico Hischier</td>
-      <td>hischni01</td>
-      <td>Jesper Bratt</td>
-      <td>brattje01</td>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>3</td>
-      <td>3.98</td>
-    </tr>
-    <tr>
-      <td>12/29/2023</td>
-      <td>NJD</td>
-      <td>@</td>
-      <td>OTT</td>
-      <td>W</td>
-      <td>Luke Hughes</td>
-      <td>hughelu01</td>
-      <td>Alexander Holtz</td>
-      <td>holtzal01</td>
-      <td>Chris Tierney</td>
-      <td>tiernch01</td>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>3</td>
-      <td>17.47</td>
-    </tr>
-    <tr>
-      <td>1/2/2024</td>
-      <td>VAN</td>
-      <td>vs</td>
-      <td>OTT</td>
-      <td>W</td>
-      <td>Elias Pettersson</td>
-      <td>petteel01</td>
-      <td>J.T. Miller</td>
-      <td>millejt01</td>
-      <td>Quinn Hughes</td>
-      <td>hughequ01</td>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>1</td>
-      <td>17.88</td>
-    </tr>
-    <tr>
-      <td>1/2/2024</td>
-      <td>VAN</td>
-      <td>vs</td>
-      <td>OTT</td>
-      <td>W</td>
-      <td>Pius Suter</td>
-      <td>suterpi01</td>
-      <td>-</td>
-      <td>NaN</td>
-      <td>-</td>
-      <td>NaN</td>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>3</td>
-      <td>17.70</td>
-    </tr>
-    <tr>
-      <td>1/4/2024</td>
-      <td>SEA</td>
-      <td>vs</td>
-      <td>OTT</td>
-      <td>W</td>
-      <td>Yanni Gourde</td>
-      <td>gourdya01</td>
-      <td>Eeli Tolvanen</td>
-      <td>tolvaee01</td>
-      <td>-</td>
-      <td>NaN</td>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>1</td>
-      <td>9.83</td>
-    </tr>
-    <tr>
-      <td>1/4/2024</td>
-      <td>SEA</td>
-      <td>vs</td>
-      <td>OTT</td>
-      <td>W</td>
-      <td>Tomáš Tatar</td>
-      <td>tatarto01</td>
-      <td>Jordan Eberle</td>
-      <td>eberljo01</td>
-      <td>Vince Dunn</td>
-      <td>dunnvi02</td>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>2</td>
-      <td>15.33</td>
-    </tr>
-    <tr>
-      <td>1/4/2024</td>
-      <td>SEA</td>
-      <td>vs</td>
-      <td>OTT</td>
-      <td>W</td>
-      <td>André Burakovsky</td>
-      <td>burakan01</td>
-      <td>Kailer Yamamoto</td>
-      <td>yamamka01</td>
-      <td>-</td>
-      <td>NaN</td>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>2</td>
-      <td>19.05</td>
-    </tr>
-    <tr>
-      <td>1/9/2024</td>
-      <td>CGY</td>
-      <td>vs</td>
-      <td>OTT</td>
-      <td>W</td>
-      <td>Connor Zary</td>
-      <td>zaryco01</td>
-      <td>-</td>
-      <td>NaN</td>
-      <td>-</td>
-      <td>NaN</td>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>1</td>
-      <td>4.88</td>
-    </tr>
-    <tr>
-      <td>1/9/2024</td>
-      <td>CGY</td>
-      <td>vs</td>
-      <td>OTT</td>
-      <td>W</td>
-      <td>Yegor Sharangovich</td>
-      <td>sharaye01</td>
-      <td>Jonathan Huberdeau</td>
-      <td>huberjo01</td>
-      <td>Elias Lindholm</td>
-      <td>lindhel01</td>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>2</td>
-      <td>3.83</td>
-    </tr>
-    <tr>
-      <td>1/9/2024</td>
-      <td>CGY</td>
-      <td>vs</td>
-      <td>OTT</td>
-      <td>W</td>
-      <td>Noah Hanifin</td>
-      <td>hanifno01</td>
-      <td>Martin Pospisil</td>
-      <td>pospima01</td>
-      <td>Connor Zary</td>
-      <td>zaryco01</td>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>3</td>
-      <td>0.78</td>
-    </tr>
-    <tr>
-      <td>1/9/2024</td>
-      <td>CGY</td>
-      <td>vs</td>
-      <td>OTT</td>
-      <td>W</td>
-      <td>Blake Coleman</td>
-      <td>colembl01</td>
-      <td>Noah Hanifin</td>
-      <td>hanifno01</td>
-      <td>Nazem Kadri</td>
-      <td>kadrina01</td>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>3</td>
-      <td>8.95</td>
-    </tr>
-    <tr>
-      <td>1/9/2024</td>
-      <td>CGY</td>
-      <td>vs</td>
-      <td>OTT</td>
-      <td>W</td>
-      <td>Yegor Sharangovich</td>
-      <td>sharaye01</td>
-      <td>Noah Hanifin</td>
-      <td>hanifno01</td>
-      <td>Nazem Kadri</td>
-      <td>kadrina01</td>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>3</td>
-      <td>15.75</td>
-    </tr>
-    <tr>
-      <td>1/11/2024</td>
-      <td>BUF</td>
-      <td>vs</td>
-      <td>OTT</td>
-      <td>W</td>
-      <td>Tage Thompson</td>
-      <td>thompta01</td>
-      <td>Rasmus Dahlin</td>
-      <td>dahlira01</td>
-      <td>-</td>
-      <td>NaN</td>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>1</td>
-      <td>17.47</td>
-    </tr>
-    <tr>
-      <td>1/11/2024</td>
-      <td>BUF</td>
-      <td>vs</td>
-      <td>OTT</td>
-      <td>W</td>
-      <td>Tage Thompson</td>
-      <td>thompta01</td>
-      <td>Rasmus Dahlin</td>
-      <td>dahlira01</td>
-      <td>Jack Quinn</td>
-      <td>quinnja01</td>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>1</td>
-      <td>19.53</td>
-    </tr>
-    <tr>
-      <td>1/11/2024</td>
-      <td>BUF</td>
-      <td>vs</td>
-      <td>OTT</td>
-      <td>W</td>
-      <td>Peyton Krebs</td>
-      <td>krebspe01</td>
-      <td>Eric Robinson</td>
-      <td>robiner01</td>
-      <td>-</td>
-      <td>NaN</td>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>2</td>
-      <td>4.87</td>
-    </tr>
-    <tr>
-      <td>1/13/2024</td>
-      <td>SJS</td>
-      <td>@</td>
-      <td>OTT</td>
-      <td>L</td>
-      <td>Anthony Duclair</td>
-      <td>duclaan01</td>
-      <td>Alexander Barabanov</td>
-      <td>barabal01</td>
-      <td>Mario Ferraro</td>
-      <td>ferrama01</td>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>1</td>
-      <td>12.58</td>
-    </tr>
-    <tr>
-      <td>1/13/2024</td>
-      <td>SJS</td>
-      <td>@</td>
-      <td>OTT</td>
-      <td>L</td>
-      <td>Marc-Édouard Vlasic</td>
-      <td>vlasima01</td>
-      <td>Anthony Duclair</td>
-      <td>duclaan01</td>
-      <td>Mikael Granlund</td>
-      <td>granlmi01</td>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>2</td>
-      <td>3.88</td>
-    </tr>
-    <tr>
-      <td>1/13/2024</td>
-      <td>SJS</td>
-      <td>@</td>
-      <td>OTT</td>
-      <td>L</td>
-      <td>Kevin Labanc</td>
-      <td>labanke01</td>
-      <td>Mario Ferraro</td>
-      <td>ferrama01</td>
-      <td>Mike Hoffman</td>
-      <td>hoffmmi02</td>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>2</td>
-      <td>6.33</td>
-    </tr>
-    <tr>
-      <td>1/13/2024</td>
-      <td>SJS</td>
-      <td>@</td>
-      <td>OTT</td>
-      <td>L</td>
-      <td>Filip Zadina</td>
-      <td>zadinfi01</td>
-      <td>Tomáš Hertl</td>
-      <td>hertlto01</td>
-      <td>Mario Ferraro</td>
-      <td>ferrama01</td>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>3</td>
-      <td>16.93</td>
-    </tr>
-    <tr>
-      <td>1/18/2024</td>
-      <td>MTL</td>
-      <td>@</td>
-      <td>OTT</td>
-      <td>L</td>
-      <td>Cole Caufield</td>
-      <td>caufico01</td>
-      <td>Sean Monahan</td>
-      <td>monahse01</td>
-      <td>-</td>
-      <td>NaN</td>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>1</td>
-      <td>13.42</td>
-    </tr>
-    <tr>
-      <td>1/18/2024</td>
-      <td>MTL</td>
-      <td>@</td>
-      <td>OTT</td>
-      <td>L</td>
-      <td>Michael Pezzetta</td>
-      <td>pezzemi01</td>
-      <td>-</td>
-      <td>NaN</td>
-      <td>-</td>
-      <td>NaN</td>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>3</td>
-      <td>15.27</td>
-    </tr>
-    <tr>
-      <td>1/20/2024</td>
-      <td>WPG</td>
-      <td>@</td>
-      <td>OTT</td>
-      <td>W</td>
-      <td>Mason Appleton</td>
-      <td>applema01</td>
-      <td>Nino Niederreiter</td>
-      <td>niedeni01</td>
-      <td>Dylan Samberg</td>
-      <td>sambedy01</td>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>2</td>
-      <td>14.58</td>
-    </tr>
-    <tr>
-      <td>1/20/2024</td>
-      <td>WPG</td>
-      <td>@</td>
-      <td>OTT</td>
-      <td>W</td>
-      <td>Nikolaj Ehlers</td>
-      <td>ehlerni01</td>
-      <td>Neal Pionk</td>
-      <td>pionkne01</td>
-      <td>Vladislav Namestnikov</td>
-      <td>namesvl01</td>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>OT</td>
-      <td>4.23</td>
-    </tr>
-    <tr>
-      <td>1/23/2024</td>
-      <td>MTL</td>
-      <td>vs</td>
-      <td>OTT</td>
-      <td>L</td>
-      <td>Johnathan Kovacevic</td>
-      <td>kovacjo01</td>
-      <td>Cole Caufield</td>
-      <td>caufico01</td>
-      <td>Nick Suzuki</td>
-      <td>suzukni01</td>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>3</td>
-      <td>12.52</td>
-    </tr>
-    <tr>
-      <td>1/25/2024</td>
-      <td>BOS</td>
-      <td>@</td>
-      <td>OTT</td>
-      <td>W</td>
-      <td>David Pastrňák</td>
-      <td>pastrda01</td>
-      <td>Charlie McAvoy</td>
-      <td>mcavoch01</td>
-      <td>Charlie Coyle</td>
-      <td>coylech01</td>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>1</td>
-      <td>18.60</td>
-    </tr>
-    <tr>
-      <td>1/25/2024</td>
-      <td>BOS</td>
-      <td>@</td>
-      <td>OTT</td>
-      <td>W</td>
-      <td>Trent Frederic</td>
-      <td>fredetr01</td>
-      <td>Pavel Zacha</td>
-      <td>zachapa01</td>
-      <td>David Pastrňák</td>
-      <td>pastrda01</td>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>2</td>
-      <td>8.32</td>
-    </tr>
-    <tr>
-      <td>1/25/2024</td>
-      <td>BOS</td>
-      <td>@</td>
-      <td>OTT</td>
-      <td>W</td>
-      <td>Brad Marchand</td>
-      <td>marchbr03</td>
-      <td>Charlie Coyle</td>
-      <td>coylech01</td>
-      <td>-</td>
-      <td>NaN</td>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>OT</td>
-      <td>1.80</td>
-    </tr>
-    <tr>
-      <td>1/27/2024</td>
-      <td>NYR</td>
-      <td>@</td>
-      <td>OTT</td>
-      <td>W</td>
-      <td>Alexis Lafrenière</td>
-      <td>lafreal01</td>
-      <td>Artemi Panarin</td>
-      <td>panarar01</td>
-      <td>Adam Fox</td>
-      <td>foxad01</td>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>2</td>
-      <td>5.85</td>
-    </tr>
-    <tr>
-      <td>1/27/2024</td>
-      <td>NYR</td>
-      <td>@</td>
-      <td>OTT</td>
-      <td>W</td>
-      <td>Chris Kreider</td>
-      <td>kreidch01</td>
-      <td>Mika Zibanejad</td>
-      <td>zibanmi01</td>
-      <td>-</td>
-      <td>NaN</td>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>2</td>
-      <td>8.55</td>
-    </tr>
-    <tr>
-      <td>1/27/2024</td>
-      <td>NYR</td>
-      <td>@</td>
-      <td>OTT</td>
-      <td>W</td>
-      <td>Zachary Jones</td>
-      <td>jonesza01</td>
-      <td>Artemi Panarin</td>
-      <td>panarar01</td>
-      <td>Vincent Trocheck</td>
-      <td>trochvi01</td>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>2</td>
-      <td>9.20</td>
-    </tr>
-    <tr>
-      <td>1/27/2024</td>
-      <td>NYR</td>
-      <td>@</td>
-      <td>OTT</td>
-      <td>W</td>
-      <td>Jonny Brodzinski</td>
-      <td>brodzjo01</td>
-      <td>Zachary Jones</td>
-      <td>jonesza01</td>
-      <td>William Cuylle</td>
-      <td>cuyllwi01</td>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>2</td>
-      <td>11.27</td>
-    </tr>
-    <tr>
-      <td>1/31/2024</td>
-      <td>DET</td>
-      <td>vs</td>
-      <td>OTT</td>
-      <td>L</td>
-      <td>Daniel Sprong</td>
-      <td>spronda01</td>
-      <td>Joe Veleno</td>
-      <td>velenjo01</td>
-      <td>-</td>
-      <td>NaN</td>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>1</td>
-      <td>8.95</td>
-    </tr>
-    <tr>
-      <td>1/31/2024</td>
-      <td>DET</td>
-      <td>vs</td>
-      <td>OTT</td>
-      <td>L</td>
-      <td>Dylan Larkin</td>
-      <td>larkidy01</td>
-      <td>J.T. Compher</td>
-      <td>comphj.01</td>
-      <td>Olli Määttä</td>
-      <td>maattol01</td>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>3</td>
-      <td>11.25</td>
-    </tr>
-    <tr>
-      <td>2/10/2024</td>
-      <td>TOR</td>
-      <td>@</td>
-      <td>OTT</td>
-      <td>L</td>
-      <td>Auston Matthews</td>
-      <td>matthau01</td>
-      <td>Mitch Marner</td>
-      <td>marnemi01</td>
-      <td>Matthew Knies</td>
-      <td>kniesma01</td>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>1</td>
-      <td>3.75</td>
-    </tr>
-    <tr>
-      <td>2/10/2024</td>
-      <td>TOR</td>
-      <td>@</td>
-      <td>OTT</td>
-      <td>L</td>
-      <td>Matthew Knies</td>
-      <td>kniesma01</td>
-      <td>Mitch Marner</td>
-      <td>marnemi01</td>
-      <td>Auston Matthews</td>
-      <td>matthau01</td>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>2</td>
-      <td>9.72</td>
-    </tr>
-    <tr>
-      <td>2/10/2024</td>
-      <td>TOR</td>
-      <td>@</td>
-      <td>OTT</td>
-      <td>L</td>
-      <td>Max Domi</td>
-      <td>domima01</td>
-      <td>Morgan Rielly</td>
-      <td>riellmo01</td>
-      <td>Nicholas Robertson</td>
-      <td>roberni01</td>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>3</td>
-      <td>5.20</td>
-    </tr>
-    <tr>
-      <td>2/15/2024</td>
-      <td>ANA</td>
-      <td>@</td>
-      <td>OTT</td>
-      <td>W</td>
-      <td>Pavel Mintyukov</td>
-      <td>mintypa01</td>
-      <td>Troy Terry</td>
-      <td>terrytr01</td>
-      <td>Leo Carlsson</td>
-      <td>carlsle01</td>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>1</td>
-      <td>9.32</td>
-    </tr>
-    <tr>
-      <td>2/15/2024</td>
-      <td>ANA</td>
-      <td>@</td>
-      <td>OTT</td>
-      <td>W</td>
-      <td>Frank Vatrano</td>
-      <td>vatrafr01</td>
-      <td>Cam Fowler</td>
-      <td>fowleca01</td>
-      <td>Ryan Strome</td>
-      <td>stromry01</td>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>2</td>
-      <td>17.42</td>
-    </tr>
-    <tr>
-      <td>2/15/2024</td>
-      <td>ANA</td>
-      <td>@</td>
-      <td>OTT</td>
-      <td>W</td>
-      <td>Mason McTavish</td>
-      <td>mctavma01</td>
-      <td>Jakob Silfverberg</td>
-      <td>silfvja01</td>
-      <td>Frank Vatrano</td>
-      <td>vatrafr01</td>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>2</td>
-      <td>18.98</td>
-    </tr>
-    <tr>
-      <td>2/15/2024</td>
-      <td>ANA</td>
-      <td>@</td>
-      <td>OTT</td>
-      <td>W</td>
-      <td>Mason McTavish</td>
-      <td>mctavma01</td>
-      <td>Troy Terry</td>
-      <td>terrytr01</td>
-      <td>Cam Fowler</td>
-      <td>fowleca01</td>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>3</td>
-      <td>2.30</td>
-    </tr>
-    <tr>
-      <td>2/15/2024</td>
-      <td>ANA</td>
-      <td>@</td>
-      <td>OTT</td>
-      <td>W</td>
-      <td>Cam Fowler</td>
-      <td>fowleca01</td>
-      <td>Ryan Strome</td>
-      <td>stromry01</td>
-      <td>Frank Vatrano</td>
-      <td>vatrafr01</td>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>3</td>
-      <td>9.38</td>
-    </tr>
-    <tr>
-      <td>2/17/2024</td>
-      <td>CHI</td>
-      <td>vs</td>
-      <td>OTT</td>
-      <td>W</td>
-      <td>Nick Foligno</td>
-      <td>foligni01</td>
-      <td>Philipp Kurashev</td>
-      <td>kurasph01</td>
-      <td>Connor Bedard</td>
-      <td>bedarco01</td>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>1</td>
-      <td>13.48</td>
-    </tr>
-    <tr>
-      <td>2/17/2024</td>
-      <td>CHI</td>
-      <td>vs</td>
-      <td>OTT</td>
-      <td>W</td>
-      <td>Connor Bedard</td>
-      <td>bedarco01</td>
-      <td>Philipp Kurashev</td>
-      <td>kurasph01</td>
-      <td>-</td>
-      <td>NaN</td>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>2</td>
-      <td>10.90</td>
-    </tr>
-    <tr>
-      <td>2/17/2024</td>
-      <td>CHI</td>
-      <td>vs</td>
-      <td>OTT</td>
-      <td>W</td>
-      <td>Jason Dickinson</td>
-      <td>dickija01</td>
-      <td>Tyler Johnson</td>
-      <td>johnsty01</td>
-      <td>Joey Anderson</td>
-      <td>anderjo08</td>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>3</td>
-      <td>18.13</td>
-    </tr>
-    <tr>
-      <td>2/20/2024</td>
-      <td>FLA</td>
-      <td>vs</td>
-      <td>OTT</td>
-      <td>W</td>
-      <td>Aaron Ekblad</td>
-      <td>ekblaaa01</td>
-      <td>Carter Verhaeghe</td>
-      <td>verhaca01</td>
-      <td>Sam Reinhart</td>
-      <td>reinhsa01</td>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>1</td>
-      <td>0.32</td>
-    </tr>
-    <tr>
-      <td>2/20/2024</td>
-      <td>FLA</td>
-      <td>vs</td>
-      <td>OTT</td>
-      <td>W</td>
-      <td>Brandon Montour</td>
-      <td>montobr01</td>
-      <td>-</td>
-      <td>NaN</td>
-      <td>-</td>
-      <td>NaN</td>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>2</td>
-      <td>17.02</td>
-    </tr>
-    <tr>
-      <td>2/20/2024</td>
-      <td>FLA</td>
-      <td>vs</td>
-      <td>OTT</td>
-      <td>W</td>
-      <td>Anton Lundell</td>
-      <td>lundean01</td>
-      <td>Matthew Tkachuk</td>
-      <td>tkachma01</td>
-      <td>Brandon Montour</td>
-      <td>montobr01</td>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>OT</td>
-      <td>1.60</td>
-    </tr>
-    <tr>
-      <td>2/26/2024</td>
-      <td>WSH</td>
-      <td>vs</td>
-      <td>OTT</td>
-      <td>W</td>
-      <td>Hendrix Lapierre</td>
-      <td>lapiehe01</td>
-      <td>Beck Malenstyn</td>
-      <td>malenbe01</td>
-      <td>Ethan Bear</td>
-      <td>bearet01</td>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>2</td>
-      <td>1.97</td>
-    </tr>
-    <tr>
-      <td>2/26/2024</td>
-      <td>WSH</td>
-      <td>vs</td>
-      <td>OTT</td>
-      <td>W</td>
-      <td>Hendrix Lapierre</td>
-      <td>lapiehe01</td>
-      <td>Anthony Mantha</td>
-      <td>manthan01</td>
-      <td>Aliaksei Protas</td>
-      <td>protaal01</td>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>2</td>
-      <td>10.92</td>
-    </tr>
-    <tr>
-      <td>2/27/2024</td>
-      <td>NSH</td>
-      <td>vs</td>
-      <td>OTT</td>
-      <td>W</td>
-      <td>Michael McCarron</td>
-      <td>mccarmi01</td>
-      <td>Roman Josi</td>
-      <td>josiro01</td>
-      <td>Cole Smith</td>
-      <td>smithco02</td>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>1</td>
-      <td>3.38</td>
-    </tr>
-    <tr>
-      <td>2/27/2024</td>
-      <td>NSH</td>
-      <td>vs</td>
-      <td>OTT</td>
-      <td>W</td>
-      <td>Roman Josi</td>
-      <td>josiro01</td>
-      <td>Gustav Nyquist</td>
-      <td>nyquigu01</td>
-      <td>Thomas Novak</td>
-      <td>novakth01</td>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>1</td>
-      <td>5.73</td>
-    </tr>
-    <tr>
-      <td>2/27/2024</td>
-      <td>NSH</td>
-      <td>vs</td>
-      <td>OTT</td>
-      <td>W</td>
-      <td>Roman Josi</td>
-      <td>josiro01</td>
-      <td>Gustav Nyquist</td>
-      <td>nyquigu01</td>
-      <td>Ryan McDonagh</td>
-      <td>mcdonry01</td>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>2</td>
-      <td>18.52</td>
-    </tr>
-    <tr>
-      <td>2/27/2024</td>
-      <td>NSH</td>
-      <td>vs</td>
-      <td>OTT</td>
-      <td>W</td>
-      <td>Gustav Nyquist</td>
-      <td>nyquigu01</td>
-      <td>Filip Forsberg</td>
-      <td>forsbfi01</td>
-      <td>Ryan O'Reilly</td>
-      <td>oreilry01</td>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>3</td>
-      <td>13.20</td>
-    </tr>
-    <tr>
-      <td>3/7/2024</td>
-      <td>LAK</td>
-      <td>vs</td>
-      <td>OTT</td>
-      <td>W</td>
-      <td>Quinton Byfield</td>
-      <td>byfiequ01</td>
-      <td>Blake Lizotte</td>
-      <td>lizotbl01</td>
-      <td>Vladislav Gavrikov</td>
-      <td>gavrivl01</td>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>2</td>
-      <td>13.40</td>
-    </tr>
-    <tr>
-      <td>3/7/2024</td>
-      <td>LAK</td>
-      <td>vs</td>
-      <td>OTT</td>
-      <td>W</td>
-      <td>Pierre-Luc Dubois</td>
-      <td>duboipi01</td>
-      <td>Anže Kopitar</td>
-      <td>kopitan01</td>
-      <td>Matt Roy</td>
-      <td>royma04</td>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>3</td>
-      <td>10.40</td>
-    </tr>
-    <tr>
-      <td>3/7/2024</td>
-      <td>LAK</td>
-      <td>vs</td>
-      <td>OTT</td>
-      <td>W</td>
-      <td>Jacob Moverare</td>
-      <td>moverja01</td>
-      <td>Drew Doughty</td>
-      <td>doughdr01</td>
-      <td>Anže Kopitar</td>
-      <td>kopitan01</td>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>3</td>
-      <td>11.77</td>
-    </tr>
-    <tr>
-      <td>3/7/2024</td>
-      <td>LAK</td>
-      <td>vs</td>
-      <td>OTT</td>
-      <td>W</td>
-      <td>Kevin Fiala</td>
-      <td>fialake01</td>
-      <td>Matt Roy</td>
-      <td>royma04</td>
-      <td>-</td>
-      <td>NaN</td>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>OT</td>
-      <td>2.00</td>
-    </tr>
-    <tr>
-      <td>3/9/2024</td>
-      <td>SJS</td>
-      <td>vs</td>
-      <td>OTT</td>
-      <td>W</td>
-      <td>Thomas Bordeleau</td>
-      <td>bordeth01</td>
-      <td>Fabian Zetterlund</td>
-      <td>zettefa01</td>
-      <td>Mikael Granlund</td>
-      <td>granlmi01</td>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>1</td>
-      <td>6.40</td>
-    </tr>
-    <tr>
-      <td>3/9/2024</td>
-      <td>SJS</td>
-      <td>vs</td>
-      <td>OTT</td>
-      <td>W</td>
-      <td>Thomas Bordeleau</td>
-      <td>bordeth01</td>
-      <td>Mikael Granlund</td>
-      <td>granlmi01</td>
-      <td>William Eklund</td>
-      <td>eklunwi01</td>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>2</td>
-      <td>14.62</td>
-    </tr>
-    <tr>
-      <td>3/12/2024</td>
-      <td>PIT</td>
-      <td>@</td>
-      <td>OTT</td>
-      <td>L</td>
-      <td>Michael Bunting</td>
-      <td>buntimi01</td>
-      <td>Erik Karlsson</td>
-      <td>karlser01</td>
-      <td>Evgeni Malkin</td>
-      <td>malkiev01</td>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>3</td>
-      <td>19.62</td>
-    </tr>
-    <tr>
-      <td>3/16/2024</td>
-      <td>NYI</td>
-      <td>vs</td>
-      <td>OTT</td>
-      <td>L</td>
-      <td>Matt Martin</td>
-      <td>martima02</td>
-      <td>Cal Clutterbuck</td>
-      <td>cluttca01</td>
-      <td>Kyle MacLean</td>
-      <td>macleky01</td>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>1</td>
-      <td>4.45</td>
-    </tr>
-    <tr>
-      <td>3/16/2024</td>
-      <td>NYI</td>
-      <td>vs</td>
-      <td>OTT</td>
-      <td>L</td>
-      <td>Kyle Palmieri</td>
-      <td>palmiky01</td>
-      <td>Jean-Gabriel Pageau</td>
-      <td>pageaje01</td>
-      <td>Anders Lee</td>
-      <td>leean01</td>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>2</td>
-      <td>16.37</td>
-    </tr>
-    <tr>
-      <td>3/16/2024</td>
-      <td>NYI</td>
-      <td>vs</td>
-      <td>OTT</td>
-      <td>L</td>
-      <td>Bo Horvat</td>
-      <td>horvabo01</td>
-      <td>Noah Dobson</td>
-      <td>dobsono01</td>
-      <td>Mathew Barzal</td>
-      <td>barzama01</td>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>3</td>
-      <td>19.37</td>
-    </tr>
-    <tr>
-      <td>3/19/2024</td>
-      <td>BOS</td>
-      <td>vs</td>
-      <td>OTT</td>
-      <td>W</td>
-      <td>David Pastrňák</td>
-      <td>pastrda01</td>
-      <td>Matt Grzelcyk</td>
-      <td>grzelma01</td>
-      <td>Pavel Zacha</td>
-      <td>zachapa01</td>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>1</td>
-      <td>8.45</td>
-    </tr>
-    <tr>
-      <td>3/19/2024</td>
-      <td>BOS</td>
-      <td>vs</td>
-      <td>OTT</td>
-      <td>W</td>
-      <td>David Pastrňák</td>
-      <td>pastrda01</td>
-      <td>-</td>
-      <td>NaN</td>
-      <td>-</td>
-      <td>NaN</td>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>1</td>
-      <td>11.38</td>
-    </tr>
-    <tr>
-      <td>3/19/2024</td>
-      <td>BOS</td>
-      <td>vs</td>
-      <td>OTT</td>
-      <td>W</td>
-      <td>Justin Brazeau</td>
-      <td>brazeju01</td>
-      <td>Kevin Shattenkirk</td>
-      <td>shattke01</td>
-      <td>Morgan Geekie</td>
-      <td>geekimo01</td>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>2</td>
-      <td>18.85</td>
-    </tr>
-    <tr>
-      <td>3/19/2024</td>
-      <td>BOS</td>
-      <td>vs</td>
-      <td>OTT</td>
-      <td>W</td>
-      <td>David Pastrňák</td>
-      <td>pastrda01</td>
-      <td>Kevin Shattenkirk</td>
-      <td>shattke01</td>
-      <td>Danton Heinen</td>
-      <td>heineda01</td>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>3</td>
-      <td>4.72</td>
-    </tr>
-    <tr>
-      <td>3/19/2024</td>
-      <td>BOS</td>
-      <td>vs</td>
-      <td>OTT</td>
-      <td>W</td>
-      <td>Jesper Boqvist</td>
-      <td>boqvije01</td>
-      <td>John Beecher</td>
-      <td>beechjo01</td>
-      <td>Kevin Shattenkirk</td>
-      <td>shattke01</td>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>3</td>
-      <td>5.13</td>
-    </tr>
-    <tr>
-      <td>3/19/2024</td>
-      <td>BOS</td>
-      <td>vs</td>
-      <td>OTT</td>
-      <td>W</td>
-      <td>Justin Brazeau</td>
-      <td>brazeju01</td>
-      <td>Jake DeBrusk</td>
-      <td>debruja01</td>
-      <td>Morgan Geekie</td>
-      <td>geekimo01</td>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>3</td>
-      <td>18.10</td>
-    </tr>
-    <tr>
-      <td>3/23/2024</td>
-      <td>NJD</td>
-      <td>vs</td>
-      <td>OTT</td>
-      <td>L</td>
-      <td>Jesper Bratt</td>
-      <td>brattje01</td>
-      <td>-</td>
-      <td>NaN</td>
-      <td>-</td>
-      <td>NaN</td>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>2</td>
-      <td>0.38</td>
-    </tr>
-    <tr>
-      <td>3/23/2024</td>
-      <td>NJD</td>
-      <td>vs</td>
-      <td>OTT</td>
-      <td>L</td>
-      <td>Tomáš Nosek</td>
-      <td>nosekto01</td>
-      <td>Ondřej Palát</td>
-      <td>palaton01</td>
-      <td>Dawson Mercer</td>
-      <td>merceda01</td>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>2</td>
-      <td>0.98</td>
-    </tr>
-    <tr>
-      <td>3/24/2024</td>
-      <td>EDM</td>
-      <td>@</td>
-      <td>OTT</td>
-      <td>L</td>
-      <td>Adam Henrique</td>
-      <td>henriad01</td>
-      <td>Mattias Ekholm</td>
-      <td>ekholma01</td>
-      <td>Evan Bouchard</td>
-      <td>bouchev01</td>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>1</td>
-      <td>3.82</td>
-    </tr>
-    <tr>
-      <td>3/24/2024</td>
-      <td>EDM</td>
-      <td>@</td>
-      <td>OTT</td>
-      <td>L</td>
-      <td>Leon Draisaitl</td>
-      <td>draisle01</td>
-      <td>Evan Bouchard</td>
-      <td>bouchev01</td>
-      <td>Connor McDavid</td>
-      <td>mcdavco01</td>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>2</td>
-      <td>1.63</td>
-    </tr>
-    <tr>
-      <td>3/24/2024</td>
-      <td>EDM</td>
-      <td>@</td>
-      <td>OTT</td>
-      <td>L</td>
-      <td>Zach Hyman</td>
-      <td>hymanza01</td>
-      <td>Connor McDavid</td>
-      <td>mcdavco01</td>
-      <td>Evan Bouchard</td>
-      <td>bouchev01</td>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>2</td>
-      <td>3.57</td>
-    </tr>
-    <tr>
-      <td>3/27/2024</td>
-      <td>BUF</td>
-      <td>vs</td>
-      <td>OTT</td>
-      <td>L</td>
-      <td>John-Jason Peterka</td>
-      <td>peterjo01</td>
-      <td>Alex Tuch</td>
-      <td>tuchal01</td>
-      <td>Jacob Bryson</td>
-      <td>brysoja01</td>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>2</td>
-      <td>2.90</td>
-    </tr>
-    <tr>
-      <td>3/27/2024</td>
-      <td>BUF</td>
-      <td>vs</td>
-      <td>OTT</td>
-      <td>L</td>
-      <td>Connor Clifton</td>
-      <td>cliftco01</td>
-      <td>Jacob Bryson</td>
-      <td>brysoja01</td>
-      <td>-</td>
-      <td>NaN</td>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>2</td>
-      <td>13.12</td>
-    </tr>
-    <tr>
-      <td>3/30/2024</td>
-      <td>WPG</td>
-      <td>vs</td>
-      <td>OTT</td>
-      <td>L</td>
-      <td>Nikolaj Ehlers</td>
-      <td>ehlerni01</td>
-      <td>Sean Monahan</td>
-      <td>monahse01</td>
-      <td>Dylan DeMelo</td>
-      <td>demeldy01</td>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>2</td>
-      <td>1.97</td>
-    </tr>
-    <tr>
-      <td>3/30/2024</td>
-      <td>WPG</td>
-      <td>vs</td>
-      <td>OTT</td>
-      <td>L</td>
-      <td>Mark Scheifele</td>
-      <td>scheima01</td>
-      <td>Kyle Connor</td>
-      <td>connoky01</td>
-      <td>Josh Morrissey</td>
-      <td>morrijo04</td>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>3</td>
-      <td>9.80</td>
-    </tr>
-    <tr>
-      <td>4/2/2024</td>
-      <td>MIN</td>
-      <td>vs</td>
-      <td>OTT</td>
-      <td>W</td>
-      <td>Mason Shaw</td>
-      <td>shawma01</td>
-      <td>Zach Bogosian</td>
-      <td>bogosza01</td>
-      <td>Jake Lucchini</td>
-      <td>lucchja01</td>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>1</td>
-      <td>12.53</td>
-    </tr>
-    <tr>
-      <td>4/2/2024</td>
-      <td>MIN</td>
-      <td>vs</td>
-      <td>OTT</td>
-      <td>W</td>
-      <td>Matt Boldy</td>
-      <td>boldyma01</td>
-      <td>Kirill Kaprizov</td>
-      <td>kapriki01</td>
-      <td>Jonas Brodin</td>
-      <td>brodijo01</td>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>2</td>
-      <td>0.82</td>
-    </tr>
-    <tr>
-      <td>4/2/2024</td>
-      <td>MIN</td>
-      <td>vs</td>
-      <td>OTT</td>
-      <td>W</td>
-      <td>Vinni Lettieri</td>
-      <td>lettivi01</td>
-      <td>-</td>
-      <td>NaN</td>
-      <td>-</td>
-      <td>NaN</td>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>3</td>
-      <td>13.07</td>
-    </tr>
-    <tr>
-      <td>4/4/2024</td>
-      <td>FLA</td>
-      <td>@</td>
-      <td>OTT</td>
-      <td>W</td>
-      <td>Nick Cousins</td>
-      <td>cousini01</td>
-      <td>Matthew Tkachuk</td>
-      <td>tkachma01</td>
-      <td>Sam Bennett</td>
-      <td>bennesa01</td>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>1</td>
-      <td>1.03</td>
-    </tr>
-    <tr>
-      <td>4/4/2024</td>
-      <td>FLA</td>
-      <td>@</td>
-      <td>OTT</td>
-      <td>W</td>
-      <td>Dmitry Kulikov</td>
-      <td>kulikdm01</td>
-      <td>Eetu Luostarinen</td>
-      <td>luostee01</td>
-      <td>Evan Rodrigues</td>
-      <td>rodriev01</td>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>1</td>
-      <td>1.62</td>
-    </tr>
-    <tr>
-      <td>4/4/2024</td>
-      <td>FLA</td>
-      <td>@</td>
-      <td>OTT</td>
-      <td>W</td>
-      <td>Anton Lundell</td>
-      <td>lundean01</td>
-      <td>Eetu Luostarinen</td>
-      <td>luostee01</td>
-      <td>Nick Cousins</td>
-      <td>cousini01</td>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>2</td>
-      <td>2.58</td>
-    </tr>
-    <tr>
-      <td>4/4/2024</td>
-      <td>FLA</td>
-      <td>@</td>
-      <td>OTT</td>
-      <td>W</td>
-      <td>Sam Bennett</td>
-      <td>bennesa01</td>
-      <td>Matthew Tkachuk</td>
-      <td>tkachma01</td>
-      <td>Josh Mahura</td>
-      <td>mahurjo01</td>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>2</td>
-      <td>4.32</td>
-    </tr>
-    <tr>
-      <td>4/6/2024</td>
-      <td>NJD</td>
-      <td>@</td>
-      <td>OTT</td>
-      <td>W</td>
-      <td>Nico Hischier</td>
-      <td>hischni01</td>
-      <td>Jesper Bratt</td>
-      <td>brattje01</td>
-      <td>Brendan Smith</td>
-      <td>smithbr05</td>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>2</td>
-      <td>11.07</td>
-    </tr>
-    <tr>
-      <td>4/7/2024</td>
-      <td>WSH</td>
-      <td>vs</td>
-      <td>OTT</td>
-      <td>L</td>
-      <td>Max Pacioretty</td>
-      <td>pacioma01</td>
-      <td>Hendrix Lapierre</td>
-      <td>lapiehe01</td>
-      <td>-</td>
-      <td>NaN</td>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>1</td>
-      <td>4.72</td>
-    </tr>
-    <tr>
-      <td>4/7/2024</td>
-      <td>WSH</td>
-      <td>vs</td>
-      <td>OTT</td>
-      <td>L</td>
-      <td>Aliaksei Protas</td>
-      <td>protaal01</td>
-      <td>Trevor van Riemsdyk</td>
-      <td>vanritr01</td>
-      <td>Martin Fehérváry</td>
-      <td>feherma01</td>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>2</td>
-      <td>17.17</td>
-    </tr>
-    <tr>
-      <td>4/9/2024</td>
-      <td>FLA</td>
-      <td>vs</td>
-      <td>OTT</td>
-      <td>W</td>
-      <td>Anton Lundell</td>
-      <td>lundean01</td>
-      <td>Anthony Stolarz</td>
-      <td>stolaan01</td>
-      <td>-</td>
-      <td>NaN</td>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>1</td>
-      <td>12.03</td>
-    </tr>
-    <tr>
-      <td>4/9/2024</td>
-      <td>FLA</td>
-      <td>vs</td>
-      <td>OTT</td>
-      <td>W</td>
-      <td>Nick Cousins</td>
-      <td>cousini01</td>
-      <td>Niko Mikkola</td>
-      <td>mikkoni01</td>
-      <td>Sam Bennett</td>
-      <td>bennesa01</td>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>1</td>
-      <td>14.80</td>
-    </tr>
-    <tr>
-      <td>4/13/2024</td>
-      <td>MTL</td>
-      <td>@</td>
-      <td>OTT</td>
-      <td>L</td>
-      <td>Mike Matheson</td>
-      <td>mathemi01</td>
-      <td>-</td>
-      <td>NaN</td>
-      <td>-</td>
-      <td>NaN</td>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>1</td>
-      <td>9.18</td>
-    </tr>
-    <tr>
-      <td>4/13/2024</td>
-      <td>MTL</td>
-      <td>@</td>
-      <td>OTT</td>
-      <td>L</td>
-      <td>Cole Caufield</td>
-      <td>caufico01</td>
-      <td>Jayden Struble</td>
-      <td>strubja01</td>
-      <td>David Savard</td>
-      <td>savarda01</td>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>2</td>
-      <td>1.62</td>
-    </tr>
-    <tr>
-      <td>4/13/2024</td>
-      <td>MTL</td>
-      <td>@</td>
-      <td>OTT</td>
-      <td>L</td>
-      <td>Cole Caufield</td>
-      <td>caufico01</td>
-      <td>Mike Matheson</td>
-      <td>mathemi01</td>
-      <td>Alex Newhook</td>
-      <td>newhoal01</td>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>2</td>
-      <td>13.08</td>
-    </tr>
-    <tr>
-      <td>4/13/2024</td>
-      <td>MTL</td>
-      <td>@</td>
-      <td>OTT</td>
-      <td>L</td>
-      <td>Alex Newhook</td>
-      <td>newhoal01</td>
-      <td>Brendan Gallagher</td>
-      <td>gallabr01</td>
-      <td>David Savard</td>
-      <td>savarda01</td>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>3</td>
-      <td>15.82</td>
-    </tr>
-    <tr>
-      <td>4/15/2024</td>
-      <td>NYR</td>
-      <td>vs</td>
-      <td>OTT</td>
-      <td>W</td>
-      <td>Jack Roslovic</td>
-      <td>rosloja01</td>
-      <td>Chris Kreider</td>
-      <td>kreidch01</td>
-      <td>-</td>
-      <td>NaN</td>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>1</td>
-      <td>5.92</td>
-    </tr>
-    <tr>
-      <td>4/15/2024</td>
-      <td>NYR</td>
-      <td>vs</td>
-      <td>OTT</td>
-      <td>W</td>
-      <td>Adam Fox</td>
-      <td>foxad01</td>
-      <td>Chris Kreider</td>
-      <td>kreidch01</td>
-      <td>Mika Zibanejad</td>
-      <td>zibanmi01</td>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>2</td>
-      <td>8.97</td>
-    </tr>
-    <tr>
-      <td>4/15/2024</td>
-      <td>NYR</td>
-      <td>vs</td>
-      <td>OTT</td>
-      <td>W</td>
-      <td>Artemi Panarin</td>
-      <td>panarar01</td>
-      <td>Ryan Lindgren</td>
-      <td>lindgry01</td>
-      <td>Adam Fox</td>
-      <td>foxad01</td>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>3</td>
-      <td>4.57</td>
-    </tr>
-    <tr>
-      <td>4/15/2024</td>
-      <td>NYR</td>
-      <td>vs</td>
-      <td>OTT</td>
-      <td>W</td>
-      <td>Alexis Lafrenière</td>
-      <td>lafreal01</td>
-      <td>Erik Gustafsson</td>
-      <td>gustaer02</td>
-      <td>Artemi Panarin</td>
-      <td>panarar01</td>
-      <td>Joonas Korpisalo</td>
-      <td>korpijo01</td>
-      <td>3</td>
-      <td>13.00</td>
-    </tr>
-  </tbody>
-</table>
-    
-        </body>
-        </html>
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202310110CAR.html">10/11/2023</a></td>
+          <td><a href="/teams/OTT.html">OTT</a></td>
+          <td>@</td>
+          <td><a href="/teams/CAR.html">CAR</a></td>
+          <td>L</td>
+          <td>5</td>
+          <td>42</td>
+          <td>37</td>
+          <td>88.00%</td>
+          <td>59.42</td>
+        </tr>
         
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202310150OTT.html">10/15/2023</a></td>
+          <td><a href="/teams/OTT.html">OTT</a></td>
+          <td>vs</td>
+          <td><a href="/teams/TBL.html">TBL</a></td>
+          <td>W</td>
+          <td>2</td>
+          <td>24</td>
+          <td>22</td>
+          <td>92.00%</td>
+          <td>59.57</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202310210OTT.html">10/21/2023</a></td>
+          <td><a href="/teams/OTT.html">OTT</a></td>
+          <td>vs</td>
+          <td><a href="/teams/DET.html">DET</a></td>
+          <td>L</td>
+          <td>5</td>
+          <td>23</td>
+          <td>18</td>
+          <td>78.00%</td>
+          <td>59.6</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202310240OTT.html">10/24/2023</a></td>
+          <td><a href="/teams/OTT.html">OTT</a></td>
+          <td>vs</td>
+          <td><a href="/teams/BUF.html">BUF</a></td>
+          <td>L</td>
+          <td>0</td>
+          <td>5</td>
+          <td>5</td>
+          <td>100.00%</td>
+          <td>19.7</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202310260NYI.html">10/26/2023</a></td>
+          <td><a href="/teams/OTT.html">OTT</a></td>
+          <td>@</td>
+          <td><a href="/teams/NYI.html">NYI</a></td>
+          <td>L</td>
+          <td>3</td>
+          <td>38</td>
+          <td>35</td>
+          <td>92.00%</td>
+          <td>58.92</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202310280PIT.html">10/28/2023</a></td>
+          <td><a href="/teams/OTT.html">OTT</a></td>
+          <td>@</td>
+          <td><a href="/teams/PIT.html">PIT</a></td>
+          <td>W</td>
+          <td>2</td>
+          <td>43</td>
+          <td>41</td>
+          <td>95.00%</td>
+          <td>60.0</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202311020OTT.html">11/2/2023</a></td>
+          <td><a href="/teams/OTT.html">OTT</a></td>
+          <td>vs</td>
+          <td><a href="/teams/LAK.html">LAK</a></td>
+          <td>L</td>
+          <td>3</td>
+          <td>38</td>
+          <td>35</td>
+          <td>92.00%</td>
+          <td>59.37</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202311040OTT.html">11/4/2023</a></td>
+          <td><a href="/teams/OTT.html">OTT</a></td>
+          <td>vs</td>
+          <td><a href="/teams/TBL.html">TBL</a></td>
+          <td>L</td>
+          <td>3</td>
+          <td>21</td>
+          <td>18</td>
+          <td>86.00%</td>
+          <td>24.95</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202311080TOR.html">11/8/2023</a></td>
+          <td><a href="/teams/OTT.html">OTT</a></td>
+          <td>@</td>
+          <td><a href="/teams/TOR.html">TOR</a></td>
+          <td>W</td>
+          <td>3</td>
+          <td>30</td>
+          <td>27</td>
+          <td>90.00%</td>
+          <td>60.0</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202311110OTT.html">11/11/2023</a></td>
+          <td><a href="/teams/OTT.html">OTT</a></td>
+          <td>vs</td>
+          <td><a href="/teams/CGY.html">CGY</a></td>
+          <td>W</td>
+          <td>1</td>
+          <td>25</td>
+          <td>24</td>
+          <td>96.00%</td>
+          <td>60.0</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202311160OTT.html">11/16/2023</a></td>
+          <td><a href="/teams/OTT.html">OTT</a></td>
+          <td>vs</td>
+          <td><a href="/teams/DET.html">DET</a></td>
+          <td>W</td>
+          <td>4</td>
+          <td>41</td>
+          <td>37</td>
+          <td>90.00%</td>
+          <td>64.97</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202311270OTT.html">11/27/2023</a></td>
+          <td><a href="/teams/OTT.html">OTT</a></td>
+          <td>vs</td>
+          <td><a href="/teams/FLA.html">FLA</a></td>
+          <td>L</td>
+          <td>5</td>
+          <td>37</td>
+          <td>32</td>
+          <td>87.00%</td>
+          <td>60.0</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202312010CBJ.html">12/1/2023</a></td>
+          <td><a href="/teams/OTT.html">OTT</a></td>
+          <td>@</td>
+          <td><a href="/teams/CBJ.html">CBJ</a></td>
+          <td>L</td>
+          <td>4</td>
+          <td>23</td>
+          <td>19</td>
+          <td>83.00%</td>
+          <td>57.85</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202312090DET.html">12/9/2023</a></td>
+          <td><a href="/teams/OTT.html">OTT</a></td>
+          <td>@</td>
+          <td><a href="/teams/DET.html">DET</a></td>
+          <td>W</td>
+          <td>1</td>
+          <td>31</td>
+          <td>30</td>
+          <td>97.00%</td>
+          <td>60.0</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202312120OTT.html">12/12/2023</a></td>
+          <td><a href="/teams/OTT.html">OTT</a></td>
+          <td>vs</td>
+          <td><a href="/teams/CAR.html">CAR</a></td>
+          <td>L</td>
+          <td>4</td>
+          <td>28</td>
+          <td>24</td>
+          <td>86.00%</td>
+          <td>59.78</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202312140STL.html">12/14/2023</a></td>
+          <td><a href="/teams/OTT.html">OTT</a></td>
+          <td>@</td>
+          <td><a href="/teams/STL.html">STL</a></td>
+          <td>L</td>
+          <td>4</td>
+          <td>30</td>
+          <td>26</td>
+          <td>87.00%</td>
+          <td>58.53</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202312170VEG.html">12/17/2023</a></td>
+          <td><a href="/teams/OTT.html">OTT</a></td>
+          <td>@</td>
+          <td><a href="/teams/VEG.html">VEG</a></td>
+          <td>L</td>
+          <td>6</td>
+          <td>31</td>
+          <td>25</td>
+          <td>81.00%</td>
+          <td>60.0</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202312190ARI.html">12/19/2023</a></td>
+          <td><a href="/teams/OTT.html">OTT</a></td>
+          <td>@</td>
+          <td><a href="/teams/ARI.html">ARI</a></td>
+          <td>L</td>
+          <td>4</td>
+          <td>38</td>
+          <td>34</td>
+          <td>90.00%</td>
+          <td>58.33</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202312210COL.html">12/21/2023</a></td>
+          <td><a href="/teams/OTT.html">OTT</a></td>
+          <td>@</td>
+          <td><a href="/teams/COL.html">COL</a></td>
+          <td>L</td>
+          <td>5</td>
+          <td>38</td>
+          <td>33</td>
+          <td>87.00%</td>
+          <td>59.38</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202312270TOR.html">12/27/2023</a></td>
+          <td><a href="/teams/OTT.html">OTT</a></td>
+          <td>@</td>
+          <td><a href="/teams/TOR.html">TOR</a></td>
+          <td>W</td>
+          <td>2</td>
+          <td>36</td>
+          <td>34</td>
+          <td>94.00%</td>
+          <td>60.0</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202312290OTT.html">12/29/2023</a></td>
+          <td><a href="/teams/OTT.html">OTT</a></td>
+          <td>vs</td>
+          <td><a href="/teams/NJD.html">NJD</a></td>
+          <td>L</td>
+          <td>6</td>
+          <td>30</td>
+          <td>24</td>
+          <td>80.00%</td>
+          <td>60.0</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202401020VAN.html">1/2/2024</a></td>
+          <td><a href="/teams/OTT.html">OTT</a></td>
+          <td>@</td>
+          <td><a href="/teams/VAN.html">VAN</a></td>
+          <td>L</td>
+          <td>2</td>
+          <td>13</td>
+          <td>11</td>
+          <td>85.00%</td>
+          <td>42.72</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202401040SEA.html">1/4/2024</a></td>
+          <td><a href="/teams/OTT.html">OTT</a></td>
+          <td>@</td>
+          <td><a href="/teams/SEA.html">SEA</a></td>
+          <td>L</td>
+          <td>3</td>
+          <td>27</td>
+          <td>24</td>
+          <td>89.00%</td>
+          <td>58.47</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202401090CGY.html">1/9/2024</a></td>
+          <td><a href="/teams/OTT.html">OTT</a></td>
+          <td>@</td>
+          <td><a href="/teams/CGY.html">CGY</a></td>
+          <td>L</td>
+          <td>5</td>
+          <td>35</td>
+          <td>30</td>
+          <td>86.00%</td>
+          <td>59.73</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202401110BUF.html">1/11/2024</a></td>
+          <td><a href="/teams/OTT.html">OTT</a></td>
+          <td>@</td>
+          <td><a href="/teams/BUF.html">BUF</a></td>
+          <td>L</td>
+          <td>3</td>
+          <td>24</td>
+          <td>21</td>
+          <td>88.00%</td>
+          <td>42.18</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202401130OTT.html">1/13/2024</a></td>
+          <td><a href="/teams/OTT.html">OTT</a></td>
+          <td>vs</td>
+          <td><a href="/teams/SJS.html">SJS</a></td>
+          <td>W</td>
+          <td>4</td>
+          <td>18</td>
+          <td>14</td>
+          <td>78.00%</td>
+          <td>60.0</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202401180OTT.html">1/18/2024</a></td>
+          <td><a href="/teams/OTT.html">OTT</a></td>
+          <td>vs</td>
+          <td><a href="/teams/MTL.html">MTL</a></td>
+          <td>W</td>
+          <td>2</td>
+          <td>23</td>
+          <td>21</td>
+          <td>91.00%</td>
+          <td>59.92</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202401200OTT.html">1/20/2024</a></td>
+          <td><a href="/teams/OTT.html">OTT</a></td>
+          <td>vs</td>
+          <td><a href="/teams/WPG.html">WPG</a></td>
+          <td>L-OT</td>
+          <td>2</td>
+          <td>29</td>
+          <td>27</td>
+          <td>93.00%</td>
+          <td>64.23</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202401230MTL.html">1/23/2024</a></td>
+          <td><a href="/teams/OTT.html">OTT</a></td>
+          <td>@</td>
+          <td><a href="/teams/MTL.html">MTL</a></td>
+          <td>W</td>
+          <td>1</td>
+          <td>25</td>
+          <td>24</td>
+          <td>96.00%</td>
+          <td>60.0</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202401250OTT.html">1/25/2024</a></td>
+          <td><a href="/teams/OTT.html">OTT</a></td>
+          <td>vs</td>
+          <td><a href="/teams/BOS.html">BOS</a></td>
+          <td>L-OT</td>
+          <td>3</td>
+          <td>23</td>
+          <td>20</td>
+          <td>87.00%</td>
+          <td>61.8</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202401270OTT.html">1/27/2024</a></td>
+          <td><a href="/teams/OTT.html">OTT</a></td>
+          <td>vs</td>
+          <td><a href="/teams/NYR.html">NYR</a></td>
+          <td>L</td>
+          <td>4</td>
+          <td>17</td>
+          <td>13</td>
+          <td>77.00%</td>
+          <td>31.18</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202401290OTT.html">1/29/2024</a></td>
+          <td><a href="/teams/OTT.html">OTT</a></td>
+          <td>vs</td>
+          <td><a href="/teams/NSH.html">NSH</a></td>
+          <td>W</td>
+          <td>0</td>
+          <td>17</td>
+          <td>17</td>
+          <td>100.00%</td>
+          <td>43.6</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202401310DET.html">1/31/2024</a></td>
+          <td><a href="/teams/OTT.html">OTT</a></td>
+          <td>@</td>
+          <td><a href="/teams/DET.html">DET</a></td>
+          <td>W</td>
+          <td>2</td>
+          <td>25</td>
+          <td>23</td>
+          <td>92.00%</td>
+          <td>62.08</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202402100OTT.html">2/10/2024</a></td>
+          <td><a href="/teams/OTT.html">OTT</a></td>
+          <td>vs</td>
+          <td><a href="/teams/TOR.html">TOR</a></td>
+          <td>W</td>
+          <td>3</td>
+          <td>35</td>
+          <td>32</td>
+          <td>91.00%</td>
+          <td>60.0</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202402150OTT.html">2/15/2024</a></td>
+          <td><a href="/teams/OTT.html">OTT</a></td>
+          <td>vs</td>
+          <td><a href="/teams/ANA.html">ANA</a></td>
+          <td>L</td>
+          <td>5</td>
+          <td>20</td>
+          <td>15</td>
+          <td>75.00%</td>
+          <td>60.0</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202402170CHI.html">2/17/2024</a></td>
+          <td><a href="/teams/OTT.html">OTT</a></td>
+          <td>@</td>
+          <td><a href="/teams/CHI.html">CHI</a></td>
+          <td>L</td>
+          <td>3</td>
+          <td>22</td>
+          <td>19</td>
+          <td>86.00%</td>
+          <td>58.03</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202402200FLA.html">2/20/2024</a></td>
+          <td><a href="/teams/OTT.html">OTT</a></td>
+          <td>@</td>
+          <td><a href="/teams/FLA.html">FLA</a></td>
+          <td>L-OT</td>
+          <td>3</td>
+          <td>34</td>
+          <td>31</td>
+          <td>91.00%</td>
+          <td>61.6</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202402260WSH.html">2/26/2024</a></td>
+          <td><a href="/teams/OTT.html">OTT</a></td>
+          <td>@</td>
+          <td><a href="/teams/WSH.html">WSH</a></td>
+          <td>L</td>
+          <td>2</td>
+          <td>10</td>
+          <td>8</td>
+          <td>80.00%</td>
+          <td>40.0</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202402270NSH.html">2/27/2024</a></td>
+          <td><a href="/teams/OTT.html">OTT</a></td>
+          <td>@</td>
+          <td><a href="/teams/NSH.html">NSH</a></td>
+          <td>L</td>
+          <td>4</td>
+          <td>36</td>
+          <td>32</td>
+          <td>89.00%</td>
+          <td>60.0</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202403070LAK.html">3/7/2024</a></td>
+          <td><a href="/teams/OTT.html">OTT</a></td>
+          <td>@</td>
+          <td><a href="/teams/LAK.html">LAK</a></td>
+          <td>L-OT</td>
+          <td>4</td>
+          <td>35</td>
+          <td>31</td>
+          <td>89.00%</td>
+          <td>62.0</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202403090SJS.html">3/9/2024</a></td>
+          <td><a href="/teams/OTT.html">OTT</a></td>
+          <td>@</td>
+          <td><a href="/teams/SJS.html">SJS</a></td>
+          <td>L</td>
+          <td>2</td>
+          <td>21</td>
+          <td>19</td>
+          <td>91.00%</td>
+          <td>57.22</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202403120OTT.html">3/12/2024</a></td>
+          <td><a href="/teams/OTT.html">OTT</a></td>
+          <td>vs</td>
+          <td><a href="/teams/PIT.html">PIT</a></td>
+          <td>W</td>
+          <td>1</td>
+          <td>35</td>
+          <td>34</td>
+          <td>97.00%</td>
+          <td>63.13</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202403160NYI.html">3/16/2024</a></td>
+          <td><a href="/teams/OTT.html">OTT</a></td>
+          <td>@</td>
+          <td><a href="/teams/NYI.html">NYI</a></td>
+          <td>W</td>
+          <td>3</td>
+          <td>33</td>
+          <td>30</td>
+          <td>91.00%</td>
+          <td>64.55</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202403190BOS.html">3/19/2024</a></td>
+          <td><a href="/teams/OTT.html">OTT</a></td>
+          <td>@</td>
+          <td><a href="/teams/BOS.html">BOS</a></td>
+          <td>L</td>
+          <td>6</td>
+          <td>26</td>
+          <td>20</td>
+          <td>77.00%</td>
+          <td>60.0</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202403230NJD.html">3/23/2024</a></td>
+          <td><a href="/teams/OTT.html">OTT</a></td>
+          <td>@</td>
+          <td><a href="/teams/NJD.html">NJD</a></td>
+          <td>W</td>
+          <td>2</td>
+          <td>20</td>
+          <td>18</td>
+          <td>90.00%</td>
+          <td>59.87</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202403240OTT.html">3/24/2024</a></td>
+          <td><a href="/teams/OTT.html">OTT</a></td>
+          <td>vs</td>
+          <td><a href="/teams/EDM.html">EDM</a></td>
+          <td>W</td>
+          <td>3</td>
+          <td>36</td>
+          <td>33</td>
+          <td>92.00%</td>
+          <td>60.0</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202403270BUF.html">3/27/2024</a></td>
+          <td><a href="/teams/OTT.html">OTT</a></td>
+          <td>@</td>
+          <td><a href="/teams/BUF.html">BUF</a></td>
+          <td>W</td>
+          <td>2</td>
+          <td>36</td>
+          <td>34</td>
+          <td>94.00%</td>
+          <td>60.0</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202403300WPG.html">3/30/2024</a></td>
+          <td><a href="/teams/OTT.html">OTT</a></td>
+          <td>@</td>
+          <td><a href="/teams/WPG.html">WPG</a></td>
+          <td>W</td>
+          <td>2</td>
+          <td>30</td>
+          <td>28</td>
+          <td>93.00%</td>
+          <td>60.0</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202404020MIN.html">4/2/2024</a></td>
+          <td><a href="/teams/OTT.html">OTT</a></td>
+          <td>@</td>
+          <td><a href="/teams/MIN.html">MIN</a></td>
+          <td>L</td>
+          <td>3</td>
+          <td>19</td>
+          <td>16</td>
+          <td>84.00%</td>
+          <td>58.28</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202404040OTT.html">4/4/2024</a></td>
+          <td><a href="/teams/OTT.html">OTT</a></td>
+          <td>vs</td>
+          <td><a href="/teams/FLA.html">FLA</a></td>
+          <td>L</td>
+          <td>4</td>
+          <td>17</td>
+          <td>13</td>
+          <td>77.00%</td>
+          <td>24.13</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202404060OTT.html">4/6/2024</a></td>
+          <td><a href="/teams/OTT.html">OTT</a></td>
+          <td>vs</td>
+          <td><a href="/teams/NJD.html">NJD</a></td>
+          <td>L</td>
+          <td>1</td>
+          <td>18</td>
+          <td>17</td>
+          <td>94.00%</td>
+          <td>42.32</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202404070WSH.html">4/7/2024</a></td>
+          <td><a href="/teams/OTT.html">OTT</a></td>
+          <td>@</td>
+          <td><a href="/teams/WSH.html">WSH</a></td>
+          <td>W</td>
+          <td>2</td>
+          <td>22</td>
+          <td>20</td>
+          <td>91.00%</td>
+          <td>60.08</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202404090FLA.html">4/9/2024</a></td>
+          <td><a href="/teams/OTT.html">OTT</a></td>
+          <td>@</td>
+          <td><a href="/teams/FLA.html">FLA</a></td>
+          <td>L</td>
+          <td>2</td>
+          <td>30</td>
+          <td>28</td>
+          <td>93.00%</td>
+          <td>58.78</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202404130OTT.html">4/13/2024</a></td>
+          <td><a href="/teams/OTT.html">OTT</a></td>
+          <td>vs</td>
+          <td><a href="/teams/MTL.html">MTL</a></td>
+          <td>W</td>
+          <td>4</td>
+          <td>25</td>
+          <td>21</td>
+          <td>84.00%</td>
+          <td>64.18</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202404150NYR.html">4/15/2024</a></td>
+          <td><a href="/teams/OTT.html">OTT</a></td>
+          <td>@</td>
+          <td><a href="/teams/NYR.html">NYR</a></td>
+          <td>L</td>
+          <td>4</td>
+          <td>34</td>
+          <td>30</td>
+          <td>88.00%</td>
+          <td>60.0</td>
+        </tr>
+        
+    </tbody>
+  </table>
+</body>
+</html>
+    

@@ -1,161 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Michael Hutchinson</title>
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script src="/assets/searchBar.js" defer></script>
+  <script src="/assets/tableSort.js"></script>
+  
+  <style>
+    tr:hover {background-color: #F0FFF0;}
+  </style>
+</head>
 
-        <!DOCTYPE html>
-        <html lang="en">
-        <head>
-            <meta charset="UTF-8">
-            <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <title>hutchmi01 Profile</title>
-        </head>
-        <body>
-            
-    <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Player hutchmi01 Stats</title>
-        <link rel="stylesheet" href="/assets/css/styles.css"> <!-- Assuming a shared stylesheet -->
-    </head>
-    <body>
-        <nav id="navbar">
-            <ul>
-                <li><a href="/">Home</a></li>
-                <li><a href="/players/">Players</a></li>
-                <li><a href="/teams/">Teams</a></li>
-                <li><a href="/leaders/">Leaders</a></li>
-                <li><a href="/probabilities/">Probabilities</a></li>
-                <li><a href="/boxscores/">Boxscores</a></li>
-                <li><a href="/schedule/">Schedule</a></li>
-            </ul>
-        </nav>
+<body>
+  <!-- Navigation Bar -->
+  <nav id="navbar">
+    <a href="/">Home</a>
+    <a href="/players/">Players</a>
+    <a href="/teams/">Teams</a>
+    <a href="/leaders/">Leaders</a>
+    <a href="/probabilities/">Probabilities</a>
+    <a href="/boxscores/">Boxscores</a>
+    <a href="/schedule/">Schedule</a>
 
-        <main id="content">
-            <h1>Player hutchmi01 Stats</h1>
-            <table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th>Goalie</th>
-      <th>Player_ID</th>
-      <th>Gm</th>
-      <th>Game ID</th>
-      <th>Date</th>
-      <th>Team</th>
-      <th>Location</th>
-      <th>Opp</th>
-      <th>W/L</th>
-      <th>Goals 
-Allowed</th>
-      <th>Shots 
-Against</th>
-      <th>Saves</th>
-      <th>Save 
-Percentage</th>
-      <th>TOI</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Michael Hutchinson</td>
-      <td>hutchmi01</td>
-      <td>34</td>
-      <td>202312230NJD</td>
-      <td>12/23/2023</td>
-      <td>DET</td>
-      <td>@</td>
-      <td>NJD</td>
-      <td>L</td>
-      <td>3</td>
-      <td>36</td>
-      <td>33</td>
-      <td>0.92</td>
-      <td>57.8</td>
-    </tr>
-  </tbody>
-</table>
-        </main>
-    </body>
-    </html>
+    <!-- Search Bar -->
+    <div class="search-container">
+      <input type="text" id="searchInput" placeholder="Search players or teams..." oninput="searchEntities()" />
+      <ul id="suggestions"></ul> <!-- This will show the search suggestions -->
+    </div>
+  </nav>
+
+  <h1>Michael Hutchinson - Gamelogs</h1>
+  <table border="1">
+    <thead>
+      <tr>
+        <th>Season</th>
+        <th>Date</th>
+        <th>Team</th>
+        <th>Location</th>
+        <th>Opponent</th>
+        <th>Result</th>
+        <th>GA</th>
+        <th>SA</th>
+        <th>SV</th>
+        <th>SV%</th>
+        <th>TOI</th>
+      </tr>
+    </thead>
+    <tbody>
     
-            <h2>Penalties</h2>
-            <p>No penalties table available</p>
-            <h2>Scoring</h2>
-            
-    <h2>Goals Allowed by hutchmi01</h2>
-    <table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th>Date</th>
-      <th>Tm</th>
-      <th>Location</th>
-      <th>Opp</th>
-      <th>Result</th>
-      <th>Scorer</th>
-      <th>scorer username</th>
-      <th>Assist1</th>
-      <th>ast 1 username</th>
-      <th>Assist2</th>
-      <th>ast 2 username</th>
-      <th>Goalie</th>
-      <th>goalie username</th>
-      <th>Per.</th>
-      <th>Time</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>12/23/2023</td>
-      <td>NJD</td>
-      <td>vs</td>
-      <td>DET</td>
-      <td>W</td>
-      <td>Timo Meier</td>
-      <td>meierti01</td>
-      <td>-</td>
-      <td>NaN</td>
-      <td>-</td>
-      <td>NaN</td>
-      <td>Michael Hutchinson</td>
-      <td>hutchmi01</td>
-      <td>1</td>
-      <td>11.72</td>
-    </tr>
-    <tr>
-      <td>12/23/2023</td>
-      <td>NJD</td>
-      <td>vs</td>
-      <td>DET</td>
-      <td>W</td>
-      <td>Timo Meier</td>
-      <td>meierti01</td>
-      <td>-</td>
-      <td>NaN</td>
-      <td>-</td>
-      <td>NaN</td>
-      <td>Michael Hutchinson</td>
-      <td>hutchmi01</td>
-      <td>3</td>
-      <td>2.77</td>
-    </tr>
-    <tr>
-      <td>12/23/2023</td>
-      <td>NJD</td>
-      <td>vs</td>
-      <td>DET</td>
-      <td>W</td>
-      <td>Tyler Toffoli</td>
-      <td>toffoty01</td>
-      <td>Jesper Bratt</td>
-      <td>brattje01</td>
-      <td>Jack Hughes</td>
-      <td>hugheja03</td>
-      <td>Michael Hutchinson</td>
-      <td>hutchmi01</td>
-      <td>3</td>
-      <td>12.75</td>
-    </tr>
-  </tbody>
-</table>
-    
-        </body>
-        </html>
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202312230NJD.html">12/23/2023</a></td>
+          <td><a href="/teams/DET.html">DET</a></td>
+          <td>@</td>
+          <td><a href="/teams/NJD.html">NJD</a></td>
+          <td>L</td>
+          <td>3</td>
+          <td>36</td>
+          <td>33</td>
+          <td>92.00%</td>
+          <td>57.8</td>
+        </tr>
         
+    </tbody>
+  </table>
+</body>
+</html>
+    

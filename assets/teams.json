@@ -1,0 +1,194 @@
+[
+    {
+        "name": "Anaheim Ducks",
+        "aliases": ["Anaheim Ducks", "Anaheim", "Ducks", "Mighty Ducks"],
+        "team_id": "ANA",
+        "url": "/teams/ANA.html"
+    },
+    {
+        "name": "Utah Hockey Club",
+        "aliases": ["Utah Hockey Club", "Utah", "Arizona", "Coyotes", "Arizona Coyotes", "Yotes"],
+        "team_id": "ARI",
+        "url": "/teams/ARI.html"
+    },
+    {
+        "name": "Boston Bruins",
+        "aliases": ["Boston Bruins", "Boston", "Bruins"],
+        "team_id": "BOS",
+        "url": "/teams/BOS.html"
+    },
+    {
+        "name": "Buffalo Sabres",
+        "aliases": ["Buffalo Sabres", "Buffalo", "Sabres"],
+        "team_id": "BUF",
+        "url": "/teams/BUF.html"
+    },
+    {
+        "name": "Carolina Hurricanes",
+        "aliases": ["Carolina Hurricanes", "Carolina", "Hurricanes", "Canes"],
+        "team_id": "CAR",
+        "url": "/teams/CAR.html"
+    },
+    {
+        "name": "Columbus Blue Jackets",
+        "aliases": ["Columbus Blue Jackets", "Columbus", "Blue Jackets", "CBJ"],
+        "team_id": "CBJ",
+        "url": "/teams/CBJ.html"
+    },
+    {
+        "name": "Calgary Flames",
+        "aliases": ["Calgary Flames", "Calgary", "Flames"],
+        "team_id": "CGY",
+        "url": "/teams/CGY.html"
+    },
+    {
+        "name": "Chicago Blackhawks",
+        "aliases": ["Chicago Blackhawks", "Chicago", "Blackhawks", "Chicago Black Hawks", "Black Hawks"],
+        "team_id": "CHI",
+        "url": "/teams/CHI.html"
+    },
+    {
+        "name": "Colorado Avalanche",
+        "aliases": ["Colorado Avalanche", "Colorado", "Avalanche", "Avs", "Av"],
+        "team_id": "COL",
+        "url": "/teams/COL.html"
+    },
+    {
+        "name": "Dallas Stars",
+        "aliases": ["Dallas Stars", "Dallas", "Stars"],
+        "team_id": "DAL",
+        "url": "/teams/DAL.html"
+    },
+    {
+        "name": "Detroit Red Wings",
+        "aliases": ["Detroit Red Wings", "Detroit", "Red Wings", "Wings"],
+        "team_id": "DET",
+        "url": "/teams/DET.html"
+    },
+    {
+        "name": "Edmonton Oilers",
+        "aliases": ["Edmonton Oilers", "Edmonton", "Oilers"],
+        "team_id": "EDM",
+        "url": "/teams/EDM.html"
+    },
+    {
+        "name": "Florida Panthers",
+        "aliases": ["Florida Panthers", "Florida", "Panthers"],
+        "team_id": "FLA",
+        "url": "/teams/FLA.html"
+    },
+    {
+        "name": "Los Angeles Kings",
+        "aliases": ["Los Angeles Kings", "Los Angeles", "Kings", "LA", "L.A.", "L.A", "LA Kings", "L.A. Kings", "L.A Kings"],
+        "team_id": "LAK",
+        "url": "/teams/LAK.html"
+    },
+    {
+        "name": "Minnesota Wild",
+        "aliases": ["Minnesota Wild", "Minnesota", "Wild"],
+        "team_id": "MIN",
+        "url": "/teams/MIN.html"
+    },
+    {
+        "name": "Montreal Canadiens",
+        "aliases": ["Montreal Canadiens", "Montreal", "Canadiens", "Canadians", "Canadienns", "Habs"],
+        "team_id": "MTL",
+        "url": "/teams/MTL.html"
+    },
+    {
+        "name": "New Jersey Devils",
+        "aliases": ["New Jersey Devils", "New Jersey", "Devils", "NJ", "N.J.", "N.J", "NJ Devils", "N.J. Devils", "N.J Devils"],
+        "team_id": "NJD",
+        "url": "/teams/NJD.html"
+    },
+    {
+        "name": "Nashville Predators",
+        "aliases": ["Nashville Predators", "Nashville", "Predators", "Preds"],
+        "team_id": "NSH",
+        "url": "/teams/NSH.html"
+    },
+    {
+        "name": "New York Islanders",
+        "aliases": ["New York Islanders", "New York", "Islanders", "NY", "N.Y.", "N.Y", "NY Islanders", "N.Y. Islanders", "N.Y Islanders", "NYC", "N.Y.C.", "N.Y.C", "N.YC", "NY.C", "N.Y.C Islanders", "N.YC Islanders", "NY.C Islanders"],
+        "team_id": "NYI",
+        "url": "/teams/NYI.html"
+    },
+    {
+        "name": "New York Rangers",
+        "aliases": ["New York Rangers", "New York", "Rangers", "NY", "N.Y.", "N.Y", "NY Rangers", "N.Y. Rangers", "N.Y Rangers", "NYC", "N.Y.C.", "N.Y.C", "N.YC", "NY.C", "N.Y.C Rangers", "N.YC Rangers", "NY.C Rangers"],
+        "team_id": "NYR",
+        "url": "/teams/NYR.html"
+    },
+    {
+        "name": "Ottawa Senators",
+        "aliases": ["Ottawa Senators", "Ottawa", "Senators", "Sens"],
+        "team_id": "OTT",
+        "url": "/teams/OTT.html"
+    },
+    {
+        "name": "Philadelphia Flyers",
+        "aliases": ["Philadelphia Flyers", "Philadelphia", "Flyers", "Philly"],
+        "team_id": "PHI",
+        "url": "/teams/PHI.html"
+    },
+    {
+        "name": "Pittsburgh Penguins",
+        "aliases": ["Pittsburgh Penguins", "Pittsburgh", "Penguins", "Pens"],
+        "team_id": "PIT",
+        "url": "/teams/PIT.html"
+    },
+    {
+        "name": "Seattle Kraken",
+        "aliases": ["Seattle Kraken", "Seattle", "Kraken"],
+        "team_id": "SEA",
+        "url": "/teams/SEA.html"
+    },
+    {
+        "name": "San Jose Sharks",
+        "aliases": ["San Jose Sharks", "San Jose", "Sharks", "SJ", "S.J.", "S.J", "SJ.", "SJS", "S.J.S", "S.J.S.", "SJ Sharks", "S.J. Sharks", "S.J Sharks", "SJ. Sharks", "SJS Sharks", "S.J.S Sharks", "S.J.S. Sharks"],
+        "team_id": "SJS",
+        "url": "/teams/SJS.html"
+    },
+    {
+        "name": "St. Louis Blues",
+        "aliases": ["St. Louis Blues", "St. Louis", "Blues", "St Louis", "Saint Louis", "ST Louis", "St Louis Blues", "Saint Louis Blues", "ST Louis Blues"],
+        "team_id": "STL",
+        "url": "/teams/STL.html"
+    },
+    {
+        "name": "Tampa Bay Lightning",
+        "aliases": ["Tampa Bay Lightning", "Tampa Bay", "Lightning", "Tampa", "TB", "Tampa Lightning", "TB Lightning"],
+        "team_id": "TBL",
+        "url": "/teams/TBL.html"
+    },
+    {
+        "name": "Toronto Maple Leafs",
+        "aliases": ["Toronto Maple Leafs", "Toronto", "Maple Leafs", "Maple Leaves"],
+        "team_id": "TOR",
+        "url": "/teams/TOR.html"
+    },
+    {
+        "name": "Vancouver Canucks",
+        "aliases": ["Vancouver Canucks", "Vancouver", "Canucks"],
+        "team_id": "VAN",
+        "url": "/teams/VAN.html"
+    },
+    {
+        "name": "Vegas Golden Knights",
+        "aliases": ["Vegas Golden Knights", "Vegas", "Golden Knights", "Las Vegas", "VGK", "Knights", "Las Vegas Golden Knights", "VGK Golden Knights", "Vegas Knights"],
+        "team_id": "VEG",
+        "url": "/teams/VEG.html"
+    },
+    {
+        "name": "Winnipeg Jets",
+        "aliases": ["Winnipeg Jets", "Winnipeg", "Jets"],
+        "team_id": "WPG",
+        "url": "/teams/WPG.html"
+    },
+    {
+        "name": "Washington Capitals",
+        "aliases": ["Washington Capitals", "Washington", "Capitals", "Caps"],
+        "team_id": "WSH",
+        "url": "/teams/WSH.html"
+    }
+]

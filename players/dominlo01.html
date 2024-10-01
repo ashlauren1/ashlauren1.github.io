@@ -1,127 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Louis Domingue</title>
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script src="/assets/searchBar.js" defer></script>
+  <script src="/assets/tableSort.js"></script>
+  
+  <style>
+    tr:hover {background-color: #F0FFF0;}
+  </style>
+</head>
 
-        <!DOCTYPE html>
-        <html lang="en">
-        <head>
-            <meta charset="UTF-8">
-            <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <title>dominlo01 Profile</title>
-        </head>
-        <body>
-            
-    <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Player dominlo01 Stats</title>
-        <link rel="stylesheet" href="/assets/css/styles.css"> <!-- Assuming a shared stylesheet -->
-    </head>
-    <body>
-        <nav id="navbar">
-            <ul>
-                <li><a href="/">Home</a></li>
-                <li><a href="/players/">Players</a></li>
-                <li><a href="/teams/">Teams</a></li>
-                <li><a href="/leaders/">Leaders</a></li>
-                <li><a href="/probabilities/">Probabilities</a></li>
-                <li><a href="/boxscores/">Boxscores</a></li>
-                <li><a href="/schedule/">Schedule</a></li>
-            </ul>
-        </nav>
+<body>
+  <!-- Navigation Bar -->
+  <nav id="navbar">
+    <a href="/">Home</a>
+    <a href="/players/">Players</a>
+    <a href="/teams/">Teams</a>
+    <a href="/leaders/">Leaders</a>
+    <a href="/probabilities/">Probabilities</a>
+    <a href="/boxscores/">Boxscores</a>
+    <a href="/schedule/">Schedule</a>
 
-        <main id="content">
-            <h1>Player dominlo01 Stats</h1>
-            <table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th>Goalie</th>
-      <th>Player_ID</th>
-      <th>Gm</th>
-      <th>Game ID</th>
-      <th>Date</th>
-      <th>Team</th>
-      <th>Location</th>
-      <th>Opp</th>
-      <th>W/L</th>
-      <th>Goals 
-Allowed</th>
-      <th>Shots 
-Against</th>
-      <th>Saves</th>
-      <th>Save 
-Percentage</th>
-      <th>TOI</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Louis Domingue</td>
-      <td>dominlo01</td>
-      <td>13</td>
-      <td>202311090NYR</td>
-      <td>11/9/2023</td>
-      <td>NYR</td>
-      <td>vs</td>
-      <td>MIN</td>
-      <td>W</td>
-      <td>1</td>
-      <td>26</td>
-      <td>25</td>
-      <td>0.96</td>
-      <td>60.0</td>
-    </tr>
-  </tbody>
-</table>
-        </main>
-    </body>
-    </html>
+    <!-- Search Bar -->
+    <div class="search-container">
+      <input type="text" id="searchInput" placeholder="Search players or teams..." oninput="searchEntities()" />
+      <ul id="suggestions"></ul> <!-- This will show the search suggestions -->
+    </div>
+  </nav>
+
+  <h1>Louis Domingue - Gamelogs</h1>
+  <table border="1">
+    <thead>
+      <tr>
+        <th>Season</th>
+        <th>Date</th>
+        <th>Team</th>
+        <th>Location</th>
+        <th>Opponent</th>
+        <th>Result</th>
+        <th>GA</th>
+        <th>SA</th>
+        <th>SV</th>
+        <th>SV%</th>
+        <th>TOI</th>
+      </tr>
+    </thead>
+    <tbody>
     
-            <h2>Penalties</h2>
-            <p>No penalties table available</p>
-            <h2>Scoring</h2>
-            
-    <h2>Goals Allowed by dominlo01</h2>
-    <table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th>Date</th>
-      <th>Tm</th>
-      <th>Location</th>
-      <th>Opp</th>
-      <th>Result</th>
-      <th>Scorer</th>
-      <th>scorer username</th>
-      <th>Assist1</th>
-      <th>ast 1 username</th>
-      <th>Assist2</th>
-      <th>ast 2 username</th>
-      <th>Goalie</th>
-      <th>goalie username</th>
-      <th>Per.</th>
-      <th>Time</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>11/9/2023</td>
-      <td>MIN</td>
-      <td>@</td>
-      <td>NYR</td>
-      <td>L</td>
-      <td>Brandon Duhaime</td>
-      <td>duhaibr01</td>
-      <td>Brock Faber</td>
-      <td>faberbr01</td>
-      <td>Ryan Hartman</td>
-      <td>hartmry01</td>
-      <td>Louis Domingue</td>
-      <td>dominlo01</td>
-      <td>2</td>
-      <td>12.55</td>
-    </tr>
-  </tbody>
-</table>
-    
-        </body>
-        </html>
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202311090NYR.html">11/9/2023</a></td>
+          <td><a href="/teams/NYR.html">NYR</a></td>
+          <td>vs</td>
+          <td><a href="/teams/MIN.html">MIN</a></td>
+          <td>W</td>
+          <td>1</td>
+          <td>26</td>
+          <td>25</td>
+          <td>96.00%</td>
+          <td>60.0</td>
+        </tr>
         
+    </tbody>
+  </table>
+</body>
+</html>
+    

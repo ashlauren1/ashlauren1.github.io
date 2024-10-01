@@ -1,2323 +1,561 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Philipp Grubauer</title>
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script src="/assets/searchBar.js" defer></script>
+  <script src="/assets/tableSort.js"></script>
+  
+  <style>
+    tr:hover {background-color: #F0FFF0;}
+  </style>
+</head>
 
-        <!DOCTYPE html>
-        <html lang="en">
-        <head>
-            <meta charset="UTF-8">
-            <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <title>grubaph01 Profile</title>
-        </head>
-        <body>
-            
-    <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Player grubaph01 Stats</title>
-        <link rel="stylesheet" href="/assets/css/styles.css"> <!-- Assuming a shared stylesheet -->
-    </head>
-    <body>
-        <nav id="navbar">
-            <ul>
-                <li><a href="/">Home</a></li>
-                <li><a href="/players/">Players</a></li>
-                <li><a href="/teams/">Teams</a></li>
-                <li><a href="/leaders/">Leaders</a></li>
-                <li><a href="/probabilities/">Probabilities</a></li>
-                <li><a href="/boxscores/">Boxscores</a></li>
-                <li><a href="/schedule/">Schedule</a></li>
-            </ul>
-        </nav>
+<body>
+  <!-- Navigation Bar -->
+  <nav id="navbar">
+    <a href="/">Home</a>
+    <a href="/players/">Players</a>
+    <a href="/teams/">Teams</a>
+    <a href="/leaders/">Leaders</a>
+    <a href="/probabilities/">Probabilities</a>
+    <a href="/boxscores/">Boxscores</a>
+    <a href="/schedule/">Schedule</a>
 
-        <main id="content">
-            <h1>Player grubaph01 Stats</h1>
-            <table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th>Goalie</th>
-      <th>Player_ID</th>
-      <th>Gm</th>
-      <th>Game ID</th>
-      <th>Date</th>
-      <th>Team</th>
-      <th>Location</th>
-      <th>Opp</th>
-      <th>W/L</th>
-      <th>Goals 
-Allowed</th>
-      <th>Shots 
-Against</th>
-      <th>Saves</th>
-      <th>Save 
-Percentage</th>
-      <th>TOI</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Philipp Grubauer</td>
-      <td>grubaph01</td>
-      <td>53</td>
-      <td>202402130NYI</td>
-      <td>2/13/2024</td>
-      <td>SEA</td>
-      <td>@</td>
-      <td>NYI</td>
-      <td>W</td>
-      <td>1</td>
-      <td>27</td>
-      <td>26</td>
-      <td>0.96</td>
-      <td>65.00</td>
-    </tr>
-    <tr>
-      <td>Philipp Grubauer</td>
-      <td>grubaph01</td>
-      <td>58</td>
-      <td>202402260SEA</td>
-      <td>2/26/2024</td>
-      <td>SEA</td>
-      <td>vs</td>
-      <td>BOS</td>
-      <td>W</td>
-      <td>3</td>
-      <td>32</td>
-      <td>29</td>
-      <td>0.91</td>
-      <td>65.00</td>
-    </tr>
-    <tr>
-      <td>Philipp Grubauer</td>
-      <td>grubaph01</td>
-      <td>18</td>
-      <td>202311160SEA</td>
-      <td>11/16/2023</td>
-      <td>SEA</td>
-      <td>vs</td>
-      <td>NYI</td>
-      <td>W</td>
-      <td>3</td>
-      <td>23</td>
-      <td>20</td>
-      <td>0.87</td>
-      <td>65.00</td>
-    </tr>
-    <tr>
-      <td>Philipp Grubauer</td>
-      <td>grubaph01</td>
-      <td>24</td>
-      <td>202311300TOR</td>
-      <td>11/30/2023</td>
-      <td>SEA</td>
-      <td>@</td>
-      <td>TOR</td>
-      <td>L-SO</td>
-      <td>3</td>
-      <td>28</td>
-      <td>25</td>
-      <td>0.89</td>
-      <td>64.73</td>
-    </tr>
-    <tr>
-      <td>Philipp Grubauer</td>
-      <td>grubaph01</td>
-      <td>64</td>
-      <td>202403120SEA</td>
-      <td>3/12/2024</td>
-      <td>SEA</td>
-      <td>vs</td>
-      <td>VEG</td>
-      <td>L-OT</td>
-      <td>5</td>
-      <td>34</td>
-      <td>29</td>
-      <td>0.85</td>
-      <td>63.02</td>
-    </tr>
-    <tr>
-      <td>Philipp Grubauer</td>
-      <td>grubaph01</td>
-      <td>10</td>
-      <td>202310300TBL</td>
-      <td>10/30/2023</td>
-      <td>SEA</td>
-      <td>@</td>
-      <td>TBL</td>
-      <td>W</td>
-      <td>3</td>
-      <td>37</td>
-      <td>34</td>
-      <td>0.92</td>
-      <td>62.88</td>
-    </tr>
-    <tr>
-      <td>Philipp Grubauer</td>
-      <td>grubaph01</td>
-      <td>77</td>
-      <td>202404090SEA</td>
-      <td>4/9/2024</td>
-      <td>SEA</td>
-      <td>vs</td>
-      <td>ARI</td>
-      <td>W</td>
-      <td>0</td>
-      <td>39</td>
-      <td>39</td>
-      <td>1.00</td>
-      <td>60.00</td>
-    </tr>
-    <tr>
-      <td>Philipp Grubauer</td>
-      <td>grubaph01</td>
-      <td>59</td>
-      <td>202402290SEA</td>
-      <td>2/29/2024</td>
-      <td>SEA</td>
-      <td>vs</td>
-      <td>PIT</td>
-      <td>W</td>
-      <td>0</td>
-      <td>33</td>
-      <td>33</td>
-      <td>1.00</td>
-      <td>60.00</td>
-    </tr>
-    <tr>
-      <td>Philipp Grubauer</td>
-      <td>grubaph01</td>
-      <td>74</td>
-      <td>202404010SJS</td>
-      <td>4/1/2024</td>
-      <td>SEA</td>
-      <td>@</td>
-      <td>SJS</td>
-      <td>W</td>
-      <td>2</td>
-      <td>26</td>
-      <td>24</td>
-      <td>0.92</td>
-      <td>60.00</td>
-    </tr>
-    <tr>
-      <td>Philipp Grubauer</td>
-      <td>grubaph01</td>
-      <td>56</td>
-      <td>202402220SEA</td>
-      <td>2/22/2024</td>
-      <td>SEA</td>
-      <td>vs</td>
-      <td>VAN</td>
-      <td>W</td>
-      <td>2</td>
-      <td>21</td>
-      <td>19</td>
-      <td>0.91</td>
-      <td>60.00</td>
-    </tr>
-    <tr>
-      <td>Philipp Grubauer</td>
-      <td>grubaph01</td>
-      <td>14</td>
-      <td>202311090COL</td>
-      <td>11/9/2023</td>
-      <td>SEA</td>
-      <td>@</td>
-      <td>COL</td>
-      <td>W</td>
-      <td>3</td>
-      <td>26</td>
-      <td>23</td>
-      <td>0.89</td>
-      <td>60.00</td>
-    </tr>
-    <tr>
-      <td>Philipp Grubauer</td>
-      <td>grubaph01</td>
-      <td>19</td>
-      <td>202311180VAN</td>
-      <td>11/18/2023</td>
-      <td>SEA</td>
-      <td>@</td>
-      <td>VAN</td>
-      <td>W</td>
-      <td>3</td>
-      <td>24</td>
-      <td>21</td>
-      <td>0.88</td>
-      <td>60.00</td>
-    </tr>
-    <tr>
-      <td>Philipp Grubauer</td>
-      <td>grubaph01</td>
-      <td>6</td>
-      <td>202310210SEA</td>
-      <td>10/21/2023</td>
-      <td>SEA</td>
-      <td>vs</td>
-      <td>NYR</td>
-      <td>L</td>
-      <td>4</td>
-      <td>27</td>
-      <td>23</td>
-      <td>0.85</td>
-      <td>60.00</td>
-    </tr>
-    <tr>
-      <td>Philipp Grubauer</td>
-      <td>grubaph01</td>
-      <td>75</td>
-      <td>202404030LAK</td>
-      <td>4/3/2024</td>
-      <td>SEA</td>
-      <td>@</td>
-      <td>LAK</td>
-      <td>L</td>
-      <td>5</td>
-      <td>27</td>
-      <td>22</td>
-      <td>0.82</td>
-      <td>60.00</td>
-    </tr>
-    <tr>
-      <td>Philipp Grubauer</td>
-      <td>grubaph01</td>
-      <td>11</td>
-      <td>202311020SEA</td>
-      <td>11/2/2023</td>
-      <td>SEA</td>
-      <td>vs</td>
-      <td>NSH</td>
-      <td>W</td>
-      <td>2</td>
-      <td>34</td>
-      <td>32</td>
-      <td>0.94</td>
-      <td>59.90</td>
-    </tr>
-    <tr>
-      <td>Philipp Grubauer</td>
-      <td>grubaph01</td>
-      <td>72</td>
-      <td>202403280SEA</td>
-      <td>3/28/2024</td>
-      <td>SEA</td>
-      <td>vs</td>
-      <td>ANA</td>
-      <td>W</td>
-      <td>2</td>
-      <td>23</td>
-      <td>21</td>
-      <td>0.91</td>
-      <td>59.67</td>
-    </tr>
-    <tr>
-      <td>Philipp Grubauer</td>
-      <td>grubaph01</td>
-      <td>4</td>
-      <td>202310170SEA</td>
-      <td>10/17/2023</td>
-      <td>SEA</td>
-      <td>vs</td>
-      <td>COL</td>
-      <td>L</td>
-      <td>3</td>
-      <td>27</td>
-      <td>24</td>
-      <td>0.89</td>
-      <td>59.65</td>
-    </tr>
-    <tr>
-      <td>Philipp Grubauer</td>
-      <td>grubaph01</td>
-      <td>1</td>
-      <td>202310100VEG</td>
-      <td>10/10/2023</td>
-      <td>SEA</td>
-      <td>@</td>
-      <td>VEG</td>
-      <td>L</td>
-      <td>3</td>
-      <td>27</td>
-      <td>24</td>
-      <td>0.89</td>
-      <td>59.62</td>
-    </tr>
-    <tr>
-      <td>Philipp Grubauer</td>
-      <td>grubaph01</td>
-      <td>68</td>
-      <td>202403210VEG</td>
-      <td>3/21/2024</td>
-      <td>SEA</td>
-      <td>@</td>
-      <td>VEG</td>
-      <td>L</td>
-      <td>2</td>
-      <td>36</td>
-      <td>34</td>
-      <td>0.94</td>
-      <td>59.30</td>
-    </tr>
-    <tr>
-      <td>Philipp Grubauer</td>
-      <td>grubaph01</td>
-      <td>81</td>
-      <td>202404160WPG</td>
-      <td>4/16/2024</td>
-      <td>SEA</td>
-      <td>@</td>
-      <td>WPG</td>
-      <td>L</td>
-      <td>4</td>
-      <td>24</td>
-      <td>20</td>
-      <td>0.83</td>
-      <td>59.23</td>
-    </tr>
-    <tr>
-      <td>Philipp Grubauer</td>
-      <td>grubaph01</td>
-      <td>61</td>
-      <td>202403040CGY</td>
-      <td>3/4/2024</td>
-      <td>SEA</td>
-      <td>@</td>
-      <td>CGY</td>
-      <td>W</td>
-      <td>2</td>
-      <td>37</td>
-      <td>35</td>
-      <td>0.95</td>
-      <td>59.12</td>
-    </tr>
-    <tr>
-      <td>Philipp Grubauer</td>
-      <td>grubaph01</td>
-      <td>26</td>
-      <td>202312040MTL</td>
-      <td>12/4/2023</td>
-      <td>SEA</td>
-      <td>@</td>
-      <td>MTL</td>
-      <td>L</td>
-      <td>3</td>
-      <td>29</td>
-      <td>26</td>
-      <td>0.90</td>
-      <td>59.02</td>
-    </tr>
-    <tr>
-      <td>Philipp Grubauer</td>
-      <td>grubaph01</td>
-      <td>79</td>
-      <td>202404130DAL</td>
-      <td>4/13/2024</td>
-      <td>SEA</td>
-      <td>@</td>
-      <td>DAL</td>
-      <td>L</td>
-      <td>3</td>
-      <td>30</td>
-      <td>27</td>
-      <td>0.90</td>
-      <td>58.85</td>
-    </tr>
-    <tr>
-      <td>Philipp Grubauer</td>
-      <td>grubaph01</td>
-      <td>76</td>
-      <td>202404050ANA</td>
-      <td>4/5/2024</td>
-      <td>SEA</td>
-      <td>@</td>
-      <td>ANA</td>
-      <td>W</td>
-      <td>1</td>
-      <td>17</td>
-      <td>16</td>
-      <td>0.94</td>
-      <td>58.83</td>
-    </tr>
-    <tr>
-      <td>Philipp Grubauer</td>
-      <td>grubaph01</td>
-      <td>12</td>
-      <td>202311040SEA</td>
-      <td>11/4/2023</td>
-      <td>SEA</td>
-      <td>vs</td>
-      <td>CGY</td>
-      <td>L</td>
-      <td>4</td>
-      <td>29</td>
-      <td>25</td>
-      <td>0.86</td>
-      <td>58.70</td>
-    </tr>
-    <tr>
-      <td>Philipp Grubauer</td>
-      <td>grubaph01</td>
-      <td>60</td>
-      <td>202403020SEA</td>
-      <td>3/2/2024</td>
-      <td>SEA</td>
-      <td>vs</td>
-      <td>EDM</td>
-      <td>L</td>
-      <td>2</td>
-      <td>24</td>
-      <td>22</td>
-      <td>0.92</td>
-      <td>58.35</td>
-    </tr>
-    <tr>
-      <td>Philipp Grubauer</td>
-      <td>grubaph01</td>
-      <td>66</td>
-      <td>202403160SEA</td>
-      <td>3/16/2024</td>
-      <td>SEA</td>
-      <td>vs</td>
-      <td>NSH</td>
-      <td>L</td>
-      <td>3</td>
-      <td>29</td>
-      <td>26</td>
-      <td>0.90</td>
-      <td>58.12</td>
-    </tr>
-    <tr>
-      <td>Philipp Grubauer</td>
-      <td>grubaph01</td>
-      <td>27</td>
-      <td>202312070SEA</td>
-      <td>12/7/2023</td>
-      <td>SEA</td>
-      <td>vs</td>
-      <td>NJD</td>
-      <td>L</td>
-      <td>2</td>
-      <td>17</td>
-      <td>15</td>
-      <td>0.88</td>
-      <td>57.95</td>
-    </tr>
-    <tr>
-      <td>Philipp Grubauer</td>
-      <td>grubaph01</td>
-      <td>2</td>
-      <td>202310120NSH</td>
-      <td>10/12/2023</td>
-      <td>SEA</td>
-      <td>@</td>
-      <td>NSH</td>
-      <td>L</td>
-      <td>2</td>
-      <td>34</td>
-      <td>32</td>
-      <td>0.94</td>
-      <td>57.87</td>
-    </tr>
-    <tr>
-      <td>Philipp Grubauer</td>
-      <td>grubaph01</td>
-      <td>23</td>
-      <td>202311280CHI</td>
-      <td>11/28/2023</td>
-      <td>SEA</td>
-      <td>@</td>
-      <td>CHI</td>
-      <td>L</td>
-      <td>4</td>
-      <td>23</td>
-      <td>19</td>
-      <td>0.83</td>
-      <td>57.23</td>
-    </tr>
-    <tr>
-      <td>Philipp Grubauer</td>
-      <td>grubaph01</td>
-      <td>67</td>
-      <td>202403180SEA</td>
-      <td>3/18/2024</td>
-      <td>SEA</td>
-      <td>vs</td>
-      <td>BUF</td>
-      <td>L</td>
-      <td>3</td>
-      <td>26</td>
-      <td>23</td>
-      <td>0.89</td>
-      <td>54.32</td>
-    </tr>
-    <tr>
-      <td>Philipp Grubauer</td>
-      <td>grubaph01</td>
-      <td>28</td>
-      <td>202312090SEA</td>
-      <td>12/9/2023</td>
-      <td>SEA</td>
-      <td>vs</td>
-      <td>TBL</td>
-      <td>L-OT</td>
-      <td>2</td>
-      <td>23</td>
-      <td>21</td>
-      <td>0.91</td>
-      <td>39.48</td>
-    </tr>
-    <tr>
-      <td>Philipp Grubauer</td>
-      <td>grubaph01</td>
-      <td>57</td>
-      <td>202402240SEA</td>
-      <td>2/24/2024</td>
-      <td>SEA</td>
-      <td>vs</td>
-      <td>MIN</td>
-      <td>L</td>
-      <td>1</td>
-      <td>18</td>
-      <td>17</td>
-      <td>0.94</td>
-      <td>37.77</td>
-    </tr>
-    <tr>
-      <td>Philipp Grubauer</td>
-      <td>grubaph01</td>
-      <td>15</td>
-      <td>202311110SEA</td>
-      <td>11/11/2023</td>
-      <td>SEA</td>
-      <td>vs</td>
-      <td>EDM</td>
-      <td>L</td>
-      <td>4</td>
-      <td>17</td>
-      <td>13</td>
-      <td>0.77</td>
-      <td>20.00</td>
-    </tr>
-    <tr>
-      <td>Philipp Grubauer</td>
-      <td>grubaph01</td>
-      <td>20</td>
-      <td>202311200SEA</td>
-      <td>11/20/2023</td>
-      <td>SEA</td>
-      <td>vs</td>
-      <td>CGY</td>
-      <td>L-OT</td>
-      <td>2</td>
-      <td>7</td>
-      <td>5</td>
-      <td>0.71</td>
-      <td>20.00</td>
-    </tr>
-    <tr>
-      <td>Philipp Grubauer</td>
-      <td>grubaph01</td>
-      <td>70</td>
-      <td>202403240SEA</td>
-      <td>3/24/2024</td>
-      <td>SEA</td>
-      <td>vs</td>
-      <td>MTL</td>
-      <td>L</td>
-      <td>4</td>
-      <td>6</td>
-      <td>2</td>
-      <td>0.33</td>
-      <td>18.00</td>
-    </tr>
-  </tbody>
-</table>
-        </main>
-    </body>
-    </html>
+    <!-- Search Bar -->
+    <div class="search-container">
+      <input type="text" id="searchInput" placeholder="Search players or teams..." oninput="searchEntities()" />
+      <ul id="suggestions"></ul> <!-- This will show the search suggestions -->
+    </div>
+  </nav>
+
+  <h1>Philipp Grubauer - Gamelogs</h1>
+  <table border="1">
+    <thead>
+      <tr>
+        <th>Season</th>
+        <th>Date</th>
+        <th>Team</th>
+        <th>Location</th>
+        <th>Opponent</th>
+        <th>Result</th>
+        <th>GA</th>
+        <th>SA</th>
+        <th>SV</th>
+        <th>SV%</th>
+        <th>TOI</th>
+      </tr>
+    </thead>
+    <tbody>
     
-            <h2>Penalties</h2>
-            
-    <h2>Penalties for Player grubaph01</h2>
-    <table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th>Game ID</th>
-      <th>Period</th>
-      <th>Time</th>
-      <th>Team</th>
-      <th>Player</th>
-      <th>Player_ID</th>
-      <th>Penalty</th>
-      <th>PIM</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>202311280CHI</td>
-      <td>2nd Period</td>
-      <td>18.18</td>
-      <td>SEA</td>
-      <td>Philipp Grubauer</td>
-      <td>grubaph01</td>
-      <td>Unsportsmanlike Conduct</td>
-      <td>2 min</td>
-    </tr>
-    <tr>
-      <td>202311020SEA</td>
-      <td>2nd Period</td>
-      <td>17.83</td>
-      <td>SEA</td>
-      <td>Philipp Grubauer</td>
-      <td>grubaph01</td>
-      <td>Tripping</td>
-      <td>2 min</td>
-    </tr>
-  </tbody>
-</table>
-    
-            <h2>Scoring</h2>
-            
-    <h2>Goals Allowed by grubaph01</h2>
-    <table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th>Date</th>
-      <th>Tm</th>
-      <th>Location</th>
-      <th>Opp</th>
-      <th>Result</th>
-      <th>Scorer</th>
-      <th>scorer username</th>
-      <th>Assist1</th>
-      <th>ast 1 username</th>
-      <th>Assist2</th>
-      <th>ast 2 username</th>
-      <th>Goalie</th>
-      <th>goalie username</th>
-      <th>Per.</th>
-      <th>Time</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>10/10/2023</td>
-      <td>VEG</td>
-      <td>vs</td>
-      <td>SEA</td>
-      <td>W</td>
-      <td>Chandler Stephenson</td>
-      <td>stephch02</td>
-      <td>Brett Howden</td>
-      <td>howdebr01</td>
-      <td>Mark Stone</td>
-      <td>stonema01</td>
-      <td>Philipp Grubauer</td>
-      <td>grubaph01</td>
-      <td>1</td>
-      <td>7.27</td>
-    </tr>
-    <tr>
-      <td>10/10/2023</td>
-      <td>VEG</td>
-      <td>vs</td>
-      <td>SEA</td>
-      <td>W</td>
-      <td>Jonathan Marchessault</td>
-      <td>audymjo01</td>
-      <td>-</td>
-      <td>NaN</td>
-      <td>-</td>
-      <td>NaN</td>
-      <td>Philipp Grubauer</td>
-      <td>grubaph01</td>
-      <td>1</td>
-      <td>14.95</td>
-    </tr>
-    <tr>
-      <td>10/10/2023</td>
-      <td>VEG</td>
-      <td>vs</td>
-      <td>SEA</td>
-      <td>W</td>
-      <td>Ivan Barbashev</td>
-      <td>barbaiv01</td>
-      <td>Brayden McNabb</td>
-      <td>mcnabbr01</td>
-      <td>-</td>
-      <td>NaN</td>
-      <td>Philipp Grubauer</td>
-      <td>grubaph01</td>
-      <td>2</td>
-      <td>1.33</td>
-    </tr>
-    <tr>
-      <td>10/12/2023</td>
-      <td>NSH</td>
-      <td>vs</td>
-      <td>SEA</td>
-      <td>W</td>
-      <td>Colton Sissons</td>
-      <td>sissoco01</td>
-      <td>Cole Smith</td>
-      <td>smithco02</td>
-      <td>-</td>
-      <td>NaN</td>
-      <td>Philipp Grubauer</td>
-      <td>grubaph01</td>
-      <td>2</td>
-      <td>10.40</td>
-    </tr>
-    <tr>
-      <td>10/12/2023</td>
-      <td>NSH</td>
-      <td>vs</td>
-      <td>SEA</td>
-      <td>W</td>
-      <td>Gustav Nyquist</td>
-      <td>nyquigu01</td>
-      <td>Alexandre Carrier</td>
-      <td>carrial01</td>
-      <td>Ryan McDonagh</td>
-      <td>mcdonry01</td>
-      <td>Philipp Grubauer</td>
-      <td>grubaph01</td>
-      <td>3</td>
-      <td>10.05</td>
-    </tr>
-    <tr>
-      <td>10/17/2023</td>
-      <td>COL</td>
-      <td>@</td>
-      <td>SEA</td>
-      <td>W</td>
-      <td>Artturi Lehkonen</td>
-      <td>lehkoar01</td>
-      <td>-</td>
-      <td>NaN</td>
-      <td>-</td>
-      <td>NaN</td>
-      <td>Philipp Grubauer</td>
-      <td>grubaph01</td>
-      <td>2</td>
-      <td>3.83</td>
-    </tr>
-    <tr>
-      <td>10/17/2023</td>
-      <td>COL</td>
-      <td>@</td>
-      <td>SEA</td>
-      <td>W</td>
-      <td>Logan O'Connor</td>
-      <td>oconnlo01</td>
-      <td>Cale Makar</td>
-      <td>makarca01</td>
-      <td>Devon Toews</td>
-      <td>toewsde01</td>
-      <td>Philipp Grubauer</td>
-      <td>grubaph01</td>
-      <td>2</td>
-      <td>11.83</td>
-    </tr>
-    <tr>
-      <td>10/17/2023</td>
-      <td>COL</td>
-      <td>@</td>
-      <td>SEA</td>
-      <td>W</td>
-      <td>Mikko Rantanen</td>
-      <td>rantami01</td>
-      <td>Samuel Girard</td>
-      <td>girarsa01</td>
-      <td>Andrew Cogliano</td>
-      <td>coglian01</td>
-      <td>Philipp Grubauer</td>
-      <td>grubaph01</td>
-      <td>3</td>
-      <td>13.75</td>
-    </tr>
-    <tr>
-      <td>10/21/2023</td>
-      <td>NYR</td>
-      <td>@</td>
-      <td>SEA</td>
-      <td>W</td>
-      <td>Artemi Panarin</td>
-      <td>panarar01</td>
-      <td>Filip Chytil</td>
-      <td>chytifi01</td>
-      <td>-</td>
-      <td>NaN</td>
-      <td>Philipp Grubauer</td>
-      <td>grubaph01</td>
-      <td>1</td>
-      <td>12.25</td>
-    </tr>
-    <tr>
-      <td>10/21/2023</td>
-      <td>NYR</td>
-      <td>@</td>
-      <td>SEA</td>
-      <td>W</td>
-      <td>Kaapo Kakko</td>
-      <td>kakkoka01</td>
-      <td>Jacob Trouba</td>
-      <td>troubja01</td>
-      <td>K'Andre Miller</td>
-      <td>milleka01</td>
-      <td>Philipp Grubauer</td>
-      <td>grubaph01</td>
-      <td>2</td>
-      <td>13.03</td>
-    </tr>
-    <tr>
-      <td>10/21/2023</td>
-      <td>NYR</td>
-      <td>@</td>
-      <td>SEA</td>
-      <td>W</td>
-      <td>Alexis Lafrenière</td>
-      <td>lafreal01</td>
-      <td>Filip Chytil</td>
-      <td>chytifi01</td>
-      <td>-</td>
-      <td>NaN</td>
-      <td>Philipp Grubauer</td>
-      <td>grubaph01</td>
-      <td>2</td>
-      <td>17.98</td>
-    </tr>
-    <tr>
-      <td>10/21/2023</td>
-      <td>NYR</td>
-      <td>@</td>
-      <td>SEA</td>
-      <td>W</td>
-      <td>Artemi Panarin</td>
-      <td>panarar01</td>
-      <td>Filip Chytil</td>
-      <td>chytifi01</td>
-      <td>K'Andre Miller</td>
-      <td>milleka01</td>
-      <td>Philipp Grubauer</td>
-      <td>grubaph01</td>
-      <td>3</td>
-      <td>5.50</td>
-    </tr>
-    <tr>
-      <td>10/30/2023</td>
-      <td>TBL</td>
-      <td>vs</td>
-      <td>SEA</td>
-      <td>L</td>
-      <td>Tanner Jeannot</td>
-      <td>jeannta01</td>
-      <td>Haydn Fleury</td>
-      <td>fleurha01</td>
-      <td>Darren Raddysh</td>
-      <td>raddyda01</td>
-      <td>Philipp Grubauer</td>
-      <td>grubaph01</td>
-      <td>1</td>
-      <td>13.62</td>
-    </tr>
-    <tr>
-      <td>10/30/2023</td>
-      <td>TBL</td>
-      <td>vs</td>
-      <td>SEA</td>
-      <td>L</td>
-      <td>Alex Barré-Boulet</td>
-      <td>barreal01</td>
-      <td>Brandon Hagel</td>
-      <td>hagelbr01</td>
-      <td>Tanner Jeannot</td>
-      <td>jeannta01</td>
-      <td>Philipp Grubauer</td>
-      <td>grubaph01</td>
-      <td>2</td>
-      <td>3.67</td>
-    </tr>
-    <tr>
-      <td>10/30/2023</td>
-      <td>TBL</td>
-      <td>vs</td>
-      <td>SEA</td>
-      <td>L</td>
-      <td>Brandon Hagel</td>
-      <td>hagelbr01</td>
-      <td>Anthony Cirelli</td>
-      <td>cirelan01</td>
-      <td>Alex Barré-Boulet</td>
-      <td>barreal01</td>
-      <td>Philipp Grubauer</td>
-      <td>grubaph01</td>
-      <td>3</td>
-      <td>14.53</td>
-    </tr>
-    <tr>
-      <td>11/2/2023</td>
-      <td>NSH</td>
-      <td>@</td>
-      <td>SEA</td>
-      <td>L</td>
-      <td>Thomas Novak</td>
-      <td>novakth01</td>
-      <td>Colton Sissons</td>
-      <td>sissoco01</td>
-      <td>Luke Evangelista</td>
-      <td>evanglu01</td>
-      <td>Philipp Grubauer</td>
-      <td>grubaph01</td>
-      <td>1</td>
-      <td>6.58</td>
-    </tr>
-    <tr>
-      <td>11/2/2023</td>
-      <td>NSH</td>
-      <td>@</td>
-      <td>SEA</td>
-      <td>L</td>
-      <td>Roman Josi</td>
-      <td>josiro01</td>
-      <td>Tyson Barrie</td>
-      <td>barrity01</td>
-      <td>Filip Forsberg</td>
-      <td>forsbfi01</td>
-      <td>Philipp Grubauer</td>
-      <td>grubaph01</td>
-      <td>2</td>
-      <td>16.57</td>
-    </tr>
-    <tr>
-      <td>11/4/2023</td>
-      <td>CGY</td>
-      <td>@</td>
-      <td>SEA</td>
-      <td>W</td>
-      <td>Martin Pospisil</td>
-      <td>pospima01</td>
-      <td>Nazem Kadri</td>
-      <td>kadrina01</td>
-      <td>Dillon Dubé</td>
-      <td>dubedi01</td>
-      <td>Philipp Grubauer</td>
-      <td>grubaph01</td>
-      <td>1</td>
-      <td>13.98</td>
-    </tr>
-    <tr>
-      <td>11/4/2023</td>
-      <td>CGY</td>
-      <td>@</td>
-      <td>SEA</td>
-      <td>W</td>
-      <td>Noah Hanifin</td>
-      <td>hanifno01</td>
-      <td>Jonathan Huberdeau</td>
-      <td>huberjo01</td>
-      <td>Connor Zary</td>
-      <td>zaryco01</td>
-      <td>Philipp Grubauer</td>
-      <td>grubaph01</td>
-      <td>2</td>
-      <td>19.00</td>
-    </tr>
-    <tr>
-      <td>11/4/2023</td>
-      <td>CGY</td>
-      <td>@</td>
-      <td>SEA</td>
-      <td>W</td>
-      <td>Yegor Sharangovich</td>
-      <td>sharaye01</td>
-      <td>Nikita Zadorov</td>
-      <td>zadorni01</td>
-      <td>Nick DeSimone</td>
-      <td>desimni01</td>
-      <td>Philipp Grubauer</td>
-      <td>grubaph01</td>
-      <td>3</td>
-      <td>1.55</td>
-    </tr>
-    <tr>
-      <td>11/4/2023</td>
-      <td>CGY</td>
-      <td>@</td>
-      <td>SEA</td>
-      <td>W</td>
-      <td>Mikael Backlund</td>
-      <td>backlmi01</td>
-      <td>Walker Duehr</td>
-      <td>duehrwa01</td>
-      <td>A.J. Greer</td>
-      <td>greeraj01</td>
-      <td>Philipp Grubauer</td>
-      <td>grubaph01</td>
-      <td>3</td>
-      <td>4.00</td>
-    </tr>
-    <tr>
-      <td>11/9/2023</td>
-      <td>COL</td>
-      <td>vs</td>
-      <td>SEA</td>
-      <td>L</td>
-      <td>Bowen Byram</td>
-      <td>byrambo01</td>
-      <td>Nathan MacKinnon</td>
-      <td>mackina01</td>
-      <td>Artturi Lehkonen</td>
-      <td>lehkoar01</td>
-      <td>Philipp Grubauer</td>
-      <td>grubaph01</td>
-      <td>2</td>
-      <td>4.95</td>
-    </tr>
-    <tr>
-      <td>11/9/2023</td>
-      <td>COL</td>
-      <td>vs</td>
-      <td>SEA</td>
-      <td>L</td>
-      <td>Nathan MacKinnon</td>
-      <td>mackina01</td>
-      <td>Cale Makar</td>
-      <td>makarca01</td>
-      <td>Mikko Rantanen</td>
-      <td>rantami01</td>
-      <td>Philipp Grubauer</td>
-      <td>grubaph01</td>
-      <td>2</td>
-      <td>15.67</td>
-    </tr>
-    <tr>
-      <td>11/9/2023</td>
-      <td>COL</td>
-      <td>vs</td>
-      <td>SEA</td>
-      <td>L</td>
-      <td>Valeri Nichushkin</td>
-      <td>nichuva01</td>
-      <td>Devon Toews</td>
-      <td>toewsde01</td>
-      <td>Nathan MacKinnon</td>
-      <td>mackina01</td>
-      <td>Philipp Grubauer</td>
-      <td>grubaph01</td>
-      <td>3</td>
-      <td>12.25</td>
-    </tr>
-    <tr>
-      <td>11/11/2023</td>
-      <td>EDM</td>
-      <td>@</td>
-      <td>SEA</td>
-      <td>W</td>
-      <td>Zach Hyman</td>
-      <td>hymanza01</td>
-      <td>Evander Kane</td>
-      <td>kaneev01</td>
-      <td>-</td>
-      <td>NaN</td>
-      <td>Philipp Grubauer</td>
-      <td>grubaph01</td>
-      <td>1</td>
-      <td>9.93</td>
-    </tr>
-    <tr>
-      <td>11/11/2023</td>
-      <td>EDM</td>
-      <td>@</td>
-      <td>SEA</td>
-      <td>W</td>
-      <td>Zach Hyman</td>
-      <td>hymanza01</td>
-      <td>Evan Bouchard</td>
-      <td>bouchev01</td>
-      <td>Ryan Nugent-Hopkins</td>
-      <td>nugenry01</td>
-      <td>Philipp Grubauer</td>
-      <td>grubaph01</td>
-      <td>1</td>
-      <td>14.15</td>
-    </tr>
-    <tr>
-      <td>11/11/2023</td>
-      <td>EDM</td>
-      <td>@</td>
-      <td>SEA</td>
-      <td>W</td>
-      <td>Zach Hyman</td>
-      <td>hymanza01</td>
-      <td>Evander Kane</td>
-      <td>kaneev01</td>
-      <td>-</td>
-      <td>NaN</td>
-      <td>Philipp Grubauer</td>
-      <td>grubaph01</td>
-      <td>1</td>
-      <td>18.67</td>
-    </tr>
-    <tr>
-      <td>11/11/2023</td>
-      <td>EDM</td>
-      <td>@</td>
-      <td>SEA</td>
-      <td>W</td>
-      <td>Dylan Holloway</td>
-      <td>hollody01</td>
-      <td>Ryan McLeod</td>
-      <td>mcleory01</td>
-      <td>Cody Ceci</td>
-      <td>cecico01</td>
-      <td>Philipp Grubauer</td>
-      <td>grubaph01</td>
-      <td>1</td>
-      <td>19.70</td>
-    </tr>
-    <tr>
-      <td>11/16/2023</td>
-      <td>NYI</td>
-      <td>@</td>
-      <td>SEA</td>
-      <td>L</td>
-      <td>Anders Lee</td>
-      <td>leean01</td>
-      <td>Bo Horvat</td>
-      <td>horvabo01</td>
-      <td>Brock Nelson</td>
-      <td>nelsobr01</td>
-      <td>Philipp Grubauer</td>
-      <td>grubaph01</td>
-      <td>1</td>
-      <td>3.77</td>
-    </tr>
-    <tr>
-      <td>11/16/2023</td>
-      <td>NYI</td>
-      <td>@</td>
-      <td>SEA</td>
-      <td>L</td>
-      <td>Casey Cizikas</td>
-      <td>cizikca01</td>
-      <td>Mathew Barzal</td>
-      <td>barzama01</td>
-      <td>Ryan Pulock</td>
-      <td>pulocry01</td>
-      <td>Philipp Grubauer</td>
-      <td>grubaph01</td>
-      <td>2</td>
-      <td>14.42</td>
-    </tr>
-    <tr>
-      <td>11/16/2023</td>
-      <td>NYI</td>
-      <td>@</td>
-      <td>SEA</td>
-      <td>L</td>
-      <td>Noah Dobson</td>
-      <td>dobsono01</td>
-      <td>Mathew Barzal</td>
-      <td>barzama01</td>
-      <td>Kyle Palmieri</td>
-      <td>palmiky01</td>
-      <td>Philipp Grubauer</td>
-      <td>grubaph01</td>
-      <td>3</td>
-      <td>1.80</td>
-    </tr>
-    <tr>
-      <td>11/18/2023</td>
-      <td>VAN</td>
-      <td>vs</td>
-      <td>SEA</td>
-      <td>L</td>
-      <td>J.T. Miller</td>
-      <td>millejt01</td>
-      <td>Tyler Myers</td>
-      <td>myersty01</td>
-      <td>Phillip Di Giuseppe</td>
-      <td>digiuph01</td>
-      <td>Philipp Grubauer</td>
-      <td>grubaph01</td>
-      <td>1</td>
-      <td>5.57</td>
-    </tr>
-    <tr>
-      <td>11/18/2023</td>
-      <td>VAN</td>
-      <td>vs</td>
-      <td>SEA</td>
-      <td>L</td>
-      <td>Quinn Hughes</td>
-      <td>hughequ01</td>
-      <td>Filip Hronek</td>
-      <td>hronefi01</td>
-      <td>Elias Pettersson</td>
-      <td>petteel01</td>
-      <td>Philipp Grubauer</td>
-      <td>grubaph01</td>
-      <td>2</td>
-      <td>15.80</td>
-    </tr>
-    <tr>
-      <td>11/18/2023</td>
-      <td>VAN</td>
-      <td>vs</td>
-      <td>SEA</td>
-      <td>L</td>
-      <td>Nils Höglander</td>
-      <td>hoglani01</td>
-      <td>Tyler Myers</td>
-      <td>myersty01</td>
-      <td>Ilya Mikheyev</td>
-      <td>mikheil01</td>
-      <td>Philipp Grubauer</td>
-      <td>grubaph01</td>
-      <td>3</td>
-      <td>19.82</td>
-    </tr>
-    <tr>
-      <td>11/20/2023</td>
-      <td>CGY</td>
-      <td>@</td>
-      <td>SEA</td>
-      <td>W</td>
-      <td>Elias Lindholm</td>
-      <td>lindhel01</td>
-      <td>Rasmus Andersson</td>
-      <td>anderra01</td>
-      <td>MacKenzie Weegar</td>
-      <td>weegama01</td>
-      <td>Philipp Grubauer</td>
-      <td>grubaph01</td>
-      <td>1</td>
-      <td>1.27</td>
-    </tr>
-    <tr>
-      <td>11/20/2023</td>
-      <td>CGY</td>
-      <td>@</td>
-      <td>SEA</td>
-      <td>W</td>
-      <td>Jonathan Huberdeau</td>
-      <td>huberjo01</td>
-      <td>Rasmus Andersson</td>
-      <td>anderra01</td>
-      <td>Nazem Kadri</td>
-      <td>kadrina01</td>
-      <td>Philipp Grubauer</td>
-      <td>grubaph01</td>
-      <td>1</td>
-      <td>11.67</td>
-    </tr>
-    <tr>
-      <td>11/28/2023</td>
-      <td>CHI</td>
-      <td>vs</td>
-      <td>SEA</td>
-      <td>W</td>
-      <td>Boris Katchouk</td>
-      <td>katchbo01</td>
-      <td>Ryan Donato</td>
-      <td>donatry01</td>
-      <td>Seth Jones</td>
-      <td>jonesse01</td>
-      <td>Philipp Grubauer</td>
-      <td>grubaph01</td>
-      <td>1</td>
-      <td>8.90</td>
-    </tr>
-    <tr>
-      <td>11/28/2023</td>
-      <td>CHI</td>
-      <td>vs</td>
-      <td>SEA</td>
-      <td>W</td>
-      <td>Jason Dickinson</td>
-      <td>dickija01</td>
-      <td>Isaak Phillips</td>
-      <td>phillis01</td>
-      <td>Joey Anderson</td>
-      <td>anderjo08</td>
-      <td>Philipp Grubauer</td>
-      <td>grubaph01</td>
-      <td>1</td>
-      <td>10.38</td>
-    </tr>
-    <tr>
-      <td>11/28/2023</td>
-      <td>CHI</td>
-      <td>vs</td>
-      <td>SEA</td>
-      <td>W</td>
-      <td>Tyler Johnson</td>
-      <td>johnsty01</td>
-      <td>Taylor Raddysh</td>
-      <td>raddyta01</td>
-      <td>Lukas Reichel</td>
-      <td>reichlu01</td>
-      <td>Philipp Grubauer</td>
-      <td>grubaph01</td>
-      <td>2</td>
-      <td>4.37</td>
-    </tr>
-    <tr>
-      <td>11/28/2023</td>
-      <td>CHI</td>
-      <td>vs</td>
-      <td>SEA</td>
-      <td>W</td>
-      <td>MacKenzie Entwistle</td>
-      <td>entwima01</td>
-      <td>Joey Anderson</td>
-      <td>anderjo08</td>
-      <td>-</td>
-      <td>NaN</td>
-      <td>Philipp Grubauer</td>
-      <td>grubaph01</td>
-      <td>2</td>
-      <td>10.72</td>
-    </tr>
-    <tr>
-      <td>11/30/2023</td>
-      <td>TOR</td>
-      <td>vs</td>
-      <td>SEA</td>
-      <td>W</td>
-      <td>Mitch Marner</td>
-      <td>marnemi01</td>
-      <td>William Nylander</td>
-      <td>nylanwi01</td>
-      <td>Auston Matthews</td>
-      <td>matthau01</td>
-      <td>Philipp Grubauer</td>
-      <td>grubaph01</td>
-      <td>1</td>
-      <td>6.57</td>
-    </tr>
-    <tr>
-      <td>11/30/2023</td>
-      <td>TOR</td>
-      <td>vs</td>
-      <td>SEA</td>
-      <td>W</td>
-      <td>Mitch Marner</td>
-      <td>marnemi01</td>
-      <td>Auston Matthews</td>
-      <td>matthau01</td>
-      <td>Conor Timmins</td>
-      <td>timmico01</td>
-      <td>Philipp Grubauer</td>
-      <td>grubaph01</td>
-      <td>2</td>
-      <td>0.35</td>
-    </tr>
-    <tr>
-      <td>11/30/2023</td>
-      <td>TOR</td>
-      <td>vs</td>
-      <td>SEA</td>
-      <td>W</td>
-      <td>Mitch Marner</td>
-      <td>marnemi01</td>
-      <td>Jake McCabe</td>
-      <td>mccabja01</td>
-      <td>-</td>
-      <td>NaN</td>
-      <td>Philipp Grubauer</td>
-      <td>grubaph01</td>
-      <td>2</td>
-      <td>16.02</td>
-    </tr>
-    <tr>
-      <td>12/4/2023</td>
-      <td>MTL</td>
-      <td>vs</td>
-      <td>SEA</td>
-      <td>W</td>
-      <td>Sean Monahan</td>
-      <td>monahse01</td>
-      <td>Josh Anderson</td>
-      <td>anderjo05</td>
-      <td>Jake Evans</td>
-      <td>evansja02</td>
-      <td>Philipp Grubauer</td>
-      <td>grubaph01</td>
-      <td>1</td>
-      <td>4.05</td>
-    </tr>
-    <tr>
-      <td>12/4/2023</td>
-      <td>MTL</td>
-      <td>vs</td>
-      <td>SEA</td>
-      <td>W</td>
-      <td>Tanner Pearson</td>
-      <td>pearsta01</td>
-      <td>Brendan Gallagher</td>
-      <td>gallabr01</td>
-      <td>Christian Dvorak</td>
-      <td>dvorach01</td>
-      <td>Philipp Grubauer</td>
-      <td>grubaph01</td>
-      <td>2</td>
-      <td>3.20</td>
-    </tr>
-    <tr>
-      <td>12/4/2023</td>
-      <td>MTL</td>
-      <td>vs</td>
-      <td>SEA</td>
-      <td>W</td>
-      <td>Sean Monahan</td>
-      <td>monahse01</td>
-      <td>Nick Suzuki</td>
-      <td>suzukni01</td>
-      <td>Cole Caufield</td>
-      <td>caufico01</td>
-      <td>Philipp Grubauer</td>
-      <td>grubaph01</td>
-      <td>2</td>
-      <td>6.97</td>
-    </tr>
-    <tr>
-      <td>12/7/2023</td>
-      <td>NJD</td>
-      <td>@</td>
-      <td>SEA</td>
-      <td>W</td>
-      <td>Ondřej Palát</td>
-      <td>palaton01</td>
-      <td>John Marino</td>
-      <td>marinjo01</td>
-      <td>Nico Hischier</td>
-      <td>hischni01</td>
-      <td>Philipp Grubauer</td>
-      <td>grubaph01</td>
-      <td>1</td>
-      <td>17.23</td>
-    </tr>
-    <tr>
-      <td>12/7/2023</td>
-      <td>NJD</td>
-      <td>@</td>
-      <td>SEA</td>
-      <td>W</td>
-      <td>Simon Nemec</td>
-      <td>nemecsi01</td>
-      <td>Jesper Bratt</td>
-      <td>brattje01</td>
-      <td>Jonas Siegenthaler</td>
-      <td>siegejo01</td>
-      <td>Philipp Grubauer</td>
-      <td>grubaph01</td>
-      <td>2</td>
-      <td>9.13</td>
-    </tr>
-    <tr>
-      <td>12/9/2023</td>
-      <td>TBL</td>
-      <td>@</td>
-      <td>SEA</td>
-      <td>W</td>
-      <td>Anthony Cirelli</td>
-      <td>cirelan01</td>
-      <td>Nicklaus Perbix</td>
-      <td>perbini01</td>
-      <td>Tanner Jeannot</td>
-      <td>jeannta01</td>
-      <td>Philipp Grubauer</td>
-      <td>grubaph01</td>
-      <td>1</td>
-      <td>9.47</td>
-    </tr>
-    <tr>
-      <td>12/9/2023</td>
-      <td>TBL</td>
-      <td>@</td>
-      <td>SEA</td>
-      <td>W</td>
-      <td>Nikita Kucherov</td>
-      <td>kucheni01</td>
-      <td>Brayden Point</td>
-      <td>pointbr01</td>
-      <td>Brandon Hagel</td>
-      <td>hagelbr01</td>
-      <td>Philipp Grubauer</td>
-      <td>grubaph01</td>
-      <td>1</td>
-      <td>19.27</td>
-    </tr>
-    <tr>
-      <td>2/13/2024</td>
-      <td>NYI</td>
-      <td>vs</td>
-      <td>SEA</td>
-      <td>L</td>
-      <td>Kyle Palmieri</td>
-      <td>palmiky01</td>
-      <td>Mathew Barzal</td>
-      <td>barzama01</td>
-      <td>Noah Dobson</td>
-      <td>dobsono01</td>
-      <td>Philipp Grubauer</td>
-      <td>grubaph01</td>
-      <td>2</td>
-      <td>14.62</td>
-    </tr>
-    <tr>
-      <td>2/22/2024</td>
-      <td>VAN</td>
-      <td>@</td>
-      <td>SEA</td>
-      <td>L</td>
-      <td>J.T. Miller</td>
-      <td>millejt01</td>
-      <td>Tyler Myers</td>
-      <td>myersty01</td>
-      <td>Brock Boeser</td>
-      <td>boesebr01</td>
-      <td>Philipp Grubauer</td>
-      <td>grubaph01</td>
-      <td>1</td>
-      <td>4.57</td>
-    </tr>
-    <tr>
-      <td>2/22/2024</td>
-      <td>VAN</td>
-      <td>@</td>
-      <td>SEA</td>
-      <td>L</td>
-      <td>Sam Lafferty</td>
-      <td>laffesa01</td>
-      <td>Pius Suter</td>
-      <td>suterpi01</td>
-      <td>Teddy Blueger</td>
-      <td>bluegte01</td>
-      <td>Philipp Grubauer</td>
-      <td>grubaph01</td>
-      <td>2</td>
-      <td>4.95</td>
-    </tr>
-    <tr>
-      <td>2/24/2024</td>
-      <td>MIN</td>
-      <td>@</td>
-      <td>SEA</td>
-      <td>W</td>
-      <td>Dakota Mermis</td>
-      <td>mermida01</td>
-      <td>Mats Zuccarello</td>
-      <td>zuccama01</td>
-      <td>Connor Dewar</td>
-      <td>dewarco01</td>
-      <td>Philipp Grubauer</td>
-      <td>grubaph01</td>
-      <td>2</td>
-      <td>6.97</td>
-    </tr>
-    <tr>
-      <td>2/26/2024</td>
-      <td>BOS</td>
-      <td>@</td>
-      <td>SEA</td>
-      <td>L</td>
-      <td>David Pastrňák</td>
-      <td>pastrda01</td>
-      <td>Kevin Shattenkirk</td>
-      <td>shattke01</td>
-      <td>Jesper Boqvist</td>
-      <td>boqvije01</td>
-      <td>Philipp Grubauer</td>
-      <td>grubaph01</td>
-      <td>1</td>
-      <td>5.88</td>
-    </tr>
-    <tr>
-      <td>2/26/2024</td>
-      <td>BOS</td>
-      <td>@</td>
-      <td>SEA</td>
-      <td>L</td>
-      <td>David Pastrňák</td>
-      <td>pastrda01</td>
-      <td>Pavel Zacha</td>
-      <td>zachapa01</td>
-      <td>Charlie McAvoy</td>
-      <td>mcavoch01</td>
-      <td>Philipp Grubauer</td>
-      <td>grubaph01</td>
-      <td>2</td>
-      <td>17.13</td>
-    </tr>
-    <tr>
-      <td>2/26/2024</td>
-      <td>BOS</td>
-      <td>@</td>
-      <td>SEA</td>
-      <td>L</td>
-      <td>Charlie Coyle</td>
-      <td>coylech01</td>
-      <td>David Pastrňák</td>
-      <td>pastrda01</td>
-      <td>Brad Marchand</td>
-      <td>marchbr03</td>
-      <td>Philipp Grubauer</td>
-      <td>grubaph01</td>
-      <td>3</td>
-      <td>17.13</td>
-    </tr>
-    <tr>
-      <td>3/2/2024</td>
-      <td>EDM</td>
-      <td>@</td>
-      <td>SEA</td>
-      <td>W</td>
-      <td>Leon Draisaitl</td>
-      <td>draisle01</td>
-      <td>Connor McDavid</td>
-      <td>mcdavco01</td>
-      <td>-</td>
-      <td>NaN</td>
-      <td>Philipp Grubauer</td>
-      <td>grubaph01</td>
-      <td>2</td>
-      <td>10.20</td>
-    </tr>
-    <tr>
-      <td>3/2/2024</td>
-      <td>EDM</td>
-      <td>@</td>
-      <td>SEA</td>
-      <td>W</td>
-      <td>Brett Kulak</td>
-      <td>kulakbr01</td>
-      <td>Ryan Nugent-Hopkins</td>
-      <td>nugenry01</td>
-      <td>Leon Draisaitl</td>
-      <td>draisle01</td>
-      <td>Philipp Grubauer</td>
-      <td>grubaph01</td>
-      <td>3</td>
-      <td>8.03</td>
-    </tr>
-    <tr>
-      <td>3/4/2024</td>
-      <td>CGY</td>
-      <td>vs</td>
-      <td>SEA</td>
-      <td>L</td>
-      <td>Andrei Kuzmenko</td>
-      <td>kuzmean01</td>
-      <td>Nazem Kadri</td>
-      <td>kadrina01</td>
-      <td>Jonathan Huberdeau</td>
-      <td>huberjo01</td>
-      <td>Philipp Grubauer</td>
-      <td>grubaph01</td>
-      <td>2</td>
-      <td>7.83</td>
-    </tr>
-    <tr>
-      <td>3/4/2024</td>
-      <td>CGY</td>
-      <td>vs</td>
-      <td>SEA</td>
-      <td>L</td>
-      <td>Andrei Kuzmenko</td>
-      <td>kuzmean01</td>
-      <td>Rasmus Andersson</td>
-      <td>anderra01</td>
-      <td>Nazem Kadri</td>
-      <td>kadrina01</td>
-      <td>Philipp Grubauer</td>
-      <td>grubaph01</td>
-      <td>3</td>
-      <td>7.77</td>
-    </tr>
-    <tr>
-      <td>3/12/2024</td>
-      <td>VEG</td>
-      <td>@</td>
-      <td>SEA</td>
-      <td>W</td>
-      <td>Jonathan Marchessault</td>
-      <td>audymjo01</td>
-      <td>Ivan Barbashev</td>
-      <td>barbaiv01</td>
-      <td>Jack Eichel</td>
-      <td>eicheja01</td>
-      <td>Philipp Grubauer</td>
-      <td>grubaph01</td>
-      <td>2</td>
-      <td>6.60</td>
-    </tr>
-    <tr>
-      <td>3/12/2024</td>
-      <td>VEG</td>
-      <td>@</td>
-      <td>SEA</td>
-      <td>W</td>
-      <td>Pavel Dorofeyev</td>
-      <td>dorofpa01</td>
-      <td>William Karlsson</td>
-      <td>karlswi01</td>
-      <td>-</td>
-      <td>NaN</td>
-      <td>Philipp Grubauer</td>
-      <td>grubaph01</td>
-      <td>2</td>
-      <td>15.00</td>
-    </tr>
-    <tr>
-      <td>3/12/2024</td>
-      <td>VEG</td>
-      <td>@</td>
-      <td>SEA</td>
-      <td>W</td>
-      <td>William Karlsson</td>
-      <td>karlswi01</td>
-      <td>Brayden McNabb</td>
-      <td>mcnabbr01</td>
-      <td>Shea Theodore</td>
-      <td>theodsh01</td>
-      <td>Philipp Grubauer</td>
-      <td>grubaph01</td>
-      <td>3</td>
-      <td>12.38</td>
-    </tr>
-    <tr>
-      <td>3/12/2024</td>
-      <td>VEG</td>
-      <td>@</td>
-      <td>SEA</td>
-      <td>W</td>
-      <td>Jonathan Marchessault</td>
-      <td>audymjo01</td>
-      <td>Chandler Stephenson</td>
-      <td>stephch02</td>
-      <td>Jack Eichel</td>
-      <td>eicheja01</td>
-      <td>Philipp Grubauer</td>
-      <td>grubaph01</td>
-      <td>3</td>
-      <td>19.72</td>
-    </tr>
-    <tr>
-      <td>3/12/2024</td>
-      <td>VEG</td>
-      <td>@</td>
-      <td>SEA</td>
-      <td>W</td>
-      <td>Jack Eichel</td>
-      <td>eicheja01</td>
-      <td>Alex Pietrangelo</td>
-      <td>pietral01</td>
-      <td>-</td>
-      <td>NaN</td>
-      <td>Philipp Grubauer</td>
-      <td>grubaph01</td>
-      <td>OT</td>
-      <td>3.02</td>
-    </tr>
-    <tr>
-      <td>3/16/2024</td>
-      <td>NSH</td>
-      <td>@</td>
-      <td>SEA</td>
-      <td>W</td>
-      <td>Thomas Novak</td>
-      <td>novakth01</td>
-      <td>Ryan McDonagh</td>
-      <td>mcdonry01</td>
-      <td>Mark Jankowski</td>
-      <td>jankoma01</td>
-      <td>Philipp Grubauer</td>
-      <td>grubaph01</td>
-      <td>1</td>
-      <td>15.60</td>
-    </tr>
-    <tr>
-      <td>3/16/2024</td>
-      <td>NSH</td>
-      <td>@</td>
-      <td>SEA</td>
-      <td>W</td>
-      <td>Roman Josi</td>
-      <td>josiro01</td>
-      <td>Filip Forsberg</td>
-      <td>forsbfi01</td>
-      <td>Gustav Nyquist</td>
-      <td>nyquigu01</td>
-      <td>Philipp Grubauer</td>
-      <td>grubaph01</td>
-      <td>3</td>
-      <td>3.98</td>
-    </tr>
-    <tr>
-      <td>3/16/2024</td>
-      <td>NSH</td>
-      <td>@</td>
-      <td>SEA</td>
-      <td>W</td>
-      <td>Roman Josi</td>
-      <td>josiro01</td>
-      <td>Ryan McDonagh</td>
-      <td>mcdonry01</td>
-      <td>Mark Jankowski</td>
-      <td>jankoma01</td>
-      <td>Philipp Grubauer</td>
-      <td>grubaph01</td>
-      <td>3</td>
-      <td>9.05</td>
-    </tr>
-    <tr>
-      <td>3/18/2024</td>
-      <td>BUF</td>
-      <td>@</td>
-      <td>SEA</td>
-      <td>W</td>
-      <td>Owen Power</td>
-      <td>powerow01</td>
-      <td>Dylan Cozens</td>
-      <td>cozendy01</td>
-      <td>John-Jason Peterka</td>
-      <td>peterjo01</td>
-      <td>Philipp Grubauer</td>
-      <td>grubaph01</td>
-      <td>2</td>
-      <td>10.60</td>
-    </tr>
-    <tr>
-      <td>3/18/2024</td>
-      <td>BUF</td>
-      <td>@</td>
-      <td>SEA</td>
-      <td>W</td>
-      <td>Jeff Skinner</td>
-      <td>skinnje01</td>
-      <td>-</td>
-      <td>NaN</td>
-      <td>-</td>
-      <td>NaN</td>
-      <td>Philipp Grubauer</td>
-      <td>grubaph01</td>
-      <td>2</td>
-      <td>11.30</td>
-    </tr>
-    <tr>
-      <td>3/18/2024</td>
-      <td>BUF</td>
-      <td>@</td>
-      <td>SEA</td>
-      <td>W</td>
-      <td>Jeff Skinner</td>
-      <td>skinnje01</td>
-      <td>Jordan Greenway</td>
-      <td>greenjo02</td>
-      <td>Jacob Bryson</td>
-      <td>brysoja01</td>
-      <td>Philipp Grubauer</td>
-      <td>grubaph01</td>
-      <td>3</td>
-      <td>18.02</td>
-    </tr>
-    <tr>
-      <td>3/21/2024</td>
-      <td>VEG</td>
-      <td>vs</td>
-      <td>SEA</td>
-      <td>W</td>
-      <td>Jack Eichel</td>
-      <td>eicheja01</td>
-      <td>Jonathan Marchessault</td>
-      <td>audymjo01</td>
-      <td>Brayden McNabb</td>
-      <td>mcnabbr01</td>
-      <td>Philipp Grubauer</td>
-      <td>grubaph01</td>
-      <td>1</td>
-      <td>8.23</td>
-    </tr>
-    <tr>
-      <td>3/21/2024</td>
-      <td>VEG</td>
-      <td>vs</td>
-      <td>SEA</td>
-      <td>W</td>
-      <td>Keegan Kolesar</td>
-      <td>koleske01</td>
-      <td>Brett Howden</td>
-      <td>howdebr01</td>
-      <td>Nicolas Roy</td>
-      <td>royni01</td>
-      <td>Philipp Grubauer</td>
-      <td>grubaph01</td>
-      <td>3</td>
-      <td>18.67</td>
-    </tr>
-    <tr>
-      <td>3/24/2024</td>
-      <td>MTL</td>
-      <td>@</td>
-      <td>SEA</td>
-      <td>W</td>
-      <td>Kaiden Guhle</td>
-      <td>guhleka01</td>
-      <td>Cole Caufield</td>
-      <td>caufico01</td>
-      <td>Nick Suzuki</td>
-      <td>suzukni01</td>
-      <td>Philipp Grubauer</td>
-      <td>grubaph01</td>
-      <td>1</td>
-      <td>4.30</td>
-    </tr>
-    <tr>
-      <td>3/24/2024</td>
-      <td>MTL</td>
-      <td>@</td>
-      <td>SEA</td>
-      <td>W</td>
-      <td>Alex Newhook</td>
-      <td>newhoal01</td>
-      <td>Kaiden Guhle</td>
-      <td>guhleka01</td>
-      <td>Michael Pezzetta</td>
-      <td>pezzemi01</td>
-      <td>Philipp Grubauer</td>
-      <td>grubaph01</td>
-      <td>1</td>
-      <td>6.37</td>
-    </tr>
-    <tr>
-      <td>3/24/2024</td>
-      <td>MTL</td>
-      <td>@</td>
-      <td>SEA</td>
-      <td>W</td>
-      <td>Nick Suzuki</td>
-      <td>suzukni01</td>
-      <td>Jordan Harris</td>
-      <td>harrijo01</td>
-      <td>Juraj Slafkovsky</td>
-      <td>slafkju01</td>
-      <td>Philipp Grubauer</td>
-      <td>grubaph01</td>
-      <td>1</td>
-      <td>17.55</td>
-    </tr>
-    <tr>
-      <td>3/24/2024</td>
-      <td>MTL</td>
-      <td>@</td>
-      <td>SEA</td>
-      <td>W</td>
-      <td>Alex Newhook</td>
-      <td>newhoal01</td>
-      <td>Brendan Gallagher</td>
-      <td>gallabr01</td>
-      <td>Kaiden Guhle</td>
-      <td>guhleka01</td>
-      <td>Philipp Grubauer</td>
-      <td>grubaph01</td>
-      <td>1</td>
-      <td>18.00</td>
-    </tr>
-    <tr>
-      <td>3/28/2024</td>
-      <td>ANA</td>
-      <td>@</td>
-      <td>SEA</td>
-      <td>L</td>
-      <td>Isac Lundeström</td>
-      <td>lundeis01</td>
-      <td>Jakob Silfverberg</td>
-      <td>silfvja01</td>
-      <td>Urho Vaakanainen</td>
-      <td>vaakaur01</td>
-      <td>Philipp Grubauer</td>
-      <td>grubaph01</td>
-      <td>3</td>
-      <td>2.13</td>
-    </tr>
-    <tr>
-      <td>3/28/2024</td>
-      <td>ANA</td>
-      <td>@</td>
-      <td>SEA</td>
-      <td>L</td>
-      <td>Jakob Silfverberg</td>
-      <td>silfvja01</td>
-      <td>-</td>
-      <td>NaN</td>
-      <td>-</td>
-      <td>NaN</td>
-      <td>Philipp Grubauer</td>
-      <td>grubaph01</td>
-      <td>3</td>
-      <td>2.87</td>
-    </tr>
-    <tr>
-      <td>4/1/2024</td>
-      <td>SJS</td>
-      <td>vs</td>
-      <td>SEA</td>
-      <td>L</td>
-      <td>Fabian Zetterlund</td>
-      <td>zettefa01</td>
-      <td>Mikael Granlund</td>
-      <td>granlmi01</td>
-      <td>William Eklund</td>
-      <td>eklunwi01</td>
-      <td>Philipp Grubauer</td>
-      <td>grubaph01</td>
-      <td>1</td>
-      <td>14.32</td>
-    </tr>
-    <tr>
-      <td>4/1/2024</td>
-      <td>SJS</td>
-      <td>vs</td>
-      <td>SEA</td>
-      <td>L</td>
-      <td>Klim Kostin</td>
-      <td>kostikl01</td>
-      <td>Marc-Édouard Vlasic</td>
-      <td>vlasima01</td>
-      <td>Fabian Zetterlund</td>
-      <td>zettefa01</td>
-      <td>Philipp Grubauer</td>
-      <td>grubaph01</td>
-      <td>2</td>
-      <td>5.02</td>
-    </tr>
-    <tr>
-      <td>4/3/2024</td>
-      <td>LAK</td>
-      <td>vs</td>
-      <td>SEA</td>
-      <td>W</td>
-      <td>Adrian Kempe</td>
-      <td>kempead01</td>
-      <td>Viktor Arvidsson</td>
-      <td>arvidvi01</td>
-      <td>Kevin Fiala</td>
-      <td>fialake01</td>
-      <td>Philipp Grubauer</td>
-      <td>grubaph01</td>
-      <td>1</td>
-      <td>9.40</td>
-    </tr>
-    <tr>
-      <td>4/3/2024</td>
-      <td>LAK</td>
-      <td>vs</td>
-      <td>SEA</td>
-      <td>W</td>
-      <td>Trevor Moore</td>
-      <td>mooretr01</td>
-      <td>Matt Roy</td>
-      <td>royma04</td>
-      <td>Pierre-Luc Dubois</td>
-      <td>duboipi01</td>
-      <td>Philipp Grubauer</td>
-      <td>grubaph01</td>
-      <td>2</td>
-      <td>7.65</td>
-    </tr>
-    <tr>
-      <td>4/3/2024</td>
-      <td>LAK</td>
-      <td>vs</td>
-      <td>SEA</td>
-      <td>W</td>
-      <td>Trevor Moore</td>
-      <td>mooretr01</td>
-      <td>Pierre-Luc Dubois</td>
-      <td>duboipi01</td>
-      <td>Viktor Arvidsson</td>
-      <td>arvidvi01</td>
-      <td>Philipp Grubauer</td>
-      <td>grubaph01</td>
-      <td>2</td>
-      <td>11.82</td>
-    </tr>
-    <tr>
-      <td>4/3/2024</td>
-      <td>LAK</td>
-      <td>vs</td>
-      <td>SEA</td>
-      <td>W</td>
-      <td>Kevin Fiala</td>
-      <td>fialake01</td>
-      <td>Blake Lizotte</td>
-      <td>lizotbl01</td>
-      <td>-</td>
-      <td>NaN</td>
-      <td>Philipp Grubauer</td>
-      <td>grubaph01</td>
-      <td>3</td>
-      <td>10.75</td>
-    </tr>
-    <tr>
-      <td>4/3/2024</td>
-      <td>LAK</td>
-      <td>vs</td>
-      <td>SEA</td>
-      <td>W</td>
-      <td>Trevor Moore</td>
-      <td>mooretr01</td>
-      <td>Pierre-Luc Dubois</td>
-      <td>duboipi01</td>
-      <td>-</td>
-      <td>NaN</td>
-      <td>Philipp Grubauer</td>
-      <td>grubaph01</td>
-      <td>3</td>
-      <td>16.95</td>
-    </tr>
-    <tr>
-      <td>4/5/2024</td>
-      <td>ANA</td>
-      <td>vs</td>
-      <td>SEA</td>
-      <td>L</td>
-      <td>Leo Carlsson</td>
-      <td>carlsle01</td>
-      <td>-</td>
-      <td>NaN</td>
-      <td>-</td>
-      <td>NaN</td>
-      <td>Philipp Grubauer</td>
-      <td>grubaph01</td>
-      <td>2</td>
-      <td>16.58</td>
-    </tr>
-    <tr>
-      <td>4/13/2024</td>
-      <td>DAL</td>
-      <td>vs</td>
-      <td>SEA</td>
-      <td>W</td>
-      <td>Craig Smith</td>
-      <td>smithcr01</td>
-      <td>Jason Robertson</td>
-      <td>roberja01</td>
-      <td>Miro Heiskanen</td>
-      <td>heiskmi01</td>
-      <td>Philipp Grubauer</td>
-      <td>grubaph01</td>
-      <td>1</td>
-      <td>19.95</td>
-    </tr>
-    <tr>
-      <td>4/13/2024</td>
-      <td>DAL</td>
-      <td>vs</td>
-      <td>SEA</td>
-      <td>W</td>
-      <td>Jason Robertson</td>
-      <td>roberja01</td>
-      <td>Jamie Benn</td>
-      <td>bennja01</td>
-      <td>Miro Heiskanen</td>
-      <td>heiskmi01</td>
-      <td>Philipp Grubauer</td>
-      <td>grubaph01</td>
-      <td>2</td>
-      <td>19.38</td>
-    </tr>
-    <tr>
-      <td>4/13/2024</td>
-      <td>DAL</td>
-      <td>vs</td>
-      <td>SEA</td>
-      <td>W</td>
-      <td>Miro Heiskanen</td>
-      <td>heiskmi01</td>
-      <td>Joe Pavelski</td>
-      <td>paveljo01</td>
-      <td>Thomas Harley</td>
-      <td>harleth01</td>
-      <td>Philipp Grubauer</td>
-      <td>grubaph01</td>
-      <td>3</td>
-      <td>12.38</td>
-    </tr>
-    <tr>
-      <td>4/16/2024</td>
-      <td>WPG</td>
-      <td>vs</td>
-      <td>SEA</td>
-      <td>W</td>
-      <td>Kyle Connor</td>
-      <td>connoky01</td>
-      <td>Mark Scheifele</td>
-      <td>scheima01</td>
-      <td>Josh Morrissey</td>
-      <td>morrijo04</td>
-      <td>Philipp Grubauer</td>
-      <td>grubaph01</td>
-      <td>1</td>
-      <td>10.55</td>
-    </tr>
-    <tr>
-      <td>4/16/2024</td>
-      <td>WPG</td>
-      <td>vs</td>
-      <td>SEA</td>
-      <td>W</td>
-      <td>Kyle Connor</td>
-      <td>connoky01</td>
-      <td>Josh Morrissey</td>
-      <td>morrijo04</td>
-      <td>Mark Scheifele</td>
-      <td>scheima01</td>
-      <td>Philipp Grubauer</td>
-      <td>grubaph01</td>
-      <td>1</td>
-      <td>19.90</td>
-    </tr>
-    <tr>
-      <td>4/16/2024</td>
-      <td>WPG</td>
-      <td>vs</td>
-      <td>SEA</td>
-      <td>W</td>
-      <td>Nikolaj Ehlers</td>
-      <td>ehlerni01</td>
-      <td>Tyler Toffoli</td>
-      <td>toffoty01</td>
-      <td>Neal Pionk</td>
-      <td>pionkne01</td>
-      <td>Philipp Grubauer</td>
-      <td>grubaph01</td>
-      <td>2</td>
-      <td>2.50</td>
-    </tr>
-    <tr>
-      <td>4/16/2024</td>
-      <td>WPG</td>
-      <td>vs</td>
-      <td>SEA</td>
-      <td>W</td>
-      <td>Tyler Toffoli</td>
-      <td>toffoty01</td>
-      <td>Nikolaj Ehlers</td>
-      <td>ehlerni01</td>
-      <td>Neal Pionk</td>
-      <td>pionkne01</td>
-      <td>Philipp Grubauer</td>
-      <td>grubaph01</td>
-      <td>3</td>
-      <td>11.67</td>
-    </tr>
-  </tbody>
-</table>
-    
-        </body>
-        </html>
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202310100VEG.html">10/10/2023</a></td>
+          <td><a href="/teams/SEA.html">SEA</a></td>
+          <td>@</td>
+          <td><a href="/teams/VEG.html">VEG</a></td>
+          <td>L</td>
+          <td>3</td>
+          <td>27</td>
+          <td>24</td>
+          <td>89.00%</td>
+          <td>59.62</td>
+        </tr>
         
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202310120NSH.html">10/12/2023</a></td>
+          <td><a href="/teams/SEA.html">SEA</a></td>
+          <td>@</td>
+          <td><a href="/teams/NSH.html">NSH</a></td>
+          <td>L</td>
+          <td>2</td>
+          <td>34</td>
+          <td>32</td>
+          <td>94.00%</td>
+          <td>57.87</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202310170SEA.html">10/17/2023</a></td>
+          <td><a href="/teams/SEA.html">SEA</a></td>
+          <td>vs</td>
+          <td><a href="/teams/COL.html">COL</a></td>
+          <td>L</td>
+          <td>3</td>
+          <td>27</td>
+          <td>24</td>
+          <td>89.00%</td>
+          <td>59.65</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202310210SEA.html">10/21/2023</a></td>
+          <td><a href="/teams/SEA.html">SEA</a></td>
+          <td>vs</td>
+          <td><a href="/teams/NYR.html">NYR</a></td>
+          <td>L</td>
+          <td>4</td>
+          <td>27</td>
+          <td>23</td>
+          <td>85.00%</td>
+          <td>60.0</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202310300TBL.html">10/30/2023</a></td>
+          <td><a href="/teams/SEA.html">SEA</a></td>
+          <td>@</td>
+          <td><a href="/teams/TBL.html">TBL</a></td>
+          <td>W</td>
+          <td>3</td>
+          <td>37</td>
+          <td>34</td>
+          <td>92.00%</td>
+          <td>62.88</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202311020SEA.html">11/2/2023</a></td>
+          <td><a href="/teams/SEA.html">SEA</a></td>
+          <td>vs</td>
+          <td><a href="/teams/NSH.html">NSH</a></td>
+          <td>W</td>
+          <td>2</td>
+          <td>34</td>
+          <td>32</td>
+          <td>94.00%</td>
+          <td>59.9</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202311040SEA.html">11/4/2023</a></td>
+          <td><a href="/teams/SEA.html">SEA</a></td>
+          <td>vs</td>
+          <td><a href="/teams/CGY.html">CGY</a></td>
+          <td>L</td>
+          <td>4</td>
+          <td>29</td>
+          <td>25</td>
+          <td>86.00%</td>
+          <td>58.7</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202311090COL.html">11/9/2023</a></td>
+          <td><a href="/teams/SEA.html">SEA</a></td>
+          <td>@</td>
+          <td><a href="/teams/COL.html">COL</a></td>
+          <td>W</td>
+          <td>3</td>
+          <td>26</td>
+          <td>23</td>
+          <td>89.00%</td>
+          <td>60.0</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202311110SEA.html">11/11/2023</a></td>
+          <td><a href="/teams/SEA.html">SEA</a></td>
+          <td>vs</td>
+          <td><a href="/teams/EDM.html">EDM</a></td>
+          <td>L</td>
+          <td>4</td>
+          <td>17</td>
+          <td>13</td>
+          <td>77.00%</td>
+          <td>20.0</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202311160SEA.html">11/16/2023</a></td>
+          <td><a href="/teams/SEA.html">SEA</a></td>
+          <td>vs</td>
+          <td><a href="/teams/NYI.html">NYI</a></td>
+          <td>W</td>
+          <td>3</td>
+          <td>23</td>
+          <td>20</td>
+          <td>87.00%</td>
+          <td>65.0</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202311180VAN.html">11/18/2023</a></td>
+          <td><a href="/teams/SEA.html">SEA</a></td>
+          <td>@</td>
+          <td><a href="/teams/VAN.html">VAN</a></td>
+          <td>W</td>
+          <td>3</td>
+          <td>24</td>
+          <td>21</td>
+          <td>88.00%</td>
+          <td>60.0</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202311200SEA.html">11/20/2023</a></td>
+          <td><a href="/teams/SEA.html">SEA</a></td>
+          <td>vs</td>
+          <td><a href="/teams/CGY.html">CGY</a></td>
+          <td>L-OT</td>
+          <td>2</td>
+          <td>7</td>
+          <td>5</td>
+          <td>71.00%</td>
+          <td>20.0</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202311280CHI.html">11/28/2023</a></td>
+          <td><a href="/teams/SEA.html">SEA</a></td>
+          <td>@</td>
+          <td><a href="/teams/CHI.html">CHI</a></td>
+          <td>L</td>
+          <td>4</td>
+          <td>23</td>
+          <td>19</td>
+          <td>83.00%</td>
+          <td>57.23</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202311300TOR.html">11/30/2023</a></td>
+          <td><a href="/teams/SEA.html">SEA</a></td>
+          <td>@</td>
+          <td><a href="/teams/TOR.html">TOR</a></td>
+          <td>L-SO</td>
+          <td>3</td>
+          <td>28</td>
+          <td>25</td>
+          <td>89.00%</td>
+          <td>64.73</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202312040MTL.html">12/4/2023</a></td>
+          <td><a href="/teams/SEA.html">SEA</a></td>
+          <td>@</td>
+          <td><a href="/teams/MTL.html">MTL</a></td>
+          <td>L</td>
+          <td>3</td>
+          <td>29</td>
+          <td>26</td>
+          <td>90.00%</td>
+          <td>59.02</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202312070SEA.html">12/7/2023</a></td>
+          <td><a href="/teams/SEA.html">SEA</a></td>
+          <td>vs</td>
+          <td><a href="/teams/NJD.html">NJD</a></td>
+          <td>L</td>
+          <td>2</td>
+          <td>17</td>
+          <td>15</td>
+          <td>88.00%</td>
+          <td>57.95</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202312090SEA.html">12/9/2023</a></td>
+          <td><a href="/teams/SEA.html">SEA</a></td>
+          <td>vs</td>
+          <td><a href="/teams/TBL.html">TBL</a></td>
+          <td>L-OT</td>
+          <td>2</td>
+          <td>23</td>
+          <td>21</td>
+          <td>91.00%</td>
+          <td>39.48</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202402130NYI.html">2/13/2024</a></td>
+          <td><a href="/teams/SEA.html">SEA</a></td>
+          <td>@</td>
+          <td><a href="/teams/NYI.html">NYI</a></td>
+          <td>W</td>
+          <td>1</td>
+          <td>27</td>
+          <td>26</td>
+          <td>96.00%</td>
+          <td>65.0</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202402220SEA.html">2/22/2024</a></td>
+          <td><a href="/teams/SEA.html">SEA</a></td>
+          <td>vs</td>
+          <td><a href="/teams/VAN.html">VAN</a></td>
+          <td>W</td>
+          <td>2</td>
+          <td>21</td>
+          <td>19</td>
+          <td>91.00%</td>
+          <td>60.0</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202402240SEA.html">2/24/2024</a></td>
+          <td><a href="/teams/SEA.html">SEA</a></td>
+          <td>vs</td>
+          <td><a href="/teams/MIN.html">MIN</a></td>
+          <td>L</td>
+          <td>1</td>
+          <td>18</td>
+          <td>17</td>
+          <td>94.00%</td>
+          <td>37.77</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202402260SEA.html">2/26/2024</a></td>
+          <td><a href="/teams/SEA.html">SEA</a></td>
+          <td>vs</td>
+          <td><a href="/teams/BOS.html">BOS</a></td>
+          <td>W</td>
+          <td>3</td>
+          <td>32</td>
+          <td>29</td>
+          <td>91.00%</td>
+          <td>65.0</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202402290SEA.html">2/29/2024</a></td>
+          <td><a href="/teams/SEA.html">SEA</a></td>
+          <td>vs</td>
+          <td><a href="/teams/PIT.html">PIT</a></td>
+          <td>W</td>
+          <td>0</td>
+          <td>33</td>
+          <td>33</td>
+          <td>100.00%</td>
+          <td>60.0</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202403020SEA.html">3/2/2024</a></td>
+          <td><a href="/teams/SEA.html">SEA</a></td>
+          <td>vs</td>
+          <td><a href="/teams/EDM.html">EDM</a></td>
+          <td>L</td>
+          <td>2</td>
+          <td>24</td>
+          <td>22</td>
+          <td>92.00%</td>
+          <td>58.35</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202403040CGY.html">3/4/2024</a></td>
+          <td><a href="/teams/SEA.html">SEA</a></td>
+          <td>@</td>
+          <td><a href="/teams/CGY.html">CGY</a></td>
+          <td>W</td>
+          <td>2</td>
+          <td>37</td>
+          <td>35</td>
+          <td>95.00%</td>
+          <td>59.12</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202403120SEA.html">3/12/2024</a></td>
+          <td><a href="/teams/SEA.html">SEA</a></td>
+          <td>vs</td>
+          <td><a href="/teams/VEG.html">VEG</a></td>
+          <td>L-OT</td>
+          <td>5</td>
+          <td>34</td>
+          <td>29</td>
+          <td>85.00%</td>
+          <td>63.02</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202403160SEA.html">3/16/2024</a></td>
+          <td><a href="/teams/SEA.html">SEA</a></td>
+          <td>vs</td>
+          <td><a href="/teams/NSH.html">NSH</a></td>
+          <td>L</td>
+          <td>3</td>
+          <td>29</td>
+          <td>26</td>
+          <td>90.00%</td>
+          <td>58.12</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202403180SEA.html">3/18/2024</a></td>
+          <td><a href="/teams/SEA.html">SEA</a></td>
+          <td>vs</td>
+          <td><a href="/teams/BUF.html">BUF</a></td>
+          <td>L</td>
+          <td>3</td>
+          <td>26</td>
+          <td>23</td>
+          <td>89.00%</td>
+          <td>54.32</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202403210VEG.html">3/21/2024</a></td>
+          <td><a href="/teams/SEA.html">SEA</a></td>
+          <td>@</td>
+          <td><a href="/teams/VEG.html">VEG</a></td>
+          <td>L</td>
+          <td>2</td>
+          <td>36</td>
+          <td>34</td>
+          <td>94.00%</td>
+          <td>59.3</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202403240SEA.html">3/24/2024</a></td>
+          <td><a href="/teams/SEA.html">SEA</a></td>
+          <td>vs</td>
+          <td><a href="/teams/MTL.html">MTL</a></td>
+          <td>L</td>
+          <td>4</td>
+          <td>6</td>
+          <td>2</td>
+          <td>33.00%</td>
+          <td>18.0</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202403280SEA.html">3/28/2024</a></td>
+          <td><a href="/teams/SEA.html">SEA</a></td>
+          <td>vs</td>
+          <td><a href="/teams/ANA.html">ANA</a></td>
+          <td>W</td>
+          <td>2</td>
+          <td>23</td>
+          <td>21</td>
+          <td>91.00%</td>
+          <td>59.67</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202404010SJS.html">4/1/2024</a></td>
+          <td><a href="/teams/SEA.html">SEA</a></td>
+          <td>@</td>
+          <td><a href="/teams/SJS.html">SJS</a></td>
+          <td>W</td>
+          <td>2</td>
+          <td>26</td>
+          <td>24</td>
+          <td>92.00%</td>
+          <td>60.0</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202404030LAK.html">4/3/2024</a></td>
+          <td><a href="/teams/SEA.html">SEA</a></td>
+          <td>@</td>
+          <td><a href="/teams/LAK.html">LAK</a></td>
+          <td>L</td>
+          <td>5</td>
+          <td>27</td>
+          <td>22</td>
+          <td>82.00%</td>
+          <td>60.0</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202404050ANA.html">4/5/2024</a></td>
+          <td><a href="/teams/SEA.html">SEA</a></td>
+          <td>@</td>
+          <td><a href="/teams/ANA.html">ANA</a></td>
+          <td>W</td>
+          <td>1</td>
+          <td>17</td>
+          <td>16</td>
+          <td>94.00%</td>
+          <td>58.83</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202404090SEA.html">4/9/2024</a></td>
+          <td><a href="/teams/SEA.html">SEA</a></td>
+          <td>vs</td>
+          <td><a href="/teams/ARI.html">ARI</a></td>
+          <td>W</td>
+          <td>0</td>
+          <td>39</td>
+          <td>39</td>
+          <td>100.00%</td>
+          <td>60.0</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202404130DAL.html">4/13/2024</a></td>
+          <td><a href="/teams/SEA.html">SEA</a></td>
+          <td>@</td>
+          <td><a href="/teams/DAL.html">DAL</a></td>
+          <td>L</td>
+          <td>3</td>
+          <td>30</td>
+          <td>27</td>
+          <td>90.00%</td>
+          <td>58.85</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202404160WPG.html">4/16/2024</a></td>
+          <td><a href="/teams/SEA.html">SEA</a></td>
+          <td>@</td>
+          <td><a href="/teams/WPG.html">WPG</a></td>
+          <td>L</td>
+          <td>4</td>
+          <td>24</td>
+          <td>20</td>
+          <td>83.00%</td>
+          <td>59.23</td>
+        </tr>
+        
+    </tbody>
+  </table>
+</body>
+</html>
+    

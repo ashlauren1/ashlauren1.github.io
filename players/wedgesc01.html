@@ -1,2051 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Scott Wedgewood</title>
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script src="/assets/searchBar.js" defer></script>
+  <script src="/assets/tableSort.js"></script>
+  
+  <style>
+    tr:hover {background-color: #F0FFF0;}
+  </style>
+</head>
 
-        <!DOCTYPE html>
-        <html lang="en">
-        <head>
-            <meta charset="UTF-8">
-            <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <title>wedgesc01 Profile</title>
-        </head>
-        <body>
-            
-    <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Player wedgesc01 Stats</title>
-        <link rel="stylesheet" href="/assets/css/styles.css"> <!-- Assuming a shared stylesheet -->
-    </head>
-    <body>
-        <nav id="navbar">
-            <ul>
-                <li><a href="/">Home</a></li>
-                <li><a href="/players/">Players</a></li>
-                <li><a href="/teams/">Teams</a></li>
-                <li><a href="/leaders/">Leaders</a></li>
-                <li><a href="/probabilities/">Probabilities</a></li>
-                <li><a href="/boxscores/">Boxscores</a></li>
-                <li><a href="/schedule/">Schedule</a></li>
-            </ul>
-        </nav>
+<body>
+  <!-- Navigation Bar -->
+  <nav id="navbar">
+    <a href="/">Home</a>
+    <a href="/players/">Players</a>
+    <a href="/teams/">Teams</a>
+    <a href="/leaders/">Leaders</a>
+    <a href="/probabilities/">Probabilities</a>
+    <a href="/boxscores/">Boxscores</a>
+    <a href="/schedule/">Schedule</a>
 
-        <main id="content">
-            <h1>Player wedgesc01 Stats</h1>
-            <table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th>Goalie</th>
-      <th>Player_ID</th>
-      <th>Gm</th>
-      <th>Game ID</th>
-      <th>Date</th>
-      <th>Team</th>
-      <th>Location</th>
-      <th>Opp</th>
-      <th>W/L</th>
-      <th>Goals 
-Allowed</th>
-      <th>Shots 
-Against</th>
-      <th>Saves</th>
-      <th>Save 
-Percentage</th>
-      <th>TOI</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Scott Wedgewood</td>
-      <td>wedgesc01</td>
-      <td>25</td>
-      <td>202312070WSH</td>
-      <td>12/7/2023</td>
-      <td>DAL</td>
-      <td>@</td>
-      <td>WSH</td>
-      <td>W</td>
-      <td>4</td>
-      <td>27</td>
-      <td>23</td>
-      <td>0.85</td>
-      <td>65.00</td>
-    </tr>
-    <tr>
-      <td>Scott Wedgewood</td>
-      <td>wedgesc01</td>
-      <td>34</td>
-      <td>202312290DAL</td>
-      <td>12/29/2023</td>
-      <td>DAL</td>
-      <td>vs</td>
-      <td>CHI</td>
-      <td>W</td>
-      <td>4</td>
-      <td>29</td>
-      <td>25</td>
-      <td>0.86</td>
-      <td>64.87</td>
-    </tr>
-    <tr>
-      <td>Scott Wedgewood</td>
-      <td>wedgesc01</td>
-      <td>31</td>
-      <td>202312210DAL</td>
-      <td>12/21/2023</td>
-      <td>DAL</td>
-      <td>vs</td>
-      <td>VAN</td>
-      <td>W</td>
-      <td>3</td>
-      <td>20</td>
-      <td>17</td>
-      <td>0.85</td>
-      <td>64.83</td>
-    </tr>
-    <tr>
-      <td>Scott Wedgewood</td>
-      <td>wedgesc01</td>
-      <td>37</td>
-      <td>202401040DAL</td>
-      <td>1/4/2024</td>
-      <td>DAL</td>
-      <td>vs</td>
-      <td>COL</td>
-      <td>L-OT</td>
-      <td>5</td>
-      <td>34</td>
-      <td>29</td>
-      <td>0.85</td>
-      <td>63.67</td>
-    </tr>
-    <tr>
-      <td>Scott Wedgewood</td>
-      <td>wedgesc01</td>
-      <td>60</td>
-      <td>202402260DAL</td>
-      <td>2/26/2024</td>
-      <td>DAL</td>
-      <td>vs</td>
-      <td>NYI</td>
-      <td>L-OT</td>
-      <td>3</td>
-      <td>28</td>
-      <td>25</td>
-      <td>0.89</td>
-      <td>62.90</td>
-    </tr>
-    <tr>
-      <td>Scott Wedgewood</td>
-      <td>wedgesc01</td>
-      <td>4</td>
-      <td>202310210DAL</td>
-      <td>10/21/2023</td>
-      <td>DAL</td>
-      <td>vs</td>
-      <td>PHI</td>
-      <td>W</td>
-      <td>4</td>
-      <td>40</td>
-      <td>36</td>
-      <td>0.90</td>
-      <td>62.22</td>
-    </tr>
-    <tr>
-      <td>Scott Wedgewood</td>
-      <td>wedgesc01</td>
-      <td>30</td>
-      <td>202312180DAL</td>
-      <td>12/18/2023</td>
-      <td>DAL</td>
-      <td>vs</td>
-      <td>SEA</td>
-      <td>W</td>
-      <td>3</td>
-      <td>38</td>
-      <td>35</td>
-      <td>0.92</td>
-      <td>61.08</td>
-    </tr>
-    <tr>
-      <td>Scott Wedgewood</td>
-      <td>wedgesc01</td>
-      <td>21</td>
-      <td>202311300CGY</td>
-      <td>11/30/2023</td>
-      <td>DAL</td>
-      <td>@</td>
-      <td>CGY</td>
-      <td>L-OT</td>
-      <td>4</td>
-      <td>36</td>
-      <td>32</td>
-      <td>0.89</td>
-      <td>61.02</td>
-    </tr>
-    <tr>
-      <td>Scott Wedgewood</td>
-      <td>wedgesc01</td>
-      <td>46</td>
-      <td>202401210NYI</td>
-      <td>1/21/2024</td>
-      <td>DAL</td>
-      <td>@</td>
-      <td>NYI</td>
-      <td>L-OT</td>
-      <td>3</td>
-      <td>28</td>
-      <td>25</td>
-      <td>0.89</td>
-      <td>60.68</td>
-    </tr>
-    <tr>
-      <td>Scott Wedgewood</td>
-      <td>wedgesc01</td>
-      <td>29</td>
-      <td>202312160STL</td>
-      <td>12/16/2023</td>
-      <td>DAL</td>
-      <td>@</td>
-      <td>STL</td>
-      <td>L-OT</td>
-      <td>4</td>
-      <td>34</td>
-      <td>30</td>
-      <td>0.88</td>
-      <td>60.62</td>
-    </tr>
-    <tr>
-      <td>Scott Wedgewood</td>
-      <td>wedgesc01</td>
-      <td>66</td>
-      <td>202403090LAK</td>
-      <td>3/9/2024</td>
-      <td>DAL</td>
-      <td>@</td>
-      <td>LAK</td>
-      <td>W</td>
-      <td>1</td>
-      <td>25</td>
-      <td>24</td>
-      <td>0.96</td>
-      <td>60.00</td>
-    </tr>
-    <tr>
-      <td>Scott Wedgewood</td>
-      <td>wedgesc01</td>
-      <td>35</td>
-      <td>202312310DAL</td>
-      <td>12/31/2023</td>
-      <td>DAL</td>
-      <td>vs</td>
-      <td>CHI</td>
-      <td>W</td>
-      <td>1</td>
-      <td>24</td>
-      <td>23</td>
-      <td>0.96</td>
-      <td>60.00</td>
-    </tr>
-    <tr>
-      <td>Scott Wedgewood</td>
-      <td>wedgesc01</td>
-      <td>13</td>
-      <td>202311110WPG</td>
-      <td>11/11/2023</td>
-      <td>DAL</td>
-      <td>@</td>
-      <td>WPG</td>
-      <td>W</td>
-      <td>2</td>
-      <td>33</td>
-      <td>31</td>
-      <td>0.94</td>
-      <td>60.00</td>
-    </tr>
-    <tr>
-      <td>Scott Wedgewood</td>
-      <td>wedgesc01</td>
-      <td>73</td>
-      <td>202403260SJS</td>
-      <td>3/26/2024</td>
-      <td>DAL</td>
-      <td>@</td>
-      <td>SJS</td>
-      <td>W</td>
-      <td>3</td>
-      <td>20</td>
-      <td>17</td>
-      <td>0.85</td>
-      <td>60.00</td>
-    </tr>
-    <tr>
-      <td>Scott Wedgewood</td>
-      <td>wedgesc01</td>
-      <td>9</td>
-      <td>202311020EDM</td>
-      <td>11/2/2023</td>
-      <td>DAL</td>
-      <td>@</td>
-      <td>EDM</td>
-      <td>W</td>
-      <td>3</td>
-      <td>49</td>
-      <td>46</td>
-      <td>0.94</td>
-      <td>59.93</td>
-    </tr>
-    <tr>
-      <td>Scott Wedgewood</td>
-      <td>wedgesc01</td>
-      <td>45</td>
-      <td>202401200NJD</td>
-      <td>1/20/2024</td>
-      <td>DAL</td>
-      <td>@</td>
-      <td>NJD</td>
-      <td>W</td>
-      <td>2</td>
-      <td>31</td>
-      <td>29</td>
-      <td>0.94</td>
-      <td>59.82</td>
-    </tr>
-    <tr>
-      <td>Scott Wedgewood</td>
-      <td>wedgesc01</td>
-      <td>17</td>
-      <td>202311200DAL</td>
-      <td>11/20/2023</td>
-      <td>DAL</td>
-      <td>vs</td>
-      <td>NYR</td>
-      <td>W</td>
-      <td>3</td>
-      <td>33</td>
-      <td>30</td>
-      <td>0.91</td>
-      <td>59.80</td>
-    </tr>
-    <tr>
-      <td>Scott Wedgewood</td>
-      <td>wedgesc01</td>
-      <td>69</td>
-      <td>202403160DAL</td>
-      <td>3/16/2024</td>
-      <td>DAL</td>
-      <td>vs</td>
-      <td>LAK</td>
-      <td>W</td>
-      <td>1</td>
-      <td>28</td>
-      <td>27</td>
-      <td>0.96</td>
-      <td>59.70</td>
-    </tr>
-    <tr>
-      <td>Scott Wedgewood</td>
-      <td>wedgesc01</td>
-      <td>40</td>
-      <td>202401100DAL</td>
-      <td>1/10/2024</td>
-      <td>DAL</td>
-      <td>vs</td>
-      <td>MIN</td>
-      <td>W</td>
-      <td>2</td>
-      <td>23</td>
-      <td>21</td>
-      <td>0.91</td>
-      <td>58.55</td>
-    </tr>
-    <tr>
-      <td>Scott Wedgewood</td>
-      <td>wedgesc01</td>
-      <td>32</td>
-      <td>202312230NSH</td>
-      <td>12/23/2023</td>
-      <td>DAL</td>
-      <td>@</td>
-      <td>NSH</td>
-      <td>W</td>
-      <td>2</td>
-      <td>21</td>
-      <td>19</td>
-      <td>0.91</td>
-      <td>58.33</td>
-    </tr>
-    <tr>
-      <td>Scott Wedgewood</td>
-      <td>wedgesc01</td>
-      <td>33</td>
-      <td>202312270STL</td>
-      <td>12/27/2023</td>
-      <td>DAL</td>
-      <td>@</td>
-      <td>STL</td>
-      <td>L</td>
-      <td>2</td>
-      <td>30</td>
-      <td>28</td>
-      <td>0.93</td>
-      <td>58.13</td>
-    </tr>
-    <tr>
-      <td>Scott Wedgewood</td>
-      <td>wedgesc01</td>
-      <td>38</td>
-      <td>202401060DAL</td>
-      <td>1/6/2024</td>
-      <td>DAL</td>
-      <td>vs</td>
-      <td>NSH</td>
-      <td>L</td>
-      <td>4</td>
-      <td>22</td>
-      <td>18</td>
-      <td>0.82</td>
-      <td>58.02</td>
-    </tr>
-    <tr>
-      <td>Scott Wedgewood</td>
-      <td>wedgesc01</td>
-      <td>77</td>
-      <td>202404060CHI</td>
-      <td>4/6/2024</td>
-      <td>DAL</td>
-      <td>@</td>
-      <td>CHI</td>
-      <td>L</td>
-      <td>3</td>
-      <td>17</td>
-      <td>14</td>
-      <td>0.82</td>
-      <td>57.33</td>
-    </tr>
-    <tr>
-      <td>Scott Wedgewood</td>
-      <td>wedgesc01</td>
-      <td>57</td>
-      <td>202402200NYR</td>
-      <td>2/20/2024</td>
-      <td>DAL</td>
-      <td>@</td>
-      <td>NYR</td>
-      <td>L</td>
-      <td>2</td>
-      <td>25</td>
-      <td>23</td>
-      <td>0.92</td>
-      <td>57.22</td>
-    </tr>
-    <tr>
-      <td>Scott Wedgewood</td>
-      <td>wedgesc01</td>
-      <td>51</td>
-      <td>202402070TOR</td>
-      <td>2/7/2024</td>
-      <td>DAL</td>
-      <td>@</td>
-      <td>TOR</td>
-      <td>L</td>
-      <td>5</td>
-      <td>31</td>
-      <td>26</td>
-      <td>0.84</td>
-      <td>57.10</td>
-    </tr>
-    <tr>
-      <td>Scott Wedgewood</td>
-      <td>wedgesc01</td>
-      <td>6</td>
-      <td>202310260DAL</td>
-      <td>10/26/2023</td>
-      <td>DAL</td>
-      <td>vs</td>
-      <td>TOR</td>
-      <td>L</td>
-      <td>3</td>
-      <td>23</td>
-      <td>20</td>
-      <td>0.87</td>
-      <td>56.38</td>
-    </tr>
-    <tr>
-      <td>Scott Wedgewood</td>
-      <td>wedgesc01</td>
-      <td>36</td>
-      <td>202401020DAL</td>
-      <td>1/2/2024</td>
-      <td>DAL</td>
-      <td>vs</td>
-      <td>MTL</td>
-      <td>L</td>
-      <td>4</td>
-      <td>18</td>
-      <td>14</td>
-      <td>0.78</td>
-      <td>53.97</td>
-    </tr>
-    <tr>
-      <td>Scott Wedgewood</td>
-      <td>wedgesc01</td>
-      <td>28</td>
-      <td>202312150DAL</td>
-      <td>12/15/2023</td>
-      <td>DAL</td>
-      <td>vs</td>
-      <td>OTT</td>
-      <td>W</td>
-      <td>2</td>
-      <td>27</td>
-      <td>25</td>
-      <td>0.93</td>
-      <td>51.95</td>
-    </tr>
-    <tr>
-      <td>Scott Wedgewood</td>
-      <td>wedgesc01</td>
-      <td>68</td>
-      <td>202403140DAL</td>
-      <td>3/14/2024</td>
-      <td>DAL</td>
-      <td>vs</td>
-      <td>NJD</td>
-      <td>L</td>
-      <td>2</td>
-      <td>10</td>
-      <td>8</td>
-      <td>0.80</td>
-      <td>36.13</td>
-    </tr>
-    <tr>
-      <td>Scott Wedgewood</td>
-      <td>wedgesc01</td>
-      <td>58</td>
-      <td>202402220OTT</td>
-      <td>2/22/2024</td>
-      <td>DAL</td>
-      <td>@</td>
-      <td>OTT</td>
-      <td>L</td>
-      <td>1</td>
-      <td>19</td>
-      <td>18</td>
-      <td>0.95</td>
-      <td>31.07</td>
-    </tr>
-    <tr>
-      <td>Scott Wedgewood</td>
-      <td>wedgesc01</td>
-      <td>42</td>
-      <td>202401130CHI</td>
-      <td>1/13/2024</td>
-      <td>DAL</td>
-      <td>@</td>
-      <td>CHI</td>
-      <td>W</td>
-      <td>0</td>
-      <td>14</td>
-      <td>14</td>
-      <td>1.00</td>
-      <td>28.82</td>
-    </tr>
-    <tr>
-      <td>Scott Wedgewood</td>
-      <td>wedgesc01</td>
-      <td>54</td>
-      <td>202402150NSH</td>
-      <td>2/15/2024</td>
-      <td>DAL</td>
-      <td>@</td>
-      <td>NSH</td>
-      <td>W</td>
-      <td>0</td>
-      <td>7</td>
-      <td>7</td>
-      <td>1.00</td>
-      <td>20.00</td>
-    </tr>
-  </tbody>
-</table>
-        </main>
-    </body>
-    </html>
+    <!-- Search Bar -->
+    <div class="search-container">
+      <input type="text" id="searchInput" placeholder="Search players or teams..." oninput="searchEntities()" />
+      <ul id="suggestions"></ul> <!-- This will show the search suggestions -->
+    </div>
+  </nav>
+
+  <h1>Scott Wedgewood - Gamelogs</h1>
+  <table border="1">
+    <thead>
+      <tr>
+        <th>Season</th>
+        <th>Date</th>
+        <th>Team</th>
+        <th>Location</th>
+        <th>Opponent</th>
+        <th>Result</th>
+        <th>GA</th>
+        <th>SA</th>
+        <th>SV</th>
+        <th>SV%</th>
+        <th>TOI</th>
+      </tr>
+    </thead>
+    <tbody>
     
-            <h2>Penalties</h2>
-            <p>No penalties table available</p>
-            <h2>Scoring</h2>
-            
-    <h2>Goals Allowed by wedgesc01</h2>
-    <table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th>Date</th>
-      <th>Tm</th>
-      <th>Location</th>
-      <th>Opp</th>
-      <th>Result</th>
-      <th>Scorer</th>
-      <th>scorer username</th>
-      <th>Assist1</th>
-      <th>ast 1 username</th>
-      <th>Assist2</th>
-      <th>ast 2 username</th>
-      <th>Goalie</th>
-      <th>goalie username</th>
-      <th>Per.</th>
-      <th>Time</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>10/21/2023</td>
-      <td>PHI</td>
-      <td>@</td>
-      <td>DAL</td>
-      <td>L</td>
-      <td>Joel Farabee</td>
-      <td>farabjo01</td>
-      <td>Bobby Brink</td>
-      <td>brinkbo01</td>
-      <td>Noah Cates</td>
-      <td>catesno01</td>
-      <td>Scott Wedgewood</td>
-      <td>wedgesc01</td>
-      <td>1</td>
-      <td>10.20</td>
-    </tr>
-    <tr>
-      <td>10/21/2023</td>
-      <td>PHI</td>
-      <td>@</td>
-      <td>DAL</td>
-      <td>L</td>
-      <td>Travis Konecny</td>
-      <td>konectr01</td>
-      <td>Noah Cates</td>
-      <td>catesno01</td>
-      <td>-</td>
-      <td>NaN</td>
-      <td>Scott Wedgewood</td>
-      <td>wedgesc01</td>
-      <td>1</td>
-      <td>16.60</td>
-    </tr>
-    <tr>
-      <td>10/21/2023</td>
-      <td>PHI</td>
-      <td>@</td>
-      <td>DAL</td>
-      <td>L</td>
-      <td>Travis Konecny</td>
-      <td>konectr01</td>
-      <td>Travis Sanheim</td>
-      <td>sanhetr01</td>
-      <td>Scott Laughton</td>
-      <td>laughsc01</td>
-      <td>Scott Wedgewood</td>
-      <td>wedgesc01</td>
-      <td>3</td>
-      <td>11.97</td>
-    </tr>
-    <tr>
-      <td>10/21/2023</td>
-      <td>PHI</td>
-      <td>@</td>
-      <td>DAL</td>
-      <td>L</td>
-      <td>Sean Walker</td>
-      <td>walkese01</td>
-      <td>Yegor Zamula</td>
-      <td>zamulye01</td>
-      <td>-</td>
-      <td>NaN</td>
-      <td>Scott Wedgewood</td>
-      <td>wedgesc01</td>
-      <td>3</td>
-      <td>12.75</td>
-    </tr>
-    <tr>
-      <td>10/26/2023</td>
-      <td>TOR</td>
-      <td>@</td>
-      <td>DAL</td>
-      <td>W</td>
-      <td>Morgan Rielly</td>
-      <td>riellmo01</td>
-      <td>William Nylander</td>
-      <td>nylanwi01</td>
-      <td>-</td>
-      <td>NaN</td>
-      <td>Scott Wedgewood</td>
-      <td>wedgesc01</td>
-      <td>1</td>
-      <td>9.82</td>
-    </tr>
-    <tr>
-      <td>10/26/2023</td>
-      <td>TOR</td>
-      <td>@</td>
-      <td>DAL</td>
-      <td>W</td>
-      <td>Mitch Marner</td>
-      <td>marnemi01</td>
-      <td>Auston Matthews</td>
-      <td>matthau01</td>
-      <td>Calle Järnkrok</td>
-      <td>jarnkca01</td>
-      <td>Scott Wedgewood</td>
-      <td>wedgesc01</td>
-      <td>2</td>
-      <td>18.12</td>
-    </tr>
-    <tr>
-      <td>10/26/2023</td>
-      <td>TOR</td>
-      <td>@</td>
-      <td>DAL</td>
-      <td>W</td>
-      <td>Tyler Bertuzzi</td>
-      <td>bertuty01</td>
-      <td>Morgan Rielly</td>
-      <td>riellmo01</td>
-      <td>Matthew Knies</td>
-      <td>kniesma01</td>
-      <td>Scott Wedgewood</td>
-      <td>wedgesc01</td>
-      <td>3</td>
-      <td>5.13</td>
-    </tr>
-    <tr>
-      <td>11/2/2023</td>
-      <td>EDM</td>
-      <td>vs</td>
-      <td>DAL</td>
-      <td>L</td>
-      <td>Evander Kane</td>
-      <td>kaneev01</td>
-      <td>Ryan Nugent-Hopkins</td>
-      <td>nugenry01</td>
-      <td>-</td>
-      <td>NaN</td>
-      <td>Scott Wedgewood</td>
-      <td>wedgesc01</td>
-      <td>1</td>
-      <td>17.00</td>
-    </tr>
-    <tr>
-      <td>11/2/2023</td>
-      <td>EDM</td>
-      <td>vs</td>
-      <td>DAL</td>
-      <td>L</td>
-      <td>Sam Gagner</td>
-      <td>gagnesa01</td>
-      <td>Cody Ceci</td>
-      <td>cecico01</td>
-      <td>Brett Kulak</td>
-      <td>kulakbr01</td>
-      <td>Scott Wedgewood</td>
-      <td>wedgesc01</td>
-      <td>3</td>
-      <td>10.58</td>
-    </tr>
-    <tr>
-      <td>11/2/2023</td>
-      <td>EDM</td>
-      <td>vs</td>
-      <td>DAL</td>
-      <td>L</td>
-      <td>Sam Gagner</td>
-      <td>gagnesa01</td>
-      <td>Evander Kane</td>
-      <td>kaneev01</td>
-      <td>-</td>
-      <td>NaN</td>
-      <td>Scott Wedgewood</td>
-      <td>wedgesc01</td>
-      <td>3</td>
-      <td>13.60</td>
-    </tr>
-    <tr>
-      <td>11/11/2023</td>
-      <td>WPG</td>
-      <td>vs</td>
-      <td>DAL</td>
-      <td>L</td>
-      <td>Cole Perfetti</td>
-      <td>perfeco01</td>
-      <td>Vladislav Namestnikov</td>
-      <td>namesvl01</td>
-      <td>Nikolaj Ehlers</td>
-      <td>ehlerni01</td>
-      <td>Scott Wedgewood</td>
-      <td>wedgesc01</td>
-      <td>2</td>
-      <td>8.47</td>
-    </tr>
-    <tr>
-      <td>11/11/2023</td>
-      <td>WPG</td>
-      <td>vs</td>
-      <td>DAL</td>
-      <td>L</td>
-      <td>Brenden Dillon</td>
-      <td>dillobr01</td>
-      <td>Mark Scheifele</td>
-      <td>scheima01</td>
-      <td>Kyle Connor</td>
-      <td>connoky01</td>
-      <td>Scott Wedgewood</td>
-      <td>wedgesc01</td>
-      <td>3</td>
-      <td>10.08</td>
-    </tr>
-    <tr>
-      <td>11/20/2023</td>
-      <td>NYR</td>
-      <td>@</td>
-      <td>DAL</td>
-      <td>L</td>
-      <td>Vincent Trocheck</td>
-      <td>trochvi01</td>
-      <td>Chris Kreider</td>
-      <td>kreidch01</td>
-      <td>Erik Gustafsson</td>
-      <td>gustaer02</td>
-      <td>Scott Wedgewood</td>
-      <td>wedgesc01</td>
-      <td>1</td>
-      <td>16.42</td>
-    </tr>
-    <tr>
-      <td>11/20/2023</td>
-      <td>NYR</td>
-      <td>@</td>
-      <td>DAL</td>
-      <td>L</td>
-      <td>Kaapo Kakko</td>
-      <td>kakkoka01</td>
-      <td>Nick Bonino</td>
-      <td>boninni01</td>
-      <td>Jacob Trouba</td>
-      <td>troubja01</td>
-      <td>Scott Wedgewood</td>
-      <td>wedgesc01</td>
-      <td>2</td>
-      <td>13.63</td>
-    </tr>
-    <tr>
-      <td>11/20/2023</td>
-      <td>NYR</td>
-      <td>@</td>
-      <td>DAL</td>
-      <td>L</td>
-      <td>Barclay Goodrow</td>
-      <td>goodrba01</td>
-      <td>Braden Schneider</td>
-      <td>schnebr01</td>
-      <td>Jacob Trouba</td>
-      <td>troubja01</td>
-      <td>Scott Wedgewood</td>
-      <td>wedgesc01</td>
-      <td>3</td>
-      <td>19.73</td>
-    </tr>
-    <tr>
-      <td>11/30/2023</td>
-      <td>CGY</td>
-      <td>vs</td>
-      <td>DAL</td>
-      <td>W</td>
-      <td>Chris Tanev</td>
-      <td>tanevch01</td>
-      <td>Andrew Mangiapane</td>
-      <td>mangian01</td>
-      <td>Dennis Gilbert</td>
-      <td>gilbede01</td>
-      <td>Scott Wedgewood</td>
-      <td>wedgesc01</td>
-      <td>1</td>
-      <td>8.03</td>
-    </tr>
-    <tr>
-      <td>11/30/2023</td>
-      <td>CGY</td>
-      <td>vs</td>
-      <td>DAL</td>
-      <td>W</td>
-      <td>Noah Hanifin</td>
-      <td>hanifno01</td>
-      <td>Blake Coleman</td>
-      <td>colembl01</td>
-      <td>Mikael Backlund</td>
-      <td>backlmi01</td>
-      <td>Scott Wedgewood</td>
-      <td>wedgesc01</td>
-      <td>1</td>
-      <td>15.50</td>
-    </tr>
-    <tr>
-      <td>11/30/2023</td>
-      <td>CGY</td>
-      <td>vs</td>
-      <td>DAL</td>
-      <td>W</td>
-      <td>MacKenzie Weegar</td>
-      <td>weegama01</td>
-      <td>Jonathan Huberdeau</td>
-      <td>huberjo01</td>
-      <td>-</td>
-      <td>NaN</td>
-      <td>Scott Wedgewood</td>
-      <td>wedgesc01</td>
-      <td>3</td>
-      <td>17.32</td>
-    </tr>
-    <tr>
-      <td>11/30/2023</td>
-      <td>CGY</td>
-      <td>vs</td>
-      <td>DAL</td>
-      <td>W</td>
-      <td>Nazem Kadri</td>
-      <td>kadrina01</td>
-      <td>Jonathan Huberdeau</td>
-      <td>huberjo01</td>
-      <td>Jacob Markström</td>
-      <td>marksja02</td>
-      <td>Scott Wedgewood</td>
-      <td>wedgesc01</td>
-      <td>OT</td>
-      <td>1.02</td>
-    </tr>
-    <tr>
-      <td>12/7/2023</td>
-      <td>WSH</td>
-      <td>vs</td>
-      <td>DAL</td>
-      <td>L</td>
-      <td>Aliaksei Protas</td>
-      <td>protaal01</td>
-      <td>Connor McMichael</td>
-      <td>mcmicco01</td>
-      <td>Nick Jensen</td>
-      <td>jenseni02</td>
-      <td>Scott Wedgewood</td>
-      <td>wedgesc01</td>
-      <td>1</td>
-      <td>7.18</td>
-    </tr>
-    <tr>
-      <td>12/7/2023</td>
-      <td>WSH</td>
-      <td>vs</td>
-      <td>DAL</td>
-      <td>L</td>
-      <td>Dylan Strome</td>
-      <td>stromdy01</td>
-      <td>Tom Wilson</td>
-      <td>wilsoto01</td>
-      <td>Trevor van Riemsdyk</td>
-      <td>vanritr01</td>
-      <td>Scott Wedgewood</td>
-      <td>wedgesc01</td>
-      <td>2</td>
-      <td>4.52</td>
-    </tr>
-    <tr>
-      <td>12/7/2023</td>
-      <td>WSH</td>
-      <td>vs</td>
-      <td>DAL</td>
-      <td>L</td>
-      <td>Evgeny Kuznetsov</td>
-      <td>kuzneev01</td>
-      <td>Matthew Phillips</td>
-      <td>phillma01</td>
-      <td>Aliaksei Protas</td>
-      <td>protaal01</td>
-      <td>Scott Wedgewood</td>
-      <td>wedgesc01</td>
-      <td>2</td>
-      <td>7.23</td>
-    </tr>
-    <tr>
-      <td>12/7/2023</td>
-      <td>WSH</td>
-      <td>vs</td>
-      <td>DAL</td>
-      <td>L</td>
-      <td>Dylan Strome</td>
-      <td>stromdy01</td>
-      <td>Anthony Mantha</td>
-      <td>manthan01</td>
-      <td>Alex Ovechkin</td>
-      <td>ovechal01</td>
-      <td>Scott Wedgewood</td>
-      <td>wedgesc01</td>
-      <td>3</td>
-      <td>9.13</td>
-    </tr>
-    <tr>
-      <td>12/15/2023</td>
-      <td>OTT</td>
-      <td>@</td>
-      <td>DAL</td>
-      <td>L</td>
-      <td>Joshua Norris</td>
-      <td>norrijo01</td>
-      <td>Claude Giroux</td>
-      <td>giroucl01</td>
-      <td>Jakob Chychrun</td>
-      <td>chychja01</td>
-      <td>Scott Wedgewood</td>
-      <td>wedgesc01</td>
-      <td>1</td>
-      <td>13.33</td>
-    </tr>
-    <tr>
-      <td>12/15/2023</td>
-      <td>OTT</td>
-      <td>@</td>
-      <td>DAL</td>
-      <td>L</td>
-      <td>Drake Batherson</td>
-      <td>bathedr01</td>
-      <td>Brady Tkachuk</td>
-      <td>tkachbr01</td>
-      <td>Tim Stützle</td>
-      <td>stuetti02</td>
-      <td>Scott Wedgewood</td>
-      <td>wedgesc01</td>
-      <td>2</td>
-      <td>4.90</td>
-    </tr>
-    <tr>
-      <td>12/16/2023</td>
-      <td>STL</td>
-      <td>vs</td>
-      <td>DAL</td>
-      <td>W</td>
-      <td>Brandon Saad</td>
-      <td>saadbr01</td>
-      <td>Jordan Kyrou</td>
-      <td>kyroujo01</td>
-      <td>Kevin Hayes</td>
-      <td>hayeske01</td>
-      <td>Scott Wedgewood</td>
-      <td>wedgesc01</td>
-      <td>1</td>
-      <td>12.88</td>
-    </tr>
-    <tr>
-      <td>12/16/2023</td>
-      <td>STL</td>
-      <td>vs</td>
-      <td>DAL</td>
-      <td>W</td>
-      <td>Jordan Kyrou</td>
-      <td>kyroujo01</td>
-      <td>Torey Krug</td>
-      <td>krugto01</td>
-      <td>Robert Thomas</td>
-      <td>thomaro01</td>
-      <td>Scott Wedgewood</td>
-      <td>wedgesc01</td>
-      <td>2</td>
-      <td>1.60</td>
-    </tr>
-    <tr>
-      <td>12/16/2023</td>
-      <td>STL</td>
-      <td>vs</td>
-      <td>DAL</td>
-      <td>W</td>
-      <td>Kevin Hayes</td>
-      <td>hayeske01</td>
-      <td>Alexey Toropchenko</td>
-      <td>toropal01</td>
-      <td>Torey Krug</td>
-      <td>krugto01</td>
-      <td>Scott Wedgewood</td>
-      <td>wedgesc01</td>
-      <td>2</td>
-      <td>16.77</td>
-    </tr>
-    <tr>
-      <td>12/16/2023</td>
-      <td>STL</td>
-      <td>vs</td>
-      <td>DAL</td>
-      <td>W</td>
-      <td>Colton Parayko</td>
-      <td>parayco01</td>
-      <td>Jordan Kyrou</td>
-      <td>kyroujo01</td>
-      <td>Robert Thomas</td>
-      <td>thomaro01</td>
-      <td>Scott Wedgewood</td>
-      <td>wedgesc01</td>
-      <td>OT</td>
-      <td>0.62</td>
-    </tr>
-    <tr>
-      <td>12/18/2023</td>
-      <td>SEA</td>
-      <td>@</td>
-      <td>DAL</td>
-      <td>L</td>
-      <td>Tomáš Tatar</td>
-      <td>tatarto01</td>
-      <td>Matthew Beniers</td>
-      <td>beniema01</td>
-      <td>-</td>
-      <td>NaN</td>
-      <td>Scott Wedgewood</td>
-      <td>wedgesc01</td>
-      <td>2</td>
-      <td>0.53</td>
-    </tr>
-    <tr>
-      <td>12/18/2023</td>
-      <td>SEA</td>
-      <td>@</td>
-      <td>DAL</td>
-      <td>L</td>
-      <td>Matthew Beniers</td>
-      <td>beniema01</td>
-      <td>Jordan Eberle</td>
-      <td>eberljo01</td>
-      <td>Tomáš Tatar</td>
-      <td>tatarto01</td>
-      <td>Scott Wedgewood</td>
-      <td>wedgesc01</td>
-      <td>2</td>
-      <td>13.80</td>
-    </tr>
-    <tr>
-      <td>12/18/2023</td>
-      <td>SEA</td>
-      <td>@</td>
-      <td>DAL</td>
-      <td>L</td>
-      <td>Eeli Tolvanen</td>
-      <td>tolvaee01</td>
-      <td>Alexander Wennberg</td>
-      <td>wennbal01</td>
-      <td>Oliver Bjorkstrand</td>
-      <td>bjorkol01</td>
-      <td>Scott Wedgewood</td>
-      <td>wedgesc01</td>
-      <td>3</td>
-      <td>19.63</td>
-    </tr>
-    <tr>
-      <td>12/21/2023</td>
-      <td>VAN</td>
-      <td>@</td>
-      <td>DAL</td>
-      <td>L</td>
-      <td>Dakota Joshua</td>
-      <td>joshuda01</td>
-      <td>Conor Garland</td>
-      <td>garlaco01</td>
-      <td>Teddy Blueger</td>
-      <td>bluegte01</td>
-      <td>Scott Wedgewood</td>
-      <td>wedgesc01</td>
-      <td>1</td>
-      <td>2.85</td>
-    </tr>
-    <tr>
-      <td>12/21/2023</td>
-      <td>VAN</td>
-      <td>@</td>
-      <td>DAL</td>
-      <td>L</td>
-      <td>Brock Boeser</td>
-      <td>boesebr01</td>
-      <td>J.T. Miller</td>
-      <td>millejt01</td>
-      <td>Quinn Hughes</td>
-      <td>hughequ01</td>
-      <td>Scott Wedgewood</td>
-      <td>wedgesc01</td>
-      <td>2</td>
-      <td>12.43</td>
-    </tr>
-    <tr>
-      <td>12/21/2023</td>
-      <td>VAN</td>
-      <td>@</td>
-      <td>DAL</td>
-      <td>L</td>
-      <td>Conor Garland</td>
-      <td>garlaco01</td>
-      <td>Dakota Joshua</td>
-      <td>joshuda01</td>
-      <td>Teddy Blueger</td>
-      <td>bluegte01</td>
-      <td>Scott Wedgewood</td>
-      <td>wedgesc01</td>
-      <td>3</td>
-      <td>15.07</td>
-    </tr>
-    <tr>
-      <td>12/23/2023</td>
-      <td>NSH</td>
-      <td>vs</td>
-      <td>DAL</td>
-      <td>L</td>
-      <td>Michael McCarron</td>
-      <td>mccarmi01</td>
-      <td>Ryan McDonagh</td>
-      <td>mcdonry01</td>
-      <td>Philip Tomasino</td>
-      <td>tomasph01</td>
-      <td>Scott Wedgewood</td>
-      <td>wedgesc01</td>
-      <td>2</td>
-      <td>0.38</td>
-    </tr>
-    <tr>
-      <td>12/23/2023</td>
-      <td>NSH</td>
-      <td>vs</td>
-      <td>DAL</td>
-      <td>L</td>
-      <td>Colton Sissons</td>
-      <td>sissoco01</td>
-      <td>Gustav Nyquist</td>
-      <td>nyquigu01</td>
-      <td>Ryan O'Reilly</td>
-      <td>oreilry01</td>
-      <td>Scott Wedgewood</td>
-      <td>wedgesc01</td>
-      <td>2</td>
-      <td>6.55</td>
-    </tr>
-    <tr>
-      <td>12/27/2023</td>
-      <td>STL</td>
-      <td>vs</td>
-      <td>DAL</td>
-      <td>W</td>
-      <td>Jake Neighbours</td>
-      <td>neighja01</td>
-      <td>Scott Perunovich</td>
-      <td>perunsc01</td>
-      <td>-</td>
-      <td>NaN</td>
-      <td>Scott Wedgewood</td>
-      <td>wedgesc01</td>
-      <td>1</td>
-      <td>18.13</td>
-    </tr>
-    <tr>
-      <td>12/27/2023</td>
-      <td>STL</td>
-      <td>vs</td>
-      <td>DAL</td>
-      <td>W</td>
-      <td>Marco Scandella</td>
-      <td>scandma01</td>
-      <td>Kasperi Kapanen</td>
-      <td>kapanka01</td>
-      <td>Scott Perunovich</td>
-      <td>perunsc01</td>
-      <td>Scott Wedgewood</td>
-      <td>wedgesc01</td>
-      <td>2</td>
-      <td>10.88</td>
-    </tr>
-    <tr>
-      <td>12/29/2023</td>
-      <td>CHI</td>
-      <td>@</td>
-      <td>DAL</td>
-      <td>L</td>
-      <td>Tyler Johnson</td>
-      <td>johnsty01</td>
-      <td>Anthony Beauvillier</td>
-      <td>beauvan01</td>
-      <td>Jason Dickinson</td>
-      <td>dickija01</td>
-      <td>Scott Wedgewood</td>
-      <td>wedgesc01</td>
-      <td>1</td>
-      <td>7.93</td>
-    </tr>
-    <tr>
-      <td>12/29/2023</td>
-      <td>CHI</td>
-      <td>@</td>
-      <td>DAL</td>
-      <td>L</td>
-      <td>Cole Guttman</td>
-      <td>guttmco01</td>
-      <td>Lukas Reichel</td>
-      <td>reichlu01</td>
-      <td>Connor Murphy</td>
-      <td>murphco02</td>
-      <td>Scott Wedgewood</td>
-      <td>wedgesc01</td>
-      <td>1</td>
-      <td>10.93</td>
-    </tr>
-    <tr>
-      <td>12/29/2023</td>
-      <td>CHI</td>
-      <td>@</td>
-      <td>DAL</td>
-      <td>L</td>
-      <td>Jason Dickinson</td>
-      <td>dickija01</td>
-      <td>Cole Guttman</td>
-      <td>guttmco01</td>
-      <td>Alex Vlasic</td>
-      <td>vlasial01</td>
-      <td>Scott Wedgewood</td>
-      <td>wedgesc01</td>
-      <td>3</td>
-      <td>8.97</td>
-    </tr>
-    <tr>
-      <td>12/29/2023</td>
-      <td>CHI</td>
-      <td>@</td>
-      <td>DAL</td>
-      <td>L</td>
-      <td>Tyler Johnson</td>
-      <td>johnsty01</td>
-      <td>Philipp Kurashev</td>
-      <td>kurasph01</td>
-      <td>Kevin Korchinski</td>
-      <td>korchke01</td>
-      <td>Scott Wedgewood</td>
-      <td>wedgesc01</td>
-      <td>3</td>
-      <td>17.40</td>
-    </tr>
-    <tr>
-      <td>12/31/2023</td>
-      <td>CHI</td>
-      <td>@</td>
-      <td>DAL</td>
-      <td>L</td>
-      <td>Philipp Kurashev</td>
-      <td>kurasph01</td>
-      <td>Connor Bedard</td>
-      <td>bedarco01</td>
-      <td>Cole Guttman</td>
-      <td>guttmco01</td>
-      <td>Scott Wedgewood</td>
-      <td>wedgesc01</td>
-      <td>3</td>
-      <td>0.65</td>
-    </tr>
-    <tr>
-      <td>1/2/2024</td>
-      <td>MTL</td>
-      <td>@</td>
-      <td>DAL</td>
-      <td>W</td>
-      <td>Nick Suzuki</td>
-      <td>suzukni01</td>
-      <td>Juraj Slafkovsky</td>
-      <td>slafkju01</td>
-      <td>Jordan Harris</td>
-      <td>harrijo01</td>
-      <td>Scott Wedgewood</td>
-      <td>wedgesc01</td>
-      <td>1</td>
-      <td>4.23</td>
-    </tr>
-    <tr>
-      <td>1/2/2024</td>
-      <td>MTL</td>
-      <td>@</td>
-      <td>DAL</td>
-      <td>W</td>
-      <td>Kaiden Guhle</td>
-      <td>guhleka01</td>
-      <td>Johnathan Kovacevic</td>
-      <td>kovacjo01</td>
-      <td>Michael Pezzetta</td>
-      <td>pezzemi01</td>
-      <td>Scott Wedgewood</td>
-      <td>wedgesc01</td>
-      <td>1</td>
-      <td>9.77</td>
-    </tr>
-    <tr>
-      <td>1/2/2024</td>
-      <td>MTL</td>
-      <td>@</td>
-      <td>DAL</td>
-      <td>W</td>
-      <td>Jordan Harris</td>
-      <td>harrijo01</td>
-      <td>-</td>
-      <td>NaN</td>
-      <td>-</td>
-      <td>NaN</td>
-      <td>Scott Wedgewood</td>
-      <td>wedgesc01</td>
-      <td>2</td>
-      <td>6.90</td>
-    </tr>
-    <tr>
-      <td>1/2/2024</td>
-      <td>MTL</td>
-      <td>@</td>
-      <td>DAL</td>
-      <td>W</td>
-      <td>Cole Caufield</td>
-      <td>caufico01</td>
-      <td>Sean Monahan</td>
-      <td>monahse01</td>
-      <td>Nick Suzuki</td>
-      <td>suzukni01</td>
-      <td>Scott Wedgewood</td>
-      <td>wedgesc01</td>
-      <td>3</td>
-      <td>6.75</td>
-    </tr>
-    <tr>
-      <td>1/4/2024</td>
-      <td>COL</td>
-      <td>@</td>
-      <td>DAL</td>
-      <td>W</td>
-      <td>Nathan MacKinnon</td>
-      <td>mackina01</td>
-      <td>Miles Wood</td>
-      <td>woodmi01</td>
-      <td>Jack Johnson</td>
-      <td>johnsja02</td>
-      <td>Scott Wedgewood</td>
-      <td>wedgesc01</td>
-      <td>1</td>
-      <td>13.73</td>
-    </tr>
-    <tr>
-      <td>1/4/2024</td>
-      <td>COL</td>
-      <td>@</td>
-      <td>DAL</td>
-      <td>W</td>
-      <td>Jonathan Drouin</td>
-      <td>drouijo01</td>
-      <td>Devon Toews</td>
-      <td>toewsde01</td>
-      <td>Nathan MacKinnon</td>
-      <td>mackina01</td>
-      <td>Scott Wedgewood</td>
-      <td>wedgesc01</td>
-      <td>2</td>
-      <td>19.80</td>
-    </tr>
-    <tr>
-      <td>1/4/2024</td>
-      <td>COL</td>
-      <td>@</td>
-      <td>DAL</td>
-      <td>W</td>
-      <td>Jonathan Drouin</td>
-      <td>drouijo01</td>
-      <td>Jack Johnson</td>
-      <td>johnsja02</td>
-      <td>-</td>
-      <td>NaN</td>
-      <td>Scott Wedgewood</td>
-      <td>wedgesc01</td>
-      <td>3</td>
-      <td>9.75</td>
-    </tr>
-    <tr>
-      <td>1/4/2024</td>
-      <td>COL</td>
-      <td>@</td>
-      <td>DAL</td>
-      <td>W</td>
-      <td>Mikko Rantanen</td>
-      <td>rantami01</td>
-      <td>Logan O'Connor</td>
-      <td>oconnlo01</td>
-      <td>Cale Makar</td>
-      <td>makarca01</td>
-      <td>Scott Wedgewood</td>
-      <td>wedgesc01</td>
-      <td>3</td>
-      <td>18.85</td>
-    </tr>
-    <tr>
-      <td>1/4/2024</td>
-      <td>COL</td>
-      <td>@</td>
-      <td>DAL</td>
-      <td>W</td>
-      <td>Nathan MacKinnon</td>
-      <td>mackina01</td>
-      <td>Devon Toews</td>
-      <td>toewsde01</td>
-      <td>-</td>
-      <td>NaN</td>
-      <td>Scott Wedgewood</td>
-      <td>wedgesc01</td>
-      <td>OT</td>
-      <td>3.67</td>
-    </tr>
-    <tr>
-      <td>1/6/2024</td>
-      <td>NSH</td>
-      <td>@</td>
-      <td>DAL</td>
-      <td>W</td>
-      <td>Gustav Nyquist</td>
-      <td>nyquigu01</td>
-      <td>-</td>
-      <td>NaN</td>
-      <td>-</td>
-      <td>NaN</td>
-      <td>Scott Wedgewood</td>
-      <td>wedgesc01</td>
-      <td>1</td>
-      <td>11.43</td>
-    </tr>
-    <tr>
-      <td>1/6/2024</td>
-      <td>NSH</td>
-      <td>@</td>
-      <td>DAL</td>
-      <td>W</td>
-      <td>Luke Evangelista</td>
-      <td>evanglu01</td>
-      <td>Thomas Novak</td>
-      <td>novakth01</td>
-      <td>Cole Smith</td>
-      <td>smithco02</td>
-      <td>Scott Wedgewood</td>
-      <td>wedgesc01</td>
-      <td>2</td>
-      <td>7.37</td>
-    </tr>
-    <tr>
-      <td>1/6/2024</td>
-      <td>NSH</td>
-      <td>@</td>
-      <td>DAL</td>
-      <td>W</td>
-      <td>Filip Forsberg</td>
-      <td>forsbfi01</td>
-      <td>Gustav Nyquist</td>
-      <td>nyquigu01</td>
-      <td>Ryan O'Reilly</td>
-      <td>oreilry01</td>
-      <td>Scott Wedgewood</td>
-      <td>wedgesc01</td>
-      <td>3</td>
-      <td>2.70</td>
-    </tr>
-    <tr>
-      <td>1/6/2024</td>
-      <td>NSH</td>
-      <td>@</td>
-      <td>DAL</td>
-      <td>W</td>
-      <td>Filip Forsberg</td>
-      <td>forsbfi01</td>
-      <td>Ryan O'Reilly</td>
-      <td>oreilry01</td>
-      <td>Luke Schenn</td>
-      <td>schenlu01</td>
-      <td>Scott Wedgewood</td>
-      <td>wedgesc01</td>
-      <td>3</td>
-      <td>7.50</td>
-    </tr>
-    <tr>
-      <td>1/10/2024</td>
-      <td>MIN</td>
-      <td>@</td>
-      <td>DAL</td>
-      <td>L</td>
-      <td>Matt Boldy</td>
-      <td>boldyma01</td>
-      <td>Brock Faber</td>
-      <td>faberbr01</td>
-      <td>Joel Eriksson Ek</td>
-      <td>eriksjo02</td>
-      <td>Scott Wedgewood</td>
-      <td>wedgesc01</td>
-      <td>3</td>
-      <td>4.37</td>
-    </tr>
-    <tr>
-      <td>1/10/2024</td>
-      <td>MIN</td>
-      <td>@</td>
-      <td>DAL</td>
-      <td>L</td>
-      <td>Ryan Hartman</td>
-      <td>hartmry01</td>
-      <td>Mats Zuccarello</td>
-      <td>zuccama01</td>
-      <td>Matt Boldy</td>
-      <td>boldyma01</td>
-      <td>Scott Wedgewood</td>
-      <td>wedgesc01</td>
-      <td>3</td>
-      <td>11.05</td>
-    </tr>
-    <tr>
-      <td>1/20/2024</td>
-      <td>NJD</td>
-      <td>vs</td>
-      <td>DAL</td>
-      <td>L</td>
-      <td>Jesper Bratt</td>
-      <td>brattje01</td>
-      <td>Timo Meier</td>
-      <td>meierti01</td>
-      <td>Nico Hischier</td>
-      <td>hischni01</td>
-      <td>Scott Wedgewood</td>
-      <td>wedgesc01</td>
-      <td>3</td>
-      <td>13.25</td>
-    </tr>
-    <tr>
-      <td>1/20/2024</td>
-      <td>NJD</td>
-      <td>vs</td>
-      <td>DAL</td>
-      <td>L</td>
-      <td>Tyler Toffoli</td>
-      <td>toffoty01</td>
-      <td>-</td>
-      <td>NaN</td>
-      <td>-</td>
-      <td>NaN</td>
-      <td>Scott Wedgewood</td>
-      <td>wedgesc01</td>
-      <td>3</td>
-      <td>19.00</td>
-    </tr>
-    <tr>
-      <td>1/21/2024</td>
-      <td>NYI</td>
-      <td>vs</td>
-      <td>DAL</td>
-      <td>W</td>
-      <td>Alexander Romanov</td>
-      <td>romanal01</td>
-      <td>Mathew Barzal</td>
-      <td>barzama01</td>
-      <td>Noah Dobson</td>
-      <td>dobsono01</td>
-      <td>Scott Wedgewood</td>
-      <td>wedgesc01</td>
-      <td>1</td>
-      <td>2.87</td>
-    </tr>
-    <tr>
-      <td>1/21/2024</td>
-      <td>NYI</td>
-      <td>vs</td>
-      <td>DAL</td>
-      <td>W</td>
-      <td>Hudson Fasching</td>
-      <td>faschhu01</td>
-      <td>Noah Dobson</td>
-      <td>dobsono01</td>
-      <td>Brock Nelson</td>
-      <td>nelsobr01</td>
-      <td>Scott Wedgewood</td>
-      <td>wedgesc01</td>
-      <td>3</td>
-      <td>5.38</td>
-    </tr>
-    <tr>
-      <td>1/21/2024</td>
-      <td>NYI</td>
-      <td>vs</td>
-      <td>DAL</td>
-      <td>W</td>
-      <td>Bo Horvat</td>
-      <td>horvabo01</td>
-      <td>Mathew Barzal</td>
-      <td>barzama01</td>
-      <td>-</td>
-      <td>NaN</td>
-      <td>Scott Wedgewood</td>
-      <td>wedgesc01</td>
-      <td>OT</td>
-      <td>0.68</td>
-    </tr>
-    <tr>
-      <td>2/7/2024</td>
-      <td>TOR</td>
-      <td>vs</td>
-      <td>DAL</td>
-      <td>W</td>
-      <td>William Nylander</td>
-      <td>nylanwi01</td>
-      <td>Morgan Rielly</td>
-      <td>riellmo01</td>
-      <td>-</td>
-      <td>NaN</td>
-      <td>Scott Wedgewood</td>
-      <td>wedgesc01</td>
-      <td>1</td>
-      <td>6.57</td>
-    </tr>
-    <tr>
-      <td>2/7/2024</td>
-      <td>TOR</td>
-      <td>vs</td>
-      <td>DAL</td>
-      <td>W</td>
-      <td>John Tavares</td>
-      <td>tavarjo01</td>
-      <td>William Nylander</td>
-      <td>nylanwi01</td>
-      <td>-</td>
-      <td>NaN</td>
-      <td>Scott Wedgewood</td>
-      <td>wedgesc01</td>
-      <td>2</td>
-      <td>3.67</td>
-    </tr>
-    <tr>
-      <td>2/7/2024</td>
-      <td>TOR</td>
-      <td>vs</td>
-      <td>DAL</td>
-      <td>W</td>
-      <td>Auston Matthews</td>
-      <td>matthau01</td>
-      <td>John Tavares</td>
-      <td>tavarjo01</td>
-      <td>-</td>
-      <td>NaN</td>
-      <td>Scott Wedgewood</td>
-      <td>wedgesc01</td>
-      <td>2</td>
-      <td>12.62</td>
-    </tr>
-    <tr>
-      <td>2/7/2024</td>
-      <td>TOR</td>
-      <td>vs</td>
-      <td>DAL</td>
-      <td>W</td>
-      <td>Mitch Marner</td>
-      <td>marnemi01</td>
-      <td>Auston Matthews</td>
-      <td>matthau01</td>
-      <td>Matthew Knies</td>
-      <td>kniesma01</td>
-      <td>Scott Wedgewood</td>
-      <td>wedgesc01</td>
-      <td>3</td>
-      <td>11.62</td>
-    </tr>
-    <tr>
-      <td>2/7/2024</td>
-      <td>TOR</td>
-      <td>vs</td>
-      <td>DAL</td>
-      <td>W</td>
-      <td>William Nylander</td>
-      <td>nylanwi01</td>
-      <td>John Tavares</td>
-      <td>tavarjo01</td>
-      <td>Tyler Bertuzzi</td>
-      <td>bertuty01</td>
-      <td>Scott Wedgewood</td>
-      <td>wedgesc01</td>
-      <td>3</td>
-      <td>11.95</td>
-    </tr>
-    <tr>
-      <td>2/20/2024</td>
-      <td>NYR</td>
-      <td>vs</td>
-      <td>DAL</td>
-      <td>W</td>
-      <td>Adam Fox</td>
-      <td>foxad01</td>
-      <td>Artemi Panarin</td>
-      <td>panarar01</td>
-      <td>Ryan Lindgren</td>
-      <td>lindgry01</td>
-      <td>Scott Wedgewood</td>
-      <td>wedgesc01</td>
-      <td>1</td>
-      <td>7.77</td>
-    </tr>
-    <tr>
-      <td>2/20/2024</td>
-      <td>NYR</td>
-      <td>vs</td>
-      <td>DAL</td>
-      <td>W</td>
-      <td>Kaapo Kakko</td>
-      <td>kakkoka01</td>
-      <td>Erik Gustafsson</td>
-      <td>gustaer02</td>
-      <td>K'Andre Miller</td>
-      <td>milleka01</td>
-      <td>Scott Wedgewood</td>
-      <td>wedgesc01</td>
-      <td>2</td>
-      <td>8.38</td>
-    </tr>
-    <tr>
-      <td>2/22/2024</td>
-      <td>OTT</td>
-      <td>vs</td>
-      <td>DAL</td>
-      <td>W</td>
-      <td>Shane Pinto</td>
-      <td>pintosh01</td>
-      <td>Claude Giroux</td>
-      <td>giroucl01</td>
-      <td>Brady Tkachuk</td>
-      <td>tkachbr01</td>
-      <td>Scott Wedgewood</td>
-      <td>wedgesc01</td>
-      <td>2</td>
-      <td>19.72</td>
-    </tr>
-    <tr>
-      <td>2/26/2024</td>
-      <td>NYI</td>
-      <td>@</td>
-      <td>DAL</td>
-      <td>W</td>
-      <td>Ryan Pulock</td>
-      <td>pulocry01</td>
-      <td>Simon Holmström</td>
-      <td>holmssi01</td>
-      <td>Casey Cizikas</td>
-      <td>cizikca01</td>
-      <td>Scott Wedgewood</td>
-      <td>wedgesc01</td>
-      <td>1</td>
-      <td>15.98</td>
-    </tr>
-    <tr>
-      <td>2/26/2024</td>
-      <td>NYI</td>
-      <td>@</td>
-      <td>DAL</td>
-      <td>W</td>
-      <td>Kyle MacLean</td>
-      <td>macleky01</td>
-      <td>Pierre Engvall</td>
-      <td>engvapi01</td>
-      <td>Ryan Pulock</td>
-      <td>pulocry01</td>
-      <td>Scott Wedgewood</td>
-      <td>wedgesc01</td>
-      <td>2</td>
-      <td>15.40</td>
-    </tr>
-    <tr>
-      <td>2/26/2024</td>
-      <td>NYI</td>
-      <td>@</td>
-      <td>DAL</td>
-      <td>W</td>
-      <td>Bo Horvat</td>
-      <td>horvabo01</td>
-      <td>Mathew Barzal</td>
-      <td>barzama01</td>
-      <td>Mike Reilly</td>
-      <td>reillmi01</td>
-      <td>Scott Wedgewood</td>
-      <td>wedgesc01</td>
-      <td>OT</td>
-      <td>2.90</td>
-    </tr>
-    <tr>
-      <td>3/9/2024</td>
-      <td>LAK</td>
-      <td>vs</td>
-      <td>DAL</td>
-      <td>L</td>
-      <td>Kevin Fiala</td>
-      <td>fialake01</td>
-      <td>Drew Doughty</td>
-      <td>doughdr01</td>
-      <td>-</td>
-      <td>NaN</td>
-      <td>Scott Wedgewood</td>
-      <td>wedgesc01</td>
-      <td>1</td>
-      <td>0.43</td>
-    </tr>
-    <tr>
-      <td>3/14/2024</td>
-      <td>NJD</td>
-      <td>@</td>
-      <td>DAL</td>
-      <td>W</td>
-      <td>Tomáš Nosek</td>
-      <td>nosekto01</td>
-      <td>Curtis Lazar</td>
-      <td>lazarcu01</td>
-      <td>-</td>
-      <td>NaN</td>
-      <td>Scott Wedgewood</td>
-      <td>wedgesc01</td>
-      <td>2</td>
-      <td>5.20</td>
-    </tr>
-    <tr>
-      <td>3/14/2024</td>
-      <td>NJD</td>
-      <td>@</td>
-      <td>DAL</td>
-      <td>W</td>
-      <td>Alexander Holtz</td>
-      <td>holtzal01</td>
-      <td>Chris Tierney</td>
-      <td>tiernch01</td>
-      <td>Timo Meier</td>
-      <td>meierti01</td>
-      <td>Scott Wedgewood</td>
-      <td>wedgesc01</td>
-      <td>3</td>
-      <td>14.42</td>
-    </tr>
-    <tr>
-      <td>3/16/2024</td>
-      <td>LAK</td>
-      <td>@</td>
-      <td>DAL</td>
-      <td>L</td>
-      <td>Kevin Fiala</td>
-      <td>fialake01</td>
-      <td>Pierre-Luc Dubois</td>
-      <td>duboipi01</td>
-      <td>-</td>
-      <td>NaN</td>
-      <td>Scott Wedgewood</td>
-      <td>wedgesc01</td>
-      <td>3</td>
-      <td>1.18</td>
-    </tr>
-    <tr>
-      <td>3/26/2024</td>
-      <td>SJS</td>
-      <td>vs</td>
-      <td>DAL</td>
-      <td>L</td>
-      <td>Alexander Barabanov</td>
-      <td>barabal01</td>
-      <td>William Eklund</td>
-      <td>eklunwi01</td>
-      <td>Jan Rutta</td>
-      <td>ruttaja02</td>
-      <td>Scott Wedgewood</td>
-      <td>wedgesc01</td>
-      <td>2</td>
-      <td>0.90</td>
-    </tr>
-    <tr>
-      <td>3/26/2024</td>
-      <td>SJS</td>
-      <td>vs</td>
-      <td>DAL</td>
-      <td>L</td>
-      <td>William Eklund</td>
-      <td>eklunwi01</td>
-      <td>Thomas Bordeleau</td>
-      <td>bordeth01</td>
-      <td>Mikael Granlund</td>
-      <td>granlmi01</td>
-      <td>Scott Wedgewood</td>
-      <td>wedgesc01</td>
-      <td>2</td>
-      <td>2.00</td>
-    </tr>
-    <tr>
-      <td>3/26/2024</td>
-      <td>SJS</td>
-      <td>vs</td>
-      <td>DAL</td>
-      <td>L</td>
-      <td>Klim Kostin</td>
-      <td>kostikl01</td>
-      <td>Mikael Granlund</td>
-      <td>granlmi01</td>
-      <td>-</td>
-      <td>NaN</td>
-      <td>Scott Wedgewood</td>
-      <td>wedgesc01</td>
-      <td>2</td>
-      <td>8.97</td>
-    </tr>
-    <tr>
-      <td>4/6/2024</td>
-      <td>CHI</td>
-      <td>vs</td>
-      <td>DAL</td>
-      <td>W</td>
-      <td>Connor Bedard</td>
-      <td>bedarco01</td>
-      <td>Philipp Kurashev</td>
-      <td>kurasph01</td>
-      <td>Nick Foligno</td>
-      <td>foligni01</td>
-      <td>Scott Wedgewood</td>
-      <td>wedgesc01</td>
-      <td>2</td>
-      <td>4.80</td>
-    </tr>
-    <tr>
-      <td>4/6/2024</td>
-      <td>CHI</td>
-      <td>vs</td>
-      <td>DAL</td>
-      <td>W</td>
-      <td>Andreas Athanasiou</td>
-      <td>athanan01</td>
-      <td>Lukas Reichel</td>
-      <td>reichlu01</td>
-      <td>Wyatt Kaiser</td>
-      <td>kaisewy01</td>
-      <td>Scott Wedgewood</td>
-      <td>wedgesc01</td>
-      <td>2</td>
-      <td>5.88</td>
-    </tr>
-    <tr>
-      <td>4/6/2024</td>
-      <td>CHI</td>
-      <td>vs</td>
-      <td>DAL</td>
-      <td>W</td>
-      <td>Seth Jones</td>
-      <td>jonesse01</td>
-      <td>Ryan Donato</td>
-      <td>donatry01</td>
-      <td>MacKenzie Entwistle</td>
-      <td>entwima01</td>
-      <td>Scott Wedgewood</td>
-      <td>wedgesc01</td>
-      <td>2</td>
-      <td>8.85</td>
-    </tr>
-  </tbody>
-</table>
-    
-        </body>
-        </html>
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202310210DAL.html">10/21/2023</a></td>
+          <td><a href="/teams/DAL.html">DAL</a></td>
+          <td>vs</td>
+          <td><a href="/teams/PHI.html">PHI</a></td>
+          <td>W</td>
+          <td>4</td>
+          <td>40</td>
+          <td>36</td>
+          <td>90.00%</td>
+          <td>62.22</td>
+        </tr>
         
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202310260DAL.html">10/26/2023</a></td>
+          <td><a href="/teams/DAL.html">DAL</a></td>
+          <td>vs</td>
+          <td><a href="/teams/TOR.html">TOR</a></td>
+          <td>L</td>
+          <td>3</td>
+          <td>23</td>
+          <td>20</td>
+          <td>87.00%</td>
+          <td>56.38</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202311020EDM.html">11/2/2023</a></td>
+          <td><a href="/teams/DAL.html">DAL</a></td>
+          <td>@</td>
+          <td><a href="/teams/EDM.html">EDM</a></td>
+          <td>W</td>
+          <td>3</td>
+          <td>49</td>
+          <td>46</td>
+          <td>94.00%</td>
+          <td>59.93</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202311110WPG.html">11/11/2023</a></td>
+          <td><a href="/teams/DAL.html">DAL</a></td>
+          <td>@</td>
+          <td><a href="/teams/WPG.html">WPG</a></td>
+          <td>W</td>
+          <td>2</td>
+          <td>33</td>
+          <td>31</td>
+          <td>94.00%</td>
+          <td>60.0</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202311200DAL.html">11/20/2023</a></td>
+          <td><a href="/teams/DAL.html">DAL</a></td>
+          <td>vs</td>
+          <td><a href="/teams/NYR.html">NYR</a></td>
+          <td>W</td>
+          <td>3</td>
+          <td>33</td>
+          <td>30</td>
+          <td>91.00%</td>
+          <td>59.8</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202311300CGY.html">11/30/2023</a></td>
+          <td><a href="/teams/DAL.html">DAL</a></td>
+          <td>@</td>
+          <td><a href="/teams/CGY.html">CGY</a></td>
+          <td>L-OT</td>
+          <td>4</td>
+          <td>36</td>
+          <td>32</td>
+          <td>89.00%</td>
+          <td>61.02</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202312070WSH.html">12/7/2023</a></td>
+          <td><a href="/teams/DAL.html">DAL</a></td>
+          <td>@</td>
+          <td><a href="/teams/WSH.html">WSH</a></td>
+          <td>W</td>
+          <td>4</td>
+          <td>27</td>
+          <td>23</td>
+          <td>85.00%</td>
+          <td>65.0</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202312150DAL.html">12/15/2023</a></td>
+          <td><a href="/teams/DAL.html">DAL</a></td>
+          <td>vs</td>
+          <td><a href="/teams/OTT.html">OTT</a></td>
+          <td>W</td>
+          <td>2</td>
+          <td>27</td>
+          <td>25</td>
+          <td>93.00%</td>
+          <td>51.95</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202312160STL.html">12/16/2023</a></td>
+          <td><a href="/teams/DAL.html">DAL</a></td>
+          <td>@</td>
+          <td><a href="/teams/STL.html">STL</a></td>
+          <td>L-OT</td>
+          <td>4</td>
+          <td>34</td>
+          <td>30</td>
+          <td>88.00%</td>
+          <td>60.62</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202312180DAL.html">12/18/2023</a></td>
+          <td><a href="/teams/DAL.html">DAL</a></td>
+          <td>vs</td>
+          <td><a href="/teams/SEA.html">SEA</a></td>
+          <td>W</td>
+          <td>3</td>
+          <td>38</td>
+          <td>35</td>
+          <td>92.00%</td>
+          <td>61.08</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202312210DAL.html">12/21/2023</a></td>
+          <td><a href="/teams/DAL.html">DAL</a></td>
+          <td>vs</td>
+          <td><a href="/teams/VAN.html">VAN</a></td>
+          <td>W</td>
+          <td>3</td>
+          <td>20</td>
+          <td>17</td>
+          <td>85.00%</td>
+          <td>64.83</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202312230NSH.html">12/23/2023</a></td>
+          <td><a href="/teams/DAL.html">DAL</a></td>
+          <td>@</td>
+          <td><a href="/teams/NSH.html">NSH</a></td>
+          <td>W</td>
+          <td>2</td>
+          <td>21</td>
+          <td>19</td>
+          <td>91.00%</td>
+          <td>58.33</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202312270STL.html">12/27/2023</a></td>
+          <td><a href="/teams/DAL.html">DAL</a></td>
+          <td>@</td>
+          <td><a href="/teams/STL.html">STL</a></td>
+          <td>L</td>
+          <td>2</td>
+          <td>30</td>
+          <td>28</td>
+          <td>93.00%</td>
+          <td>58.13</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202312290DAL.html">12/29/2023</a></td>
+          <td><a href="/teams/DAL.html">DAL</a></td>
+          <td>vs</td>
+          <td><a href="/teams/CHI.html">CHI</a></td>
+          <td>W</td>
+          <td>4</td>
+          <td>29</td>
+          <td>25</td>
+          <td>86.00%</td>
+          <td>64.87</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202312310DAL.html">12/31/2023</a></td>
+          <td><a href="/teams/DAL.html">DAL</a></td>
+          <td>vs</td>
+          <td><a href="/teams/CHI.html">CHI</a></td>
+          <td>W</td>
+          <td>1</td>
+          <td>24</td>
+          <td>23</td>
+          <td>96.00%</td>
+          <td>60.0</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202401020DAL.html">1/2/2024</a></td>
+          <td><a href="/teams/DAL.html">DAL</a></td>
+          <td>vs</td>
+          <td><a href="/teams/MTL.html">MTL</a></td>
+          <td>L</td>
+          <td>4</td>
+          <td>18</td>
+          <td>14</td>
+          <td>78.00%</td>
+          <td>53.97</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202401040DAL.html">1/4/2024</a></td>
+          <td><a href="/teams/DAL.html">DAL</a></td>
+          <td>vs</td>
+          <td><a href="/teams/COL.html">COL</a></td>
+          <td>L-OT</td>
+          <td>5</td>
+          <td>34</td>
+          <td>29</td>
+          <td>85.00%</td>
+          <td>63.67</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202401060DAL.html">1/6/2024</a></td>
+          <td><a href="/teams/DAL.html">DAL</a></td>
+          <td>vs</td>
+          <td><a href="/teams/NSH.html">NSH</a></td>
+          <td>L</td>
+          <td>4</td>
+          <td>22</td>
+          <td>18</td>
+          <td>82.00%</td>
+          <td>58.02</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202401100DAL.html">1/10/2024</a></td>
+          <td><a href="/teams/DAL.html">DAL</a></td>
+          <td>vs</td>
+          <td><a href="/teams/MIN.html">MIN</a></td>
+          <td>W</td>
+          <td>2</td>
+          <td>23</td>
+          <td>21</td>
+          <td>91.00%</td>
+          <td>58.55</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202401130CHI.html">1/13/2024</a></td>
+          <td><a href="/teams/DAL.html">DAL</a></td>
+          <td>@</td>
+          <td><a href="/teams/CHI.html">CHI</a></td>
+          <td>W</td>
+          <td>0</td>
+          <td>14</td>
+          <td>14</td>
+          <td>100.00%</td>
+          <td>28.82</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202401200NJD.html">1/20/2024</a></td>
+          <td><a href="/teams/DAL.html">DAL</a></td>
+          <td>@</td>
+          <td><a href="/teams/NJD.html">NJD</a></td>
+          <td>W</td>
+          <td>2</td>
+          <td>31</td>
+          <td>29</td>
+          <td>94.00%</td>
+          <td>59.82</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202401210NYI.html">1/21/2024</a></td>
+          <td><a href="/teams/DAL.html">DAL</a></td>
+          <td>@</td>
+          <td><a href="/teams/NYI.html">NYI</a></td>
+          <td>L-OT</td>
+          <td>3</td>
+          <td>28</td>
+          <td>25</td>
+          <td>89.00%</td>
+          <td>60.68</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202402070TOR.html">2/7/2024</a></td>
+          <td><a href="/teams/DAL.html">DAL</a></td>
+          <td>@</td>
+          <td><a href="/teams/TOR.html">TOR</a></td>
+          <td>L</td>
+          <td>5</td>
+          <td>31</td>
+          <td>26</td>
+          <td>84.00%</td>
+          <td>57.1</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202402150NSH.html">2/15/2024</a></td>
+          <td><a href="/teams/DAL.html">DAL</a></td>
+          <td>@</td>
+          <td><a href="/teams/NSH.html">NSH</a></td>
+          <td>W</td>
+          <td>0</td>
+          <td>7</td>
+          <td>7</td>
+          <td>100.00%</td>
+          <td>20.0</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202402200NYR.html">2/20/2024</a></td>
+          <td><a href="/teams/DAL.html">DAL</a></td>
+          <td>@</td>
+          <td><a href="/teams/NYR.html">NYR</a></td>
+          <td>L</td>
+          <td>2</td>
+          <td>25</td>
+          <td>23</td>
+          <td>92.00%</td>
+          <td>57.22</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202402220OTT.html">2/22/2024</a></td>
+          <td><a href="/teams/DAL.html">DAL</a></td>
+          <td>@</td>
+          <td><a href="/teams/OTT.html">OTT</a></td>
+          <td>L</td>
+          <td>1</td>
+          <td>19</td>
+          <td>18</td>
+          <td>95.00%</td>
+          <td>31.07</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202402260DAL.html">2/26/2024</a></td>
+          <td><a href="/teams/DAL.html">DAL</a></td>
+          <td>vs</td>
+          <td><a href="/teams/NYI.html">NYI</a></td>
+          <td>L-OT</td>
+          <td>3</td>
+          <td>28</td>
+          <td>25</td>
+          <td>89.00%</td>
+          <td>62.9</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202403090LAK.html">3/9/2024</a></td>
+          <td><a href="/teams/DAL.html">DAL</a></td>
+          <td>@</td>
+          <td><a href="/teams/LAK.html">LAK</a></td>
+          <td>W</td>
+          <td>1</td>
+          <td>25</td>
+          <td>24</td>
+          <td>96.00%</td>
+          <td>60.0</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202403140DAL.html">3/14/2024</a></td>
+          <td><a href="/teams/DAL.html">DAL</a></td>
+          <td>vs</td>
+          <td><a href="/teams/NJD.html">NJD</a></td>
+          <td>L</td>
+          <td>2</td>
+          <td>10</td>
+          <td>8</td>
+          <td>80.00%</td>
+          <td>36.13</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202403160DAL.html">3/16/2024</a></td>
+          <td><a href="/teams/DAL.html">DAL</a></td>
+          <td>vs</td>
+          <td><a href="/teams/LAK.html">LAK</a></td>
+          <td>W</td>
+          <td>1</td>
+          <td>28</td>
+          <td>27</td>
+          <td>96.00%</td>
+          <td>59.7</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202403260SJS.html">3/26/2024</a></td>
+          <td><a href="/teams/DAL.html">DAL</a></td>
+          <td>@</td>
+          <td><a href="/teams/SJS.html">SJS</a></td>
+          <td>W</td>
+          <td>3</td>
+          <td>20</td>
+          <td>17</td>
+          <td>85.00%</td>
+          <td>60.0</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202404060CHI.html">4/6/2024</a></td>
+          <td><a href="/teams/DAL.html">DAL</a></td>
+          <td>@</td>
+          <td><a href="/teams/CHI.html">CHI</a></td>
+          <td>L</td>
+          <td>3</td>
+          <td>17</td>
+          <td>14</td>
+          <td>82.00%</td>
+          <td>57.33</td>
+        </tr>
+        
+    </tbody>
+  </table>
+</body>
+</html>
+    

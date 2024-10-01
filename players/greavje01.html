@@ -1,748 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jet Greaves</title>
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script src="/assets/searchBar.js" defer></script>
+  <script src="/assets/tableSort.js"></script>
+  
+  <style>
+    tr:hover {background-color: #F0FFF0;}
+  </style>
+</head>
 
-        <!DOCTYPE html>
-        <html lang="en">
-        <head>
-            <meta charset="UTF-8">
-            <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <title>greavje01 Profile</title>
-        </head>
-        <body>
-            
-    <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Player greavje01 Stats</title>
-        <link rel="stylesheet" href="/assets/css/styles.css"> <!-- Assuming a shared stylesheet -->
-    </head>
-    <body>
-        <nav id="navbar">
-            <ul>
-                <li><a href="/">Home</a></li>
-                <li><a href="/players/">Players</a></li>
-                <li><a href="/teams/">Teams</a></li>
-                <li><a href="/leaders/">Leaders</a></li>
-                <li><a href="/probabilities/">Probabilities</a></li>
-                <li><a href="/boxscores/">Boxscores</a></li>
-                <li><a href="/schedule/">Schedule</a></li>
-            </ul>
-        </nav>
+<body>
+  <!-- Navigation Bar -->
+  <nav id="navbar">
+    <a href="/">Home</a>
+    <a href="/players/">Players</a>
+    <a href="/teams/">Teams</a>
+    <a href="/leaders/">Leaders</a>
+    <a href="/probabilities/">Probabilities</a>
+    <a href="/boxscores/">Boxscores</a>
+    <a href="/schedule/">Schedule</a>
 
-        <main id="content">
-            <h1>Player greavje01 Stats</h1>
-            <table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th>Goalie</th>
-      <th>Player_ID</th>
-      <th>Gm</th>
-      <th>Game ID</th>
-      <th>Date</th>
-      <th>Team</th>
-      <th>Location</th>
-      <th>Opp</th>
-      <th>W/L</th>
-      <th>Goals 
-Allowed</th>
-      <th>Shots 
-Against</th>
-      <th>Saves</th>
-      <th>Save 
-Percentage</th>
-      <th>TOI</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Jet Greaves</td>
-      <td>greavje01</td>
-      <td>29</td>
-      <td>202312080CBJ</td>
-      <td>12/8/2023</td>
-      <td>CBJ</td>
-      <td>vs</td>
-      <td>STL</td>
-      <td>W</td>
-      <td>2</td>
-      <td>43</td>
-      <td>41</td>
-      <td>0.95</td>
-      <td>60.00</td>
-    </tr>
-    <tr>
-      <td>Jet Greaves</td>
-      <td>greavje01</td>
-      <td>77</td>
-      <td>202404060CBJ</td>
-      <td>4/6/2024</td>
-      <td>CBJ</td>
-      <td>vs</td>
-      <td>PHI</td>
-      <td>W</td>
-      <td>2</td>
-      <td>39</td>
-      <td>37</td>
-      <td>0.95</td>
-      <td>60.00</td>
-    </tr>
-    <tr>
-      <td>Jet Greaves</td>
-      <td>greavje01</td>
-      <td>82</td>
-      <td>202404160CBJ</td>
-      <td>4/16/2024</td>
-      <td>CBJ</td>
-      <td>vs</td>
-      <td>CAR</td>
-      <td>W</td>
-      <td>3</td>
-      <td>41</td>
-      <td>38</td>
-      <td>0.93</td>
-      <td>60.00</td>
-    </tr>
-    <tr>
-      <td>Jet Greaves</td>
-      <td>greavje01</td>
-      <td>80</td>
-      <td>202404110FLA</td>
-      <td>4/11/2024</td>
-      <td>CBJ</td>
-      <td>@</td>
-      <td>FLA</td>
-      <td>L</td>
-      <td>4</td>
-      <td>46</td>
-      <td>42</td>
-      <td>0.91</td>
-      <td>60.00</td>
-    </tr>
-    <tr>
-      <td>Jet Greaves</td>
-      <td>greavje01</td>
-      <td>81</td>
-      <td>202404130NSH</td>
-      <td>4/13/2024</td>
-      <td>CBJ</td>
-      <td>@</td>
-      <td>NSH</td>
-      <td>L</td>
-      <td>6</td>
-      <td>37</td>
-      <td>31</td>
-      <td>0.84</td>
-      <td>60.00</td>
-    </tr>
-    <tr>
-      <td>Jet Greaves</td>
-      <td>greavje01</td>
-      <td>79</td>
-      <td>202404090TBL</td>
-      <td>4/9/2024</td>
-      <td>CBJ</td>
-      <td>@</td>
-      <td>TBL</td>
-      <td>L</td>
-      <td>4</td>
-      <td>32</td>
-      <td>28</td>
-      <td>0.88</td>
-      <td>59.05</td>
-    </tr>
-    <tr>
-      <td>Jet Greaves</td>
-      <td>greavje01</td>
-      <td>30</td>
-      <td>202312100CBJ</td>
-      <td>12/10/2023</td>
-      <td>CBJ</td>
-      <td>vs</td>
-      <td>FLA</td>
-      <td>L</td>
-      <td>3</td>
-      <td>33</td>
-      <td>30</td>
-      <td>0.91</td>
-      <td>58.93</td>
-    </tr>
-    <tr>
-      <td>Jet Greaves</td>
-      <td>greavje01</td>
-      <td>62</td>
-      <td>202403050PIT</td>
-      <td>3/5/2024</td>
-      <td>CBJ</td>
-      <td>@</td>
-      <td>PIT</td>
-      <td>L</td>
-      <td>5</td>
-      <td>31</td>
-      <td>26</td>
-      <td>0.84</td>
-      <td>58.72</td>
-    </tr>
-    <tr>
-      <td>Jet Greaves</td>
-      <td>greavje01</td>
-      <td>76</td>
-      <td>202404040CBJ</td>
-      <td>4/4/2024</td>
-      <td>CBJ</td>
-      <td>vs</td>
-      <td>NYI</td>
-      <td>L</td>
-      <td>1</td>
-      <td>25</td>
-      <td>24</td>
-      <td>0.96</td>
-      <td>39.17</td>
-    </tr>
-  </tbody>
-</table>
-        </main>
-    </body>
-    </html>
+    <!-- Search Bar -->
+    <div class="search-container">
+      <input type="text" id="searchInput" placeholder="Search players or teams..." oninput="searchEntities()" />
+      <ul id="suggestions"></ul> <!-- This will show the search suggestions -->
+    </div>
+  </nav>
+
+  <h1>Jet Greaves - Gamelogs</h1>
+  <table border="1">
+    <thead>
+      <tr>
+        <th>Season</th>
+        <th>Date</th>
+        <th>Team</th>
+        <th>Location</th>
+        <th>Opponent</th>
+        <th>Result</th>
+        <th>GA</th>
+        <th>SA</th>
+        <th>SV</th>
+        <th>SV%</th>
+        <th>TOI</th>
+      </tr>
+    </thead>
+    <tbody>
     
-            <h2>Penalties</h2>
-            <p>No penalties table available</p>
-            <h2>Scoring</h2>
-            
-    <h2>Goals Allowed by greavje01</h2>
-    <table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th>Date</th>
-      <th>Tm</th>
-      <th>Location</th>
-      <th>Opp</th>
-      <th>Result</th>
-      <th>Scorer</th>
-      <th>scorer username</th>
-      <th>Assist1</th>
-      <th>ast 1 username</th>
-      <th>Assist2</th>
-      <th>ast 2 username</th>
-      <th>Goalie</th>
-      <th>goalie username</th>
-      <th>Per.</th>
-      <th>Time</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>12/8/2023</td>
-      <td>STL</td>
-      <td>@</td>
-      <td>CBJ</td>
-      <td>L</td>
-      <td>Robert Thomas</td>
-      <td>thomaro01</td>
-      <td>Pavel Buchnevich</td>
-      <td>buchnpa01</td>
-      <td>-</td>
-      <td>NaN</td>
-      <td>Jet Greaves</td>
-      <td>greavje01</td>
-      <td>1</td>
-      <td>14.60</td>
-    </tr>
-    <tr>
-      <td>12/8/2023</td>
-      <td>STL</td>
-      <td>@</td>
-      <td>CBJ</td>
-      <td>L</td>
-      <td>Robert Thomas</td>
-      <td>thomaro01</td>
-      <td>Brayden Schenn</td>
-      <td>schenbr01</td>
-      <td>Torey Krug</td>
-      <td>krugto01</td>
-      <td>Jet Greaves</td>
-      <td>greavje01</td>
-      <td>3</td>
-      <td>17.63</td>
-    </tr>
-    <tr>
-      <td>12/10/2023</td>
-      <td>FLA</td>
-      <td>@</td>
-      <td>CBJ</td>
-      <td>W</td>
-      <td>Gustav Forsling</td>
-      <td>forslgu02</td>
-      <td>Aleksander Barkov</td>
-      <td>barkoal01</td>
-      <td>Sam Reinhart</td>
-      <td>reinhsa01</td>
-      <td>Jet Greaves</td>
-      <td>greavje01</td>
-      <td>1</td>
-      <td>1.03</td>
-    </tr>
-    <tr>
-      <td>12/10/2023</td>
-      <td>FLA</td>
-      <td>@</td>
-      <td>CBJ</td>
-      <td>W</td>
-      <td>Carter Verhaeghe</td>
-      <td>verhaca01</td>
-      <td>Sam Reinhart</td>
-      <td>reinhsa01</td>
-      <td>Gustav Forsling</td>
-      <td>forslgu02</td>
-      <td>Jet Greaves</td>
-      <td>greavje01</td>
-      <td>1</td>
-      <td>7.47</td>
-    </tr>
-    <tr>
-      <td>12/10/2023</td>
-      <td>FLA</td>
-      <td>@</td>
-      <td>CBJ</td>
-      <td>W</td>
-      <td>Aleksander Barkov</td>
-      <td>barkoal01</td>
-      <td>Sam Bennett</td>
-      <td>bennesa01</td>
-      <td>Sam Reinhart</td>
-      <td>reinhsa01</td>
-      <td>Jet Greaves</td>
-      <td>greavje01</td>
-      <td>3</td>
-      <td>13.22</td>
-    </tr>
-    <tr>
-      <td>3/5/2024</td>
-      <td>PIT</td>
-      <td>vs</td>
-      <td>CBJ</td>
-      <td>W</td>
-      <td>Jesse Puljujärvi</td>
-      <td>puljuje01</td>
-      <td>Ryan Graves</td>
-      <td>gravery01</td>
-      <td>-</td>
-      <td>NaN</td>
-      <td>Jet Greaves</td>
-      <td>greavje01</td>
-      <td>1</td>
-      <td>13.55</td>
-    </tr>
-    <tr>
-      <td>3/5/2024</td>
-      <td>PIT</td>
-      <td>vs</td>
-      <td>CBJ</td>
-      <td>W</td>
-      <td>Evgeni Malkin</td>
-      <td>malkiev01</td>
-      <td>Reilly Smith</td>
-      <td>smithre01</td>
-      <td>Ryan Graves</td>
-      <td>gravery01</td>
-      <td>Jet Greaves</td>
-      <td>greavje01</td>
-      <td>1</td>
-      <td>18.95</td>
-    </tr>
-    <tr>
-      <td>3/5/2024</td>
-      <td>PIT</td>
-      <td>vs</td>
-      <td>CBJ</td>
-      <td>W</td>
-      <td>Rickard Rakell</td>
-      <td>rakelri01</td>
-      <td>-</td>
-      <td>NaN</td>
-      <td>-</td>
-      <td>NaN</td>
-      <td>Jet Greaves</td>
-      <td>greavje01</td>
-      <td>2</td>
-      <td>14.53</td>
-    </tr>
-    <tr>
-      <td>3/5/2024</td>
-      <td>PIT</td>
-      <td>vs</td>
-      <td>CBJ</td>
-      <td>W</td>
-      <td>Jeff Carter</td>
-      <td>carteje01</td>
-      <td>Emil Bemström</td>
-      <td>bemstem01</td>
-      <td>Reilly Smith</td>
-      <td>smithre01</td>
-      <td>Jet Greaves</td>
-      <td>greavje01</td>
-      <td>3</td>
-      <td>8.43</td>
-    </tr>
-    <tr>
-      <td>3/5/2024</td>
-      <td>PIT</td>
-      <td>vs</td>
-      <td>CBJ</td>
-      <td>W</td>
-      <td>Reilly Smith</td>
-      <td>smithre01</td>
-      <td>Evgeni Malkin</td>
-      <td>malkiev01</td>
-      <td>-</td>
-      <td>NaN</td>
-      <td>Jet Greaves</td>
-      <td>greavje01</td>
-      <td>3</td>
-      <td>9.88</td>
-    </tr>
-    <tr>
-      <td>4/4/2024</td>
-      <td>NYI</td>
-      <td>@</td>
-      <td>CBJ</td>
-      <td>W</td>
-      <td>Noah Dobson</td>
-      <td>dobsono01</td>
-      <td>Mathew Barzal</td>
-      <td>barzama01</td>
-      <td>Alexander Romanov</td>
-      <td>romanal01</td>
-      <td>Jet Greaves</td>
-      <td>greavje01</td>
-      <td>3</td>
-      <td>3.35</td>
-    </tr>
-    <tr>
-      <td>4/6/2024</td>
-      <td>PHI</td>
-      <td>@</td>
-      <td>CBJ</td>
-      <td>L</td>
-      <td>Olle Lycksell</td>
-      <td>lycksol01</td>
-      <td>Garnet Hathaway</td>
-      <td>hathaga01</td>
-      <td>-</td>
-      <td>NaN</td>
-      <td>Jet Greaves</td>
-      <td>greavje01</td>
-      <td>2</td>
-      <td>14.53</td>
-    </tr>
-    <tr>
-      <td>4/6/2024</td>
-      <td>PHI</td>
-      <td>@</td>
-      <td>CBJ</td>
-      <td>L</td>
-      <td>Adam Ginning</td>
-      <td>ginniad01</td>
-      <td>Noah Cates</td>
-      <td>catesno01</td>
-      <td>Ronald Attard</td>
-      <td>attarro01</td>
-      <td>Jet Greaves</td>
-      <td>greavje01</td>
-      <td>3</td>
-      <td>15.13</td>
-    </tr>
-    <tr>
-      <td>4/9/2024</td>
-      <td>TBL</td>
-      <td>vs</td>
-      <td>CBJ</td>
-      <td>W</td>
-      <td>Brayden Point</td>
-      <td>pointbr01</td>
-      <td>Nikita Kucherov</td>
-      <td>kucheni01</td>
-      <td>Anthony Duclair</td>
-      <td>duclaan01</td>
-      <td>Jet Greaves</td>
-      <td>greavje01</td>
-      <td>1</td>
-      <td>16.52</td>
-    </tr>
-    <tr>
-      <td>4/9/2024</td>
-      <td>TBL</td>
-      <td>vs</td>
-      <td>CBJ</td>
-      <td>W</td>
-      <td>Steven Stamkos</td>
-      <td>stamkst01</td>
-      <td>Nikita Kucherov</td>
-      <td>kucheni01</td>
-      <td>Victor Hedman</td>
-      <td>hedmavi01</td>
-      <td>Jet Greaves</td>
-      <td>greavje01</td>
-      <td>2</td>
-      <td>14.28</td>
-    </tr>
-    <tr>
-      <td>4/9/2024</td>
-      <td>TBL</td>
-      <td>vs</td>
-      <td>CBJ</td>
-      <td>W</td>
-      <td>Anthony Cirelli</td>
-      <td>cirelan01</td>
-      <td>Brandon Hagel</td>
-      <td>hagelbr01</td>
-      <td>Steven Stamkos</td>
-      <td>stamkst01</td>
-      <td>Jet Greaves</td>
-      <td>greavje01</td>
-      <td>3</td>
-      <td>5.67</td>
-    </tr>
-    <tr>
-      <td>4/9/2024</td>
-      <td>TBL</td>
-      <td>vs</td>
-      <td>CBJ</td>
-      <td>W</td>
-      <td>Steven Stamkos</td>
-      <td>stamkst01</td>
-      <td>Brandon Hagel</td>
-      <td>hagelbr01</td>
-      <td>Erik Černák</td>
-      <td>cernaer01</td>
-      <td>Jet Greaves</td>
-      <td>greavje01</td>
-      <td>3</td>
-      <td>5.93</td>
-    </tr>
-    <tr>
-      <td>4/11/2024</td>
-      <td>FLA</td>
-      <td>vs</td>
-      <td>CBJ</td>
-      <td>W</td>
-      <td>Matthew Tkachuk</td>
-      <td>tkachma01</td>
-      <td>Oliver Ekman-Larsson</td>
-      <td>ekmanol01</td>
-      <td>Nick Cousins</td>
-      <td>cousini01</td>
-      <td>Jet Greaves</td>
-      <td>greavje01</td>
-      <td>1</td>
-      <td>0.78</td>
-    </tr>
-    <tr>
-      <td>4/11/2024</td>
-      <td>FLA</td>
-      <td>vs</td>
-      <td>CBJ</td>
-      <td>W</td>
-      <td>Evan Rodrigues</td>
-      <td>rodriev01</td>
-      <td>Anton Lundell</td>
-      <td>lundean01</td>
-      <td>Eetu Luostarinen</td>
-      <td>luostee01</td>
-      <td>Jet Greaves</td>
-      <td>greavje01</td>
-      <td>2</td>
-      <td>17.42</td>
-    </tr>
-    <tr>
-      <td>4/11/2024</td>
-      <td>FLA</td>
-      <td>vs</td>
-      <td>CBJ</td>
-      <td>W</td>
-      <td>Sam Reinhart</td>
-      <td>reinhsa01</td>
-      <td>Aleksander Barkov</td>
-      <td>barkoal01</td>
-      <td>Oliver Ekman-Larsson</td>
-      <td>ekmanol01</td>
-      <td>Jet Greaves</td>
-      <td>greavje01</td>
-      <td>2</td>
-      <td>19.10</td>
-    </tr>
-    <tr>
-      <td>4/11/2024</td>
-      <td>FLA</td>
-      <td>vs</td>
-      <td>CBJ</td>
-      <td>W</td>
-      <td>Vladimir Tarasenko</td>
-      <td>tarasvl01</td>
-      <td>Gustav Forsling</td>
-      <td>forslgu02</td>
-      <td>-</td>
-      <td>NaN</td>
-      <td>Jet Greaves</td>
-      <td>greavje01</td>
-      <td>3</td>
-      <td>17.72</td>
-    </tr>
-    <tr>
-      <td>4/13/2024</td>
-      <td>NSH</td>
-      <td>vs</td>
-      <td>CBJ</td>
-      <td>W</td>
-      <td>Thomas Novak</td>
-      <td>novakth01</td>
-      <td>Luke Evangelista</td>
-      <td>evanglu01</td>
-      <td>Roman Josi</td>
-      <td>josiro01</td>
-      <td>Jet Greaves</td>
-      <td>greavje01</td>
-      <td>1</td>
-      <td>2.82</td>
-    </tr>
-    <tr>
-      <td>4/13/2024</td>
-      <td>NSH</td>
-      <td>vs</td>
-      <td>CBJ</td>
-      <td>W</td>
-      <td>Roman Josi</td>
-      <td>josiro01</td>
-      <td>Gustav Nyquist</td>
-      <td>nyquigu01</td>
-      <td>Ryan O'Reilly</td>
-      <td>oreilry01</td>
-      <td>Jet Greaves</td>
-      <td>greavje01</td>
-      <td>1</td>
-      <td>4.32</td>
-    </tr>
-    <tr>
-      <td>4/13/2024</td>
-      <td>NSH</td>
-      <td>vs</td>
-      <td>CBJ</td>
-      <td>W</td>
-      <td>Thomas Novak</td>
-      <td>novakth01</td>
-      <td>Anthony Beauvillier</td>
-      <td>beauvan01</td>
-      <td>Ryan McDonagh</td>
-      <td>mcdonry01</td>
-      <td>Jet Greaves</td>
-      <td>greavje01</td>
-      <td>1</td>
-      <td>13.42</td>
-    </tr>
-    <tr>
-      <td>4/13/2024</td>
-      <td>NSH</td>
-      <td>vs</td>
-      <td>CBJ</td>
-      <td>W</td>
-      <td>Cody Glass</td>
-      <td>glassco01</td>
-      <td>Alexandre Carrier</td>
-      <td>carrial01</td>
-      <td>Mark Jankowski</td>
-      <td>jankoma01</td>
-      <td>Jet Greaves</td>
-      <td>greavje01</td>
-      <td>2</td>
-      <td>4.87</td>
-    </tr>
-    <tr>
-      <td>4/13/2024</td>
-      <td>NSH</td>
-      <td>vs</td>
-      <td>CBJ</td>
-      <td>W</td>
-      <td>Filip Forsberg</td>
-      <td>forsbfi01</td>
-      <td>Roman Josi</td>
-      <td>josiro01</td>
-      <td>Gustav Nyquist</td>
-      <td>nyquigu01</td>
-      <td>Jet Greaves</td>
-      <td>greavje01</td>
-      <td>2</td>
-      <td>13.20</td>
-    </tr>
-    <tr>
-      <td>4/13/2024</td>
-      <td>NSH</td>
-      <td>vs</td>
-      <td>CBJ</td>
-      <td>W</td>
-      <td>Roman Josi</td>
-      <td>josiro01</td>
-      <td>Luke Evangelista</td>
-      <td>evanglu01</td>
-      <td>Thomas Novak</td>
-      <td>novakth01</td>
-      <td>Jet Greaves</td>
-      <td>greavje01</td>
-      <td>2</td>
-      <td>15.15</td>
-    </tr>
-    <tr>
-      <td>4/16/2024</td>
-      <td>CAR</td>
-      <td>@</td>
-      <td>CBJ</td>
-      <td>L</td>
-      <td>Jesperi Kotkaniemi</td>
-      <td>kotkaje01</td>
-      <td>Max Comtois</td>
-      <td>comtoma01</td>
-      <td>Stefan Noesen</td>
-      <td>noesest01</td>
-      <td>Jet Greaves</td>
-      <td>greavje01</td>
-      <td>1</td>
-      <td>7.17</td>
-    </tr>
-    <tr>
-      <td>4/16/2024</td>
-      <td>CAR</td>
-      <td>@</td>
-      <td>CBJ</td>
-      <td>L</td>
-      <td>Teuvo Teräväinen</td>
-      <td>teravte01</td>
-      <td>Jesperi Kotkaniemi</td>
-      <td>kotkaje01</td>
-      <td>Brent Burns</td>
-      <td>burnsbr01</td>
-      <td>Jet Greaves</td>
-      <td>greavje01</td>
-      <td>1</td>
-      <td>18.27</td>
-    </tr>
-    <tr>
-      <td>4/16/2024</td>
-      <td>CAR</td>
-      <td>@</td>
-      <td>CBJ</td>
-      <td>L</td>
-      <td>Teuvo Teräväinen</td>
-      <td>teravte01</td>
-      <td>Brent Burns</td>
-      <td>burnsbr01</td>
-      <td>Stefan Noesen</td>
-      <td>noesest01</td>
-      <td>Jet Greaves</td>
-      <td>greavje01</td>
-      <td>2</td>
-      <td>10.27</td>
-    </tr>
-  </tbody>
-</table>
-    
-        </body>
-        </html>
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202312080CBJ.html">12/8/2023</a></td>
+          <td><a href="/teams/CBJ.html">CBJ</a></td>
+          <td>vs</td>
+          <td><a href="/teams/STL.html">STL</a></td>
+          <td>W</td>
+          <td>2</td>
+          <td>43</td>
+          <td>41</td>
+          <td>95.00%</td>
+          <td>60.0</td>
+        </tr>
         
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202312100CBJ.html">12/10/2023</a></td>
+          <td><a href="/teams/CBJ.html">CBJ</a></td>
+          <td>vs</td>
+          <td><a href="/teams/FLA.html">FLA</a></td>
+          <td>L</td>
+          <td>3</td>
+          <td>33</td>
+          <td>30</td>
+          <td>91.00%</td>
+          <td>58.93</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202403050PIT.html">3/5/2024</a></td>
+          <td><a href="/teams/CBJ.html">CBJ</a></td>
+          <td>@</td>
+          <td><a href="/teams/PIT.html">PIT</a></td>
+          <td>L</td>
+          <td>5</td>
+          <td>31</td>
+          <td>26</td>
+          <td>84.00%</td>
+          <td>58.72</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202404040CBJ.html">4/4/2024</a></td>
+          <td><a href="/teams/CBJ.html">CBJ</a></td>
+          <td>vs</td>
+          <td><a href="/teams/NYI.html">NYI</a></td>
+          <td>L</td>
+          <td>1</td>
+          <td>25</td>
+          <td>24</td>
+          <td>96.00%</td>
+          <td>39.17</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202404060CBJ.html">4/6/2024</a></td>
+          <td><a href="/teams/CBJ.html">CBJ</a></td>
+          <td>vs</td>
+          <td><a href="/teams/PHI.html">PHI</a></td>
+          <td>W</td>
+          <td>2</td>
+          <td>39</td>
+          <td>37</td>
+          <td>95.00%</td>
+          <td>60.0</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202404090TBL.html">4/9/2024</a></td>
+          <td><a href="/teams/CBJ.html">CBJ</a></td>
+          <td>@</td>
+          <td><a href="/teams/TBL.html">TBL</a></td>
+          <td>L</td>
+          <td>4</td>
+          <td>32</td>
+          <td>28</td>
+          <td>88.00%</td>
+          <td>59.05</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202404110FLA.html">4/11/2024</a></td>
+          <td><a href="/teams/CBJ.html">CBJ</a></td>
+          <td>@</td>
+          <td><a href="/teams/FLA.html">FLA</a></td>
+          <td>L</td>
+          <td>4</td>
+          <td>46</td>
+          <td>42</td>
+          <td>91.00%</td>
+          <td>60.0</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202404130NSH.html">4/13/2024</a></td>
+          <td><a href="/teams/CBJ.html">CBJ</a></td>
+          <td>@</td>
+          <td><a href="/teams/NSH.html">NSH</a></td>
+          <td>L</td>
+          <td>6</td>
+          <td>37</td>
+          <td>31</td>
+          <td>84.00%</td>
+          <td>60.0</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202404160CBJ.html">4/16/2024</a></td>
+          <td><a href="/teams/CBJ.html">CBJ</a></td>
+          <td>vs</td>
+          <td><a href="/teams/CAR.html">CAR</a></td>
+          <td>W</td>
+          <td>3</td>
+          <td>41</td>
+          <td>38</td>
+          <td>93.00%</td>
+          <td>60.0</td>
+        </tr>
+        
+    </tbody>
+  </table>
+</body>
+</html>
+    

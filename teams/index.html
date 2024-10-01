@@ -1,49 +1,68 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Team Directory</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hockey Stats Site</title>
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script src="/assets/searchBar.js" defer></script>
 </head>
 <body>
-    <main id="content">
-        <h2>Team Directory</h2>
-        <p>Browse through all teams:</p>
-        <ul>
-            <li><a href="/teams/ANA.html">ANA</a></li>
-<li><a href="/teams/ARI.html">ARI</a></li>
-<li><a href="/teams/BOS.html">BOS</a></li>
-<li><a href="/teams/BUF.html">BUF</a></li>
-<li><a href="/teams/CAR.html">CAR</a></li>
-<li><a href="/teams/CBJ.html">CBJ</a></li>
-<li><a href="/teams/CGY.html">CGY</a></li>
-<li><a href="/teams/CHI.html">CHI</a></li>
-<li><a href="/teams/COL.html">COL</a></li>
-<li><a href="/teams/DAL.html">DAL</a></li>
-<li><a href="/teams/DET.html">DET</a></li>
-<li><a href="/teams/EDM.html">EDM</a></li>
-<li><a href="/teams/FLA.html">FLA</a></li>
-<li><a href="/teams/LAK.html">LAK</a></li>
-<li><a href="/teams/MIN.html">MIN</a></li>
-<li><a href="/teams/MTL.html">MTL</a></li>
-<li><a href="/teams/NJD.html">NJD</a></li>
-<li><a href="/teams/NSH.html">NSH</a></li>
-<li><a href="/teams/NYI.html">NYI</a></li>
-<li><a href="/teams/NYR.html">NYR</a></li>
-<li><a href="/teams/OTT.html">OTT</a></li>
-<li><a href="/teams/PHI.html">PHI</a></li>
-<li><a href="/teams/PIT.html">PIT</a></li>
-<li><a href="/teams/SEA.html">SEA</a></li>
-<li><a href="/teams/SJS.html">SJS</a></li>
-<li><a href="/teams/STL.html">STL</a></li>
-<li><a href="/teams/TBL.html">TBL</a></li>
-<li><a href="/teams/TOR.html">TOR</a></li>
-<li><a href="/teams/VAN.html">VAN</a></li>
-<li><a href="/teams/VEG.html">VEG</a></li>
-<li><a href="/teams/WPG.html">WPG</a></li>
-<li><a href="/teams/WSH.html">WSH</a></li>
-        </ul>
-    </main>
+  <!-- Navigation Bar -->
+  <nav id="navbar">
+    <a href="/">Home</a>
+    <a href="/players/">Players</a>
+    <a href="/teams/">Teams</a>
+    <a href="/leaders/">Leaders</a>
+    <a href="/probabilities/">Probabilities</a>
+    <a href="/boxscores/">Boxscores</a>
+    <a href="/schedule/">Schedule</a>
+
+    <!-- Search Bar -->
+    <div class="search-container">
+      <input type="text" id="searchInput" placeholder="Search players or teams..." oninput="searchEntities()" />
+      <ul id="suggestions"></ul> <!-- This will show the search suggestions -->
+    </div>
+  </nav>
+
+  <!-- Main Content Layout -->
+  <main id="content">
+    <h1>Team Directory</h1>
+	<p>Browse through all teams:</p>
+	<ul>
+      <h2><a href="/teams/ANA.html">Anaheim Ducks</a></li>
+      <li><a href="/teams/ARI.html">Utah Hockey Club</a></li>
+      <li><a href="/teams/BOS.html">Boston Bruins</a></li>
+      <li><a href="/teams/BUF.html">Buffalo Sabres</a></li>
+      <li><a href="/teams/CAR.html">Carolina Hurricanes</a></li>
+      <li><a href="/teams/CBJ.html">Columbus Blue Jackets</a></li>
+      <li><a href="/teams/CGY.html">Calgary Flames</a></li>
+      <li><a href="/teams/CHI.html">Chicago Blackhawks</a></li>
+      <li><a href="/teams/COL.html">Colorado Avalanche</a></li>
+      <li><a href="/teams/DAL.html">Dallas Stars</a></li>
+      <li><a href="/teams/DET.html">Detroit Red Wings</a></li>
+      <li><a href="/teams/EDM.html">Edmonton Oilers</a></li>
+      <li><a href="/teams/FLA.html">Florida Panthers</a></li>
+      <li><a href="/teams/LAK.html">Los Angeles Kings</a></li>
+      <li><a href="/teams/MIN.html">Minnesota Wild</a></li>
+      <li><a href="/teams/MTL.html">Montreal Canadiens</a></li>
+      <li><a href="/teams/NJD.html">New Jersey Devils</a></li>
+      <li><a href="/teams/NSH.html">Nashville Predators</a></li>
+      <li><a href="/teams/NYI.html">New York Islanders</a></li>
+      <li><a href="/teams/NYR.html">New York Rangers</a></li>
+      <li><a href="/teams/OTT.html">Ottawa Senators</a></li>
+      <li><a href="/teams/PHI.html">Philadelphia Flyers</a></li>
+      <li><a href="/teams/PIT.html">Pittsburgh Penguins</a></li>
+      <li><a href="/teams/SEA.html">Seattle Kraken</a></li>
+      <li><a href="/teams/SJS.html">San Jose Sharks</a></li>
+      <li><a href="/teams/STL.html">St. Louis Blues</a></li>
+      <li><a href="/teams/TBL.html">Tampa Bay Lightning</a></li>
+      <li><a href="/teams/TOR.html">Toronto Maple Leafs</a></li>
+      <li><a href="/teams/VAN.html">Vancouver Canucks</a></li>
+      <li><a href="/teams/VEG.html">Vegas Golden Knights</a></li>
+      <li><a href="/teams/WPG.html">Winnipeg Jets</a></li>
+      <li><a href="/teams/WSH.html">Washington Capitals</a></li>
+    </ul>
+  </main>
 </body>
 </html>

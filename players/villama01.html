@@ -1,211 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Matt Villalta</title>
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script src="/assets/searchBar.js" defer></script>
+  <script src="/assets/tableSort.js"></script>
+  
+  <style>
+    tr:hover {background-color: #F0FFF0;}
+  </style>
+</head>
 
-        <!DOCTYPE html>
-        <html lang="en">
-        <head>
-            <meta charset="UTF-8">
-            <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <title>villama01 Profile</title>
-        </head>
-        <body>
-            
-    <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Player villama01 Stats</title>
-        <link rel="stylesheet" href="/assets/css/styles.css"> <!-- Assuming a shared stylesheet -->
-    </head>
-    <body>
-        <nav id="navbar">
-            <ul>
-                <li><a href="/">Home</a></li>
-                <li><a href="/players/">Players</a></li>
-                <li><a href="/teams/">Teams</a></li>
-                <li><a href="/leaders/">Leaders</a></li>
-                <li><a href="/probabilities/">Probabilities</a></li>
-                <li><a href="/boxscores/">Boxscores</a></li>
-                <li><a href="/schedule/">Schedule</a></li>
-            </ul>
-        </nav>
+<body>
+  <!-- Navigation Bar -->
+  <nav id="navbar">
+    <a href="/">Home</a>
+    <a href="/players/">Players</a>
+    <a href="/teams/">Teams</a>
+    <a href="/leaders/">Leaders</a>
+    <a href="/probabilities/">Probabilities</a>
+    <a href="/boxscores/">Boxscores</a>
+    <a href="/schedule/">Schedule</a>
 
-        <main id="content">
-            <h1>Player villama01 Stats</h1>
-            <table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th>Goalie</th>
-      <th>Player_ID</th>
-      <th>Gm</th>
-      <th>Game ID</th>
-      <th>Date</th>
-      <th>Team</th>
-      <th>Location</th>
-      <th>Opp</th>
-      <th>W/L</th>
-      <th>Goals 
-Allowed</th>
-      <th>Shots 
-Against</th>
-      <th>Saves</th>
-      <th>Save 
-Percentage</th>
-      <th>TOI</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Matt Villalta</td>
-      <td>villama01</td>
-      <td>55</td>
-      <td>202402190ARI</td>
-      <td>2/19/2024</td>
-      <td>ARI</td>
-      <td>vs</td>
-      <td>EDM</td>
-      <td>L</td>
-      <td>5</td>
-      <td>25</td>
-      <td>20</td>
-      <td>0.8</td>
-      <td>58.32</td>
-    </tr>
-    <tr>
-      <td>Matt Villalta</td>
-      <td>villama01</td>
-      <td>53</td>
-      <td>202402160ARI</td>
-      <td>2/16/2024</td>
-      <td>ARI</td>
-      <td>vs</td>
-      <td>CAR</td>
-      <td>L</td>
-      <td>0</td>
-      <td>4</td>
-      <td>4</td>
-      <td>1.0</td>
-      <td>13.65</td>
-    </tr>
-  </tbody>
-</table>
-        </main>
-    </body>
-    </html>
+    <!-- Search Bar -->
+    <div class="search-container">
+      <input type="text" id="searchInput" placeholder="Search players or teams..." oninput="searchEntities()" />
+      <ul id="suggestions"></ul> <!-- This will show the search suggestions -->
+    </div>
+  </nav>
+
+  <h1>Matt Villalta - Gamelogs</h1>
+  <table border="1">
+    <thead>
+      <tr>
+        <th>Season</th>
+        <th>Date</th>
+        <th>Team</th>
+        <th>Location</th>
+        <th>Opponent</th>
+        <th>Result</th>
+        <th>GA</th>
+        <th>SA</th>
+        <th>SV</th>
+        <th>SV%</th>
+        <th>TOI</th>
+      </tr>
+    </thead>
+    <tbody>
     
-            <h2>Penalties</h2>
-            <p>No penalties table available</p>
-            <h2>Scoring</h2>
-            
-    <h2>Goals Allowed by villama01</h2>
-    <table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th>Date</th>
-      <th>Tm</th>
-      <th>Location</th>
-      <th>Opp</th>
-      <th>Result</th>
-      <th>Scorer</th>
-      <th>scorer username</th>
-      <th>Assist1</th>
-      <th>ast 1 username</th>
-      <th>Assist2</th>
-      <th>ast 2 username</th>
-      <th>Goalie</th>
-      <th>goalie username</th>
-      <th>Per.</th>
-      <th>Time</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>2/19/2024</td>
-      <td>EDM</td>
-      <td>@</td>
-      <td>ARI</td>
-      <td>W</td>
-      <td>Leon Draisaitl</td>
-      <td>draisle01</td>
-      <td>Connor McDavid</td>
-      <td>mcdavco01</td>
-      <td>Evan Bouchard</td>
-      <td>bouchev01</td>
-      <td>Matt Villalta</td>
-      <td>villama01</td>
-      <td>1</td>
-      <td>2.20</td>
-    </tr>
-    <tr>
-      <td>2/19/2024</td>
-      <td>EDM</td>
-      <td>@</td>
-      <td>ARI</td>
-      <td>W</td>
-      <td>Mattias Janmark</td>
-      <td>janmama02</td>
-      <td>Brett Kulak</td>
-      <td>kulakbr01</td>
-      <td>Vincent Desharnais</td>
-      <td>deshavi01</td>
-      <td>Matt Villalta</td>
-      <td>villama01</td>
-      <td>1</td>
-      <td>6.12</td>
-    </tr>
-    <tr>
-      <td>2/19/2024</td>
-      <td>EDM</td>
-      <td>@</td>
-      <td>ARI</td>
-      <td>W</td>
-      <td>Evander Kane</td>
-      <td>kaneev01</td>
-      <td>Evan Bouchard</td>
-      <td>bouchev01</td>
-      <td>Mattias Ekholm</td>
-      <td>ekholma01</td>
-      <td>Matt Villalta</td>
-      <td>villama01</td>
-      <td>3</td>
-      <td>4.47</td>
-    </tr>
-    <tr>
-      <td>2/19/2024</td>
-      <td>EDM</td>
-      <td>@</td>
-      <td>ARI</td>
-      <td>W</td>
-      <td>Zach Hyman</td>
-      <td>hymanza01</td>
-      <td>Mattias Ekholm</td>
-      <td>ekholma01</td>
-      <td>Evan Bouchard</td>
-      <td>bouchev01</td>
-      <td>Matt Villalta</td>
-      <td>villama01</td>
-      <td>3</td>
-      <td>4.90</td>
-    </tr>
-    <tr>
-      <td>2/19/2024</td>
-      <td>EDM</td>
-      <td>@</td>
-      <td>ARI</td>
-      <td>W</td>
-      <td>Evander Kane</td>
-      <td>kaneev01</td>
-      <td>Ryan McLeod</td>
-      <td>mcleory01</td>
-      <td>Leon Draisaitl</td>
-      <td>draisle01</td>
-      <td>Matt Villalta</td>
-      <td>villama01</td>
-      <td>3</td>
-      <td>6.52</td>
-    </tr>
-  </tbody>
-</table>
-    
-        </body>
-        </html>
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202402160ARI.html">2/16/2024</a></td>
+          <td><a href="/teams/ARI.html">ARI</a></td>
+          <td>vs</td>
+          <td><a href="/teams/CAR.html">CAR</a></td>
+          <td>L</td>
+          <td>0</td>
+          <td>4</td>
+          <td>4</td>
+          <td>100.00%</td>
+          <td>13.65</td>
+        </tr>
         
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202402190ARI.html">2/19/2024</a></td>
+          <td><a href="/teams/ARI.html">ARI</a></td>
+          <td>vs</td>
+          <td><a href="/teams/EDM.html">EDM</a></td>
+          <td>L</td>
+          <td>5</td>
+          <td>25</td>
+          <td>20</td>
+          <td>80.00%</td>
+          <td>58.32</td>
+        </tr>
+        
+    </tbody>
+  </table>
+</body>
+</html>
+    

@@ -1,0 +1,6140 @@
+[
+    {
+        "name": "Nils Åman",
+        "english_names": ["Nils Aman"],
+        "username": "amanni01",
+        "url": "/players/amanni01.html"
+    },
+    {
+        "name": "Jaret Anderson-Dolan",
+        "english_names": ["Jaret Anderson Dolan"],
+        "username": "anderja01",
+        "url": "/players/anderja01.html"
+    },
+    {
+        "name": "Zach Aston-Reese",
+        "english_names": ["Zach Aston Reese"],
+        "username": "astonza01",
+        "url": "/players/astonza01.html"
+    },
+    {
+        "name": "Nicolas Aubé-Kubel",
+        "english_names": ["Nicolas Aubé Kubel", "Nicolas Aube-Kubel", "Nicolas Aube Kubel"],
+        "username": "aubekni01",
+        "url": "/players/aubekni01.html"
+    },
+    {
+        "name": "Nicklas Bäckström",
+        "english_names": ["Nicklas Backström", "Nicklas Bäckstrom", "Nicklas Backstrom"],
+        "username": "backsni02",
+        "url": "/players/backsni02.html"
+    },
+    {
+        "name": "Alex Barré-Boulet",
+        "english_names": ["Alex Barré Boulet", "Alex Barre-Boulet", "Alex Barre Boulet"],
+        "username": "barreal01",
+        "url": "/players/barreal01.html"
+    },
+    {
+        "name": "Pierre-Édouard Bellemare",
+        "english_names": ["Pierre Édouard Bellemare", "Pierre-Edouard Bellemare", "Pierre Edouard Bellemare"],
+        "username": "bellepi01",
+        "url": "/players/bellepi01.html"
+    },
+    {
+        "name": "Emil Bemström",
+        "english_names": ["Emil Bemstrom"],
+        "username": "bemstem01",
+        "url": "/players/bemstem01.html"
+    },
+    {
+        "name": "Jacob Bernard-Docker",
+        "english_names": ["Jacob Bernard Docker"],
+        "username": "bernaja01",
+        "url": "/players/bernaja01.html"
+    },
+    {
+        "name": "Tobias Björnfot",
+        "english_names": ["Tobias Bjornfot"],
+        "username": "bjornto01",
+        "url": "/players/bjornto01.html"
+    },
+    {
+        "name": "Erik Brännström",
+        "english_names": ["Erik Brannström", "Erik Brännstrom", "Erik Brannstrom"],
+        "username": "branner01",
+        "url": "/players/branner01.html"
+    },
+    {
+        "name": "T.J. Brodie",
+        "english_names": ["TJ Brodie", "T J Brodie", "T J. Brodie", "TJ. Brodie"],
+        "username": "broditj01",
+        "url": "/players/broditj01.html"
+    },
+    {
+        "name": "André Burakovsky",
+        "english_names": ["Andre Burakovsky"],
+        "username": "burakan01",
+        "url": "/players/burakan01.html"
+    },
+    {
+        "name": "Erik Černák",
+        "english_names": ["Erik Černak", "Erik Cernák", "Erik Cernak"],
+        "username": "cernaer01",
+        "url": "/players/cernaer01.html"
+    },
+    {
+        "name": "J.T. Compher",
+        "english_names": ["JT Compher", "J T Compher", "J T. Compher", "JT. Compher"],
+        "username": "comphj.01",
+        "url": "/players/comphj.01.html"
+    },
+    {
+        "name": "Lukáš Dostál",
+        "english_names": ["Lukáš Dostal", "Lukás Dostal", "Lukaš Dostal", "Lukás Dostál", "Lukaš Dostál", "Lukas Dostál", "Lukas Dostal"],
+        "username": "dostalu01",
+        "url": "/players/dostalu01.html"
+    },
+    {
+        "name": "Dillon Dubé",
+        "english_names": ["Dillon Dube"],
+        "username": "dubedi01",
+        "url": "/players/dubedi01.html"
+    },
+    {
+        "name": "Pierre-Luc Dubois",
+        "english_names": ["Pierre Luc Dubois"],
+        "username": "duboipi01",
+        "url": "/players/duboipi01.html"
+    },
+    {
+        "name": "Oliver Ekman-Larsson",
+        "english_names": ["Oliver Ekman Larsson"],
+        "username": "ekmanol01",
+        "url": "/players/ekmanol01.html"
+    },
+    {
+        "name": "Martin Fehérváry",
+        "english_names": ["Martin Fehérvary", "Martin Feherváry", "Martin Fehervary"],
+        "username": "feherma01",
+        "url": "/players/feherma01.html"
+    },
+    {
+        "name": "Trey Fix-Wolansky",
+        "english_names": ["Trey Fix Wolansky"],
+        "username": "fixwotr01",
+        "url": "/players/fixwotr01.html"
+    },
+    {
+        "name": "Marc-André Fleury",
+        "english_names": ["Marc André Fleury", "Marc-Andre Fleury", "Marc Andre Fleury"],
+        "username": "fleurma01",
+        "url": "/players/fleurma01.html"
+    },
+    {
+        "name": "Jean-Luc Foudy",
+        "english_names": ["Jean Luc Foudy"],
+        "username": "foudyje01",
+        "url": "/players/foudyje01.html"
+    },
+    {
+        "name": "Frédérick Gaudreau",
+        "english_names": ["Fredérick Gaudreau", "Fréderick Gaudreau", "Frederick Gaudreau"],
+        "username": "gaudrfr01",
+        "url": "/players/gaudrfr01.html"
+    },
+    {
+        "name": "A.J. Greer",
+        "english_names": ["AJ Greer", "A J Greer", "A J. Greer", "AJ. Greer"],
+        "username": "greeraj01",
+        "url": "/players/greeraj01.html"
+    },
+    {
+        "name": "Benoit-Olivier Groulx",
+        "english_names": ["Benoit Olivier Groulx"],
+        "username": "groulbe01",
+        "url": "/players/groulbe01.html"
+    },
+    {
+        "name": "Carl Grundström",
+        "english_names": ["Carl Grundstrom"],
+        "username": "grundca01",
+        "url": "/players/grundca01.html"
+    },
+    {
+        "name": "Robert Hägg",
+        "english_names": ["Robert Hagg"],
+        "username": "haggro01",
+        "url": "/players/haggro01.html"
+    },
+    {
+        "name": "Jani Hakanpää",
+        "english_names": ["Jani Hakanpaä", "Jani Hakanpäa", "Jani Hakanpaa"],
+        "username": "hakanja01",
+        "url": "/players/hakanja01.html"
+    },
+    {
+        "name": "Rafaël Harvey-Pinard",
+        "english_names": ["Rafaël Harvey Pinard", "Rafael Harvey-Pinard", "Rafael Harvey Pinard"],
+        "username": "harvera01",
+        "url": "/players/harvera01.html"
+    },
+    {
+        "name": "Tomáš Hertl",
+        "english_names": ["Tomaš Hertl", "Tomás Hertl", "Tomas Hertl"],
+        "username": "hertlto01",
+        "url": "/players/hertlto01.html"
+    },
+    {
+        "name": "Nils Höglander",
+        "english_names": ["Nils Hoglander"],
+        "username": "hoglani01",
+        "url": "/players/hoglani01.html"
+    },
+    {
+        "name": "Simon Holmström",
+        "english_names": ["Simon Holmstrom"],
+        "username": "holmssi01",
+        "url": "/players/holmssi01.html"
+    },
+    {
+        "name": "Calle Järnkrok",
+        "english_names": ["Calle Jarnkrok"],
+        "username": "jarnkca01",
+        "url": "/players/jarnkca01.html"
+    },
+    {
+        "name": "Jan Jeník",
+        "english_names": ["Jan Jenik"],
+        "username": "jenikja01",
+        "url": "/players/jenikja01.html"
+    },
+    {
+        "name": "David Jiříček",
+        "english_names": ["David Jiřícek", "David Jiřiček", "David Jiríček", "David Jirícek", "David Jiriček", "David Jiřicek", "David Jiricek"],
+        "username": "jiricda01",
+        "url": "/players/jiricda01.html"
+    },
+    {
+        "name": "Axel Jonsson-Fjällby",
+        "english_names": ["Axel Jonsson Fjällby", "Axel Jonsson-Fjallby", "Axel Jonsson Fjallby"],
+        "username": "jonssax01",
+        "url": "/players/jonssax01.html"
+    },
+    {
+        "name": "Pierre-Olivier Joseph",
+        "english_names": ["Pierre Olivier Joseph"],
+        "username": "joseppi01",
+        "url": "/players/joseppi01.html"
+    },
+    {
+        "name": "Kaapo Kähkönen",
+        "english_names": ["Kaapo Kahkönen", "Kaapo Kähkonen", "Kaapo Kahkonen"],
+        "username": "kahkoka01",
+        "url": "/players/kahkoka01.html"
+    },
+    {
+        "name": "David Kämpf",
+        "english_names": ["David Kampf"],
+        "username": "kampfda01",
+        "url": "/players/kampfda01.html"
+    },
+    {
+        "name": "Miloš Kelemen",
+        "english_names": ["Milos Kelemen"],
+        "username": "kelemmi01",
+        "url": "/players/kelemmi01.html"
+    },
+    {
+        "name": "Anže Kopitar",
+        "english_names": ["Anze Kopitar"],
+        "username": "kopitan01",
+        "url": "/players/kopitan01.html"
+    },
+    {
+        "name": "Dominik Kubalík",
+        "english_names": ["Dominik Kubalik"],
+        "username": "kubaldo01",
+        "url": "/players/kubaldo01.html"
+    },
+    {
+        "name": "Alexis Lafrenière",
+        "english_names": ["Alexis Lafreniere"],
+        "username": "lafreal01",
+        "url": "/players/lafreal01.html"
+    },
+    {
+        "name": "Gustav Lindström",
+        "english_names": ["Gustav Lindstrom"],
+        "username": "lindsgu01",
+        "url": "/players/lindsgu01.html"
+    },
+    {
+        "name": "Isac Lundeström",
+        "english_names": ["Isac Lundestrom"],
+        "username": "lundeis01",
+        "url": "/players/lundeis01.html"
+    },
+    {
+        "name": "Ukko-Pekka Luukkonen",
+        "english_names": ["Ukko Pekka Luukkonen"],
+        "username": "luukkuk01",
+        "url": "/players/luukkuk01.html"
+    },
+    {
+        "name": "Olli Määttä",
+        "english_names": ["Olli Määtta", "Olli Maättä", "Olli Mäattä", "Olli Mäatta", "Olli Maätta", "Olli Maattä", "Olli Maatta"],
+        "username": "maattol01",
+        "url": "/players/maattol01.html"
+    },
+    {
+        "name": "Jacob Markström",
+        "english_names": ["Jacob Markstrom"],
+        "username": "marksja02",
+        "url": "/players/marksja02.html"
+    },
+    {
+        "name": "Elvis Merzļikins",
+        "english_names": ["Elvis Merzlikins"],
+        "username": "merzlel01",
+        "url": "/players/merzlel01.html"
+    },
+    {
+        "name": "J.T. Miller",
+        "english_names": ["JT Miller", "J T Miller", "J T. Miller", "JT. Miller"],
+        "username": "millejt01",
+        "url": "/players/millejt01.html"
+    },
+    {
+        "name": "K'Andre Miller",
+        "english_names": ["KAndre Miller", "K Andre Miller"],
+        "username": "milleka01",
+        "url": "/players/milleka01.html"
+    },
+    {
+        "name": "J.J. Moser",
+        "english_names": ["JJ Moser", "J J Moser", "J J. Moser", "JJ. Moser"],
+        "username": "moserja01",
+        "url": "/players/moserja01.html"
+    },
+    {
+        "name": "Petr Mrázek",
+        "english_names": ["Petr Mrazek"],
+        "username": "mrazepe01",
+        "url": "/players/mrazepe01.html"
+    },
+    {
+        "name": "Martin Nečas",
+        "english_names": ["Martin Necas"],
+        "username": "necasma01",
+        "url": "/players/necasma01.html"
+    },
+    {
+        "name": "Tomáš Nosek",
+        "english_names": ["Tomaš Nosek", "Tomás Nosek", "Tomas Nosek"],
+        "username": "nosekto01",
+        "url": "/players/nosekto01.html"
+    },
+    {
+        "name": "Ryan Nugent-Hopkins",
+        "english_names": ["Ryan Nugent Hopkins"],
+        "username": "nugenry01",
+        "url": "/players/nugenry01.html"
+    },
+    {
+        "name": "Liam O'Brien",
+        "english_names": ["Liam OBrien", "Liam O Brien"],
+        "username": "obrieli01",
+        "url": "/players/obrieli01.html"
+    },
+    {
+        "name": "Drew O'Connor",
+        "english_names": ["Drew OConnor", "Drew O Connor"],
+        "username": "oconndr01",
+        "url": "/players/oconndr01.html"
+    },
+    {
+        "name": "Logan O'Connor",
+        "english_names": ["Logan OConnor", "Logan O Connor"],
+        "username": "oconnlo01",
+        "url": "/players/oconnlo01.html"
+    },
+    {
+        "name": "Ryan O'Reilly",
+        "english_names": ["Ryan OReilly", "Ryan O Reilly"],
+        "username": "oreilry01",
+        "url": "/players/oreilry01.html"
+    },
+    {
+        "name": "T.J. Oshie",
+        "english_names": ["TJ Oshie", "T J Oshie", "T J. Oshie", "TJ. Oshie"],
+        "username": "oshietj01",
+        "url": "/players/oshietj01.html"
+    },
+    {
+        "name": "Jean-Gabriel Pageau",
+        "english_names": ["Jean Gabriel Pageau"],
+        "username": "pageaje01",
+        "url": "/players/pageaje01.html"
+    },
+    {
+        "name": "Ondřej Palát",
+        "english_names": ["Ondřej Palat", "Ondrej Palát", "Ondrej Palat"],
+        "username": "palaton01",
+        "url": "/players/palaton01.html"
+    },
+    {
+        "name": "Juuso Pärssinen",
+        "english_names": ["Juuso Parssinen"],
+        "username": "parssju01",
+        "url": "/players/parssju01.html"
+    },
+    {
+        "name": "David Pastrňák",
+        "english_names": ["David Pastrňak", "David Pastrnák", "David Pastrnak"],
+        "username": "pastrda01",
+        "url": "/players/pastrda01.html"
+    },
+    {
+        "name": "Jiří Patera",
+        "english_names": ["Jiři Patera", "Jirí Patera", "Jiri Patera"],
+        "username": "paterji01",
+        "url": "/players/paterji01.html"
+    },
+    {
+        "name": "John-Jason Peterka",
+        "english_names": ["John Jason Peterka", "J.J. Peterka", "JJ Peterka", "J J Peterka", "J.J Peterka"],
+        "username": "peterjo01",
+        "url": "/players/peterjo01.html"
+    },
+    {
+        "name": "Jesse Puljujärvi",
+        "english_names": ["Jesse Puljujarvi"],
+        "username": "puljuje01",
+        "url": "/players/puljuje01.html"
+    },
+    {
+        "name": "Adam Raška",
+        "english_names": ["Adam Raska"],
+        "username": "raskaad01",
+        "url": "/players/raskaad01.html"
+    },
+    {
+        "name": "Jonas Røndbjerg",
+        "english_names": ["Jonas Rondbjerg"],
+        "username": "rondbjo01",
+        "url": "/players/rondbjo01.html"
+    },
+    {
+        "name": "Calle Rosén",
+        "english_names": ["Calle Rosen"],
+        "username": "rosenca01",
+        "url": "/players/rosenca01.html"
+    },
+    {
+        "name": "Lukáš Rousek",
+        "english_names": ["Lukaš Rousek", "Lukás Rousek", "Lukas Rousek"],
+        "username": "rouselu01",
+        "url": "/players/rouselu01.html"
+    },
+    {
+        "name": "Adam Ružička",
+        "english_names": ["Adam Ružicka", "Adam Ruzička", "Adam Ruzicka"],
+        "username": "ruzicad01",
+        "url": "/players/ruzicad01.html"
+    },
+    {
+        "name": "Felix Sandström",
+        "english_names": ["Felix Sandstrom"],
+        "username": "sandsfe01",
+        "url": "/players/sandsfe01.html"
+    },
+    {
+        "name": "Arvid Söderblom",
+        "english_names": ["Arvid Soderblom"],
+        "username": "soderar01",
+        "url": "/players/soderar01.html"
+    },
+    {
+        "name": "Victor Söderström",
+        "english_names": ["Victor Söderstrom", "Victor Soderström", "Victor Soderstrom"],
+        "username": "sodervi01",
+        "url": "/players/sodervi01.html"
+    },
+    {
+        "name": "Mads Søgaard",
+        "english_names": ["Mads Sogaard"],
+        "username": "sogaama01",
+        "url": "/players/sogaama01.html"
+    },
+    {
+        "name": "Jack St. Ivany",
+        "english_names": ["Jack St Ivany", "Jack St.Ivany", "Jack Saint Ivany", "Jack Saint-Ivany"],
+        "username": "stivajo01",
+        "url": "/players/stivajo01.html"
+    },
+    {
+        "name": "Marián Studenič",
+        "english_names": ["Marian Studenič", "Marián Studenic", "Marian Studenic"],
+        "username": "studema01",
+        "url": "/players/studema01.html"
+    },
+    {
+        "name": "Tim Stützle",
+        "english_names": ["Tim Stutzle"],
+        "username": "stuetti02",
+        "url": "/players/stuetti02.html"
+    },
+    {
+        "name": "Tomáš Tatar",
+        "english_names": ["Tomaš Tatar", "Tomás Tatar", "Tomas Tatar"],
+        "username": "tatarto01",
+        "url": "/players/tatarto01.html"
+    },
+    {
+        "name": "Teuvo Teräväinen",
+        "english_names": ["Teuvo Teraväinen", "Teuvo Terävainen", "Teuvo Teravainen"],
+        "username": "teravte01",
+        "url": "/players/teravte01.html"
+    },
+    {
+        "name": "Juuso Välimäki",
+        "english_names": ["Juuso Valimäki", "Juuso Välimaki", "Juuso Valimaki"],
+        "username": "valimju01",
+        "url": "/players/valimju01.html"
+    },
+    {
+        "name": "Vítek Vaněček",
+        "english_names": ["Vítek Vaněcek", "Vítek Vaneček", "Vitek Vaněček", "Vítek Vanecek", "Vitek Vaneček", "Vitek Vaněcek", "Vitek Vanecek"],
+        "username": "vanecvi01",
+        "url": "/players/vanecvi01.html"
+    },
+    {
+        "name": "Daniel Vladař",
+        "english_names": ["Daniel Vladar"],
+        "username": "vladada01",
+        "url": "/players/vladada01.html"
+    },
+    {
+        "name": "Marc-Édouard Vlasic",
+        "english_names": ["Marc Édouard Vlasic", "Marc-Edouard Vlasic", "Marc Edouard Vlasic"],
+        "username": "vlasima01",
+        "url": "/players/vlasima01.html"
+    },
+    {
+        "name": "Jakub Vrána",
+        "english_names": ["Jakub Vrana"],
+        "username": "vranaja01",
+        "url": "/players/vranaja01.html"
+    },
+    {
+        "name": "Jesse Ylönen",
+        "english_names": ["Jesse Ylonen"],
+        "username": "yloneje01",
+        "url": "/players/yloneje01.html"
+    },
+    {
+        "name": "Nils Åman",
+        "english_names": ["Nils Aman"],
+        "username": "amanni01",
+        "url": "/players/amanni01.html"
+    },
+    {
+        "name": "Noel Acciari",
+        "english_names": ["Noel Acciari"],
+        "username": "acciano01",
+        "url": "/players/acciano01.html"
+    },
+    {
+        "name": "Calen Addison",
+        "english_names": ["Calen Addison"],
+        "username": "addisca01",
+        "url": "/players/addisca01.html"
+    },
+    {
+        "name": "Egor Afanasyev",
+        "english_names": ["Egor Afanasyev"],
+        "username": "afanaeg01",
+        "url": "/players/afanaeg01.html"
+    },
+    {
+        "name": "Sebastian Aho",
+        "english_names": ["Sebastian Aho"],
+        "username": "ahose01",
+        "url": "/players/ahose01.html"
+    },
+    {
+        "name": "Sebastian Aho",
+        "english_names": ["Sebastian Aho"],
+        "username": "ahose02",
+        "url": "/players/ahose02.html"
+    },
+    {
+        "name": "Nikita Alexandrov",
+        "english_names": ["Nikita Alexandrov"],
+        "username": "alexani01",
+        "url": "/players/alexani01.html"
+    },
+    {
+        "name": "Alexander Alexeyev",
+        "english_names": ["Alexander Alexeyev"],
+        "username": "alexeal01",
+        "url": "/players/alexeal01.html"
+    },
+    {
+        "name": "Jake Allen",
+        "english_names": ["Jake Allen"],
+        "username": "allenja01",
+        "url": "/players/allenja01.html"
+    },
+    {
+        "name": "Michael Amadio",
+        "english_names": ["Michael Amadio"],
+        "username": "amadimi01",
+        "url": "/players/amadimi01.html"
+    },
+    {
+        "name": "Frederik Andersen",
+        "english_names": ["Frederik Andersen"],
+        "username": "anderfr01",
+        "url": "/players/anderfr01.html"
+    },
+    {
+        "name": "Josh Anderson",
+        "english_names": ["Josh Anderson"],
+        "username": "anderjo05",
+        "url": "/players/anderjo05.html"
+    },
+    {
+        "name": "Joey Anderson",
+        "english_names": ["Joey Anderson"],
+        "username": "anderjo08",
+        "url": "/players/anderjo08.html"
+    },
+    {
+        "name": "Michael Anderson",
+        "english_names": ["Michael Anderson"],
+        "username": "andermi02",
+        "url": "/players/andermi02.html"
+    },
+    {
+        "name": "Rasmus Andersson",
+        "english_names": ["Rasmus Andersson"],
+        "username": "anderra01",
+        "url": "/players/anderra01.html"
+    },
+    {
+        "name": "Emil Andrae",
+        "english_names": ["Emil Andrae"],
+        "username": "andraem01",
+        "url": "/players/andraem01.html"
+    },
+    {
+        "name": "Tyler Angle",
+        "english_names": ["Tyler Angle"],
+        "username": "anglety01",
+        "url": "/players/anglety01.html"
+    },
+    {
+        "name": "Justus Annunen",
+        "english_names": ["Justus Annunen"],
+        "username": "annunju01",
+        "url": "/players/annunju01.html"
+    },
+    {
+        "name": "Kenneth Appleby",
+        "english_names": ["Kenneth Appleby"],
+        "username": "appleke01",
+        "url": "/players/appleke01.html"
+    },
+    {
+        "name": "Mason Appleton",
+        "english_names": ["Mason Appleton"],
+        "username": "applema01",
+        "url": "/players/applema01.html"
+    },
+    {
+        "name": "Joel Armia",
+        "english_names": ["Joel Armia"],
+        "username": "armiajo01",
+        "url": "/players/armiajo01.html"
+    },
+    {
+        "name": "Viktor Arvidsson",
+        "english_names": ["Viktor Arvidsson"],
+        "username": "arvidvi01",
+        "url": "/players/arvidvi01.html"
+    },
+    {
+        "name": "Yaroslav Askarov",
+        "english_names": ["Yaroslav Askarov"],
+        "username": "askarya01",
+        "url": "/players/askarya01.html"
+    },
+    {
+        "name": "Andreas Athanasiou",
+        "english_names": ["Andreas Athanasiou"],
+        "username": "athanan01",
+        "url": "/players/athanan01.html"
+    },
+    {
+        "name": "Cam Atkinson",
+        "english_names": ["Cam Atkinson"],
+        "username": "atkinca01",
+        "url": "/players/atkinca01.html"
+    },
+    {
+        "name": "Ronald Attard",
+        "english_names": ["Ronald Attard"],
+        "username": "attarro01",
+        "url": "/players/attarro01.html"
+    },
+    {
+        "name": "Jonathan Marchessault",
+        "english_names": ["Jonathan Marchessault"],
+        "username": "audymjo01",
+        "url": "/players/audymjo01.html"
+    },
+    {
+        "name": "Mikael Backlund",
+        "english_names": ["Mikael Backlund"],
+        "username": "backlmi01",
+        "url": "/players/backlmi01.html"
+    },
+    {
+        "name": "Kevin Bahl",
+        "english_names": ["Kevin Bahl"],
+        "username": "bahlke01",
+        "url": "/players/bahlke01.html"
+    },
+    {
+        "name": "Justin Bailey",
+        "english_names": ["Justin Bailey"],
+        "username": "baileju01",
+        "url": "/players/baileju01.html"
+    },
+    {
+        "name": "Arshdeep Bains",
+        "english_names": ["Arshdeep Bains"],
+        "username": "bainsar01",
+        "url": "/players/bainsar01.html"
+    },
+    {
+        "name": "Uvis Balinskis",
+        "english_names": ["Uvis Balinskis"],
+        "username": "balinuv01",
+        "url": "/players/balinuv01.html"
+    },
+    {
+        "name": "Alexander Barabanov",
+        "english_names": ["Alexander Barabanov"],
+        "username": "barabal01",
+        "url": "/players/barabal01.html"
+    },
+    {
+        "name": "Ivan Barbashev",
+        "english_names": ["Ivan Barbashev"],
+        "username": "barbaiv01",
+        "url": "/players/barbaiv01.html"
+    },
+    {
+        "name": "Aleksander Barkov",
+        "english_names": ["Aleksander Barkov"],
+        "username": "barkoal01",
+        "url": "/players/barkoal01.html"
+    },
+    {
+        "name": "Tyson Barrie",
+        "english_names": ["Tyson Barrie"],
+        "username": "barrity01",
+        "url": "/players/barrity01.html"
+    },
+    {
+        "name": "Justin Barron",
+        "english_names": ["Justin Barron"],
+        "username": "barroju01",
+        "url": "/players/barroju01.html"
+    },
+    {
+        "name": "Morgan Barron",
+        "english_names": ["Morgan Barron"],
+        "username": "barromo01",
+        "url": "/players/barromo01.html"
+    },
+    {
+        "name": "Mathew Barzal",
+        "english_names": ["Mathew Barzal"],
+        "username": "barzama01",
+        "url": "/players/barzama01.html"
+    },
+    {
+        "name": "Nathan Bastian",
+        "english_names": ["Nathan Bastian"],
+        "username": "bastina01",
+        "url": "/players/bastina01.html"
+    },
+    {
+        "name": "Drake Batherson",
+        "english_names": ["Drake Batherson"],
+        "username": "bathedr01",
+        "url": "/players/bathedr01.html"
+    },
+    {
+        "name": "Jake Bean",
+        "english_names": ["Jake Bean"],
+        "username": "beanja01",
+        "url": "/players/beanja01.html"
+    },
+    {
+        "name": "Ethan Bear",
+        "english_names": ["Ethan Bear"],
+        "username": "bearet01",
+        "url": "/players/bearet01.html"
+    },
+    {
+        "name": "Anthony Beauvillier",
+        "english_names": ["Anthony Beauvillier"],
+        "username": "beauvan01",
+        "url": "/players/beauvan01.html"
+    },
+    {
+        "name": "Adam Beckman",
+        "english_names": ["Adam Beckman"],
+        "username": "beckmad01",
+        "url": "/players/beckmad01.html"
+    },
+    {
+        "name": "Connor Bedard",
+        "english_names": ["Connor Bedard"],
+        "username": "bedarco01",
+        "url": "/players/bedarco01.html"
+    },
+    {
+        "name": "John Beecher",
+        "english_names": ["John Beecher"],
+        "username": "beechjo01",
+        "url": "/players/beechjo01.html"
+    },
+    {
+        "name": "Louis Belpedio",
+        "english_names": ["Louis Belpedio"],
+        "username": "belpelo01",
+        "url": "/players/belpelo01.html"
+    },
+    {
+        "name": "Matthew Beniers",
+        "english_names": ["Matthew Beniers"],
+        "username": "beniema01",
+        "url": "/players/beniema01.html"
+    },
+    {
+        "name": "Sam Bennett",
+        "english_names": ["Sam Bennett"],
+        "username": "bennesa01",
+        "url": "/players/bennesa01.html"
+    },
+    {
+        "name": "Matt Benning",
+        "english_names": ["Matt Benning"],
+        "username": "bennima01",
+        "url": "/players/bennima01.html"
+    },
+    {
+        "name": "Jamie Benn",
+        "english_names": ["Jamie Benn"],
+        "username": "bennja01",
+        "url": "/players/bennja01.html"
+    },
+    {
+        "name": "Simon Benoit",
+        "english_names": ["Simon Benoit"],
+        "username": "benoisi01",
+        "url": "/players/benoisi01.html"
+    },
+    {
+        "name": "Zach Benson",
+        "english_names": ["Zach Benson"],
+        "username": "bensoza01",
+        "url": "/players/bensoza01.html"
+    },
+    {
+        "name": "Jonatan Berggren",
+        "english_names": ["Jonatan Berggren"],
+        "username": "berggjo02",
+        "url": "/players/berggjo02.html"
+    },
+    {
+        "name": "Tyler Bertuzzi",
+        "english_names": ["Tyler Bertuzzi"],
+        "username": "bertuty01",
+        "url": "/players/bertuty01.html"
+    },
+    {
+        "name": "Jordan Binnington",
+        "english_names": ["Jordan Binnington"],
+        "username": "binnijo01",
+        "url": "/players/binnijo01.html"
+    },
+    {
+        "name": "Brandon Biro",
+        "english_names": ["Brandon Biro"],
+        "username": "birobr01",
+        "url": "/players/birobr01.html"
+    },
+    {
+        "name": "Oliver Bjorkstrand",
+        "english_names": ["Oliver Bjorkstrand"],
+        "username": "bjorkol01",
+        "url": "/players/bjorkol01.html"
+    },
+    {
+        "name": "Nick Bjugstad",
+        "english_names": ["Nick Bjugstad"],
+        "username": "bjugsni01",
+        "url": "/players/bjugsni01.html"
+    },
+    {
+        "name": "Colin Blackwell",
+        "english_names": ["Colin Blackwell"],
+        "username": "blackco01",
+        "url": "/players/blackco01.html"
+    },
+    {
+        "name": "Mackenzie Blackwood",
+        "english_names": ["Mackenzie Blackwood"],
+        "username": "blackma01",
+        "url": "/players/blackma01.html"
+    },
+    {
+        "name": "Sammy Blais",
+        "english_names": ["Sammy Blais"],
+        "username": "blaissa01",
+        "url": "/players/blaissa01.html"
+    },
+    {
+        "name": "Jackson Blake",
+        "english_names": ["Jackson Blake"],
+        "username": "blakeja02",
+        "url": "/players/blakeja02.html"
+    },
+    {
+        "name": "Nick Blankenburg",
+        "english_names": ["Nick Blankenburg"],
+        "username": "blankni01",
+        "url": "/players/blankni01.html"
+    },
+    {
+        "name": "Anton Blidh",
+        "english_names": ["Anton Blidh"],
+        "username": "blidhan01",
+        "url": "/players/blidhan01.html"
+    },
+    {
+        "name": "Teddy Blueger",
+        "english_names": ["Teddy Blueger"],
+        "username": "bluegte01",
+        "url": "/players/bluegte01.html"
+    },
+    {
+        "name": "Sergei Bobrovsky",
+        "english_names": ["Sergei Bobrovsky"],
+        "username": "bobrose01",
+        "url": "/players/bobrose01.html"
+    },
+    {
+        "name": "Brock Boeser",
+        "english_names": ["Brock Boeser"],
+        "username": "boesebr01",
+        "url": "/players/boesebr01.html"
+    },
+    {
+        "name": "Zach Bogosian",
+        "english_names": ["Zach Bogosian"],
+        "username": "bogosza01",
+        "url": "/players/bogosza01.html"
+    },
+    {
+        "name": "Samuel Bolduc",
+        "english_names": ["Samuel Bolduc"],
+        "username": "boldusa01",
+        "url": "/players/boldusa01.html"
+    },
+    {
+        "name": "Zachary Bolduc",
+        "english_names": ["Zachary Bolduc"],
+        "username": "bolduza01",
+        "url": "/players/bolduza01.html"
+    },
+    {
+        "name": "Matt Boldy",
+        "english_names": ["Matt Boldy"],
+        "username": "boldyma01",
+        "url": "/players/boldyma01.html"
+    },
+    {
+        "name": "Nick Bonino",
+        "english_names": ["Nick Bonino"],
+        "username": "boninni01",
+        "url": "/players/boninni01.html"
+    },
+    {
+        "name": "Adam Boqvist",
+        "english_names": ["Adam Boqvist"],
+        "username": "boqviad01",
+        "url": "/players/boqviad01.html"
+    },
+    {
+        "name": "Jesper Boqvist",
+        "english_names": ["Jesper Boqvist"],
+        "username": "boqvije01",
+        "url": "/players/boqvije01.html"
+    },
+    {
+        "name": "Thomas Bordeleau",
+        "english_names": ["Thomas Bordeleau"],
+        "username": "bordeth01",
+        "url": "/players/bordeth01.html"
+    },
+    {
+        "name": "William Borgen",
+        "english_names": ["William Borgen"],
+        "username": "borgewi01",
+        "url": "/players/borgewi01.html"
+    },
+    {
+        "name": "Robert Bortuzzo",
+        "english_names": ["Robert Bortuzzo"],
+        "username": "borturo01",
+        "url": "/players/borturo01.html"
+    },
+    {
+        "name": "Evan Bouchard",
+        "english_names": ["Evan Bouchard"],
+        "username": "bouchev01",
+        "url": "/players/bouchev01.html"
+    },
+    {
+        "name": "Mavrik Bourque",
+        "english_names": ["Mavrik Bourque"],
+        "username": "bourqma01",
+        "url": "/players/bourqma01.html"
+    },
+    {
+        "name": "Shane Bowers",
+        "english_names": ["Shane Bowers"],
+        "username": "bowersh01",
+        "url": "/players/bowersh01.html"
+    },
+    {
+        "name": "Travis Boyd",
+        "english_names": ["Travis Boyd"],
+        "username": "boydtr01",
+        "url": "/players/boydtr01.html"
+    },
+    {
+        "name": "Jesper Bratt",
+        "english_names": ["Jesper Bratt"],
+        "username": "brattje01",
+        "url": "/players/brattje01.html"
+    },
+    {
+        "name": "Justin Brazeau",
+        "english_names": ["Justin Brazeau"],
+        "username": "brazeju01",
+        "url": "/players/brazeju01.html"
+    },
+    {
+        "name": "Gavin Brindley",
+        "english_names": ["Gavin Brindley"],
+        "username": "brindga01",
+        "url": "/players/brindga01.html"
+    },
+    {
+        "name": "Bobby Brink",
+        "english_names": ["Bobby Brink"],
+        "username": "brinkbo01",
+        "url": "/players/brinkbo01.html"
+    },
+    {
+        "name": "Brendan Brisson",
+        "english_names": ["Brendan Brisson"],
+        "username": "brissbr01",
+        "url": "/players/brissbr01.html"
+    },
+    {
+        "name": "Philip Broberg",
+        "english_names": ["Philip Broberg"],
+        "username": "brobeph01",
+        "url": "/players/brobeph01.html"
+    },
+    {
+        "name": "Jonas Brodin",
+        "english_names": ["Jonas Brodin"],
+        "username": "brodijo01",
+        "url": "/players/brodijo01.html"
+    },
+    {
+        "name": "Jonny Brodzinski",
+        "english_names": ["Jonny Brodzinski"],
+        "username": "brodzjo01",
+        "url": "/players/brodzjo01.html"
+    },
+    {
+        "name": "Laurent Brossoit",
+        "english_names": ["Laurent Brossoit"],
+        "username": "brossla01",
+        "url": "/players/brossla01.html"
+    },
+    {
+        "name": "Connor Brown",
+        "english_names": ["Connor Brown"],
+        "username": "brownco02",
+        "url": "/players/brownco02.html"
+    },
+    {
+        "name": "Josh Brown",
+        "english_names": ["Josh Brown"],
+        "username": "brownjo01",
+        "url": "/players/brownjo01.html"
+    },
+    {
+        "name": "Patrick Brown",
+        "english_names": ["Patrick Brown"],
+        "username": "brownpa02",
+        "url": "/players/brownpa02.html"
+    },
+    {
+        "name": "Jacob Bryson",
+        "english_names": ["Jacob Bryson"],
+        "username": "brysoja01",
+        "url": "/players/brysoja01.html"
+    },
+    {
+        "name": "Pavel Buchnevich",
+        "english_names": ["Pavel Buchnevich"],
+        "username": "buchnpa01",
+        "url": "/players/buchnpa01.html"
+    },
+    {
+        "name": "Michael Bunting",
+        "english_names": ["Michael Bunting"],
+        "username": "buntimi01",
+        "url": "/players/buntimi01.html"
+    },
+    {
+        "name": "Callahan Burke",
+        "english_names": ["Callahan Burke"],
+        "username": "burkeca01",
+        "url": "/players/burkeca01.html"
+    },
+    {
+        "name": "Brent Burns",
+        "english_names": ["Brent Burns"],
+        "username": "burnsbr01",
+        "url": "/players/burnsbr01.html"
+    },
+    {
+        "name": "Kyle Burroughs",
+        "english_names": ["Kyle Burroughs"],
+        "username": "burroky01",
+        "url": "/players/burroky01.html"
+    },
+    {
+        "name": "Cameron Butler",
+        "english_names": ["Cameron Butler"],
+        "username": "butleca01",
+        "url": "/players/butleca01.html"
+    },
+    {
+        "name": "Quinton Byfield",
+        "english_names": ["Quinton Byfield"],
+        "username": "byfiequ01",
+        "url": "/players/byfiequ01.html"
+    },
+    {
+        "name": "Bowen Byram",
+        "english_names": ["Bowen Byram"],
+        "username": "byrambo01",
+        "url": "/players/byrambo01.html"
+    },
+    {
+        "name": "Jack Campbell",
+        "english_names": ["Jack Campbell"],
+        "username": "campbja01",
+        "url": "/players/campbja01.html"
+    },
+    {
+        "name": "Michael Carcone",
+        "english_names": ["Michael Carcone"],
+        "username": "carcomi01",
+        "url": "/players/carcomi01.html"
+    },
+    {
+        "name": "Declan Carlile",
+        "english_names": ["Declan Carlile"],
+        "username": "carlide01",
+        "url": "/players/carlide01.html"
+    },
+    {
+        "name": "Brandon Carlo",
+        "english_names": ["Brandon Carlo"],
+        "username": "carlobr01",
+        "url": "/players/carlobr01.html"
+    },
+    {
+        "name": "John Carlson",
+        "english_names": ["John Carlson"],
+        "username": "carlsjo01",
+        "url": "/players/carlsjo01.html"
+    },
+    {
+        "name": "Leo Carlsson",
+        "english_names": ["Leo Carlsson"],
+        "username": "carlsle01",
+        "url": "/players/carlsle01.html"
+    },
+    {
+        "name": "Ryan Carpenter",
+        "english_names": ["Ryan Carpenter"],
+        "username": "carpery01",
+        "url": "/players/carpery01.html"
+    },
+    {
+        "name": "Alexandre Carrier",
+        "english_names": ["Alexandre Carrier"],
+        "username": "carrial01",
+        "url": "/players/carrial01.html"
+    },
+    {
+        "name": "Sam Carrick",
+        "english_names": ["Sam Carrick"],
+        "username": "carrisa01",
+        "url": "/players/carrisa01.html"
+    },
+    {
+        "name": "William Carrier",
+        "english_names": ["William Carrier"],
+        "username": "carriwi01",
+        "url": "/players/carriwi01.html"
+    },
+    {
+        "name": "Jeff Carter",
+        "english_names": ["Jeff Carter"],
+        "username": "carteje01",
+        "url": "/players/carteje01.html"
+    },
+    {
+        "name": "Noah Cates",
+        "english_names": ["Noah Cates"],
+        "username": "catesno01",
+        "url": "/players/catesno01.html"
+    },
+    {
+        "name": "Cole Caufield",
+        "english_names": ["Cole Caufield"],
+        "username": "caufico01",
+        "url": "/players/caufico01.html"
+    },
+    {
+        "name": "Cody Ceci",
+        "english_names": ["Cody Ceci"],
+        "username": "cecico01",
+        "url": "/players/cecico01.html"
+    },
+    {
+        "name": "Thomas Chabot",
+        "english_names": ["Thomas Chabot"],
+        "username": "chaboth01",
+        "url": "/players/chaboth01.html"
+    },
+    {
+        "name": "Mitchell Chaffee",
+        "english_names": ["Mitchell Chaffee"],
+        "username": "chaffmi01",
+        "url": "/players/chaffmi01.html"
+    },
+    {
+        "name": "Rourke Chartier",
+        "english_names": ["Rourke Chartier"],
+        "username": "chartro01",
+        "url": "/players/chartro01.html"
+    },
+    {
+        "name": "Jalen Chatfield",
+        "english_names": ["Jalen Chatfield"],
+        "username": "chatfja01",
+        "url": "/players/chatfja01.html"
+    },
+    {
+        "name": "Ben Chiarot",
+        "english_names": ["Ben Chiarot"],
+        "username": "chiarbe01",
+        "url": "/players/chiarbe01.html"
+    },
+    {
+        "name": "Nikita Chibrikov",
+        "english_names": ["Nikita Chibrikov"],
+        "username": "chibrni01",
+        "url": "/players/chibrni01.html"
+    },
+    {
+        "name": "Yegor Chinakhov",
+        "english_names": ["Yegor Chinakhov"],
+        "username": "chinaye01",
+        "url": "/players/chinaye01.html"
+    },
+    {
+        "name": "Declan Chisholm",
+        "english_names": ["Declan Chisholm"],
+        "username": "chishde01",
+        "url": "/players/chishde01.html"
+    },
+    {
+        "name": "Jake Christiansen",
+        "english_names": ["Jake Christiansen"],
+        "username": "chrisja01",
+        "url": "/players/chrisja01.html"
+    },
+    {
+        "name": "Magnus Chrona",
+        "english_names": ["Magnus Chrona"],
+        "username": "chronma01",
+        "url": "/players/chronma01.html"
+    },
+    {
+        "name": "Jakob Chychrun",
+        "english_names": ["Jakob Chychrun"],
+        "username": "chychja01",
+        "url": "/players/chychja01.html"
+    },
+    {
+        "name": "Filip Chytil",
+        "english_names": ["Filip Chytil"],
+        "username": "chytifi01",
+        "url": "/players/chytifi01.html"
+    },
+    {
+        "name": "Anthony Cirelli",
+        "english_names": ["Anthony Cirelli"],
+        "username": "cirelan01",
+        "url": "/players/cirelan01.html"
+    },
+    {
+        "name": "Casey Cizikas",
+        "english_names": ["Casey Cizikas"],
+        "username": "cizikca01",
+        "url": "/players/cizikca01.html"
+    },
+    {
+        "name": "Kale Clague",
+        "english_names": ["Kale Clague"],
+        "username": "claguka01",
+        "url": "/players/claguka01.html"
+    },
+    {
+        "name": "Brandt Clarke",
+        "english_names": ["Brandt Clarke"],
+        "username": "clarkbr02",
+        "url": "/players/clarkbr02.html"
+    },
+    {
+        "name": "Graeme Clarke",
+        "english_names": ["Graeme Clarke"],
+        "username": "clarkgr01",
+        "url": "/players/clarkgr01.html"
+    },
+    {
+        "name": "Connor Clifton",
+        "english_names": ["Connor Clifton"],
+        "username": "cliftco01",
+        "url": "/players/cliftco01.html"
+    },
+    {
+        "name": "Cal Clutterbuck",
+        "english_names": ["Cal Clutterbuck"],
+        "username": "cluttca01",
+        "url": "/players/cluttca01.html"
+    },
+    {
+        "name": "Dylan Coghlan",
+        "english_names": ["Dylan Coghlan"],
+        "username": "coghldy01",
+        "url": "/players/coghldy01.html"
+    },
+    {
+        "name": "Andrew Cogliano",
+        "english_names": ["Andrew Cogliano"],
+        "username": "coglian01",
+        "url": "/players/coglian01.html"
+    },
+    {
+        "name": "Sam Colangelo",
+        "english_names": ["Sam Colangelo"],
+        "username": "colansa01",
+        "url": "/players/colansa01.html"
+    },
+    {
+        "name": "Ian Cole",
+        "english_names": ["Ian Cole"],
+        "username": "coleia01",
+        "url": "/players/coleia01.html"
+    },
+    {
+        "name": "Blake Coleman",
+        "english_names": ["Blake Coleman"],
+        "username": "colembl01",
+        "url": "/players/colembl01.html"
+    },
+    {
+        "name": "Ross Colton",
+        "english_names": ["Ross Colton"],
+        "username": "coltoro01",
+        "url": "/players/coltoro01.html"
+    },
+    {
+        "name": "Eric Comrie",
+        "english_names": ["Eric Comrie"],
+        "username": "comrier01",
+        "url": "/players/comrier01.html"
+    },
+    {
+        "name": "Max Comtois",
+        "english_names": ["Max Comtois"],
+        "username": "comtoma01",
+        "url": "/players/comtoma01.html"
+    },
+    {
+        "name": "Lucas Condotta",
+        "english_names": ["Lucas Condotta"],
+        "username": "condolu01",
+        "url": "/players/condolu01.html"
+    },
+    {
+        "name": "Kyle Connor",
+        "english_names": ["Kyle Connor"],
+        "username": "connoky01",
+        "url": "/players/connoky01.html"
+    },
+    {
+        "name": "Devin Cooley",
+        "english_names": ["Devin Cooley"],
+        "username": "coolede01",
+        "url": "/players/coolede01.html"
+    },
+    {
+        "name": "Logan Cooley",
+        "english_names": ["Logan Cooley"],
+        "username": "coolelo01",
+        "url": "/players/coolelo01.html"
+    },
+    {
+        "name": "Pheonix Copley",
+        "english_names": ["Pheonix Copley"],
+        "username": "copleph01",
+        "url": "/players/copleph01.html"
+    },
+    {
+        "name": "Andrew Copp",
+        "english_names": ["Andrew Copp"],
+        "username": "coppan01",
+        "url": "/players/coppan01.html"
+    },
+    {
+        "name": "Lukas Cormier",
+        "english_names": ["Lukas Cormier"],
+        "username": "cormilu01",
+        "url": "/players/cormilu01.html"
+    },
+    {
+        "name": "Matthew Coronato",
+        "english_names": ["Matthew Coronato"],
+        "username": "coronma01",
+        "url": "/players/coronma01.html"
+    },
+    {
+        "name": "Paul Cotter",
+        "english_names": ["Paul Cotter"],
+        "username": "cottepa01",
+        "url": "/players/cottepa01.html"
+    },
+    {
+        "name": "Nick Cousins",
+        "english_names": ["Nick Cousins"],
+        "username": "cousini01",
+        "url": "/players/cousini01.html"
+    },
+    {
+        "name": "Logan Couture",
+        "english_names": ["Logan Couture"],
+        "username": "coutulo01",
+        "url": "/players/coutulo01.html"
+    },
+    {
+        "name": "Sean Couturier",
+        "english_names": ["Sean Couturier"],
+        "username": "coutuse01",
+        "url": "/players/coutuse01.html"
+    },
+    {
+        "name": "Charlie Coyle",
+        "english_names": ["Charlie Coyle"],
+        "username": "coylech01",
+        "url": "/players/coylech01.html"
+    },
+    {
+        "name": "Dylan Cozens",
+        "english_names": ["Dylan Cozens"],
+        "username": "cozendy01",
+        "url": "/players/cozendy01.html"
+    },
+    {
+        "name": "Louis Crevier",
+        "english_names": ["Louis Crevier"],
+        "username": "crevilo01",
+        "url": "/players/crevilo01.html"
+    },
+    {
+        "name": "Angus Crookshank",
+        "english_names": ["Angus Crookshank"],
+        "username": "crookan01",
+        "url": "/players/crookan01.html"
+    },
+    {
+        "name": "Sidney Crosby",
+        "english_names": ["Sidney Crosby"],
+        "username": "crosbsi01",
+        "url": "/players/crosbsi01.html"
+    },
+    {
+        "name": "Cameron Crotty",
+        "english_names": ["Cameron Crotty"],
+        "username": "crottca01",
+        "url": "/players/crottca01.html"
+    },
+    {
+        "name": "Lawson Crouse",
+        "english_names": ["Lawson Crouse"],
+        "username": "crousla01",
+        "url": "/players/crousla01.html"
+    },
+    {
+        "name": "Maxwell Crozier",
+        "english_names": ["Maxwell Crozier"],
+        "username": "crozima01",
+        "url": "/players/crozima01.html"
+    },
+    {
+        "name": "William Cuylle",
+        "english_names": ["William Cuylle"],
+        "username": "cuyllwi01",
+        "url": "/players/cuyllwi01.html"
+    },
+    {
+        "name": "Austin Czarnik",
+        "english_names": ["Austin Czarnik"],
+        "username": "czarnau01",
+        "url": "/players/czarnau01.html"
+    },
+    {
+        "name": "Joey Daccord",
+        "english_names": ["Joey Daccord"],
+        "username": "daccojo01",
+        "url": "/players/daccojo01.html"
+    },
+    {
+        "name": "Kirby Dach",
+        "english_names": ["Kirby Dach"],
+        "username": "dachki01",
+        "url": "/players/dachki01.html"
+    },
+    {
+        "name": "Evgenii Dadonov",
+        "english_names": ["Evgenii Dadonov"],
+        "username": "dadonev01",
+        "url": "/players/dadonev01.html"
+    },
+    {
+        "name": "Rasmus Dahlin",
+        "english_names": ["Rasmus Dahlin"],
+        "username": "dahlira01",
+        "url": "/players/dahlira01.html"
+    },
+    {
+        "name": "Phillip Danault",
+        "english_names": ["Phillip Danault"],
+        "username": "danauph01",
+        "url": "/players/danauph01.html"
+    },
+    {
+        "name": "Justin Danforth",
+        "english_names": ["Justin Danforth"],
+        "username": "danfoju01",
+        "url": "/players/danfoju01.html"
+    },
+    {
+        "name": "Nico Daws",
+        "english_names": ["Nico Daws"],
+        "username": "dawsni01",
+        "url": "/players/dawsni01.html"
+    },
+    {
+        "name": "Tony DeAngelo",
+        "english_names": ["Tony DeAngelo"],
+        "username": "deangan01",
+        "url": "/players/deangan01.html"
+    },
+    {
+        "name": "Zach Dean",
+        "english_names": ["Zach Dean"],
+        "username": "deanza01",
+        "url": "/players/deanza01.html"
+    },
+    {
+        "name": "Alex DeBrincat",
+        "english_names": ["Alex DeBrincat"],
+        "username": "debrial01",
+        "url": "/players/debrial01.html"
+    },
+    {
+        "name": "Jake DeBrusk",
+        "english_names": ["Jake DeBrusk"],
+        "username": "debruja01",
+        "url": "/players/debruja01.html"
+    },
+    {
+        "name": "Calvin de Haan",
+        "english_names": ["Calvin de Haan"],
+        "username": "dehaaca01",
+        "url": "/players/dehaaca01.html"
+    },
+    {
+        "name": "Luca Del Bel Belluz",
+        "english_names": ["Luca Del Bel Belluz"],
+        "username": "delbelu01",
+        "url": "/players/delbelu01.html"
+    },
+    {
+        "name": "Marc Del Gaizo",
+        "english_names": ["Marc Del Gaizo"],
+        "username": "delgama01",
+        "url": "/players/delgama01.html"
+    },
+    {
+        "name": "Ty Dellandrea",
+        "english_names": ["Ty Dellandrea"],
+        "username": "dellaty01",
+        "url": "/players/dellaty01.html"
+    },
+    {
+        "name": "Ethan Del Mastro",
+        "english_names": ["Ethan Del Mastro"],
+        "username": "delmaet01",
+        "url": "/players/delmaet01.html"
+    },
+    {
+        "name": "Dylan DeMelo",
+        "english_names": ["Dylan DeMelo"],
+        "username": "demeldy01",
+        "url": "/players/demeldy01.html"
+    },
+    {
+        "name": "Thatcher Demko",
+        "english_names": ["Thatcher Demko"],
+        "username": "demkoth01",
+        "url": "/players/demkoth01.html"
+    },
+    {
+        "name": "Grigori Denisenko",
+        "english_names": ["Grigori Denisenko"],
+        "username": "denisgr01",
+        "url": "/players/denisgr01.html"
+    },
+    {
+        "name": "Travis Dermott",
+        "english_names": ["Travis Dermott"],
+        "username": "dermotr01",
+        "url": "/players/dermotr01.html"
+    },
+    {
+        "name": "Vincent Desharnais",
+        "english_names": ["Vincent Desharnais"],
+        "username": "deshavi01",
+        "url": "/players/deshavi01.html"
+    },
+    {
+        "name": "Nick DeSimone",
+        "english_names": ["Nick DeSimone"],
+        "username": "desimni01",
+        "url": "/players/desimni01.html"
+    },
+    {
+        "name": "Nicolas Deslauriers",
+        "english_names": ["Nicolas Deslauriers"],
+        "username": "deslani01",
+        "url": "/players/deslani01.html"
+    },
+    {
+        "name": "Casey DeSmith",
+        "english_names": ["Casey DeSmith"],
+        "username": "desmica01",
+        "url": "/players/desmica01.html"
+    },
+    {
+        "name": "Connor Dewar",
+        "english_names": ["Connor Dewar"],
+        "username": "dewarco01",
+        "url": "/players/dewarco01.html"
+    },
+    {
+        "name": "Jason Dickinson",
+        "english_names": ["Jason Dickinson"],
+        "username": "dickija01",
+        "url": "/players/dickija01.html"
+    },
+    {
+        "name": "Phillip Di Giuseppe",
+        "english_names": ["Phillip Di Giuseppe"],
+        "username": "digiuph01",
+        "url": "/players/digiuph01.html"
+    },
+    {
+        "name": "Brenden Dillon",
+        "english_names": ["Brenden Dillon"],
+        "username": "dillobr01",
+        "url": "/players/dillobr01.html"
+    },
+    {
+        "name": "Josh Doan",
+        "english_names": ["Josh Doan"],
+        "username": "doanjo01",
+        "url": "/players/doanjo01.html"
+    },
+    {
+        "name": "Noah Dobson",
+        "english_names": ["Noah Dobson"],
+        "username": "dobsono01",
+        "url": "/players/dobsono01.html"
+    },
+    {
+        "name": "Max Domi",
+        "english_names": ["Max Domi"],
+        "username": "domima01",
+        "url": "/players/domima01.html"
+    },
+    {
+        "name": "Louis Domingue",
+        "english_names": ["Louis Domingue"],
+        "username": "dominlo01",
+        "url": "/players/dominlo01.html"
+    },
+    {
+        "name": "Ryan Donato",
+        "english_names": ["Ryan Donato"],
+        "username": "donatry01",
+        "url": "/players/donatry01.html"
+    },
+    {
+        "name": "Pavel Dorofeyev",
+        "english_names": ["Pavel Dorofeyev"],
+        "username": "dorofpa01",
+        "url": "/players/dorofpa01.html"
+    },
+    {
+        "name": "Drew Doughty",
+        "english_names": ["Drew Doughty"],
+        "username": "doughdr01",
+        "url": "/players/doughdr01.html"
+    },
+    {
+        "name": "Nic Dowd",
+        "english_names": ["Nic Dowd"],
+        "username": "dowdni01",
+        "url": "/players/dowdni01.html"
+    },
+    {
+        "name": "Justin Dowling",
+        "english_names": ["Justin Dowling"],
+        "username": "dowliju01",
+        "url": "/players/dowliju01.html"
+    },
+    {
+        "name": "Leon Draisaitl",
+        "english_names": ["Leon Draisaitl"],
+        "username": "draisle01",
+        "url": "/players/draisle01.html"
+    },
+    {
+        "name": "Chris Driedger",
+        "english_names": ["Chris Driedger"],
+        "username": "driedch01",
+        "url": "/players/driedch01.html"
+    },
+    {
+        "name": "Jonathan Drouin",
+        "english_names": ["Jonathan Drouin"],
+        "username": "drouijo01",
+        "url": "/players/drouijo01.html"
+    },
+    {
+        "name": "Jack Drury",
+        "english_names": ["Jack Drury"],
+        "username": "druryja01",
+        "url": "/players/druryja01.html"
+    },
+    {
+        "name": "Jamie Drysdale",
+        "english_names": ["Jamie Drysdale"],
+        "username": "drysdja01",
+        "url": "/players/drysdja01.html"
+    },
+    {
+        "name": "Pierrick Dube",
+        "english_names": ["Pierrick Dube"],
+        "username": "dubepi01",
+        "url": "/players/dubepi01.html"
+    },
+    {
+        "name": "Matt Duchene",
+        "english_names": ["Matt Duchene"],
+        "username": "duchema01",
+        "url": "/players/duchema01.html"
+    },
+    {
+        "name": "Anthony Duclair",
+        "english_names": ["Anthony Duclair"],
+        "username": "duclaan01",
+        "url": "/players/duclaan01.html"
+    },
+    {
+        "name": "Walker Duehr",
+        "english_names": ["Walker Duehr"],
+        "username": "duehrwa01",
+        "url": "/players/duehrwa01.html"
+    },
+    {
+        "name": "Brandon Duhaime",
+        "english_names": ["Brandon Duhaime"],
+        "username": "duhaibr01",
+        "url": "/players/duhaibr01.html"
+    },
+    {
+        "name": "Mathew Dumba",
+        "english_names": ["Mathew Dumba"],
+        "username": "dumbama01",
+        "url": "/players/dumbama01.html"
+    },
+    {
+        "name": "Brian Dumoulin",
+        "english_names": ["Brian Dumoulin"],
+        "username": "dumoubr01",
+        "url": "/players/dumoubr01.html"
+    },
+    {
+        "name": "Vince Dunn",
+        "english_names": ["Vince Dunn"],
+        "username": "dunnvi02",
+        "url": "/players/dunnvi02.html"
+    },
+    {
+        "name": "Sean Durzi",
+        "english_names": ["Sean Durzi"],
+        "username": "durzise01",
+        "url": "/players/durzise01.html"
+    },
+    {
+        "name": "Christian Dvorak",
+        "english_names": ["Christian Dvorak"],
+        "username": "dvorach01",
+        "url": "/players/dvorach01.html"
+    },
+    {
+        "name": "Jordan Eberle",
+        "english_names": ["Jordan Eberle"],
+        "username": "eberljo01",
+        "url": "/players/eberljo01.html"
+    },
+    {
+        "name": "Joel Edmundson",
+        "english_names": ["Joel Edmundson"],
+        "username": "edmunjo01",
+        "url": "/players/edmunjo01.html"
+    },
+    {
+        "name": "Adam Edstrom",
+        "english_names": ["Adam Edstrom"],
+        "username": "edstrad01",
+        "url": "/players/edstrad01.html"
+    },
+    {
+        "name": "Simon Edvinsson",
+        "english_names": ["Simon Edvinsson"],
+        "username": "edvinsi01",
+        "url": "/players/edvinsi01.html"
+    },
+    {
+        "name": "Nikolaj Ehlers",
+        "english_names": ["Nikolaj Ehlers"],
+        "username": "ehlerni01",
+        "url": "/players/ehlerni01.html"
+    },
+    {
+        "name": "Jack Eichel",
+        "english_names": ["Jack Eichel"],
+        "username": "eicheja01",
+        "url": "/players/eicheja01.html"
+    },
+    {
+        "name": "Aaron Ekblad",
+        "english_names": ["Aaron Ekblad"],
+        "username": "ekblaaa01",
+        "url": "/players/ekblaaa01.html"
+    },
+    {
+        "name": "Mattias Ekholm",
+        "english_names": ["Mattias Ekholm"],
+        "username": "ekholma01",
+        "url": "/players/ekholma01.html"
+    },
+    {
+        "name": "William Eklund",
+        "english_names": ["William Eklund"],
+        "username": "eklunwi01",
+        "url": "/players/eklunwi01.html"
+    },
+    {
+        "name": "Lars Eller",
+        "english_names": ["Lars Eller"],
+        "username": "ellerla01",
+        "url": "/players/ellerla01.html"
+    },
+    {
+        "name": "Ty Emberson",
+        "english_names": ["Ty Emberson"],
+        "username": "emberty01",
+        "url": "/players/emberty01.html"
+    },
+    {
+        "name": "Andreas Englund",
+        "english_names": ["Andreas Englund"],
+        "username": "engluan01",
+        "url": "/players/engluan01.html"
+    },
+    {
+        "name": "Pierre Engvall",
+        "english_names": ["Pierre Engvall"],
+        "username": "engvapi01",
+        "url": "/players/engvapi01.html"
+    },
+    {
+        "name": "MacKenzie Entwistle",
+        "english_names": ["MacKenzie Entwistle"],
+        "username": "entwima01",
+        "url": "/players/entwima01.html"
+    },
+    {
+        "name": "Joel Eriksson Ek",
+        "english_names": ["Joel Eriksson Ek"],
+        "username": "eriksjo02",
+        "url": "/players/eriksjo02.html"
+    },
+    {
+        "name": "Adam Erne",
+        "english_names": ["Adam Erne"],
+        "username": "ernead01",
+        "url": "/players/ernead01.html"
+    },
+    {
+        "name": "Samuel Ersson",
+        "english_names": ["Samuel Ersson"],
+        "username": "erssosa01",
+        "url": "/players/erssosa01.html"
+    },
+    {
+        "name": "Luke Evangelista",
+        "english_names": ["Luke Evangelista"],
+        "username": "evanglu01",
+        "url": "/players/evanglu01.html"
+    },
+    {
+        "name": "Jake Evans",
+        "english_names": ["Jake Evans"],
+        "username": "evansja02",
+        "url": "/players/evansja02.html"
+    },
+    {
+        "name": "Ryker Evans",
+        "english_names": ["Ryker Evans"],
+        "username": "evansry01",
+        "url": "/players/evansry01.html"
+    },
+    {
+        "name": "Michael Eyssimont",
+        "english_names": ["Michael Eyssimont"],
+        "username": "eyssimi01",
+        "url": "/players/eyssimi01.html"
+    },
+    {
+        "name": "Dante Fabbro",
+        "english_names": ["Dante Fabbro"],
+        "username": "fabbrda01",
+        "url": "/players/fabbrda01.html"
+    },
+    {
+        "name": "Robby Fabbri",
+        "english_names": ["Robby Fabbri"],
+        "username": "fabbrro01",
+        "url": "/players/fabbrro01.html"
+    },
+    {
+        "name": "Brock Faber",
+        "english_names": ["Brock Faber"],
+        "username": "faberbr01",
+        "url": "/players/faberbr01.html"
+    },
+    {
+        "name": "Samuel Fagemo",
+        "english_names": ["Samuel Fagemo"],
+        "username": "fagemsa01",
+        "url": "/players/fagemsa01.html"
+    },
+    {
+        "name": "Radek Faksa",
+        "english_names": ["Radek Faksa"],
+        "username": "faksara01",
+        "url": "/players/faksara01.html"
+    },
+    {
+        "name": "Adam Fantilli",
+        "english_names": ["Adam Fantilli"],
+        "username": "fantiad01",
+        "url": "/players/fantiad01.html"
+    },
+    {
+        "name": "Joel Farabee",
+        "english_names": ["Joel Farabee"],
+        "username": "farabjo01",
+        "url": "/players/farabjo01.html"
+    },
+    {
+        "name": "Hudson Fasching",
+        "english_names": ["Hudson Fasching"],
+        "username": "faschhu01",
+        "url": "/players/faschhu01.html"
+    },
+    {
+        "name": "Jesper Fast",
+        "english_names": ["Jesper Fast"],
+        "username": "fastje01",
+        "url": "/players/fastje01.html"
+    },
+    {
+        "name": "Justin Faulk",
+        "english_names": ["Justin Faulk"],
+        "username": "faulkju01",
+        "url": "/players/faulkju01.html"
+    },
+    {
+        "name": "Ivan Fedotov",
+        "english_names": ["Ivan Fedotov"],
+        "username": "fedotiv01",
+        "url": "/players/fedotiv01.html"
+    },
+    {
+        "name": "Mario Ferraro",
+        "english_names": ["Mario Ferraro"],
+        "username": "ferrama01",
+        "url": "/players/ferrama01.html"
+    },
+    {
+        "name": "Kevin Fiala",
+        "english_names": ["Kevin Fiala"],
+        "username": "fialake01",
+        "url": "/players/fialake01.html"
+    },
+    {
+        "name": "Christian Fischer",
+        "english_names": ["Christian Fischer"],
+        "username": "fischch01",
+        "url": "/players/fischch01.html"
+    },
+    {
+        "name": "Cale Fleury",
+        "english_names": ["Cale Fleury"],
+        "username": "fleurca01",
+        "url": "/players/fleurca01.html"
+    },
+    {
+        "name": "Haydn Fleury",
+        "english_names": ["Haydn Fleury"],
+        "username": "fleurha01",
+        "url": "/players/fleurha01.html"
+    },
+    {
+        "name": "Warren Foegele",
+        "english_names": ["Warren Foegele"],
+        "username": "foegewa01",
+        "url": "/players/foegewa01.html"
+    },
+    {
+        "name": "Tyson Foerster",
+        "english_names": ["Tyson Foerster"],
+        "username": "foersty01",
+        "url": "/players/foersty01.html"
+    },
+    {
+        "name": "Marcus Foligno",
+        "english_names": ["Marcus Foligno"],
+        "username": "foligma01",
+        "url": "/players/foligma01.html"
+    },
+    {
+        "name": "Nick Foligno",
+        "english_names": ["Nick Foligno"],
+        "username": "foligni01",
+        "url": "/players/foligni01.html"
+    },
+    {
+        "name": "Callan Foote",
+        "english_names": ["Callan Foote"],
+        "username": "footeca01",
+        "url": "/players/footeca01.html"
+    },
+    {
+        "name": "Nolan Foote",
+        "english_names": ["Nolan Foote"],
+        "username": "footeno01",
+        "url": "/players/footeno01.html"
+    },
+    {
+        "name": "Derek Forbort",
+        "english_names": ["Derek Forbort"],
+        "username": "forbode01",
+        "url": "/players/forbode01.html"
+    },
+    {
+        "name": "Anton Forsberg",
+        "english_names": ["Anton Forsberg"],
+        "username": "forsban01",
+        "url": "/players/forsban01.html"
+    },
+    {
+        "name": "Filip Forsberg",
+        "english_names": ["Filip Forsberg"],
+        "username": "forsbfi01",
+        "url": "/players/forsbfi01.html"
+    },
+    {
+        "name": "Gustav Forsling",
+        "english_names": ["Gustav Forsling"],
+        "username": "forslgu02",
+        "url": "/players/forslgu02.html"
+    },
+    {
+        "name": "Liam Foudy",
+        "english_names": ["Liam Foudy"],
+        "username": "foudyli01",
+        "url": "/players/foudyli01.html"
+    },
+    {
+        "name": "Cam Fowler",
+        "english_names": ["Cam Fowler"],
+        "username": "fowleca01",
+        "url": "/players/fowleca01.html"
+    },
+    {
+        "name": "Adam Fox",
+        "english_names": ["Adam Fox"],
+        "username": "foxad01",
+        "url": "/players/foxad01.html"
+    },
+    {
+        "name": "Trent Frederic",
+        "english_names": ["Trent Frederic"],
+        "username": "fredetr01",
+        "url": "/players/fredetr01.html"
+    },
+    {
+        "name": "Mark Friedman",
+        "english_names": ["Mark Friedman"],
+        "username": "friedma01",
+        "url": "/players/friedma01.html"
+    },
+    {
+        "name": "Byron Froese",
+        "english_names": ["Byron Froese"],
+        "username": "froesby01",
+        "url": "/players/froesby01.html"
+    },
+    {
+        "name": "Morgan Frost",
+        "english_names": ["Morgan Frost"],
+        "username": "frostmo01",
+        "url": "/players/frostmo01.html"
+    },
+    {
+        "name": "Jonah Gadjovich",
+        "english_names": ["Jonah Gadjovich"],
+        "username": "gadjojo01",
+        "url": "/players/gadjojo01.html"
+    },
+    {
+        "name": "Sam Gagner",
+        "english_names": ["Sam Gagner"],
+        "username": "gagnesa01",
+        "url": "/players/gagnesa01.html"
+    },
+    {
+        "name": "Brendan Gallagher",
+        "english_names": ["Brendan Gallagher"],
+        "username": "gallabr01",
+        "url": "/players/gallabr01.html"
+    },
+    {
+        "name": "Rhett Gardner",
+        "english_names": ["Rhett Gardner"],
+        "username": "gardnrh01",
+        "url": "/players/gardnrh01.html"
+    },
+    {
+        "name": "Conor Garland",
+        "english_names": ["Conor Garland"],
+        "username": "garlaco01",
+        "url": "/players/garlaco01.html"
+    },
+    {
+        "name": "Adam Gaudette",
+        "english_names": ["Adam Gaudette"],
+        "username": "gaudead01",
+        "url": "/players/gaudead01.html"
+    },
+    {
+        "name": "Johnny Gaudreau",
+        "english_names": ["Johnny Gaudreau"],
+        "username": "gaudrjo01",
+        "url": "/players/gaudrjo01.html"
+    },
+    {
+        "name": "Brendan Gaunce",
+        "english_names": ["Brendan Gaunce"],
+        "username": "gauncbr01",
+        "url": "/players/gauncbr01.html"
+    },
+    {
+        "name": "Cutter Gauthier",
+        "english_names": ["Cutter Gauthier"],
+        "username": "gauthcu01",
+        "url": "/players/gauthcu01.html"
+    },
+    {
+        "name": "Julien Gauthier",
+        "english_names": ["Julien Gauthier"],
+        "username": "gauthju01",
+        "url": "/players/gauthju01.html"
+    },
+    {
+        "name": "Vladislav Gavrikov",
+        "english_names": ["Vladislav Gavrikov"],
+        "username": "gavrivl01",
+        "url": "/players/gavrivl01.html"
+    },
+    {
+        "name": "Glenn Gawdin",
+        "english_names": ["Glenn Gawdin"],
+        "username": "gawdigl01",
+        "url": "/players/gawdigl01.html"
+    },
+    {
+        "name": "Morgan Geekie",
+        "english_names": ["Morgan Geekie"],
+        "username": "geekimo01",
+        "url": "/players/geekimo01.html"
+    },
+    {
+        "name": "Alexandar Georgiev",
+        "english_names": ["Alexandar Georgiev"],
+        "username": "georgal01",
+        "url": "/players/georgal01.html"
+    },
+    {
+        "name": "John Gibson",
+        "english_names": ["John Gibson"],
+        "username": "gibsojo02",
+        "url": "/players/gibsojo02.html"
+    },
+    {
+        "name": "Brandon Gignac",
+        "english_names": ["Brandon Gignac"],
+        "username": "gignabr01",
+        "url": "/players/gignabr01.html"
+    },
+    {
+        "name": "Dennis Gilbert",
+        "english_names": ["Dennis Gilbert"],
+        "username": "gilbede01",
+        "url": "/players/gilbede01.html"
+    },
+    {
+        "name": "Adam Ginning",
+        "english_names": ["Adam Ginning"],
+        "username": "ginniad01",
+        "url": "/players/ginniad01.html"
+    },
+    {
+        "name": "Mark Giordano",
+        "english_names": ["Mark Giordano"],
+        "username": "giordma01",
+        "url": "/players/giordma01.html"
+    },
+    {
+        "name": "Samuel Girard",
+        "english_names": ["Samuel Girard"],
+        "username": "girarsa01",
+        "url": "/players/girarsa01.html"
+    },
+    {
+        "name": "Zemgus Girgensons",
+        "english_names": ["Zemgus Girgensons"],
+        "username": "girgeze01",
+        "url": "/players/girgeze01.html"
+    },
+    {
+        "name": "Claude Giroux",
+        "english_names": ["Claude Giroux"],
+        "username": "giroucl01",
+        "url": "/players/giroucl01.html"
+    },
+    {
+        "name": "Cody Glass",
+        "english_names": ["Cody Glass"],
+        "username": "glassco01",
+        "url": "/players/glassco01.html"
+    },
+    {
+        "name": "Luke Glendening",
+        "english_names": ["Luke Glendening"],
+        "username": "glendlu01",
+        "url": "/players/glendlu01.html"
+    },
+    {
+        "name": "Alex Goligoski",
+        "english_names": ["Alex Goligoski"],
+        "username": "goligal01",
+        "url": "/players/goligal01.html"
+    },
+    {
+        "name": "Gage Goncalves",
+        "english_names": ["Gage Goncalves"],
+        "username": "goncaga01",
+        "url": "/players/goncaga01.html"
+    },
+    {
+        "name": "Barclay Goodrow",
+        "english_names": ["Barclay Goodrow"],
+        "username": "goodrba01",
+        "url": "/players/goodrba01.html"
+    },
+    {
+        "name": "Shayne Gostisbehere",
+        "english_names": ["Shayne Gostisbehere"],
+        "username": "gostish01",
+        "url": "/players/gostish01.html"
+    },
+    {
+        "name": "Yanni Gourde",
+        "english_names": ["Yanni Gourde"],
+        "username": "gourdya01",
+        "url": "/players/gourdya01.html"
+    },
+    {
+        "name": "Collin Graf",
+        "english_names": ["Collin Graf"],
+        "username": "grafco01",
+        "url": "/players/grafco01.html"
+    },
+    {
+        "name": "Mikael Granlund",
+        "english_names": ["Mikael Granlund"],
+        "username": "granlmi01",
+        "url": "/players/granlmi01.html"
+    },
+    {
+        "name": "Ryan Graves",
+        "english_names": ["Ryan Graves"],
+        "username": "gravery01",
+        "url": "/players/gravery01.html"
+    },
+    {
+        "name": "Jet Greaves",
+        "english_names": ["Jet Greaves"],
+        "username": "greavje01",
+        "url": "/players/greavje01.html"
+    },
+    {
+        "name": "Jordan Greenway",
+        "english_names": ["Jordan Greenway"],
+        "username": "greenjo02",
+        "url": "/players/greenjo02.html"
+    },
+    {
+        "name": "Noah Gregor",
+        "english_names": ["Noah Gregor"],
+        "username": "gregono01",
+        "url": "/players/gregono01.html"
+    },
+    {
+        "name": "Ridly Greig",
+        "english_names": ["Ridly Greig"],
+        "username": "greigri01",
+        "url": "/players/greigri01.html"
+    },
+    {
+        "name": "Philipp Grubauer",
+        "english_names": ["Philipp Grubauer"],
+        "username": "grubaph01",
+        "url": "/players/grubaph01.html"
+    },
+    {
+        "name": "Jonathan Gruden",
+        "english_names": ["Jonathan Gruden"],
+        "username": "grudejo02",
+        "url": "/players/grudejo02.html"
+    },
+    {
+        "name": "Matt Grzelcyk",
+        "english_names": ["Matt Grzelcyk"],
+        "username": "grzelma01",
+        "url": "/players/grzelma01.html"
+    },
+    {
+        "name": "Radko Gudas",
+        "english_names": ["Radko Gudas"],
+        "username": "gudasra01",
+        "url": "/players/gudasra01.html"
+    },
+    {
+        "name": "Erik Gudbranson",
+        "english_names": ["Erik Gudbranson"],
+        "username": "gudbrer01",
+        "url": "/players/gudbrer01.html"
+    },
+    {
+        "name": "Max Guenette",
+        "english_names": ["Max Guenette"],
+        "username": "guenema01",
+        "url": "/players/guenema01.html"
+    },
+    {
+        "name": "Dylan Guenther",
+        "english_names": ["Dylan Guenther"],
+        "username": "guentdy01",
+        "url": "/players/guentdy01.html"
+    },
+    {
+        "name": "Jake Guentzel",
+        "english_names": ["Jake Guentzel"],
+        "username": "guentja01",
+        "url": "/players/guentja01.html"
+    },
+    {
+        "name": "Kaiden Guhle",
+        "english_names": ["Kaiden Guhle"],
+        "username": "guhleka01",
+        "url": "/players/guhleka01.html"
+    },
+    {
+        "name": "Denis Gurianov",
+        "english_names": ["Denis Gurianov"],
+        "username": "guriade01",
+        "url": "/players/guriade01.html"
+    },
+    {
+        "name": "Daniil Gushchin",
+        "english_names": ["Daniil Gushchin"],
+        "username": "gushcda01",
+        "url": "/players/gushcda01.html"
+    },
+    {
+        "name": "David Gustafsson",
+        "english_names": ["David Gustafsson"],
+        "username": "gustada01",
+        "url": "/players/gustada01.html"
+    },
+    {
+        "name": "Erik Gustafsson",
+        "english_names": ["Erik Gustafsson"],
+        "username": "gustaer02",
+        "url": "/players/gustaer02.html"
+    },
+    {
+        "name": "Filip Gustavsson",
+        "english_names": ["Filip Gustavsson"],
+        "username": "gustafi01",
+        "url": "/players/gustafi01.html"
+    },
+    {
+        "name": "Cole Guttman",
+        "english_names": ["Cole Guttman"],
+        "username": "guttmco01",
+        "url": "/players/guttmco01.html"
+    },
+    {
+        "name": "Brandon Hagel",
+        "english_names": ["Brandon Hagel"],
+        "username": "hagelbr01",
+        "url": "/players/hagelbr01.html"
+    },
+    {
+        "name": "Nicolas Hague",
+        "english_names": ["Nicolas Hague"],
+        "username": "hagueni01",
+        "url": "/players/hagueni01.html"
+    },
+    {
+        "name": "Taylor Hall",
+        "english_names": ["Taylor Hall"],
+        "username": "hallta02",
+        "url": "/players/hallta02.html"
+    },
+    {
+        "name": "Brian Halonen",
+        "english_names": ["Brian Halonen"],
+        "username": "halonbr01",
+        "url": "/players/halonbr01.html"
+    },
+    {
+        "name": "Hardy Haman Aktell",
+        "english_names": ["Hardy Haman Aktell"],
+        "username": "hamanha01",
+        "url": "/players/hamanha01.html"
+    },
+    {
+        "name": "James Hamblin",
+        "english_names": ["James Hamblin"],
+        "username": "hamblja01",
+        "url": "/players/hamblja01.html"
+    },
+    {
+        "name": "Dougie Hamilton",
+        "english_names": ["Dougie Hamilton"],
+        "username": "hamildo01",
+        "url": "/players/hamildo01.html"
+    },
+    {
+        "name": "Travis Hamonic",
+        "english_names": ["Travis Hamonic"],
+        "username": "hamontr01",
+        "url": "/players/hamontr01.html"
+    },
+    {
+        "name": "Noah Hanifin",
+        "english_names": ["Noah Hanifin"],
+        "username": "hanifno01",
+        "url": "/players/hanifno01.html"
+    },
+    {
+        "name": "Joel Hanley",
+        "english_names": ["Joel Hanley"],
+        "username": "hanlejo01",
+        "url": "/players/hanlejo01.html"
+    },
+    {
+        "name": "Jansen Harkins",
+        "english_names": ["Jansen Harkins"],
+        "username": "harkija01",
+        "url": "/players/harkija01.html"
+    },
+    {
+        "name": "Thomas Harley",
+        "english_names": ["Thomas Harley"],
+        "username": "harleth01",
+        "url": "/players/harleth01.html"
+    },
+    {
+        "name": "Jordan Harris",
+        "english_names": ["Jordan Harris"],
+        "username": "harrijo01",
+        "url": "/players/harrijo01.html"
+    },
+    {
+        "name": "Carter Hart",
+        "english_names": ["Carter Hart"],
+        "username": "hartca01",
+        "url": "/players/hartca01.html"
+    },
+    {
+        "name": "Ryan Hartman",
+        "english_names": ["Ryan Hartman"],
+        "username": "hartmry01",
+        "url": "/players/hartmry01.html"
+    },
+    {
+        "name": "Santeri Hatakka",
+        "english_names": ["Santeri Hatakka"],
+        "username": "hataksa01",
+        "url": "/players/hataksa01.html"
+    },
+    {
+        "name": "Garnet Hathaway",
+        "english_names": ["Garnet Hathaway"],
+        "username": "hathaga01",
+        "url": "/players/hathaga01.html"
+    },
+    {
+        "name": "Erik Haula",
+        "english_names": ["Erik Haula"],
+        "username": "haulaer01",
+        "url": "/players/haulaer01.html"
+    },
+    {
+        "name": "John Hayden",
+        "english_names": ["John Hayden"],
+        "username": "haydejo01",
+        "url": "/players/haydejo01.html"
+    },
+    {
+        "name": "Kevin Hayes",
+        "english_names": ["Kevin Hayes"],
+        "username": "hayeske01",
+        "url": "/players/hayeske01.html"
+    },
+    {
+        "name": "Barrett Hayton",
+        "english_names": ["Barrett Hayton"],
+        "username": "haytoba01",
+        "url": "/players/haytoba01.html"
+    },
+    {
+        "name": "Victor Hedman",
+        "english_names": ["Victor Hedman"],
+        "username": "hedmavi01",
+        "url": "/players/hedmavi01.html"
+    },
+    {
+        "name": "Danton Heinen",
+        "english_names": ["Danton Heinen"],
+        "username": "heineda01",
+        "url": "/players/heineda01.html"
+    },
+    {
+        "name": "Emil Heineman",
+        "english_names": ["Emil Heineman"],
+        "username": "heineem01",
+        "url": "/players/heineem01.html"
+    },
+    {
+        "name": "Miro Heiskanen",
+        "english_names": ["Miro Heiskanen"],
+        "username": "heiskmi01",
+        "url": "/players/heiskmi01.html"
+    },
+    {
+        "name": "Magnus Hellberg",
+        "english_names": ["Magnus Hellberg"],
+        "username": "hellbma01",
+        "url": "/players/hellbma01.html"
+    },
+    {
+        "name": "Connor Hellebuyck",
+        "english_names": ["Connor Hellebuyck"],
+        "username": "helleco01",
+        "url": "/players/helleco01.html"
+    },
+    {
+        "name": "Adam Henrique",
+        "english_names": ["Adam Henrique"],
+        "username": "henriad01",
+        "url": "/players/henriad01.html"
+    },
+    {
+        "name": "Matthew Highmore",
+        "english_names": ["Matthew Highmore"],
+        "username": "highmma01",
+        "url": "/players/highmma01.html"
+    },
+    {
+        "name": "Adin Hill",
+        "english_names": ["Adin Hill"],
+        "username": "hillad01",
+        "url": "/players/hillad01.html"
+    },
+    {
+        "name": "Vinnie Hinostroza",
+        "english_names": ["Vinnie Hinostroza"],
+        "username": "hinosvi01",
+        "url": "/players/hinosvi01.html"
+    },
+    {
+        "name": "Roope Hintz",
+        "english_names": ["Roope Hintz"],
+        "username": "hintzro01",
+        "url": "/players/hintzro01.html"
+    },
+    {
+        "name": "Akito Hirose",
+        "english_names": ["Akito Hirose"],
+        "username": "hirosak01",
+        "url": "/players/hirosak01.html"
+    },
+    {
+        "name": "Nico Hischier",
+        "english_names": ["Nico Hischier"],
+        "username": "hischni01",
+        "url": "/players/hischni01.html"
+    },
+    {
+        "name": "Joel Hofer",
+        "english_names": ["Joel Hofer"],
+        "username": "hoferjo01",
+        "url": "/players/hoferjo01.html"
+    },
+    {
+        "name": "Mike Hoffman",
+        "english_names": ["Mike Hoffman"],
+        "username": "hoffmmi02",
+        "url": "/players/hoffmmi02.html"
+    },
+    {
+        "name": "Justin Holl",
+        "english_names": ["Justin Holl"],
+        "username": "hollju01",
+        "url": "/players/hollju01.html"
+    },
+    {
+        "name": "Dylan Holloway",
+        "english_names": ["Dylan Holloway"],
+        "username": "hollody01",
+        "url": "/players/hollody01.html"
+    },
+    {
+        "name": "Pontus Holmberg",
+        "english_names": ["Pontus Holmberg"],
+        "username": "holmbpo01",
+        "url": "/players/holmbpo01.html"
+    },
+    {
+        "name": "Alexander Holtz",
+        "english_names": ["Alexander Holtz"],
+        "username": "holtzal01",
+        "url": "/players/holtzal01.html"
+    },
+    {
+        "name": "Bo Horvat",
+        "english_names": ["Bo Horvat"],
+        "username": "horvabo01",
+        "url": "/players/horvabo01.html"
+    },
+    {
+        "name": "Brett Howden",
+        "english_names": ["Brett Howden"],
+        "username": "howdebr01",
+        "url": "/players/howdebr01.html"
+    },
+    {
+        "name": "Filip Hronek",
+        "english_names": ["Filip Hronek"],
+        "username": "hronefi01",
+        "url": "/players/hronefi01.html"
+    },
+    {
+        "name": "Jonathan Huberdeau",
+        "english_names": ["Jonathan Huberdeau"],
+        "username": "huberjo01",
+        "url": "/players/huberjo01.html"
+    },
+    {
+        "name": "Jack Hughes",
+        "english_names": ["Jack Hughes"],
+        "username": "hugheja03",
+        "url": "/players/hugheja03.html"
+    },
+    {
+        "name": "Luke Hughes",
+        "english_names": ["Luke Hughes"],
+        "username": "hughelu01",
+        "url": "/players/hughelu01.html"
+    },
+    {
+        "name": "Quinn Hughes",
+        "english_names": ["Quinn Hughes"],
+        "username": "hughequ01",
+        "url": "/players/hughequ01.html"
+    },
+    {
+        "name": "Daemon Hunt",
+        "english_names": ["Daemon Hunt"],
+        "username": "huntda01",
+        "url": "/players/huntda01.html"
+    },
+    {
+        "name": "Dryden Hunt",
+        "english_names": ["Dryden Hunt"],
+        "username": "huntdr01",
+        "url": "/players/huntdr01.html"
+    },
+    {
+        "name": "Ville Husso",
+        "english_names": ["Ville Husso"],
+        "username": "hussovi01",
+        "url": "/players/hussovi01.html"
+    },
+    {
+        "name": "Michael Hutchinson",
+        "english_names": ["Michael Hutchinson"],
+        "username": "hutchmi01",
+        "url": "/players/hutchmi01.html"
+    },
+    {
+        "name": "Lane Hutson",
+        "english_names": ["Lane Hutson"],
+        "username": "hutsola01",
+        "url": "/players/hutsola01.html"
+    },
+    {
+        "name": "Ben Hutton",
+        "english_names": ["Ben Hutton"],
+        "username": "huttobe01",
+        "url": "/players/huttobe01.html"
+    },
+    {
+        "name": "Grant Hutton",
+        "english_names": ["Grant Hutton"],
+        "username": "huttogr01",
+        "url": "/players/huttogr01.html"
+    },
+    {
+        "name": "Zach Hyman",
+        "english_names": ["Zach Hyman"],
+        "username": "hymanza01",
+        "url": "/players/hymanza01.html"
+    },
+    {
+        "name": "Alex Iafallo",
+        "english_names": ["Alex Iafallo"],
+        "username": "iafalal01",
+        "url": "/players/iafalal01.html"
+    },
+    {
+        "name": "Bokondji Imama",
+        "english_names": ["Bokondji Imama"],
+        "username": "imamabo01",
+        "url": "/players/imamabo01.html"
+    },
+    {
+        "name": "Connor Ingram",
+        "english_names": ["Connor Ingram"],
+        "username": "ingraco01",
+        "url": "/players/ingraco01.html"
+    },
+    {
+        "name": "Vincent Iorio",
+        "english_names": ["Vincent Iorio"],
+        "username": "ioriovi01",
+        "url": "/players/ioriovi01.html"
+    },
+    {
+        "name": "Ruslan Iskhakov",
+        "english_names": ["Ruslan Iskhakov"],
+        "username": "iskharu01",
+        "url": "/players/iskharu01.html"
+    },
+    {
+        "name": "Mark Jankowski",
+        "english_names": ["Mark Jankowski"],
+        "username": "jankoma01",
+        "url": "/players/jankoma01.html"
+    },
+    {
+        "name": "Mattias Janmark",
+        "english_names": ["Mattias Janmark"],
+        "username": "janmama02",
+        "url": "/players/janmama02.html"
+    },
+    {
+        "name": "Tristan Jarry",
+        "english_names": ["Tristan Jarry"],
+        "username": "jarrytr01",
+        "url": "/players/jarrytr01.html"
+    },
+    {
+        "name": "Roby Jarventie",
+        "english_names": ["Roby Jarventie"],
+        "username": "jarvero01",
+        "url": "/players/jarvero01.html"
+    },
+    {
+        "name": "Seth Jarvis",
+        "english_names": ["Seth Jarvis"],
+        "username": "jarvise01",
+        "url": "/players/jarvise01.html"
+    },
+    {
+        "name": "Tanner Jeannot",
+        "english_names": ["Tanner Jeannot"],
+        "username": "jeannta01",
+        "url": "/players/jeannta01.html"
+    },
+    {
+        "name": "Boone Jenner",
+        "english_names": ["Boone Jenner"],
+        "username": "jennebo01",
+        "url": "/players/jennebo01.html"
+    },
+    {
+        "name": "Nick Jensen",
+        "english_names": ["Nick Jensen"],
+        "username": "jenseni02",
+        "url": "/players/jenseni02.html"
+    },
+    {
+        "name": "Jonas Johansson",
+        "english_names": ["Jonas Johansson"],
+        "username": "johanjo03",
+        "url": "/players/johanjo03.html"
+    },
+    {
+        "name": "Lucas Johansen",
+        "english_names": ["Lucas Johansen"],
+        "username": "johanlu01",
+        "url": "/players/johanlu01.html"
+    },
+    {
+        "name": "Marcus Johansson",
+        "english_names": ["Marcus Johansson"],
+        "username": "johanma03",
+        "url": "/players/johanma03.html"
+    },
+    {
+        "name": "Ryan Johansen",
+        "english_names": ["Ryan Johansen"],
+        "username": "johanry01",
+        "url": "/players/johanry01.html"
+    },
+    {
+        "name": "Erik Johnson",
+        "english_names": ["Erik Johnson"],
+        "username": "johnser01",
+        "url": "/players/johnser01.html"
+    },
+    {
+        "name": "Jack Johnson",
+        "english_names": ["Jack Johnson"],
+        "username": "johnsja02",
+        "url": "/players/johnsja02.html"
+    },
+    {
+        "name": "Kent Johnson",
+        "english_names": ["Kent Johnson"],
+        "username": "johnske01",
+        "url": "/players/johnske01.html"
+    },
+    {
+        "name": "Marc Johnstone",
+        "english_names": ["Marc Johnstone"],
+        "username": "johnsma04",
+        "url": "/players/johnsma04.html"
+    },
+    {
+        "name": "Reese Johnson",
+        "english_names": ["Reese Johnson"],
+        "username": "johnsre01",
+        "url": "/players/johnsre01.html"
+    },
+    {
+        "name": "Ross Johnston",
+        "english_names": ["Ross Johnston"],
+        "username": "johnsro02",
+        "url": "/players/johnsro02.html"
+    },
+    {
+        "name": "Ryan Johnson",
+        "english_names": ["Ryan Johnson"],
+        "username": "johnsry03",
+        "url": "/players/johnsry03.html"
+    },
+    {
+        "name": "Tyler Johnson",
+        "english_names": ["Tyler Johnson"],
+        "username": "johnsty01",
+        "url": "/players/johnsty01.html"
+    },
+    {
+        "name": "Wyatt Johnston",
+        "english_names": ["Wyatt Johnston"],
+        "username": "johnswy01",
+        "url": "/players/johnswy01.html"
+    },
+    {
+        "name": "Henri Jokiharju",
+        "english_names": ["Henri Jokiharju"],
+        "username": "jokihhe01",
+        "url": "/players/jokihhe01.html"
+    },
+    {
+        "name": "Caleb Jones",
+        "english_names": ["Caleb Jones"],
+        "username": "jonesca01",
+        "url": "/players/jonesca01.html"
+    },
+    {
+        "name": "Martin Jones",
+        "english_names": ["Martin Jones"],
+        "username": "jonesma02",
+        "url": "/players/jonesma02.html"
+    },
+    {
+        "name": "Max Jones",
+        "english_names": ["Max Jones"],
+        "username": "jonesma03",
+        "url": "/players/jonesma03.html"
+    },
+    {
+        "name": "Seth Jones",
+        "english_names": ["Seth Jones"],
+        "username": "jonesse01",
+        "url": "/players/jonesse01.html"
+    },
+    {
+        "name": "Zachary Jones",
+        "english_names": ["Zachary Jones"],
+        "username": "jonesza01",
+        "url": "/players/jonesza01.html"
+    },
+    {
+        "name": "Mathieu Joseph",
+        "english_names": ["Mathieu Joseph"],
+        "username": "josepma01",
+        "url": "/players/josepma01.html"
+    },
+    {
+        "name": "Dakota Joshua",
+        "english_names": ["Dakota Joshua"],
+        "username": "joshuda01",
+        "url": "/players/joshuda01.html"
+    },
+    {
+        "name": "Roman Josi",
+        "english_names": ["Roman Josi"],
+        "username": "josiro01",
+        "url": "/players/josiro01.html"
+    },
+    {
+        "name": "Tyson Jost",
+        "english_names": ["Tyson Jost"],
+        "username": "jostty01",
+        "url": "/players/jostty01.html"
+    },
+    {
+        "name": "Noah Juulsen",
+        "english_names": ["Noah Juulsen"],
+        "username": "juulsno01",
+        "url": "/players/juulsno01.html"
+    },
+    {
+        "name": "Nazem Kadri",
+        "english_names": ["Nazem Kadri"],
+        "username": "kadrina01",
+        "url": "/players/kadrina01.html"
+    },
+    {
+        "name": "Wyatt Kaiser",
+        "english_names": ["Wyatt Kaiser"],
+        "username": "kaisewy01",
+        "url": "/players/kaisewy01.html"
+    },
+    {
+        "name": "Kaapo Kakko",
+        "english_names": ["Kaapo Kakko"],
+        "username": "kakkoka01",
+        "url": "/players/kakkoka01.html"
+    },
+    {
+        "name": "Arthur Kaliyev",
+        "english_names": ["Arthur Kaliyev"],
+        "username": "kaliyar01",
+        "url": "/players/kaliyar01.html"
+    },
+    {
+        "name": "Evander Kane",
+        "english_names": ["Evander Kane"],
+        "username": "kaneev01",
+        "url": "/players/kaneev01.html"
+    },
+    {
+        "name": "Patrick Kane",
+        "english_names": ["Patrick Kane"],
+        "username": "kanepa01",
+        "url": "/players/kanepa01.html"
+    },
+    {
+        "name": "Kasperi Kapanen",
+        "english_names": ["Kasperi Kapanen"],
+        "username": "kapanka01",
+        "url": "/players/kapanka01.html"
+    },
+    {
+        "name": "Kirill Kaprizov",
+        "english_names": ["Kirill Kaprizov"],
+        "username": "kapriki01",
+        "url": "/players/kapriki01.html"
+    },
+    {
+        "name": "Erik Karlsson",
+        "english_names": ["Erik Karlsson"],
+        "username": "karlser01",
+        "url": "/players/karlser01.html"
+    },
+    {
+        "name": "Linus Karlsson",
+        "english_names": ["Linus Karlsson"],
+        "username": "karlsli01",
+        "url": "/players/karlsli01.html"
+    },
+    {
+        "name": "William Karlsson",
+        "english_names": ["William Karlsson"],
+        "username": "karlswi01",
+        "url": "/players/karlswi01.html"
+    },
+    {
+        "name": "Tye Kartye",
+        "english_names": ["Tye Kartye"],
+        "username": "kartyty01",
+        "url": "/players/kartyty01.html"
+    },
+    {
+        "name": "Mark Kastelic",
+        "english_names": ["Mark Kastelic"],
+        "username": "kastema01",
+        "url": "/players/kastema01.html"
+    },
+    {
+        "name": "Boris Katchouk",
+        "english_names": ["Boris Katchouk"],
+        "username": "katchbo01",
+        "url": "/players/katchbo01.html"
+    },
+    {
+        "name": "Clayton Keller",
+        "english_names": ["Clayton Keller"],
+        "username": "kellecl01",
+        "url": "/players/kellecl01.html"
+    },
+    {
+        "name": "Parker Kelly",
+        "english_names": ["Parker Kelly"],
+        "username": "kellypa01",
+        "url": "/players/kellypa01.html"
+    },
+    {
+        "name": "Adrian Kempe",
+        "english_names": ["Adrian Kempe"],
+        "username": "kempead01",
+        "url": "/players/kempead01.html"
+    },
+    {
+        "name": "Philip Kemp",
+        "english_names": ["Philip Kemp"],
+        "username": "kempph01",
+        "url": "/players/kempph01.html"
+    },
+    {
+        "name": "Alexander Kerfoot",
+        "english_names": ["Alexander Kerfoot"],
+        "username": "kerfoal01",
+        "url": "/players/kerfoal01.html"
+    },
+    {
+        "name": "Matthew Kessel",
+        "english_names": ["Matthew Kessel"],
+        "username": "kessema01",
+        "url": "/players/kessema01.html"
+    },
+    {
+        "name": "Michael Kesselring",
+        "english_names": ["Michael Kesselring"],
+        "username": "kessemi01",
+        "url": "/players/kessemi01.html"
+    },
+    {
+        "name": "Jujhar Khaira",
+        "english_names": ["Jujhar Khaira"],
+        "username": "khairju01",
+        "url": "/players/khairju01.html"
+    },
+    {
+        "name": "Marat Khusnutdinov",
+        "english_names": ["Marat Khusnutdinov"],
+        "username": "khusnma01",
+        "url": "/players/khusnma01.html"
+    },
+    {
+        "name": "Alex Killorn",
+        "english_names": ["Alex Killorn"],
+        "username": "killoal01",
+        "url": "/players/killoal01.html"
+    },
+    {
+        "name": "Justin Kirkland",
+        "english_names": ["Justin Kirkland"],
+        "username": "kirklju01",
+        "url": "/players/kirklju01.html"
+    },
+    {
+        "name": "Joel Kiviranta",
+        "english_names": ["Joel Kiviranta"],
+        "username": "kivirjo01",
+        "url": "/players/kivirjo01.html"
+    },
+    {
+        "name": "Adam Klapka",
+        "english_names": ["Adam Klapka"],
+        "username": "klapkad01",
+        "url": "/players/klapkad01.html"
+    },
+    {
+        "name": "Tyler Kleven",
+        "english_names": ["Tyler Kleven"],
+        "username": "klevety01",
+        "url": "/players/klevety01.html"
+    },
+    {
+        "name": "John Klingberg",
+        "english_names": ["John Klingberg"],
+        "username": "klingjo01",
+        "url": "/players/klingjo01.html"
+    },
+    {
+        "name": "Matthew Knies",
+        "english_names": ["Matthew Knies"],
+        "username": "kniesma01",
+        "url": "/players/kniesma01.html"
+    },
+    {
+        "name": "Nikolai Knyzhov",
+        "english_names": ["Nikolai Knyzhov"],
+        "username": "knyzhni01",
+        "url": "/players/knyzhni01.html"
+    },
+    {
+        "name": "Pyotr Kochetkov",
+        "english_names": ["Pyotr Kochetkov"],
+        "username": "kochepy01",
+        "url": "/players/kochepy01.html"
+    },
+    {
+        "name": "Patrik Koch",
+        "english_names": ["Patrik Koch"],
+        "username": "kochpa01",
+        "url": "/players/kochpa01.html"
+    },
+    {
+        "name": "Cole Koepke",
+        "english_names": ["Cole Koepke"],
+        "username": "koepkco01",
+        "url": "/players/koepkco01.html"
+    },
+    {
+        "name": "Keegan Kolesar",
+        "english_names": ["Keegan Kolesar"],
+        "username": "koleske01",
+        "url": "/players/koleske01.html"
+    },
+    {
+        "name": "Vladislav Kolyachonok",
+        "english_names": ["Vladislav Kolyachonok"],
+        "username": "kolyavl01",
+        "url": "/players/kolyavl01.html"
+    },
+    {
+        "name": "Travis Konecny",
+        "english_names": ["Travis Konecny"],
+        "username": "konectr01",
+        "url": "/players/konectr01.html"
+    },
+    {
+        "name": "Joona Koppanen",
+        "english_names": ["Joona Koppanen"],
+        "username": "koppajo01",
+        "url": "/players/koppajo01.html"
+    },
+    {
+        "name": "Kevin Korchinski",
+        "english_names": ["Kevin Korchinski"],
+        "username": "korchke01",
+        "url": "/players/korchke01.html"
+    },
+    {
+        "name": "Kaedan Korczak",
+        "english_names": ["Kaedan Korczak"],
+        "username": "korczka01",
+        "url": "/players/korczka01.html"
+    },
+    {
+        "name": "Joonas Korpisalo",
+        "english_names": ["Joonas Korpisalo"],
+        "username": "korpijo01",
+        "url": "/players/korpijo01.html"
+    },
+    {
+        "name": "Klim Kostin",
+        "english_names": ["Klim Kostin"],
+        "username": "kostikl01",
+        "url": "/players/kostikl01.html"
+    },
+    {
+        "name": "Jesperi Kotkaniemi",
+        "english_names": ["Jesperi Kotkaniemi"],
+        "username": "kotkaje01",
+        "url": "/players/kotkaje01.html"
+    },
+    {
+        "name": "Johnathan Kovacevic",
+        "english_names": ["Johnathan Kovacevic"],
+        "username": "kovacjo01",
+        "url": "/players/kovacjo01.html"
+    },
+    {
+        "name": "Peyton Krebs",
+        "english_names": ["Peyton Krebs"],
+        "username": "krebspe01",
+        "url": "/players/krebspe01.html"
+    },
+    {
+        "name": "Chris Kreider",
+        "english_names": ["Chris Kreider"],
+        "username": "kreidch01",
+        "url": "/players/kreidch01.html"
+    },
+    {
+        "name": "Torey Krug",
+        "english_names": ["Torey Krug"],
+        "username": "krugto01",
+        "url": "/players/krugto01.html"
+    },
+    {
+        "name": "Nikita Kucherov",
+        "english_names": ["Nikita Kucherov"],
+        "username": "kucheni01",
+        "url": "/players/kucheni01.html"
+    },
+    {
+        "name": "Darcy Kuemper",
+        "english_names": ["Darcy Kuemper"],
+        "username": "kuempda01",
+        "url": "/players/kuempda01.html"
+    },
+    {
+        "name": "Brett Kulak",
+        "english_names": ["Brett Kulak"],
+        "username": "kulakbr01",
+        "url": "/players/kulakbr01.html"
+    },
+    {
+        "name": "Jiri Kulich",
+        "english_names": ["Jiri Kulich"],
+        "username": "kulicji01",
+        "url": "/players/kulicji01.html"
+    },
+    {
+        "name": "Dmitry Kulikov",
+        "english_names": ["Dmitry Kulikov"],
+        "username": "kulikdm01",
+        "url": "/players/kulikdm01.html"
+    },
+    {
+        "name": "Luke Kunin",
+        "english_names": ["Luke Kunin"],
+        "username": "kuninlu01",
+        "url": "/players/kuninlu01.html"
+    },
+    {
+        "name": "Rasmus Kupari",
+        "english_names": ["Rasmus Kupari"],
+        "username": "kuparra01",
+        "url": "/players/kuparra01.html"
+    },
+    {
+        "name": "Sean Kuraly",
+        "english_names": ["Sean Kuraly"],
+        "username": "kuralse01",
+        "url": "/players/kuralse01.html"
+    },
+    {
+        "name": "Philipp Kurashev",
+        "english_names": ["Philipp Kurashev"],
+        "username": "kurasph01",
+        "url": "/players/kurasph01.html"
+    },
+    {
+        "name": "Andrei Kuzmenko",
+        "english_names": ["Andrei Kuzmenko"],
+        "username": "kuzmean01",
+        "url": "/players/kuzmean01.html"
+    },
+    {
+        "name": "Evgeny Kuznetsov",
+        "english_names": ["Evgeny Kuznetsov"],
+        "username": "kuzneev01",
+        "url": "/players/kuzneev01.html"
+    },
+    {
+        "name": "Yan Kuznetsov",
+        "english_names": ["Yan Kuznetsov"],
+        "username": "kuzneya01",
+        "url": "/players/kuzneya01.html"
+    },
+    {
+        "name": "Oliver Kylington",
+        "english_names": ["Oliver Kylington"],
+        "username": "kylinol01",
+        "url": "/players/kylinol01.html"
+    },
+    {
+        "name": "Jordan Kyrou",
+        "english_names": ["Jordan Kyrou"],
+        "username": "kyroujo01",
+        "url": "/players/kyroujo01.html"
+    },
+    {
+        "name": "Kevin Labanc",
+        "english_names": ["Kevin Labanc"],
+        "username": "labanke01",
+        "url": "/players/labanke01.html"
+    },
+    {
+        "name": "Samuel Laberge",
+        "english_names": ["Samuel Laberge"],
+        "username": "labersa01",
+        "url": "/players/labersa01.html"
+    },
+    {
+        "name": "Jackson LaCombe",
+        "english_names": ["Jackson LaCombe"],
+        "username": "lacomja01",
+        "url": "/players/lacomja01.html"
+    },
+    {
+        "name": "Alex Laferriere",
+        "english_names": ["Alex Laferriere"],
+        "username": "laferal01",
+        "url": "/players/laferal01.html"
+    },
+    {
+        "name": "Sam Lafferty",
+        "english_names": ["Sam Lafferty"],
+        "username": "laffesa01",
+        "url": "/players/laffesa01.html"
+    },
+    {
+        "name": "William Lagesson",
+        "english_names": ["William Lagesson"],
+        "username": "lageswi01",
+        "url": "/players/lageswi01.html"
+    },
+    {
+        "name": "Patrik Laine",
+        "english_names": ["Patrik Laine"],
+        "username": "lainepa01",
+        "url": "/players/lainepa01.html"
+    },
+    {
+        "name": "Maxime Lajoie",
+        "english_names": ["Maxime Lajoie"],
+        "username": "lajoima01",
+        "url": "/players/lajoima01.html"
+    },
+    {
+        "name": "Brad Lambert",
+        "english_names": ["Brad Lambert"],
+        "username": "lambebr01",
+        "url": "/players/lambebr01.html"
+    },
+    {
+        "name": "Kevin Lankinen",
+        "english_names": ["Kevin Lankinen"],
+        "username": "lankike01",
+        "url": "/players/lankike01.html"
+    },
+    {
+        "name": "Hendrix Lapierre",
+        "english_names": ["Hendrix Lapierre"],
+        "username": "lapiehe01",
+        "url": "/players/lapiehe01.html"
+    },
+    {
+        "name": "Dylan Larkin",
+        "english_names": ["Dylan Larkin"],
+        "username": "larkidy01",
+        "url": "/players/larkidy01.html"
+    },
+    {
+        "name": "Adam Larsson",
+        "english_names": ["Adam Larsson"],
+        "username": "larssad01",
+        "url": "/players/larssad01.html"
+    },
+    {
+        "name": "Scott Laughton",
+        "english_names": ["Scott Laughton"],
+        "username": "laughsc01",
+        "url": "/players/laughsc01.html"
+    },
+    {
+        "name": "Jakub Lauko",
+        "english_names": ["Jakub Lauko"],
+        "username": "laukoja01",
+        "url": "/players/laukoja01.html"
+    },
+    {
+        "name": "Jeremy Lauzon",
+        "english_names": ["Jeremy Lauzon"],
+        "username": "lauzoje01",
+        "url": "/players/lauzoje01.html"
+    },
+    {
+        "name": "Raphael Lavoie",
+        "english_names": ["Raphael Lavoie"],
+        "username": "lavoira01",
+        "url": "/players/lavoira01.html"
+    },
+    {
+        "name": "Curtis Lazar",
+        "english_names": ["Curtis Lazar"],
+        "username": "lazarcu01",
+        "url": "/players/lazarcu01.html"
+    },
+    {
+        "name": "Brett Leason",
+        "english_names": ["Brett Leason"],
+        "username": "leasobr01",
+        "url": "/players/leasobr01.html"
+    },
+    {
+        "name": "Nick Leddy",
+        "english_names": ["Nick Leddy"],
+        "username": "leddyni01",
+        "url": "/players/leddyni01.html"
+    },
+    {
+        "name": "Anders Lee",
+        "english_names": ["Anders Lee"],
+        "username": "leean01",
+        "url": "/players/leean01.html"
+    },
+    {
+        "name": "Artturi Lehkonen",
+        "english_names": ["Artturi Lehkonen"],
+        "username": "lehkoar01",
+        "url": "/players/lehkoar01.html"
+    },
+    {
+        "name": "Brendan Lemieux",
+        "english_names": ["Brendan Lemieux"],
+        "username": "lemiebr01",
+        "url": "/players/lemiebr01.html"
+    },
+    {
+        "name": "John Leonard",
+        "english_names": ["John Leonard"],
+        "username": "leonajo01",
+        "url": "/players/leonajo01.html"
+    },
+    {
+        "name": "Jake Leschyshyn",
+        "english_names": ["Jake Leschyshyn"],
+        "username": "leschja01",
+        "url": "/players/leschja01.html"
+    },
+    {
+        "name": "Kris Letang",
+        "english_names": ["Kris Letang"],
+        "username": "letankr01",
+        "url": "/players/letankr01.html"
+    },
+    {
+        "name": "Vinni Lettieri",
+        "english_names": ["Vinni Lettieri"],
+        "username": "lettivi01",
+        "url": "/players/lettivi01.html"
+    },
+    {
+        "name": "Devon Levi",
+        "english_names": ["Devon Levi"],
+        "username": "levide01",
+        "url": "/players/levide01.html"
+    },
+    {
+        "name": "Trevor Lewis",
+        "english_names": ["Trevor Lewis"],
+        "username": "lewistr01",
+        "url": "/players/lewistr01.html"
+    },
+    {
+        "name": "Timothy Liljegren",
+        "english_names": ["Timothy Liljegren"],
+        "username": "liljeti01",
+        "url": "/players/liljeti01.html"
+    },
+    {
+        "name": "Oskar Lindblom",
+        "english_names": ["Oskar Lindblom"],
+        "username": "lindbos01",
+        "url": "/players/lindbos01.html"
+    },
+    {
+        "name": "Esa Lindell",
+        "english_names": ["Esa Lindell"],
+        "username": "lindees01",
+        "url": "/players/lindees01.html"
+    },
+    {
+        "name": "Charlie Lindgren",
+        "english_names": ["Charlie Lindgren"],
+        "username": "lindgch01",
+        "url": "/players/lindgch01.html"
+    },
+    {
+        "name": "Ryan Lindgren",
+        "english_names": ["Ryan Lindgren"],
+        "username": "lindgry01",
+        "url": "/players/lindgry01.html"
+    },
+    {
+        "name": "Elias Lindholm",
+        "english_names": ["Elias Lindholm"],
+        "username": "lindhel01",
+        "url": "/players/lindhel01.html"
+    },
+    {
+        "name": "Hampus Lindholm",
+        "english_names": ["Hampus Lindholm"],
+        "username": "lindhha01",
+        "url": "/players/lindhha01.html"
+    },
+    {
+        "name": "Kole Lind",
+        "english_names": ["Kole Lind"],
+        "username": "lindko01",
+        "url": "/players/lindko01.html"
+    },
+    {
+        "name": "Blake Lizotte",
+        "english_names": ["Blake Lizotte"],
+        "username": "lizotbl01",
+        "url": "/players/lizotbl01.html"
+    },
+    {
+        "name": "William Lockwood",
+        "english_names": ["William Lockwood"],
+        "username": "lockwwi01",
+        "url": "/players/lockwwi01.html"
+    },
+    {
+        "name": "Mason Lohrei",
+        "english_names": ["Mason Lohrei"],
+        "username": "lohrema01",
+        "url": "/players/lohrema01.html"
+    },
+    {
+        "name": "Ryan Lomberg",
+        "english_names": ["Ryan Lomberg"],
+        "username": "lombery01",
+        "url": "/players/lombery01.html"
+    },
+    {
+        "name": "Steven Lorentz",
+        "english_names": ["Steven Lorentz"],
+        "username": "lorenst01",
+        "url": "/players/lorenst01.html"
+    },
+    {
+        "name": "Adam Lowry",
+        "english_names": ["Adam Lowry"],
+        "username": "lowryad01",
+        "url": "/players/lowryad01.html"
+    },
+    {
+        "name": "Jake Lucchini",
+        "english_names": ["Jake Lucchini"],
+        "username": "lucchja01",
+        "url": "/players/lucchja01.html"
+    },
+    {
+        "name": "Milan Lucic",
+        "english_names": ["Milan Lucic"],
+        "username": "lucicmi01",
+        "url": "/players/lucicmi01.html"
+    },
+    {
+        "name": "John Ludvig",
+        "english_names": ["John Ludvig"],
+        "username": "ludvijo01",
+        "url": "/players/ludvijo01.html"
+    },
+    {
+        "name": "Anton Lundell",
+        "english_names": ["Anton Lundell"],
+        "username": "lundean01",
+        "url": "/players/lundean01.html"
+    },
+    {
+        "name": "Nils Lundkvist",
+        "english_names": ["Nils Lundkvist"],
+        "username": "lundkni01",
+        "url": "/players/lundkni01.html"
+    },
+    {
+        "name": "Tristan Luneau",
+        "english_names": ["Tristan Luneau"],
+        "username": "luneatr01",
+        "url": "/players/luneatr01.html"
+    },
+    {
+        "name": "Eetu Luostarinen",
+        "english_names": ["Eetu Luostarinen"],
+        "username": "luostee01",
+        "url": "/players/luostee01.html"
+    },
+    {
+        "name": "Olle Lycksell",
+        "english_names": ["Olle Lycksell"],
+        "username": "lycksol01",
+        "url": "/players/lycksol01.html"
+    },
+    {
+        "name": "Alex Lyon",
+        "english_names": ["Alex Lyon"],
+        "username": "lyonal01",
+        "url": "/players/lyonal01.html"
+    },
+    {
+        "name": "Ilya Lyubushkin",
+        "english_names": ["Ilya Lyubushkin"],
+        "username": "lyubuil01",
+        "url": "/players/lyubuil01.html"
+    },
+    {
+        "name": "Matias Maccelli",
+        "english_names": ["Matias Maccelli"],
+        "username": "maccema01",
+        "url": "/players/maccema01.html"
+    },
+    {
+        "name": "Kurtis MacDermid",
+        "english_names": ["Kurtis MacDermid"],
+        "username": "macdeku01",
+        "url": "/players/macdeku01.html"
+    },
+    {
+        "name": "Jacob MacDonald",
+        "english_names": ["Jacob MacDonald"],
+        "username": "macdoja02",
+        "url": "/players/macdoja02.html"
+    },
+    {
+        "name": "Mackenzie MacEachern",
+        "english_names": ["Mackenzie MacEachern"],
+        "username": "maceama01",
+        "url": "/players/maceama01.html"
+    },
+    {
+        "name": "Zack MacEwen",
+        "english_names": ["Zack MacEwen"],
+        "username": "macewza01",
+        "url": "/players/macewza01.html"
+    },
+    {
+        "name": "Connor Mackey",
+        "english_names": ["Connor Mackey"],
+        "username": "mackeco01",
+        "url": "/players/mackeco01.html"
+    },
+    {
+        "name": "Nathan MacKinnon",
+        "english_names": ["Nathan MacKinnon"],
+        "username": "mackina01",
+        "url": "/players/mackina01.html"
+    },
+    {
+        "name": "Kyle MacLean",
+        "english_names": ["Kyle MacLean"],
+        "username": "macleky01",
+        "url": "/players/macleky01.html"
+    },
+    {
+        "name": "Josh Mahura",
+        "english_names": ["Josh Mahura"],
+        "username": "mahurjo01",
+        "url": "/players/mahurjo01.html"
+    },
+    {
+        "name": "Logan Mailloux",
+        "english_names": ["Logan Mailloux"],
+        "username": "mailllo01",
+        "url": "/players/mailllo01.html"
+    },
+    {
+        "name": "Cale Makar",
+        "english_names": ["Cale Makar"],
+        "username": "makarca01",
+        "url": "/players/makarca01.html"
+    },
+    {
+        "name": "James Malatesta",
+        "english_names": ["James Malatesta"],
+        "username": "malatja01",
+        "url": "/players/malatja01.html"
+    },
+    {
+        "name": "Beck Malenstyn",
+        "english_names": ["Beck Malenstyn"],
+        "username": "malenbe01",
+        "url": "/players/malenbe01.html"
+    },
+    {
+        "name": "Sam Malinski",
+        "english_names": ["Sam Malinski"],
+        "username": "malinsa01",
+        "url": "/players/malinsa01.html"
+    },
+    {
+        "name": "Evgeni Malkin",
+        "english_names": ["Evgeni Malkin"],
+        "username": "malkiev01",
+        "url": "/players/malkiev01.html"
+    },
+    {
+        "name": "Andrew Mangiapane",
+        "english_names": ["Andrew Mangiapane"],
+        "username": "mangian01",
+        "url": "/players/mangian01.html"
+    },
+    {
+        "name": "Josh Manson",
+        "english_names": ["Josh Manson"],
+        "username": "mansojo01",
+        "url": "/players/mansojo01.html"
+    },
+    {
+        "name": "Anthony Mantha",
+        "english_names": ["Anthony Mantha"],
+        "username": "manthan01",
+        "url": "/players/manthan01.html"
+    },
+    {
+        "name": "Brad Marchand",
+        "english_names": ["Brad Marchand"],
+        "username": "marchbr03",
+        "url": "/players/marchbr03.html"
+    },
+    {
+        "name": "Kirill Marchenko",
+        "english_names": ["Kirill Marchenko"],
+        "username": "marchki01",
+        "url": "/players/marchki01.html"
+    },
+    {
+        "name": "Mason Marchment",
+        "english_names": ["Mason Marchment"],
+        "username": "marchma01",
+        "url": "/players/marchma01.html"
+    },
+    {
+        "name": "John Marino",
+        "english_names": ["John Marino"],
+        "username": "marinjo01",
+        "url": "/players/marinjo01.html"
+    },
+    {
+        "name": "Mitch Marner",
+        "english_names": ["Mitch Marner"],
+        "username": "marnemi01",
+        "url": "/players/marnemi01.html"
+    },
+    {
+        "name": "Pat Maroon",
+        "english_names": ["Pat Maroon"],
+        "username": "maroopa01",
+        "url": "/players/maroopa01.html"
+    },
+    {
+        "name": "Alec Martinez",
+        "english_names": ["Alec Martinez"],
+        "username": "martial01",
+        "url": "/players/martial01.html"
+    },
+    {
+        "name": "Emil Martinsen Lilleberg",
+        "english_names": ["Emil Martinsen Lilleberg"],
+        "username": "martiem01",
+        "url": "/players/martiem01.html"
+    },
+    {
+        "name": "Jordan Martinook",
+        "english_names": ["Jordan Martinook"],
+        "username": "martijo01",
+        "url": "/players/martijo01.html"
+    },
+    {
+        "name": "Matt Martin",
+        "english_names": ["Matt Martin"],
+        "username": "martima02",
+        "url": "/players/martima02.html"
+    },
+    {
+        "name": "Spencer Martin",
+        "english_names": ["Spencer Martin"],
+        "username": "martisp01",
+        "url": "/players/martisp01.html"
+    },
+    {
+        "name": "Mike Matheson",
+        "english_names": ["Mike Matheson"],
+        "username": "mathemi01",
+        "url": "/players/mathemi01.html"
+    },
+    {
+        "name": "Nikolas Matinpalo",
+        "english_names": ["Nikolas Matinpalo"],
+        "username": "matinni01",
+        "url": "/players/matinni01.html"
+    },
+    {
+        "name": "Auston Matthews",
+        "english_names": ["Auston Matthews"],
+        "username": "matthau01",
+        "url": "/players/matthau01.html"
+    },
+    {
+        "name": "Scott Mayfield",
+        "english_names": ["Scott Mayfield"],
+        "username": "mayfisc01",
+        "url": "/players/mayfisc01.html"
+    },
+    {
+        "name": "Charlie McAvoy",
+        "english_names": ["Charlie McAvoy"],
+        "username": "mcavoch01",
+        "url": "/players/mcavoch01.html"
+    },
+    {
+        "name": "Jack McBain",
+        "english_names": ["Jack McBain"],
+        "username": "mcbaija03",
+        "url": "/players/mcbaija03.html"
+    },
+    {
+        "name": "Jake McCabe",
+        "english_names": ["Jake McCabe"],
+        "username": "mccabja01",
+        "url": "/players/mccabja01.html"
+    },
+    {
+        "name": "Jared McCann",
+        "english_names": ["Jared McCann"],
+        "username": "mccanja01",
+        "url": "/players/mccanja01.html"
+    },
+    {
+        "name": "Michael McCarron",
+        "english_names": ["Michael McCarron"],
+        "username": "mccarmi01",
+        "url": "/players/mccarmi01.html"
+    },
+    {
+        "name": "Max McCormick",
+        "english_names": ["Max McCormick"],
+        "username": "mccorma01",
+        "url": "/players/mccorma01.html"
+    },
+    {
+        "name": "Connor McDavid",
+        "english_names": ["Connor McDavid"],
+        "username": "mcdavco01",
+        "url": "/players/mcdavco01.html"
+    },
+    {
+        "name": "Ryan McDonagh",
+        "english_names": ["Ryan McDonagh"],
+        "username": "mcdonry01",
+        "url": "/players/mcdonry01.html"
+    },
+    {
+        "name": "Brock McGinn",
+        "english_names": ["Brock McGinn"],
+        "username": "mcginbr01",
+        "url": "/players/mcginbr01.html"
+    },
+    {
+        "name": "Hugh McGing",
+        "english_names": ["Hugh McGing"],
+        "username": "mcginhu01",
+        "url": "/players/mcginhu01.html"
+    },
+    {
+        "name": "Dylan McIlrath",
+        "english_names": ["Dylan McIlrath"],
+        "username": "mcilrdy01",
+        "url": "/players/mcilrdy01.html"
+    },
+    {
+        "name": "Marc McLaughlin",
+        "english_names": ["Marc McLaughlin"],
+        "username": "mclauma01",
+        "url": "/players/mclauma01.html"
+    },
+    {
+        "name": "Michael McLeod",
+        "english_names": ["Michael McLeod"],
+        "username": "mcleomi01",
+        "url": "/players/mcleomi01.html"
+    },
+    {
+        "name": "Ryan McLeod",
+        "english_names": ["Ryan McLeod"],
+        "username": "mcleory01",
+        "url": "/players/mcleory01.html"
+    },
+    {
+        "name": "Bobby McMann",
+        "english_names": ["Bobby McMann"],
+        "username": "mcmanbo02",
+        "url": "/players/mcmanbo02.html"
+    },
+    {
+        "name": "Connor McMichael",
+        "english_names": ["Connor McMichael"],
+        "username": "mcmicco01",
+        "url": "/players/mcmicco01.html"
+    },
+    {
+        "name": "Brayden McNabb",
+        "english_names": ["Brayden McNabb"],
+        "username": "mcnabbr01",
+        "url": "/players/mcnabbr01.html"
+    },
+    {
+        "name": "Mason McTavish",
+        "english_names": ["Mason McTavish"],
+        "username": "mctavma01",
+        "url": "/players/mctavma01.html"
+    },
+    {
+        "name": "Cole McWard",
+        "english_names": ["Cole McWard"],
+        "username": "mcwarco01",
+        "url": "/players/mcwarco01.html"
+    },
+    {
+        "name": "Jayson Megna",
+        "english_names": ["Jayson Megna"],
+        "username": "megnaja01",
+        "url": "/players/megnaja01.html"
+    },
+    {
+        "name": "Jaycob Megna",
+        "english_names": ["Jaycob Megna"],
+        "username": "megnaja02",
+        "url": "/players/megnaja02.html"
+    },
+    {
+        "name": "Timo Meier",
+        "english_names": ["Timo Meier"],
+        "username": "meierti01",
+        "url": "/players/meierti01.html"
+    },
+    {
+        "name": "Dawson Mercer",
+        "english_names": ["Dawson Mercer"],
+        "username": "merceda01",
+        "url": "/players/merceda01.html"
+    },
+    {
+        "name": "Waltteri Merela",
+        "english_names": ["Waltteri Merela"],
+        "username": "merelwa01",
+        "url": "/players/merelwa01.html"
+    },
+    {
+        "name": "Georgii Merkulov",
+        "english_names": ["Georgii Merkulov"],
+        "username": "merkuge01",
+        "url": "/players/merkuge01.html"
+    },
+    {
+        "name": "Dakota Mermis",
+        "english_names": ["Dakota Mermis"],
+        "username": "mermida01",
+        "url": "/players/mermida01.html"
+    },
+    {
+        "name": "Jonathon Merrill",
+        "english_names": ["Jonathon Merrill"],
+        "username": "merrijo01",
+        "url": "/players/merrijo01.html"
+    },
+    {
+        "name": "Victor Mete",
+        "english_names": ["Victor Mete"],
+        "username": "metevi01",
+        "url": "/players/metevi01.html"
+    },
+    {
+        "name": "Ben Meyers",
+        "english_names": ["Ben Meyers"],
+        "username": "meyerbe01",
+        "url": "/players/meyerbe01.html"
+    },
+    {
+        "name": "Carson Meyer",
+        "english_names": ["Carson Meyer"],
+        "username": "meyerca01",
+        "url": "/players/meyerca01.html"
+    },
+    {
+        "name": "Jacob Middleton",
+        "english_names": ["Jacob Middleton"],
+        "username": "middlja01",
+        "url": "/players/middlja01.html"
+    },
+    {
+        "name": "Ilya Mikheyev",
+        "english_names": ["Ilya Mikheyev"],
+        "username": "mikheil01",
+        "url": "/players/mikheil01.html"
+    },
+    {
+        "name": "Niko Mikkola",
+        "english_names": ["Niko Mikkola"],
+        "username": "mikkoni01",
+        "url": "/players/mikkoni01.html"
+    },
+    {
+        "name": "Sonny Milano",
+        "english_names": ["Sonny Milano"],
+        "username": "milanso01",
+        "url": "/players/milanso01.html"
+    },
+    {
+        "name": "Colin Miller",
+        "english_names": ["Colin Miller"],
+        "username": "milleco02",
+        "url": "/players/milleco02.html"
+    },
+    {
+        "name": "Fraser Minten",
+        "english_names": ["Fraser Minten"],
+        "username": "mintefr01",
+        "url": "/players/mintefr01.html"
+    },
+    {
+        "name": "Pavel Mintyukov",
+        "english_names": ["Pavel Mintyukov"],
+        "username": "mintypa01",
+        "url": "/players/mintypa01.html"
+    },
+    {
+        "name": "Daniil Miromanov",
+        "english_names": ["Daniil Miromanov"],
+        "username": "miromda01",
+        "url": "/players/miromda01.html"
+    },
+    {
+        "name": "Ivan Miroshnichenko",
+        "english_names": ["Ivan Miroshnichenko"],
+        "username": "mirosiv01",
+        "url": "/players/mirosiv01.html"
+    },
+    {
+        "name": "Ian Mitchell",
+        "english_names": ["Ian Mitchell"],
+        "username": "mitchia01",
+        "url": "/players/mitchia01.html"
+    },
+    {
+        "name": "Casey Mittelstadt",
+        "english_names": ["Casey Mittelstadt"],
+        "username": "mitteca01",
+        "url": "/players/mitteca01.html"
+    },
+    {
+        "name": "Sean Monahan",
+        "english_names": ["Sean Monahan"],
+        "username": "monahse01",
+        "url": "/players/monahse01.html"
+    },
+    {
+        "name": "Sam Montembeault",
+        "english_names": ["Sam Montembeault"],
+        "username": "montesa01",
+        "url": "/players/montesa01.html"
+    },
+    {
+        "name": "Brandon Montour",
+        "english_names": ["Brandon Montour"],
+        "username": "montobr01",
+        "url": "/players/montobr01.html"
+    },
+    {
+        "name": "Trevor Moore",
+        "english_names": ["Trevor Moore"],
+        "username": "mooretr01",
+        "url": "/players/mooretr01.html"
+    },
+    {
+        "name": "Mason Morelli",
+        "english_names": ["Mason Morelli"],
+        "username": "morelma01",
+        "url": "/players/morelma01.html"
+    },
+    {
+        "name": "Josh Morrissey",
+        "english_names": ["Josh Morrissey"],
+        "username": "morrijo04",
+        "url": "/players/morrijo04.html"
+    },
+    {
+        "name": "Logan Morrison",
+        "english_names": ["Logan Morrison"],
+        "username": "morrilo01",
+        "url": "/players/morrilo01.html"
+    },
+    {
+        "name": "Scott Morrow",
+        "english_names": ["Scott Morrow"],
+        "username": "morrosc02",
+        "url": "/players/morrosc02.html"
+    },
+    {
+        "name": "Tyler Motte",
+        "english_names": ["Tyler Motte"],
+        "username": "mottety01",
+        "url": "/players/mottety01.html"
+    },
+    {
+        "name": "Jacob Moverare",
+        "english_names": ["Jacob Moverare"],
+        "username": "moverja01",
+        "url": "/players/moverja01.html"
+    },
+    {
+        "name": "Shakir Mukhamadullin",
+        "english_names": ["Shakir Mukhamadullin"],
+        "username": "mukhash01",
+        "url": "/players/mukhash01.html"
+    },
+    {
+        "name": "Connor Murphy",
+        "english_names": ["Connor Murphy"],
+        "username": "murphco02",
+        "url": "/players/murphco02.html"
+    },
+    {
+        "name": "Brett Murray",
+        "english_names": ["Brett Murray"],
+        "username": "murrabr02",
+        "url": "/players/murrabr02.html"
+    },
+    {
+        "name": "Matt Murray",
+        "english_names": ["Matt Murray"],
+        "username": "murrama03",
+        "url": "/players/murrama03.html"
+    },
+    {
+        "name": "Philippe Myers",
+        "english_names": ["Philippe Myers"],
+        "username": "myersph01",
+        "url": "/players/myersph01.html"
+    },
+    {
+        "name": "Tyler Myers",
+        "english_names": ["Tyler Myers"],
+        "username": "myersty01",
+        "url": "/players/myersty01.html"
+    },
+    {
+        "name": "Bradly Nadeau",
+        "english_names": ["Bradly Nadeau"],
+        "username": "nadeabr01",
+        "url": "/players/nadeabr01.html"
+    },
+    {
+        "name": "Vladislav Namestnikov",
+        "english_names": ["Vladislav Namestnikov"],
+        "username": "namesvl01",
+        "url": "/players/namesvl01.html"
+    },
+    {
+        "name": "Riley Nash",
+        "english_names": ["Riley Nash"],
+        "username": "nashri02",
+        "url": "/players/nashri02.html"
+    },
+    {
+        "name": "Frank Nazar",
+        "english_names": ["Frank Nazar"],
+        "username": "nazarfr01",
+        "url": "/players/nazarfr01.html"
+    },
+    {
+        "name": "Alex Nedeljkovic",
+        "english_names": ["Alex Nedeljkovic"],
+        "username": "nedelal01",
+        "url": "/players/nedelal01.html"
+    },
+    {
+        "name": "Jake Neighbours",
+        "english_names": ["Jake Neighbours"],
+        "username": "neighja01",
+        "url": "/players/neighja01.html"
+    },
+    {
+        "name": "Brock Nelson",
+        "english_names": ["Brock Nelson"],
+        "username": "nelsobr01",
+        "url": "/players/nelsobr01.html"
+    },
+    {
+        "name": "Simon Nemec",
+        "english_names": ["Simon Nemec"],
+        "username": "nemecsi01",
+        "url": "/players/nemecsi01.html"
+    },
+    {
+        "name": "Nikita Nesterenko",
+        "english_names": ["Nikita Nesterenko"],
+        "username": "nesteni02",
+        "url": "/players/nesteni02.html"
+    },
+    {
+        "name": "Alex Newhook",
+        "english_names": ["Alex Newhook"],
+        "username": "newhoal01",
+        "url": "/players/newhoal01.html"
+    },
+    {
+        "name": "Valeri Nichushkin",
+        "english_names": ["Valeri Nichushkin"],
+        "username": "nichuva01",
+        "url": "/players/nichuva01.html"
+    },
+    {
+        "name": "Nino Niederreiter",
+        "english_names": ["Nino Niederreiter"],
+        "username": "niedeni01",
+        "url": "/players/niedeni01.html"
+    },
+    {
+        "name": "Matthew Nieto",
+        "english_names": ["Matthew Nieto"],
+        "username": "nietoma01",
+        "url": "/players/nietoma01.html"
+    },
+    {
+        "name": "Stefan Noesen",
+        "english_names": ["Stefan Noesen"],
+        "username": "noesest01",
+        "url": "/players/noesest01.html"
+    },
+    {
+        "name": "Joshua Norris",
+        "english_names": ["Joshua Norris"],
+        "username": "norrijo01",
+        "url": "/players/norrijo01.html"
+    },
+    {
+        "name": "Thomas Novak",
+        "english_names": ["Thomas Novak"],
+        "username": "novakth01",
+        "url": "/players/novakth01.html"
+    },
+    {
+        "name": "Darnell Nurse",
+        "english_names": ["Darnell Nurse"],
+        "username": "nurseda01",
+        "url": "/players/nurseda01.html"
+    },
+    {
+        "name": "Alexander Nylander",
+        "english_names": ["Alexander Nylander"],
+        "username": "nylanal01",
+        "url": "/players/nylanal01.html"
+    },
+    {
+        "name": "William Nylander",
+        "english_names": ["William Nylander"],
+        "username": "nylanwi01",
+        "url": "/players/nylanwi01.html"
+    },
+    {
+        "name": "Gustav Nyquist",
+        "english_names": ["Gustav Nyquist"],
+        "username": "nyquigu01",
+        "url": "/players/nyquigu01.html"
+    },
+    {
+        "name": "Jordan Oesterle",
+        "english_names": ["Jordan Oesterle"],
+        "username": "oestejo01",
+        "url": "/players/oestejo01.html"
+    },
+    {
+        "name": "Jake Oettinger",
+        "english_names": ["Jake Oettinger"],
+        "username": "oettija01",
+        "url": "/players/oettija01.html"
+    },
+    {
+        "name": "Liam Ohgren",
+        "english_names": ["Liam Ohgren"],
+        "username": "ohgreli01",
+        "url": "/players/ohgreli01.html"
+    },
+    {
+        "name": "Nikita Okhotyuk",
+        "english_names": ["Nikita Okhotyuk"],
+        "username": "okhotni01",
+        "url": "/players/okhotni01.html"
+    },
+    {
+        "name": "Kyle Okposo",
+        "english_names": ["Kyle Okposo"],
+        "username": "okposky01",
+        "url": "/players/okposky01.html"
+    },
+    {
+        "name": "Oskar Olausson",
+        "english_names": ["Oskar Olausson"],
+        "username": "olausos01",
+        "url": "/players/olausos01.html"
+    },
+    {
+        "name": "Jamie Oleksiak",
+        "english_names": ["Jamie Oleksiak"],
+        "username": "oleksja01",
+        "url": "/players/oleksja01.html"
+    },
+    {
+        "name": "Mathieu Olivier",
+        "english_names": ["Mathieu Olivier"],
+        "username": "olivima01",
+        "url": "/players/olivima01.html"
+    },
+    {
+        "name": "Fredrik Olofsson",
+        "english_names": ["Fredrik Olofsson"],
+        "username": "olofsfr01",
+        "url": "/players/olofsfr01.html"
+    },
+    {
+        "name": "Gustav Olofsson",
+        "english_names": ["Gustav Olofsson"],
+        "username": "olofsgu01",
+        "url": "/players/olofsgu01.html"
+    },
+    {
+        "name": "Victor Olofsson",
+        "english_names": ["Victor Olofsson"],
+        "username": "olofsvi01",
+        "url": "/players/olofsvi01.html"
+    },
+    {
+        "name": "Dmitry Orlov",
+        "english_names": ["Dmitry Orlov"],
+        "username": "orlovdm01",
+        "url": "/players/orlovdm01.html"
+    },
+    {
+        "name": "Zack Ostapchuk",
+        "english_names": ["Zack Ostapchuk"],
+        "username": "ostapza01",
+        "url": "/players/ostapza01.html"
+    },
+    {
+        "name": "Brennan Othmann",
+        "english_names": ["Brennan Othmann"],
+        "username": "othmabr01",
+        "url": "/players/othmabr01.html"
+    },
+    {
+        "name": "Alex Ovechkin",
+        "english_names": ["Alex Ovechkin"],
+        "username": "ovechal01",
+        "url": "/players/ovechal01.html"
+    },
+    {
+        "name": "Brayden Pachal",
+        "english_names": ["Brayden Pachal"],
+        "username": "pachabr01",
+        "url": "/players/pachabr01.html"
+    },
+    {
+        "name": "Max Pacioretty",
+        "english_names": ["Max Pacioretty"],
+        "username": "pacioma01",
+        "url": "/players/pacioma01.html"
+    },
+    {
+        "name": "Kyle Palmieri",
+        "english_names": ["Kyle Palmieri"],
+        "username": "palmiky01",
+        "url": "/players/palmiky01.html"
+    },
+    {
+        "name": "Artemi Panarin",
+        "english_names": ["Artemi Panarin"],
+        "username": "panarar01",
+        "url": "/players/panarar01.html"
+    },
+    {
+        "name": "Colton Parayko",
+        "english_names": ["Colton Parayko"],
+        "username": "parayco01",
+        "url": "/players/parayco01.html"
+    },
+    {
+        "name": "Zach Parise",
+        "english_names": ["Zach Parise"],
+        "username": "parisza01",
+        "url": "/players/parisza01.html"
+    },
+    {
+        "name": "Nick Paul",
+        "english_names": ["Nick Paul"],
+        "username": "paulni01",
+        "url": "/players/paulni01.html"
+    },
+    {
+        "name": "Joe Pavelski",
+        "english_names": ["Joe Pavelski"],
+        "username": "paveljo01",
+        "url": "/players/paveljo01.html"
+    },
+    {
+        "name": "Ondrej Pavel",
+        "english_names": ["Ondrej Pavel"],
+        "username": "pavelon02",
+        "url": "/players/pavelon02.html"
+    },
+    {
+        "name": "Tanner Pearson",
+        "english_names": ["Tanner Pearson"],
+        "username": "pearsta01",
+        "url": "/players/pearsta01.html"
+    },
+    {
+        "name": "Andrew Peeke",
+        "english_names": ["Andrew Peeke"],
+        "username": "peekean01",
+        "url": "/players/peekean01.html"
+    },
+    {
+        "name": "Adam Pelech",
+        "english_names": ["Adam Pelech"],
+        "username": "pelecad01",
+        "url": "/players/pelecad01.html"
+    },
+    {
+        "name": "Jakob Pelletier",
+        "english_names": ["Jakob Pelletier"],
+        "username": "pelleja01",
+        "url": "/players/pelleja01.html"
+    },
+    {
+        "name": "Nicklaus Perbix",
+        "english_names": ["Nicklaus Perbix"],
+        "username": "perbini01",
+        "url": "/players/perbini01.html"
+    },
+    {
+        "name": "Yaniv Perets",
+        "english_names": ["Yaniv Perets"],
+        "username": "peretya01",
+        "url": "/players/peretya01.html"
+    },
+    {
+        "name": "Cole Perfetti",
+        "english_names": ["Cole Perfetti"],
+        "username": "perfeco01",
+        "url": "/players/perfeco01.html"
+    },
+    {
+        "name": "David Perron",
+        "english_names": ["David Perron"],
+        "username": "perroda01",
+        "url": "/players/perroda01.html"
+    },
+    {
+        "name": "Corey Perry",
+        "english_names": ["Corey Perry"],
+        "username": "perryco01",
+        "url": "/players/perryco01.html"
+    },
+    {
+        "name": "Scott Perunovich",
+        "english_names": ["Scott Perunovich"],
+        "username": "perunsc01",
+        "url": "/players/perunsc01.html"
+    },
+    {
+        "name": "Brett Pesce",
+        "english_names": ["Brett Pesce"],
+        "username": "pescebr01",
+        "url": "/players/pescebr01.html"
+    },
+    {
+        "name": "Nic Petan",
+        "english_names": ["Nic Petan"],
+        "username": "petanni01",
+        "url": "/players/petanni01.html"
+    },
+    {
+        "name": "Calvin Petersen",
+        "english_names": ["Calvin Petersen"],
+        "username": "peterca01",
+        "url": "/players/peterca01.html"
+    },
+    {
+        "name": "Jacob Peterson",
+        "english_names": ["Jacob Peterson"],
+        "username": "peterja01",
+        "url": "/players/peterja01.html"
+    },
+    {
+        "name": "Alexander Petrovic",
+        "english_names": ["Alexander Petrovic"],
+        "username": "petroal01",
+        "url": "/players/petroal01.html"
+    },
+    {
+        "name": "Jeff Petry",
+        "english_names": ["Jeff Petry"],
+        "username": "petryje01",
+        "url": "/players/petryje01.html"
+    },
+    {
+        "name": "Elias Pettersson",
+        "english_names": ["Elias Pettersson"],
+        "username": "petteel01",
+        "url": "/players/petteel01.html"
+    },
+    {
+        "name": "Marcus Pettersson",
+        "english_names": ["Marcus Pettersson"],
+        "username": "pettema01",
+        "url": "/players/pettema01.html"
+    },
+    {
+        "name": "Michael Pezzetta",
+        "english_names": ["Michael Pezzetta"],
+        "username": "pezzemi01",
+        "url": "/players/pezzemi01.html"
+    },
+    {
+        "name": "Isaak Phillips",
+        "english_names": ["Isaak Phillips"],
+        "username": "phillis01",
+        "url": "/players/phillis01.html"
+    },
+    {
+        "name": "Matthew Phillips",
+        "english_names": ["Matthew Phillips"],
+        "username": "phillma01",
+        "url": "/players/phillma01.html"
+    },
+    {
+        "name": "Calvin Pickard",
+        "english_names": ["Calvin Pickard"],
+        "username": "pickaca01",
+        "url": "/players/pickaca01.html"
+    },
+    {
+        "name": "Alex Pietrangelo",
+        "english_names": ["Alex Pietrangelo"],
+        "username": "pietral01",
+        "url": "/players/pietral01.html"
+    },
+    {
+        "name": "Shane Pinto",
+        "english_names": ["Shane Pinto"],
+        "username": "pintosh01",
+        "url": "/players/pintosh01.html"
+    },
+    {
+        "name": "Neal Pionk",
+        "english_names": ["Neal Pionk"],
+        "username": "pionkne01",
+        "url": "/players/pionkne01.html"
+    },
+    {
+        "name": "Rem Pitlick",
+        "english_names": ["Rem Pitlick"],
+        "username": "pitlire01",
+        "url": "/players/pitlire01.html"
+    },
+    {
+        "name": "Tyler Pitlick",
+        "english_names": ["Tyler Pitlick"],
+        "username": "pitlity01",
+        "url": "/players/pitlity01.html"
+    },
+    {
+        "name": "Vasily Podkolzin",
+        "english_names": ["Vasily Podkolzin"],
+        "username": "podkova01",
+        "url": "/players/podkova01.html"
+    },
+    {
+        "name": "Ryan Poehling",
+        "english_names": ["Ryan Poehling"],
+        "username": "poehlry01",
+        "url": "/players/poehlry01.html"
+    },
+    {
+        "name": "Brayden Point",
+        "english_names": ["Brayden Point"],
+        "username": "pointbr01",
+        "url": "/players/pointbr01.html"
+    },
+    {
+        "name": "Matthew Poitras",
+        "english_names": ["Matthew Poitras"],
+        "username": "poitrma01",
+        "url": "/players/poitrma01.html"
+    },
+    {
+        "name": "Jason Polin",
+        "english_names": ["Jason Polin"],
+        "username": "polinja01",
+        "url": "/players/polinja01.html"
+    },
+    {
+        "name": "Vasiliy Ponomarev",
+        "english_names": ["Vasiliy Ponomarev"],
+        "username": "ponomva01",
+        "url": "/players/ponomva01.html"
+    },
+    {
+        "name": "Martin Pospisil",
+        "english_names": ["Martin Pospisil"],
+        "username": "pospima01",
+        "url": "/players/pospima01.html"
+    },
+    {
+        "name": "Andrew Poturalski",
+        "english_names": ["Andrew Poturalski"],
+        "username": "poturan01",
+        "url": "/players/poturan01.html"
+    },
+    {
+        "name": "Derrick Pouliot",
+        "english_names": ["Derrick Pouliot"],
+        "username": "poulide01",
+        "url": "/players/poulide01.html"
+    },
+    {
+        "name": "Samuel Poulin",
+        "english_names": ["Samuel Poulin"],
+        "username": "poulisa01",
+        "url": "/players/poulisa01.html"
+    },
+    {
+        "name": "Owen Power",
+        "english_names": ["Owen Power"],
+        "username": "powerow01",
+        "url": "/players/powerow01.html"
+    },
+    {
+        "name": "Cayden Primeau",
+        "english_names": ["Cayden Primeau"],
+        "username": "primeca01",
+        "url": "/players/primeca01.html"
+    },
+    {
+        "name": "Ivan Prosvetov",
+        "english_names": ["Ivan Prosvetov"],
+        "username": "prosviv01",
+        "url": "/players/prosviv01.html"
+    },
+    {
+        "name": "Aliaksei Protas",
+        "english_names": ["Aliaksei Protas"],
+        "username": "protaal01",
+        "url": "/players/protaal01.html"
+    },
+    {
+        "name": "Ivan Provorov",
+        "english_names": ["Ivan Provorov"],
+        "username": "provoiv01",
+        "url": "/players/provoiv01.html"
+    },
+    {
+        "name": "Ryan Pulock",
+        "english_names": ["Ryan Pulock"],
+        "username": "pulocry01",
+        "url": "/players/pulocry01.html"
+    },
+    {
+        "name": "Valtteri Puustinen",
+        "english_names": ["Valtteri Puustinen"],
+        "username": "puustva01",
+        "url": "/players/puustva01.html"
+    },
+    {
+        "name": "Mikael Pyyhtia",
+        "english_names": ["Mikael Pyyhtia"],
+        "username": "pyyhtmi01",
+        "url": "/players/pyyhtmi01.html"
+    },
+    {
+        "name": "Jonathan Quick",
+        "english_names": ["Jonathan Quick"],
+        "username": "quickjo01",
+        "url": "/players/quickjo01.html"
+    },
+    {
+        "name": "Jack Quinn",
+        "english_names": ["Jack Quinn"],
+        "username": "quinnja01",
+        "url": "/players/quinnja01.html"
+    },
+    {
+        "name": "Antti Raanta",
+        "english_names": ["Antti Raanta"],
+        "username": "raantan01",
+        "url": "/players/raantan01.html"
+    },
+    {
+        "name": "Darren Raddysh",
+        "english_names": ["Darren Raddysh"],
+        "username": "raddyda01",
+        "url": "/players/raddyda01.html"
+    },
+    {
+        "name": "Taylor Raddysh",
+        "english_names": ["Taylor Raddysh"],
+        "username": "raddyta01",
+        "url": "/players/raddyta01.html"
+    },
+    {
+        "name": "Rickard Rakell",
+        "english_names": ["Rickard Rakell"],
+        "username": "rakelri01",
+        "url": "/players/rakelri01.html"
+    },
+    {
+        "name": "Mikko Rantanen",
+        "english_names": ["Mikko Rantanen"],
+        "username": "rantami01",
+        "url": "/players/rantami01.html"
+    },
+    {
+        "name": "Michael Rasmussen",
+        "english_names": ["Michael Rasmussen"],
+        "username": "rasmumi01",
+        "url": "/players/rasmumi01.html"
+    },
+    {
+        "name": "Aku Raty",
+        "english_names": ["Aku Raty"],
+        "username": "ratyak01",
+        "url": "/players/ratyak01.html"
+    },
+    {
+        "name": "Lucas Raymond",
+        "english_names": ["Lucas Raymond"],
+        "username": "raymolu01",
+        "url": "/players/raymolu01.html"
+    },
+    {
+        "name": "Ryan Reaves",
+        "english_names": ["Ryan Reaves"],
+        "username": "reavery01",
+        "url": "/players/reavery01.html"
+    },
+    {
+        "name": "Pavol Regenda",
+        "english_names": ["Pavol Regenda"],
+        "username": "regenpa01",
+        "url": "/players/regenpa01.html"
+    },
+    {
+        "name": "Lukas Reichel",
+        "english_names": ["Lukas Reichel"],
+        "username": "reichlu01",
+        "url": "/players/reichlu01.html"
+    },
+    {
+        "name": "Mike Reilly",
+        "english_names": ["Mike Reilly"],
+        "username": "reillmi01",
+        "url": "/players/reillmi01.html"
+    },
+    {
+        "name": "James Reimer",
+        "english_names": ["James Reimer"],
+        "username": "reimeja01",
+        "url": "/players/reimeja01.html"
+    },
+    {
+        "name": "Sam Reinhart",
+        "english_names": ["Sam Reinhart"],
+        "username": "reinhsa01",
+        "url": "/players/reinhsa01.html"
+    },
+    {
+        "name": "Sheldon Rempal",
+        "english_names": ["Sheldon Rempal"],
+        "username": "rempash01",
+        "url": "/players/rempash01.html"
+    },
+    {
+        "name": "Matt Rempe",
+        "english_names": ["Matt Rempe"],
+        "username": "rempema01",
+        "url": "/players/rempema01.html"
+    },
+    {
+        "name": "Anthony Richard",
+        "english_names": ["Anthony Richard"],
+        "username": "richaan01",
+        "url": "/players/richaan01.html"
+    },
+    {
+        "name": "Morgan Rielly",
+        "english_names": ["Morgan Rielly"],
+        "username": "riellmo01",
+        "url": "/players/riellmo01.html"
+    },
+    {
+        "name": "Marshall Rifai",
+        "english_names": ["Marshall Rifai"],
+        "username": "rifaima01",
+        "url": "/players/rifaima01.html"
+    },
+    {
+        "name": "Rasmus Ristolainen",
+        "english_names": ["Rasmus Ristolainen"],
+        "username": "ristora01",
+        "url": "/players/ristora01.html"
+    },
+    {
+        "name": "David Rittich",
+        "english_names": ["David Rittich"],
+        "username": "rittida01",
+        "url": "/players/rittida01.html"
+    },
+    {
+        "name": "Jason Robertson",
+        "english_names": ["Jason Robertson"],
+        "username": "roberja01",
+        "url": "/players/roberja01.html"
+    },
+    {
+        "name": "Nicholas Robertson",
+        "english_names": ["Nicholas Robertson"],
+        "username": "roberni01",
+        "url": "/players/roberni01.html"
+    },
+    {
+        "name": "Eric Robinson",
+        "english_names": ["Eric Robinson"],
+        "username": "robiner01",
+        "url": "/players/robiner01.html"
+    },
+    {
+        "name": "Evan Rodrigues",
+        "english_names": ["Evan Rodrigues"],
+        "username": "rodriev01",
+        "url": "/players/rodriev01.html"
+    },
+    {
+        "name": "Alexander Romanov",
+        "english_names": ["Alexander Romanov"],
+        "username": "romanal01",
+        "url": "/players/romanal01.html"
+    },
+    {
+        "name": "Georgi Romanov",
+        "english_names": ["Georgi Romanov"],
+        "username": "romange01",
+        "url": "/players/romange01.html"
+    },
+    {
+        "name": "Kevin Rooney",
+        "english_names": ["Kevin Rooney"],
+        "username": "rooneke01",
+        "url": "/players/rooneke01.html"
+    },
+    {
+        "name": "Filip Roos",
+        "english_names": ["Filip Roos"],
+        "username": "roosfi01",
+        "url": "/players/roosfi01.html"
+    },
+    {
+        "name": "Isak Rosen",
+        "english_names": ["Isak Rosen"],
+        "username": "rosenis01",
+        "url": "/players/rosenis01.html"
+    },
+    {
+        "name": "Jack Roslovic",
+        "english_names": ["Jack Roslovic"],
+        "username": "rosloja01",
+        "url": "/players/rosloja01.html"
+    },
+    {
+        "name": "Marco Rossi",
+        "english_names": ["Marco Rossi"],
+        "username": "rossima01",
+        "url": "/players/rossima01.html"
+    },
+    {
+        "name": "Joshua Roy",
+        "english_names": ["Joshua Roy"],
+        "username": "royjo01",
+        "url": "/players/royjo01.html"
+    },
+    {
+        "name": "Matt Roy",
+        "english_names": ["Matt Roy"],
+        "username": "royma04",
+        "url": "/players/royma04.html"
+    },
+    {
+        "name": "Nicolas Roy",
+        "english_names": ["Nicolas Roy"],
+        "username": "royni01",
+        "url": "/players/royni01.html"
+    },
+    {
+        "name": "Chad Ruhwedel",
+        "english_names": ["Chad Ruhwedel"],
+        "username": "ruhwech01",
+        "url": "/players/ruhwech01.html"
+    },
+    {
+        "name": "Bryan Rust",
+        "english_names": ["Bryan Rust"],
+        "username": "rustbr01",
+        "url": "/players/rustbr01.html"
+    },
+    {
+        "name": "Jan Rutta",
+        "english_names": ["Jan Rutta"],
+        "username": "ruttaja02",
+        "url": "/players/ruttaja02.html"
+    },
+    {
+        "name": "Derek Ryan",
+        "english_names": ["Derek Ryan"],
+        "username": "ryande01",
+        "url": "/players/ryande01.html"
+    },
+    {
+        "name": "Brandon Saad",
+        "english_names": ["Brandon Saad"],
+        "username": "saadbr01",
+        "url": "/players/saadbr01.html"
+    },
+    {
+        "name": "Scott Sabourin",
+        "english_names": ["Scott Sabourin"],
+        "username": "sabousc01",
+        "url": "/players/sabousc01.html"
+    },
+    {
+        "name": "Dylan Samberg",
+        "english_names": ["Dylan Samberg"],
+        "username": "sambedy01",
+        "url": "/players/sambedy01.html"
+    },
+    {
+        "name": "Mackie Samoskevich",
+        "english_names": ["Mackie Samoskevich"],
+        "username": "samosma01",
+        "url": "/players/samosma01.html"
+    },
+    {
+        "name": "Ilya Samsonov",
+        "english_names": ["Ilya Samsonov"],
+        "username": "samsoil01",
+        "url": "/players/samsoil01.html"
+    },
+    {
+        "name": "Mattias Samuelsson",
+        "english_names": ["Mattias Samuelsson"],
+        "username": "samuema02",
+        "url": "/players/samuema02.html"
+    },
+    {
+        "name": "Jake Sanderson",
+        "english_names": ["Jake Sanderson"],
+        "username": "sandeja01",
+        "url": "/players/sandeja01.html"
+    },
+    {
+        "name": "Rasmus Sandin",
+        "english_names": ["Rasmus Sandin"],
+        "username": "sandira01",
+        "url": "/players/sandira01.html"
+    },
+    {
+        "name": "Zach Sanford",
+        "english_names": ["Zach Sanford"],
+        "username": "sanfoza01",
+        "url": "/players/sanfoza01.html"
+    },
+    {
+        "name": "Travis Sanheim",
+        "english_names": ["Travis Sanheim"],
+        "username": "sanhetr01",
+        "url": "/players/sanhetr01.html"
+    },
+    {
+        "name": "Juuse Saros",
+        "english_names": ["Juuse Saros"],
+        "username": "sarosju01",
+        "url": "/players/sarosju01.html"
+    },
+    {
+        "name": "David Savard",
+        "english_names": ["David Savard"],
+        "username": "savarda01",
+        "url": "/players/savarda01.html"
+    },
+    {
+        "name": "Matthew Savoie",
+        "english_names": ["Matthew Savoie"],
+        "username": "savoima01",
+        "url": "/players/savoima01.html"
+    },
+    {
+        "name": "Marco Scandella",
+        "english_names": ["Marco Scandella"],
+        "username": "scandma01",
+        "url": "/players/scandma01.html"
+    },
+    {
+        "name": "Brandon Scanlin",
+        "english_names": ["Brandon Scanlin"],
+        "username": "scanlbr01",
+        "url": "/players/scanlbr01.html"
+    },
+    {
+        "name": "Mark Scheifele",
+        "english_names": ["Mark Scheifele"],
+        "username": "scheima01",
+        "url": "/players/scheima01.html"
+    },
+    {
+        "name": "Brayden Schenn",
+        "english_names": ["Brayden Schenn"],
+        "username": "schenbr01",
+        "url": "/players/schenbr01.html"
+    },
+    {
+        "name": "Luke Schenn",
+        "english_names": ["Luke Schenn"],
+        "username": "schenlu01",
+        "url": "/players/schenlu01.html"
+    },
+    {
+        "name": "Nick Schmaltz",
+        "english_names": ["Nick Schmaltz"],
+        "username": "schmani01",
+        "url": "/players/schmani01.html"
+    },
+    {
+        "name": "Akira Schmid",
+        "english_names": ["Akira Schmid"],
+        "username": "schmiak01",
+        "url": "/players/schmiak01.html"
+    },
+    {
+        "name": "Nate Schmidt",
+        "english_names": ["Nate Schmidt"],
+        "username": "schmina01",
+        "url": "/players/schmina01.html"
+    },
+    {
+        "name": "Braden Schneider",
+        "english_names": ["Braden Schneider"],
+        "username": "schnebr01",
+        "url": "/players/schnebr01.html"
+    },
+    {
+        "name": "Justin Schultz",
+        "english_names": ["Justin Schultz"],
+        "username": "schulju01",
+        "url": "/players/schulju01.html"
+    },
+    {
+        "name": "Jaden Schwartz",
+        "english_names": ["Jaden Schwartz"],
+        "username": "schwaja01",
+        "url": "/players/schwaja01.html"
+    },
+    {
+        "name": "Cole Schwindt",
+        "english_names": ["Cole Schwindt"],
+        "username": "schwico01",
+        "url": "/players/schwico01.html"
+    },
+    {
+        "name": "Nick Seeler",
+        "english_names": ["Nick Seeler"],
+        "username": "seeleni01",
+        "url": "/players/seeleni01.html"
+    },
+    {
+        "name": "Tyler Seguin",
+        "english_names": ["Tyler Seguin"],
+        "username": "seguity01",
+        "url": "/players/seguity01.html"
+    },
+    {
+        "name": "Moritz Seider",
+        "english_names": ["Moritz Seider"],
+        "username": "seidemo01",
+        "url": "/players/seidemo01.html"
+    },
+    {
+        "name": "Brett Seney",
+        "english_names": ["Brett Seney"],
+        "username": "seneybr01",
+        "url": "/players/seneybr01.html"
+    },
+    {
+        "name": "Mikhail Sergachev",
+        "english_names": ["Mikhail Sergachev"],
+        "username": "sergami01",
+        "url": "/players/sergami01.html"
+    },
+    {
+        "name": "Damon Severson",
+        "english_names": ["Damon Severson"],
+        "username": "severda01",
+        "url": "/players/severda01.html"
+    },
+    {
+        "name": "Michael Sgarbossa",
+        "english_names": ["Michael Sgarbossa"],
+        "username": "sgarbmi01",
+        "url": "/players/sgarbmi01.html"
+    },
+    {
+        "name": "Yegor Sharangovich",
+        "english_names": ["Yegor Sharangovich"],
+        "username": "sharaye01",
+        "url": "/players/sharaye01.html"
+    },
+    {
+        "name": "Kevin Shattenkirk",
+        "english_names": ["Kevin Shattenkirk"],
+        "username": "shattke01",
+        "url": "/players/shattke01.html"
+    },
+    {
+        "name": "Mason Shaw",
+        "english_names": ["Mason Shaw"],
+        "username": "shawma01",
+        "url": "/players/shawma01.html"
+    },
+    {
+        "name": "Conor Sheary",
+        "english_names": ["Conor Sheary"],
+        "username": "shearco01",
+        "url": "/players/shearco01.html"
+    },
+    {
+        "name": "Ryan Shea",
+        "english_names": ["Ryan Shea"],
+        "username": "sheary01",
+        "url": "/players/sheary01.html"
+    },
+    {
+        "name": "Hunter Shepard",
+        "english_names": ["Hunter Shepard"],
+        "username": "shepahu01",
+        "url": "/players/shepahu01.html"
+    },
+    {
+        "name": "Kiefer Sherwood",
+        "english_names": ["Kiefer Sherwood"],
+        "username": "sherwki01",
+        "url": "/players/sherwki01.html"
+    },
+    {
+        "name": "Igor Shesterkin",
+        "english_names": ["Igor Shesterkin"],
+        "username": "shestig01",
+        "url": "/players/shestig01.html"
+    },
+    {
+        "name": "Devin Shore",
+        "english_names": ["Devin Shore"],
+        "username": "shorede01",
+        "url": "/players/shorede01.html"
+    },
+    {
+        "name": "Jonas Siegenthaler",
+        "english_names": ["Jonas Siegenthaler"],
+        "username": "siegejo01",
+        "url": "/players/siegejo01.html"
+    },
+    {
+        "name": "Jakob Silfverberg",
+        "english_names": ["Jakob Silfverberg"],
+        "username": "silfvja01",
+        "url": "/players/silfvja01.html"
+    },
+    {
+        "name": "Cole Sillinger",
+        "english_names": ["Cole Sillinger"],
+        "username": "sillico01",
+        "url": "/players/sillico01.html"
+    },
+    {
+        "name": "Arturs Silovs",
+        "english_names": ["Arturs Silovs"],
+        "username": "silovar01",
+        "url": "/players/silovar01.html"
+    },
+    {
+        "name": "Colton Sissons",
+        "english_names": ["Colton Sissons"],
+        "username": "sissoco01",
+        "url": "/players/sissoco01.html"
+    },
+    {
+        "name": "Jeff Skinner",
+        "english_names": ["Jeff Skinner"],
+        "username": "skinnje01",
+        "url": "/players/skinnje01.html"
+    },
+    {
+        "name": "Stuart Skinner",
+        "english_names": ["Stuart Skinner"],
+        "username": "skinnst01",
+        "url": "/players/skinnst01.html"
+    },
+    {
+        "name": "Brady Skjei",
+        "english_names": ["Brady Skjei"],
+        "username": "skjeibr01",
+        "url": "/players/skjeibr01.html"
+    },
+    {
+        "name": "Juraj Slafkovsky",
+        "english_names": ["Juraj Slafkovsky"],
+        "username": "slafkju01",
+        "url": "/players/slafkju01.html"
+    },
+    {
+        "name": "Landon Slaggert",
+        "english_names": ["Landon Slaggert"],
+        "username": "slaggla01",
+        "url": "/players/slaggla01.html"
+    },
+    {
+        "name": "Jaccob Slavin",
+        "english_names": ["Jaccob Slavin"],
+        "username": "slavija01",
+        "url": "/players/slavija01.html"
+    },
+    {
+        "name": "Jiri Smejkal",
+        "english_names": ["Jiri Smejkal"],
+        "username": "smejkji01",
+        "url": "/players/smejkji01.html"
+    },
+    {
+        "name": "Brendan Smith",
+        "english_names": ["Brendan Smith"],
+        "username": "smithbr05",
+        "url": "/players/smithbr05.html"
+    },
+    {
+        "name": "Cole Smith",
+        "english_names": ["Cole Smith"],
+        "username": "smithco02",
+        "url": "/players/smithco02.html"
+    },
+    {
+        "name": "Craig Smith",
+        "english_names": ["Craig Smith"],
+        "username": "smithcr01",
+        "url": "/players/smithcr01.html"
+    },
+    {
+        "name": "Givani Smith",
+        "english_names": ["Givani Smith"],
+        "username": "smithgi01",
+        "url": "/players/smithgi01.html"
+    },
+    {
+        "name": "Reilly Smith",
+        "english_names": ["Reilly Smith"],
+        "username": "smithre01",
+        "url": "/players/smithre01.html"
+    },
+    {
+        "name": "Joe Snively",
+        "english_names": ["Joe Snively"],
+        "username": "snivejo01",
+        "url": "/players/snivejo01.html"
+    },
+    {
+        "name": "Ilya Solovyov",
+        "english_names": ["Ilya Solovyov"],
+        "username": "solovil01",
+        "url": "/players/solovil01.html"
+    },
+    {
+        "name": "Ilya Sorokin",
+        "english_names": ["Ilya Sorokin"],
+        "username": "sorokil01",
+        "url": "/players/sorokil01.html"
+    },
+    {
+        "name": "Carson Soucy",
+        "english_names": ["Carson Soucy"],
+        "username": "soucyca01",
+        "url": "/players/soucyca01.html"
+    },
+    {
+        "name": "Justin Sourdif",
+        "english_names": ["Justin Sourdif"],
+        "username": "sourdju01",
+        "url": "/players/sourdju01.html"
+    },
+    {
+        "name": "Jordan Spence",
+        "english_names": ["Jordan Spence"],
+        "username": "spencjo01",
+        "url": "/players/spencjo01.html"
+    },
+    {
+        "name": "Daniel Sprong",
+        "english_names": ["Daniel Sprong"],
+        "username": "spronda01",
+        "url": "/players/spronda01.html"
+    },
+    {
+        "name": "Jared Spurgeon",
+        "english_names": ["Jared Spurgeon"],
+        "username": "spurgja01",
+        "url": "/players/spurgja01.html"
+    },
+    {
+        "name": "Jordan Staal",
+        "english_names": ["Jordan Staal"],
+        "username": "staaljo01",
+        "url": "/players/staaljo01.html"
+    },
+    {
+        "name": "Marc Staal",
+        "english_names": ["Marc Staal"],
+        "username": "staalma01",
+        "url": "/players/staalma01.html"
+    },
+    {
+        "name": "Steven Stamkos",
+        "english_names": ["Steven Stamkos"],
+        "username": "stamkst01",
+        "url": "/players/stamkst01.html"
+    },
+    {
+        "name": "Logan Stankoven",
+        "english_names": ["Logan Stankoven"],
+        "username": "stanklo01",
+        "url": "/players/stanklo01.html"
+    },
+    {
+        "name": "Logan Stanley",
+        "english_names": ["Logan Stanley"],
+        "username": "stanllo01",
+        "url": "/players/stanllo01.html"
+    },
+    {
+        "name": "Spencer Stastney",
+        "english_names": ["Spencer Stastney"],
+        "username": "stastsp01",
+        "url": "/players/stastsp01.html"
+    },
+    {
+        "name": "Troy Stecher",
+        "english_names": ["Troy Stecher"],
+        "username": "stechtr01",
+        "url": "/players/stechtr01.html"
+    },
+    {
+        "name": "Sam Steel",
+        "english_names": ["Sam Steel"],
+        "username": "steelsa01",
+        "url": "/players/steelsa01.html"
+    },
+    {
+        "name": "Oskar Steen",
+        "english_names": ["Oskar Steen"],
+        "username": "steenos01",
+        "url": "/players/steenos01.html"
+    },
+    {
+        "name": "Alex Steeves",
+        "english_names": ["Alex Steeves"],
+        "username": "steeval02",
+        "url": "/players/steeval02.html"
+    },
+    {
+        "name": "Kevin Stenlund",
+        "english_names": ["Kevin Stenlund"],
+        "username": "stenlke01",
+        "url": "/players/stenlke01.html"
+    },
+    {
+        "name": "Chandler Stephenson",
+        "english_names": ["Chandler Stephenson"],
+        "username": "stephch02",
+        "url": "/players/stephch02.html"
+    },
+    {
+        "name": "Mitchell Stephens",
+        "english_names": ["Mitchell Stephens"],
+        "username": "stephmi01",
+        "url": "/players/stephmi01.html"
+    },
+    {
+        "name": "Anthony Stolarz",
+        "english_names": ["Anthony Stolarz"],
+        "username": "stolaan01",
+        "url": "/players/stolaan01.html"
+    },
+    {
+        "name": "Mark Stone",
+        "english_names": ["Mark Stone"],
+        "username": "stonema01",
+        "url": "/players/stonema01.html"
+    },
+    {
+        "name": "Dylan Strome",
+        "english_names": ["Dylan Strome"],
+        "username": "stromdy01",
+        "url": "/players/stromdy01.html"
+    },
+    {
+        "name": "Ryan Strome",
+        "english_names": ["Ryan Strome"],
+        "username": "stromry01",
+        "url": "/players/stromry01.html"
+    },
+    {
+        "name": "Jayden Struble",
+        "english_names": ["Jayden Struble"],
+        "username": "strubja01",
+        "url": "/players/strubja01.html"
+    },
+    {
+        "name": "Jack Studnicka",
+        "english_names": ["Jack Studnicka"],
+        "username": "studnja01",
+        "url": "/players/studnja01.html"
+    },
+    {
+        "name": "Nico Sturm",
+        "english_names": ["Nico Sturm"],
+        "username": "sturmni01",
+        "url": "/players/sturmni01.html"
+    },
+    {
+        "name": "Malcolm Subban",
+        "english_names": ["Malcolm Subban"],
+        "username": "subbama01",
+        "url": "/players/subbama01.html"
+    },
+    {
+        "name": "Oskar Sundqvist",
+        "english_names": ["Oskar Sundqvist"],
+        "username": "sundqos01",
+        "url": "/players/sundqos01.html"
+    },
+    {
+        "name": "Pius Suter",
+        "english_names": ["Pius Suter"],
+        "username": "suterpi01",
+        "url": "/players/suterpi01.html"
+    },
+    {
+        "name": "Ryan Suter",
+        "english_names": ["Ryan Suter"],
+        "username": "suterry01",
+        "url": "/players/suterry01.html"
+    },
+    {
+        "name": "Nick Suzuki",
+        "english_names": ["Nick Suzuki"],
+        "username": "suzukni01",
+        "url": "/players/suzukni01.html"
+    },
+    {
+        "name": "Andrei Svechnikov",
+        "english_names": ["Andrei Svechnikov"],
+        "username": "svechan01",
+        "url": "/players/svechan01.html"
+    },
+    {
+        "name": "Jeremy Swayman",
+        "english_names": ["Jeremy Swayman"],
+        "username": "swaymje01",
+        "url": "/players/swaymje01.html"
+    },
+    {
+        "name": "Maksymilian Szuber",
+        "english_names": ["Maksymilian Szuber"],
+        "username": "szubema01",
+        "url": "/players/szubema01.html"
+    },
+    {
+        "name": "Cam Talbot",
+        "english_names": ["Cam Talbot"],
+        "username": "talboca01",
+        "url": "/players/talboca01.html"
+    },
+    {
+        "name": "Brandon Tanev",
+        "english_names": ["Brandon Tanev"],
+        "username": "tanevbr01",
+        "url": "/players/tanevbr01.html"
+    },
+    {
+        "name": "Chris Tanev",
+        "english_names": ["Chris Tanev"],
+        "username": "tanevch01",
+        "url": "/players/tanevch01.html"
+    },
+    {
+        "name": "Daniil Tarasov",
+        "english_names": ["Daniil Tarasov"],
+        "username": "tarasda02",
+        "url": "/players/tarasda02.html"
+    },
+    {
+        "name": "Vladimir Tarasenko",
+        "english_names": ["Vladimir Tarasenko"],
+        "username": "tarasvl01",
+        "url": "/players/tarasvl01.html"
+    },
+    {
+        "name": "John Tavares",
+        "english_names": ["John Tavares"],
+        "username": "tavarjo01",
+        "url": "/players/tavarjo01.html"
+    },
+    {
+        "name": "Troy Terry",
+        "english_names": ["Troy Terry"],
+        "username": "terrytr01",
+        "url": "/players/terrytr01.html"
+    },
+    {
+        "name": "Alexandre Texier",
+        "english_names": ["Alexandre Texier"],
+        "username": "texieal01",
+        "url": "/players/texieal01.html"
+    },
+    {
+        "name": "Shea Theodore",
+        "english_names": ["Shea Theodore"],
+        "username": "theodsh01",
+        "url": "/players/theodsh01.html"
+    },
+    {
+        "name": "Akil Thomas",
+        "english_names": ["Akil Thomas"],
+        "username": "thomaak01",
+        "url": "/players/thomaak01.html"
+    },
+    {
+        "name": "Robert Thomas",
+        "english_names": ["Robert Thomas"],
+        "username": "thomaro01",
+        "url": "/players/thomaro01.html"
+    },
+    {
+        "name": "Jack Thompson",
+        "english_names": ["Jack Thompson"],
+        "username": "thompja01",
+        "url": "/players/thompja01.html"
+    },
+    {
+        "name": "Logan Thompson",
+        "english_names": ["Logan Thompson"],
+        "username": "thomplo01",
+        "url": "/players/thomplo01.html"
+    },
+    {
+        "name": "Tage Thompson",
+        "english_names": ["Tage Thompson"],
+        "username": "thompta01",
+        "url": "/players/thompta01.html"
+    },
+    {
+        "name": "Henry Thrun",
+        "english_names": ["Henry Thrun"],
+        "username": "thrunhe01",
+        "url": "/players/thrunhe01.html"
+    },
+    {
+        "name": "Chris Tierney",
+        "english_names": ["Chris Tierney"],
+        "username": "tiernch01",
+        "url": "/players/tiernch01.html"
+    },
+    {
+        "name": "Conor Timmins",
+        "english_names": ["Conor Timmins"],
+        "username": "timmico01",
+        "url": "/players/timmico01.html"
+    },
+    {
+        "name": "Jarred Tinordi",
+        "english_names": ["Jarred Tinordi"],
+        "username": "tinorja01",
+        "url": "/players/tinorja01.html"
+    },
+    {
+        "name": "Owen Tippett",
+        "english_names": ["Owen Tippett"],
+        "username": "tippeow01",
+        "url": "/players/tippeow01.html"
+    },
+    {
+        "name": "Brady Tkachuk",
+        "english_names": ["Brady Tkachuk"],
+        "username": "tkachbr01",
+        "url": "/players/tkachbr01.html"
+    },
+    {
+        "name": "Matthew Tkachuk",
+        "english_names": ["Matthew Tkachuk"],
+        "username": "tkachma01",
+        "url": "/players/tkachma01.html"
+    },
+    {
+        "name": "Devon Toews",
+        "english_names": ["Devon Toews"],
+        "username": "toewsde01",
+        "url": "/players/toewsde01.html"
+    },
+    {
+        "name": "Tyler Toffoli",
+        "english_names": ["Tyler Toffoli"],
+        "username": "toffoty01",
+        "url": "/players/toffoty01.html"
+    },
+    {
+        "name": "Eeli Tolvanen",
+        "english_names": ["Eeli Tolvanen"],
+        "username": "tolvaee01",
+        "url": "/players/tolvaee01.html"
+    },
+    {
+        "name": "Philip Tomasino",
+        "english_names": ["Philip Tomasino"],
+        "username": "tomasph01",
+        "url": "/players/tomasph01.html"
+    },
+    {
+        "name": "Matt Tomkins",
+        "english_names": ["Matt Tomkins"],
+        "username": "tomkima01",
+        "url": "/players/tomkima01.html"
+    },
+    {
+        "name": "Dominic Toninato",
+        "english_names": ["Dominic Toninato"],
+        "username": "tonindo01",
+        "url": "/players/tonindo01.html"
+    },
+    {
+        "name": "Alexey Toropchenko",
+        "english_names": ["Alexey Toropchenko"],
+        "username": "toropal01",
+        "url": "/players/toropal01.html"
+    },
+    {
+        "name": "Yakov Trenin",
+        "english_names": ["Yakov Trenin"],
+        "username": "treniya01",
+        "url": "/players/treniya01.html"
+    },
+    {
+        "name": "Vincent Trocheck",
+        "english_names": ["Vincent Trocheck"],
+        "username": "trochvi01",
+        "url": "/players/trochvi01.html"
+    },
+    {
+        "name": "Jacob Trouba",
+        "english_names": ["Jacob Trouba"],
+        "username": "troubja01",
+        "url": "/players/troubja01.html"
+    },
+    {
+        "name": "Alex Tuch",
+        "english_names": ["Alex Tuch"],
+        "username": "tuchal01",
+        "url": "/players/tuchal01.html"
+    },
+    {
+        "name": "Tyler Tucker",
+        "english_names": ["Tyler Tucker"],
+        "username": "tuckety01",
+        "url": "/players/tuckety01.html"
+    },
+    {
+        "name": "Riley Tufte",
+        "english_names": ["Riley Tufte"],
+        "username": "tufteri01",
+        "url": "/players/tufteri01.html"
+    },
+    {
+        "name": "Alex Turcotte",
+        "english_names": ["Alex Turcotte"],
+        "username": "turcoal02",
+        "url": "/players/turcoal02.html"
+    },
+    {
+        "name": "Linus Ullmark",
+        "english_names": ["Linus Ullmark"],
+        "username": "ullmali01",
+        "url": "/players/ullmali01.html"
+    },
+    {
+        "name": "Urho Vaakanainen",
+        "english_names": ["Urho Vaakanainen"],
+        "username": "vaakaur01",
+        "url": "/players/vaakaur01.html"
+    },
+    {
+        "name": "James van Riemsdyk",
+        "english_names": ["James van Riemsdyk"],
+        "username": "vanrija01",
+        "url": "/players/vanrija01.html"
+    },
+    {
+        "name": "Trevor van Riemsdyk",
+        "english_names": ["Trevor van Riemsdyk"],
+        "username": "vanritr01",
+        "url": "/players/vanritr01.html"
+    },
+    {
+        "name": "Semyon Varlamov",
+        "english_names": ["Semyon Varlamov"],
+        "username": "varlasi01",
+        "url": "/players/varlasi01.html"
+    },
+    {
+        "name": "Andrei Vasilevskiy",
+        "english_names": ["Andrei Vasilevskiy"],
+        "username": "vasilan02",
+        "url": "/players/vasilan02.html"
+    },
+    {
+        "name": "Frank Vatrano",
+        "english_names": ["Frank Vatrano"],
+        "username": "vatrafr01",
+        "url": "/players/vatrafr01.html"
+    },
+    {
+        "name": "Karel Vejmelka",
+        "english_names": ["Karel Vejmelka"],
+        "username": "vejmeka01",
+        "url": "/players/vejmeka01.html"
+    },
+    {
+        "name": "Joe Veleno",
+        "english_names": ["Joe Veleno"],
+        "username": "velenjo01",
+        "url": "/players/velenjo01.html"
+    },
+    {
+        "name": "Carter Verhaeghe",
+        "english_names": ["Carter Verhaeghe"],
+        "username": "verhaca01",
+        "url": "/players/verhaca01.html"
+    },
+    {
+        "name": "Jimmy Vesey",
+        "english_names": ["Jimmy Vesey"],
+        "username": "veseyji02",
+        "url": "/players/veseyji02.html"
+    },
+    {
+        "name": "Gabriel Vilardi",
+        "english_names": ["Gabriel Vilardi"],
+        "username": "vilarga01",
+        "url": "/players/vilarga01.html"
+    },
+    {
+        "name": "Matt Villalta",
+        "english_names": ["Matt Villalta"],
+        "username": "villama01",
+        "url": "/players/villama01.html"
+    },
+    {
+        "name": "Alex Vlasic",
+        "english_names": ["Alex Vlasic"],
+        "username": "vlasial01",
+        "url": "/players/vlasial01.html"
+    },
+    {
+        "name": "Dmitri Voronkov",
+        "english_names": ["Dmitri Voronkov"],
+        "username": "vorondi01",
+        "url": "/players/vorondi01.html"
+    },
+    {
+        "name": "Chris Wagner",
+        "english_names": ["Chris Wagner"],
+        "username": "wagnech01",
+        "url": "/players/wagnech01.html"
+    },
+    {
+        "name": "Oliver Wahlstrom",
+        "english_names": ["Oliver Wahlstrom"],
+        "username": "wahlsol01",
+        "url": "/players/wahlsol01.html"
+    },
+    {
+        "name": "Nathan Walker",
+        "english_names": ["Nathan Walker"],
+        "username": "walkena01",
+        "url": "/players/walkena01.html"
+    },
+    {
+        "name": "Samuel Walker",
+        "english_names": ["Samuel Walker"],
+        "username": "walkesa01",
+        "url": "/players/walkesa01.html"
+    },
+    {
+        "name": "Sean Walker",
+        "english_names": ["Sean Walker"],
+        "username": "walkese01",
+        "url": "/players/walkese01.html"
+    },
+    {
+        "name": "Jesper Wallstedt",
+        "english_names": ["Jesper Wallstedt"],
+        "username": "wallsje01",
+        "url": "/players/wallsje01.html"
+    },
+    {
+        "name": "Jake Walman",
+        "english_names": ["Jake Walman"],
+        "username": "walmaja01",
+        "url": "/players/walmaja01.html"
+    },
+    {
+        "name": "Austin Watson",
+        "english_names": ["Austin Watson"],
+        "username": "watsoau01",
+        "url": "/players/watsoau01.html"
+    },
+    {
+        "name": "Scott Wedgewood",
+        "english_names": ["Scott Wedgewood"],
+        "username": "wedgesc01",
+        "url": "/players/wedgesc01.html"
+    },
+    {
+        "name": "MacKenzie Weegar",
+        "english_names": ["MacKenzie Weegar"],
+        "username": "weegama01",
+        "url": "/players/weegama01.html"
+    },
+    {
+        "name": "Alexander Wennberg",
+        "english_names": ["Alexander Wennberg"],
+        "username": "wennbal01",
+        "url": "/players/wennbal01.html"
+    },
+    {
+        "name": "Zach Werenski",
+        "english_names": ["Zach Werenski"],
+        "username": "werenza01",
+        "url": "/players/werenza01.html"
+    },
+    {
+        "name": "Blake Wheeler",
+        "english_names": ["Blake Wheeler"],
+        "username": "wheelbl01",
+        "url": "/players/wheelbl01.html"
+    },
+    {
+        "name": "Colin White",
+        "english_names": ["Colin White"],
+        "username": "whiteco02",
+        "url": "/players/whiteco02.html"
+    },
+    {
+        "name": "Zach Whitecloud",
+        "english_names": ["Zach Whitecloud"],
+        "username": "whiteza01",
+        "url": "/players/whiteza01.html"
+    },
+    {
+        "name": "Maxwell Willman",
+        "english_names": ["Maxwell Willman"],
+        "username": "willmma01",
+        "url": "/players/willmma01.html"
+    },
+    {
+        "name": "Tom Wilson",
+        "english_names": ["Tom Wilson"],
+        "username": "wilsoto01",
+        "url": "/players/wilsoto01.html"
+    },
+    {
+        "name": "Ryan Winterton",
+        "english_names": ["Ryan Winterton"],
+        "username": "wintery01",
+        "url": "/players/wintery01.html"
+    },
+    {
+        "name": "Dustin Wolf",
+        "english_names": ["Dustin Wolf"],
+        "username": "wolfdu01",
+        "url": "/players/wolfdu01.html"
+    },
+    {
+        "name": "Joseph Woll",
+        "english_names": ["Joseph Woll"],
+        "username": "wolljo01",
+        "url": "/players/wolljo01.html"
+    },
+    {
+        "name": "Miles Wood",
+        "english_names": ["Miles Wood"],
+        "username": "woodmi01",
+        "url": "/players/woodmi01.html"
+    },
+    {
+        "name": "Parker Wotherspoon",
+        "english_names": ["Parker Wotherspoon"],
+        "username": "wothepa01",
+        "url": "/players/wothepa01.html"
+    },
+    {
+        "name": "Shane Wright",
+        "english_names": ["Shane Wright"],
+        "username": "wrighsh01",
+        "url": "/players/wrighsh01.html"
+    },
+    {
+        "name": "Arber Xhekaj",
+        "english_names": ["Arber Xhekaj"],
+        "username": "xhekaar01",
+        "url": "/players/xhekaar01.html"
+    },
+    {
+        "name": "Kailer Yamamoto",
+        "english_names": ["Kailer Yamamoto"],
+        "username": "yamamka01",
+        "url": "/players/yamamka01.html"
+    },
+    {
+        "name": "Cameron York",
+        "english_names": ["Cameron York"],
+        "username": "yorkca01",
+        "url": "/players/yorkca01.html"
+    },
+    {
+        "name": "Pavel Zacha",
+        "english_names": ["Pavel Zacha"],
+        "username": "zachapa01",
+        "url": "/players/zachapa01.html"
+    },
+    {
+        "name": "Filip Zadina",
+        "english_names": ["Filip Zadina"],
+        "username": "zadinfi01",
+        "url": "/players/zadinfi01.html"
+    },
+    {
+        "name": "Nikita Zadorov",
+        "english_names": ["Nikita Zadorov"],
+        "username": "zadorni01",
+        "url": "/players/zadorni01.html"
+    },
+    {
+        "name": "Nikita Zaitsev",
+        "english_names": ["Nikita Zaitsev"],
+        "username": "zaitsni01",
+        "url": "/players/zaitsni01.html"
+    },
+    {
+        "name": "Yegor Zamula",
+        "english_names": ["Yegor Zamula"],
+        "username": "zamulye01",
+        "url": "/players/zamulye01.html"
+    },
+    {
+        "name": "Connor Zary",
+        "english_names": ["Connor Zary"],
+        "username": "zaryco01",
+        "url": "/players/zaryco01.html"
+    },
+    {
+        "name": "Trevor Zegras",
+        "english_names": ["Trevor Zegras"],
+        "username": "zegratr01",
+        "url": "/players/zegratr01.html"
+    },
+    {
+        "name": "Olen Zellweger",
+        "english_names": ["Olen Zellweger"],
+        "username": "zellwol01",
+        "url": "/players/zellwol01.html"
+    },
+    {
+        "name": "Fabian Zetterlund",
+        "english_names": ["Fabian Zetterlund"],
+        "username": "zettefa01",
+        "url": "/players/zettefa01.html"
+    },
+    {
+        "name": "Mika Zibanejad",
+        "english_names": ["Mika Zibanejad"],
+        "username": "zibanmi01",
+        "url": "/players/zibanmi01.html"
+    },
+    {
+        "name": "Radim Zohorna",
+        "english_names": ["Radim Zohorna"],
+        "username": "zohorra01",
+        "url": "/players/zohorra01.html"
+    },
+    {
+        "name": "Artem Zub",
+        "english_names": ["Artem Zub"],
+        "username": "zubar01",
+        "url": "/players/zubar01.html"
+    },
+    {
+        "name": "Mats Zuccarello",
+        "english_names": ["Mats Zuccarello"],
+        "username": "zuccama01",
+        "url": "/players/zuccama01.html"
+    },
+    {
+        "name": "Jason Zucker",
+        "english_names": ["Jason Zucker"],
+        "username": "zuckeja01",
+        "url": "/players/zuckeja01.html"
+    }
+]

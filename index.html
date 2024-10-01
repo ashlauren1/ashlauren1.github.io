@@ -4,26 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hockey Stats Site</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="/assets/styles.css">
+	<script src="/assets/searchBar.js" defer></script>
 </head>
 <body>
 
     <!-- Navigation Bar -->
     <nav id="navbar">
-        <ul>
-            <li><a href="/">Home</a></li>
-            <li><a href="/players/">Players</a></li>
-            <li><a href="/teams/">Teams</a></li>
-            <li><a href="/leaders/">Leaders</a></li>
-            <li><a href="/probabilities/">Probabilities</a></li>
-            <li><a href="/boxscores/">Boxscores</a></li>
-            <li><a href="/schedule/">Schedule</a></li>
-            <li>
-                <input type="text" id="search-bar" placeholder="Search players or teams..." onkeyup="showSuggestions(this.value)">
-                <ul id="suggestions" class="suggestion-list"></ul>
-            </li>
-        </ul>
+        <a href="/">Home</a>
+        <a href="/players/">Players</a>
+        <a href="/teams/">Teams</a>
+        <a href="/leaders/">Leaders</a>
+        <a href="/probabilities/">Probabilities</a>
+        <a href="/boxscores/">Boxscores</a>
+        <a href="/schedule/">Schedule</a>
+
+      <!-- Search Bar -->
+      <div class="search-container">
+          <input type="text" id="searchInput" placeholder="Search players or teams..." oninput="searchEntities()" />
+          <ul id="suggestions"></ul> <!-- This will show the search suggestions -->
+      </div>
     </nav>
+
 
     <!-- Main Content Layout -->
     <main id="content">

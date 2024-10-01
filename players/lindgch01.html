@@ -1,3053 +1,757 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Charlie Lindgren</title>
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script src="/assets/searchBar.js" defer></script>
+  <script src="/assets/tableSort.js"></script>
+  
+  <style>
+    tr:hover {background-color: #F0FFF0;}
+  </style>
+</head>
 
-        <!DOCTYPE html>
-        <html lang="en">
-        <head>
-            <meta charset="UTF-8">
-            <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <title>lindgch01 Profile</title>
-        </head>
-        <body>
-            
-    <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Player lindgch01 Stats</title>
-        <link rel="stylesheet" href="/assets/css/styles.css"> <!-- Assuming a shared stylesheet -->
-    </head>
-    <body>
-        <nav id="navbar">
-            <ul>
-                <li><a href="/">Home</a></li>
-                <li><a href="/players/">Players</a></li>
-                <li><a href="/teams/">Teams</a></li>
-                <li><a href="/leaders/">Leaders</a></li>
-                <li><a href="/probabilities/">Probabilities</a></li>
-                <li><a href="/boxscores/">Boxscores</a></li>
-                <li><a href="/schedule/">Schedule</a></li>
-            </ul>
-        </nav>
+<body>
+  <!-- Navigation Bar -->
+  <nav id="navbar">
+    <a href="/">Home</a>
+    <a href="/players/">Players</a>
+    <a href="/teams/">Teams</a>
+    <a href="/leaders/">Leaders</a>
+    <a href="/probabilities/">Probabilities</a>
+    <a href="/boxscores/">Boxscores</a>
+    <a href="/schedule/">Schedule</a>
 
-        <main id="content">
-            <h1>Player lindgch01 Stats</h1>
-            <table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th>Goalie</th>
-      <th>Player_ID</th>
-      <th>Gm</th>
-      <th>Game ID</th>
-      <th>Date</th>
-      <th>Team</th>
-      <th>Location</th>
-      <th>Opp</th>
-      <th>W/L</th>
-      <th>Goals 
-Allowed</th>
-      <th>Shots 
-Against</th>
-      <th>Saves</th>
-      <th>Save 
-Percentage</th>
-      <th>TOI</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Charlie Lindgren</td>
-      <td>lindgch01</td>
-      <td>31</td>
-      <td>202312230WSH</td>
-      <td>12/23/2023</td>
-      <td>WSH</td>
-      <td>vs</td>
-      <td>TBL</td>
-      <td>L-SO</td>
-      <td>1</td>
-      <td>20</td>
-      <td>19</td>
-      <td>0.95</td>
-      <td>65.00</td>
-    </tr>
-    <tr>
-      <td>Charlie Lindgren</td>
-      <td>lindgch01</td>
-      <td>73</td>
-      <td>202403300WSH</td>
-      <td>3/30/2024</td>
-      <td>WSH</td>
-      <td>vs</td>
-      <td>BOS</td>
-      <td>L-SO</td>
-      <td>2</td>
-      <td>29</td>
-      <td>27</td>
-      <td>0.93</td>
-      <td>65.00</td>
-    </tr>
-    <tr>
-      <td>Charlie Lindgren</td>
-      <td>lindgch01</td>
-      <td>23</td>
-      <td>202312070WSH</td>
-      <td>12/7/2023</td>
-      <td>WSH</td>
-      <td>vs</td>
-      <td>DAL</td>
-      <td>L-SO</td>
-      <td>4</td>
-      <td>38</td>
-      <td>34</td>
-      <td>0.90</td>
-      <td>65.00</td>
-    </tr>
-    <tr>
-      <td>Charlie Lindgren</td>
-      <td>lindgch01</td>
-      <td>26</td>
-      <td>202312140PHI</td>
-      <td>12/14/2023</td>
-      <td>WSH</td>
-      <td>@</td>
-      <td>PHI</td>
-      <td>L-SO</td>
-      <td>3</td>
-      <td>32</td>
-      <td>29</td>
-      <td>0.91</td>
-      <td>64.50</td>
-    </tr>
-    <tr>
-      <td>Charlie Lindgren</td>
-      <td>lindgch01</td>
-      <td>30</td>
-      <td>202312210CBJ</td>
-      <td>12/21/2023</td>
-      <td>WSH</td>
-      <td>@</td>
-      <td>CBJ</td>
-      <td>W</td>
-      <td>2</td>
-      <td>36</td>
-      <td>34</td>
-      <td>0.94</td>
-      <td>64.12</td>
-    </tr>
-    <tr>
-      <td>Charlie Lindgren</td>
-      <td>lindgch01</td>
-      <td>56</td>
-      <td>202402240FLA</td>
-      <td>2/24/2024</td>
-      <td>WSH</td>
-      <td>@</td>
-      <td>FLA</td>
-      <td>L-OT</td>
-      <td>3</td>
-      <td>29</td>
-      <td>26</td>
-      <td>0.90</td>
-      <td>63.27</td>
-    </tr>
-    <tr>
-      <td>Charlie Lindgren</td>
-      <td>lindgch01</td>
-      <td>47</td>
-      <td>202401270DAL</td>
-      <td>1/27/2024</td>
-      <td>WSH</td>
-      <td>@</td>
-      <td>DAL</td>
-      <td>L-OT</td>
-      <td>5</td>
-      <td>35</td>
-      <td>30</td>
-      <td>0.86</td>
-      <td>62.02</td>
-    </tr>
-    <tr>
-      <td>Charlie Lindgren</td>
-      <td>lindgch01</td>
-      <td>71</td>
-      <td>202403260WSH</td>
-      <td>3/26/2024</td>
-      <td>WSH</td>
-      <td>vs</td>
-      <td>DET</td>
-      <td>W</td>
-      <td>3</td>
-      <td>33</td>
-      <td>30</td>
-      <td>0.91</td>
-      <td>61.92</td>
-    </tr>
-    <tr>
-      <td>Charlie Lindgren</td>
-      <td>lindgch01</td>
-      <td>77</td>
-      <td>202404070WSH</td>
-      <td>4/7/2024</td>
-      <td>WSH</td>
-      <td>vs</td>
-      <td>OTT</td>
-      <td>L-OT</td>
-      <td>3</td>
-      <td>21</td>
-      <td>18</td>
-      <td>0.86</td>
-      <td>60.68</td>
-    </tr>
-    <tr>
-      <td>Charlie Lindgren</td>
-      <td>lindgch01</td>
-      <td>14</td>
-      <td>202311140WSH</td>
-      <td>11/14/2023</td>
-      <td>WSH</td>
-      <td>vs</td>
-      <td>VEG</td>
-      <td>W</td>
-      <td>0</td>
-      <td>35</td>
-      <td>35</td>
-      <td>1.00</td>
-      <td>60.00</td>
-    </tr>
-    <tr>
-      <td>Charlie Lindgren</td>
-      <td>lindgch01</td>
-      <td>24</td>
-      <td>202312090WSH</td>
-      <td>12/9/2023</td>
-      <td>WSH</td>
-      <td>vs</td>
-      <td>NYR</td>
-      <td>W</td>
-      <td>0</td>
-      <td>31</td>
-      <td>31</td>
-      <td>1.00</td>
-      <td>60.00</td>
-    </tr>
-    <tr>
-      <td>Charlie Lindgren</td>
-      <td>lindgch01</td>
-      <td>50</td>
-      <td>202402100BOS</td>
-      <td>2/10/2024</td>
-      <td>WSH</td>
-      <td>@</td>
-      <td>BOS</td>
-      <td>W</td>
-      <td>0</td>
-      <td>18</td>
-      <td>18</td>
-      <td>1.00</td>
-      <td>60.00</td>
-    </tr>
-    <tr>
-      <td>Charlie Lindgren</td>
-      <td>lindgch01</td>
-      <td>78</td>
-      <td>202404090DET</td>
-      <td>4/9/2024</td>
-      <td>WSH</td>
-      <td>@</td>
-      <td>DET</td>
-      <td>W</td>
-      <td>1</td>
-      <td>43</td>
-      <td>42</td>
-      <td>0.98</td>
-      <td>60.00</td>
-    </tr>
-    <tr>
-      <td>Charlie Lindgren</td>
-      <td>lindgch01</td>
-      <td>19</td>
-      <td>202311290LAK</td>
-      <td>11/29/2023</td>
-      <td>WSH</td>
-      <td>@</td>
-      <td>LAK</td>
-      <td>W</td>
-      <td>1</td>
-      <td>39</td>
-      <td>38</td>
-      <td>0.97</td>
-      <td>60.00</td>
-    </tr>
-    <tr>
-      <td>Charlie Lindgren</td>
-      <td>lindgch01</td>
-      <td>82</td>
-      <td>202404160PHI</td>
-      <td>4/16/2024</td>
-      <td>WSH</td>
-      <td>@</td>
-      <td>PHI</td>
-      <td>W</td>
-      <td>1</td>
-      <td>28</td>
-      <td>27</td>
-      <td>0.96</td>
-      <td>60.00</td>
-    </tr>
-    <tr>
-      <td>Charlie Lindgren</td>
-      <td>lindgch01</td>
-      <td>66</td>
-      <td>202403160VAN</td>
-      <td>3/16/2024</td>
-      <td>WSH</td>
-      <td>@</td>
-      <td>VAN</td>
-      <td>W</td>
-      <td>1</td>
-      <td>22</td>
-      <td>21</td>
-      <td>0.96</td>
-      <td>60.00</td>
-    </tr>
-    <tr>
-      <td>Charlie Lindgren</td>
-      <td>lindgch01</td>
-      <td>54</td>
-      <td>202402200WSH</td>
-      <td>2/20/2024</td>
-      <td>WSH</td>
-      <td>vs</td>
-      <td>NJD</td>
-      <td>W</td>
-      <td>2</td>
-      <td>39</td>
-      <td>37</td>
-      <td>0.95</td>
-      <td>60.00</td>
-    </tr>
-    <tr>
-      <td>Charlie Lindgren</td>
-      <td>lindgch01</td>
-      <td>67</td>
-      <td>202403180CGY</td>
-      <td>3/18/2024</td>
-      <td>WSH</td>
-      <td>@</td>
-      <td>CGY</td>
-      <td>W</td>
-      <td>2</td>
-      <td>36</td>
-      <td>34</td>
-      <td>0.94</td>
-      <td>60.00</td>
-    </tr>
-    <tr>
-      <td>Charlie Lindgren</td>
-      <td>lindgch01</td>
-      <td>80</td>
-      <td>202404130WSH</td>
-      <td>4/13/2024</td>
-      <td>WSH</td>
-      <td>vs</td>
-      <td>TBL</td>
-      <td>W</td>
-      <td>2</td>
-      <td>34</td>
-      <td>32</td>
-      <td>0.94</td>
-      <td>60.00</td>
-    </tr>
-    <tr>
-      <td>Charlie Lindgren</td>
-      <td>lindgch01</td>
-      <td>15</td>
-      <td>202311180WSH</td>
-      <td>11/18/2023</td>
-      <td>WSH</td>
-      <td>vs</td>
-      <td>CBJ</td>
-      <td>W</td>
-      <td>3</td>
-      <td>36</td>
-      <td>33</td>
-      <td>0.92</td>
-      <td>60.00</td>
-    </tr>
-    <tr>
-      <td>Charlie Lindgren</td>
-      <td>lindgch01</td>
-      <td>59</td>
-      <td>202403010WSH</td>
-      <td>3/1/2024</td>
-      <td>WSH</td>
-      <td>vs</td>
-      <td>PHI</td>
-      <td>W</td>
-      <td>2</td>
-      <td>23</td>
-      <td>21</td>
-      <td>0.91</td>
-      <td>60.00</td>
-    </tr>
-    <tr>
-      <td>Charlie Lindgren</td>
-      <td>lindgch01</td>
-      <td>43</td>
-      <td>202401180WSH</td>
-      <td>1/18/2024</td>
-      <td>WSH</td>
-      <td>vs</td>
-      <td>STL</td>
-      <td>W</td>
-      <td>2</td>
-      <td>20</td>
-      <td>18</td>
-      <td>0.90</td>
-      <td>60.00</td>
-    </tr>
-    <tr>
-      <td>Charlie Lindgren</td>
-      <td>lindgch01</td>
-      <td>63</td>
-      <td>202403110WPG</td>
-      <td>3/11/2024</td>
-      <td>WSH</td>
-      <td>@</td>
-      <td>WPG</td>
-      <td>L</td>
-      <td>3</td>
-      <td>29</td>
-      <td>26</td>
-      <td>0.90</td>
-      <td>60.00</td>
-    </tr>
-    <tr>
-      <td>Charlie Lindgren</td>
-      <td>lindgch01</td>
-      <td>72</td>
-      <td>202403280TOR</td>
-      <td>3/28/2024</td>
-      <td>WSH</td>
-      <td>@</td>
-      <td>TOR</td>
-      <td>L</td>
-      <td>5</td>
-      <td>48</td>
-      <td>43</td>
-      <td>0.90</td>
-      <td>60.00</td>
-    </tr>
-    <tr>
-      <td>Charlie Lindgren</td>
-      <td>lindgch01</td>
-      <td>68</td>
-      <td>202403200WSH</td>
-      <td>3/20/2024</td>
-      <td>WSH</td>
-      <td>vs</td>
-      <td>TOR</td>
-      <td>L</td>
-      <td>7</td>
-      <td>29</td>
-      <td>22</td>
-      <td>0.76</td>
-      <td>60.00</td>
-    </tr>
-    <tr>
-      <td>Charlie Lindgren</td>
-      <td>lindgch01</td>
-      <td>40</td>
-      <td>202401130WSH</td>
-      <td>1/13/2024</td>
-      <td>WSH</td>
-      <td>vs</td>
-      <td>NYR</td>
-      <td>W</td>
-      <td>2</td>
-      <td>27</td>
-      <td>25</td>
-      <td>0.93</td>
-      <td>59.95</td>
-    </tr>
-    <tr>
-      <td>Charlie Lindgren</td>
-      <td>lindgch01</td>
-      <td>1</td>
-      <td>202310130WSH</td>
-      <td>10/13/2023</td>
-      <td>WSH</td>
-      <td>vs</td>
-      <td>PIT</td>
-      <td>L</td>
-      <td>4</td>
-      <td>35</td>
-      <td>31</td>
-      <td>0.89</td>
-      <td>59.93</td>
-    </tr>
-    <tr>
-      <td>Charlie Lindgren</td>
-      <td>lindgch01</td>
-      <td>61</td>
-      <td>202403070PIT</td>
-      <td>3/7/2024</td>
-      <td>WSH</td>
-      <td>@</td>
-      <td>PIT</td>
-      <td>W</td>
-      <td>0</td>
-      <td>39</td>
-      <td>39</td>
-      <td>1.00</td>
-      <td>59.90</td>
-    </tr>
-    <tr>
-      <td>Charlie Lindgren</td>
-      <td>lindgch01</td>
-      <td>55</td>
-      <td>202402220TBL</td>
-      <td>2/22/2024</td>
-      <td>WSH</td>
-      <td>@</td>
-      <td>TBL</td>
-      <td>W</td>
-      <td>3</td>
-      <td>32</td>
-      <td>29</td>
-      <td>0.91</td>
-      <td>59.90</td>
-    </tr>
-    <tr>
-      <td>Charlie Lindgren</td>
-      <td>lindgch01</td>
-      <td>65</td>
-      <td>202403140SEA</td>
-      <td>3/14/2024</td>
-      <td>WSH</td>
-      <td>@</td>
-      <td>SEA</td>
-      <td>W</td>
-      <td>1</td>
-      <td>24</td>
-      <td>23</td>
-      <td>0.96</td>
-      <td>59.83</td>
-    </tr>
-    <tr>
-      <td>Charlie Lindgren</td>
-      <td>lindgch01</td>
-      <td>46</td>
-      <td>202401240COL</td>
-      <td>1/24/2024</td>
-      <td>WSH</td>
-      <td>@</td>
-      <td>COL</td>
-      <td>L</td>
-      <td>6</td>
-      <td>31</td>
-      <td>25</td>
-      <td>0.81</td>
-      <td>59.83</td>
-    </tr>
-    <tr>
-      <td>Charlie Lindgren</td>
-      <td>lindgch01</td>
-      <td>58</td>
-      <td>202402270DET</td>
-      <td>2/27/2024</td>
-      <td>WSH</td>
-      <td>@</td>
-      <td>DET</td>
-      <td>L</td>
-      <td>8</td>
-      <td>31</td>
-      <td>23</td>
-      <td>0.74</td>
-      <td>59.78</td>
-    </tr>
-    <tr>
-      <td>Charlie Lindgren</td>
-      <td>lindgch01</td>
-      <td>81</td>
-      <td>202404150WSH</td>
-      <td>4/15/2024</td>
-      <td>WSH</td>
-      <td>vs</td>
-      <td>BOS</td>
-      <td>W</td>
-      <td>0</td>
-      <td>16</td>
-      <td>16</td>
-      <td>1.00</td>
-      <td>59.75</td>
-    </tr>
-    <tr>
-      <td>Charlie Lindgren</td>
-      <td>lindgch01</td>
-      <td>62</td>
-      <td>202403090WSH</td>
-      <td>3/9/2024</td>
-      <td>WSH</td>
-      <td>vs</td>
-      <td>CHI</td>
-      <td>W</td>
-      <td>1</td>
-      <td>32</td>
-      <td>31</td>
-      <td>0.97</td>
-      <td>59.73</td>
-    </tr>
-    <tr>
-      <td>Charlie Lindgren</td>
-      <td>lindgch01</td>
-      <td>44</td>
-      <td>202401200STL</td>
-      <td>1/20/2024</td>
-      <td>WSH</td>
-      <td>@</td>
-      <td>STL</td>
-      <td>L</td>
-      <td>3</td>
-      <td>29</td>
-      <td>26</td>
-      <td>0.90</td>
-      <td>59.63</td>
-    </tr>
-    <tr>
-      <td>Charlie Lindgren</td>
-      <td>lindgch01</td>
-      <td>10</td>
-      <td>202311040WSH</td>
-      <td>11/4/2023</td>
-      <td>WSH</td>
-      <td>vs</td>
-      <td>CBJ</td>
-      <td>W</td>
-      <td>1</td>
-      <td>35</td>
-      <td>34</td>
-      <td>0.97</td>
-      <td>59.62</td>
-    </tr>
-    <tr>
-      <td>Charlie Lindgren</td>
-      <td>lindgch01</td>
-      <td>17</td>
-      <td>202311240WSH</td>
-      <td>11/24/2023</td>
-      <td>WSH</td>
-      <td>vs</td>
-      <td>EDM</td>
-      <td>L</td>
-      <td>5</td>
-      <td>35</td>
-      <td>30</td>
-      <td>0.86</td>
-      <td>59.42</td>
-    </tr>
-    <tr>
-      <td>Charlie Lindgren</td>
-      <td>lindgch01</td>
-      <td>70</td>
-      <td>202403240WSH</td>
-      <td>3/24/2024</td>
-      <td>WSH</td>
-      <td>vs</td>
-      <td>WPG</td>
-      <td>W</td>
-      <td>0</td>
-      <td>27</td>
-      <td>27</td>
-      <td>1.00</td>
-      <td>59.28</td>
-    </tr>
-    <tr>
-      <td>Charlie Lindgren</td>
-      <td>lindgch01</td>
-      <td>75</td>
-      <td>202404040WSH</td>
-      <td>4/4/2024</td>
-      <td>WSH</td>
-      <td>vs</td>
-      <td>PIT</td>
-      <td>L</td>
-      <td>3</td>
-      <td>23</td>
-      <td>20</td>
-      <td>0.87</td>
-      <td>59.28</td>
-    </tr>
-    <tr>
-      <td>Charlie Lindgren</td>
-      <td>lindgch01</td>
-      <td>12</td>
-      <td>202311100NJD</td>
-      <td>11/10/2023</td>
-      <td>WSH</td>
-      <td>@</td>
-      <td>NJD</td>
-      <td>W</td>
-      <td>2</td>
-      <td>26</td>
-      <td>24</td>
-      <td>0.92</td>
-      <td>59.10</td>
-    </tr>
-    <tr>
-      <td>Charlie Lindgren</td>
-      <td>lindgch01</td>
-      <td>41</td>
-      <td>202401140NYR</td>
-      <td>1/14/2024</td>
-      <td>WSH</td>
-      <td>@</td>
-      <td>NYR</td>
-      <td>L</td>
-      <td>2</td>
-      <td>31</td>
-      <td>29</td>
-      <td>0.94</td>
-      <td>58.48</td>
-    </tr>
-    <tr>
-      <td>Charlie Lindgren</td>
-      <td>lindgch01</td>
-      <td>52</td>
-      <td>202402130WSH</td>
-      <td>2/13/2024</td>
-      <td>WSH</td>
-      <td>vs</td>
-      <td>COL</td>
-      <td>L</td>
-      <td>4</td>
-      <td>35</td>
-      <td>31</td>
-      <td>0.89</td>
-      <td>58.05</td>
-    </tr>
-    <tr>
-      <td>Charlie Lindgren</td>
-      <td>lindgch01</td>
-      <td>60</td>
-      <td>202403030WSH</td>
-      <td>3/3/2024</td>
-      <td>WSH</td>
-      <td>vs</td>
-      <td>ARI</td>
-      <td>L</td>
-      <td>4</td>
-      <td>27</td>
-      <td>23</td>
-      <td>0.85</td>
-      <td>57.93</td>
-    </tr>
-    <tr>
-      <td>Charlie Lindgren</td>
-      <td>lindgch01</td>
-      <td>27</td>
-      <td>202312160NSH</td>
-      <td>12/16/2023</td>
-      <td>WSH</td>
-      <td>@</td>
-      <td>NSH</td>
-      <td>L</td>
-      <td>3</td>
-      <td>23</td>
-      <td>20</td>
-      <td>0.87</td>
-      <td>57.65</td>
-    </tr>
-    <tr>
-      <td>Charlie Lindgren</td>
-      <td>lindgch01</td>
-      <td>79</td>
-      <td>202404110BUF</td>
-      <td>4/11/2024</td>
-      <td>WSH</td>
-      <td>@</td>
-      <td>BUF</td>
-      <td>L</td>
-      <td>3</td>
-      <td>16</td>
-      <td>13</td>
-      <td>0.81</td>
-      <td>57.63</td>
-    </tr>
-    <tr>
-      <td>Charlie Lindgren</td>
-      <td>lindgch01</td>
-      <td>22</td>
-      <td>202312040ARI</td>
-      <td>12/4/2023</td>
-      <td>WSH</td>
-      <td>@</td>
-      <td>ARI</td>
-      <td>L</td>
-      <td>3</td>
-      <td>22</td>
-      <td>19</td>
-      <td>0.86</td>
-      <td>45.75</td>
-    </tr>
-    <tr>
-      <td>Charlie Lindgren</td>
-      <td>lindgch01</td>
-      <td>74</td>
-      <td>202404020BUF</td>
-      <td>4/2/2024</td>
-      <td>WSH</td>
-      <td>@</td>
-      <td>BUF</td>
-      <td>L</td>
-      <td>6</td>
-      <td>31</td>
-      <td>25</td>
-      <td>0.81</td>
-      <td>45.55</td>
-    </tr>
-    <tr>
-      <td>Charlie Lindgren</td>
-      <td>lindgch01</td>
-      <td>69</td>
-      <td>202403220WSH</td>
-      <td>3/22/2024</td>
-      <td>WSH</td>
-      <td>vs</td>
-      <td>CAR</td>
-      <td>W</td>
-      <td>2</td>
-      <td>9</td>
-      <td>7</td>
-      <td>0.78</td>
-      <td>25.00</td>
-    </tr>
-    <tr>
-      <td>Charlie Lindgren</td>
-      <td>lindgch01</td>
-      <td>48</td>
-      <td>202402060WSH</td>
-      <td>2/6/2024</td>
-      <td>WSH</td>
-      <td>vs</td>
-      <td>MTL</td>
-      <td>L</td>
-      <td>3</td>
-      <td>9</td>
-      <td>6</td>
-      <td>0.67</td>
-      <td>13.12</td>
-    </tr>
-    <tr>
-      <td>Charlie Lindgren</td>
-      <td>lindgch01</td>
-      <td>33</td>
-      <td>202312290NYI</td>
-      <td>12/29/2023</td>
-      <td>WSH</td>
-      <td>@</td>
-      <td>NYI</td>
-      <td>L</td>
-      <td>0</td>
-      <td>3</td>
-      <td>3</td>
-      <td>1.00</td>
-      <td>6.77</td>
-    </tr>
-  </tbody>
-</table>
-        </main>
-    </body>
-    </html>
+    <!-- Search Bar -->
+    <div class="search-container">
+      <input type="text" id="searchInput" placeholder="Search players or teams..." oninput="searchEntities()" />
+      <ul id="suggestions"></ul> <!-- This will show the search suggestions -->
+    </div>
+  </nav>
+
+  <h1>Charlie Lindgren - Gamelogs</h1>
+  <table border="1">
+    <thead>
+      <tr>
+        <th>Season</th>
+        <th>Date</th>
+        <th>Team</th>
+        <th>Location</th>
+        <th>Opponent</th>
+        <th>Result</th>
+        <th>GA</th>
+        <th>SA</th>
+        <th>SV</th>
+        <th>SV%</th>
+        <th>TOI</th>
+      </tr>
+    </thead>
+    <tbody>
     
-            <h2>Penalties</h2>
-            <p>No penalties table available</p>
-            <h2>Scoring</h2>
-            
-    <h2>Goals Allowed by lindgch01</h2>
-    <table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th>Date</th>
-      <th>Tm</th>
-      <th>Location</th>
-      <th>Opp</th>
-      <th>Result</th>
-      <th>Scorer</th>
-      <th>scorer username</th>
-      <th>Assist1</th>
-      <th>ast 1 username</th>
-      <th>Assist2</th>
-      <th>ast 2 username</th>
-      <th>Goalie</th>
-      <th>goalie username</th>
-      <th>Per.</th>
-      <th>Time</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>10/13/2023</td>
-      <td>PIT</td>
-      <td>@</td>
-      <td>WSH</td>
-      <td>W</td>
-      <td>Evgeni Malkin</td>
-      <td>malkiev01</td>
-      <td>Rickard Rakell</td>
-      <td>rakelri01</td>
-      <td>Erik Karlsson</td>
-      <td>karlser01</td>
-      <td>Charlie Lindgren</td>
-      <td>lindgch01</td>
-      <td>2</td>
-      <td>4.12</td>
-    </tr>
-    <tr>
-      <td>10/13/2023</td>
-      <td>PIT</td>
-      <td>@</td>
-      <td>WSH</td>
-      <td>W</td>
-      <td>Sidney Crosby</td>
-      <td>crosbsi01</td>
-      <td>Jake Guentzel</td>
-      <td>guentja01</td>
-      <td>Evgeni Malkin</td>
-      <td>malkiev01</td>
-      <td>Charlie Lindgren</td>
-      <td>lindgch01</td>
-      <td>2</td>
-      <td>5.85</td>
-    </tr>
-    <tr>
-      <td>10/13/2023</td>
-      <td>PIT</td>
-      <td>@</td>
-      <td>WSH</td>
-      <td>W</td>
-      <td>Sidney Crosby</td>
-      <td>crosbsi01</td>
-      <td>Evgeni Malkin</td>
-      <td>malkiev01</td>
-      <td>Jake Guentzel</td>
-      <td>guentja01</td>
-      <td>Charlie Lindgren</td>
-      <td>lindgch01</td>
-      <td>2</td>
-      <td>11.77</td>
-    </tr>
-    <tr>
-      <td>10/13/2023</td>
-      <td>PIT</td>
-      <td>@</td>
-      <td>WSH</td>
-      <td>W</td>
-      <td>Reilly Smith</td>
-      <td>smithre01</td>
-      <td>Evgeni Malkin</td>
-      <td>malkiev01</td>
-      <td>-</td>
-      <td>NaN</td>
-      <td>Charlie Lindgren</td>
-      <td>lindgch01</td>
-      <td>3</td>
-      <td>16.95</td>
-    </tr>
-    <tr>
-      <td>11/4/2023</td>
-      <td>CBJ</td>
-      <td>@</td>
-      <td>WSH</td>
-      <td>L</td>
-      <td>Dmitri Voronkov</td>
-      <td>vorondi01</td>
-      <td>Kirill Marchenko</td>
-      <td>marchki01</td>
-      <td>David Jiříček</td>
-      <td>jiricda01</td>
-      <td>Charlie Lindgren</td>
-      <td>lindgch01</td>
-      <td>2</td>
-      <td>1.63</td>
-    </tr>
-    <tr>
-      <td>11/10/2023</td>
-      <td>NJD</td>
-      <td>vs</td>
-      <td>WSH</td>
-      <td>L</td>
-      <td>Timo Meier</td>
-      <td>meierti01</td>
-      <td>Michael McLeod</td>
-      <td>mcleomi01</td>
-      <td>John Marino</td>
-      <td>marinjo01</td>
-      <td>Charlie Lindgren</td>
-      <td>lindgch01</td>
-      <td>3</td>
-      <td>7.22</td>
-    </tr>
-    <tr>
-      <td>11/10/2023</td>
-      <td>NJD</td>
-      <td>vs</td>
-      <td>WSH</td>
-      <td>L</td>
-      <td>Dawson Mercer</td>
-      <td>merceda01</td>
-      <td>Tyler Toffoli</td>
-      <td>toffoty01</td>
-      <td>Akira Schmid</td>
-      <td>schmiak01</td>
-      <td>Charlie Lindgren</td>
-      <td>lindgch01</td>
-      <td>3</td>
-      <td>9.20</td>
-    </tr>
-    <tr>
-      <td>11/18/2023</td>
-      <td>CBJ</td>
-      <td>@</td>
-      <td>WSH</td>
-      <td>L</td>
-      <td>Johnny Gaudreau</td>
-      <td>gaudrjo01</td>
-      <td>Boone Jenner</td>
-      <td>jennebo01</td>
-      <td>Damon Severson</td>
-      <td>severda01</td>
-      <td>Charlie Lindgren</td>
-      <td>lindgch01</td>
-      <td>2</td>
-      <td>3.45</td>
-    </tr>
-    <tr>
-      <td>11/18/2023</td>
-      <td>CBJ</td>
-      <td>@</td>
-      <td>WSH</td>
-      <td>L</td>
-      <td>Ivan Provorov</td>
-      <td>provoiv01</td>
-      <td>Cole Sillinger</td>
-      <td>sillico01</td>
-      <td>-</td>
-      <td>NaN</td>
-      <td>Charlie Lindgren</td>
-      <td>lindgch01</td>
-      <td>3</td>
-      <td>7.02</td>
-    </tr>
-    <tr>
-      <td>11/18/2023</td>
-      <td>CBJ</td>
-      <td>@</td>
-      <td>WSH</td>
-      <td>L</td>
-      <td>Justin Danforth</td>
-      <td>danfoju01</td>
-      <td>Sean Kuraly</td>
-      <td>kuralse01</td>
-      <td>Zach Werenski</td>
-      <td>werenza01</td>
-      <td>Charlie Lindgren</td>
-      <td>lindgch01</td>
-      <td>3</td>
-      <td>15.80</td>
-    </tr>
-    <tr>
-      <td>11/24/2023</td>
-      <td>EDM</td>
-      <td>@</td>
-      <td>WSH</td>
-      <td>W</td>
-      <td>Evander Kane</td>
-      <td>kaneev01</td>
-      <td>Leon Draisaitl</td>
-      <td>draisle01</td>
-      <td>Vincent Desharnais</td>
-      <td>deshavi01</td>
-      <td>Charlie Lindgren</td>
-      <td>lindgch01</td>
-      <td>1</td>
-      <td>14.17</td>
-    </tr>
-    <tr>
-      <td>11/24/2023</td>
-      <td>EDM</td>
-      <td>@</td>
-      <td>WSH</td>
-      <td>W</td>
-      <td>Ryan Nugent-Hopkins</td>
-      <td>nugenry01</td>
-      <td>Connor McDavid</td>
-      <td>mcdavco01</td>
-      <td>Zach Hyman</td>
-      <td>hymanza01</td>
-      <td>Charlie Lindgren</td>
-      <td>lindgch01</td>
-      <td>1</td>
-      <td>15.40</td>
-    </tr>
-    <tr>
-      <td>11/24/2023</td>
-      <td>EDM</td>
-      <td>@</td>
-      <td>WSH</td>
-      <td>W</td>
-      <td>Evan Bouchard</td>
-      <td>bouchev01</td>
-      <td>Connor McDavid</td>
-      <td>mcdavco01</td>
-      <td>Ryan Nugent-Hopkins</td>
-      <td>nugenry01</td>
-      <td>Charlie Lindgren</td>
-      <td>lindgch01</td>
-      <td>2</td>
-      <td>3.73</td>
-    </tr>
-    <tr>
-      <td>11/24/2023</td>
-      <td>EDM</td>
-      <td>@</td>
-      <td>WSH</td>
-      <td>W</td>
-      <td>Leon Draisaitl</td>
-      <td>draisle01</td>
-      <td>Connor McDavid</td>
-      <td>mcdavco01</td>
-      <td>Ryan Nugent-Hopkins</td>
-      <td>nugenry01</td>
-      <td>Charlie Lindgren</td>
-      <td>lindgch01</td>
-      <td>2</td>
-      <td>4.80</td>
-    </tr>
-    <tr>
-      <td>11/24/2023</td>
-      <td>EDM</td>
-      <td>@</td>
-      <td>WSH</td>
-      <td>W</td>
-      <td>Leon Draisaitl</td>
-      <td>draisle01</td>
-      <td>Zach Hyman</td>
-      <td>hymanza01</td>
-      <td>Connor McDavid</td>
-      <td>mcdavco01</td>
-      <td>Charlie Lindgren</td>
-      <td>lindgch01</td>
-      <td>2</td>
-      <td>18.62</td>
-    </tr>
-    <tr>
-      <td>11/29/2023</td>
-      <td>LAK</td>
-      <td>vs</td>
-      <td>WSH</td>
-      <td>L</td>
-      <td>Arthur Kaliyev</td>
-      <td>kaliyar01</td>
-      <td>Andreas Englund</td>
-      <td>engluan01</td>
-      <td>Jordan Spence</td>
-      <td>spencjo01</td>
-      <td>Charlie Lindgren</td>
-      <td>lindgch01</td>
-      <td>1</td>
-      <td>9.07</td>
-    </tr>
-    <tr>
-      <td>12/4/2023</td>
-      <td>ARI</td>
-      <td>vs</td>
-      <td>WSH</td>
-      <td>W</td>
-      <td>Nick Schmaltz</td>
-      <td>schmani01</td>
-      <td>Clayton Keller</td>
-      <td>kellecl01</td>
-      <td>Michael Kesselring</td>
-      <td>kessemi01</td>
-      <td>Charlie Lindgren</td>
-      <td>lindgch01</td>
-      <td>1</td>
-      <td>17.22</td>
-    </tr>
-    <tr>
-      <td>12/4/2023</td>
-      <td>ARI</td>
-      <td>vs</td>
-      <td>WSH</td>
-      <td>W</td>
-      <td>Jason Zucker</td>
-      <td>zuckeja01</td>
-      <td>Alexander Kerfoot</td>
-      <td>kerfoal01</td>
-      <td>-</td>
-      <td>NaN</td>
-      <td>Charlie Lindgren</td>
-      <td>lindgch01</td>
-      <td>1</td>
-      <td>18.65</td>
-    </tr>
-    <tr>
-      <td>12/4/2023</td>
-      <td>ARI</td>
-      <td>vs</td>
-      <td>WSH</td>
-      <td>W</td>
-      <td>Nick Bjugstad</td>
-      <td>bjugsni01</td>
-      <td>Alexander Kerfoot</td>
-      <td>kerfoal01</td>
-      <td>J.J. Moser</td>
-      <td>moserja01</td>
-      <td>Charlie Lindgren</td>
-      <td>lindgch01</td>
-      <td>2</td>
-      <td>16.90</td>
-    </tr>
-    <tr>
-      <td>12/7/2023</td>
-      <td>DAL</td>
-      <td>@</td>
-      <td>WSH</td>
-      <td>W</td>
-      <td>Tyler Seguin</td>
-      <td>seguity01</td>
-      <td>Sam Steel</td>
-      <td>steelsa01</td>
-      <td>Miro Heiskanen</td>
-      <td>heiskmi01</td>
-      <td>Charlie Lindgren</td>
-      <td>lindgch01</td>
-      <td>1</td>
-      <td>15.63</td>
-    </tr>
-    <tr>
-      <td>12/7/2023</td>
-      <td>DAL</td>
-      <td>@</td>
-      <td>WSH</td>
-      <td>W</td>
-      <td>Mason Marchment</td>
-      <td>marchma01</td>
-      <td>Matt Duchene</td>
-      <td>duchema01</td>
-      <td>-</td>
-      <td>NaN</td>
-      <td>Charlie Lindgren</td>
-      <td>lindgch01</td>
-      <td>2</td>
-      <td>14.32</td>
-    </tr>
-    <tr>
-      <td>12/7/2023</td>
-      <td>DAL</td>
-      <td>@</td>
-      <td>WSH</td>
-      <td>W</td>
-      <td>Roope Hintz</td>
-      <td>hintzro01</td>
-      <td>Jamie Benn</td>
-      <td>bennja01</td>
-      <td>Jason Robertson</td>
-      <td>roberja01</td>
-      <td>Charlie Lindgren</td>
-      <td>lindgch01</td>
-      <td>3</td>
-      <td>1.85</td>
-    </tr>
-    <tr>
-      <td>12/7/2023</td>
-      <td>DAL</td>
-      <td>@</td>
-      <td>WSH</td>
-      <td>W</td>
-      <td>Roope Hintz</td>
-      <td>hintzro01</td>
-      <td>Jason Robertson</td>
-      <td>roberja01</td>
-      <td>Joe Pavelski</td>
-      <td>paveljo01</td>
-      <td>Charlie Lindgren</td>
-      <td>lindgch01</td>
-      <td>3</td>
-      <td>13.78</td>
-    </tr>
-    <tr>
-      <td>12/14/2023</td>
-      <td>PHI</td>
-      <td>vs</td>
-      <td>WSH</td>
-      <td>W</td>
-      <td>Bobby Brink</td>
-      <td>brinkbo01</td>
-      <td>Marc Staal</td>
-      <td>staalma01</td>
-      <td>Morgan Frost</td>
-      <td>frostmo01</td>
-      <td>Charlie Lindgren</td>
-      <td>lindgch01</td>
-      <td>2</td>
-      <td>2.23</td>
-    </tr>
-    <tr>
-      <td>12/14/2023</td>
-      <td>PHI</td>
-      <td>vs</td>
-      <td>WSH</td>
-      <td>W</td>
-      <td>Joel Farabee</td>
-      <td>farabjo01</td>
-      <td>Ryan Poehling</td>
-      <td>poehlry01</td>
-      <td>-</td>
-      <td>NaN</td>
-      <td>Charlie Lindgren</td>
-      <td>lindgch01</td>
-      <td>3</td>
-      <td>5.42</td>
-    </tr>
-    <tr>
-      <td>12/14/2023</td>
-      <td>PHI</td>
-      <td>vs</td>
-      <td>WSH</td>
-      <td>W</td>
-      <td>Owen Tippett</td>
-      <td>tippeow01</td>
-      <td>Morgan Frost</td>
-      <td>frostmo01</td>
-      <td>-</td>
-      <td>NaN</td>
-      <td>Charlie Lindgren</td>
-      <td>lindgch01</td>
-      <td>3</td>
-      <td>17.02</td>
-    </tr>
-    <tr>
-      <td>12/16/2023</td>
-      <td>NSH</td>
-      <td>vs</td>
-      <td>WSH</td>
-      <td>W</td>
-      <td>Colton Sissons</td>
-      <td>sissoco01</td>
-      <td>Roman Josi</td>
-      <td>josiro01</td>
-      <td>Filip Forsberg</td>
-      <td>forsbfi01</td>
-      <td>Charlie Lindgren</td>
-      <td>lindgch01</td>
-      <td>1</td>
-      <td>5.05</td>
-    </tr>
-    <tr>
-      <td>12/16/2023</td>
-      <td>NSH</td>
-      <td>vs</td>
-      <td>WSH</td>
-      <td>W</td>
-      <td>Philip Tomasino</td>
-      <td>tomasph01</td>
-      <td>Cole Smith</td>
-      <td>smithco02</td>
-      <td>-</td>
-      <td>NaN</td>
-      <td>Charlie Lindgren</td>
-      <td>lindgch01</td>
-      <td>2</td>
-      <td>13.43</td>
-    </tr>
-    <tr>
-      <td>12/16/2023</td>
-      <td>NSH</td>
-      <td>vs</td>
-      <td>WSH</td>
-      <td>W</td>
-      <td>Yakov Trenin</td>
-      <td>treniya01</td>
-      <td>Alexandre Carrier</td>
-      <td>carrial01</td>
-      <td>Michael McCarron</td>
-      <td>mccarmi01</td>
-      <td>Charlie Lindgren</td>
-      <td>lindgch01</td>
-      <td>3</td>
-      <td>3.68</td>
-    </tr>
-    <tr>
-      <td>12/21/2023</td>
-      <td>CBJ</td>
-      <td>vs</td>
-      <td>WSH</td>
-      <td>L</td>
-      <td>Cole Sillinger</td>
-      <td>sillico01</td>
-      <td>Emil Bemström</td>
-      <td>bemstem01</td>
-      <td>Johnny Gaudreau</td>
-      <td>gaudrjo01</td>
-      <td>Charlie Lindgren</td>
-      <td>lindgch01</td>
-      <td>2</td>
-      <td>15.30</td>
-    </tr>
-    <tr>
-      <td>12/21/2023</td>
-      <td>CBJ</td>
-      <td>vs</td>
-      <td>WSH</td>
-      <td>L</td>
-      <td>Yegor Chinakhov</td>
-      <td>chinaye01</td>
-      <td>Dmitri Voronkov</td>
-      <td>vorondi01</td>
-      <td>Erik Gudbranson</td>
-      <td>gudbrer01</td>
-      <td>Charlie Lindgren</td>
-      <td>lindgch01</td>
-      <td>3</td>
-      <td>12.82</td>
-    </tr>
-    <tr>
-      <td>12/23/2023</td>
-      <td>TBL</td>
-      <td>@</td>
-      <td>WSH</td>
-      <td>W</td>
-      <td>Luke Glendening</td>
-      <td>glendlu01</td>
-      <td>Victor Hedman</td>
-      <td>hedmavi01</td>
-      <td>-</td>
-      <td>NaN</td>
-      <td>Charlie Lindgren</td>
-      <td>lindgch01</td>
-      <td>1</td>
-      <td>7.48</td>
-    </tr>
-    <tr>
-      <td>1/13/2024</td>
-      <td>NYR</td>
-      <td>@</td>
-      <td>WSH</td>
-      <td>L</td>
-      <td>Adam Fox</td>
-      <td>foxad01</td>
-      <td>William Cuylle</td>
-      <td>cuyllwi01</td>
-      <td>Chris Kreider</td>
-      <td>kreidch01</td>
-      <td>Charlie Lindgren</td>
-      <td>lindgch01</td>
-      <td>1</td>
-      <td>13.38</td>
-    </tr>
-    <tr>
-      <td>1/13/2024</td>
-      <td>NYR</td>
-      <td>@</td>
-      <td>WSH</td>
-      <td>L</td>
-      <td>Adam Fox</td>
-      <td>foxad01</td>
-      <td>-</td>
-      <td>NaN</td>
-      <td>-</td>
-      <td>NaN</td>
-      <td>Charlie Lindgren</td>
-      <td>lindgch01</td>
-      <td>2</td>
-      <td>5.25</td>
-    </tr>
-    <tr>
-      <td>1/14/2024</td>
-      <td>NYR</td>
-      <td>vs</td>
-      <td>WSH</td>
-      <td>W</td>
-      <td>Artemi Panarin</td>
-      <td>panarar01</td>
-      <td>Vincent Trocheck</td>
-      <td>trochvi01</td>
-      <td>Jacob Trouba</td>
-      <td>troubja01</td>
-      <td>Charlie Lindgren</td>
-      <td>lindgch01</td>
-      <td>1</td>
-      <td>0.83</td>
-    </tr>
-    <tr>
-      <td>1/14/2024</td>
-      <td>NYR</td>
-      <td>vs</td>
-      <td>WSH</td>
-      <td>W</td>
-      <td>Alexis Lafrenière</td>
-      <td>lafreal01</td>
-      <td>Braden Schneider</td>
-      <td>schnebr01</td>
-      <td>-</td>
-      <td>NaN</td>
-      <td>Charlie Lindgren</td>
-      <td>lindgch01</td>
-      <td>1</td>
-      <td>19.17</td>
-    </tr>
-    <tr>
-      <td>1/18/2024</td>
-      <td>STL</td>
-      <td>@</td>
-      <td>WSH</td>
-      <td>L</td>
-      <td>Nathan Walker</td>
-      <td>walkena01</td>
-      <td>Nick Leddy</td>
-      <td>leddyni01</td>
-      <td>Colton Parayko</td>
-      <td>parayco01</td>
-      <td>Charlie Lindgren</td>
-      <td>lindgch01</td>
-      <td>1</td>
-      <td>17.90</td>
-    </tr>
-    <tr>
-      <td>1/18/2024</td>
-      <td>STL</td>
-      <td>@</td>
-      <td>WSH</td>
-      <td>L</td>
-      <td>Nathan Walker</td>
-      <td>walkena01</td>
-      <td>Justin Faulk</td>
-      <td>faulkju01</td>
-      <td>Nikita Alexandrov</td>
-      <td>alexani01</td>
-      <td>Charlie Lindgren</td>
-      <td>lindgch01</td>
-      <td>3</td>
-      <td>4.02</td>
-    </tr>
-    <tr>
-      <td>1/20/2024</td>
-      <td>STL</td>
-      <td>vs</td>
-      <td>WSH</td>
-      <td>W</td>
-      <td>Colton Parayko</td>
-      <td>parayco01</td>
-      <td>Robert Thomas</td>
-      <td>thomaro01</td>
-      <td>-</td>
-      <td>NaN</td>
-      <td>Charlie Lindgren</td>
-      <td>lindgch01</td>
-      <td>1</td>
-      <td>2.62</td>
-    </tr>
-    <tr>
-      <td>1/20/2024</td>
-      <td>STL</td>
-      <td>vs</td>
-      <td>WSH</td>
-      <td>W</td>
-      <td>Brayden Schenn</td>
-      <td>schenbr01</td>
-      <td>Justin Faulk</td>
-      <td>faulkju01</td>
-      <td>Pavel Buchnevich</td>
-      <td>buchnpa01</td>
-      <td>Charlie Lindgren</td>
-      <td>lindgch01</td>
-      <td>2</td>
-      <td>7.73</td>
-    </tr>
-    <tr>
-      <td>1/20/2024</td>
-      <td>STL</td>
-      <td>vs</td>
-      <td>WSH</td>
-      <td>W</td>
-      <td>Jake Neighbours</td>
-      <td>neighja01</td>
-      <td>Robert Thomas</td>
-      <td>thomaro01</td>
-      <td>Jordan Kyrou</td>
-      <td>kyroujo01</td>
-      <td>Charlie Lindgren</td>
-      <td>lindgch01</td>
-      <td>3</td>
-      <td>15.85</td>
-    </tr>
-    <tr>
-      <td>1/24/2024</td>
-      <td>COL</td>
-      <td>vs</td>
-      <td>WSH</td>
-      <td>W</td>
-      <td>Cale Makar</td>
-      <td>makarca01</td>
-      <td>Andrew Cogliano</td>
-      <td>coglian01</td>
-      <td>-</td>
-      <td>NaN</td>
-      <td>Charlie Lindgren</td>
-      <td>lindgch01</td>
-      <td>1</td>
-      <td>19.38</td>
-    </tr>
-    <tr>
-      <td>1/24/2024</td>
-      <td>COL</td>
-      <td>vs</td>
-      <td>WSH</td>
-      <td>W</td>
-      <td>Nathan MacKinnon</td>
-      <td>mackina01</td>
-      <td>Mikko Rantanen</td>
-      <td>rantami01</td>
-      <td>Cale Makar</td>
-      <td>makarca01</td>
-      <td>Charlie Lindgren</td>
-      <td>lindgch01</td>
-      <td>2</td>
-      <td>2.65</td>
-    </tr>
-    <tr>
-      <td>1/24/2024</td>
-      <td>COL</td>
-      <td>vs</td>
-      <td>WSH</td>
-      <td>W</td>
-      <td>Nathan MacKinnon</td>
-      <td>mackina01</td>
-      <td>Cale Makar</td>
-      <td>makarca01</td>
-      <td>Mikko Rantanen</td>
-      <td>rantami01</td>
-      <td>Charlie Lindgren</td>
-      <td>lindgch01</td>
-      <td>2</td>
-      <td>7.00</td>
-    </tr>
-    <tr>
-      <td>1/24/2024</td>
-      <td>COL</td>
-      <td>vs</td>
-      <td>WSH</td>
-      <td>W</td>
-      <td>Nathan MacKinnon</td>
-      <td>mackina01</td>
-      <td>Mikko Rantanen</td>
-      <td>rantami01</td>
-      <td>-</td>
-      <td>NaN</td>
-      <td>Charlie Lindgren</td>
-      <td>lindgch01</td>
-      <td>2</td>
-      <td>9.27</td>
-    </tr>
-    <tr>
-      <td>1/24/2024</td>
-      <td>COL</td>
-      <td>vs</td>
-      <td>WSH</td>
-      <td>W</td>
-      <td>Mikko Rantanen</td>
-      <td>rantami01</td>
-      <td>Jonathan Drouin</td>
-      <td>drouijo01</td>
-      <td>Nathan MacKinnon</td>
-      <td>mackina01</td>
-      <td>Charlie Lindgren</td>
-      <td>lindgch01</td>
-      <td>3</td>
-      <td>10.33</td>
-    </tr>
-    <tr>
-      <td>1/24/2024</td>
-      <td>COL</td>
-      <td>vs</td>
-      <td>WSH</td>
-      <td>W</td>
-      <td>Nathan MacKinnon</td>
-      <td>mackina01</td>
-      <td>Mikko Rantanen</td>
-      <td>rantami01</td>
-      <td>Ross Colton</td>
-      <td>coltoro01</td>
-      <td>Charlie Lindgren</td>
-      <td>lindgch01</td>
-      <td>3</td>
-      <td>16.23</td>
-    </tr>
-    <tr>
-      <td>1/27/2024</td>
-      <td>DAL</td>
-      <td>vs</td>
-      <td>WSH</td>
-      <td>W</td>
-      <td>Wyatt Johnston</td>
-      <td>johnswy01</td>
-      <td>Roope Hintz</td>
-      <td>hintzro01</td>
-      <td>Miro Heiskanen</td>
-      <td>heiskmi01</td>
-      <td>Charlie Lindgren</td>
-      <td>lindgch01</td>
-      <td>1</td>
-      <td>10.73</td>
-    </tr>
-    <tr>
-      <td>1/27/2024</td>
-      <td>DAL</td>
-      <td>vs</td>
-      <td>WSH</td>
-      <td>W</td>
-      <td>Thomas Harley</td>
-      <td>harleth01</td>
-      <td>Jamie Benn</td>
-      <td>bennja01</td>
-      <td>Sam Steel</td>
-      <td>steelsa01</td>
-      <td>Charlie Lindgren</td>
-      <td>lindgch01</td>
-      <td>1</td>
-      <td>11.12</td>
-    </tr>
-    <tr>
-      <td>1/27/2024</td>
-      <td>DAL</td>
-      <td>vs</td>
-      <td>WSH</td>
-      <td>W</td>
-      <td>Mason Marchment</td>
-      <td>marchma01</td>
-      <td>Tyler Seguin</td>
-      <td>seguity01</td>
-      <td>Miro Heiskanen</td>
-      <td>heiskmi01</td>
-      <td>Charlie Lindgren</td>
-      <td>lindgch01</td>
-      <td>2</td>
-      <td>11.00</td>
-    </tr>
-    <tr>
-      <td>1/27/2024</td>
-      <td>DAL</td>
-      <td>vs</td>
-      <td>WSH</td>
-      <td>W</td>
-      <td>Matt Duchene</td>
-      <td>duchema01</td>
-      <td>Mason Marchment</td>
-      <td>marchma01</td>
-      <td>Tyler Seguin</td>
-      <td>seguity01</td>
-      <td>Charlie Lindgren</td>
-      <td>lindgch01</td>
-      <td>3</td>
-      <td>2.40</td>
-    </tr>
-    <tr>
-      <td>1/27/2024</td>
-      <td>DAL</td>
-      <td>vs</td>
-      <td>WSH</td>
-      <td>W</td>
-      <td>Thomas Harley</td>
-      <td>harleth01</td>
-      <td>Jason Robertson</td>
-      <td>roberja01</td>
-      <td>Matt Duchene</td>
-      <td>duchema01</td>
-      <td>Charlie Lindgren</td>
-      <td>lindgch01</td>
-      <td>OT</td>
-      <td>3.45</td>
-    </tr>
-    <tr>
-      <td>2/6/2024</td>
-      <td>MTL</td>
-      <td>@</td>
-      <td>WSH</td>
-      <td>W</td>
-      <td>Nick Suzuki</td>
-      <td>suzukni01</td>
-      <td>Cole Caufield</td>
-      <td>caufico01</td>
-      <td>-</td>
-      <td>NaN</td>
-      <td>Charlie Lindgren</td>
-      <td>lindgch01</td>
-      <td>1</td>
-      <td>6.70</td>
-    </tr>
-    <tr>
-      <td>2/6/2024</td>
-      <td>MTL</td>
-      <td>@</td>
-      <td>WSH</td>
-      <td>W</td>
-      <td>Nick Suzuki</td>
-      <td>suzukni01</td>
-      <td>Arber Xhekaj</td>
-      <td>xhekaar01</td>
-      <td>-</td>
-      <td>NaN</td>
-      <td>Charlie Lindgren</td>
-      <td>lindgch01</td>
-      <td>1</td>
-      <td>7.65</td>
-    </tr>
-    <tr>
-      <td>2/6/2024</td>
-      <td>MTL</td>
-      <td>@</td>
-      <td>WSH</td>
-      <td>W</td>
-      <td>Michael Pezzetta</td>
-      <td>pezzemi01</td>
-      <td>Rafaël Harvey-Pinard</td>
-      <td>harvera01</td>
-      <td>-</td>
-      <td>NaN</td>
-      <td>Charlie Lindgren</td>
-      <td>lindgch01</td>
-      <td>1</td>
-      <td>13.12</td>
-    </tr>
-    <tr>
-      <td>2/13/2024</td>
-      <td>COL</td>
-      <td>@</td>
-      <td>WSH</td>
-      <td>W</td>
-      <td>Ross Colton</td>
-      <td>coltoro01</td>
-      <td>Miles Wood</td>
-      <td>woodmi01</td>
-      <td>Artturi Lehkonen</td>
-      <td>lehkoar01</td>
-      <td>Charlie Lindgren</td>
-      <td>lindgch01</td>
-      <td>1</td>
-      <td>2.77</td>
-    </tr>
-    <tr>
-      <td>2/13/2024</td>
-      <td>COL</td>
-      <td>@</td>
-      <td>WSH</td>
-      <td>W</td>
-      <td>Devon Toews</td>
-      <td>toewsde01</td>
-      <td>Ryan Johansen</td>
-      <td>johanry01</td>
-      <td>Andrew Cogliano</td>
-      <td>coglian01</td>
-      <td>Charlie Lindgren</td>
-      <td>lindgch01</td>
-      <td>1</td>
-      <td>4.95</td>
-    </tr>
-    <tr>
-      <td>2/13/2024</td>
-      <td>COL</td>
-      <td>@</td>
-      <td>WSH</td>
-      <td>W</td>
-      <td>Artturi Lehkonen</td>
-      <td>lehkoar01</td>
-      <td>Ross Colton</td>
-      <td>coltoro01</td>
-      <td>Bowen Byram</td>
-      <td>byrambo01</td>
-      <td>Charlie Lindgren</td>
-      <td>lindgch01</td>
-      <td>2</td>
-      <td>8.83</td>
-    </tr>
-    <tr>
-      <td>2/13/2024</td>
-      <td>COL</td>
-      <td>@</td>
-      <td>WSH</td>
-      <td>W</td>
-      <td>Mikko Rantanen</td>
-      <td>rantami01</td>
-      <td>Artturi Lehkonen</td>
-      <td>lehkoar01</td>
-      <td>Nathan MacKinnon</td>
-      <td>mackina01</td>
-      <td>Charlie Lindgren</td>
-      <td>lindgch01</td>
-      <td>2</td>
-      <td>17.05</td>
-    </tr>
-    <tr>
-      <td>2/20/2024</td>
-      <td>NJD</td>
-      <td>@</td>
-      <td>WSH</td>
-      <td>L</td>
-      <td>Alexander Holtz</td>
-      <td>holtzal01</td>
-      <td>Simon Nemec</td>
-      <td>nemecsi01</td>
-      <td>-</td>
-      <td>NaN</td>
-      <td>Charlie Lindgren</td>
-      <td>lindgch01</td>
-      <td>1</td>
-      <td>15.10</td>
-    </tr>
-    <tr>
-      <td>2/20/2024</td>
-      <td>NJD</td>
-      <td>@</td>
-      <td>WSH</td>
-      <td>L</td>
-      <td>Erik Haula</td>
-      <td>haulaer01</td>
-      <td>Tyler Toffoli</td>
-      <td>toffoty01</td>
-      <td>Brendan Smith</td>
-      <td>smithbr05</td>
-      <td>Charlie Lindgren</td>
-      <td>lindgch01</td>
-      <td>3</td>
-      <td>15.57</td>
-    </tr>
-    <tr>
-      <td>2/22/2024</td>
-      <td>TBL</td>
-      <td>vs</td>
-      <td>WSH</td>
-      <td>L</td>
-      <td>Brandon Hagel</td>
-      <td>hagelbr01</td>
-      <td>Brayden Point</td>
-      <td>pointbr01</td>
-      <td>Nikita Kucherov</td>
-      <td>kucheni01</td>
-      <td>Charlie Lindgren</td>
-      <td>lindgch01</td>
-      <td>2</td>
-      <td>9.27</td>
-    </tr>
-    <tr>
-      <td>2/22/2024</td>
-      <td>TBL</td>
-      <td>vs</td>
-      <td>WSH</td>
-      <td>L</td>
-      <td>Nick Paul</td>
-      <td>paulni01</td>
-      <td>Conor Sheary</td>
-      <td>shearco01</td>
-      <td>Calvin de Haan</td>
-      <td>dehaaca01</td>
-      <td>Charlie Lindgren</td>
-      <td>lindgch01</td>
-      <td>3</td>
-      <td>2.70</td>
-    </tr>
-    <tr>
-      <td>2/22/2024</td>
-      <td>TBL</td>
-      <td>vs</td>
-      <td>WSH</td>
-      <td>L</td>
-      <td>Tyler Motte</td>
-      <td>mottety01</td>
-      <td>Nicklaus Perbix</td>
-      <td>perbini01</td>
-      <td>-</td>
-      <td>NaN</td>
-      <td>Charlie Lindgren</td>
-      <td>lindgch01</td>
-      <td>3</td>
-      <td>3.10</td>
-    </tr>
-    <tr>
-      <td>2/24/2024</td>
-      <td>FLA</td>
-      <td>vs</td>
-      <td>WSH</td>
-      <td>W</td>
-      <td>Nick Cousins</td>
-      <td>cousini01</td>
-      <td>Dmitry Kulikov</td>
-      <td>kulikdm01</td>
-      <td>Brandon Montour</td>
-      <td>montobr01</td>
-      <td>Charlie Lindgren</td>
-      <td>lindgch01</td>
-      <td>2</td>
-      <td>4.05</td>
-    </tr>
-    <tr>
-      <td>2/24/2024</td>
-      <td>FLA</td>
-      <td>vs</td>
-      <td>WSH</td>
-      <td>W</td>
-      <td>Aleksander Barkov</td>
-      <td>barkoal01</td>
-      <td>Carter Verhaeghe</td>
-      <td>verhaca01</td>
-      <td>Brandon Montour</td>
-      <td>montobr01</td>
-      <td>Charlie Lindgren</td>
-      <td>lindgch01</td>
-      <td>3</td>
-      <td>16.50</td>
-    </tr>
-    <tr>
-      <td>2/24/2024</td>
-      <td>FLA</td>
-      <td>vs</td>
-      <td>WSH</td>
-      <td>W</td>
-      <td>Gustav Forsling</td>
-      <td>forslgu02</td>
-      <td>Sam Bennett</td>
-      <td>bennesa01</td>
-      <td>-</td>
-      <td>NaN</td>
-      <td>Charlie Lindgren</td>
-      <td>lindgch01</td>
-      <td>OT</td>
-      <td>3.68</td>
-    </tr>
-    <tr>
-      <td>2/27/2024</td>
-      <td>DET</td>
-      <td>vs</td>
-      <td>WSH</td>
-      <td>W</td>
-      <td>Shayne Gostisbehere</td>
-      <td>gostish01</td>
-      <td>Joe Veleno</td>
-      <td>velenjo01</td>
-      <td>David Perron</td>
-      <td>perroda01</td>
-      <td>Charlie Lindgren</td>
-      <td>lindgch01</td>
-      <td>1</td>
-      <td>5.75</td>
-    </tr>
-    <tr>
-      <td>2/27/2024</td>
-      <td>DET</td>
-      <td>vs</td>
-      <td>WSH</td>
-      <td>W</td>
-      <td>Lucas Raymond</td>
-      <td>raymolu01</td>
-      <td>J.T. Compher</td>
-      <td>comphj.01</td>
-      <td>Michael Rasmussen</td>
-      <td>rasmumi01</td>
-      <td>Charlie Lindgren</td>
-      <td>lindgch01</td>
-      <td>1</td>
-      <td>16.33</td>
-    </tr>
-    <tr>
-      <td>2/27/2024</td>
-      <td>DET</td>
-      <td>vs</td>
-      <td>WSH</td>
-      <td>W</td>
-      <td>Joe Veleno</td>
-      <td>velenjo01</td>
-      <td>David Perron</td>
-      <td>perroda01</td>
-      <td>-</td>
-      <td>NaN</td>
-      <td>Charlie Lindgren</td>
-      <td>lindgch01</td>
-      <td>2</td>
-      <td>4.73</td>
-    </tr>
-    <tr>
-      <td>2/27/2024</td>
-      <td>DET</td>
-      <td>vs</td>
-      <td>WSH</td>
-      <td>W</td>
-      <td>Shayne Gostisbehere</td>
-      <td>gostish01</td>
-      <td>Lucas Raymond</td>
-      <td>raymolu01</td>
-      <td>-</td>
-      <td>NaN</td>
-      <td>Charlie Lindgren</td>
-      <td>lindgch01</td>
-      <td>2</td>
-      <td>9.02</td>
-    </tr>
-    <tr>
-      <td>2/27/2024</td>
-      <td>DET</td>
-      <td>vs</td>
-      <td>WSH</td>
-      <td>W</td>
-      <td>J.T. Compher</td>
-      <td>comphj.01</td>
-      <td>Andrew Copp</td>
-      <td>coppan01</td>
-      <td>Moritz Seider</td>
-      <td>seidemo01</td>
-      <td>Charlie Lindgren</td>
-      <td>lindgch01</td>
-      <td>2</td>
-      <td>19.78</td>
-    </tr>
-    <tr>
-      <td>2/27/2024</td>
-      <td>DET</td>
-      <td>vs</td>
-      <td>WSH</td>
-      <td>W</td>
-      <td>Robby Fabbri</td>
-      <td>fabbrro01</td>
-      <td>Patrick Kane</td>
-      <td>kanepa01</td>
-      <td>Daniel Sprong</td>
-      <td>spronda01</td>
-      <td>Charlie Lindgren</td>
-      <td>lindgch01</td>
-      <td>3</td>
-      <td>4.52</td>
-    </tr>
-    <tr>
-      <td>2/27/2024</td>
-      <td>DET</td>
-      <td>vs</td>
-      <td>WSH</td>
-      <td>W</td>
-      <td>Alex DeBrincat</td>
-      <td>debrial01</td>
-      <td>Dylan Larkin</td>
-      <td>larkidy01</td>
-      <td>Patrick Kane</td>
-      <td>kanepa01</td>
-      <td>Charlie Lindgren</td>
-      <td>lindgch01</td>
-      <td>3</td>
-      <td>11.82</td>
-    </tr>
-    <tr>
-      <td>2/27/2024</td>
-      <td>DET</td>
-      <td>vs</td>
-      <td>WSH</td>
-      <td>W</td>
-      <td>Dylan Larkin</td>
-      <td>larkidy01</td>
-      <td>Lucas Raymond</td>
-      <td>raymolu01</td>
-      <td>Olli Määttä</td>
-      <td>maattol01</td>
-      <td>Charlie Lindgren</td>
-      <td>lindgch01</td>
-      <td>3</td>
-      <td>14.18</td>
-    </tr>
-    <tr>
-      <td>3/1/2024</td>
-      <td>PHI</td>
-      <td>@</td>
-      <td>WSH</td>
-      <td>L</td>
-      <td>Bobby Brink</td>
-      <td>brinkbo01</td>
-      <td>Morgan Frost</td>
-      <td>frostmo01</td>
-      <td>Owen Tippett</td>
-      <td>tippeow01</td>
-      <td>Charlie Lindgren</td>
-      <td>lindgch01</td>
-      <td>1</td>
-      <td>1.87</td>
-    </tr>
-    <tr>
-      <td>3/1/2024</td>
-      <td>PHI</td>
-      <td>@</td>
-      <td>WSH</td>
-      <td>L</td>
-      <td>Owen Tippett</td>
-      <td>tippeow01</td>
-      <td>Yegor Zamula</td>
-      <td>zamulye01</td>
-      <td>Morgan Frost</td>
-      <td>frostmo01</td>
-      <td>Charlie Lindgren</td>
-      <td>lindgch01</td>
-      <td>1</td>
-      <td>18.38</td>
-    </tr>
-    <tr>
-      <td>3/3/2024</td>
-      <td>ARI</td>
-      <td>@</td>
-      <td>WSH</td>
-      <td>W</td>
-      <td>Logan Cooley</td>
-      <td>coolelo01</td>
-      <td>Jason Zucker</td>
-      <td>zuckeja01</td>
-      <td>Dylan Guenther</td>
-      <td>guentdy01</td>
-      <td>Charlie Lindgren</td>
-      <td>lindgch01</td>
-      <td>1</td>
-      <td>7.55</td>
-    </tr>
-    <tr>
-      <td>3/3/2024</td>
-      <td>ARI</td>
-      <td>@</td>
-      <td>WSH</td>
-      <td>W</td>
-      <td>Jason Zucker</td>
-      <td>zuckeja01</td>
-      <td>Dylan Guenther</td>
-      <td>guentdy01</td>
-      <td>Nick Schmaltz</td>
-      <td>schmani01</td>
-      <td>Charlie Lindgren</td>
-      <td>lindgch01</td>
-      <td>2</td>
-      <td>4.10</td>
-    </tr>
-    <tr>
-      <td>3/3/2024</td>
-      <td>ARI</td>
-      <td>@</td>
-      <td>WSH</td>
-      <td>W</td>
-      <td>Michael Kesselring</td>
-      <td>kessemi01</td>
-      <td>Liam O'Brien</td>
-      <td>obrieli01</td>
-      <td>Juuso Välimäki</td>
-      <td>valimju01</td>
-      <td>Charlie Lindgren</td>
-      <td>lindgch01</td>
-      <td>2</td>
-      <td>6.75</td>
-    </tr>
-    <tr>
-      <td>3/3/2024</td>
-      <td>ARI</td>
-      <td>@</td>
-      <td>WSH</td>
-      <td>W</td>
-      <td>Dylan Guenther</td>
-      <td>guentdy01</td>
-      <td>Matias Maccelli</td>
-      <td>maccema01</td>
-      <td>Sean Durzi</td>
-      <td>durzise01</td>
-      <td>Charlie Lindgren</td>
-      <td>lindgch01</td>
-      <td>2</td>
-      <td>18.02</td>
-    </tr>
-    <tr>
-      <td>3/9/2024</td>
-      <td>CHI</td>
-      <td>@</td>
-      <td>WSH</td>
-      <td>L</td>
-      <td>Tyler Johnson</td>
-      <td>johnsty01</td>
-      <td>Jarred Tinordi</td>
-      <td>tinorja01</td>
-      <td>Zach Sanford</td>
-      <td>sanfoza01</td>
-      <td>Charlie Lindgren</td>
-      <td>lindgch01</td>
-      <td>3</td>
-      <td>9.82</td>
-    </tr>
-    <tr>
-      <td>3/11/2024</td>
-      <td>WPG</td>
-      <td>vs</td>
-      <td>WSH</td>
-      <td>W</td>
-      <td>Neal Pionk</td>
-      <td>pionkne01</td>
-      <td>Mason Appleton</td>
-      <td>applema01</td>
-      <td>Adam Lowry</td>
-      <td>lowryad01</td>
-      <td>Charlie Lindgren</td>
-      <td>lindgch01</td>
-      <td>1</td>
-      <td>10.08</td>
-    </tr>
-    <tr>
-      <td>3/11/2024</td>
-      <td>WPG</td>
-      <td>vs</td>
-      <td>WSH</td>
-      <td>W</td>
-      <td>Alex Iafallo</td>
-      <td>iafalal01</td>
-      <td>Josh Morrissey</td>
-      <td>morrijo04</td>
-      <td>Dylan DeMelo</td>
-      <td>demeldy01</td>
-      <td>Charlie Lindgren</td>
-      <td>lindgch01</td>
-      <td>2</td>
-      <td>8.27</td>
-    </tr>
-    <tr>
-      <td>3/11/2024</td>
-      <td>WPG</td>
-      <td>vs</td>
-      <td>WSH</td>
-      <td>W</td>
-      <td>Kyle Connor</td>
-      <td>connoky01</td>
-      <td>Mark Scheifele</td>
-      <td>scheima01</td>
-      <td>Nikolaj Ehlers</td>
-      <td>ehlerni01</td>
-      <td>Charlie Lindgren</td>
-      <td>lindgch01</td>
-      <td>3</td>
-      <td>10.00</td>
-    </tr>
-    <tr>
-      <td>3/14/2024</td>
-      <td>SEA</td>
-      <td>vs</td>
-      <td>WSH</td>
-      <td>L</td>
-      <td>Oliver Bjorkstrand</td>
-      <td>bjorkol01</td>
-      <td>Yanni Gourde</td>
-      <td>gourdya01</td>
-      <td>Kailer Yamamoto</td>
-      <td>yamamka01</td>
-      <td>Charlie Lindgren</td>
-      <td>lindgch01</td>
-      <td>3</td>
-      <td>3.53</td>
-    </tr>
-    <tr>
-      <td>3/16/2024</td>
-      <td>VAN</td>
-      <td>vs</td>
-      <td>WSH</td>
-      <td>L</td>
-      <td>Brock Boeser</td>
-      <td>boesebr01</td>
-      <td>Quinn Hughes</td>
-      <td>hughequ01</td>
-      <td>Ilya Mikheyev</td>
-      <td>mikheil01</td>
-      <td>Charlie Lindgren</td>
-      <td>lindgch01</td>
-      <td>1</td>
-      <td>1.18</td>
-    </tr>
-    <tr>
-      <td>3/18/2024</td>
-      <td>CGY</td>
-      <td>vs</td>
-      <td>WSH</td>
-      <td>L</td>
-      <td>Kevin Rooney</td>
-      <td>rooneke01</td>
-      <td>Brayden Pachal</td>
-      <td>pachabr01</td>
-      <td>Matthew Coronato</td>
-      <td>coronma01</td>
-      <td>Charlie Lindgren</td>
-      <td>lindgch01</td>
-      <td>2</td>
-      <td>10.68</td>
-    </tr>
-    <tr>
-      <td>3/18/2024</td>
-      <td>CGY</td>
-      <td>vs</td>
-      <td>WSH</td>
-      <td>L</td>
-      <td>MacKenzie Weegar</td>
-      <td>weegama01</td>
-      <td>Mikael Backlund</td>
-      <td>backlmi01</td>
-      <td>-</td>
-      <td>NaN</td>
-      <td>Charlie Lindgren</td>
-      <td>lindgch01</td>
-      <td>3</td>
-      <td>7.22</td>
-    </tr>
-    <tr>
-      <td>3/20/2024</td>
-      <td>TOR</td>
-      <td>@</td>
-      <td>WSH</td>
-      <td>W</td>
-      <td>Auston Matthews</td>
-      <td>matthau01</td>
-      <td>Max Domi</td>
-      <td>domima01</td>
-      <td>-</td>
-      <td>NaN</td>
-      <td>Charlie Lindgren</td>
-      <td>lindgch01</td>
-      <td>1</td>
-      <td>0.27</td>
-    </tr>
-    <tr>
-      <td>3/20/2024</td>
-      <td>TOR</td>
-      <td>@</td>
-      <td>WSH</td>
-      <td>W</td>
-      <td>William Nylander</td>
-      <td>nylanwi01</td>
-      <td>John Tavares</td>
-      <td>tavarjo01</td>
-      <td>Matthew Knies</td>
-      <td>kniesma01</td>
-      <td>Charlie Lindgren</td>
-      <td>lindgch01</td>
-      <td>2</td>
-      <td>0.93</td>
-    </tr>
-    <tr>
-      <td>3/20/2024</td>
-      <td>TOR</td>
-      <td>@</td>
-      <td>WSH</td>
-      <td>W</td>
-      <td>Auston Matthews</td>
-      <td>matthau01</td>
-      <td>Max Domi</td>
-      <td>domima01</td>
-      <td>Timothy Liljegren</td>
-      <td>liljeti01</td>
-      <td>Charlie Lindgren</td>
-      <td>lindgch01</td>
-      <td>2</td>
-      <td>12.98</td>
-    </tr>
-    <tr>
-      <td>3/20/2024</td>
-      <td>TOR</td>
-      <td>@</td>
-      <td>WSH</td>
-      <td>W</td>
-      <td>Jake McCabe</td>
-      <td>mccabja01</td>
-      <td>Max Domi</td>
-      <td>domima01</td>
-      <td>Auston Matthews</td>
-      <td>matthau01</td>
-      <td>Charlie Lindgren</td>
-      <td>lindgch01</td>
-      <td>2</td>
-      <td>19.58</td>
-    </tr>
-    <tr>
-      <td>3/20/2024</td>
-      <td>TOR</td>
-      <td>@</td>
-      <td>WSH</td>
-      <td>W</td>
-      <td>Bobby McMann</td>
-      <td>mcmanbo02</td>
-      <td>William Nylander</td>
-      <td>nylanwi01</td>
-      <td>John Tavares</td>
-      <td>tavarjo01</td>
-      <td>Charlie Lindgren</td>
-      <td>lindgch01</td>
-      <td>3</td>
-      <td>7.97</td>
-    </tr>
-    <tr>
-      <td>3/20/2024</td>
-      <td>TOR</td>
-      <td>@</td>
-      <td>WSH</td>
-      <td>W</td>
-      <td>Tyler Bertuzzi</td>
-      <td>bertuty01</td>
-      <td>Auston Matthews</td>
-      <td>matthau01</td>
-      <td>Max Domi</td>
-      <td>domima01</td>
-      <td>Charlie Lindgren</td>
-      <td>lindgch01</td>
-      <td>3</td>
-      <td>8.60</td>
-    </tr>
-    <tr>
-      <td>3/20/2024</td>
-      <td>TOR</td>
-      <td>@</td>
-      <td>WSH</td>
-      <td>W</td>
-      <td>John Tavares</td>
-      <td>tavarjo01</td>
-      <td>William Nylander</td>
-      <td>nylanwi01</td>
-      <td>Auston Matthews</td>
-      <td>matthau01</td>
-      <td>Charlie Lindgren</td>
-      <td>lindgch01</td>
-      <td>3</td>
-      <td>16.03</td>
-    </tr>
-    <tr>
-      <td>3/22/2024</td>
-      <td>CAR</td>
-      <td>@</td>
-      <td>WSH</td>
-      <td>L</td>
-      <td>Seth Jarvis</td>
-      <td>jarvise01</td>
-      <td>Jake Guentzel</td>
-      <td>guentja01</td>
-      <td>Andrei Svechnikov</td>
-      <td>svechan01</td>
-      <td>Charlie Lindgren</td>
-      <td>lindgch01</td>
-      <td>3</td>
-      <td>9.58</td>
-    </tr>
-    <tr>
-      <td>3/22/2024</td>
-      <td>CAR</td>
-      <td>@</td>
-      <td>WSH</td>
-      <td>L</td>
-      <td>Sebastian Aho</td>
-      <td>ahose01</td>
-      <td>Martin Nečas</td>
-      <td>necasma01</td>
-      <td>Brent Burns</td>
-      <td>burnsbr01</td>
-      <td>Charlie Lindgren</td>
-      <td>lindgch01</td>
-      <td>3</td>
-      <td>17.65</td>
-    </tr>
-    <tr>
-      <td>3/26/2024</td>
-      <td>DET</td>
-      <td>@</td>
-      <td>WSH</td>
-      <td>L</td>
-      <td>Alex DeBrincat</td>
-      <td>debrial01</td>
-      <td>Jeff Petry</td>
-      <td>petryje01</td>
-      <td>J.T. Compher</td>
-      <td>comphj.01</td>
-      <td>Charlie Lindgren</td>
-      <td>lindgch01</td>
-      <td>2</td>
-      <td>4.88</td>
-    </tr>
-    <tr>
-      <td>3/26/2024</td>
-      <td>DET</td>
-      <td>@</td>
-      <td>WSH</td>
-      <td>L</td>
-      <td>David Perron</td>
-      <td>perroda01</td>
-      <td>J.T. Compher</td>
-      <td>comphj.01</td>
-      <td>Dylan Larkin</td>
-      <td>larkidy01</td>
-      <td>Charlie Lindgren</td>
-      <td>lindgch01</td>
-      <td>2</td>
-      <td>19.28</td>
-    </tr>
-    <tr>
-      <td>3/26/2024</td>
-      <td>DET</td>
-      <td>@</td>
-      <td>WSH</td>
-      <td>L</td>
-      <td>Patrick Kane</td>
-      <td>kanepa01</td>
-      <td>Alex DeBrincat</td>
-      <td>debrial01</td>
-      <td>-</td>
-      <td>NaN</td>
-      <td>Charlie Lindgren</td>
-      <td>lindgch01</td>
-      <td>3</td>
-      <td>14.67</td>
-    </tr>
-    <tr>
-      <td>3/28/2024</td>
-      <td>TOR</td>
-      <td>vs</td>
-      <td>WSH</td>
-      <td>W</td>
-      <td>Mark Giordano</td>
-      <td>giordma01</td>
-      <td>Matthew Knies</td>
-      <td>kniesma01</td>
-      <td>-</td>
-      <td>NaN</td>
-      <td>Charlie Lindgren</td>
-      <td>lindgch01</td>
-      <td>1</td>
-      <td>10.15</td>
-    </tr>
-    <tr>
-      <td>3/28/2024</td>
-      <td>TOR</td>
-      <td>vs</td>
-      <td>WSH</td>
-      <td>W</td>
-      <td>Tyler Bertuzzi</td>
-      <td>bertuty01</td>
-      <td>T.J. Brodie</td>
-      <td>broditj01</td>
-      <td>Auston Matthews</td>
-      <td>matthau01</td>
-      <td>Charlie Lindgren</td>
-      <td>lindgch01</td>
-      <td>2</td>
-      <td>0.30</td>
-    </tr>
-    <tr>
-      <td>3/28/2024</td>
-      <td>TOR</td>
-      <td>vs</td>
-      <td>WSH</td>
-      <td>W</td>
-      <td>Connor Dewar</td>
-      <td>dewarco01</td>
-      <td>Ryan Reaves</td>
-      <td>reavery01</td>
-      <td>David Kämpf</td>
-      <td>kampfda01</td>
-      <td>Charlie Lindgren</td>
-      <td>lindgch01</td>
-      <td>2</td>
-      <td>11.63</td>
-    </tr>
-    <tr>
-      <td>3/28/2024</td>
-      <td>TOR</td>
-      <td>vs</td>
-      <td>WSH</td>
-      <td>W</td>
-      <td>Bobby McMann</td>
-      <td>mcmanbo02</td>
-      <td>John Tavares</td>
-      <td>tavarjo01</td>
-      <td>Simon Benoit</td>
-      <td>benoisi01</td>
-      <td>Charlie Lindgren</td>
-      <td>lindgch01</td>
-      <td>3</td>
-      <td>1.10</td>
-    </tr>
-    <tr>
-      <td>3/28/2024</td>
-      <td>TOR</td>
-      <td>vs</td>
-      <td>WSH</td>
-      <td>W</td>
-      <td>Tyler Bertuzzi</td>
-      <td>bertuty01</td>
-      <td>-</td>
-      <td>NaN</td>
-      <td>-</td>
-      <td>NaN</td>
-      <td>Charlie Lindgren</td>
-      <td>lindgch01</td>
-      <td>3</td>
-      <td>10.18</td>
-    </tr>
-    <tr>
-      <td>3/30/2024</td>
-      <td>BOS</td>
-      <td>@</td>
-      <td>WSH</td>
-      <td>W</td>
-      <td>Hampus Lindholm</td>
-      <td>lindhha01</td>
-      <td>Pavel Zacha</td>
-      <td>zachapa01</td>
-      <td>David Pastrňák</td>
-      <td>pastrda01</td>
-      <td>Charlie Lindgren</td>
-      <td>lindgch01</td>
-      <td>1</td>
-      <td>18.78</td>
-    </tr>
-    <tr>
-      <td>3/30/2024</td>
-      <td>BOS</td>
-      <td>@</td>
-      <td>WSH</td>
-      <td>W</td>
-      <td>John Beecher</td>
-      <td>beechjo01</td>
-      <td>-</td>
-      <td>NaN</td>
-      <td>-</td>
-      <td>NaN</td>
-      <td>Charlie Lindgren</td>
-      <td>lindgch01</td>
-      <td>2</td>
-      <td>2.37</td>
-    </tr>
-    <tr>
-      <td>4/2/2024</td>
-      <td>BUF</td>
-      <td>vs</td>
-      <td>WSH</td>
-      <td>W</td>
-      <td>Zemgus Girgensons</td>
-      <td>girgeze01</td>
-      <td>Rasmus Dahlin</td>
-      <td>dahlira01</td>
-      <td>Owen Power</td>
-      <td>powerow01</td>
-      <td>Charlie Lindgren</td>
-      <td>lindgch01</td>
-      <td>1</td>
-      <td>15.70</td>
-    </tr>
-    <tr>
-      <td>4/2/2024</td>
-      <td>BUF</td>
-      <td>vs</td>
-      <td>WSH</td>
-      <td>W</td>
-      <td>John-Jason Peterka</td>
-      <td>peterjo01</td>
-      <td>Alex Tuch</td>
-      <td>tuchal01</td>
-      <td>Zach Benson</td>
-      <td>bensoza01</td>
-      <td>Charlie Lindgren</td>
-      <td>lindgch01</td>
-      <td>1</td>
-      <td>16.83</td>
-    </tr>
-    <tr>
-      <td>4/2/2024</td>
-      <td>BUF</td>
-      <td>vs</td>
-      <td>WSH</td>
-      <td>W</td>
-      <td>John-Jason Peterka</td>
-      <td>peterjo01</td>
-      <td>Alex Tuch</td>
-      <td>tuchal01</td>
-      <td>-</td>
-      <td>NaN</td>
-      <td>Charlie Lindgren</td>
-      <td>lindgch01</td>
-      <td>2</td>
-      <td>10.90</td>
-    </tr>
-    <tr>
-      <td>4/2/2024</td>
-      <td>BUF</td>
-      <td>vs</td>
-      <td>WSH</td>
-      <td>W</td>
-      <td>Rasmus Dahlin</td>
-      <td>dahlira01</td>
-      <td>John-Jason Peterka</td>
-      <td>peterjo01</td>
-      <td>Tage Thompson</td>
-      <td>thompta01</td>
-      <td>Charlie Lindgren</td>
-      <td>lindgch01</td>
-      <td>3</td>
-      <td>3.05</td>
-    </tr>
-    <tr>
-      <td>4/2/2024</td>
-      <td>BUF</td>
-      <td>vs</td>
-      <td>WSH</td>
-      <td>W</td>
-      <td>Tage Thompson</td>
-      <td>thompta01</td>
-      <td>Jack Quinn</td>
-      <td>quinnja01</td>
-      <td>Zach Benson</td>
-      <td>bensoza01</td>
-      <td>Charlie Lindgren</td>
-      <td>lindgch01</td>
-      <td>3</td>
-      <td>4.80</td>
-    </tr>
-    <tr>
-      <td>4/2/2024</td>
-      <td>BUF</td>
-      <td>vs</td>
-      <td>WSH</td>
-      <td>W</td>
-      <td>Alex Tuch</td>
-      <td>tuchal01</td>
-      <td>Tage Thompson</td>
-      <td>thompta01</td>
-      <td>Rasmus Dahlin</td>
-      <td>dahlira01</td>
-      <td>Charlie Lindgren</td>
-      <td>lindgch01</td>
-      <td>3</td>
-      <td>5.55</td>
-    </tr>
-    <tr>
-      <td>4/4/2024</td>
-      <td>PIT</td>
-      <td>@</td>
-      <td>WSH</td>
-      <td>W</td>
-      <td>Ryan Shea</td>
-      <td>sheary01</td>
-      <td>Reilly Smith</td>
-      <td>smithre01</td>
-      <td>Lars Eller</td>
-      <td>ellerla01</td>
-      <td>Charlie Lindgren</td>
-      <td>lindgch01</td>
-      <td>1</td>
-      <td>1.82</td>
-    </tr>
-    <tr>
-      <td>4/4/2024</td>
-      <td>PIT</td>
-      <td>@</td>
-      <td>WSH</td>
-      <td>W</td>
-      <td>Pierre-Olivier Joseph</td>
-      <td>joseppi01</td>
-      <td>Kris Letang</td>
-      <td>letankr01</td>
-      <td>Drew O'Connor</td>
-      <td>oconndr01</td>
-      <td>Charlie Lindgren</td>
-      <td>lindgch01</td>
-      <td>1</td>
-      <td>11.05</td>
-    </tr>
-    <tr>
-      <td>4/4/2024</td>
-      <td>PIT</td>
-      <td>@</td>
-      <td>WSH</td>
-      <td>W</td>
-      <td>Michael Bunting</td>
-      <td>buntimi01</td>
-      <td>Valtteri Puustinen</td>
-      <td>puustva01</td>
-      <td>Erik Karlsson</td>
-      <td>karlser01</td>
-      <td>Charlie Lindgren</td>
-      <td>lindgch01</td>
-      <td>2</td>
-      <td>9.13</td>
-    </tr>
-    <tr>
-      <td>4/7/2024</td>
-      <td>OTT</td>
-      <td>@</td>
-      <td>WSH</td>
-      <td>W</td>
-      <td>Mark Kastelic</td>
-      <td>kastema01</td>
-      <td>Jakob Chychrun</td>
-      <td>chychja01</td>
-      <td>Parker Kelly</td>
-      <td>kellypa01</td>
-      <td>Charlie Lindgren</td>
-      <td>lindgch01</td>
-      <td>2</td>
-      <td>5.67</td>
-    </tr>
-    <tr>
-      <td>4/7/2024</td>
-      <td>OTT</td>
-      <td>@</td>
-      <td>WSH</td>
-      <td>W</td>
-      <td>Ridly Greig</td>
-      <td>greigri01</td>
-      <td>Shane Pinto</td>
-      <td>pintosh01</td>
-      <td>Erik Brännström</td>
-      <td>branner01</td>
-      <td>Charlie Lindgren</td>
-      <td>lindgch01</td>
-      <td>3</td>
-      <td>12.82</td>
-    </tr>
-    <tr>
-      <td>4/7/2024</td>
-      <td>OTT</td>
-      <td>@</td>
-      <td>WSH</td>
-      <td>W</td>
-      <td>Jake Sanderson</td>
-      <td>sandeja01</td>
-      <td>Ridly Greig</td>
-      <td>greigri01</td>
-      <td>Brady Tkachuk</td>
-      <td>tkachbr01</td>
-      <td>Charlie Lindgren</td>
-      <td>lindgch01</td>
-      <td>OT</td>
-      <td>0.68</td>
-    </tr>
-    <tr>
-      <td>4/9/2024</td>
-      <td>DET</td>
-      <td>vs</td>
-      <td>WSH</td>
-      <td>L</td>
-      <td>Patrick Kane</td>
-      <td>kanepa01</td>
-      <td>David Perron</td>
-      <td>perroda01</td>
-      <td>Lucas Raymond</td>
-      <td>raymolu01</td>
-      <td>Charlie Lindgren</td>
-      <td>lindgch01</td>
-      <td>3</td>
-      <td>19.97</td>
-    </tr>
-    <tr>
-      <td>4/11/2024</td>
-      <td>BUF</td>
-      <td>vs</td>
-      <td>WSH</td>
-      <td>W</td>
-      <td>Zach Benson</td>
-      <td>bensoza01</td>
-      <td>Jeff Skinner</td>
-      <td>skinnje01</td>
-      <td>Peyton Krebs</td>
-      <td>krebspe01</td>
-      <td>Charlie Lindgren</td>
-      <td>lindgch01</td>
-      <td>1</td>
-      <td>19.00</td>
-    </tr>
-    <tr>
-      <td>4/11/2024</td>
-      <td>BUF</td>
-      <td>vs</td>
-      <td>WSH</td>
-      <td>W</td>
-      <td>Alex Tuch</td>
-      <td>tuchal01</td>
-      <td>Henri Jokiharju</td>
-      <td>jokihhe01</td>
-      <td>Tage Thompson</td>
-      <td>thompta01</td>
-      <td>Charlie Lindgren</td>
-      <td>lindgch01</td>
-      <td>2</td>
-      <td>12.62</td>
-    </tr>
-    <tr>
-      <td>4/11/2024</td>
-      <td>BUF</td>
-      <td>vs</td>
-      <td>WSH</td>
-      <td>W</td>
-      <td>Jack Quinn</td>
-      <td>quinnja01</td>
-      <td>Connor Clifton</td>
-      <td>cliftco01</td>
-      <td>Jordan Greenway</td>
-      <td>greenjo02</td>
-      <td>Charlie Lindgren</td>
-      <td>lindgch01</td>
-      <td>3</td>
-      <td>9.77</td>
-    </tr>
-    <tr>
-      <td>4/13/2024</td>
-      <td>TBL</td>
-      <td>@</td>
-      <td>WSH</td>
-      <td>L</td>
-      <td>Anthony Duclair</td>
-      <td>duclaan01</td>
-      <td>Brayden Point</td>
-      <td>pointbr01</td>
-      <td>Darren Raddysh</td>
-      <td>raddyda01</td>
-      <td>Charlie Lindgren</td>
-      <td>lindgch01</td>
-      <td>1</td>
-      <td>13.10</td>
-    </tr>
-    <tr>
-      <td>4/13/2024</td>
-      <td>TBL</td>
-      <td>@</td>
-      <td>WSH</td>
-      <td>L</td>
-      <td>Brandon Hagel</td>
-      <td>hagelbr01</td>
-      <td>Steven Stamkos</td>
-      <td>stamkst01</td>
-      <td>Anthony Cirelli</td>
-      <td>cirelan01</td>
-      <td>Charlie Lindgren</td>
-      <td>lindgch01</td>
-      <td>1</td>
-      <td>16.40</td>
-    </tr>
-    <tr>
-      <td>4/16/2024</td>
-      <td>PHI</td>
-      <td>vs</td>
-      <td>WSH</td>
-      <td>L</td>
-      <td>Erik Johnson</td>
-      <td>johnser01</td>
-      <td>Yegor Zamula</td>
-      <td>zamulye01</td>
-      <td>Sean Couturier</td>
-      <td>coutuse01</td>
-      <td>Charlie Lindgren</td>
-      <td>lindgch01</td>
-      <td>2</td>
-      <td>12.48</td>
-    </tr>
-  </tbody>
-</table>
-    
-        </body>
-        </html>
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202310130WSH.html">10/13/2023</a></td>
+          <td><a href="/teams/WSH.html">WSH</a></td>
+          <td>vs</td>
+          <td><a href="/teams/PIT.html">PIT</a></td>
+          <td>L</td>
+          <td>4</td>
+          <td>35</td>
+          <td>31</td>
+          <td>89.00%</td>
+          <td>59.93</td>
+        </tr>
         
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202311040WSH.html">11/4/2023</a></td>
+          <td><a href="/teams/WSH.html">WSH</a></td>
+          <td>vs</td>
+          <td><a href="/teams/CBJ.html">CBJ</a></td>
+          <td>W</td>
+          <td>1</td>
+          <td>35</td>
+          <td>34</td>
+          <td>97.00%</td>
+          <td>59.62</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202311100NJD.html">11/10/2023</a></td>
+          <td><a href="/teams/WSH.html">WSH</a></td>
+          <td>@</td>
+          <td><a href="/teams/NJD.html">NJD</a></td>
+          <td>W</td>
+          <td>2</td>
+          <td>26</td>
+          <td>24</td>
+          <td>92.00%</td>
+          <td>59.1</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202311140WSH.html">11/14/2023</a></td>
+          <td><a href="/teams/WSH.html">WSH</a></td>
+          <td>vs</td>
+          <td><a href="/teams/VEG.html">VEG</a></td>
+          <td>W</td>
+          <td>0</td>
+          <td>35</td>
+          <td>35</td>
+          <td>100.00%</td>
+          <td>60.0</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202311180WSH.html">11/18/2023</a></td>
+          <td><a href="/teams/WSH.html">WSH</a></td>
+          <td>vs</td>
+          <td><a href="/teams/CBJ.html">CBJ</a></td>
+          <td>W</td>
+          <td>3</td>
+          <td>36</td>
+          <td>33</td>
+          <td>92.00%</td>
+          <td>60.0</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202311240WSH.html">11/24/2023</a></td>
+          <td><a href="/teams/WSH.html">WSH</a></td>
+          <td>vs</td>
+          <td><a href="/teams/EDM.html">EDM</a></td>
+          <td>L</td>
+          <td>5</td>
+          <td>35</td>
+          <td>30</td>
+          <td>86.00%</td>
+          <td>59.42</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202311290LAK.html">11/29/2023</a></td>
+          <td><a href="/teams/WSH.html">WSH</a></td>
+          <td>@</td>
+          <td><a href="/teams/LAK.html">LAK</a></td>
+          <td>W</td>
+          <td>1</td>
+          <td>39</td>
+          <td>38</td>
+          <td>97.00%</td>
+          <td>60.0</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202312040ARI.html">12/4/2023</a></td>
+          <td><a href="/teams/WSH.html">WSH</a></td>
+          <td>@</td>
+          <td><a href="/teams/ARI.html">ARI</a></td>
+          <td>L</td>
+          <td>3</td>
+          <td>22</td>
+          <td>19</td>
+          <td>86.00%</td>
+          <td>45.75</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202312070WSH.html">12/7/2023</a></td>
+          <td><a href="/teams/WSH.html">WSH</a></td>
+          <td>vs</td>
+          <td><a href="/teams/DAL.html">DAL</a></td>
+          <td>L-SO</td>
+          <td>4</td>
+          <td>38</td>
+          <td>34</td>
+          <td>90.00%</td>
+          <td>65.0</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202312090WSH.html">12/9/2023</a></td>
+          <td><a href="/teams/WSH.html">WSH</a></td>
+          <td>vs</td>
+          <td><a href="/teams/NYR.html">NYR</a></td>
+          <td>W</td>
+          <td>0</td>
+          <td>31</td>
+          <td>31</td>
+          <td>100.00%</td>
+          <td>60.0</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202312140PHI.html">12/14/2023</a></td>
+          <td><a href="/teams/WSH.html">WSH</a></td>
+          <td>@</td>
+          <td><a href="/teams/PHI.html">PHI</a></td>
+          <td>L-SO</td>
+          <td>3</td>
+          <td>32</td>
+          <td>29</td>
+          <td>91.00%</td>
+          <td>64.5</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202312160NSH.html">12/16/2023</a></td>
+          <td><a href="/teams/WSH.html">WSH</a></td>
+          <td>@</td>
+          <td><a href="/teams/NSH.html">NSH</a></td>
+          <td>L</td>
+          <td>3</td>
+          <td>23</td>
+          <td>20</td>
+          <td>87.00%</td>
+          <td>57.65</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202312210CBJ.html">12/21/2023</a></td>
+          <td><a href="/teams/WSH.html">WSH</a></td>
+          <td>@</td>
+          <td><a href="/teams/CBJ.html">CBJ</a></td>
+          <td>W</td>
+          <td>2</td>
+          <td>36</td>
+          <td>34</td>
+          <td>94.00%</td>
+          <td>64.12</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202312230WSH.html">12/23/2023</a></td>
+          <td><a href="/teams/WSH.html">WSH</a></td>
+          <td>vs</td>
+          <td><a href="/teams/TBL.html">TBL</a></td>
+          <td>L-SO</td>
+          <td>1</td>
+          <td>20</td>
+          <td>19</td>
+          <td>95.00%</td>
+          <td>65.0</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202312290NYI.html">12/29/2023</a></td>
+          <td><a href="/teams/WSH.html">WSH</a></td>
+          <td>@</td>
+          <td><a href="/teams/NYI.html">NYI</a></td>
+          <td>L</td>
+          <td>0</td>
+          <td>3</td>
+          <td>3</td>
+          <td>100.00%</td>
+          <td>6.77</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202401130WSH.html">1/13/2024</a></td>
+          <td><a href="/teams/WSH.html">WSH</a></td>
+          <td>vs</td>
+          <td><a href="/teams/NYR.html">NYR</a></td>
+          <td>W</td>
+          <td>2</td>
+          <td>27</td>
+          <td>25</td>
+          <td>93.00%</td>
+          <td>59.95</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202401140NYR.html">1/14/2024</a></td>
+          <td><a href="/teams/WSH.html">WSH</a></td>
+          <td>@</td>
+          <td><a href="/teams/NYR.html">NYR</a></td>
+          <td>L</td>
+          <td>2</td>
+          <td>31</td>
+          <td>29</td>
+          <td>94.00%</td>
+          <td>58.48</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202401180WSH.html">1/18/2024</a></td>
+          <td><a href="/teams/WSH.html">WSH</a></td>
+          <td>vs</td>
+          <td><a href="/teams/STL.html">STL</a></td>
+          <td>W</td>
+          <td>2</td>
+          <td>20</td>
+          <td>18</td>
+          <td>90.00%</td>
+          <td>60.0</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202401200STL.html">1/20/2024</a></td>
+          <td><a href="/teams/WSH.html">WSH</a></td>
+          <td>@</td>
+          <td><a href="/teams/STL.html">STL</a></td>
+          <td>L</td>
+          <td>3</td>
+          <td>29</td>
+          <td>26</td>
+          <td>90.00%</td>
+          <td>59.63</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202401240COL.html">1/24/2024</a></td>
+          <td><a href="/teams/WSH.html">WSH</a></td>
+          <td>@</td>
+          <td><a href="/teams/COL.html">COL</a></td>
+          <td>L</td>
+          <td>6</td>
+          <td>31</td>
+          <td>25</td>
+          <td>81.00%</td>
+          <td>59.83</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202401270DAL.html">1/27/2024</a></td>
+          <td><a href="/teams/WSH.html">WSH</a></td>
+          <td>@</td>
+          <td><a href="/teams/DAL.html">DAL</a></td>
+          <td>L-OT</td>
+          <td>5</td>
+          <td>35</td>
+          <td>30</td>
+          <td>86.00%</td>
+          <td>62.02</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202402060WSH.html">2/6/2024</a></td>
+          <td><a href="/teams/WSH.html">WSH</a></td>
+          <td>vs</td>
+          <td><a href="/teams/MTL.html">MTL</a></td>
+          <td>L</td>
+          <td>3</td>
+          <td>9</td>
+          <td>6</td>
+          <td>67.00%</td>
+          <td>13.12</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202402100BOS.html">2/10/2024</a></td>
+          <td><a href="/teams/WSH.html">WSH</a></td>
+          <td>@</td>
+          <td><a href="/teams/BOS.html">BOS</a></td>
+          <td>W</td>
+          <td>0</td>
+          <td>18</td>
+          <td>18</td>
+          <td>100.00%</td>
+          <td>60.0</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202402130WSH.html">2/13/2024</a></td>
+          <td><a href="/teams/WSH.html">WSH</a></td>
+          <td>vs</td>
+          <td><a href="/teams/COL.html">COL</a></td>
+          <td>L</td>
+          <td>4</td>
+          <td>35</td>
+          <td>31</td>
+          <td>89.00%</td>
+          <td>58.05</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202402200WSH.html">2/20/2024</a></td>
+          <td><a href="/teams/WSH.html">WSH</a></td>
+          <td>vs</td>
+          <td><a href="/teams/NJD.html">NJD</a></td>
+          <td>W</td>
+          <td>2</td>
+          <td>39</td>
+          <td>37</td>
+          <td>95.00%</td>
+          <td>60.0</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202402220TBL.html">2/22/2024</a></td>
+          <td><a href="/teams/WSH.html">WSH</a></td>
+          <td>@</td>
+          <td><a href="/teams/TBL.html">TBL</a></td>
+          <td>W</td>
+          <td>3</td>
+          <td>32</td>
+          <td>29</td>
+          <td>91.00%</td>
+          <td>59.9</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202402240FLA.html">2/24/2024</a></td>
+          <td><a href="/teams/WSH.html">WSH</a></td>
+          <td>@</td>
+          <td><a href="/teams/FLA.html">FLA</a></td>
+          <td>L-OT</td>
+          <td>3</td>
+          <td>29</td>
+          <td>26</td>
+          <td>90.00%</td>
+          <td>63.27</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202402270DET.html">2/27/2024</a></td>
+          <td><a href="/teams/WSH.html">WSH</a></td>
+          <td>@</td>
+          <td><a href="/teams/DET.html">DET</a></td>
+          <td>L</td>
+          <td>8</td>
+          <td>31</td>
+          <td>23</td>
+          <td>74.00%</td>
+          <td>59.78</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202403010WSH.html">3/1/2024</a></td>
+          <td><a href="/teams/WSH.html">WSH</a></td>
+          <td>vs</td>
+          <td><a href="/teams/PHI.html">PHI</a></td>
+          <td>W</td>
+          <td>2</td>
+          <td>23</td>
+          <td>21</td>
+          <td>91.00%</td>
+          <td>60.0</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202403030WSH.html">3/3/2024</a></td>
+          <td><a href="/teams/WSH.html">WSH</a></td>
+          <td>vs</td>
+          <td><a href="/teams/ARI.html">ARI</a></td>
+          <td>L</td>
+          <td>4</td>
+          <td>27</td>
+          <td>23</td>
+          <td>85.00%</td>
+          <td>57.93</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202403070PIT.html">3/7/2024</a></td>
+          <td><a href="/teams/WSH.html">WSH</a></td>
+          <td>@</td>
+          <td><a href="/teams/PIT.html">PIT</a></td>
+          <td>W</td>
+          <td>0</td>
+          <td>39</td>
+          <td>39</td>
+          <td>100.00%</td>
+          <td>59.9</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202403090WSH.html">3/9/2024</a></td>
+          <td><a href="/teams/WSH.html">WSH</a></td>
+          <td>vs</td>
+          <td><a href="/teams/CHI.html">CHI</a></td>
+          <td>W</td>
+          <td>1</td>
+          <td>32</td>
+          <td>31</td>
+          <td>97.00%</td>
+          <td>59.73</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202403110WPG.html">3/11/2024</a></td>
+          <td><a href="/teams/WSH.html">WSH</a></td>
+          <td>@</td>
+          <td><a href="/teams/WPG.html">WPG</a></td>
+          <td>L</td>
+          <td>3</td>
+          <td>29</td>
+          <td>26</td>
+          <td>90.00%</td>
+          <td>60.0</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202403140SEA.html">3/14/2024</a></td>
+          <td><a href="/teams/WSH.html">WSH</a></td>
+          <td>@</td>
+          <td><a href="/teams/SEA.html">SEA</a></td>
+          <td>W</td>
+          <td>1</td>
+          <td>24</td>
+          <td>23</td>
+          <td>96.00%</td>
+          <td>59.83</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202403160VAN.html">3/16/2024</a></td>
+          <td><a href="/teams/WSH.html">WSH</a></td>
+          <td>@</td>
+          <td><a href="/teams/VAN.html">VAN</a></td>
+          <td>W</td>
+          <td>1</td>
+          <td>22</td>
+          <td>21</td>
+          <td>96.00%</td>
+          <td>60.0</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202403180CGY.html">3/18/2024</a></td>
+          <td><a href="/teams/WSH.html">WSH</a></td>
+          <td>@</td>
+          <td><a href="/teams/CGY.html">CGY</a></td>
+          <td>W</td>
+          <td>2</td>
+          <td>36</td>
+          <td>34</td>
+          <td>94.00%</td>
+          <td>60.0</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202403200WSH.html">3/20/2024</a></td>
+          <td><a href="/teams/WSH.html">WSH</a></td>
+          <td>vs</td>
+          <td><a href="/teams/TOR.html">TOR</a></td>
+          <td>L</td>
+          <td>7</td>
+          <td>29</td>
+          <td>22</td>
+          <td>76.00%</td>
+          <td>60.0</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202403220WSH.html">3/22/2024</a></td>
+          <td><a href="/teams/WSH.html">WSH</a></td>
+          <td>vs</td>
+          <td><a href="/teams/CAR.html">CAR</a></td>
+          <td>W</td>
+          <td>2</td>
+          <td>9</td>
+          <td>7</td>
+          <td>78.00%</td>
+          <td>25.0</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202403240WSH.html">3/24/2024</a></td>
+          <td><a href="/teams/WSH.html">WSH</a></td>
+          <td>vs</td>
+          <td><a href="/teams/WPG.html">WPG</a></td>
+          <td>W</td>
+          <td>0</td>
+          <td>27</td>
+          <td>27</td>
+          <td>100.00%</td>
+          <td>59.28</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202403260WSH.html">3/26/2024</a></td>
+          <td><a href="/teams/WSH.html">WSH</a></td>
+          <td>vs</td>
+          <td><a href="/teams/DET.html">DET</a></td>
+          <td>W</td>
+          <td>3</td>
+          <td>33</td>
+          <td>30</td>
+          <td>91.00%</td>
+          <td>61.92</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202403280TOR.html">3/28/2024</a></td>
+          <td><a href="/teams/WSH.html">WSH</a></td>
+          <td>@</td>
+          <td><a href="/teams/TOR.html">TOR</a></td>
+          <td>L</td>
+          <td>5</td>
+          <td>48</td>
+          <td>43</td>
+          <td>90.00%</td>
+          <td>60.0</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202403300WSH.html">3/30/2024</a></td>
+          <td><a href="/teams/WSH.html">WSH</a></td>
+          <td>vs</td>
+          <td><a href="/teams/BOS.html">BOS</a></td>
+          <td>L-SO</td>
+          <td>2</td>
+          <td>29</td>
+          <td>27</td>
+          <td>93.00%</td>
+          <td>65.0</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202404020BUF.html">4/2/2024</a></td>
+          <td><a href="/teams/WSH.html">WSH</a></td>
+          <td>@</td>
+          <td><a href="/teams/BUF.html">BUF</a></td>
+          <td>L</td>
+          <td>6</td>
+          <td>31</td>
+          <td>25</td>
+          <td>81.00%</td>
+          <td>45.55</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202404040WSH.html">4/4/2024</a></td>
+          <td><a href="/teams/WSH.html">WSH</a></td>
+          <td>vs</td>
+          <td><a href="/teams/PIT.html">PIT</a></td>
+          <td>L</td>
+          <td>3</td>
+          <td>23</td>
+          <td>20</td>
+          <td>87.00%</td>
+          <td>59.28</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202404070WSH.html">4/7/2024</a></td>
+          <td><a href="/teams/WSH.html">WSH</a></td>
+          <td>vs</td>
+          <td><a href="/teams/OTT.html">OTT</a></td>
+          <td>L-OT</td>
+          <td>3</td>
+          <td>21</td>
+          <td>18</td>
+          <td>86.00%</td>
+          <td>60.68</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202404090DET.html">4/9/2024</a></td>
+          <td><a href="/teams/WSH.html">WSH</a></td>
+          <td>@</td>
+          <td><a href="/teams/DET.html">DET</a></td>
+          <td>W</td>
+          <td>1</td>
+          <td>43</td>
+          <td>42</td>
+          <td>98.00%</td>
+          <td>60.0</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202404110BUF.html">4/11/2024</a></td>
+          <td><a href="/teams/WSH.html">WSH</a></td>
+          <td>@</td>
+          <td><a href="/teams/BUF.html">BUF</a></td>
+          <td>L</td>
+          <td>3</td>
+          <td>16</td>
+          <td>13</td>
+          <td>81.00%</td>
+          <td>57.63</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202404130WSH.html">4/13/2024</a></td>
+          <td><a href="/teams/WSH.html">WSH</a></td>
+          <td>vs</td>
+          <td><a href="/teams/TBL.html">TBL</a></td>
+          <td>W</td>
+          <td>2</td>
+          <td>34</td>
+          <td>32</td>
+          <td>94.00%</td>
+          <td>60.0</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202404150WSH.html">4/15/2024</a></td>
+          <td><a href="/teams/WSH.html">WSH</a></td>
+          <td>vs</td>
+          <td><a href="/teams/BOS.html">BOS</a></td>
+          <td>W</td>
+          <td>0</td>
+          <td>16</td>
+          <td>16</td>
+          <td>100.00%</td>
+          <td>59.75</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202404160PHI.html">4/16/2024</a></td>
+          <td><a href="/teams/WSH.html">WSH</a></td>
+          <td>@</td>
+          <td><a href="/teams/PHI.html">PHI</a></td>
+          <td>W</td>
+          <td>1</td>
+          <td>28</td>
+          <td>27</td>
+          <td>96.00%</td>
+          <td>60.0</td>
+        </tr>
+        
+    </tbody>
+  </table>
+</body>
+</html>
+    

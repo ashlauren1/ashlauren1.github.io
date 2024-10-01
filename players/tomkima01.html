@@ -1,530 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Matt Tomkins</title>
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script src="/assets/searchBar.js" defer></script>
+  <script src="/assets/tableSort.js"></script>
+  
+  <style>
+    tr:hover {background-color: #F0FFF0;}
+  </style>
+</head>
 
-        <!DOCTYPE html>
-        <html lang="en">
-        <head>
-            <meta charset="UTF-8">
-            <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <title>tomkima01 Profile</title>
-        </head>
-        <body>
-            
-    <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Player tomkima01 Stats</title>
-        <link rel="stylesheet" href="/assets/css/styles.css"> <!-- Assuming a shared stylesheet -->
-    </head>
-    <body>
-        <nav id="navbar">
-            <ul>
-                <li><a href="/">Home</a></li>
-                <li><a href="/players/">Players</a></li>
-                <li><a href="/teams/">Teams</a></li>
-                <li><a href="/leaders/">Leaders</a></li>
-                <li><a href="/probabilities/">Probabilities</a></li>
-                <li><a href="/boxscores/">Boxscores</a></li>
-                <li><a href="/schedule/">Schedule</a></li>
-            </ul>
-        </nav>
+<body>
+  <!-- Navigation Bar -->
+  <nav id="navbar">
+    <a href="/">Home</a>
+    <a href="/players/">Players</a>
+    <a href="/teams/">Teams</a>
+    <a href="/leaders/">Leaders</a>
+    <a href="/probabilities/">Probabilities</a>
+    <a href="/boxscores/">Boxscores</a>
+    <a href="/schedule/">Schedule</a>
 
-        <main id="content">
-            <h1>Player tomkima01 Stats</h1>
-            <table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th>Goalie</th>
-      <th>Player_ID</th>
-      <th>Gm</th>
-      <th>Game ID</th>
-      <th>Date</th>
-      <th>Team</th>
-      <th>Location</th>
-      <th>Opp</th>
-      <th>W/L</th>
-      <th>Goals 
-Allowed</th>
-      <th>Shots 
-Against</th>
-      <th>Saves</th>
-      <th>Save 
-Percentage</th>
-      <th>TOI</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Matt Tomkins</td>
-      <td>tomkima01</td>
-      <td>79</td>
-      <td>202404110TBL</td>
-      <td>4/11/2024</td>
-      <td>TBL</td>
-      <td>vs</td>
-      <td>OTT</td>
-      <td>L-SO</td>
-      <td>2</td>
-      <td>27</td>
-      <td>25</td>
-      <td>0.93</td>
-      <td>64.57</td>
-    </tr>
-    <tr>
-      <td>Matt Tomkins</td>
-      <td>tomkima01</td>
-      <td>13</td>
-      <td>202311070MTL</td>
-      <td>11/7/2023</td>
-      <td>TBL</td>
-      <td>@</td>
-      <td>MTL</td>
-      <td>W</td>
-      <td>3</td>
-      <td>26</td>
-      <td>23</td>
-      <td>0.89</td>
-      <td>60.00</td>
-    </tr>
-    <tr>
-      <td>Matt Tomkins</td>
-      <td>tomkima01</td>
-      <td>76</td>
-      <td>202404040MTL</td>
-      <td>4/4/2024</td>
-      <td>TBL</td>
-      <td>@</td>
-      <td>MTL</td>
-      <td>W</td>
-      <td>4</td>
-      <td>30</td>
-      <td>26</td>
-      <td>0.87</td>
-      <td>60.00</td>
-    </tr>
-    <tr>
-      <td>Matt Tomkins</td>
-      <td>tomkima01</td>
-      <td>82</td>
-      <td>202404170TBL</td>
-      <td>4/17/2024</td>
-      <td>TBL</td>
-      <td>vs</td>
-      <td>TOR</td>
-      <td>W</td>
-      <td>4</td>
-      <td>38</td>
-      <td>34</td>
-      <td>0.90</td>
-      <td>59.40</td>
-    </tr>
-    <tr>
-      <td>Matt Tomkins</td>
-      <td>tomkima01</td>
-      <td>3</td>
-      <td>202310150OTT</td>
-      <td>10/15/2023</td>
-      <td>TBL</td>
-      <td>@</td>
-      <td>OTT</td>
-      <td>L</td>
-      <td>4</td>
-      <td>37</td>
-      <td>33</td>
-      <td>0.89</td>
-      <td>58.47</td>
-    </tr>
-    <tr>
-      <td>Matt Tomkins</td>
-      <td>tomkima01</td>
-      <td>10</td>
-      <td>202311020CBJ</td>
-      <td>11/2/2023</td>
-      <td>TBL</td>
-      <td>@</td>
-      <td>CBJ</td>
-      <td>L</td>
-      <td>3</td>
-      <td>27</td>
-      <td>24</td>
-      <td>0.89</td>
-      <td>57.78</td>
-    </tr>
-  </tbody>
-</table>
-        </main>
-    </body>
-    </html>
+    <!-- Search Bar -->
+    <div class="search-container">
+      <input type="text" id="searchInput" placeholder="Search players or teams..." oninput="searchEntities()" />
+      <ul id="suggestions"></ul> <!-- This will show the search suggestions -->
+    </div>
+  </nav>
+
+  <h1>Matt Tomkins - Gamelogs</h1>
+  <table border="1">
+    <thead>
+      <tr>
+        <th>Season</th>
+        <th>Date</th>
+        <th>Team</th>
+        <th>Location</th>
+        <th>Opponent</th>
+        <th>Result</th>
+        <th>GA</th>
+        <th>SA</th>
+        <th>SV</th>
+        <th>SV%</th>
+        <th>TOI</th>
+      </tr>
+    </thead>
+    <tbody>
     
-            <h2>Penalties</h2>
-            <p>No penalties table available</p>
-            <h2>Scoring</h2>
-            
-    <h2>Goals Allowed by tomkima01</h2>
-    <table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th>Date</th>
-      <th>Tm</th>
-      <th>Location</th>
-      <th>Opp</th>
-      <th>Result</th>
-      <th>Scorer</th>
-      <th>scorer username</th>
-      <th>Assist1</th>
-      <th>ast 1 username</th>
-      <th>Assist2</th>
-      <th>ast 2 username</th>
-      <th>Goalie</th>
-      <th>goalie username</th>
-      <th>Per.</th>
-      <th>Time</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>10/15/2023</td>
-      <td>OTT</td>
-      <td>vs</td>
-      <td>TBL</td>
-      <td>W</td>
-      <td>Vladimir Tarasenko</td>
-      <td>tarasvl01</td>
-      <td>Ridly Greig</td>
-      <td>greigri01</td>
-      <td>Jakob Chychrun</td>
-      <td>chychja01</td>
-      <td>Matt Tomkins</td>
-      <td>tomkima01</td>
-      <td>1</td>
-      <td>7.03</td>
-    </tr>
-    <tr>
-      <td>10/15/2023</td>
-      <td>OTT</td>
-      <td>vs</td>
-      <td>TBL</td>
-      <td>W</td>
-      <td>Brady Tkachuk</td>
-      <td>tkachbr01</td>
-      <td>Claude Giroux</td>
-      <td>giroucl01</td>
-      <td>-</td>
-      <td>NaN</td>
-      <td>Matt Tomkins</td>
-      <td>tomkima01</td>
-      <td>2</td>
-      <td>8.80</td>
-    </tr>
-    <tr>
-      <td>10/15/2023</td>
-      <td>OTT</td>
-      <td>vs</td>
-      <td>TBL</td>
-      <td>W</td>
-      <td>Mathieu Joseph</td>
-      <td>josepma01</td>
-      <td>Vladimir Tarasenko</td>
-      <td>tarasvl01</td>
-      <td>-</td>
-      <td>NaN</td>
-      <td>Matt Tomkins</td>
-      <td>tomkima01</td>
-      <td>2</td>
-      <td>19.02</td>
-    </tr>
-    <tr>
-      <td>10/15/2023</td>
-      <td>OTT</td>
-      <td>vs</td>
-      <td>TBL</td>
-      <td>W</td>
-      <td>Brady Tkachuk</td>
-      <td>tkachbr01</td>
-      <td>Jake Sanderson</td>
-      <td>sandeja01</td>
-      <td>Artem Zub</td>
-      <td>zubar01</td>
-      <td>Matt Tomkins</td>
-      <td>tomkima01</td>
-      <td>3</td>
-      <td>12.88</td>
-    </tr>
-    <tr>
-      <td>11/2/2023</td>
-      <td>CBJ</td>
-      <td>vs</td>
-      <td>TBL</td>
-      <td>W</td>
-      <td>Kirill Marchenko</td>
-      <td>marchki01</td>
-      <td>Dmitri Voronkov</td>
-      <td>vorondi01</td>
-      <td>Cole Sillinger</td>
-      <td>sillico01</td>
-      <td>Matt Tomkins</td>
-      <td>tomkima01</td>
-      <td>1</td>
-      <td>6.48</td>
-    </tr>
-    <tr>
-      <td>11/2/2023</td>
-      <td>CBJ</td>
-      <td>vs</td>
-      <td>TBL</td>
-      <td>W</td>
-      <td>Boone Jenner</td>
-      <td>jennebo01</td>
-      <td>Zach Werenski</td>
-      <td>werenza01</td>
-      <td>Damon Severson</td>
-      <td>severda01</td>
-      <td>Matt Tomkins</td>
-      <td>tomkima01</td>
-      <td>3</td>
-      <td>6.68</td>
-    </tr>
-    <tr>
-      <td>11/2/2023</td>
-      <td>CBJ</td>
-      <td>vs</td>
-      <td>TBL</td>
-      <td>W</td>
-      <td>Erik Gudbranson</td>
-      <td>gudbrer01</td>
-      <td>Emil Bemström</td>
-      <td>bemstem01</td>
-      <td>Adam Fantilli</td>
-      <td>fantiad01</td>
-      <td>Matt Tomkins</td>
-      <td>tomkima01</td>
-      <td>3</td>
-      <td>9.40</td>
-    </tr>
-    <tr>
-      <td>11/7/2023</td>
-      <td>MTL</td>
-      <td>vs</td>
-      <td>TBL</td>
-      <td>L</td>
-      <td>Nick Suzuki</td>
-      <td>suzukni01</td>
-      <td>Cole Caufield</td>
-      <td>caufico01</td>
-      <td>Sean Monahan</td>
-      <td>monahse01</td>
-      <td>Matt Tomkins</td>
-      <td>tomkima01</td>
-      <td>3</td>
-      <td>6.83</td>
-    </tr>
-    <tr>
-      <td>11/7/2023</td>
-      <td>MTL</td>
-      <td>vs</td>
-      <td>TBL</td>
-      <td>L</td>
-      <td>Michael Pezzetta</td>
-      <td>pezzemi01</td>
-      <td>Jake Evans</td>
-      <td>evansja02</td>
-      <td>Kaiden Guhle</td>
-      <td>guhleka01</td>
-      <td>Matt Tomkins</td>
-      <td>tomkima01</td>
-      <td>3</td>
-      <td>7.40</td>
-    </tr>
-    <tr>
-      <td>11/7/2023</td>
-      <td>MTL</td>
-      <td>vs</td>
-      <td>TBL</td>
-      <td>L</td>
-      <td>Christian Dvorak</td>
-      <td>dvorach01</td>
-      <td>Jordan Harris</td>
-      <td>harrijo01</td>
-      <td>Justin Barron</td>
-      <td>barroju01</td>
-      <td>Matt Tomkins</td>
-      <td>tomkima01</td>
-      <td>3</td>
-      <td>19.68</td>
-    </tr>
-    <tr>
-      <td>4/4/2024</td>
-      <td>MTL</td>
-      <td>vs</td>
-      <td>TBL</td>
-      <td>L</td>
-      <td>Joel Armia</td>
-      <td>armiajo01</td>
-      <td>Brendan Gallagher</td>
-      <td>gallabr01</td>
-      <td>Alex Newhook</td>
-      <td>newhoal01</td>
-      <td>Matt Tomkins</td>
-      <td>tomkima01</td>
-      <td>1</td>
-      <td>2.62</td>
-    </tr>
-    <tr>
-      <td>4/4/2024</td>
-      <td>MTL</td>
-      <td>vs</td>
-      <td>TBL</td>
-      <td>L</td>
-      <td>Joel Armia</td>
-      <td>armiajo01</td>
-      <td>Alex Newhook</td>
-      <td>newhoal01</td>
-      <td>Brendan Gallagher</td>
-      <td>gallabr01</td>
-      <td>Matt Tomkins</td>
-      <td>tomkima01</td>
-      <td>2</td>
-      <td>4.70</td>
-    </tr>
-    <tr>
-      <td>4/4/2024</td>
-      <td>MTL</td>
-      <td>vs</td>
-      <td>TBL</td>
-      <td>L</td>
-      <td>Juraj Slafkovsky</td>
-      <td>slafkju01</td>
-      <td>Arber Xhekaj</td>
-      <td>xhekaar01</td>
-      <td>Mike Matheson</td>
-      <td>mathemi01</td>
-      <td>Matt Tomkins</td>
-      <td>tomkima01</td>
-      <td>3</td>
-      <td>8.67</td>
-    </tr>
-    <tr>
-      <td>4/4/2024</td>
-      <td>MTL</td>
-      <td>vs</td>
-      <td>TBL</td>
-      <td>L</td>
-      <td>Cole Caufield</td>
-      <td>caufico01</td>
-      <td>Nick Suzuki</td>
-      <td>suzukni01</td>
-      <td>Juraj Slafkovsky</td>
-      <td>slafkju01</td>
-      <td>Matt Tomkins</td>
-      <td>tomkima01</td>
-      <td>3</td>
-      <td>11.85</td>
-    </tr>
-    <tr>
-      <td>4/11/2024</td>
-      <td>OTT</td>
-      <td>@</td>
-      <td>TBL</td>
-      <td>W</td>
-      <td>Brady Tkachuk</td>
-      <td>tkachbr01</td>
-      <td>Jakob Chychrun</td>
-      <td>chychja01</td>
-      <td>-</td>
-      <td>NaN</td>
-      <td>Matt Tomkins</td>
-      <td>tomkima01</td>
-      <td>1</td>
-      <td>8.75</td>
-    </tr>
-    <tr>
-      <td>4/11/2024</td>
-      <td>OTT</td>
-      <td>@</td>
-      <td>TBL</td>
-      <td>W</td>
-      <td>Drake Batherson</td>
-      <td>bathedr01</td>
-      <td>Brady Tkachuk</td>
-      <td>tkachbr01</td>
-      <td>Thomas Chabot</td>
-      <td>chaboth01</td>
-      <td>Matt Tomkins</td>
-      <td>tomkima01</td>
-      <td>3</td>
-      <td>2.18</td>
-    </tr>
-    <tr>
-      <td>4/17/2024</td>
-      <td>TOR</td>
-      <td>@</td>
-      <td>TBL</td>
-      <td>L</td>
-      <td>Ryan Reaves</td>
-      <td>reavery01</td>
-      <td>David Kämpf</td>
-      <td>kampfda01</td>
-      <td>Connor Dewar</td>
-      <td>dewarco01</td>
-      <td>Matt Tomkins</td>
-      <td>tomkima01</td>
-      <td>1</td>
-      <td>13.30</td>
-    </tr>
-    <tr>
-      <td>4/17/2024</td>
-      <td>TOR</td>
-      <td>@</td>
-      <td>TBL</td>
-      <td>L</td>
-      <td>T.J. Brodie</td>
-      <td>broditj01</td>
-      <td>Connor Dewar</td>
-      <td>dewarco01</td>
-      <td>David Kämpf</td>
-      <td>kampfda01</td>
-      <td>Matt Tomkins</td>
-      <td>tomkima01</td>
-      <td>3</td>
-      <td>14.03</td>
-    </tr>
-    <tr>
-      <td>4/17/2024</td>
-      <td>TOR</td>
-      <td>@</td>
-      <td>TBL</td>
-      <td>L</td>
-      <td>Pontus Holmberg</td>
-      <td>holmbpo01</td>
-      <td>Nicholas Robertson</td>
-      <td>roberni01</td>
-      <td>-</td>
-      <td>NaN</td>
-      <td>Matt Tomkins</td>
-      <td>tomkima01</td>
-      <td>3</td>
-      <td>16.33</td>
-    </tr>
-    <tr>
-      <td>4/17/2024</td>
-      <td>TOR</td>
-      <td>@</td>
-      <td>TBL</td>
-      <td>L</td>
-      <td>John Tavares</td>
-      <td>tavarjo01</td>
-      <td>William Nylander</td>
-      <td>nylanwi01</td>
-      <td>Conor Timmins</td>
-      <td>timmico01</td>
-      <td>Matt Tomkins</td>
-      <td>tomkima01</td>
-      <td>3</td>
-      <td>19.42</td>
-    </tr>
-  </tbody>
-</table>
-    
-        </body>
-        </html>
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202310150OTT.html">10/15/2023</a></td>
+          <td><a href="/teams/TBL.html">TBL</a></td>
+          <td>@</td>
+          <td><a href="/teams/OTT.html">OTT</a></td>
+          <td>L</td>
+          <td>4</td>
+          <td>37</td>
+          <td>33</td>
+          <td>89.00%</td>
+          <td>58.47</td>
+        </tr>
         
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202311020CBJ.html">11/2/2023</a></td>
+          <td><a href="/teams/TBL.html">TBL</a></td>
+          <td>@</td>
+          <td><a href="/teams/CBJ.html">CBJ</a></td>
+          <td>L</td>
+          <td>3</td>
+          <td>27</td>
+          <td>24</td>
+          <td>89.00%</td>
+          <td>57.78</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202311070MTL.html">11/7/2023</a></td>
+          <td><a href="/teams/TBL.html">TBL</a></td>
+          <td>@</td>
+          <td><a href="/teams/MTL.html">MTL</a></td>
+          <td>W</td>
+          <td>3</td>
+          <td>26</td>
+          <td>23</td>
+          <td>89.00%</td>
+          <td>60.0</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202404040MTL.html">4/4/2024</a></td>
+          <td><a href="/teams/TBL.html">TBL</a></td>
+          <td>@</td>
+          <td><a href="/teams/MTL.html">MTL</a></td>
+          <td>W</td>
+          <td>4</td>
+          <td>30</td>
+          <td>26</td>
+          <td>87.00%</td>
+          <td>60.0</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202404110TBL.html">4/11/2024</a></td>
+          <td><a href="/teams/TBL.html">TBL</a></td>
+          <td>vs</td>
+          <td><a href="/teams/OTT.html">OTT</a></td>
+          <td>L-SO</td>
+          <td>2</td>
+          <td>27</td>
+          <td>25</td>
+          <td>93.00%</td>
+          <td>64.57</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202404170TBL.html">4/17/2024</a></td>
+          <td><a href="/teams/TBL.html">TBL</a></td>
+          <td>vs</td>
+          <td><a href="/teams/TOR.html">TOR</a></td>
+          <td>W</td>
+          <td>4</td>
+          <td>38</td>
+          <td>34</td>
+          <td>90.00%</td>
+          <td>59.4</td>
+        </tr>
+        
+    </tbody>
+  </table>
+</body>
+</html>
+    

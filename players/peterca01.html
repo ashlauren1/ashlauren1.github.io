@@ -1,480 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calvin Petersen</title>
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script src="/assets/searchBar.js" defer></script>
+  <script src="/assets/tableSort.js"></script>
+  
+  <style>
+    tr:hover {background-color: #F0FFF0;}
+  </style>
+</head>
 
-        <!DOCTYPE html>
-        <html lang="en">
-        <head>
-            <meta charset="UTF-8">
-            <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <title>peterca01 Profile</title>
-        </head>
-        <body>
-            
-    <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Player peterca01 Stats</title>
-        <link rel="stylesheet" href="/assets/css/styles.css"> <!-- Assuming a shared stylesheet -->
-    </head>
-    <body>
-        <nav id="navbar">
-            <ul>
-                <li><a href="/">Home</a></li>
-                <li><a href="/players/">Players</a></li>
-                <li><a href="/teams/">Teams</a></li>
-                <li><a href="/leaders/">Leaders</a></li>
-                <li><a href="/probabilities/">Probabilities</a></li>
-                <li><a href="/boxscores/">Boxscores</a></li>
-                <li><a href="/schedule/">Schedule</a></li>
-            </ul>
-        </nav>
+<body>
+  <!-- Navigation Bar -->
+  <nav id="navbar">
+    <a href="/">Home</a>
+    <a href="/players/">Players</a>
+    <a href="/teams/">Teams</a>
+    <a href="/leaders/">Leaders</a>
+    <a href="/probabilities/">Probabilities</a>
+    <a href="/boxscores/">Boxscores</a>
+    <a href="/schedule/">Schedule</a>
 
-        <main id="content">
-            <h1>Player peterca01 Stats</h1>
-            <table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th>Goalie</th>
-      <th>Player_ID</th>
-      <th>Gm</th>
-      <th>Game ID</th>
-      <th>Date</th>
-      <th>Team</th>
-      <th>Location</th>
-      <th>Opp</th>
-      <th>W/L</th>
-      <th>Goals 
-Allowed</th>
-      <th>Shots 
-Against</th>
-      <th>Saves</th>
-      <th>Save 
-Percentage</th>
-      <th>TOI</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Calvin Petersen</td>
-      <td>peterca01</td>
-      <td>15</td>
-      <td>202311110LAK</td>
-      <td>11/11/2023</td>
-      <td>PHI</td>
-      <td>@</td>
-      <td>LAK</td>
-      <td>W</td>
-      <td>2</td>
-      <td>37</td>
-      <td>35</td>
-      <td>0.95</td>
-      <td>60.00</td>
-    </tr>
-    <tr>
-      <td>Calvin Petersen</td>
-      <td>peterca01</td>
-      <td>53</td>
-      <td>202402100PHI</td>
-      <td>2/10/2024</td>
-      <td>PHI</td>
-      <td>vs</td>
-      <td>SEA</td>
-      <td>W</td>
-      <td>2</td>
-      <td>19</td>
-      <td>17</td>
-      <td>0.90</td>
-      <td>60.00</td>
-    </tr>
-    <tr>
-      <td>Calvin Petersen</td>
-      <td>peterca01</td>
-      <td>12</td>
-      <td>202311040PHI</td>
-      <td>11/4/2023</td>
-      <td>PHI</td>
-      <td>vs</td>
-      <td>LAK</td>
-      <td>L</td>
-      <td>5</td>
-      <td>30</td>
-      <td>25</td>
-      <td>0.83</td>
-      <td>60.00</td>
-    </tr>
-    <tr>
-      <td>Calvin Petersen</td>
-      <td>peterca01</td>
-      <td>59</td>
-      <td>202402250PIT</td>
-      <td>2/25/2024</td>
-      <td>PHI</td>
-      <td>@</td>
-      <td>PIT</td>
-      <td>L</td>
-      <td>7</td>
-      <td>32</td>
-      <td>25</td>
-      <td>0.78</td>
-      <td>56.93</td>
-    </tr>
-    <tr>
-      <td>Calvin Petersen</td>
-      <td>peterca01</td>
-      <td>50</td>
-      <td>202401270PHI</td>
-      <td>1/27/2024</td>
-      <td>PHI</td>
-      <td>vs</td>
-      <td>BOS</td>
-      <td>L</td>
-      <td>2</td>
-      <td>14</td>
-      <td>12</td>
-      <td>0.86</td>
-      <td>39.98</td>
-    </tr>
-  </tbody>
-</table>
-        </main>
-    </body>
-    </html>
+    <!-- Search Bar -->
+    <div class="search-container">
+      <input type="text" id="searchInput" placeholder="Search players or teams..." oninput="searchEntities()" />
+      <ul id="suggestions"></ul> <!-- This will show the search suggestions -->
+    </div>
+  </nav>
+
+  <h1>Calvin Petersen - Gamelogs</h1>
+  <table border="1">
+    <thead>
+      <tr>
+        <th>Season</th>
+        <th>Date</th>
+        <th>Team</th>
+        <th>Location</th>
+        <th>Opponent</th>
+        <th>Result</th>
+        <th>GA</th>
+        <th>SA</th>
+        <th>SV</th>
+        <th>SV%</th>
+        <th>TOI</th>
+      </tr>
+    </thead>
+    <tbody>
     
-            <h2>Penalties</h2>
-            <p>No penalties table available</p>
-            <h2>Scoring</h2>
-            
-    <h2>Goals Allowed by peterca01</h2>
-    <table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th>Date</th>
-      <th>Tm</th>
-      <th>Location</th>
-      <th>Opp</th>
-      <th>Result</th>
-      <th>Scorer</th>
-      <th>scorer username</th>
-      <th>Assist1</th>
-      <th>ast 1 username</th>
-      <th>Assist2</th>
-      <th>ast 2 username</th>
-      <th>Goalie</th>
-      <th>goalie username</th>
-      <th>Per.</th>
-      <th>Time</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>11/4/2023</td>
-      <td>LAK</td>
-      <td>@</td>
-      <td>PHI</td>
-      <td>W</td>
-      <td>Adrian Kempe</td>
-      <td>kempead01</td>
-      <td>Quinton Byfield</td>
-      <td>byfiequ01</td>
-      <td>Vladislav Gavrikov</td>
-      <td>gavrivl01</td>
-      <td>Calvin Petersen</td>
-      <td>peterca01</td>
-      <td>1</td>
-      <td>14.53</td>
-    </tr>
-    <tr>
-      <td>11/4/2023</td>
-      <td>LAK</td>
-      <td>@</td>
-      <td>PHI</td>
-      <td>W</td>
-      <td>Anže Kopitar</td>
-      <td>kopitan01</td>
-      <td>Matt Roy</td>
-      <td>royma04</td>
-      <td>Quinton Byfield</td>
-      <td>byfiequ01</td>
-      <td>Calvin Petersen</td>
-      <td>peterca01</td>
-      <td>1</td>
-      <td>14.83</td>
-    </tr>
-    <tr>
-      <td>11/4/2023</td>
-      <td>LAK</td>
-      <td>@</td>
-      <td>PHI</td>
-      <td>W</td>
-      <td>Arthur Kaliyev</td>
-      <td>kaliyar01</td>
-      <td>Quinton Byfield</td>
-      <td>byfiequ01</td>
-      <td>Trevor Moore</td>
-      <td>mooretr01</td>
-      <td>Calvin Petersen</td>
-      <td>peterca01</td>
-      <td>2</td>
-      <td>16.02</td>
-    </tr>
-    <tr>
-      <td>11/4/2023</td>
-      <td>LAK</td>
-      <td>@</td>
-      <td>PHI</td>
-      <td>W</td>
-      <td>Trevor Moore</td>
-      <td>mooretr01</td>
-      <td>Arthur Kaliyev</td>
-      <td>kaliyar01</td>
-      <td>-</td>
-      <td>NaN</td>
-      <td>Calvin Petersen</td>
-      <td>peterca01</td>
-      <td>2</td>
-      <td>19.73</td>
-    </tr>
-    <tr>
-      <td>11/4/2023</td>
-      <td>LAK</td>
-      <td>@</td>
-      <td>PHI</td>
-      <td>W</td>
-      <td>Blake Lizotte</td>
-      <td>lizotbl01</td>
-      <td>Alex Laferriere</td>
-      <td>laferal01</td>
-      <td>-</td>
-      <td>NaN</td>
-      <td>Calvin Petersen</td>
-      <td>peterca01</td>
-      <td>3</td>
-      <td>6.53</td>
-    </tr>
-    <tr>
-      <td>11/11/2023</td>
-      <td>LAK</td>
-      <td>vs</td>
-      <td>PHI</td>
-      <td>L</td>
-      <td>Carl Grundström</td>
-      <td>grundca01</td>
-      <td>Trevor Lewis</td>
-      <td>lewistr01</td>
-      <td>Andreas Englund</td>
-      <td>engluan01</td>
-      <td>Calvin Petersen</td>
-      <td>peterca01</td>
-      <td>2</td>
-      <td>18.10</td>
-    </tr>
-    <tr>
-      <td>11/11/2023</td>
-      <td>LAK</td>
-      <td>vs</td>
-      <td>PHI</td>
-      <td>L</td>
-      <td>Adrian Kempe</td>
-      <td>kempead01</td>
-      <td>Quinton Byfield</td>
-      <td>byfiequ01</td>
-      <td>Vladislav Gavrikov</td>
-      <td>gavrivl01</td>
-      <td>Calvin Petersen</td>
-      <td>peterca01</td>
-      <td>3</td>
-      <td>9.83</td>
-    </tr>
-    <tr>
-      <td>1/27/2024</td>
-      <td>BOS</td>
-      <td>@</td>
-      <td>PHI</td>
-      <td>W</td>
-      <td>James van Riemsdyk</td>
-      <td>vanrija01</td>
-      <td>David Pastrňák</td>
-      <td>pastrda01</td>
-      <td>Hampus Lindholm</td>
-      <td>lindhha01</td>
-      <td>Calvin Petersen</td>
-      <td>peterca01</td>
-      <td>2</td>
-      <td>1.25</td>
-    </tr>
-    <tr>
-      <td>1/27/2024</td>
-      <td>BOS</td>
-      <td>@</td>
-      <td>PHI</td>
-      <td>W</td>
-      <td>Charlie Coyle</td>
-      <td>coylech01</td>
-      <td>Trent Frederic</td>
-      <td>fredetr01</td>
-      <td>James van Riemsdyk</td>
-      <td>vanrija01</td>
-      <td>Calvin Petersen</td>
-      <td>peterca01</td>
-      <td>3</td>
-      <td>14.75</td>
-    </tr>
-    <tr>
-      <td>2/10/2024</td>
-      <td>SEA</td>
-      <td>@</td>
-      <td>PHI</td>
-      <td>L</td>
-      <td>Tomáš Tatar</td>
-      <td>tatarto01</td>
-      <td>Vince Dunn</td>
-      <td>dunnvi02</td>
-      <td>Adam Larsson</td>
-      <td>larssad01</td>
-      <td>Calvin Petersen</td>
-      <td>peterca01</td>
-      <td>1</td>
-      <td>17.15</td>
-    </tr>
-    <tr>
-      <td>2/10/2024</td>
-      <td>SEA</td>
-      <td>@</td>
-      <td>PHI</td>
-      <td>L</td>
-      <td>Jared McCann</td>
-      <td>mccanja01</td>
-      <td>Alexander Wennberg</td>
-      <td>wennbal01</td>
-      <td>Vince Dunn</td>
-      <td>dunnvi02</td>
-      <td>Calvin Petersen</td>
-      <td>peterca01</td>
-      <td>3</td>
-      <td>0.60</td>
-    </tr>
-    <tr>
-      <td>2/25/2024</td>
-      <td>PIT</td>
-      <td>vs</td>
-      <td>PHI</td>
-      <td>W</td>
-      <td>Sidney Crosby</td>
-      <td>crosbsi01</td>
-      <td>Bryan Rust</td>
-      <td>rustbr01</td>
-      <td>Rickard Rakell</td>
-      <td>rakelri01</td>
-      <td>Calvin Petersen</td>
-      <td>peterca01</td>
-      <td>1</td>
-      <td>9.63</td>
-    </tr>
-    <tr>
-      <td>2/25/2024</td>
-      <td>PIT</td>
-      <td>vs</td>
-      <td>PHI</td>
-      <td>W</td>
-      <td>Bryan Rust</td>
-      <td>rustbr01</td>
-      <td>Marcus Pettersson</td>
-      <td>pettema01</td>
-      <td>Sidney Crosby</td>
-      <td>crosbsi01</td>
-      <td>Calvin Petersen</td>
-      <td>peterca01</td>
-      <td>1</td>
-      <td>17.25</td>
-    </tr>
-    <tr>
-      <td>2/25/2024</td>
-      <td>PIT</td>
-      <td>vs</td>
-      <td>PHI</td>
-      <td>W</td>
-      <td>Bryan Rust</td>
-      <td>rustbr01</td>
-      <td>Erik Karlsson</td>
-      <td>karlser01</td>
-      <td>Sidney Crosby</td>
-      <td>crosbsi01</td>
-      <td>Calvin Petersen</td>
-      <td>peterca01</td>
-      <td>2</td>
-      <td>11.25</td>
-    </tr>
-    <tr>
-      <td>2/25/2024</td>
-      <td>PIT</td>
-      <td>vs</td>
-      <td>PHI</td>
-      <td>W</td>
-      <td>Emil Bemström</td>
-      <td>bemstem01</td>
-      <td>Reilly Smith</td>
-      <td>smithre01</td>
-      <td>Kris Letang</td>
-      <td>letankr01</td>
-      <td>Calvin Petersen</td>
-      <td>peterca01</td>
-      <td>2</td>
-      <td>13.63</td>
-    </tr>
-    <tr>
-      <td>2/25/2024</td>
-      <td>PIT</td>
-      <td>vs</td>
-      <td>PHI</td>
-      <td>W</td>
-      <td>Drew O'Connor</td>
-      <td>oconndr01</td>
-      <td>Evgeni Malkin</td>
-      <td>malkiev01</td>
-      <td>Valtteri Puustinen</td>
-      <td>puustva01</td>
-      <td>Calvin Petersen</td>
-      <td>peterca01</td>
-      <td>3</td>
-      <td>6.68</td>
-    </tr>
-    <tr>
-      <td>2/25/2024</td>
-      <td>PIT</td>
-      <td>vs</td>
-      <td>PHI</td>
-      <td>W</td>
-      <td>Rickard Rakell</td>
-      <td>rakelri01</td>
-      <td>Sidney Crosby</td>
-      <td>crosbsi01</td>
-      <td>Marcus Pettersson</td>
-      <td>pettema01</td>
-      <td>Calvin Petersen</td>
-      <td>peterca01</td>
-      <td>3</td>
-      <td>8.63</td>
-    </tr>
-    <tr>
-      <td>2/25/2024</td>
-      <td>PIT</td>
-      <td>vs</td>
-      <td>PHI</td>
-      <td>W</td>
-      <td>Kris Letang</td>
-      <td>letankr01</td>
-      <td>-</td>
-      <td>NaN</td>
-      <td>-</td>
-      <td>NaN</td>
-      <td>Calvin Petersen</td>
-      <td>peterca01</td>
-      <td>3</td>
-      <td>15.22</td>
-    </tr>
-  </tbody>
-</table>
-    
-        </body>
-        </html>
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202311040PHI.html">11/4/2023</a></td>
+          <td><a href="/teams/PHI.html">PHI</a></td>
+          <td>vs</td>
+          <td><a href="/teams/LAK.html">LAK</a></td>
+          <td>L</td>
+          <td>5</td>
+          <td>30</td>
+          <td>25</td>
+          <td>83.00%</td>
+          <td>60.0</td>
+        </tr>
         
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202311110LAK.html">11/11/2023</a></td>
+          <td><a href="/teams/PHI.html">PHI</a></td>
+          <td>@</td>
+          <td><a href="/teams/LAK.html">LAK</a></td>
+          <td>W</td>
+          <td>2</td>
+          <td>37</td>
+          <td>35</td>
+          <td>95.00%</td>
+          <td>60.0</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202401270PHI.html">1/27/2024</a></td>
+          <td><a href="/teams/PHI.html">PHI</a></td>
+          <td>vs</td>
+          <td><a href="/teams/BOS.html">BOS</a></td>
+          <td>L</td>
+          <td>2</td>
+          <td>14</td>
+          <td>12</td>
+          <td>86.00%</td>
+          <td>39.98</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202402100PHI.html">2/10/2024</a></td>
+          <td><a href="/teams/PHI.html">PHI</a></td>
+          <td>vs</td>
+          <td><a href="/teams/SEA.html">SEA</a></td>
+          <td>W</td>
+          <td>2</td>
+          <td>19</td>
+          <td>17</td>
+          <td>90.00%</td>
+          <td>60.0</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202402250PIT.html">2/25/2024</a></td>
+          <td><a href="/teams/PHI.html">PHI</a></td>
+          <td>@</td>
+          <td><a href="/teams/PIT.html">PIT</a></td>
+          <td>L</td>
+          <td>7</td>
+          <td>32</td>
+          <td>25</td>
+          <td>78.00%</td>
+          <td>56.93</td>
+        </tr>
+        
+    </tbody>
+  </table>
+</body>
+</html>
+    

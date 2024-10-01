@@ -1,3089 +1,729 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jacob Markström</title>
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script src="/assets/searchBar.js" defer></script>
+  <script src="/assets/tableSort.js"></script>
+  
+  <style>
+    tr:hover {background-color: #F0FFF0;}
+  </style>
+</head>
 
-        <!DOCTYPE html>
-        <html lang="en">
-        <head>
-            <meta charset="UTF-8">
-            <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <title>marksja02 Profile</title>
-        </head>
-        <body>
-            
-    <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Player marksja02 Stats</title>
-        <link rel="stylesheet" href="/assets/css/styles.css"> <!-- Assuming a shared stylesheet -->
-    </head>
-    <body>
-        <nav id="navbar">
-            <ul>
-                <li><a href="/">Home</a></li>
-                <li><a href="/players/">Players</a></li>
-                <li><a href="/teams/">Teams</a></li>
-                <li><a href="/leaders/">Leaders</a></li>
-                <li><a href="/probabilities/">Probabilities</a></li>
-                <li><a href="/boxscores/">Boxscores</a></li>
-                <li><a href="/schedule/">Schedule</a></li>
-            </ul>
-        </nav>
+<body>
+  <!-- Navigation Bar -->
+  <nav id="navbar">
+    <a href="/">Home</a>
+    <a href="/players/">Players</a>
+    <a href="/teams/">Teams</a>
+    <a href="/leaders/">Leaders</a>
+    <a href="/probabilities/">Probabilities</a>
+    <a href="/boxscores/">Boxscores</a>
+    <a href="/schedule/">Schedule</a>
 
-        <main id="content">
-            <h1>Player marksja02 Stats</h1>
-            <table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th>Goalie</th>
-      <th>Player_ID</th>
-      <th>Gm</th>
-      <th>Game ID</th>
-      <th>Date</th>
-      <th>Team</th>
-      <th>Location</th>
-      <th>Opp</th>
-      <th>W/L</th>
-      <th>Goals 
-Allowed</th>
-      <th>Shots 
-Against</th>
-      <th>Saves</th>
-      <th>Save 
-Percentage</th>
-      <th>TOI</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Jacob Markström</td>
-      <td>marksja02</td>
-      <td>17</td>
-      <td>202311180CGY</td>
-      <td>11/18/2023</td>
-      <td>CGY</td>
-      <td>vs</td>
-      <td>NYI</td>
-      <td>L-SO</td>
-      <td>4</td>
-      <td>33</td>
-      <td>29</td>
-      <td>0.88</td>
-      <td>65.00</td>
-    </tr>
-    <tr>
-      <td>Jacob Markström</td>
-      <td>marksja02</td>
-      <td>3</td>
-      <td>202310160WSH</td>
-      <td>10/16/2023</td>
-      <td>CGY</td>
-      <td>@</td>
-      <td>WSH</td>
-      <td>L-SO</td>
-      <td>2</td>
-      <td>23</td>
-      <td>21</td>
-      <td>0.91</td>
-      <td>64.80</td>
-    </tr>
-    <tr>
-      <td>Jacob Markström</td>
-      <td>marksja02</td>
-      <td>57</td>
-      <td>202402220CGY</td>
-      <td>2/22/2024</td>
-      <td>CGY</td>
-      <td>vs</td>
-      <td>BOS</td>
-      <td>W</td>
-      <td>2</td>
-      <td>34</td>
-      <td>32</td>
-      <td>0.94</td>
-      <td>63.93</td>
-    </tr>
-    <tr>
-      <td>Jacob Markström</td>
-      <td>marksja02</td>
-      <td>23</td>
-      <td>202311300CGY</td>
-      <td>11/30/2023</td>
-      <td>CGY</td>
-      <td>vs</td>
-      <td>DAL</td>
-      <td>W</td>
-      <td>3</td>
-      <td>16</td>
-      <td>13</td>
-      <td>0.81</td>
-      <td>61.02</td>
-    </tr>
-    <tr>
-      <td>Jacob Markström</td>
-      <td>marksja02</td>
-      <td>49</td>
-      <td>202401270CGY</td>
-      <td>1/27/2024</td>
-      <td>CGY</td>
-      <td>vs</td>
-      <td>CHI</td>
-      <td>W</td>
-      <td>0</td>
-      <td>32</td>
-      <td>32</td>
-      <td>1.00</td>
-      <td>60.00</td>
-    </tr>
-    <tr>
-      <td>Jacob Markström</td>
-      <td>marksja02</td>
-      <td>33</td>
-      <td>202312210ANA</td>
-      <td>12/21/2023</td>
-      <td>CGY</td>
-      <td>@</td>
-      <td>ANA</td>
-      <td>W</td>
-      <td>0</td>
-      <td>25</td>
-      <td>25</td>
-      <td>1.00</td>
-      <td>60.00</td>
-    </tr>
-    <tr>
-      <td>Jacob Markström</td>
-      <td>marksja02</td>
-      <td>15</td>
-      <td>202311140MTL</td>
-      <td>11/14/2023</td>
-      <td>CGY</td>
-      <td>@</td>
-      <td>MTL</td>
-      <td>W</td>
-      <td>1</td>
-      <td>35</td>
-      <td>34</td>
-      <td>0.97</td>
-      <td>60.00</td>
-    </tr>
-    <tr>
-      <td>Jacob Markström</td>
-      <td>marksja02</td>
-      <td>32</td>
-      <td>202312180CGY</td>
-      <td>12/18/2023</td>
-      <td>CGY</td>
-      <td>vs</td>
-      <td>FLA</td>
-      <td>W</td>
-      <td>1</td>
-      <td>34</td>
-      <td>33</td>
-      <td>0.97</td>
-      <td>60.00</td>
-    </tr>
-    <tr>
-      <td>Jacob Markström</td>
-      <td>marksja02</td>
-      <td>43</td>
-      <td>202401130VEG</td>
-      <td>1/13/2024</td>
-      <td>CGY</td>
-      <td>@</td>
-      <td>VEG</td>
-      <td>W</td>
-      <td>1</td>
-      <td>32</td>
-      <td>31</td>
-      <td>0.97</td>
-      <td>60.00</td>
-    </tr>
-    <tr>
-      <td>Jacob Markström</td>
-      <td>marksja02</td>
-      <td>50</td>
-      <td>202402060BOS</td>
-      <td>2/6/2024</td>
-      <td>CGY</td>
-      <td>@</td>
-      <td>BOS</td>
-      <td>W</td>
-      <td>1</td>
-      <td>22</td>
-      <td>21</td>
-      <td>0.96</td>
-      <td>60.00</td>
-    </tr>
-    <tr>
-      <td>Jacob Markström</td>
-      <td>marksja02</td>
-      <td>52</td>
-      <td>202402100NYI</td>
-      <td>2/10/2024</td>
-      <td>CGY</td>
-      <td>@</td>
-      <td>NYI</td>
-      <td>W</td>
-      <td>2</td>
-      <td>36</td>
-      <td>34</td>
-      <td>0.94</td>
-      <td>60.00</td>
-    </tr>
-    <tr>
-      <td>Jacob Markström</td>
-      <td>marksja02</td>
-      <td>42</td>
-      <td>202401110ARI</td>
-      <td>1/11/2024</td>
-      <td>CGY</td>
-      <td>@</td>
-      <td>ARI</td>
-      <td>W</td>
-      <td>2</td>
-      <td>34</td>
-      <td>32</td>
-      <td>0.94</td>
-      <td>60.00</td>
-    </tr>
-    <tr>
-      <td>Jacob Markström</td>
-      <td>marksja02</td>
-      <td>59</td>
-      <td>202402270CGY</td>
-      <td>2/27/2024</td>
-      <td>CGY</td>
-      <td>vs</td>
-      <td>LAK</td>
-      <td>W</td>
-      <td>2</td>
-      <td>23</td>
-      <td>21</td>
-      <td>0.91</td>
-      <td>60.00</td>
-    </tr>
-    <tr>
-      <td>Jacob Markström</td>
-      <td>marksja02</td>
-      <td>41</td>
-      <td>202401090CGY</td>
-      <td>1/9/2024</td>
-      <td>CGY</td>
-      <td>vs</td>
-      <td>OTT</td>
-      <td>W</td>
-      <td>3</td>
-      <td>33</td>
-      <td>30</td>
-      <td>0.91</td>
-      <td>60.00</td>
-    </tr>
-    <tr>
-      <td>Jacob Markström</td>
-      <td>marksja02</td>
-      <td>36</td>
-      <td>202312310CGY</td>
-      <td>12/31/2023</td>
-      <td>CGY</td>
-      <td>vs</td>
-      <td>PHI</td>
-      <td>W</td>
-      <td>3</td>
-      <td>31</td>
-      <td>28</td>
-      <td>0.90</td>
-      <td>60.00</td>
-    </tr>
-    <tr>
-      <td>Jacob Markström</td>
-      <td>marksja02</td>
-      <td>56</td>
-      <td>202402190CGY</td>
-      <td>2/19/2024</td>
-      <td>CGY</td>
-      <td>vs</td>
-      <td>WPG</td>
-      <td>W</td>
-      <td>3</td>
-      <td>31</td>
-      <td>28</td>
-      <td>0.90</td>
-      <td>60.00</td>
-    </tr>
-    <tr>
-      <td>Jacob Markström</td>
-      <td>marksja02</td>
-      <td>60</td>
-      <td>202403020CGY</td>
-      <td>3/2/2024</td>
-      <td>CGY</td>
-      <td>vs</td>
-      <td>PIT</td>
-      <td>W</td>
-      <td>3</td>
-      <td>30</td>
-      <td>27</td>
-      <td>0.90</td>
-      <td>60.00</td>
-    </tr>
-    <tr>
-      <td>Jacob Markström</td>
-      <td>marksja02</td>
-      <td>73</td>
-      <td>202403300CGY</td>
-      <td>3/30/2024</td>
-      <td>CGY</td>
-      <td>vs</td>
-      <td>LAK</td>
-      <td>W</td>
-      <td>2</td>
-      <td>18</td>
-      <td>16</td>
-      <td>0.89</td>
-      <td>60.00</td>
-    </tr>
-    <tr>
-      <td>Jacob Markström</td>
-      <td>marksja02</td>
-      <td>81</td>
-      <td>202404160VAN</td>
-      <td>4/16/2024</td>
-      <td>CGY</td>
-      <td>@</td>
-      <td>VAN</td>
-      <td>L</td>
-      <td>4</td>
-      <td>31</td>
-      <td>27</td>
-      <td>0.87</td>
-      <td>60.00</td>
-    </tr>
-    <tr>
-      <td>Jacob Markström</td>
-      <td>marksja02</td>
-      <td>62</td>
-      <td>202403070TBL</td>
-      <td>3/7/2024</td>
-      <td>CGY</td>
-      <td>@</td>
-      <td>TBL</td>
-      <td>W</td>
-      <td>3</td>
-      <td>22</td>
-      <td>19</td>
-      <td>0.86</td>
-      <td>60.00</td>
-    </tr>
-    <tr>
-      <td>Jacob Markström</td>
-      <td>marksja02</td>
-      <td>20</td>
-      <td>202311240DAL</td>
-      <td>11/24/2023</td>
-      <td>CGY</td>
-      <td>@</td>
-      <td>DAL</td>
-      <td>W</td>
-      <td>4</td>
-      <td>28</td>
-      <td>24</td>
-      <td>0.86</td>
-      <td>60.00</td>
-    </tr>
-    <tr>
-      <td>Jacob Markström</td>
-      <td>marksja02</td>
-      <td>63</td>
-      <td>202403090FLA</td>
-      <td>3/9/2024</td>
-      <td>CGY</td>
-      <td>@</td>
-      <td>FLA</td>
-      <td>L</td>
-      <td>5</td>
-      <td>31</td>
-      <td>26</td>
-      <td>0.84</td>
-      <td>60.00</td>
-    </tr>
-    <tr>
-      <td>Jacob Markström</td>
-      <td>marksja02</td>
-      <td>74</td>
-      <td>202404020CGY</td>
-      <td>4/2/2024</td>
-      <td>CGY</td>
-      <td>vs</td>
-      <td>ANA</td>
-      <td>L</td>
-      <td>5</td>
-      <td>29</td>
-      <td>24</td>
-      <td>0.83</td>
-      <td>60.00</td>
-    </tr>
-    <tr>
-      <td>Jacob Markström</td>
-      <td>marksja02</td>
-      <td>19</td>
-      <td>202311220NSH</td>
-      <td>11/22/2023</td>
-      <td>CGY</td>
-      <td>@</td>
-      <td>NSH</td>
-      <td>L</td>
-      <td>4</td>
-      <td>45</td>
-      <td>41</td>
-      <td>0.91</td>
-      <td>59.82</td>
-    </tr>
-    <tr>
-      <td>Jacob Markström</td>
-      <td>marksja02</td>
-      <td>78</td>
-      <td>202404110LAK</td>
-      <td>4/11/2024</td>
-      <td>CGY</td>
-      <td>@</td>
-      <td>LAK</td>
-      <td>L</td>
-      <td>3</td>
-      <td>29</td>
-      <td>26</td>
-      <td>0.90</td>
-      <td>59.82</td>
-    </tr>
-    <tr>
-      <td>Jacob Markström</td>
-      <td>marksja02</td>
-      <td>1</td>
-      <td>202310110CGY</td>
-      <td>10/11/2023</td>
-      <td>CGY</td>
-      <td>vs</td>
-      <td>WPG</td>
-      <td>W</td>
-      <td>3</td>
-      <td>37</td>
-      <td>34</td>
-      <td>0.92</td>
-      <td>59.73</td>
-    </tr>
-    <tr>
-      <td>Jacob Markström</td>
-      <td>marksja02</td>
-      <td>12</td>
-      <td>202311070CGY</td>
-      <td>11/7/2023</td>
-      <td>CGY</td>
-      <td>vs</td>
-      <td>NSH</td>
-      <td>W</td>
-      <td>2</td>
-      <td>18</td>
-      <td>16</td>
-      <td>0.89</td>
-      <td>59.70</td>
-    </tr>
-    <tr>
-      <td>Jacob Markström</td>
-      <td>marksja02</td>
-      <td>51</td>
-      <td>202402080NJD</td>
-      <td>2/8/2024</td>
-      <td>CGY</td>
-      <td>@</td>
-      <td>NJD</td>
-      <td>W</td>
-      <td>3</td>
-      <td>40</td>
-      <td>37</td>
-      <td>0.93</td>
-      <td>59.58</td>
-    </tr>
-    <tr>
-      <td>Jacob Markström</td>
-      <td>marksja02</td>
-      <td>37</td>
-      <td>202401020MIN</td>
-      <td>1/2/2024</td>
-      <td>CGY</td>
-      <td>@</td>
-      <td>MIN</td>
-      <td>W</td>
-      <td>1</td>
-      <td>29</td>
-      <td>28</td>
-      <td>0.97</td>
-      <td>59.43</td>
-    </tr>
-    <tr>
-      <td>Jacob Markström</td>
-      <td>marksja02</td>
-      <td>8</td>
-      <td>202310260CGY</td>
-      <td>10/26/2023</td>
-      <td>CGY</td>
-      <td>vs</td>
-      <td>STL</td>
-      <td>L</td>
-      <td>2</td>
-      <td>34</td>
-      <td>32</td>
-      <td>0.94</td>
-      <td>59.42</td>
-    </tr>
-    <tr>
-      <td>Jacob Markström</td>
-      <td>marksja02</td>
-      <td>47</td>
-      <td>202401230CGY</td>
-      <td>1/23/2024</td>
-      <td>CGY</td>
-      <td>vs</td>
-      <td>STL</td>
-      <td>L</td>
-      <td>4</td>
-      <td>26</td>
-      <td>22</td>
-      <td>0.85</td>
-      <td>59.38</td>
-    </tr>
-    <tr>
-      <td>Jacob Markström</td>
-      <td>marksja02</td>
-      <td>48</td>
-      <td>202401250CGY</td>
-      <td>1/25/2024</td>
-      <td>CGY</td>
-      <td>vs</td>
-      <td>CBJ</td>
-      <td>L</td>
-      <td>4</td>
-      <td>31</td>
-      <td>27</td>
-      <td>0.87</td>
-      <td>59.28</td>
-    </tr>
-    <tr>
-      <td>Jacob Markström</td>
-      <td>marksja02</td>
-      <td>7</td>
-      <td>202310240CGY</td>
-      <td>10/24/2023</td>
-      <td>CGY</td>
-      <td>vs</td>
-      <td>NYR</td>
-      <td>L</td>
-      <td>3</td>
-      <td>20</td>
-      <td>17</td>
-      <td>0.85</td>
-      <td>59.28</td>
-    </tr>
-    <tr>
-      <td>Jacob Markström</td>
-      <td>marksja02</td>
-      <td>76</td>
-      <td>202404060CGY</td>
-      <td>4/6/2024</td>
-      <td>CGY</td>
-      <td>vs</td>
-      <td>EDM</td>
-      <td>L</td>
-      <td>3</td>
-      <td>26</td>
-      <td>23</td>
-      <td>0.89</td>
-      <td>59.10</td>
-    </tr>
-    <tr>
-      <td>Jacob Markström</td>
-      <td>marksja02</td>
-      <td>34</td>
-      <td>202312230LAK</td>
-      <td>12/23/2023</td>
-      <td>CGY</td>
-      <td>@</td>
-      <td>LAK</td>
-      <td>L</td>
-      <td>4</td>
-      <td>33</td>
-      <td>29</td>
-      <td>0.88</td>
-      <td>58.93</td>
-    </tr>
-    <tr>
-      <td>Jacob Markström</td>
-      <td>marksja02</td>
-      <td>10</td>
-      <td>202311010CGY</td>
-      <td>11/1/2023</td>
-      <td>CGY</td>
-      <td>vs</td>
-      <td>DAL</td>
-      <td>L</td>
-      <td>4</td>
-      <td>30</td>
-      <td>26</td>
-      <td>0.87</td>
-      <td>58.85</td>
-    </tr>
-    <tr>
-      <td>Jacob Markström</td>
-      <td>marksja02</td>
-      <td>53</td>
-      <td>202402120NYR</td>
-      <td>2/12/2024</td>
-      <td>CGY</td>
-      <td>@</td>
-      <td>NYR</td>
-      <td>L</td>
-      <td>1</td>
-      <td>30</td>
-      <td>29</td>
-      <td>0.97</td>
-      <td>58.73</td>
-    </tr>
-    <tr>
-      <td>Jacob Markström</td>
-      <td>marksja02</td>
-      <td>16</td>
-      <td>202311160CGY</td>
-      <td>11/16/2023</td>
-      <td>CGY</td>
-      <td>vs</td>
-      <td>VAN</td>
-      <td>W</td>
-      <td>2</td>
-      <td>22</td>
-      <td>20</td>
-      <td>0.91</td>
-      <td>58.68</td>
-    </tr>
-    <tr>
-      <td>Jacob Markström</td>
-      <td>marksja02</td>
-      <td>69</td>
-      <td>202403230VAN</td>
-      <td>3/23/2024</td>
-      <td>CGY</td>
-      <td>@</td>
-      <td>VAN</td>
-      <td>L</td>
-      <td>3</td>
-      <td>25</td>
-      <td>22</td>
-      <td>0.88</td>
-      <td>58.45</td>
-    </tr>
-    <tr>
-      <td>Jacob Markström</td>
-      <td>marksja02</td>
-      <td>61</td>
-      <td>202403040CGY</td>
-      <td>3/4/2024</td>
-      <td>CGY</td>
-      <td>vs</td>
-      <td>SEA</td>
-      <td>L</td>
-      <td>4</td>
-      <td>30</td>
-      <td>26</td>
-      <td>0.87</td>
-      <td>58.10</td>
-    </tr>
-    <tr>
-      <td>Jacob Markström</td>
-      <td>marksja02</td>
-      <td>9</td>
-      <td>202310290EDM</td>
-      <td>10/29/2023</td>
-      <td>CGY</td>
-      <td>@</td>
-      <td>EDM</td>
-      <td>L</td>
-      <td>4</td>
-      <td>32</td>
-      <td>28</td>
-      <td>0.88</td>
-      <td>58.05</td>
-    </tr>
-    <tr>
-      <td>Jacob Markström</td>
-      <td>marksja02</td>
-      <td>35</td>
-      <td>202312270CGY</td>
-      <td>12/27/2023</td>
-      <td>CGY</td>
-      <td>vs</td>
-      <td>SEA</td>
-      <td>L</td>
-      <td>2</td>
-      <td>21</td>
-      <td>19</td>
-      <td>0.91</td>
-      <td>57.90</td>
-    </tr>
-    <tr>
-      <td>Jacob Markström</td>
-      <td>marksja02</td>
-      <td>5</td>
-      <td>202310200CBJ</td>
-      <td>10/20/2023</td>
-      <td>CGY</td>
-      <td>@</td>
-      <td>CBJ</td>
-      <td>L</td>
-      <td>2</td>
-      <td>28</td>
-      <td>26</td>
-      <td>0.93</td>
-      <td>57.87</td>
-    </tr>
-    <tr>
-      <td>Jacob Markström</td>
-      <td>marksja02</td>
-      <td>2</td>
-      <td>202310140PIT</td>
-      <td>10/14/2023</td>
-      <td>CGY</td>
-      <td>@</td>
-      <td>PIT</td>
-      <td>L</td>
-      <td>4</td>
-      <td>28</td>
-      <td>24</td>
-      <td>0.86</td>
-      <td>57.82</td>
-    </tr>
-    <tr>
-      <td>Jacob Markström</td>
-      <td>marksja02</td>
-      <td>39</td>
-      <td>202401060PHI</td>
-      <td>1/6/2024</td>
-      <td>CGY</td>
-      <td>@</td>
-      <td>PHI</td>
-      <td>L</td>
-      <td>3</td>
-      <td>42</td>
-      <td>39</td>
-      <td>0.93</td>
-      <td>57.70</td>
-    </tr>
-    <tr>
-      <td>Jacob Markström</td>
-      <td>marksja02</td>
-      <td>24</td>
-      <td>202312020CGY</td>
-      <td>12/2/2023</td>
-      <td>CGY</td>
-      <td>vs</td>
-      <td>VAN</td>
-      <td>L</td>
-      <td>3</td>
-      <td>21</td>
-      <td>18</td>
-      <td>0.86</td>
-      <td>57.55</td>
-    </tr>
-    <tr>
-      <td>Jacob Markström</td>
-      <td>marksja02</td>
-      <td>71</td>
-      <td>202403260CHI</td>
-      <td>3/26/2024</td>
-      <td>CGY</td>
-      <td>@</td>
-      <td>CHI</td>
-      <td>L</td>
-      <td>3</td>
-      <td>27</td>
-      <td>24</td>
-      <td>0.89</td>
-      <td>56.50</td>
-    </tr>
-    <tr>
-      <td>Jacob Markström</td>
-      <td>marksja02</td>
-      <td>55</td>
-      <td>202402170CGY</td>
-      <td>2/17/2024</td>
-      <td>CGY</td>
-      <td>vs</td>
-      <td>DET</td>
-      <td>L</td>
-      <td>4</td>
-      <td>12</td>
-      <td>8</td>
-      <td>0.67</td>
-      <td>26.68</td>
-    </tr>
-  </tbody>
-</table>
-        </main>
-    </body>
-    </html>
+    <!-- Search Bar -->
+    <div class="search-container">
+      <input type="text" id="searchInput" placeholder="Search players or teams..." oninput="searchEntities()" />
+      <ul id="suggestions"></ul> <!-- This will show the search suggestions -->
+    </div>
+  </nav>
+
+  <h1>Jacob Markström - Gamelogs</h1>
+  <table border="1">
+    <thead>
+      <tr>
+        <th>Season</th>
+        <th>Date</th>
+        <th>Team</th>
+        <th>Location</th>
+        <th>Opponent</th>
+        <th>Result</th>
+        <th>GA</th>
+        <th>SA</th>
+        <th>SV</th>
+        <th>SV%</th>
+        <th>TOI</th>
+      </tr>
+    </thead>
+    <tbody>
     
-            <h2>Penalties</h2>
-            <p>No penalties table available</p>
-            <h2>Scoring</h2>
-            
-    <h2>Goals Allowed by marksja02</h2>
-    <table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th>Date</th>
-      <th>Tm</th>
-      <th>Location</th>
-      <th>Opp</th>
-      <th>Result</th>
-      <th>Scorer</th>
-      <th>scorer username</th>
-      <th>Assist1</th>
-      <th>ast 1 username</th>
-      <th>Assist2</th>
-      <th>ast 2 username</th>
-      <th>Goalie</th>
-      <th>goalie username</th>
-      <th>Per.</th>
-      <th>Time</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>10/11/2023</td>
-      <td>WPG</td>
-      <td>@</td>
-      <td>CGY</td>
-      <td>L</td>
-      <td>Kyle Connor</td>
-      <td>connoky01</td>
-      <td>Dylan Samberg</td>
-      <td>sambedy01</td>
-      <td>Neal Pionk</td>
-      <td>pionkne01</td>
-      <td>Jacob Markström</td>
-      <td>marksja02</td>
-      <td>1</td>
-      <td>14.80</td>
-    </tr>
-    <tr>
-      <td>10/11/2023</td>
-      <td>WPG</td>
-      <td>@</td>
-      <td>CGY</td>
-      <td>L</td>
-      <td>Alex Iafallo</td>
-      <td>iafalal01</td>
-      <td>Dylan DeMelo</td>
-      <td>demeldy01</td>
-      <td>Adam Lowry</td>
-      <td>lowryad01</td>
-      <td>Jacob Markström</td>
-      <td>marksja02</td>
-      <td>2</td>
-      <td>11.32</td>
-    </tr>
-    <tr>
-      <td>10/11/2023</td>
-      <td>WPG</td>
-      <td>@</td>
-      <td>CGY</td>
-      <td>L</td>
-      <td>Mark Scheifele</td>
-      <td>scheima01</td>
-      <td>Josh Morrissey</td>
-      <td>morrijo04</td>
-      <td>-</td>
-      <td>NaN</td>
-      <td>Jacob Markström</td>
-      <td>marksja02</td>
-      <td>3</td>
-      <td>14.30</td>
-    </tr>
-    <tr>
-      <td>10/14/2023</td>
-      <td>PIT</td>
-      <td>vs</td>
-      <td>CGY</td>
-      <td>W</td>
-      <td>Bryan Rust</td>
-      <td>rustbr01</td>
-      <td>Kris Letang</td>
-      <td>letankr01</td>
-      <td>Jake Guentzel</td>
-      <td>guentja01</td>
-      <td>Jacob Markström</td>
-      <td>marksja02</td>
-      <td>3</td>
-      <td>0.30</td>
-    </tr>
-    <tr>
-      <td>10/14/2023</td>
-      <td>PIT</td>
-      <td>vs</td>
-      <td>CGY</td>
-      <td>W</td>
-      <td>Reilly Smith</td>
-      <td>smithre01</td>
-      <td>Evgeni Malkin</td>
-      <td>malkiev01</td>
-      <td>Ryan Graves</td>
-      <td>gravery01</td>
-      <td>Jacob Markström</td>
-      <td>marksja02</td>
-      <td>3</td>
-      <td>0.68</td>
-    </tr>
-    <tr>
-      <td>10/14/2023</td>
-      <td>PIT</td>
-      <td>vs</td>
-      <td>CGY</td>
-      <td>W</td>
-      <td>Jake Guentzel</td>
-      <td>guentja01</td>
-      <td>Kris Letang</td>
-      <td>letankr01</td>
-      <td>Sidney Crosby</td>
-      <td>crosbsi01</td>
-      <td>Jacob Markström</td>
-      <td>marksja02</td>
-      <td>3</td>
-      <td>5.83</td>
-    </tr>
-    <tr>
-      <td>10/14/2023</td>
-      <td>PIT</td>
-      <td>vs</td>
-      <td>CGY</td>
-      <td>W</td>
-      <td>Evgeni Malkin</td>
-      <td>malkiev01</td>
-      <td>Reilly Smith</td>
-      <td>smithre01</td>
-      <td>-</td>
-      <td>NaN</td>
-      <td>Jacob Markström</td>
-      <td>marksja02</td>
-      <td>3</td>
-      <td>14.23</td>
-    </tr>
-    <tr>
-      <td>10/16/2023</td>
-      <td>WSH</td>
-      <td>vs</td>
-      <td>CGY</td>
-      <td>W</td>
-      <td>Matthew Phillips</td>
-      <td>phillma01</td>
-      <td>Sonny Milano</td>
-      <td>milanso01</td>
-      <td>-</td>
-      <td>NaN</td>
-      <td>Jacob Markström</td>
-      <td>marksja02</td>
-      <td>2</td>
-      <td>6.83</td>
-    </tr>
-    <tr>
-      <td>10/16/2023</td>
-      <td>WSH</td>
-      <td>vs</td>
-      <td>CGY</td>
-      <td>W</td>
-      <td>Connor McMichael</td>
-      <td>mcmicco01</td>
-      <td>Matthew Phillips</td>
-      <td>phillma01</td>
-      <td>John Carlson</td>
-      <td>carlsjo01</td>
-      <td>Jacob Markström</td>
-      <td>marksja02</td>
-      <td>2</td>
-      <td>9.90</td>
-    </tr>
-    <tr>
-      <td>10/20/2023</td>
-      <td>CBJ</td>
-      <td>vs</td>
-      <td>CGY</td>
-      <td>W</td>
-      <td>Sean Kuraly</td>
-      <td>kuralse01</td>
-      <td>Justin Danforth</td>
-      <td>danfoju01</td>
-      <td>Ivan Provorov</td>
-      <td>provoiv01</td>
-      <td>Jacob Markström</td>
-      <td>marksja02</td>
-      <td>2</td>
-      <td>6.48</td>
-    </tr>
-    <tr>
-      <td>10/20/2023</td>
-      <td>CBJ</td>
-      <td>vs</td>
-      <td>CGY</td>
-      <td>W</td>
-      <td>Justin Danforth</td>
-      <td>danfoju01</td>
-      <td>Jack Roslovic</td>
-      <td>rosloja01</td>
-      <td>Zach Werenski</td>
-      <td>werenza01</td>
-      <td>Jacob Markström</td>
-      <td>marksja02</td>
-      <td>3</td>
-      <td>8.75</td>
-    </tr>
-    <tr>
-      <td>10/24/2023</td>
-      <td>NYR</td>
-      <td>@</td>
-      <td>CGY</td>
-      <td>W</td>
-      <td>Alexis Lafrenière</td>
-      <td>lafreal01</td>
-      <td>Erik Gustafsson</td>
-      <td>gustaer02</td>
-      <td>Filip Chytil</td>
-      <td>chytifi01</td>
-      <td>Jacob Markström</td>
-      <td>marksja02</td>
-      <td>2</td>
-      <td>7.63</td>
-    </tr>
-    <tr>
-      <td>10/24/2023</td>
-      <td>NYR</td>
-      <td>@</td>
-      <td>CGY</td>
-      <td>W</td>
-      <td>Chris Kreider</td>
-      <td>kreidch01</td>
-      <td>Artemi Panarin</td>
-      <td>panarar01</td>
-      <td>Adam Fox</td>
-      <td>foxad01</td>
-      <td>Jacob Markström</td>
-      <td>marksja02</td>
-      <td>2</td>
-      <td>14.15</td>
-    </tr>
-    <tr>
-      <td>10/24/2023</td>
-      <td>NYR</td>
-      <td>@</td>
-      <td>CGY</td>
-      <td>W</td>
-      <td>Erik Gustafsson</td>
-      <td>gustaer02</td>
-      <td>Filip Chytil</td>
-      <td>chytifi01</td>
-      <td>K'Andre Miller</td>
-      <td>milleka01</td>
-      <td>Jacob Markström</td>
-      <td>marksja02</td>
-      <td>2</td>
-      <td>16.88</td>
-    </tr>
-    <tr>
-      <td>10/26/2023</td>
-      <td>STL</td>
-      <td>@</td>
-      <td>CGY</td>
-      <td>W</td>
-      <td>Kasperi Kapanen</td>
-      <td>kapanka01</td>
-      <td>Oskar Sundqvist</td>
-      <td>sundqos01</td>
-      <td>-</td>
-      <td>NaN</td>
-      <td>Jacob Markström</td>
-      <td>marksja02</td>
-      <td>1</td>
-      <td>11.38</td>
-    </tr>
-    <tr>
-      <td>10/26/2023</td>
-      <td>STL</td>
-      <td>@</td>
-      <td>CGY</td>
-      <td>W</td>
-      <td>Nick Leddy</td>
-      <td>leddyni01</td>
-      <td>Kevin Hayes</td>
-      <td>hayeske01</td>
-      <td>Alexey Toropchenko</td>
-      <td>toropal01</td>
-      <td>Jacob Markström</td>
-      <td>marksja02</td>
-      <td>1</td>
-      <td>13.40</td>
-    </tr>
-    <tr>
-      <td>10/29/2023</td>
-      <td>EDM</td>
-      <td>vs</td>
-      <td>CGY</td>
-      <td>W</td>
-      <td>Brett Kulak</td>
-      <td>kulakbr01</td>
-      <td>Evander Kane</td>
-      <td>kaneev01</td>
-      <td>Ryan Nugent-Hopkins</td>
-      <td>nugenry01</td>
-      <td>Jacob Markström</td>
-      <td>marksja02</td>
-      <td>1</td>
-      <td>4.32</td>
-    </tr>
-    <tr>
-      <td>10/29/2023</td>
-      <td>EDM</td>
-      <td>vs</td>
-      <td>CGY</td>
-      <td>W</td>
-      <td>Zach Hyman</td>
-      <td>hymanza01</td>
-      <td>Leon Draisaitl</td>
-      <td>draisle01</td>
-      <td>-</td>
-      <td>NaN</td>
-      <td>Jacob Markström</td>
-      <td>marksja02</td>
-      <td>1</td>
-      <td>9.63</td>
-    </tr>
-    <tr>
-      <td>10/29/2023</td>
-      <td>EDM</td>
-      <td>vs</td>
-      <td>CGY</td>
-      <td>W</td>
-      <td>Evan Bouchard</td>
-      <td>bouchev01</td>
-      <td>Leon Draisaitl</td>
-      <td>draisle01</td>
-      <td>Connor McDavid</td>
-      <td>mcdavco01</td>
-      <td>Jacob Markström</td>
-      <td>marksja02</td>
-      <td>1</td>
-      <td>16.10</td>
-    </tr>
-    <tr>
-      <td>10/29/2023</td>
-      <td>EDM</td>
-      <td>vs</td>
-      <td>CGY</td>
-      <td>W</td>
-      <td>Vincent Desharnais</td>
-      <td>deshavi01</td>
-      <td>Evander Kane</td>
-      <td>kaneev01</td>
-      <td>Zach Hyman</td>
-      <td>hymanza01</td>
-      <td>Jacob Markström</td>
-      <td>marksja02</td>
-      <td>3</td>
-      <td>6.27</td>
-    </tr>
-    <tr>
-      <td>11/1/2023</td>
-      <td>DAL</td>
-      <td>@</td>
-      <td>CGY</td>
-      <td>W</td>
-      <td>Jamie Benn</td>
-      <td>bennja01</td>
-      <td>Roope Hintz</td>
-      <td>hintzro01</td>
-      <td>Esa Lindell</td>
-      <td>lindees01</td>
-      <td>Jacob Markström</td>
-      <td>marksja02</td>
-      <td>1</td>
-      <td>19.10</td>
-    </tr>
-    <tr>
-      <td>11/1/2023</td>
-      <td>DAL</td>
-      <td>@</td>
-      <td>CGY</td>
-      <td>W</td>
-      <td>Jason Robertson</td>
-      <td>roberja01</td>
-      <td>Roope Hintz</td>
-      <td>hintzro01</td>
-      <td>Joe Pavelski</td>
-      <td>paveljo01</td>
-      <td>Jacob Markström</td>
-      <td>marksja02</td>
-      <td>2</td>
-      <td>4.58</td>
-    </tr>
-    <tr>
-      <td>11/1/2023</td>
-      <td>DAL</td>
-      <td>@</td>
-      <td>CGY</td>
-      <td>W</td>
-      <td>Evgenii Dadonov</td>
-      <td>dadonev01</td>
-      <td>Nils Lundkvist</td>
-      <td>lundkni01</td>
-      <td>Jamie Benn</td>
-      <td>bennja01</td>
-      <td>Jacob Markström</td>
-      <td>marksja02</td>
-      <td>2</td>
-      <td>10.12</td>
-    </tr>
-    <tr>
-      <td>11/1/2023</td>
-      <td>DAL</td>
-      <td>@</td>
-      <td>CGY</td>
-      <td>W</td>
-      <td>Mason Marchment</td>
-      <td>marchma01</td>
-      <td>Matt Duchene</td>
-      <td>duchema01</td>
-      <td>Tyler Seguin</td>
-      <td>seguity01</td>
-      <td>Jacob Markström</td>
-      <td>marksja02</td>
-      <td>2</td>
-      <td>19.80</td>
-    </tr>
-    <tr>
-      <td>11/7/2023</td>
-      <td>NSH</td>
-      <td>@</td>
-      <td>CGY</td>
-      <td>L</td>
-      <td>Michael McCarron</td>
-      <td>mccarmi01</td>
-      <td>Liam Foudy</td>
-      <td>foudyli01</td>
-      <td>Marc Del Gaizo</td>
-      <td>delgama01</td>
-      <td>Jacob Markström</td>
-      <td>marksja02</td>
-      <td>1</td>
-      <td>4.58</td>
-    </tr>
-    <tr>
-      <td>11/7/2023</td>
-      <td>NSH</td>
-      <td>@</td>
-      <td>CGY</td>
-      <td>L</td>
-      <td>Kiefer Sherwood</td>
-      <td>sherwki01</td>
-      <td>Luke Evangelista</td>
-      <td>evanglu01</td>
-      <td>Thomas Novak</td>
-      <td>novakth01</td>
-      <td>Jacob Markström</td>
-      <td>marksja02</td>
-      <td>1</td>
-      <td>14.57</td>
-    </tr>
-    <tr>
-      <td>11/14/2023</td>
-      <td>MTL</td>
-      <td>vs</td>
-      <td>CGY</td>
-      <td>L</td>
-      <td>Gustav Lindström</td>
-      <td>lindsgu01</td>
-      <td>Christian Dvorak</td>
-      <td>dvorach01</td>
-      <td>Juraj Slafkovsky</td>
-      <td>slafkju01</td>
-      <td>Jacob Markström</td>
-      <td>marksja02</td>
-      <td>2</td>
-      <td>2.87</td>
-    </tr>
-    <tr>
-      <td>11/16/2023</td>
-      <td>VAN</td>
-      <td>@</td>
-      <td>CGY</td>
-      <td>L</td>
-      <td>Elias Pettersson</td>
-      <td>petteel01</td>
-      <td>J.T. Miller</td>
-      <td>millejt01</td>
-      <td>Quinn Hughes</td>
-      <td>hughequ01</td>
-      <td>Jacob Markström</td>
-      <td>marksja02</td>
-      <td>1</td>
-      <td>9.63</td>
-    </tr>
-    <tr>
-      <td>11/16/2023</td>
-      <td>VAN</td>
-      <td>@</td>
-      <td>CGY</td>
-      <td>L</td>
-      <td>Nils Höglander</td>
-      <td>hoglani01</td>
-      <td>Tyler Myers</td>
-      <td>myersty01</td>
-      <td>Sam Lafferty</td>
-      <td>laffesa01</td>
-      <td>Jacob Markström</td>
-      <td>marksja02</td>
-      <td>3</td>
-      <td>10.10</td>
-    </tr>
-    <tr>
-      <td>11/18/2023</td>
-      <td>NYI</td>
-      <td>@</td>
-      <td>CGY</td>
-      <td>W</td>
-      <td>Hudson Fasching</td>
-      <td>faschhu01</td>
-      <td>Cal Clutterbuck</td>
-      <td>cluttca01</td>
-      <td>Brock Nelson</td>
-      <td>nelsobr01</td>
-      <td>Jacob Markström</td>
-      <td>marksja02</td>
-      <td>1</td>
-      <td>16.87</td>
-    </tr>
-    <tr>
-      <td>11/18/2023</td>
-      <td>NYI</td>
-      <td>@</td>
-      <td>CGY</td>
-      <td>W</td>
-      <td>Kyle Palmieri</td>
-      <td>palmiky01</td>
-      <td>Bo Horvat</td>
-      <td>horvabo01</td>
-      <td>Noah Dobson</td>
-      <td>dobsono01</td>
-      <td>Jacob Markström</td>
-      <td>marksja02</td>
-      <td>2</td>
-      <td>4.12</td>
-    </tr>
-    <tr>
-      <td>11/18/2023</td>
-      <td>NYI</td>
-      <td>@</td>
-      <td>CGY</td>
-      <td>W</td>
-      <td>Mathew Barzal</td>
-      <td>barzama01</td>
-      <td>-</td>
-      <td>NaN</td>
-      <td>-</td>
-      <td>NaN</td>
-      <td>Jacob Markström</td>
-      <td>marksja02</td>
-      <td>2</td>
-      <td>8.12</td>
-    </tr>
-    <tr>
-      <td>11/18/2023</td>
-      <td>NYI</td>
-      <td>@</td>
-      <td>CGY</td>
-      <td>W</td>
-      <td>Brock Nelson</td>
-      <td>nelsobr01</td>
-      <td>Pierre Engvall</td>
-      <td>engvapi01</td>
-      <td>Sebastian Aho</td>
-      <td>ahose01</td>
-      <td>Jacob Markström</td>
-      <td>marksja02</td>
-      <td>3</td>
-      <td>3.53</td>
-    </tr>
-    <tr>
-      <td>11/22/2023</td>
-      <td>NSH</td>
-      <td>vs</td>
-      <td>CGY</td>
-      <td>W</td>
-      <td>Colton Sissons</td>
-      <td>sissoco01</td>
-      <td>Roman Josi</td>
-      <td>josiro01</td>
-      <td>Cole Smith</td>
-      <td>smithco02</td>
-      <td>Jacob Markström</td>
-      <td>marksja02</td>
-      <td>1</td>
-      <td>2.55</td>
-    </tr>
-    <tr>
-      <td>11/22/2023</td>
-      <td>NSH</td>
-      <td>vs</td>
-      <td>CGY</td>
-      <td>W</td>
-      <td>Ryan O'Reilly</td>
-      <td>oreilry01</td>
-      <td>Ryan McDonagh</td>
-      <td>mcdonry01</td>
-      <td>Gustav Nyquist</td>
-      <td>nyquigu01</td>
-      <td>Jacob Markström</td>
-      <td>marksja02</td>
-      <td>1</td>
-      <td>11.38</td>
-    </tr>
-    <tr>
-      <td>11/22/2023</td>
-      <td>NSH</td>
-      <td>vs</td>
-      <td>CGY</td>
-      <td>W</td>
-      <td>Alexandre Carrier</td>
-      <td>carrial01</td>
-      <td>-</td>
-      <td>NaN</td>
-      <td>-</td>
-      <td>NaN</td>
-      <td>Jacob Markström</td>
-      <td>marksja02</td>
-      <td>3</td>
-      <td>11.93</td>
-    </tr>
-    <tr>
-      <td>11/22/2023</td>
-      <td>NSH</td>
-      <td>vs</td>
-      <td>CGY</td>
-      <td>W</td>
-      <td>Juuso Pärssinen</td>
-      <td>parssju01</td>
-      <td>Philip Tomasino</td>
-      <td>tomasph01</td>
-      <td>Ryan McDonagh</td>
-      <td>mcdonry01</td>
-      <td>Jacob Markström</td>
-      <td>marksja02</td>
-      <td>3</td>
-      <td>17.37</td>
-    </tr>
-    <tr>
-      <td>11/24/2023</td>
-      <td>DAL</td>
-      <td>vs</td>
-      <td>CGY</td>
-      <td>L</td>
-      <td>Wyatt Johnston</td>
-      <td>johnswy01</td>
-      <td>Jamie Benn</td>
-      <td>bennja01</td>
-      <td>Evgenii Dadonov</td>
-      <td>dadonev01</td>
-      <td>Jacob Markström</td>
-      <td>marksja02</td>
-      <td>1</td>
-      <td>1.22</td>
-    </tr>
-    <tr>
-      <td>11/24/2023</td>
-      <td>DAL</td>
-      <td>vs</td>
-      <td>CGY</td>
-      <td>L</td>
-      <td>Jason Robertson</td>
-      <td>roberja01</td>
-      <td>Nils Lundkvist</td>
-      <td>lundkni01</td>
-      <td>-</td>
-      <td>NaN</td>
-      <td>Jacob Markström</td>
-      <td>marksja02</td>
-      <td>1</td>
-      <td>11.45</td>
-    </tr>
-    <tr>
-      <td>11/24/2023</td>
-      <td>DAL</td>
-      <td>vs</td>
-      <td>CGY</td>
-      <td>L</td>
-      <td>Wyatt Johnston</td>
-      <td>johnswy01</td>
-      <td>Jamie Benn</td>
-      <td>bennja01</td>
-      <td>Evgenii Dadonov</td>
-      <td>dadonev01</td>
-      <td>Jacob Markström</td>
-      <td>marksja02</td>
-      <td>2</td>
-      <td>4.73</td>
-    </tr>
-    <tr>
-      <td>11/24/2023</td>
-      <td>DAL</td>
-      <td>vs</td>
-      <td>CGY</td>
-      <td>L</td>
-      <td>Joe Pavelski</td>
-      <td>paveljo01</td>
-      <td>Matt Duchene</td>
-      <td>duchema01</td>
-      <td>Jason Robertson</td>
-      <td>roberja01</td>
-      <td>Jacob Markström</td>
-      <td>marksja02</td>
-      <td>2</td>
-      <td>8.88</td>
-    </tr>
-    <tr>
-      <td>11/30/2023</td>
-      <td>DAL</td>
-      <td>@</td>
-      <td>CGY</td>
-      <td>L</td>
-      <td>Thomas Harley</td>
-      <td>harleth01</td>
-      <td>Joe Pavelski</td>
-      <td>paveljo01</td>
-      <td>Jason Robertson</td>
-      <td>roberja01</td>
-      <td>Jacob Markström</td>
-      <td>marksja02</td>
-      <td>1</td>
-      <td>4.85</td>
-    </tr>
-    <tr>
-      <td>11/30/2023</td>
-      <td>DAL</td>
-      <td>@</td>
-      <td>CGY</td>
-      <td>L</td>
-      <td>Mason Marchment</td>
-      <td>marchma01</td>
-      <td>Miro Heiskanen</td>
-      <td>heiskmi01</td>
-      <td>Tyler Seguin</td>
-      <td>seguity01</td>
-      <td>Jacob Markström</td>
-      <td>marksja02</td>
-      <td>1</td>
-      <td>19.00</td>
-    </tr>
-    <tr>
-      <td>11/30/2023</td>
-      <td>DAL</td>
-      <td>@</td>
-      <td>CGY</td>
-      <td>L</td>
-      <td>Mason Marchment</td>
-      <td>marchma01</td>
-      <td>PS</td>
-      <td>NaN</td>
-      <td>-</td>
-      <td>NaN</td>
-      <td>Jacob Markström</td>
-      <td>marksja02</td>
-      <td>3</td>
-      <td>1.82</td>
-    </tr>
-    <tr>
-      <td>12/2/2023</td>
-      <td>VAN</td>
-      <td>@</td>
-      <td>CGY</td>
-      <td>W</td>
-      <td>Quinn Hughes</td>
-      <td>hughequ01</td>
-      <td>Brock Boeser</td>
-      <td>boesebr01</td>
-      <td>Filip Hronek</td>
-      <td>hronefi01</td>
-      <td>Jacob Markström</td>
-      <td>marksja02</td>
-      <td>1</td>
-      <td>2.05</td>
-    </tr>
-    <tr>
-      <td>12/2/2023</td>
-      <td>VAN</td>
-      <td>@</td>
-      <td>CGY</td>
-      <td>W</td>
-      <td>Sam Lafferty</td>
-      <td>laffesa01</td>
-      <td>Ilya Mikheyev</td>
-      <td>mikheil01</td>
-      <td>Filip Hronek</td>
-      <td>hronefi01</td>
-      <td>Jacob Markström</td>
-      <td>marksja02</td>
-      <td>1</td>
-      <td>8.63</td>
-    </tr>
-    <tr>
-      <td>12/2/2023</td>
-      <td>VAN</td>
-      <td>@</td>
-      <td>CGY</td>
-      <td>W</td>
-      <td>Ilya Mikheyev</td>
-      <td>mikheil01</td>
-      <td>Elias Pettersson</td>
-      <td>petteel01</td>
-      <td>Sam Lafferty</td>
-      <td>laffesa01</td>
-      <td>Jacob Markström</td>
-      <td>marksja02</td>
-      <td>2</td>
-      <td>19.53</td>
-    </tr>
-    <tr>
-      <td>12/18/2023</td>
-      <td>FLA</td>
-      <td>@</td>
-      <td>CGY</td>
-      <td>L</td>
-      <td>Sam Reinhart</td>
-      <td>reinhsa01</td>
-      <td>Matthew Tkachuk</td>
-      <td>tkachma01</td>
-      <td>Aleksander Barkov</td>
-      <td>barkoal01</td>
-      <td>Jacob Markström</td>
-      <td>marksja02</td>
-      <td>1</td>
-      <td>19.48</td>
-    </tr>
-    <tr>
-      <td>12/23/2023</td>
-      <td>LAK</td>
-      <td>vs</td>
-      <td>CGY</td>
-      <td>W</td>
-      <td>Quinton Byfield</td>
-      <td>byfiequ01</td>
-      <td>Drew Doughty</td>
-      <td>doughdr01</td>
-      <td>Anže Kopitar</td>
-      <td>kopitan01</td>
-      <td>Jacob Markström</td>
-      <td>marksja02</td>
-      <td>1</td>
-      <td>1.02</td>
-    </tr>
-    <tr>
-      <td>12/23/2023</td>
-      <td>LAK</td>
-      <td>vs</td>
-      <td>CGY</td>
-      <td>W</td>
-      <td>Pierre-Luc Dubois</td>
-      <td>duboipi01</td>
-      <td>Jordan Spence</td>
-      <td>spencjo01</td>
-      <td>Phillip Danault</td>
-      <td>danauph01</td>
-      <td>Jacob Markström</td>
-      <td>marksja02</td>
-      <td>1</td>
-      <td>15.33</td>
-    </tr>
-    <tr>
-      <td>12/23/2023</td>
-      <td>LAK</td>
-      <td>vs</td>
-      <td>CGY</td>
-      <td>W</td>
-      <td>Alex Laferriere</td>
-      <td>laferal01</td>
-      <td>Drew Doughty</td>
-      <td>doughdr01</td>
-      <td>Michael Anderson</td>
-      <td>andermi02</td>
-      <td>Jacob Markström</td>
-      <td>marksja02</td>
-      <td>2</td>
-      <td>6.47</td>
-    </tr>
-    <tr>
-      <td>12/23/2023</td>
-      <td>LAK</td>
-      <td>vs</td>
-      <td>CGY</td>
-      <td>W</td>
-      <td>Trevor Moore</td>
-      <td>mooretr01</td>
-      <td>Matt Roy</td>
-      <td>royma04</td>
-      <td>-</td>
-      <td>NaN</td>
-      <td>Jacob Markström</td>
-      <td>marksja02</td>
-      <td>2</td>
-      <td>9.95</td>
-    </tr>
-    <tr>
-      <td>12/27/2023</td>
-      <td>SEA</td>
-      <td>@</td>
-      <td>CGY</td>
-      <td>W</td>
-      <td>Kailer Yamamoto</td>
-      <td>yamamka01</td>
-      <td>Vince Dunn</td>
-      <td>dunnvi02</td>
-      <td>Adam Larsson</td>
-      <td>larssad01</td>
-      <td>Jacob Markström</td>
-      <td>marksja02</td>
-      <td>1</td>
-      <td>2.40</td>
-    </tr>
-    <tr>
-      <td>12/27/2023</td>
-      <td>SEA</td>
-      <td>@</td>
-      <td>CGY</td>
-      <td>W</td>
-      <td>Alexander Wennberg</td>
-      <td>wennbal01</td>
-      <td>Jared McCann</td>
-      <td>mccanja01</td>
-      <td>William Borgen</td>
-      <td>borgewi01</td>
-      <td>Jacob Markström</td>
-      <td>marksja02</td>
-      <td>3</td>
-      <td>6.00</td>
-    </tr>
-    <tr>
-      <td>12/31/2023</td>
-      <td>PHI</td>
-      <td>@</td>
-      <td>CGY</td>
-      <td>L</td>
-      <td>Rasmus Ristolainen</td>
-      <td>ristora01</td>
-      <td>Ryan Poehling</td>
-      <td>poehlry01</td>
-      <td>Joel Farabee</td>
-      <td>farabjo01</td>
-      <td>Jacob Markström</td>
-      <td>marksja02</td>
-      <td>1</td>
-      <td>9.73</td>
-    </tr>
-    <tr>
-      <td>12/31/2023</td>
-      <td>PHI</td>
-      <td>@</td>
-      <td>CGY</td>
-      <td>L</td>
-      <td>Bobby Brink</td>
-      <td>brinkbo01</td>
-      <td>Cam Atkinson</td>
-      <td>atkinca01</td>
-      <td>Travis Konecny</td>
-      <td>konectr01</td>
-      <td>Jacob Markström</td>
-      <td>marksja02</td>
-      <td>3</td>
-      <td>16.60</td>
-    </tr>
-    <tr>
-      <td>12/31/2023</td>
-      <td>PHI</td>
-      <td>@</td>
-      <td>CGY</td>
-      <td>L</td>
-      <td>Yegor Zamula</td>
-      <td>zamulye01</td>
-      <td>Travis Konecny</td>
-      <td>konectr01</td>
-      <td>Morgan Frost</td>
-      <td>frostmo01</td>
-      <td>Jacob Markström</td>
-      <td>marksja02</td>
-      <td>3</td>
-      <td>18.63</td>
-    </tr>
-    <tr>
-      <td>1/2/2024</td>
-      <td>MIN</td>
-      <td>vs</td>
-      <td>CGY</td>
-      <td>L</td>
-      <td>Pat Maroon</td>
-      <td>maroopa01</td>
-      <td>Nic Petan</td>
-      <td>petanni01</td>
-      <td>Marco Rossi</td>
-      <td>rossima01</td>
-      <td>Jacob Markström</td>
-      <td>marksja02</td>
-      <td>2</td>
-      <td>9.47</td>
-    </tr>
-    <tr>
-      <td>1/6/2024</td>
-      <td>PHI</td>
-      <td>vs</td>
-      <td>CGY</td>
-      <td>W</td>
-      <td>Morgan Frost</td>
-      <td>frostmo01</td>
-      <td>Sean Walker</td>
-      <td>walkese01</td>
-      <td>Tyson Foerster</td>
-      <td>foersty01</td>
-      <td>Jacob Markström</td>
-      <td>marksja02</td>
-      <td>2</td>
-      <td>4.25</td>
-    </tr>
-    <tr>
-      <td>1/6/2024</td>
-      <td>PHI</td>
-      <td>vs</td>
-      <td>CGY</td>
-      <td>W</td>
-      <td>Sean Couturier</td>
-      <td>coutuse01</td>
-      <td>Morgan Frost</td>
-      <td>frostmo01</td>
-      <td>Yegor Zamula</td>
-      <td>zamulye01</td>
-      <td>Jacob Markström</td>
-      <td>marksja02</td>
-      <td>2</td>
-      <td>16.10</td>
-    </tr>
-    <tr>
-      <td>1/6/2024</td>
-      <td>PHI</td>
-      <td>vs</td>
-      <td>CGY</td>
-      <td>W</td>
-      <td>Travis Konecny</td>
-      <td>konectr01</td>
-      <td>Scott Laughton</td>
-      <td>laughsc01</td>
-      <td>Cameron York</td>
-      <td>yorkca01</td>
-      <td>Jacob Markström</td>
-      <td>marksja02</td>
-      <td>3</td>
-      <td>2.45</td>
-    </tr>
-    <tr>
-      <td>1/9/2024</td>
-      <td>OTT</td>
-      <td>@</td>
-      <td>CGY</td>
-      <td>L</td>
-      <td>Jacob Bernard-Docker</td>
-      <td>bernaja01</td>
-      <td>Vladimir Tarasenko</td>
-      <td>tarasvl01</td>
-      <td>Ridly Greig</td>
-      <td>greigri01</td>
-      <td>Jacob Markström</td>
-      <td>marksja02</td>
-      <td>1</td>
-      <td>4.15</td>
-    </tr>
-    <tr>
-      <td>1/9/2024</td>
-      <td>OTT</td>
-      <td>@</td>
-      <td>CGY</td>
-      <td>L</td>
-      <td>Dominik Kubalík</td>
-      <td>kubaldo01</td>
-      <td>Ridly Greig</td>
-      <td>greigri01</td>
-      <td>Jakob Chychrun</td>
-      <td>chychja01</td>
-      <td>Jacob Markström</td>
-      <td>marksja02</td>
-      <td>1</td>
-      <td>19.95</td>
-    </tr>
-    <tr>
-      <td>1/9/2024</td>
-      <td>OTT</td>
-      <td>@</td>
-      <td>CGY</td>
-      <td>L</td>
-      <td>Brady Tkachuk</td>
-      <td>tkachbr01</td>
-      <td>Claude Giroux</td>
-      <td>giroucl01</td>
-      <td>Drake Batherson</td>
-      <td>bathedr01</td>
-      <td>Jacob Markström</td>
-      <td>marksja02</td>
-      <td>2</td>
-      <td>12.65</td>
-    </tr>
-    <tr>
-      <td>1/11/2024</td>
-      <td>ARI</td>
-      <td>vs</td>
-      <td>CGY</td>
-      <td>L</td>
-      <td>Lawson Crouse</td>
-      <td>crousla01</td>
-      <td>Nick Bjugstad</td>
-      <td>bjugsni01</td>
-      <td>Matias Maccelli</td>
-      <td>maccema01</td>
-      <td>Jacob Markström</td>
-      <td>marksja02</td>
-      <td>1</td>
-      <td>13.73</td>
-    </tr>
-    <tr>
-      <td>1/11/2024</td>
-      <td>ARI</td>
-      <td>vs</td>
-      <td>CGY</td>
-      <td>L</td>
-      <td>Clayton Keller</td>
-      <td>kellecl01</td>
-      <td>Logan Cooley</td>
-      <td>coolelo01</td>
-      <td>Michael Kesselring</td>
-      <td>kessemi01</td>
-      <td>Jacob Markström</td>
-      <td>marksja02</td>
-      <td>2</td>
-      <td>1.73</td>
-    </tr>
-    <tr>
-      <td>1/13/2024</td>
-      <td>VEG</td>
-      <td>vs</td>
-      <td>CGY</td>
-      <td>L</td>
-      <td>Chandler Stephenson</td>
-      <td>stephch02</td>
-      <td>Mark Stone</td>
-      <td>stonema01</td>
-      <td>Alec Martinez</td>
-      <td>martial01</td>
-      <td>Jacob Markström</td>
-      <td>marksja02</td>
-      <td>3</td>
-      <td>8.90</td>
-    </tr>
-    <tr>
-      <td>1/23/2024</td>
-      <td>STL</td>
-      <td>@</td>
-      <td>CGY</td>
-      <td>W</td>
-      <td>Brandon Saad</td>
-      <td>saadbr01</td>
-      <td>Colton Parayko</td>
-      <td>parayco01</td>
-      <td>Nick Leddy</td>
-      <td>leddyni01</td>
-      <td>Jacob Markström</td>
-      <td>marksja02</td>
-      <td>2</td>
-      <td>8.45</td>
-    </tr>
-    <tr>
-      <td>1/23/2024</td>
-      <td>STL</td>
-      <td>@</td>
-      <td>CGY</td>
-      <td>W</td>
-      <td>Brayden Schenn</td>
-      <td>schenbr01</td>
-      <td>-</td>
-      <td>NaN</td>
-      <td>-</td>
-      <td>NaN</td>
-      <td>Jacob Markström</td>
-      <td>marksja02</td>
-      <td>2</td>
-      <td>17.22</td>
-    </tr>
-    <tr>
-      <td>1/23/2024</td>
-      <td>STL</td>
-      <td>@</td>
-      <td>CGY</td>
-      <td>W</td>
-      <td>Jordan Kyrou</td>
-      <td>kyroujo01</td>
-      <td>Robert Thomas</td>
-      <td>thomaro01</td>
-      <td>Nick Leddy</td>
-      <td>leddyni01</td>
-      <td>Jacob Markström</td>
-      <td>marksja02</td>
-      <td>3</td>
-      <td>6.93</td>
-    </tr>
-    <tr>
-      <td>1/23/2024</td>
-      <td>STL</td>
-      <td>@</td>
-      <td>CGY</td>
-      <td>W</td>
-      <td>Brandon Saad</td>
-      <td>saadbr01</td>
-      <td>Colton Parayko</td>
-      <td>parayco01</td>
-      <td>Nick Leddy</td>
-      <td>leddyni01</td>
-      <td>Jacob Markström</td>
-      <td>marksja02</td>
-      <td>3</td>
-      <td>19.20</td>
-    </tr>
-    <tr>
-      <td>1/25/2024</td>
-      <td>CBJ</td>
-      <td>@</td>
-      <td>CGY</td>
-      <td>W</td>
-      <td>Yegor Chinakhov</td>
-      <td>chinaye01</td>
-      <td>Zach Werenski</td>
-      <td>werenza01</td>
-      <td>Cole Sillinger</td>
-      <td>sillico01</td>
-      <td>Jacob Markström</td>
-      <td>marksja02</td>
-      <td>1</td>
-      <td>2.83</td>
-    </tr>
-    <tr>
-      <td>1/25/2024</td>
-      <td>CBJ</td>
-      <td>@</td>
-      <td>CGY</td>
-      <td>W</td>
-      <td>Damon Severson</td>
-      <td>severda01</td>
-      <td>-</td>
-      <td>NaN</td>
-      <td>-</td>
-      <td>NaN</td>
-      <td>Jacob Markström</td>
-      <td>marksja02</td>
-      <td>1</td>
-      <td>11.80</td>
-    </tr>
-    <tr>
-      <td>1/25/2024</td>
-      <td>CBJ</td>
-      <td>@</td>
-      <td>CGY</td>
-      <td>W</td>
-      <td>Alexandre Texier</td>
-      <td>texieal01</td>
-      <td>Sean Kuraly</td>
-      <td>kuralse01</td>
-      <td>Erik Gudbranson</td>
-      <td>gudbrer01</td>
-      <td>Jacob Markström</td>
-      <td>marksja02</td>
-      <td>2</td>
-      <td>6.55</td>
-    </tr>
-    <tr>
-      <td>1/25/2024</td>
-      <td>CBJ</td>
-      <td>@</td>
-      <td>CGY</td>
-      <td>W</td>
-      <td>Dmitri Voronkov</td>
-      <td>vorondi01</td>
-      <td>Adam Fantilli</td>
-      <td>fantiad01</td>
-      <td>Damon Severson</td>
-      <td>severda01</td>
-      <td>Jacob Markström</td>
-      <td>marksja02</td>
-      <td>3</td>
-      <td>13.72</td>
-    </tr>
-    <tr>
-      <td>2/6/2024</td>
-      <td>BOS</td>
-      <td>vs</td>
-      <td>CGY</td>
-      <td>L</td>
-      <td>Pavel Zacha</td>
-      <td>zachapa01</td>
-      <td>David Pastrňák</td>
-      <td>pastrda01</td>
-      <td>Charlie Coyle</td>
-      <td>coylech01</td>
-      <td>Jacob Markström</td>
-      <td>marksja02</td>
-      <td>3</td>
-      <td>4.23</td>
-    </tr>
-    <tr>
-      <td>2/8/2024</td>
-      <td>NJD</td>
-      <td>vs</td>
-      <td>CGY</td>
-      <td>L</td>
-      <td>Ondřej Palát</td>
-      <td>palaton01</td>
-      <td>Jesper Bratt</td>
-      <td>brattje01</td>
-      <td>Nico Hischier</td>
-      <td>hischni01</td>
-      <td>Jacob Markström</td>
-      <td>marksja02</td>
-      <td>1</td>
-      <td>15.65</td>
-    </tr>
-    <tr>
-      <td>2/8/2024</td>
-      <td>NJD</td>
-      <td>vs</td>
-      <td>CGY</td>
-      <td>L</td>
-      <td>Nico Hischier</td>
-      <td>hischni01</td>
-      <td>Jesper Bratt</td>
-      <td>brattje01</td>
-      <td>-</td>
-      <td>NaN</td>
-      <td>Jacob Markström</td>
-      <td>marksja02</td>
-      <td>3</td>
-      <td>4.03</td>
-    </tr>
-    <tr>
-      <td>2/8/2024</td>
-      <td>NJD</td>
-      <td>vs</td>
-      <td>CGY</td>
-      <td>L</td>
-      <td>Ondřej Palát</td>
-      <td>palaton01</td>
-      <td>Colin Miller</td>
-      <td>milleco02</td>
-      <td>Jesper Bratt</td>
-      <td>brattje01</td>
-      <td>Jacob Markström</td>
-      <td>marksja02</td>
-      <td>3</td>
-      <td>13.77</td>
-    </tr>
-    <tr>
-      <td>2/10/2024</td>
-      <td>NYI</td>
-      <td>vs</td>
-      <td>CGY</td>
-      <td>L</td>
-      <td>Brock Nelson</td>
-      <td>nelsobr01</td>
-      <td>Noah Dobson</td>
-      <td>dobsono01</td>
-      <td>Kyle Palmieri</td>
-      <td>palmiky01</td>
-      <td>Jacob Markström</td>
-      <td>marksja02</td>
-      <td>3</td>
-      <td>4.00</td>
-    </tr>
-    <tr>
-      <td>2/10/2024</td>
-      <td>NYI</td>
-      <td>vs</td>
-      <td>CGY</td>
-      <td>L</td>
-      <td>Jean-Gabriel Pageau</td>
-      <td>pageaje01</td>
-      <td>Mathew Barzal</td>
-      <td>barzama01</td>
-      <td>-</td>
-      <td>NaN</td>
-      <td>Jacob Markström</td>
-      <td>marksja02</td>
-      <td>3</td>
-      <td>17.47</td>
-    </tr>
-    <tr>
-      <td>2/12/2024</td>
-      <td>NYR</td>
-      <td>vs</td>
-      <td>CGY</td>
-      <td>W</td>
-      <td>William Cuylle</td>
-      <td>cuyllwi01</td>
-      <td>Kaapo Kakko</td>
-      <td>kakkoka01</td>
-      <td>Jonny Brodzinski</td>
-      <td>brodzjo01</td>
-      <td>Jacob Markström</td>
-      <td>marksja02</td>
-      <td>2</td>
-      <td>12.52</td>
-    </tr>
-    <tr>
-      <td>2/17/2024</td>
-      <td>DET</td>
-      <td>@</td>
-      <td>CGY</td>
-      <td>W</td>
-      <td>Patrick Kane</td>
-      <td>kanepa01</td>
-      <td>Moritz Seider</td>
-      <td>seidemo01</td>
-      <td>Robby Fabbri</td>
-      <td>fabbrro01</td>
-      <td>Jacob Markström</td>
-      <td>marksja02</td>
-      <td>1</td>
-      <td>14.93</td>
-    </tr>
-    <tr>
-      <td>2/17/2024</td>
-      <td>DET</td>
-      <td>@</td>
-      <td>CGY</td>
-      <td>W</td>
-      <td>J.T. Compher</td>
-      <td>comphj.01</td>
-      <td>Lucas Raymond</td>
-      <td>raymolu01</td>
-      <td>Alex DeBrincat</td>
-      <td>debrial01</td>
-      <td>Jacob Markström</td>
-      <td>marksja02</td>
-      <td>1</td>
-      <td>15.98</td>
-    </tr>
-    <tr>
-      <td>2/17/2024</td>
-      <td>DET</td>
-      <td>@</td>
-      <td>CGY</td>
-      <td>W</td>
-      <td>Dylan Larkin</td>
-      <td>larkidy01</td>
-      <td>Patrick Kane</td>
-      <td>kanepa01</td>
-      <td>Shayne Gostisbehere</td>
-      <td>gostish01</td>
-      <td>Jacob Markström</td>
-      <td>marksja02</td>
-      <td>2</td>
-      <td>5.20</td>
-    </tr>
-    <tr>
-      <td>2/17/2024</td>
-      <td>DET</td>
-      <td>@</td>
-      <td>CGY</td>
-      <td>W</td>
-      <td>David Perron</td>
-      <td>perroda01</td>
-      <td>Andrew Copp</td>
-      <td>coppan01</td>
-      <td>Joe Veleno</td>
-      <td>velenjo01</td>
-      <td>Jacob Markström</td>
-      <td>marksja02</td>
-      <td>2</td>
-      <td>6.68</td>
-    </tr>
-    <tr>
-      <td>2/19/2024</td>
-      <td>WPG</td>
-      <td>@</td>
-      <td>CGY</td>
-      <td>L</td>
-      <td>Sean Monahan</td>
-      <td>monahse01</td>
-      <td>Kyle Connor</td>
-      <td>connoky01</td>
-      <td>Gabriel Vilardi</td>
-      <td>vilarga01</td>
-      <td>Jacob Markström</td>
-      <td>marksja02</td>
-      <td>1</td>
-      <td>6.12</td>
-    </tr>
-    <tr>
-      <td>2/19/2024</td>
-      <td>WPG</td>
-      <td>@</td>
-      <td>CGY</td>
-      <td>L</td>
-      <td>Sean Monahan</td>
-      <td>monahse01</td>
-      <td>Dylan DeMelo</td>
-      <td>demeldy01</td>
-      <td>Josh Morrissey</td>
-      <td>morrijo04</td>
-      <td>Jacob Markström</td>
-      <td>marksja02</td>
-      <td>1</td>
-      <td>6.82</td>
-    </tr>
-    <tr>
-      <td>2/19/2024</td>
-      <td>WPG</td>
-      <td>@</td>
-      <td>CGY</td>
-      <td>L</td>
-      <td>Sean Monahan</td>
-      <td>monahse01</td>
-      <td>Gabriel Vilardi</td>
-      <td>vilarga01</td>
-      <td>Kyle Connor</td>
-      <td>connoky01</td>
-      <td>Jacob Markström</td>
-      <td>marksja02</td>
-      <td>1</td>
-      <td>11.40</td>
-    </tr>
-    <tr>
-      <td>2/22/2024</td>
-      <td>BOS</td>
-      <td>@</td>
-      <td>CGY</td>
-      <td>L</td>
-      <td>Charlie Coyle</td>
-      <td>coylech01</td>
-      <td>-</td>
-      <td>NaN</td>
-      <td>-</td>
-      <td>NaN</td>
-      <td>Jacob Markström</td>
-      <td>marksja02</td>
-      <td>1</td>
-      <td>18.68</td>
-    </tr>
-    <tr>
-      <td>2/22/2024</td>
-      <td>BOS</td>
-      <td>@</td>
-      <td>CGY</td>
-      <td>L</td>
-      <td>Charlie Coyle</td>
-      <td>coylech01</td>
-      <td>Anthony Richard</td>
-      <td>richaan01</td>
-      <td>Parker Wotherspoon</td>
-      <td>wothepa01</td>
-      <td>Jacob Markström</td>
-      <td>marksja02</td>
-      <td>3</td>
-      <td>2.55</td>
-    </tr>
-    <tr>
-      <td>2/27/2024</td>
-      <td>LAK</td>
-      <td>@</td>
-      <td>CGY</td>
-      <td>L</td>
-      <td>Phillip Danault</td>
-      <td>danauph01</td>
-      <td>Kevin Fiala</td>
-      <td>fialake01</td>
-      <td>Drew Doughty</td>
-      <td>doughdr01</td>
-      <td>Jacob Markström</td>
-      <td>marksja02</td>
-      <td>2</td>
-      <td>12.13</td>
-    </tr>
-    <tr>
-      <td>2/27/2024</td>
-      <td>LAK</td>
-      <td>@</td>
-      <td>CGY</td>
-      <td>L</td>
-      <td>Kevin Fiala</td>
-      <td>fialake01</td>
-      <td>Anže Kopitar</td>
-      <td>kopitan01</td>
-      <td>Quinton Byfield</td>
-      <td>byfiequ01</td>
-      <td>Jacob Markström</td>
-      <td>marksja02</td>
-      <td>2</td>
-      <td>18.90</td>
-    </tr>
-    <tr>
-      <td>3/2/2024</td>
-      <td>PIT</td>
-      <td>@</td>
-      <td>CGY</td>
-      <td>L</td>
-      <td>Jonathan Gruden</td>
-      <td>grudejo02</td>
-      <td>-</td>
-      <td>NaN</td>
-      <td>-</td>
-      <td>NaN</td>
-      <td>Jacob Markström</td>
-      <td>marksja02</td>
-      <td>1</td>
-      <td>16.70</td>
-    </tr>
-    <tr>
-      <td>3/2/2024</td>
-      <td>PIT</td>
-      <td>@</td>
-      <td>CGY</td>
-      <td>L</td>
-      <td>Lars Eller</td>
-      <td>ellerla01</td>
-      <td>Valtteri Puustinen</td>
-      <td>puustva01</td>
-      <td>Sidney Crosby</td>
-      <td>crosbsi01</td>
-      <td>Jacob Markström</td>
-      <td>marksja02</td>
-      <td>1</td>
-      <td>19.43</td>
-    </tr>
-    <tr>
-      <td>3/2/2024</td>
-      <td>PIT</td>
-      <td>@</td>
-      <td>CGY</td>
-      <td>L</td>
-      <td>Jeff Carter</td>
-      <td>carteje01</td>
-      <td>Ryan Graves</td>
-      <td>gravery01</td>
-      <td>Noel Acciari</td>
-      <td>acciano01</td>
-      <td>Jacob Markström</td>
-      <td>marksja02</td>
-      <td>3</td>
-      <td>2.85</td>
-    </tr>
-    <tr>
-      <td>3/4/2024</td>
-      <td>SEA</td>
-      <td>@</td>
-      <td>CGY</td>
-      <td>W</td>
-      <td>Yanni Gourde</td>
-      <td>gourdya01</td>
-      <td>Brandon Tanev</td>
-      <td>tanevbr01</td>
-      <td>Vince Dunn</td>
-      <td>dunnvi02</td>
-      <td>Jacob Markström</td>
-      <td>marksja02</td>
-      <td>1</td>
-      <td>4.07</td>
-    </tr>
-    <tr>
-      <td>3/4/2024</td>
-      <td>SEA</td>
-      <td>@</td>
-      <td>CGY</td>
-      <td>W</td>
-      <td>Oliver Bjorkstrand</td>
-      <td>bjorkol01</td>
-      <td>Jared McCann</td>
-      <td>mccanja01</td>
-      <td>Jaden Schwartz</td>
-      <td>schwaja01</td>
-      <td>Jacob Markström</td>
-      <td>marksja02</td>
-      <td>2</td>
-      <td>12.57</td>
-    </tr>
-    <tr>
-      <td>3/4/2024</td>
-      <td>SEA</td>
-      <td>@</td>
-      <td>CGY</td>
-      <td>W</td>
-      <td>Adam Larsson</td>
-      <td>larssad01</td>
-      <td>Matthew Beniers</td>
-      <td>beniema01</td>
-      <td>Jordan Eberle</td>
-      <td>eberljo01</td>
-      <td>Jacob Markström</td>
-      <td>marksja02</td>
-      <td>3</td>
-      <td>0.35</td>
-    </tr>
-    <tr>
-      <td>3/4/2024</td>
-      <td>SEA</td>
-      <td>@</td>
-      <td>CGY</td>
-      <td>W</td>
-      <td>Jared McCann</td>
-      <td>mccanja01</td>
-      <td>-</td>
-      <td>NaN</td>
-      <td>-</td>
-      <td>NaN</td>
-      <td>Jacob Markström</td>
-      <td>marksja02</td>
-      <td>3</td>
-      <td>12.48</td>
-    </tr>
-    <tr>
-      <td>3/7/2024</td>
-      <td>TBL</td>
-      <td>vs</td>
-      <td>CGY</td>
-      <td>L</td>
-      <td>Conor Sheary</td>
-      <td>shearco01</td>
-      <td>Nick Paul</td>
-      <td>paulni01</td>
-      <td>Victor Hedman</td>
-      <td>hedmavi01</td>
-      <td>Jacob Markström</td>
-      <td>marksja02</td>
-      <td>1</td>
-      <td>14.47</td>
-    </tr>
-    <tr>
-      <td>3/7/2024</td>
-      <td>TBL</td>
-      <td>vs</td>
-      <td>CGY</td>
-      <td>L</td>
-      <td>Anthony Cirelli</td>
-      <td>cirelan01</td>
-      <td>Steven Stamkos</td>
-      <td>stamkst01</td>
-      <td>Nikita Kucherov</td>
-      <td>kucheni01</td>
-      <td>Jacob Markström</td>
-      <td>marksja02</td>
-      <td>2</td>
-      <td>12.48</td>
-    </tr>
-    <tr>
-      <td>3/7/2024</td>
-      <td>TBL</td>
-      <td>vs</td>
-      <td>CGY</td>
-      <td>L</td>
-      <td>Michael Eyssimont</td>
-      <td>eyssimi01</td>
-      <td>Conor Sheary</td>
-      <td>shearco01</td>
-      <td>Nick Paul</td>
-      <td>paulni01</td>
-      <td>Jacob Markström</td>
-      <td>marksja02</td>
-      <td>3</td>
-      <td>14.58</td>
-    </tr>
-    <tr>
-      <td>3/9/2024</td>
-      <td>FLA</td>
-      <td>vs</td>
-      <td>CGY</td>
-      <td>W</td>
-      <td>Vladimir Tarasenko</td>
-      <td>tarasvl01</td>
-      <td>-</td>
-      <td>NaN</td>
-      <td>-</td>
-      <td>NaN</td>
-      <td>Jacob Markström</td>
-      <td>marksja02</td>
-      <td>2</td>
-      <td>0.38</td>
-    </tr>
-    <tr>
-      <td>3/9/2024</td>
-      <td>FLA</td>
-      <td>vs</td>
-      <td>CGY</td>
-      <td>W</td>
-      <td>Aleksander Barkov</td>
-      <td>barkoal01</td>
-      <td>Sam Reinhart</td>
-      <td>reinhsa01</td>
-      <td>Vladimir Tarasenko</td>
-      <td>tarasvl01</td>
-      <td>Jacob Markström</td>
-      <td>marksja02</td>
-      <td>2</td>
-      <td>6.32</td>
-    </tr>
-    <tr>
-      <td>3/9/2024</td>
-      <td>FLA</td>
-      <td>vs</td>
-      <td>CGY</td>
-      <td>W</td>
-      <td>Sam Bennett</td>
-      <td>bennesa01</td>
-      <td>Gustav Forsling</td>
-      <td>forslgu02</td>
-      <td>Matthew Tkachuk</td>
-      <td>tkachma01</td>
-      <td>Jacob Markström</td>
-      <td>marksja02</td>
-      <td>2</td>
-      <td>13.20</td>
-    </tr>
-    <tr>
-      <td>3/9/2024</td>
-      <td>FLA</td>
-      <td>vs</td>
-      <td>CGY</td>
-      <td>W</td>
-      <td>Vladimir Tarasenko</td>
-      <td>tarasvl01</td>
-      <td>Gustav Forsling</td>
-      <td>forslgu02</td>
-      <td>Oliver Ekman-Larsson</td>
-      <td>ekmanol01</td>
-      <td>Jacob Markström</td>
-      <td>marksja02</td>
-      <td>2</td>
-      <td>14.92</td>
-    </tr>
-    <tr>
-      <td>3/9/2024</td>
-      <td>FLA</td>
-      <td>vs</td>
-      <td>CGY</td>
-      <td>W</td>
-      <td>Kevin Stenlund</td>
-      <td>stenlke01</td>
-      <td>Eetu Luostarinen</td>
-      <td>luostee01</td>
-      <td>-</td>
-      <td>NaN</td>
-      <td>Jacob Markström</td>
-      <td>marksja02</td>
-      <td>3</td>
-      <td>4.50</td>
-    </tr>
-    <tr>
-      <td>3/23/2024</td>
-      <td>VAN</td>
-      <td>vs</td>
-      <td>CGY</td>
-      <td>W</td>
-      <td>Nils Höglander</td>
-      <td>hoglani01</td>
-      <td>Elias Pettersson</td>
-      <td>petteel01</td>
-      <td>Conor Garland</td>
-      <td>garlaco01</td>
-      <td>Jacob Markström</td>
-      <td>marksja02</td>
-      <td>1</td>
-      <td>0.80</td>
-    </tr>
-    <tr>
-      <td>3/23/2024</td>
-      <td>VAN</td>
-      <td>vs</td>
-      <td>CGY</td>
-      <td>W</td>
-      <td>Nils Höglander</td>
-      <td>hoglani01</td>
-      <td>Elias Pettersson</td>
-      <td>petteel01</td>
-      <td>Conor Garland</td>
-      <td>garlaco01</td>
-      <td>Jacob Markström</td>
-      <td>marksja02</td>
-      <td>2</td>
-      <td>8.27</td>
-    </tr>
-    <tr>
-      <td>3/23/2024</td>
-      <td>VAN</td>
-      <td>vs</td>
-      <td>CGY</td>
-      <td>W</td>
-      <td>J.T. Miller</td>
-      <td>millejt01</td>
-      <td>Brock Boeser</td>
-      <td>boesebr01</td>
-      <td>Quinn Hughes</td>
-      <td>hughequ01</td>
-      <td>Jacob Markström</td>
-      <td>marksja02</td>
-      <td>3</td>
-      <td>16.70</td>
-    </tr>
-    <tr>
-      <td>3/26/2024</td>
-      <td>CHI</td>
-      <td>vs</td>
-      <td>CGY</td>
-      <td>W</td>
-      <td>Seth Jones</td>
-      <td>jonesse01</td>
-      <td>Philipp Kurashev</td>
-      <td>kurasph01</td>
-      <td>Connor Bedard</td>
-      <td>bedarco01</td>
-      <td>Jacob Markström</td>
-      <td>marksja02</td>
-      <td>1</td>
-      <td>3.58</td>
-    </tr>
-    <tr>
-      <td>3/26/2024</td>
-      <td>CHI</td>
-      <td>vs</td>
-      <td>CGY</td>
-      <td>W</td>
-      <td>Jason Dickinson</td>
-      <td>dickija01</td>
-      <td>Joey Anderson</td>
-      <td>anderjo08</td>
-      <td>Landon Slaggert</td>
-      <td>slaggla01</td>
-      <td>Jacob Markström</td>
-      <td>marksja02</td>
-      <td>1</td>
-      <td>15.25</td>
-    </tr>
-    <tr>
-      <td>3/26/2024</td>
-      <td>CHI</td>
-      <td>vs</td>
-      <td>CGY</td>
-      <td>W</td>
-      <td>Jason Dickinson</td>
-      <td>dickija01</td>
-      <td>Joey Anderson</td>
-      <td>anderjo08</td>
-      <td>Landon Slaggert</td>
-      <td>slaggla01</td>
-      <td>Jacob Markström</td>
-      <td>marksja02</td>
-      <td>3</td>
-      <td>4.25</td>
-    </tr>
-    <tr>
-      <td>3/30/2024</td>
-      <td>LAK</td>
-      <td>@</td>
-      <td>CGY</td>
-      <td>L</td>
-      <td>Adrian Kempe</td>
-      <td>kempead01</td>
-      <td>Drew Doughty</td>
-      <td>doughdr01</td>
-      <td>Kevin Fiala</td>
-      <td>fialake01</td>
-      <td>Jacob Markström</td>
-      <td>marksja02</td>
-      <td>1</td>
-      <td>5.70</td>
-    </tr>
-    <tr>
-      <td>3/30/2024</td>
-      <td>LAK</td>
-      <td>@</td>
-      <td>CGY</td>
-      <td>L</td>
-      <td>Anže Kopitar</td>
-      <td>kopitan01</td>
-      <td>Adrian Kempe</td>
-      <td>kempead01</td>
-      <td>Kevin Fiala</td>
-      <td>fialake01</td>
-      <td>Jacob Markström</td>
-      <td>marksja02</td>
-      <td>2</td>
-      <td>18.42</td>
-    </tr>
-    <tr>
-      <td>4/2/2024</td>
-      <td>ANA</td>
-      <td>@</td>
-      <td>CGY</td>
-      <td>W</td>
-      <td>Mason McTavish</td>
-      <td>mctavma01</td>
-      <td>Olen Zellweger</td>
-      <td>zellwol01</td>
-      <td>Brett Leason</td>
-      <td>leasobr01</td>
-      <td>Jacob Markström</td>
-      <td>marksja02</td>
-      <td>1</td>
-      <td>14.05</td>
-    </tr>
-    <tr>
-      <td>4/2/2024</td>
-      <td>ANA</td>
-      <td>@</td>
-      <td>CGY</td>
-      <td>W</td>
-      <td>Troy Terry</td>
-      <td>terrytr01</td>
-      <td>Leo Carlsson</td>
-      <td>carlsle01</td>
-      <td>Olen Zellweger</td>
-      <td>zellwol01</td>
-      <td>Jacob Markström</td>
-      <td>marksja02</td>
-      <td>2</td>
-      <td>13.60</td>
-    </tr>
-    <tr>
-      <td>4/2/2024</td>
-      <td>ANA</td>
-      <td>@</td>
-      <td>CGY</td>
-      <td>W</td>
-      <td>Cam Fowler</td>
-      <td>fowleca01</td>
-      <td>Trevor Zegras</td>
-      <td>zegratr01</td>
-      <td>Olen Zellweger</td>
-      <td>zellwol01</td>
-      <td>Jacob Markström</td>
-      <td>marksja02</td>
-      <td>3</td>
-      <td>1.87</td>
-    </tr>
-    <tr>
-      <td>4/2/2024</td>
-      <td>ANA</td>
-      <td>@</td>
-      <td>CGY</td>
-      <td>W</td>
-      <td>Alex Killorn</td>
-      <td>killoal01</td>
-      <td>Troy Terry</td>
-      <td>terrytr01</td>
-      <td>-</td>
-      <td>NaN</td>
-      <td>Jacob Markström</td>
-      <td>marksja02</td>
-      <td>3</td>
-      <td>5.15</td>
-    </tr>
-    <tr>
-      <td>4/2/2024</td>
-      <td>ANA</td>
-      <td>@</td>
-      <td>CGY</td>
-      <td>W</td>
-      <td>Alex Killorn</td>
-      <td>killoal01</td>
-      <td>Jackson LaCombe</td>
-      <td>lacomja01</td>
-      <td>Troy Terry</td>
-      <td>terrytr01</td>
-      <td>Jacob Markström</td>
-      <td>marksja02</td>
-      <td>3</td>
-      <td>13.23</td>
-    </tr>
-    <tr>
-      <td>4/6/2024</td>
-      <td>EDM</td>
-      <td>@</td>
-      <td>CGY</td>
-      <td>W</td>
-      <td>Leon Draisaitl</td>
-      <td>draisle01</td>
-      <td>Ryan Nugent-Hopkins</td>
-      <td>nugenry01</td>
-      <td>Connor McDavid</td>
-      <td>mcdavco01</td>
-      <td>Jacob Markström</td>
-      <td>marksja02</td>
-      <td>1</td>
-      <td>19.73</td>
-    </tr>
-    <tr>
-      <td>4/6/2024</td>
-      <td>EDM</td>
-      <td>@</td>
-      <td>CGY</td>
-      <td>W</td>
-      <td>Connor Brown</td>
-      <td>brownco02</td>
-      <td>Mattias Janmark</td>
-      <td>janmama02</td>
-      <td>Derek Ryan</td>
-      <td>ryande01</td>
-      <td>Jacob Markström</td>
-      <td>marksja02</td>
-      <td>2</td>
-      <td>3.22</td>
-    </tr>
-    <tr>
-      <td>4/6/2024</td>
-      <td>EDM</td>
-      <td>@</td>
-      <td>CGY</td>
-      <td>W</td>
-      <td>Evan Bouchard</td>
-      <td>bouchev01</td>
-      <td>Ryan Nugent-Hopkins</td>
-      <td>nugenry01</td>
-      <td>Connor McDavid</td>
-      <td>mcdavco01</td>
-      <td>Jacob Markström</td>
-      <td>marksja02</td>
-      <td>3</td>
-      <td>10.60</td>
-    </tr>
-    <tr>
-      <td>4/11/2024</td>
-      <td>LAK</td>
-      <td>vs</td>
-      <td>CGY</td>
-      <td>W</td>
-      <td>Kevin Fiala</td>
-      <td>fialake01</td>
-      <td>Anže Kopitar</td>
-      <td>kopitan01</td>
-      <td>Adrian Kempe</td>
-      <td>kempead01</td>
-      <td>Jacob Markström</td>
-      <td>marksja02</td>
-      <td>1</td>
-      <td>6.80</td>
-    </tr>
-    <tr>
-      <td>4/11/2024</td>
-      <td>LAK</td>
-      <td>vs</td>
-      <td>CGY</td>
-      <td>W</td>
-      <td>Viktor Arvidsson</td>
-      <td>arvidvi01</td>
-      <td>Phillip Danault</td>
-      <td>danauph01</td>
-      <td>Trevor Moore</td>
-      <td>mooretr01</td>
-      <td>Jacob Markström</td>
-      <td>marksja02</td>
-      <td>2</td>
-      <td>0.90</td>
-    </tr>
-    <tr>
-      <td>4/11/2024</td>
-      <td>LAK</td>
-      <td>vs</td>
-      <td>CGY</td>
-      <td>W</td>
-      <td>Akil Thomas</td>
-      <td>thomaak01</td>
-      <td>Matt Roy</td>
-      <td>royma04</td>
-      <td>-</td>
-      <td>NaN</td>
-      <td>Jacob Markström</td>
-      <td>marksja02</td>
-      <td>2</td>
-      <td>7.70</td>
-    </tr>
-    <tr>
-      <td>4/16/2024</td>
-      <td>VAN</td>
-      <td>vs</td>
-      <td>CGY</td>
-      <td>W</td>
-      <td>Tyler Myers</td>
-      <td>myersty01</td>
-      <td>Teddy Blueger</td>
-      <td>bluegte01</td>
-      <td>Elias Lindholm</td>
-      <td>lindhel01</td>
-      <td>Jacob Markström</td>
-      <td>marksja02</td>
-      <td>1</td>
-      <td>12.00</td>
-    </tr>
-    <tr>
-      <td>4/16/2024</td>
-      <td>VAN</td>
-      <td>vs</td>
-      <td>CGY</td>
-      <td>W</td>
-      <td>Nils Höglander</td>
-      <td>hoglani01</td>
-      <td>Elias Pettersson</td>
-      <td>petteel01</td>
-      <td>Ilya Mikheyev</td>
-      <td>mikheil01</td>
-      <td>Jacob Markström</td>
-      <td>marksja02</td>
-      <td>1</td>
-      <td>13.47</td>
-    </tr>
-    <tr>
-      <td>4/16/2024</td>
-      <td>VAN</td>
-      <td>vs</td>
-      <td>CGY</td>
-      <td>W</td>
-      <td>Dakota Joshua</td>
-      <td>joshuda01</td>
-      <td>Conor Garland</td>
-      <td>garlaco01</td>
-      <td>Tyler Myers</td>
-      <td>myersty01</td>
-      <td>Jacob Markström</td>
-      <td>marksja02</td>
-      <td>2</td>
-      <td>1.97</td>
-    </tr>
-    <tr>
-      <td>4/16/2024</td>
-      <td>VAN</td>
-      <td>vs</td>
-      <td>CGY</td>
-      <td>W</td>
-      <td>J.T. Miller</td>
-      <td>millejt01</td>
-      <td>Pius Suter</td>
-      <td>suterpi01</td>
-      <td>-</td>
-      <td>NaN</td>
-      <td>Jacob Markström</td>
-      <td>marksja02</td>
-      <td>3</td>
-      <td>15.03</td>
-    </tr>
-  </tbody>
-</table>
-    
-        </body>
-        </html>
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202310110CGY.html">10/11/2023</a></td>
+          <td><a href="/teams/CGY.html">CGY</a></td>
+          <td>vs</td>
+          <td><a href="/teams/WPG.html">WPG</a></td>
+          <td>W</td>
+          <td>3</td>
+          <td>37</td>
+          <td>34</td>
+          <td>92.00%</td>
+          <td>59.73</td>
+        </tr>
         
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202310140PIT.html">10/14/2023</a></td>
+          <td><a href="/teams/CGY.html">CGY</a></td>
+          <td>@</td>
+          <td><a href="/teams/PIT.html">PIT</a></td>
+          <td>L</td>
+          <td>4</td>
+          <td>28</td>
+          <td>24</td>
+          <td>86.00%</td>
+          <td>57.82</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202310160WSH.html">10/16/2023</a></td>
+          <td><a href="/teams/CGY.html">CGY</a></td>
+          <td>@</td>
+          <td><a href="/teams/WSH.html">WSH</a></td>
+          <td>L-SO</td>
+          <td>2</td>
+          <td>23</td>
+          <td>21</td>
+          <td>91.00%</td>
+          <td>64.8</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202310200CBJ.html">10/20/2023</a></td>
+          <td><a href="/teams/CGY.html">CGY</a></td>
+          <td>@</td>
+          <td><a href="/teams/CBJ.html">CBJ</a></td>
+          <td>L</td>
+          <td>2</td>
+          <td>28</td>
+          <td>26</td>
+          <td>93.00%</td>
+          <td>57.87</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202310240CGY.html">10/24/2023</a></td>
+          <td><a href="/teams/CGY.html">CGY</a></td>
+          <td>vs</td>
+          <td><a href="/teams/NYR.html">NYR</a></td>
+          <td>L</td>
+          <td>3</td>
+          <td>20</td>
+          <td>17</td>
+          <td>85.00%</td>
+          <td>59.28</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202310260CGY.html">10/26/2023</a></td>
+          <td><a href="/teams/CGY.html">CGY</a></td>
+          <td>vs</td>
+          <td><a href="/teams/STL.html">STL</a></td>
+          <td>L</td>
+          <td>2</td>
+          <td>34</td>
+          <td>32</td>
+          <td>94.00%</td>
+          <td>59.42</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202310290EDM.html">10/29/2023</a></td>
+          <td><a href="/teams/CGY.html">CGY</a></td>
+          <td>@</td>
+          <td><a href="/teams/EDM.html">EDM</a></td>
+          <td>L</td>
+          <td>4</td>
+          <td>32</td>
+          <td>28</td>
+          <td>88.00%</td>
+          <td>58.05</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202311010CGY.html">11/1/2023</a></td>
+          <td><a href="/teams/CGY.html">CGY</a></td>
+          <td>vs</td>
+          <td><a href="/teams/DAL.html">DAL</a></td>
+          <td>L</td>
+          <td>4</td>
+          <td>30</td>
+          <td>26</td>
+          <td>87.00%</td>
+          <td>58.85</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202311070CGY.html">11/7/2023</a></td>
+          <td><a href="/teams/CGY.html">CGY</a></td>
+          <td>vs</td>
+          <td><a href="/teams/NSH.html">NSH</a></td>
+          <td>W</td>
+          <td>2</td>
+          <td>18</td>
+          <td>16</td>
+          <td>89.00%</td>
+          <td>59.7</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202311140MTL.html">11/14/2023</a></td>
+          <td><a href="/teams/CGY.html">CGY</a></td>
+          <td>@</td>
+          <td><a href="/teams/MTL.html">MTL</a></td>
+          <td>W</td>
+          <td>1</td>
+          <td>35</td>
+          <td>34</td>
+          <td>97.00%</td>
+          <td>60.0</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202311160CGY.html">11/16/2023</a></td>
+          <td><a href="/teams/CGY.html">CGY</a></td>
+          <td>vs</td>
+          <td><a href="/teams/VAN.html">VAN</a></td>
+          <td>W</td>
+          <td>2</td>
+          <td>22</td>
+          <td>20</td>
+          <td>91.00%</td>
+          <td>58.68</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202311180CGY.html">11/18/2023</a></td>
+          <td><a href="/teams/CGY.html">CGY</a></td>
+          <td>vs</td>
+          <td><a href="/teams/NYI.html">NYI</a></td>
+          <td>L-SO</td>
+          <td>4</td>
+          <td>33</td>
+          <td>29</td>
+          <td>88.00%</td>
+          <td>65.0</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202311220NSH.html">11/22/2023</a></td>
+          <td><a href="/teams/CGY.html">CGY</a></td>
+          <td>@</td>
+          <td><a href="/teams/NSH.html">NSH</a></td>
+          <td>L</td>
+          <td>4</td>
+          <td>45</td>
+          <td>41</td>
+          <td>91.00%</td>
+          <td>59.82</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202311240DAL.html">11/24/2023</a></td>
+          <td><a href="/teams/CGY.html">CGY</a></td>
+          <td>@</td>
+          <td><a href="/teams/DAL.html">DAL</a></td>
+          <td>W</td>
+          <td>4</td>
+          <td>28</td>
+          <td>24</td>
+          <td>86.00%</td>
+          <td>60.0</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202311300CGY.html">11/30/2023</a></td>
+          <td><a href="/teams/CGY.html">CGY</a></td>
+          <td>vs</td>
+          <td><a href="/teams/DAL.html">DAL</a></td>
+          <td>W</td>
+          <td>3</td>
+          <td>16</td>
+          <td>13</td>
+          <td>81.00%</td>
+          <td>61.02</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202312020CGY.html">12/2/2023</a></td>
+          <td><a href="/teams/CGY.html">CGY</a></td>
+          <td>vs</td>
+          <td><a href="/teams/VAN.html">VAN</a></td>
+          <td>L</td>
+          <td>3</td>
+          <td>21</td>
+          <td>18</td>
+          <td>86.00%</td>
+          <td>57.55</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202312180CGY.html">12/18/2023</a></td>
+          <td><a href="/teams/CGY.html">CGY</a></td>
+          <td>vs</td>
+          <td><a href="/teams/FLA.html">FLA</a></td>
+          <td>W</td>
+          <td>1</td>
+          <td>34</td>
+          <td>33</td>
+          <td>97.00%</td>
+          <td>60.0</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202312210ANA.html">12/21/2023</a></td>
+          <td><a href="/teams/CGY.html">CGY</a></td>
+          <td>@</td>
+          <td><a href="/teams/ANA.html">ANA</a></td>
+          <td>W</td>
+          <td>0</td>
+          <td>25</td>
+          <td>25</td>
+          <td>100.00%</td>
+          <td>60.0</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202312230LAK.html">12/23/2023</a></td>
+          <td><a href="/teams/CGY.html">CGY</a></td>
+          <td>@</td>
+          <td><a href="/teams/LAK.html">LAK</a></td>
+          <td>L</td>
+          <td>4</td>
+          <td>33</td>
+          <td>29</td>
+          <td>88.00%</td>
+          <td>58.93</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202312270CGY.html">12/27/2023</a></td>
+          <td><a href="/teams/CGY.html">CGY</a></td>
+          <td>vs</td>
+          <td><a href="/teams/SEA.html">SEA</a></td>
+          <td>L</td>
+          <td>2</td>
+          <td>21</td>
+          <td>19</td>
+          <td>91.00%</td>
+          <td>57.9</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202312310CGY.html">12/31/2023</a></td>
+          <td><a href="/teams/CGY.html">CGY</a></td>
+          <td>vs</td>
+          <td><a href="/teams/PHI.html">PHI</a></td>
+          <td>W</td>
+          <td>3</td>
+          <td>31</td>
+          <td>28</td>
+          <td>90.00%</td>
+          <td>60.0</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202401020MIN.html">1/2/2024</a></td>
+          <td><a href="/teams/CGY.html">CGY</a></td>
+          <td>@</td>
+          <td><a href="/teams/MIN.html">MIN</a></td>
+          <td>W</td>
+          <td>1</td>
+          <td>29</td>
+          <td>28</td>
+          <td>97.00%</td>
+          <td>59.43</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202401060PHI.html">1/6/2024</a></td>
+          <td><a href="/teams/CGY.html">CGY</a></td>
+          <td>@</td>
+          <td><a href="/teams/PHI.html">PHI</a></td>
+          <td>L</td>
+          <td>3</td>
+          <td>42</td>
+          <td>39</td>
+          <td>93.00%</td>
+          <td>57.7</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202401090CGY.html">1/9/2024</a></td>
+          <td><a href="/teams/CGY.html">CGY</a></td>
+          <td>vs</td>
+          <td><a href="/teams/OTT.html">OTT</a></td>
+          <td>W</td>
+          <td>3</td>
+          <td>33</td>
+          <td>30</td>
+          <td>91.00%</td>
+          <td>60.0</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202401110ARI.html">1/11/2024</a></td>
+          <td><a href="/teams/CGY.html">CGY</a></td>
+          <td>@</td>
+          <td><a href="/teams/ARI.html">ARI</a></td>
+          <td>W</td>
+          <td>2</td>
+          <td>34</td>
+          <td>32</td>
+          <td>94.00%</td>
+          <td>60.0</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202401130VEG.html">1/13/2024</a></td>
+          <td><a href="/teams/CGY.html">CGY</a></td>
+          <td>@</td>
+          <td><a href="/teams/VEG.html">VEG</a></td>
+          <td>W</td>
+          <td>1</td>
+          <td>32</td>
+          <td>31</td>
+          <td>97.00%</td>
+          <td>60.0</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202401230CGY.html">1/23/2024</a></td>
+          <td><a href="/teams/CGY.html">CGY</a></td>
+          <td>vs</td>
+          <td><a href="/teams/STL.html">STL</a></td>
+          <td>L</td>
+          <td>4</td>
+          <td>26</td>
+          <td>22</td>
+          <td>85.00%</td>
+          <td>59.38</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202401250CGY.html">1/25/2024</a></td>
+          <td><a href="/teams/CGY.html">CGY</a></td>
+          <td>vs</td>
+          <td><a href="/teams/CBJ.html">CBJ</a></td>
+          <td>L</td>
+          <td>4</td>
+          <td>31</td>
+          <td>27</td>
+          <td>87.00%</td>
+          <td>59.28</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202401270CGY.html">1/27/2024</a></td>
+          <td><a href="/teams/CGY.html">CGY</a></td>
+          <td>vs</td>
+          <td><a href="/teams/CHI.html">CHI</a></td>
+          <td>W</td>
+          <td>0</td>
+          <td>32</td>
+          <td>32</td>
+          <td>100.00%</td>
+          <td>60.0</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202402060BOS.html">2/6/2024</a></td>
+          <td><a href="/teams/CGY.html">CGY</a></td>
+          <td>@</td>
+          <td><a href="/teams/BOS.html">BOS</a></td>
+          <td>W</td>
+          <td>1</td>
+          <td>22</td>
+          <td>21</td>
+          <td>96.00%</td>
+          <td>60.0</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202402080NJD.html">2/8/2024</a></td>
+          <td><a href="/teams/CGY.html">CGY</a></td>
+          <td>@</td>
+          <td><a href="/teams/NJD.html">NJD</a></td>
+          <td>W</td>
+          <td>3</td>
+          <td>40</td>
+          <td>37</td>
+          <td>93.00%</td>
+          <td>59.58</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202402100NYI.html">2/10/2024</a></td>
+          <td><a href="/teams/CGY.html">CGY</a></td>
+          <td>@</td>
+          <td><a href="/teams/NYI.html">NYI</a></td>
+          <td>W</td>
+          <td>2</td>
+          <td>36</td>
+          <td>34</td>
+          <td>94.00%</td>
+          <td>60.0</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202402120NYR.html">2/12/2024</a></td>
+          <td><a href="/teams/CGY.html">CGY</a></td>
+          <td>@</td>
+          <td><a href="/teams/NYR.html">NYR</a></td>
+          <td>L</td>
+          <td>1</td>
+          <td>30</td>
+          <td>29</td>
+          <td>97.00%</td>
+          <td>58.73</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202402170CGY.html">2/17/2024</a></td>
+          <td><a href="/teams/CGY.html">CGY</a></td>
+          <td>vs</td>
+          <td><a href="/teams/DET.html">DET</a></td>
+          <td>L</td>
+          <td>4</td>
+          <td>12</td>
+          <td>8</td>
+          <td>67.00%</td>
+          <td>26.68</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202402190CGY.html">2/19/2024</a></td>
+          <td><a href="/teams/CGY.html">CGY</a></td>
+          <td>vs</td>
+          <td><a href="/teams/WPG.html">WPG</a></td>
+          <td>W</td>
+          <td>3</td>
+          <td>31</td>
+          <td>28</td>
+          <td>90.00%</td>
+          <td>60.0</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202402220CGY.html">2/22/2024</a></td>
+          <td><a href="/teams/CGY.html">CGY</a></td>
+          <td>vs</td>
+          <td><a href="/teams/BOS.html">BOS</a></td>
+          <td>W</td>
+          <td>2</td>
+          <td>34</td>
+          <td>32</td>
+          <td>94.00%</td>
+          <td>63.93</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202402270CGY.html">2/27/2024</a></td>
+          <td><a href="/teams/CGY.html">CGY</a></td>
+          <td>vs</td>
+          <td><a href="/teams/LAK.html">LAK</a></td>
+          <td>W</td>
+          <td>2</td>
+          <td>23</td>
+          <td>21</td>
+          <td>91.00%</td>
+          <td>60.0</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202403020CGY.html">3/2/2024</a></td>
+          <td><a href="/teams/CGY.html">CGY</a></td>
+          <td>vs</td>
+          <td><a href="/teams/PIT.html">PIT</a></td>
+          <td>W</td>
+          <td>3</td>
+          <td>30</td>
+          <td>27</td>
+          <td>90.00%</td>
+          <td>60.0</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202403040CGY.html">3/4/2024</a></td>
+          <td><a href="/teams/CGY.html">CGY</a></td>
+          <td>vs</td>
+          <td><a href="/teams/SEA.html">SEA</a></td>
+          <td>L</td>
+          <td>4</td>
+          <td>30</td>
+          <td>26</td>
+          <td>87.00%</td>
+          <td>58.1</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202403070TBL.html">3/7/2024</a></td>
+          <td><a href="/teams/CGY.html">CGY</a></td>
+          <td>@</td>
+          <td><a href="/teams/TBL.html">TBL</a></td>
+          <td>W</td>
+          <td>3</td>
+          <td>22</td>
+          <td>19</td>
+          <td>86.00%</td>
+          <td>60.0</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202403090FLA.html">3/9/2024</a></td>
+          <td><a href="/teams/CGY.html">CGY</a></td>
+          <td>@</td>
+          <td><a href="/teams/FLA.html">FLA</a></td>
+          <td>L</td>
+          <td>5</td>
+          <td>31</td>
+          <td>26</td>
+          <td>84.00%</td>
+          <td>60.0</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202403230VAN.html">3/23/2024</a></td>
+          <td><a href="/teams/CGY.html">CGY</a></td>
+          <td>@</td>
+          <td><a href="/teams/VAN.html">VAN</a></td>
+          <td>L</td>
+          <td>3</td>
+          <td>25</td>
+          <td>22</td>
+          <td>88.00%</td>
+          <td>58.45</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202403260CHI.html">3/26/2024</a></td>
+          <td><a href="/teams/CGY.html">CGY</a></td>
+          <td>@</td>
+          <td><a href="/teams/CHI.html">CHI</a></td>
+          <td>L</td>
+          <td>3</td>
+          <td>27</td>
+          <td>24</td>
+          <td>89.00%</td>
+          <td>56.5</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202403300CGY.html">3/30/2024</a></td>
+          <td><a href="/teams/CGY.html">CGY</a></td>
+          <td>vs</td>
+          <td><a href="/teams/LAK.html">LAK</a></td>
+          <td>W</td>
+          <td>2</td>
+          <td>18</td>
+          <td>16</td>
+          <td>89.00%</td>
+          <td>60.0</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202404020CGY.html">4/2/2024</a></td>
+          <td><a href="/teams/CGY.html">CGY</a></td>
+          <td>vs</td>
+          <td><a href="/teams/ANA.html">ANA</a></td>
+          <td>L</td>
+          <td>5</td>
+          <td>29</td>
+          <td>24</td>
+          <td>83.00%</td>
+          <td>60.0</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202404060CGY.html">4/6/2024</a></td>
+          <td><a href="/teams/CGY.html">CGY</a></td>
+          <td>vs</td>
+          <td><a href="/teams/EDM.html">EDM</a></td>
+          <td>L</td>
+          <td>3</td>
+          <td>26</td>
+          <td>23</td>
+          <td>89.00%</td>
+          <td>59.1</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202404110LAK.html">4/11/2024</a></td>
+          <td><a href="/teams/CGY.html">CGY</a></td>
+          <td>@</td>
+          <td><a href="/teams/LAK.html">LAK</a></td>
+          <td>L</td>
+          <td>3</td>
+          <td>29</td>
+          <td>26</td>
+          <td>90.00%</td>
+          <td>59.82</td>
+        </tr>
+        
+        <tr>
+          <td><a href="/schedule/2023-24.html">2023-24</a></td>
+          <td><a href="/boxscores/202404160VAN.html">4/16/2024</a></td>
+          <td><a href="/teams/CGY.html">CGY</a></td>
+          <td>@</td>
+          <td><a href="/teams/VAN.html">VAN</a></td>
+          <td>L</td>
+          <td>4</td>
+          <td>31</td>
+          <td>27</td>
+          <td>87.00%</td>
+          <td>60.0</td>
+        </tr>
+        
+    </tbody>
+  </table>
+</body>
+</html>
+    
