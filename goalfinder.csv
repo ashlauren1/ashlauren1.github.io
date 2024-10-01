@@ -1,4 +1,4 @@
-﻿Game_ID,Date,Team,Location,Opp,Result,Scorer,Scorer_ID,Assist1,Assist1_ID,Assist2,Assist2_ID,Goalie,Goalie_ID username,Per.,Time
+﻿Game_ID,Date,Team,Location,Opp,Result,Scorer,Scorer_ID,Assist1,Assist1_ID,Assist2,Assist2_ID,Goalie,Goalie_ID,Per.,Time
 202310140VEG,10/14/2023,VEG,vs,ANA,W,Jack Eichel,eicheja01,Shea Theodore,theodsh01,Chandler Stephenson,stephch02,John Gibson,gibsojo02,1,19.97
 202310140VEG,10/14/2023,VEG,vs,ANA,W,Chandler Stephenson,stephch02,Paul Cotter,cottepa01,Brayden McNabb,mcnabbr01,John Gibson,gibsojo02,2,15.05
 202310140VEG,10/14/2023,VEG,vs,ANA,W,Shea Theodore,theodsh01,Jack Eichel,eicheja01,Chandler Stephenson,stephch02,John Gibson,gibsojo02,3,6.27
