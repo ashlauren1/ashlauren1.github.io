@@ -1,144 +1,103 @@
-
-    <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Game 202404020NYI Boxscore</title>
-        <link rel="stylesheet" href="/assets/styles.css">
-        <script src="/assets/searchBar.js" defer></script>
-        <script src="/assets/tableSort.js"></script>
-        <style>
-            tr:hover {background-color: #F0FFF0;}
-        </style>
-    </head>
-    <body>
-        <nav id="navbar">
-            <a href="/">Home</a>
-            <a href="/players/">Players</a>
-            <a href="/teams/">Teams</a>
-            <a href="/leaders/">Leaders</a>
-            <a href="/probabilities/">Probabilities</a>
-            <a href="/boxscores/">Boxscores</a>
-            <a href="/schedule/">Schedule</a>
-
-            <div class="search-container">
-                <input type="text" id="searchInput" placeholder="Search players or teams..." oninput="searchEntities()" />
-                <ul id="suggestions"></ul>
-            </div>
-        </nav>
-
-        <main id="content">
-            <h1>Game 202404020NYI Boxscore</h1>
-
-            <h2>Skaters</h2>
-            <table id="202404020NYI_skaters" border="1">
-                <thead>
-                    <tr>
-                        <th>Date</th><th>Home Team</th><th>Away Team</th><th>Player</th><th>Team</th><th>G</th><th>A</th><th>PTS</th>
-                        <th>+/-</th><th>PIM</th><th>EVG</th><th>PPG</th><th>SHG</th><th>GWG</th><th>EV Assist</th><th>PP Assist</th>
-                        <th>SH Assist</th><th>SOG</th><th>S%</th><th>SHFT</th><th>TOI</th><th>iCF</th><th>SAT‑F</th><th>SAT‑A</th>
-                        <th>CF%</th><th>CRel%</th><th>ZSO</th><th>ZSD</th><th>oZS%</th><th>HIT</th><th>BLK</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr><td><a href="/boxscores/202404020NYI.html">4/2/2024</a></td><td><a href="/teams/NYI.html">NYI</a></td><td><a href="/teams/CHI.html">CHI</a></td><td><a href="/players/Joey Anderson.html">Joey Anderson</a></td><td><a href="/teams/CHI.html">CHI</a></td><td>0</td><td>0</td><td>0</td><td>-1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>17</td><td>12.92</td><td>0</td><td>2</td><td>13</td><td>13.3</td><td>-32.6</td><td>2</td><td>2</td><td>50</td><td>0</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202404020NYI.html">4/2/2024</a></td><td><a href="/teams/NYI.html">NYI</a></td><td><a href="/teams/CHI.html">CHI</a></td><td><a href="/players/Andreas Athanasiou.html">Andreas Athanasiou</a></td><td><a href="/teams/CHI.html">CHI</a></td><td>0</td><td>0</td><td>0</td><td>-1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>15</td><td>11.43</td><td>2</td><td>6</td><td>11</td><td>35.3</td><td>-6.9</td><td>1</td><td>2</td><td>33.3</td><td>0</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202404020NYI.html">4/2/2024</a></td><td><a href="/teams/NYI.html">NYI</a></td><td><a href="/teams/CHI.html">CHI</a></td><td><a href="/players/Connor Bedard.html">Connor Bedard</a></td><td><a href="/teams/CHI.html">CHI</a></td><td>0</td><td>1</td><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>4</td><td>0</td><td>20</td><td>22.87</td><td>8</td><td>27</td><td>17</td><td>61.4</td><td>36.4</td><td>11</td><td>2</td><td>84.6</td><td>1</td><td>1</td></tr>
-<tr><td><a href="/boxscores/202404020NYI.html">4/2/2024</a></td><td><a href="/teams/NYI.html">NYI</a></td><td><a href="/teams/CHI.html">CHI</a></td><td><a href="/players/Jason Dickinson.html">Jason Dickinson</a></td><td><a href="/teams/CHI.html">CHI</a></td><td>1</td><td>0</td><td>1</td><td>1</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>3</td><td>33.3</td><td>22</td><td>20.12</td><td>4</td><td>20</td><td>20</td><td>50</td><td>15</td><td>10</td><td>4</td><td>71.4</td><td>0</td><td>3</td></tr>
-<tr><td><a href="/boxscores/202404020NYI.html">4/2/2024</a></td><td><a href="/teams/NYI.html">NYI</a></td><td><a href="/teams/CHI.html">CHI</a></td><td><a href="/players/Ryan Donato.html">Ryan Donato</a></td><td><a href="/teams/CHI.html">CHI</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>2</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>14</td><td>11</td><td>3</td><td>8</td><td>12</td><td>40</td><td>-1.2</td><td>0</td><td>6</td><td>0</td><td>2</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202404020NYI.html">4/2/2024</a></td><td><a href="/teams/NYI.html">NYI</a></td><td><a href="/teams/CHI.html">CHI</a></td><td><a href="/players/Mackenzie Entwistle.html">Mackenzie Entwistle</a></td><td><a href="/teams/CHI.html">CHI</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>14</td><td>12.15</td><td>2</td><td>7</td><td>15</td><td>31.8</td><td>-11.8</td><td>0</td><td>7</td><td>0</td><td>0</td><td>1</td></tr>
-<tr><td><a href="/boxscores/202404020NYI.html">4/2/2024</a></td><td><a href="/teams/NYI.html">NYI</a></td><td><a href="/teams/CHI.html">CHI</a></td><td><a href="/players/Nick Foligno.html">Nick Foligno</a></td><td><a href="/teams/CHI.html">CHI</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>19</td><td>17.07</td><td>0</td><td>9</td><td>15</td><td>37.5</td><td>-4.6</td><td>7</td><td>8</td><td>46.7</td><td>3</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202404020NYI.html">4/2/2024</a></td><td><a href="/teams/NYI.html">NYI</a></td><td><a href="/teams/CHI.html">CHI</a></td><td><a href="/players/Tyler Johnson.html">Tyler Johnson</a></td><td><a href="/teams/CHI.html">CHI</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>17</td><td>16.82</td><td>2</td><td>9</td><td>13</td><td>40.9</td><td>-0.1</td><td>7</td><td>6</td><td>53.8</td><td>1</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202404020NYI.html">4/2/2024</a></td><td><a href="/teams/NYI.html">NYI</a></td><td><a href="/teams/CHI.html">CHI</a></td><td><a href="/players/Seth Jones.html">Seth Jones</a></td><td><a href="/teams/CHI.html">CHI</a></td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>3</td><td>0</td><td>27</td><td>26.02</td><td>5</td><td>26</td><td>22</td><td>54.2</td><td>25.4</td><td>12</td><td>12</td><td>50</td><td>0</td><td>3</td></tr>
-<tr><td><a href="/boxscores/202404020NYI.html">4/2/2024</a></td><td><a href="/teams/NYI.html">NYI</a></td><td><a href="/teams/CHI.html">CHI</a></td><td><a href="/players/Wyatt Kaiser.html">Wyatt Kaiser</a></td><td><a href="/teams/CHI.html">CHI</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>20</td><td>18.83</td><td>2</td><td>8</td><td>21</td><td>27.6</td><td>-18.9</td><td>3</td><td>7</td><td>30</td><td>0</td><td>2</td></tr>
-<tr><td><a href="/boxscores/202404020NYI.html">4/2/2024</a></td><td><a href="/teams/NYI.html">NYI</a></td><td><a href="/teams/CHI.html">CHI</a></td><td><a href="/players/Kevin Korchinski.html">Kevin Korchinski</a></td><td><a href="/teams/CHI.html">CHI</a></td><td>0</td><td>0</td><td>0</td><td>-1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>21</td><td>18.42</td><td>1</td><td>6</td><td>17</td><td>26.1</td><td>-19.4</td><td>2</td><td>1</td><td>66.7</td><td>0</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202404020NYI.html">4/2/2024</a></td><td><a href="/teams/NYI.html">NYI</a></td><td><a href="/teams/CHI.html">CHI</a></td><td><a href="/players/Philipp Kurashev.html">Philipp Kurashev</a></td><td><a href="/teams/CHI.html">CHI</a></td><td>0</td><td>1</td><td>1</td><td>1</td><td>2</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>1</td><td>0</td><td>20</td><td>22.37</td><td>5</td><td>23</td><td>18</td><td>56.1</td><td>25.6</td><td>11</td><td>3</td><td>78.6</td><td>0</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202404020NYI.html">4/2/2024</a></td><td><a href="/teams/NYI.html">NYI</a></td><td><a href="/teams/CHI.html">CHI</a></td><td><a href="/players/Jaycob Megna.html">Jaycob Megna</a></td><td><a href="/teams/CHI.html">CHI</a></td><td>0</td><td>0</td><td>0</td><td>-1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>19</td><td>15.97</td><td>0</td><td>8</td><td>16</td><td>33.3</td><td>-10.1</td><td>3</td><td>1</td><td>75</td><td>0</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202404020NYI.html">4/2/2024</a></td><td><a href="/teams/NYI.html">NYI</a></td><td><a href="/teams/CHI.html">CHI</a></td><td><a href="/players/Taylor Raddysh.html">Taylor Raddysh</a></td><td><a href="/teams/CHI.html">CHI</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>2</td><td>0</td><td>18</td><td>14.15</td><td>2</td><td>7</td><td>14</td><td>33.3</td><td>-9.7</td><td>5</td><td>6</td><td>45.5</td><td>0</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202404020NYI.html">4/2/2024</a></td><td><a href="/teams/NYI.html">NYI</a></td><td><a href="/teams/CHI.html">CHI</a></td><td><a href="/players/Lukas Reichel.html">Lukas Reichel</a></td><td><a href="/teams/CHI.html">CHI</a></td><td>0</td><td>0</td><td>0</td><td>-1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>16</td><td>11.83</td><td>1</td><td>2</td><td>11</td><td>15.4</td><td>-29.4</td><td>1</td><td>2</td><td>33.3</td><td>0</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202404020NYI.html">4/2/2024</a></td><td><a href="/teams/NYI.html">NYI</a></td><td><a href="/teams/CHI.html">CHI</a></td><td><a href="/players/Landon Slaggert.html">Landon Slaggert</a></td><td><a href="/teams/CHI.html">CHI</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>14</td><td>10.58</td><td>1</td><td>6</td><td>15</td><td>28.6</td><td>-15.7</td><td>0</td><td>7</td><td>0</td><td>1</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202404020NYI.html">4/2/2024</a></td><td><a href="/teams/NYI.html">NYI</a></td><td><a href="/teams/CHI.html">CHI</a></td><td><a href="/players/Jarred Tinordi.html">Jarred Tinordi</a></td><td><a href="/teams/CHI.html">CHI</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>5</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>16</td><td>14.57</td><td>1</td><td>10</td><td>19</td><td>34.5</td><td>-9.2</td><td>3</td><td>6</td><td>33.3</td><td>3</td><td>1</td></tr>
-<tr><td><a href="/boxscores/202404020NYI.html">4/2/2024</a></td><td><a href="/teams/NYI.html">NYI</a></td><td><a href="/teams/CHI.html">CHI</a></td><td><a href="/players/Alex Vlasic.html">Alex Vlasic</a></td><td><a href="/teams/CHI.html">CHI</a></td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>25</td><td>21.58</td><td>2</td><td>21</td><td>22</td><td>48.8</td><td>13.7</td><td>8</td><td>11</td><td>42.1</td><td>1</td><td>3</td></tr>
-<tr><td><a href="/boxscores/202404020NYI.html">4/2/2024</a></td><td><a href="/teams/NYI.html">NYI</a></td><td><a href="/teams/CHI.html">CHI</a></td><td><a href="/players/Petr Mrázek.html">Petr Mrázek</a></td><td><a href="/teams/CHI.html">CHI</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>3</td><td>57.93</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202404020NYI.html">4/2/2024</a></td><td><a href="/teams/NYI.html">NYI</a></td><td><a href="/teams/CHI.html">CHI</a></td><td><a href="/players/--.html">--</a></td><td><a href="/teams/--.html">--</a></td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td></tr>
-<tr><td><a href="/boxscores/202404020NYI.html">4/2/2024</a></td><td><a href="/teams/NYI.html">NYI</a></td><td><a href="/teams/CHI.html">CHI</a></td><td><a href="/players/Sebastian Aho (NYI).html">Sebastian Aho (NYI)</a></td><td><a href="/teams/NYI.html">NYI</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>19</td><td>15.8</td><td>3</td><td>19</td><td>11</td><td>63.3</td><td>6.2</td><td>4</td><td>1</td><td>80</td><td>2</td><td>1</td></tr>
-<tr><td><a href="/boxscores/202404020NYI.html">4/2/2024</a></td><td><a href="/teams/NYI.html">NYI</a></td><td><a href="/teams/CHI.html">CHI</a></td><td><a href="/players/Mathew Barzal.html">Mathew Barzal</a></td><td><a href="/teams/NYI.html">NYI</a></td><td>0</td><td>1</td><td>1</td><td>-1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>3</td><td>0</td><td>24</td><td>20.85</td><td>8</td><td>21</td><td>10</td><td>67.7</td><td>12.6</td><td>7</td><td>4</td><td>63.6</td><td>1</td><td>1</td></tr>
-<tr><td><a href="/boxscores/202404020NYI.html">4/2/2024</a></td><td><a href="/teams/NYI.html">NYI</a></td><td><a href="/teams/CHI.html">CHI</a></td><td><a href="/players/Casey Cizikas.html">Casey Cizikas</a></td><td><a href="/teams/NYI.html">NYI</a></td><td>0</td><td>1</td><td>1</td><td>-1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>24</td><td>16.22</td><td>1</td><td>18</td><td>10</td><td>64.3</td><td>7.4</td><td>7</td><td>4</td><td>63.6</td><td>1</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202404020NYI.html">4/2/2024</a></td><td><a href="/teams/NYI.html">NYI</a></td><td><a href="/teams/CHI.html">CHI</a></td><td><a href="/players/Cal Clutterbuck.html">Cal Clutterbuck</a></td><td><a href="/teams/NYI.html">NYI</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>13</td><td>9.27</td><td>1</td><td>8</td><td>14</td><td>36.4</td><td>-29</td><td>2</td><td>2</td><td>50</td><td>2</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202404020NYI.html">4/2/2024</a></td><td><a href="/teams/NYI.html">NYI</a></td><td><a href="/teams/CHI.html">CHI</a></td><td><a href="/players/Noah Dobson.html">Noah Dobson</a></td><td><a href="/teams/NYI.html">NYI</a></td><td>0</td><td>0</td><td>0</td><td>-1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>27</td><td>19.47</td><td>2</td><td>17</td><td>11</td><td>60.7</td><td>2.4</td><td>10</td><td>4</td><td>71.4</td><td>0</td><td>1</td></tr>
-<tr><td><a href="/boxscores/202404020NYI.html">4/2/2024</a></td><td><a href="/teams/NYI.html">NYI</a></td><td><a href="/teams/CHI.html">CHI</a></td><td><a href="/players/Pierre Engvall.html">Pierre Engvall</a></td><td><a href="/teams/NYI.html">NYI</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>19</td><td>15.73</td><td>2</td><td>11</td><td>7</td><td>61.1</td><td>2.6</td><td>1</td><td>5</td><td>16.7</td><td>0</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202404020NYI.html">4/2/2024</a></td><td><a href="/teams/NYI.html">NYI</a></td><td><a href="/teams/CHI.html">CHI</a></td><td><a href="/players/Simon Holmström.html">Simon Holmström</a></td><td><a href="/teams/NYI.html">NYI</a></td><td>1</td><td>0</td><td>1</td><td>1</td><td>0</td><td>1</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>4</td><td>25</td><td>19</td><td>13.22</td><td>8</td><td>15</td><td>9</td><td>62.5</td><td>4.6</td><td>8</td><td>4</td><td>66.7</td><td>0</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202404020NYI.html">4/2/2024</a></td><td><a href="/teams/NYI.html">NYI</a></td><td><a href="/teams/CHI.html">CHI</a></td><td><a href="/players/Bo Horvat.html">Bo Horvat</a></td><td><a href="/teams/NYI.html">NYI</a></td><td>1</td><td>0</td><td>1</td><td>-1</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>5</td><td>20</td><td>25</td><td>19.4</td><td>5</td><td>21</td><td>10</td><td>67.7</td><td>12.6</td><td>7</td><td>5</td><td>58.3</td><td>0</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202404020NYI.html">4/2/2024</a></td><td><a href="/teams/NYI.html">NYI</a></td><td><a href="/teams/CHI.html">CHI</a></td><td><a href="/players/Anders Lee.html">Anders Lee</a></td><td><a href="/teams/NYI.html">NYI</a></td><td>0</td><td>1</td><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>2</td><td>0</td><td>21</td><td>15.33</td><td>3</td><td>24</td><td>9</td><td>72.7</td><td>20.5</td><td>9</td><td>4</td><td>69.2</td><td>0</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202404020NYI.html">4/2/2024</a></td><td><a href="/teams/NYI.html">NYI</a></td><td><a href="/teams/CHI.html">CHI</a></td><td><a href="/players/Kyle MacLean.html">Kyle MacLean</a></td><td><a href="/teams/NYI.html">NYI</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>2</td><td>0</td><td>13</td><td>10</td><td>2</td><td>7</td><td>14</td><td>33.3</td><td>-32.5</td><td>2</td><td>3</td><td>40</td><td>1</td><td>1</td></tr>
-<tr><td><a href="/boxscores/202404020NYI.html">4/2/2024</a></td><td><a href="/teams/NYI.html">NYI</a></td><td><a href="/teams/CHI.html">CHI</a></td><td><a href="/players/Matt Martin.html">Matt Martin</a></td><td><a href="/teams/NYI.html">NYI</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>5</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>13</td><td>8.87</td><td>1</td><td>6</td><td>15</td><td>28.6</td><td>-38.5</td><td>2</td><td>2</td><td>50</td><td>0</td><td>1</td></tr>
-<tr><td><a href="/boxscores/202404020NYI.html">4/2/2024</a></td><td><a href="/teams/NYI.html">NYI</a></td><td><a href="/teams/CHI.html">CHI</a></td><td><a href="/players/Brock Nelson.html">Brock Nelson</a></td><td><a href="/teams/NYI.html">NYI</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>23</td><td>18.47</td><td>2</td><td>15</td><td>9</td><td>62.5</td><td>4.6</td><td>2</td><td>5</td><td>28.6</td><td>0</td><td>1</td></tr>
-<tr><td><a href="/boxscores/202404020NYI.html">4/2/2024</a></td><td><a href="/teams/NYI.html">NYI</a></td><td><a href="/teams/CHI.html">CHI</a></td><td><a href="/players/Jean-Gabriel Pageau.html">Jean-Gabriel Pageau</a></td><td><a href="/teams/NYI.html">NYI</a></td><td>0</td><td>1</td><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>22</td><td>14.6</td><td>2</td><td>17</td><td>6</td><td>73.9</td><td>19.4</td><td>9</td><td>6</td><td>60</td><td>2</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202404020NYI.html">4/2/2024</a></td><td><a href="/teams/NYI.html">NYI</a></td><td><a href="/teams/CHI.html">CHI</a></td><td><a href="/players/Kyle Palmieri.html">Kyle Palmieri</a></td><td><a href="/teams/NYI.html">NYI</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>23</td><td>17.97</td><td>5</td><td>15</td><td>8</td><td>65.2</td><td>8.1</td><td>2</td><td>7</td><td>22.2</td><td>1</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202404020NYI.html">4/2/2024</a></td><td><a href="/teams/NYI.html">NYI</a></td><td><a href="/teams/CHI.html">CHI</a></td><td><a href="/players/Adam Pelech.html">Adam Pelech</a></td><td><a href="/teams/NYI.html">NYI</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>27</td><td>22.17</td><td>2</td><td>17</td><td>20</td><td>45.9</td><td>-20.8</td><td>3</td><td>11</td><td>21.4</td><td>1</td><td>3</td></tr>
-<tr><td><a href="/boxscores/202404020NYI.html">4/2/2024</a></td><td><a href="/teams/NYI.html">NYI</a></td><td><a href="/teams/CHI.html">CHI</a></td><td><a href="/players/Ryan Pulock.html">Ryan Pulock</a></td><td><a href="/teams/NYI.html">NYI</a></td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>29</td><td>22.6</td><td>3</td><td>20</td><td>18</td><td>52.6</td><td>-10.3</td><td>5</td><td>12</td><td>29.4</td><td>0</td><td>1</td></tr>
-<tr><td><a href="/boxscores/202404020NYI.html">4/2/2024</a></td><td><a href="/teams/NYI.html">NYI</a></td><td><a href="/teams/CHI.html">CHI</a></td><td><a href="/players/Mike Reilly.html">Mike Reilly</a></td><td><a href="/teams/NYI.html">NYI</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>2</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>3</td><td>0</td><td>22</td><td>17.75</td><td>5</td><td>23</td><td>10</td><td>69.7</td><td>16</td><td>5</td><td>2</td><td>71.4</td><td>0</td><td>2</td></tr>
-<tr><td><a href="/boxscores/202404020NYI.html">4/2/2024</a></td><td><a href="/teams/NYI.html">NYI</a></td><td><a href="/teams/CHI.html">CHI</a></td><td><a href="/players/Alexander Romanov.html">Alexander Romanov</a></td><td><a href="/teams/NYI.html">NYI</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>3</td><td>0</td><td>26</td><td>20.52</td><td>4</td><td>21</td><td>12</td><td>63.6</td><td>6.9</td><td>10</td><td>3</td><td>76.9</td><td>0</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202404020NYI.html">4/2/2024</a></td><td><a href="/teams/NYI.html">NYI</a></td><td><a href="/teams/CHI.html">CHI</a></td><td><a href="/players/Ilya Sorokin.html">Ilya Sorokin</a></td><td><a href="/teams/NYI.html">NYI</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>4</td><td>59.78</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202404020NYI.html">4/2/2024</a></td><td><a href="/teams/NYI.html">NYI</a></td><td><a href="/teams/CHI.html">CHI</a></td><td><a href="/players/--.html">--</a></td><td><a href="/teams/--.html">--</a></td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td></tr>
-
-                </tbody>
-            </table>
-
-            <h2>Goalies</h2>
-            <table id="202404020NYI_goalies" border="1">
-                <thead>
-                    <tr>
-                        <th>Home Team</th><th>Away Team</th><th>Goalie</th><th>Team</th><th>DEC</th><th>GA</th><th>SA</th><th>SV</th>
-                        <th>SV%</th><th>SO</th><th>PIM</th><th>Goalie TOI</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr><td><a href="/teams/NYI.html">NYI</a></td><td><a href="/teams/CHI.html">CHI</a></td><td><a href="/players/mrazepe01.html">Petr Mrázek</a></td><td><a href="/teams/CHI.html">CHI</a></td><td>L</td><td>2</td><td>29</td><td>27</td><td>0.931</td><td>0</td><td>0</td><td>57:56:00</td></tr>
-<tr><td><a href="/teams/NYI.html">NYI</a></td><td><a href="/teams/CHI.html">CHI</a></td><td><a href="/players/sorokil01.html">Ilya Sorokin</a></td><td><a href="/teams/NYI.html">NYI</a></td><td>W</td><td>1</td><td>19</td><td>18</td><td>0.947</td><td>0</td><td>0</td><td>59:47:00</td></tr>
-
-                </tbody>
-            </table>
-
-            <h2>Scoring</h2>
-            <table id="202404020NYI_scoring" border="1">
-                <thead>
-                    <tr>
-                        <th>Home Team</th><th>Away Team</th><th>Period</th><th>Time</th><th>Team</th><th>Info</th>
-                        <th>Scorer</th><th>Assist1</th><th>Assist2</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr><td><a href="/teams/NYI.html">NYI</a></td><td><a href="/teams/CHI.html">CHI</a></td><td>1st Period</td><td>1st Period</td><td><a href="/teams/1st Period.html">1st Period</a></td><td>1st Period</td><td><a href="/players/1st Period.html">1st Period</a></td><td><a href="/players/1st Period.html">1st Period</a></td><td><a href="/players/1st Period.html">1st Period</a></td></tr>
-<tr><td><a href="/teams/NYI.html">NYI</a></td><td><a href="/teams/CHI.html">CHI</a></td><td>1st Period</td><td>7:49</td><td><a href="/teams/CHI.html">CHI</a></td><td>--</td><td><a href="/players/Jason Dickinson.html">Jason Dickinson</a></td><td><a href="/players/Connor Bedard.html">Connor Bedard</a></td><td><a href="/players/Philipp Kurashev.html">Philipp Kurashev</a></td></tr>
-<tr><td><a href="/teams/NYI.html">NYI</a></td><td><a href="/teams/CHI.html">CHI</a></td><td>3rd Period</td><td>3rd Period</td><td><a href="/teams/3rd Period.html">3rd Period</a></td><td>3rd Period</td><td><a href="/players/3rd Period.html">3rd Period</a></td><td><a href="/players/3rd Period.html">3rd Period</a></td><td><a href="/players/3rd Period.html">3rd Period</a></td></tr>
-<tr><td><a href="/teams/NYI.html">NYI</a></td><td><a href="/teams/CHI.html">CHI</a></td><td>3rd Period</td><td>1:33</td><td><a href="/teams/NYI.html">NYI</a></td><td>PP</td><td><a href="/players/Bo Horvat.html">Bo Horvat</a></td><td><a href="/players/Mathew Barzal.html">Mathew Barzal</a></td><td><a href="/players/Casey Cizikas.html">Casey Cizikas</a></td></tr>
-<tr><td><a href="/teams/NYI.html">NYI</a></td><td><a href="/teams/CHI.html">CHI</a></td><td>3rd Period</td><td>9:25</td><td><a href="/teams/NYI.html">NYI</a></td><td>--</td><td><a href="/players/Simon Holmström.html">Simon Holmström</a></td><td><a href="/players/Jean-Gabriel Pageau.html">Jean-Gabriel Pageau</a></td><td><a href="/players/Anders Lee.html">Anders Lee</a></td></tr>
-
-                </tbody>
-            </table>
-
-            <h2>Penalties</h2>
-            <table id="202404020NYI_penalties" border="1">
-                <thead>
-                    <tr>
-                        <th>Home Team</th><th>Away Team</th><th>Period</th><th>Time</th><th>Team</th><th>Player</th>
-                        <th>Penalty</th><th>PIM</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr><td><a href="/teams/NYI.html">NYI</a></td><td><a href="/teams/CHI.html">CHI</a></td><td>1st Period</td><td>1st Period</td><td><a href="/teams/1st Period.html">1st Period</a></td><td><a href="/players/1st Period.html">1st Period</a></td><td>1st Period</td><td>1st Period</td></tr>
-<tr><td><a href="/teams/NYI.html">NYI</a></td><td><a href="/teams/CHI.html">CHI</a></td><td>1st Period</td><td>18:30</td><td><a href="/teams/NYI.html">NYI</a></td><td><a href="/players/Matt Martin.html">Matt Martin</a></td><td>Fighting</td><td>5 min</td></tr>
-<tr><td><a href="/teams/NYI.html">NYI</a></td><td><a href="/teams/CHI.html">CHI</a></td><td>1st Period</td><td>18:30</td><td><a href="/teams/CHI.html">CHI</a></td><td><a href="/players/Jarred Tinordi.html">Jarred Tinordi</a></td><td>Fighting</td><td>5 min</td></tr>
-<tr><td><a href="/teams/NYI.html">NYI</a></td><td><a href="/teams/CHI.html">CHI</a></td><td>3rd Period</td><td>3rd Period</td><td><a href="/teams/3rd Period.html">3rd Period</a></td><td><a href="/players/3rd Period.html">3rd Period</a></td><td>3rd Period</td><td>3rd Period</td></tr>
-<tr><td><a href="/teams/NYI.html">NYI</a></td><td><a href="/teams/CHI.html">CHI</a></td><td>3rd Period</td><td>0:10</td><td><a href="/teams/CHI.html">CHI</a></td><td><a href="/players/Philipp Kurashev.html">Philipp Kurashev</a></td><td>Holding</td><td>2 min</td></tr>
-<tr><td><a href="/teams/NYI.html">NYI</a></td><td><a href="/teams/CHI.html">CHI</a></td><td>3rd Period</td><td>4:53</td><td><a href="/teams/CHI.html">CHI</a></td><td><a href="/players/Ryan Donato.html">Ryan Donato</a></td><td>Tripping</td><td>2 min</td></tr>
-<tr><td><a href="/teams/NYI.html">NYI</a></td><td><a href="/teams/CHI.html">CHI</a></td><td>3rd Period</td><td>12:37</td><td><a href="/teams/NYI.html">NYI</a></td><td><a href="/players/Mike Reilly.html">Mike Reilly</a></td><td>Holding</td><td>2 min</td></tr>
-
-                </tbody>
-            </table>
-        </main>
-    </body>
-    </html>
-    
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Chicago Blackhawks at New York Islanders: April 02, 2024</title>
+<link rel="stylesheet" href="/assets/styles.css">
+<script src="/assets/searchBar.js"></script>
+<script src="/assets/tableSort.js"></script>
+</head>
+<body>
+<nav id="navbar">
+<ul>
+<li><a href="/">Home</a></li>
+<li><a href="/players/">Players</a></li>
+<li><a href="/teams/">Teams</a></li>
+<li><a href="/probabilities/">Probabilities</a></li>
+<li><a href="/boxscores/">Boxscores</a></li>
+<li><a href="/versus/">Head to Head Stats</a></li>
+<li><a href="/leaders/">Leaders</a></li>
+<li><a href="/seasons/2025/schedule.html">Schedule and Results</a></li>
+<li><a href="/seasons/2025/standings.html">Current Standings</a></li>
+<li><a href="/seasons/2025/rosters.html">Team Rosters</a></li>
+<li>
+<input type="text" id="searchBar" placeholder="Search for players or teams..." oninput="performSearch()" autocomplete="off">
+<div id="searchResults" class="dropdown"></div>
+<button id="searchButton" onclick="handleSearch()">Search</button>
+</li>
+</ul>
+</nav>
+<main id="content">
+<div class="scorebox">
+<div class="team"><div><a href="/teams/CHI.html">CHI</a></div><div class="score">1</div></div>
+<div class="team"><div><a href="/teams/NYI.html">NYI</a></div><div class="score">2</div></div>
+<div class="date">April 02, 2024</div>
+</div>
+<table id="CHI_skaters">
+<tr><th>Team</th><th>Player</th><th>G</th><th>A</th><th>PTS</th><th>SOG</th><th>HIT</th><th>BLK</th><th>TOI</th><th>PIM</th><th>SAT-F</th><th>SAT-A</th><th>CF%</th><th>CRel%</th></tr>
+<tr><td><a href="/teams/CHI.html">CHI</a></td><td><a href="/players/vlasial01.html">Alex Vlasic</a></td><td>0</td><td>0</td><td>0</td><td>1</td><td>1</td><td>3</td><td>21.58</td><td>0</td><td>21</td><td>22</td><td>48.80%</td><td>13.70%</td></tr>
+<tr><td><a href="/teams/CHI.html">CHI</a></td><td><a href="/players/athanan01.html">Andreas Athanasiou</a></td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>11.43</td><td>0</td><td>6</td><td>11</td><td>35.30%</td><td>-6.90%</td></tr>
+<tr><td><a href="/teams/CHI.html">CHI</a></td><td><a href="/players/bedarco01.html">Connor Bedard</a></td><td>0</td><td>1</td><td>1</td><td>4</td><td>1</td><td>1</td><td>22.87</td><td>0</td><td>27</td><td>17</td><td>61.40%</td><td>36.40%</td></tr>
+<tr><td><a href="/teams/CHI.html">CHI</a></td><td><a href="/players/tinorja01.html">Jarred Tinordi</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>3</td><td>1</td><td>14.57</td><td>5</td><td>10</td><td>19</td><td>34.50%</td><td>-9.20%</td></tr>
+<tr><td><a href="/teams/CHI.html">CHI</a></td><td><a href="/players/dickija01.html">Jason Dickinson</a></td><td>1</td><td>0</td><td>1</td><td>3</td><td>0</td><td>3</td><td>20.12</td><td>0</td><td>20</td><td>20</td><td>50.00%</td><td>15.00%</td></tr>
+<tr><td><a href="/teams/CHI.html">CHI</a></td><td><a href="/players/megnaja02.html">Jaycob Megna</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>15.97</td><td>0</td><td>8</td><td>16</td><td>33.30%</td><td>-10.10%</td></tr>
+<tr><td><a href="/teams/CHI.html">CHI</a></td><td><a href="/players/anderjo08.html">Joey Anderson</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>12.92</td><td>0</td><td>2</td><td>13</td><td>13.30%</td><td>-32.60%</td></tr>
+<tr><td><a href="/teams/CHI.html">CHI</a></td><td><a href="/players/korchke01.html">Kevin Korchinski</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>18.42</td><td>0</td><td>6</td><td>17</td><td>26.10%</td><td>-19.40%</td></tr>
+<tr><td><a href="/teams/CHI.html">CHI</a></td><td><a href="/players/slaggla01.html">Landon Slaggert</a></td><td>0</td><td>0</td><td>0</td><td>1</td><td>1</td><td>0</td><td>10.58</td><td>0</td><td>6</td><td>15</td><td>28.60%</td><td>-15.70%</td></tr>
+<tr><td><a href="/teams/CHI.html">CHI</a></td><td><a href="/players/reichlu01.html">Lukas Reichel</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>11.83</td><td>0</td><td>2</td><td>11</td><td>15.40%</td><td>-29.40%</td></tr>
+<tr><td><a href="/teams/CHI.html">CHI</a></td><td><a href="/players/entwima01.html">Mackenzie Entwistle</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>12.15</td><td>0</td><td>7</td><td>15</td><td>31.80%</td><td>-11.80%</td></tr>
+<tr><td><a href="/teams/CHI.html">CHI</a></td><td><a href="/players/foligni01.html">Nick Foligno</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>3</td><td>0</td><td>17.07</td><td>0</td><td>9</td><td>15</td><td>37.50%</td><td>-4.60%</td></tr>
+<tr><td><a href="/teams/CHI.html">CHI</a></td><td><a href="/players/kurasph01.html">Philipp Kurashev</a></td><td>0</td><td>1</td><td>1</td><td>1</td><td>0</td><td>0</td><td>22.37</td><td>2</td><td>23</td><td>18</td><td>56.10%</td><td>25.60%</td></tr>
+<tr><td><a href="/teams/CHI.html">CHI</a></td><td><a href="/players/donatry01.html">Ryan Donato</a></td><td>0</td><td>0</td><td>0</td><td>1</td><td>2</td><td>0</td><td>11.0</td><td>2</td><td>8</td><td>12</td><td>40.00%</td><td>-1.20%</td></tr>
+<tr><td><a href="/teams/CHI.html">CHI</a></td><td><a href="/players/jonesse01.html">Seth Jones</a></td><td>0</td><td>0</td><td>0</td><td>3</td><td>0</td><td>3</td><td>26.02</td><td>0</td><td>26</td><td>22</td><td>54.20%</td><td>25.40%</td></tr>
+<tr><td><a href="/teams/CHI.html">CHI</a></td><td><a href="/players/raddyta01.html">Taylor Raddysh</a></td><td>0</td><td>0</td><td>0</td><td>2</td><td>0</td><td>0</td><td>14.15</td><td>0</td><td>7</td><td>14</td><td>33.30%</td><td>-9.70%</td></tr>
+<tr><td><a href="/teams/CHI.html">CHI</a></td><td><a href="/players/johnsty01.html">Tyler Johnson</a></td><td>0</td><td>0</td><td>0</td><td>1</td><td>1</td><td>0</td><td>16.82</td><td>0</td><td>9</td><td>13</td><td>40.90%</td><td>-0.10%</td></tr>
+<tr><td><a href="/teams/CHI.html">CHI</a></td><td><a href="/players/kaisewy01.html">Wyatt Kaiser</a></td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>2</td><td>18.83</td><td>0</td><td>8</td><td>21</td><td>27.60%</td><td>-18.90%</td></tr>
+</table>
+<table id="NYI_skaters">
+<tr><th>Team</th><th>Player</th><th>G</th><th>A</th><th>PTS</th><th>SOG</th><th>HIT</th><th>BLK</th><th>TOI</th><th>PIM</th><th>SAT-F</th><th>SAT-A</th><th>CF%</th><th>CRel%</th></tr>
+<tr><td><a href="/teams/NYI.html">NYI</a></td><td><a href="/players/pelecad01.html">Adam Pelech</a></td><td>0</td><td>0</td><td>0</td><td>1</td><td>1</td><td>3</td><td>22.17</td><td>0</td><td>17</td><td>20</td><td>45.90%</td><td>-20.80%</td></tr>
+<tr><td><a href="/teams/NYI.html">NYI</a></td><td><a href="/players/romanal01.html">Alexander Romanov</a></td><td>0</td><td>0</td><td>0</td><td>3</td><td>0</td><td>0</td><td>20.52</td><td>0</td><td>21</td><td>12</td><td>63.60%</td><td>6.90%</td></tr>
+<tr><td><a href="/teams/NYI.html">NYI</a></td><td><a href="/players/leean01.html">Anders Lee</a></td><td>0</td><td>1</td><td>1</td><td>2</td><td>0</td><td>0</td><td>15.33</td><td>0</td><td>24</td><td>9</td><td>72.70%</td><td>20.50%</td></tr>
+<tr><td><a href="/teams/NYI.html">NYI</a></td><td><a href="/players/horvabo01.html">Bo Horvat</a></td><td>1</td><td>0</td><td>1</td><td>5</td><td>0</td><td>0</td><td>19.4</td><td>0</td><td>21</td><td>10</td><td>67.70%</td><td>12.60%</td></tr>
+<tr><td><a href="/teams/NYI.html">NYI</a></td><td><a href="/players/nelsobr01.html">Brock Nelson</a></td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>1</td><td>18.47</td><td>0</td><td>15</td><td>9</td><td>62.50%</td><td>4.60%</td></tr>
+<tr><td><a href="/teams/NYI.html">NYI</a></td><td><a href="/players/cluttca01.html">Cal Clutterbuck</a></td><td>0</td><td>0</td><td>0</td><td>1</td><td>2</td><td>0</td><td>9.27</td><td>0</td><td>8</td><td>14</td><td>36.40%</td><td>-29.00%</td></tr>
+<tr><td><a href="/teams/NYI.html">NYI</a></td><td><a href="/players/cizikca01.html">Casey Cizikas</a></td><td>0</td><td>1</td><td>1</td><td>0</td><td>1</td><td>0</td><td>16.22</td><td>0</td><td>18</td><td>10</td><td>64.30%</td><td>7.40%</td></tr>
+<tr><td><a href="/teams/NYI.html">NYI</a></td><td><a href="/players/pageaje01.html">Jean-Gabriel Pageau</a></td><td>0</td><td>1</td><td>1</td><td>0</td><td>2</td><td>0</td><td>14.6</td><td>0</td><td>17</td><td>6</td><td>73.90%</td><td>19.40%</td></tr>
+<tr><td><a href="/teams/NYI.html">NYI</a></td><td><a href="/players/macleky01.html">Kyle MacLean</a></td><td>0</td><td>0</td><td>0</td><td>2</td><td>1</td><td>1</td><td>10.0</td><td>0</td><td>7</td><td>14</td><td>33.30%</td><td>-32.50%</td></tr>
+<tr><td><a href="/teams/NYI.html">NYI</a></td><td><a href="/players/palmiky01.html">Kyle Palmieri</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>17.97</td><td>0</td><td>15</td><td>8</td><td>65.20%</td><td>8.10%</td></tr>
+<tr><td><a href="/teams/NYI.html">NYI</a></td><td><a href="/players/barzama01.html">Mathew Barzal</a></td><td>0</td><td>1</td><td>1</td><td>3</td><td>1</td><td>1</td><td>20.85</td><td>0</td><td>21</td><td>10</td><td>67.70%</td><td>12.60%</td></tr>
+<tr><td><a href="/teams/NYI.html">NYI</a></td><td><a href="/players/martima02.html">Matt Martin</a></td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>1</td><td>8.87</td><td>5</td><td>6</td><td>15</td><td>28.60%</td><td>-38.50%</td></tr>
+<tr><td><a href="/teams/NYI.html">NYI</a></td><td><a href="/players/reillmi01.html">Mike Reilly</a></td><td>0</td><td>0</td><td>0</td><td>3</td><td>0</td><td>2</td><td>17.75</td><td>2</td><td>23</td><td>10</td><td>69.70%</td><td>16.00%</td></tr>
+<tr><td><a href="/teams/NYI.html">NYI</a></td><td><a href="/players/dobsono01.html">Noah Dobson</a></td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>1</td><td>19.47</td><td>0</td><td>17</td><td>11</td><td>60.70%</td><td>2.40%</td></tr>
+<tr><td><a href="/teams/NYI.html">NYI</a></td><td><a href="/players/engvapi01.html">Pierre Engvall</a></td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>15.73</td><td>0</td><td>11</td><td>7</td><td>61.10%</td><td>2.60%</td></tr>
+<tr><td><a href="/teams/NYI.html">NYI</a></td><td><a href="/players/pulocry01.html">Ryan Pulock</a></td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>1</td><td>22.6</td><td>0</td><td>20</td><td>18</td><td>52.60%</td><td>-10.30%</td></tr>
+<tr><td><a href="/teams/NYI.html">NYI</a></td><td><a href="/players/ahose02.html">Sebastian Aho (NYI)</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>2</td><td>1</td><td>15.8</td><td>0</td><td>19</td><td>11</td><td>63.30%</td><td>6.20%</td></tr>
+<tr><td><a href="/teams/NYI.html">NYI</a></td><td><a href="/players/holmssi01.html">Simon Holmström</a></td><td>1</td><td>0</td><td>1</td><td>4</td><td>0</td><td>0</td><td>13.22</td><td>0</td><td>15</td><td>9</td><td>62.50%</td><td>4.60%</td></tr>
+</table>
+<table id="CHI_goalies">
+<tr><th>Team</th><th>Goalie</th><th>DEC</th><th>GA</th><th>SA</th><th>SV</th><th>SV%</th><th>SO</th><th>PIM</th><th>TOI</th></tr>
+<tr><td><a href="/teams/CHI.html">CHI</a></td><td><a href="/players/mrazepe01.html">Petr Mrázek</a></td><td>L</td><td>2</td><td>29</td><td>27</td><td>93.10%</td><td>0</td><td>0</td><td>57.93</td></tr>
+</table>
+<table id="NYI_goalies">
+<tr><th>Team</th><th>Goalie</th><th>DEC</th><th>GA</th><th>SA</th><th>SV</th><th>SV%</th><th>SO</th><th>PIM</th><th>TOI</th></tr>
+<tr><td><a href="/teams/NYI.html">NYI</a></td><td><a href="/players/sorokil01.html">Ilya Sorokin</a></td><td>W</td><td>1</td><td>19</td><td>18</td><td>94.70%</td><td>0</td><td>0</td><td>59.78</td></tr>
+</table>
+<table id="scoring">
+<tr><th>Team</th><th>Time</th><th>Info</th><th>Scorer</th><th>Assist 1</th><th>Assist 2</th></tr>
+<tr><td><a href="/teams/CHI.html">CHI</a></td><td>7.82</td><td>--</td><td><a href="/players/dickija01.html">Jason Dickinson</a></td><td><a href="/players/bedarco01.html">Connor Bedard</a></td><td><a href="/players/kurasph01.html">Philipp Kurashev</a></td></tr>
+<tr><td><a href="/teams/NYI.html">NYI</a></td><td>41.55</td><td>PP</td><td><a href="/players/horvabo01.html">Bo Horvat</a></td><td><a href="/players/barzama01.html">Mathew Barzal</a></td><td><a href="/players/cizikca01.html">Casey Cizikas</a></td></tr>
+<tr><td><a href="/teams/NYI.html">NYI</a></td><td>49.42</td><td>--</td><td><a href="/players/holmssi01.html">Simon Holmström</a></td><td><a href="/players/pageaje01.html">Jean-Gabriel Pageau</a></td><td><a href="/players/leean01.html">Anders Lee</a></td></tr>
+</table>
+<table id="penalties">
+<tr><th>Team</th><th>Time</th><th>Player</th><th>Penalty</th><th>PIM</th></tr>
+<tr><td><a href="/teams/NYI.html">NYI</a></td><td>18.5</td><td><a href="/players/martima02.html">Matt Martin</a></td><td>Fighting</td><td>5 min</td></tr>
+<tr><td><a href="/teams/CHI.html">CHI</a></td><td>18.5</td><td><a href="/players/tinorja01.html">Jarred Tinordi</a></td><td>Fighting</td><td>5 min</td></tr>
+<tr><td><a href="/teams/CHI.html">CHI</a></td><td>40.17</td><td><a href="/players/kurasph01.html">Philipp Kurashev</a></td><td>Holding</td><td>2 min</td></tr>
+<tr><td><a href="/teams/CHI.html">CHI</a></td><td>44.88</td><td><a href="/players/donatry01.html">Ryan Donato</a></td><td>Tripping</td><td>2 min</td></tr>
+<tr><td><a href="/teams/NYI.html">NYI</a></td><td>52.62</td><td><a href="/players/reillmi01.html">Mike Reilly</a></td><td>Holding</td><td>2 min</td></tr>
+</table>
+</main>
+</body>
+</html>

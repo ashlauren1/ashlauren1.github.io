@@ -1,0 +1,1313 @@
+﻿GameID,Date,Away,AwayID,AwayG,Home,HomeID,HomeG,OT/SO
+202310100PIT,"October 10, 2023",Chicago Blackhawks,CHI,4,Pittsburgh Penguins,PIT,2,
+202310100TBL,"October 10, 2023",Nashville Predators,NSH,3,Tampa Bay Lightning,TBL,5,
+202310100VEG,"October 10, 2023",Seattle Kraken,SEA,1,Vegas Golden Knights,VEG,4,
+202310110BOS,"October 11, 2023",Chicago Blackhawks,CHI,1,Boston Bruins,BOS,3,
+202310110CAR,"October 11, 2023",Ottawa Senators,OTT,3,Carolina Hurricanes,CAR,5,
+202310110CGY,"October 11, 2023",Winnipeg Jets,WPG,3,Calgary Flames,CGY,5,
+202310110LAK,"October 11, 2023",Colorado Avalanche,COL,5,Los Angeles Kings,LAK,2,
+202310110TOR,"October 11, 2023",Montreal Canadiens,MTL,5,Toronto Maple Leafs,TOR,5,SO
+202310110VAN,"October 11, 2023",Edmonton Oilers,EDM,1,Vancouver Canucks,VAN,8,
+202310120BUF,"October 12, 2023",New York Rangers,NYR,5,Buffalo Sabres,BUF,1,
+202310120CBJ,"October 12, 2023",Philadelphia Flyers,PHI,4,Columbus Blue Jackets,CBJ,2,
+202310120DAL,"October 12, 2023",St. Louis Blues,STL,1,Dallas Stars,DAL,1,SO
+202310120MIN,"October 12, 2023",Florida Panthers,FLA,0,Minnesota Wild,MIN,2,
+202310120NJD,"October 12, 2023",Detroit Red Wings,DET,3,New Jersey Devils,NJD,4,
+202310120NSH,"October 12, 2023",Seattle Kraken,SEA,0,Nashville Predators,NSH,3,
+202310120SJS,"October 12, 2023",Vegas Golden Knights,VEG,4,San Jose Sharks,SJS,1,
+202310130NJD,"October 13, 2023",Arizona Coyotes,ARI,3,New Jersey Devils,NJD,3,SO
+202310130WSH,"October 13, 2023",Pittsburgh Penguins,PIT,4,Washington Capitals,WSH,0,
+202310140BOS,"October 14, 2023",Nashville Predators,NSH,2,Boston Bruins,BOS,3,
+202310140CBJ,"October 14, 2023",New York Rangers,NYR,3,Columbus Blue Jackets,CBJ,5,
+202310140DET,"October 14, 2023",Tampa Bay Lightning,TBL,4,Detroit Red Wings,DET,6,
+202310140EDM,"October 14, 2023",Vancouver Canucks,VAN,4,Edmonton Oilers,EDM,3,
+202310140LAK,"October 14, 2023",Carolina Hurricanes,CAR,5,Los Angeles Kings,LAK,5,SO
+202310140MTL,"October 14, 2023",Chicago Blackhawks,CHI,2,Montreal Canadiens,MTL,3,
+202310140NYI,"October 14, 2023",Buffalo Sabres,BUF,2,New York Islanders,NYI,3,
+202310140OTT,"October 14, 2023",Philadelphia Flyers,PHI,2,Ottawa Senators,OTT,5,
+202310140PIT,"October 14, 2023",Calgary Flames,CGY,2,Pittsburgh Penguins,PIT,5,
+202310140SJS,"October 14, 2023",Colorado Avalanche,COL,1,San Jose Sharks,SJS,1,SO
+202310140STL,"October 14, 2023",Seattle Kraken,SEA,1,St. Louis Blues,STL,1,SO
+202310140TOR,"October 14, 2023",Minnesota Wild,MIN,4,Toronto Maple Leafs,TOR,7,
+202310140VEG,"October 14, 2023",Anaheim Ducks,ANA,1,Vegas Golden Knights,VEG,4,
+202310140WPG,"October 14, 2023",Florida Panthers,FLA,4,Winnipeg Jets,WPG,6,
+202310150ANA,"October 15, 2023",Carolina Hurricanes,CAR,3,Anaheim Ducks,ANA,6,
+202310150OTT,"October 15, 2023",Tampa Bay Lightning,TBL,2,Ottawa Senators,OTT,5,
+202310160CBJ,"October 16, 2023",Detroit Red Wings,DET,4,Columbus Blue Jackets,CBJ,0,
+202310160NJD,"October 16, 2023",Florida Panthers,FLA,4,New Jersey Devils,NJD,3,
+202310160NYR,"October 16, 2023",Arizona Coyotes,ARI,1,New York Rangers,NYR,2,
+202310160TOR,"October 16, 2023",Chicago Blackhawks,CHI,4,Toronto Maple Leafs,TOR,1,
+202310160WSH,"October 16, 2023",Calgary Flames,CGY,2,Washington Capitals,WSH,2,SO
+202310170BUF,"October 17, 2023",Tampa Bay Lightning,TBL,2,Buffalo Sabres,BUF,3,OT
+202310170MTL,"October 17, 2023",Minnesota Wild,MIN,5,Montreal Canadiens,MTL,2,
+202310170NSH,"October 17, 2023",Edmonton Oilers,EDM,6,Nashville Predators,NSH,1,
+202310170NYI,"October 17, 2023",Arizona Coyotes,ARI,0,New York Islanders,NYI,1,
+202310170PHI,"October 17, 2023",Vancouver Canucks,VAN,0,Philadelphia Flyers,PHI,2,
+202310170SEA,"October 17, 2023",Colorado Avalanche,COL,4,Seattle Kraken,SEA,1,
+202310170SJS,"October 17, 2023",Carolina Hurricanes,CAR,6,San Jose Sharks,SJS,3,
+202310170VEG,"October 17, 2023",Dallas Stars,DAL,2,Vegas Golden Knights,VEG,2,SO
+202310170WPG,"October 17, 2023",Los Angeles Kings,LAK,5,Winnipeg Jets,WPG,1,
+202310180DET,"October 18, 2023",Pittsburgh Penguins,PIT,3,Detroit Red Wings,DET,6,
+202310180OTT,"October 18, 2023",Washington Capitals,WSH,1,Ottawa Senators,OTT,6,
+202310190ANA,"October 19, 2023",Dallas Stars,DAL,3,Anaheim Ducks,ANA,2,
+202310190BUF,"October 19, 2023",Calgary Flames,CGY,4,Buffalo Sabres,BUF,3,
+202310190COL,"October 19, 2023",Chicago Blackhawks,CHI,0,Colorado Avalanche,COL,4,
+202310190FLA,"October 19, 2023",Toronto Maple Leafs,TOR,1,Florida Panthers,FLA,3,
+202310190MIN,"October 19, 2023",Los Angeles Kings,LAK,7,Minnesota Wild,MIN,3,
+202310190NYR,"October 19, 2023",Nashville Predators,NSH,4,New York Rangers,NYR,1,
+202310190PHI,"October 19, 2023",Edmonton Oilers,EDM,1,Philadelphia Flyers,PHI,4,
+202310190SEA,"October 19, 2023",Carolina Hurricanes,CAR,4,Seattle Kraken,SEA,7,
+202310190SJS,"October 19, 2023",Boston Bruins,BOS,3,San Jose Sharks,SJS,1,
+202310190STL,"October 19, 2023",Arizona Coyotes,ARI,6,St. Louis Blues,STL,2,
+202310190TBL,"October 19, 2023",Vancouver Canucks,VAN,3,Tampa Bay Lightning,TBL,4,
+202310190WPG,"October 19, 2023",Vegas Golden Knights,VEG,5,Winnipeg Jets,WPG,3,
+202310200CBJ,"October 20, 2023",Calgary Flames,CGY,1,Columbus Blue Jackets,CBJ,3,
+202310200NYI,"October 20, 2023",New Jersey Devils,NJD,5,New York Islanders,NYI,4,OT
+202310210ARI,"October 21, 2023",Anaheim Ducks,ANA,1,Arizona Coyotes,ARI,2,
+202310210BUF,"October 21, 2023",New York Islanders,NYI,1,Buffalo Sabres,BUF,3,
+202310210CHI,"October 21, 2023",Vegas Golden Knights,VEG,5,Chicago Blackhawks,CHI,3,
+202310210COL,"October 21, 2023",Carolina Hurricanes,CAR,4,Colorado Avalanche,COL,6,
+202310210DAL,"October 21, 2023",Philadelphia Flyers,PHI,4,Dallas Stars,DAL,5,OT
+202310210EDM,"October 21, 2023",Winnipeg Jets,WPG,3,Edmonton Oilers,EDM,2,OT
+202310210FLA,"October 21, 2023",Vancouver Canucks,VAN,5,Florida Panthers,FLA,3,
+202310210LAK,"October 21, 2023",Boston Bruins,BOS,4,Los Angeles Kings,LAK,2,
+202310210MIN,"October 21, 2023",Columbus Blue Jackets,CBJ,5,Minnesota Wild,MIN,4,OT
+202310210MTL,"October 21, 2023",Washington Capitals,WSH,2,Montreal Canadiens,MTL,3,OT
+202310210NSH,"October 21, 2023",San Jose Sharks,SJS,1,Nashville Predators,NSH,5,
+202310210OTT,"October 21, 2023",Detroit Red Wings,DET,5,Ottawa Senators,OTT,2,
+202310210SEA,"October 21, 2023",New York Rangers,NYR,4,Seattle Kraken,SEA,1,
+202310210STL,"October 21, 2023",Pittsburgh Penguins,PIT,2,St. Louis Blues,STL,4,
+202310210TBL,"October 21, 2023",Toronto Maple Leafs,TOR,4,Tampa Bay Lightning,TBL,3,OT
+202310220ANA,"October 22, 2023",Boston Bruins,BOS,3,Anaheim Ducks,ANA,1,
+202310220DET,"October 22, 2023",Calgary Flames,CGY,2,Detroit Red Wings,DET,6,
+202310230BUF,"October 23, 2023",Montreal Canadiens,MTL,3,Buffalo Sabres,BUF,1,
+202310240CBJ,"October 24, 2023",Anaheim Ducks,ANA,3,Columbus Blue Jackets,CBJ,2,OT
+202310240CGY,"October 24, 2023",New York Rangers,NYR,3,Calgary Flames,CGY,1,
+202310240CHI,"October 24, 2023",Boston Bruins,BOS,3,Chicago Blackhawks,CHI,0,
+202310240DET,"October 24, 2023",Seattle Kraken,SEA,5,Detroit Red Wings,DET,4,OT
+202310240FLA,"October 24, 2023",San Jose Sharks,SJS,1,Florida Panthers,FLA,3,
+202310240LAK,"October 24, 2023",Arizona Coyotes,ARI,3,Los Angeles Kings,LAK,6,
+202310240MIN,"October 24, 2023",Edmonton Oilers,EDM,4,Minnesota Wild,MIN,7,
+202310240MTL,"October 24, 2023",New Jersey Devils,NJD,5,Montreal Canadiens,MTL,2,
+202310240NSH,"October 24, 2023",Vancouver Canucks,VAN,3,Nashville Predators,NSH,2,
+202310240NYI,"October 24, 2023",Colorado Avalanche,COL,7,New York Islanders,NYI,4,
+202310240OTT,"October 24, 2023",Buffalo Sabres,BUF,6,Ottawa Senators,OTT,4,
+202310240PIT,"October 24, 2023",Dallas Stars,DAL,4,Pittsburgh Penguins,PIT,1,
+202310240TBL,"October 24, 2023",Carolina Hurricanes,CAR,0,Tampa Bay Lightning,TBL,3,
+202310240VEG,"October 24, 2023",Philadelphia Flyers,PHI,2,Vegas Golden Knights,VEG,3,
+202310240WPG,"October 24, 2023",St. Louis Blues,STL,2,Winnipeg Jets,WPG,4,
+202310240WSH,"October 24, 2023",Toronto Maple Leafs,TOR,4,Washington Capitals,WSH,1,
+202310250NJD,"October 25, 2023",Washington Capitals,WSH,6,New Jersey Devils,NJD,4,
+202310260BOS,"October 26, 2023",Anaheim Ducks,ANA,4,Boston Bruins,BOS,3,OT
+202310260CAR,"October 26, 2023",Seattle Kraken,SEA,2,Carolina Hurricanes,CAR,3,OT
+202310260CGY,"October 26, 2023",St. Louis Blues,STL,3,Calgary Flames,CGY,0,
+202310260DAL,"October 26, 2023",Toronto Maple Leafs,TOR,4,Dallas Stars,DAL,1,
+202310260DET,"October 26, 2023",Winnipeg Jets,WPG,4,Detroit Red Wings,DET,1,
+202310260EDM,"October 26, 2023",New York Rangers,NYR,3,Edmonton Oilers,EDM,0,
+202310260MTL,"October 26, 2023",Columbus Blue Jackets,CBJ,3,Montreal Canadiens,MTL,4,OT
+202310260NYI,"October 26, 2023",Ottawa Senators,OTT,2,New York Islanders,NYI,3,
+202310260PHI,"October 26, 2023",Minnesota Wild,MIN,2,Philadelphia Flyers,PHI,6,
+202310260PIT,"October 26, 2023",Colorado Avalanche,COL,0,Pittsburgh Penguins,PIT,4,
+202310260TBL,"October 26, 2023",San Jose Sharks,SJS,0,Tampa Bay Lightning,TBL,6,
+202310270ARI,"October 27, 2023",Los Angeles Kings,LAK,5,Arizona Coyotes,ARI,4,
+202310270CAR,"October 27, 2023",San Jose Sharks,SJS,0,Carolina Hurricanes,CAR,3,
+202310270NJD,"October 27, 2023",Buffalo Sabres,BUF,4,New Jersey Devils,NJD,5,
+202310270VAN,"October 27, 2023",St. Louis Blues,STL,0,Vancouver Canucks,VAN,5,
+202310270VEG,"October 27, 2023",Chicago Blackhawks,CHI,4,Vegas Golden Knights,VEG,3,OT
+202310270WSH,"October 27, 2023",Minnesota Wild,MIN,2,Washington Capitals,WSH,2,SO
+202310280BOS,"October 28, 2023",Detroit Red Wings,DET,1,Boston Bruins,BOS,4,
+202310280CBJ,"October 28, 2023",New York Islanders,NYI,2,Columbus Blue Jackets,CBJ,0,
+202310280FLA,"October 28, 2023",Seattle Kraken,SEA,2,Florida Panthers,FLA,3,
+202310280LAK,"October 28, 2023",Vegas Golden Knights,VEG,3,Los Angeles Kings,LAK,3,SO
+202310280MTL,"October 28, 2023",Winnipeg Jets,WPG,3,Montreal Canadiens,MTL,3,SO
+202310280NSH,"October 28, 2023",Toronto Maple Leafs,TOR,2,Nashville Predators,NSH,3,OT
+202310280PHI,"October 28, 2023",Anaheim Ducks,ANA,7,Philadelphia Flyers,PHI,4,
+202310280PIT,"October 28, 2023",Ottawa Senators,OTT,5,Pittsburgh Penguins,PIT,2,
+202310280VAN,"October 28, 2023",New York Rangers,NYR,4,Vancouver Canucks,VAN,3,OT
+202310290BUF,"October 29, 2023",Colorado Avalanche,COL,0,Buffalo Sabres,BUF,4,
+202310290EDM,"October 29, 2023",Calgary Flames,CGY,2,Edmonton Oilers,EDM,5,
+202310290NJD,"October 29, 2023",Minnesota Wild,MIN,3,New Jersey Devils,NJD,4,
+202310290WSH,"October 29, 2023",San Jose Sharks,SJS,1,Washington Capitals,WSH,3,
+202310300ARI,"October 30, 2023",Chicago Blackhawks,CHI,1,Arizona Coyotes,ARI,8,
+202310300BOS,"October 30, 2023",Florida Panthers,FLA,2,Boston Bruins,BOS,3,OT
+202310300DAL,"October 30, 2023",Columbus Blue Jackets,CBJ,3,Dallas Stars,DAL,5,
+202310300NYI,"October 30, 2023",Detroit Red Wings,DET,4,New York Islanders,NYI,3,OT
+202310300PHI,"October 30, 2023",Carolina Hurricanes,CAR,3,Philadelphia Flyers,PHI,2,
+202310300PIT,"October 30, 2023",Anaheim Ducks,ANA,4,Pittsburgh Penguins,PIT,3,
+202310300TBL,"October 30, 2023",Seattle Kraken,SEA,4,Tampa Bay Lightning,TBL,3,OT
+202310300VEG,"October 30, 2023",Montreal Canadiens,MTL,2,Vegas Golden Knights,VEG,2,SO
+202310300WPG,"October 30, 2023",New York Rangers,NYR,3,Winnipeg Jets,WPG,2,OT
+202310310TOR,"October 31, 2023",Los Angeles Kings,LAK,4,Toronto Maple Leafs,TOR,1,
+202310310VAN,"October 31, 2023",Nashville Predators,NSH,2,Vancouver Canucks,VAN,5,
+202311010ANA,"November 01, 2023",Arizona Coyotes,ARI,3,Anaheim Ducks,ANA,4,OT
+202311010CGY,"November 01, 2023",Dallas Stars,DAL,4,Calgary Flames,CGY,3,
+202311010COL,"November 01, 2023",St. Louis Blues,STL,1,Colorado Avalanche,COL,4,
+202311010PHI,"November 01, 2023",Buffalo Sabres,BUF,5,Philadelphia Flyers,PHI,2,
+202311020ARI,"November 02, 2023",Montreal Canadiens,MTL,2,Arizona Coyotes,ARI,3,
+202311020BOS,"November 02, 2023",Toronto Maple Leafs,TOR,2,Boston Bruins,BOS,2,SO
+202311020CBJ,"November 02, 2023",Tampa Bay Lightning,TBL,2,Columbus Blue Jackets,CBJ,4,
+202311020DET,"November 02, 2023",Florida Panthers,FLA,2,Detroit Red Wings,DET,0,
+202311020EDM,"November 02, 2023",Dallas Stars,DAL,4,Edmonton Oilers,EDM,3,
+202311020MIN,"November 02, 2023",New Jersey Devils,NJD,5,Minnesota Wild,MIN,3,
+202311020NYR,"November 02, 2023",Carolina Hurricanes,CAR,1,New York Rangers,NYR,2,
+202311020OTT,"November 02, 2023",Los Angeles Kings,LAK,3,Ottawa Senators,OTT,2,
+202311020SEA,"November 02, 2023",Nashville Predators,NSH,2,Seattle Kraken,SEA,4,
+202311020SJS,"November 02, 2023",Vancouver Canucks,VAN,10,San Jose Sharks,SJS,1,
+202311020VEG,"November 02, 2023",Winnipeg Jets,WPG,2,Vegas Golden Knights,VEG,5,
+202311020WSH,"November 02, 2023",New York Islanders,NYI,3,Washington Capitals,WSH,0,
+202311030BUF,"November 03, 2023",Philadelphia Flyers,PHI,5,Buffalo Sabres,BUF,1,
+202311030STL,"November 03, 2023",New Jersey Devils,NJD,1,St. Louis Blues,STL,4,
+202311040ARI,"November 04, 2023",Winnipeg Jets,WPG,5,Arizona Coyotes,ARI,3,
+202311040CHI,"November 04, 2023",Florida Panthers,FLA,2,Chicago Blackhawks,CHI,5,
+202311040DET,"November 04, 2023",Boston Bruins,BOS,4,Detroit Red Wings,DET,5,
+202311040EDM,"November 04, 2023",Nashville Predators,NSH,5,Edmonton Oilers,EDM,2,
+202311040MIN,"November 04, 2023",New York Rangers,NYR,4,Minnesota Wild,MIN,4,SO
+202311040NYI,"November 04, 2023",Carolina Hurricanes,CAR,4,New York Islanders,NYI,3,OT
+202311040OTT,"November 04, 2023",Tampa Bay Lightning,TBL,6,Ottawa Senators,OTT,4,
+202311040PHI,"November 04, 2023",Los Angeles Kings,LAK,5,Philadelphia Flyers,PHI,0,
+202311040SEA,"November 04, 2023",Calgary Flames,CGY,6,Seattle Kraken,SEA,3,
+202311040SJS,"November 04, 2023",Pittsburgh Penguins,PIT,10,San Jose Sharks,SJS,2,
+202311040STL,"November 04, 2023",Montreal Canadiens,MTL,3,St. Louis Blues,STL,6,
+202311040TOR,"November 04, 2023",Buffalo Sabres,BUF,6,Toronto Maple Leafs,TOR,4,
+202311040VAN,"November 04, 2023",Dallas Stars,DAL,0,Vancouver Canucks,VAN,2,
+202311040VEG,"November 04, 2023",Colorado Avalanche,COL,0,Vegas Golden Knights,VEG,7,
+202311040WSH,"November 04, 2023",Columbus Blue Jackets,CBJ,1,Washington Capitals,WSH,2,
+202311050ANA,"November 05, 2023",Vegas Golden Knights,VEG,2,Anaheim Ducks,ANA,4,
+202311050CHI,"November 05, 2023",New Jersey Devils,NJD,4,Chicago Blackhawks,CHI,2,
+202311060DAL,"November 06, 2023",Boston Bruins,BOS,3,Dallas Stars,DAL,2,
+202311060FLA,"November 06, 2023",Columbus Blue Jackets,CBJ,4,Florida Panthers,FLA,5,OT
+202311060TOR,"November 06, 2023",Tampa Bay Lightning,TBL,5,Toronto Maple Leafs,TOR,6,OT
+202311060VAN,"November 06, 2023",Edmonton Oilers,EDM,2,Vancouver Canucks,VAN,6,
+202311070ANA,"November 07, 2023",Pittsburgh Penguins,PIT,2,Anaheim Ducks,ANA,0,
+202311070ARI,"November 07, 2023",Seattle Kraken,SEA,3,Arizona Coyotes,ARI,3,SO
+202311070CAR,"November 07, 2023",Buffalo Sabres,BUF,2,Carolina Hurricanes,CAR,3,OT
+202311070CGY,"November 07, 2023",Nashville Predators,NSH,2,Calgary Flames,CGY,4,
+202311070COL,"November 07, 2023",New Jersey Devils,NJD,3,Colorado Avalanche,COL,6,
+202311070MTL,"November 07, 2023",Tampa Bay Lightning,TBL,5,Montreal Canadiens,MTL,3,
+202311070NYI,"November 07, 2023",Minnesota Wild,MIN,4,New York Islanders,NYI,2,
+202311070NYR,"November 07, 2023",Detroit Red Wings,DET,3,New York Rangers,NYR,5,
+202311070SJS,"November 07, 2023",Philadelphia Flyers,PHI,1,San Jose Sharks,SJS,2,
+202311070STL,"November 07, 2023",Winnipeg Jets,WPG,5,St. Louis Blues,STL,2,
+202311080TOR,"November 08, 2023",Ottawa Senators,OTT,6,Toronto Maple Leafs,TOR,3,
+202311080VEG,"November 08, 2023",Los Angeles Kings,LAK,4,Vegas Golden Knights,VEG,1,
+202311080WSH,"November 08, 2023",Florida Panthers,FLA,4,Washington Capitals,WSH,3,OT
+202311090BOS,"November 09, 2023",New York Islanders,NYI,2,Boston Bruins,BOS,5,
+202311090CBJ,"November 09, 2023",Dallas Stars,DAL,5,Columbus Blue Jackets,CBJ,2,
+202311090COL,"November 09, 2023",Seattle Kraken,SEA,4,Colorado Avalanche,COL,3,
+202311090DET,"November 09, 2023",Montreal Canadiens,MTL,3,Detroit Red Wings,DET,2,OT
+202311090LAK,"November 09, 2023",Pittsburgh Penguins,PIT,4,Los Angeles Kings,LAK,3,OT
+202311090NYR,"November 09, 2023",Minnesota Wild,MIN,1,New York Rangers,NYR,4,
+202311090OTT,"November 09, 2023",Vancouver Canucks,VAN,5,Ottawa Senators,OTT,2,
+202311090SJS,"November 09, 2023",Edmonton Oilers,EDM,2,San Jose Sharks,SJS,3,
+202311090STL,"November 09, 2023",Arizona Coyotes,ARI,1,St. Louis Blues,STL,2,
+202311090TBL,"November 09, 2023",Chicago Blackhawks,CHI,5,Tampa Bay Lightning,TBL,3,
+202311090WPG,"November 09, 2023",Nashville Predators,NSH,3,Winnipeg Jets,WPG,6,
+202311100ANA,"November 10, 2023",Philadelphia Flyers,PHI,6,Anaheim Ducks,ANA,3,
+202311100BUF,"November 10, 2023",Minnesota Wild,MIN,2,Buffalo Sabres,BUF,3,
+202311100FLA,"November 10, 2023",Carolina Hurricanes,CAR,2,Florida Panthers,FLA,5,
+202311100NJD,"November 10, 2023",Washington Capitals,WSH,4,New Jersey Devils,NJD,2,
+202311100TOR,"November 10, 2023",Calgary Flames,CGY,4,Toronto Maple Leafs,TOR,4,SO
+202311100VEG,"November 10, 2023",San Jose Sharks,SJS,0,Vegas Golden Knights,VEG,5,
+202311110COL,"November 11, 2023",St. Louis Blues,STL,8,Colorado Avalanche,COL,2,
+202311110DET,"November 11, 2023",Columbus Blue Jackets,CBJ,4,Detroit Red Wings,DET,5,
+202311110LAK,"November 11, 2023",Philadelphia Flyers,PHI,4,Los Angeles Kings,LAK,2,
+202311110MTL,"November 11, 2023",Boston Bruins,BOS,2,Montreal Canadiens,MTL,3,OT
+202311110NSH,"November 11, 2023",Arizona Coyotes,ARI,7,Nashville Predators,NSH,5,
+202311110NYI,"November 11, 2023",Washington Capitals,WSH,4,New York Islanders,NYI,1,
+202311110OTT,"November 11, 2023",Calgary Flames,CGY,1,Ottawa Senators,OTT,4,
+202311110PIT,"November 11, 2023",Buffalo Sabres,BUF,0,Pittsburgh Penguins,PIT,4,
+202311110SEA,"November 11, 2023",Edmonton Oilers,EDM,4,Seattle Kraken,SEA,1,
+202311110TBL,"November 11, 2023",Carolina Hurricanes,CAR,4,Tampa Bay Lightning,TBL,0,
+202311110TOR,"November 11, 2023",Vancouver Canucks,VAN,2,Toronto Maple Leafs,TOR,5,
+202311110WPG,"November 11, 2023",Dallas Stars,DAL,3,Winnipeg Jets,WPG,2,
+202311120ANA,"November 12, 2023",San Jose Sharks,SJS,1,Anaheim Ducks,ANA,4,
+202311120FLA,"November 12, 2023",Chicago Blackhawks,CHI,3,Florida Panthers,FLA,4,
+202311120MIN,"November 12, 2023",Dallas Stars,DAL,8,Minnesota Wild,MIN,3,
+202311120MTL,"November 12, 2023",Vancouver Canucks,VAN,5,Montreal Canadiens,MTL,2,
+202311120NYR,"November 12, 2023",Columbus Blue Jackets,CBJ,3,New York Rangers,NYR,3,SO
+202311130EDM,"November 13, 2023",New York Islanders,NYI,1,Edmonton Oilers,EDM,4,
+202311130SEA,"November 13, 2023",Colorado Avalanche,COL,5,Seattle Kraken,SEA,1,
+202311140BUF,"November 14, 2023",Boston Bruins,BOS,5,Buffalo Sabres,BUF,2,
+202311140CBJ,"November 14, 2023",Pittsburgh Penguins,PIT,5,Columbus Blue Jackets,CBJ,3,
+202311140DAL,"November 14, 2023",Arizona Coyotes,ARI,3,Dallas Stars,DAL,4,OT
+202311140MTL,"November 14, 2023",Calgary Flames,CGY,2,Montreal Canadiens,MTL,1,
+202311140NSH,"November 14, 2023",Anaheim Ducks,ANA,3,Nashville Predators,NSH,2,
+202311140SJS,"November 14, 2023",Florida Panthers,FLA,5,San Jose Sharks,SJS,3,
+202311140STL,"November 14, 2023",Tampa Bay Lightning,TBL,0,St. Louis Blues,STL,5,
+202311140WPG,"November 14, 2023",New Jersey Devils,NJD,3,Winnipeg Jets,WPG,6,
+202311140WSH,"November 14, 2023",Vegas Golden Knights,VEG,0,Washington Capitals,WSH,3,
+202311150CAR,"November 15, 2023",Philadelphia Flyers,PHI,3,Carolina Hurricanes,CAR,1,
+202311150COL,"November 15, 2023",Anaheim Ducks,ANA,2,Colorado Avalanche,COL,8,
+202311150EDM,"November 15, 2023",Seattle Kraken,SEA,3,Edmonton Oilers,EDM,4,OT
+202311150VAN,"November 15, 2023",New York Islanders,NYI,3,Vancouver Canucks,VAN,4,OT
+202311160CBJ,"November 16, 2023",Arizona Coyotes,ARI,3,Columbus Blue Jackets,CBJ,2,
+202311160CGY,"November 16, 2023",Vancouver Canucks,VAN,2,Calgary Flames,CGY,5,
+202311160CHI,"November 16, 2023",Tampa Bay Lightning,TBL,4,Chicago Blackhawks,CHI,2,
+202311160LAK,"November 16, 2023",Florida Panthers,FLA,1,Los Angeles Kings,LAK,2,
+202311160MTL,"November 16, 2023",Vegas Golden Knights,VEG,6,Montreal Canadiens,MTL,5,
+202311160OTT,"November 16, 2023",Detroit Red Wings,DET,4,Ottawa Senators,OTT,5,OT
+202311160PIT,"November 16, 2023",New Jersey Devils,NJD,5,Pittsburgh Penguins,PIT,2,
+202311160SEA,"November 16, 2023",New York Islanders,NYI,3,Seattle Kraken,SEA,3,SO
+202311160SJS,"November 16, 2023",St. Louis Blues,STL,1,San Jose Sharks,SJS,5,
+202311170ANA,"November 17, 2023",Florida Panthers,FLA,2,Anaheim Ducks,ANA,1,
+202311170DET,"November 17, 2023",Toronto Maple Leafs,TOR,3,Detroit Red Wings,DET,2,
+202311170WPG,"November 17, 2023",Buffalo Sabres,BUF,2,Winnipeg Jets,WPG,3,
+202311180BOS,"November 18, 2023",Montreal Canadiens,MTL,2,Boston Bruins,BOS,5,
+202311180CAR,"November 18, 2023",Pittsburgh Penguins,PIT,2,Carolina Hurricanes,CAR,4,
+202311180CGY,"November 18, 2023",New York Islanders,NYI,4,Calgary Flames,CGY,4,SO
+202311180DAL,"November 18, 2023",Colorado Avalanche,COL,6,Dallas Stars,DAL,3,
+202311180LAK,"November 18, 2023",St. Louis Blues,STL,1,Los Angeles Kings,LAK,5,
+202311180NJD,"November 18, 2023",New York Rangers,NYR,5,New Jersey Devils,NJD,3,
+202311180NSH,"November 18, 2023",Chicago Blackhawks,CHI,2,Nashville Predators,NSH,4,
+202311180OTT,"November 18, 2023",Minnesota Wild,MIN,1,Ottawa Senators,OTT,1,SO
+202311180PHI,"November 18, 2023",Vegas Golden Knights,VEG,3,Philadelphia Flyers,PHI,4,OT
+202311180TBL,"November 18, 2023",Edmonton Oilers,EDM,4,Tampa Bay Lightning,TBL,6,
+202311180VAN,"November 18, 2023",Seattle Kraken,SEA,4,Vancouver Canucks,VAN,3,
+202311180WPG,"November 18, 2023",Arizona Coyotes,ARI,2,Winnipeg Jets,WPG,5,
+202311180WSH,"November 18, 2023",Columbus Blue Jackets,CBJ,3,Washington Capitals,WSH,4,
+202311190ANA,"November 19, 2023",St. Louis Blues,STL,3,Anaheim Ducks,ANA,1,
+202311190CHI,"November 19, 2023",Buffalo Sabres,BUF,3,Chicago Blackhawks,CHI,2,
+202311190MIN,"November 19, 2023",Toronto Maple Leafs,TOR,4,Minnesota Wild,MIN,3,OT
+202311190PHI,"November 19, 2023",Columbus Blue Jackets,CBJ,2,Philadelphia Flyers,PHI,5,
+202311190PIT,"November 19, 2023",Vegas Golden Knights,VEG,0,Pittsburgh Penguins,PIT,3,
+202311200ARI,"November 20, 2023",Los Angeles Kings,LAK,4,Arizona Coyotes,ARI,1,
+202311200DAL,"November 20, 2023",New York Rangers,NYR,3,Dallas Stars,DAL,6,
+202311200FLA,"November 20, 2023",Edmonton Oilers,EDM,3,Florida Panthers,FLA,5,
+202311200NSH,"November 20, 2023",Colorado Avalanche,COL,3,Nashville Predators,NSH,4,
+202311200SEA,"November 20, 2023",Calgary Flames,CGY,4,Seattle Kraken,SEA,3,OT
+202311200TBL,"November 20, 2023",Boston Bruins,BOS,4,Tampa Bay Lightning,TBL,5,OT
+202311200VAN,"November 20, 2023",San Jose Sharks,SJS,1,Vancouver Canucks,VAN,3,
+202311220ANA,"November 22, 2023",Montreal Canadiens,MTL,4,Anaheim Ducks,ANA,3,
+202311220ARI,"November 22, 2023",St. Louis Blues,STL,6,Arizona Coyotes,ARI,5,
+202311220CAR,"November 22, 2023",Edmonton Oilers,EDM,3,Carolina Hurricanes,CAR,6,
+202311220CBJ,"November 22, 2023",Chicago Blackhawks,CHI,3,Columbus Blue Jackets,CBJ,7,
+202311220COL,"November 22, 2023",Vancouver Canucks,VAN,2,Colorado Avalanche,COL,5,
+202311220DAL,"November 22, 2023",Vegas Golden Knights,VEG,2,Dallas Stars,DAL,1,OT
+202311220DET,"November 22, 2023",New Jersey Devils,NJD,0,Detroit Red Wings,DET,4,
+202311220FLA,"November 22, 2023",Boston Bruins,BOS,3,Florida Panthers,FLA,1,
+202311220NSH,"November 22, 2023",Calgary Flames,CGY,2,Nashville Predators,NSH,4,
+202311220NYI,"November 22, 2023",Philadelphia Flyers,PHI,2,New York Islanders,NYI,3,
+202311220PIT,"November 22, 2023",New York Rangers,NYR,1,Pittsburgh Penguins,PIT,0,
+202311220SEA,"November 22, 2023",San Jose Sharks,SJS,1,Seattle Kraken,SEA,7,
+202311220TBL,"November 22, 2023",Winnipeg Jets,WPG,3,Tampa Bay Lightning,TBL,2,OT
+202311220WSH,"November 22, 2023",Buffalo Sabres,BUF,3,Washington Capitals,WSH,4,OT
+202311240ANA,"November 24, 2023",Los Angeles Kings,LAK,5,Anaheim Ducks,ANA,2,
+202311240BOS,"November 24, 2023",Detroit Red Wings,DET,5,Boston Bruins,BOS,2,
+202311240BUF,"November 24, 2023",Pittsburgh Penguins,PIT,2,Buffalo Sabres,BUF,3,
+202311240CAR,"November 24, 2023",Tampa Bay Lightning,TBL,8,Carolina Hurricanes,CAR,2,
+202311240CHI,"November 24, 2023",Toronto Maple Leafs,TOR,3,Chicago Blackhawks,CHI,4,OT
+202311240DAL,"November 24, 2023",Calgary Flames,CGY,7,Dallas Stars,DAL,4,
+202311240FLA,"November 24, 2023",Winnipeg Jets,WPG,3,Florida Panthers,FLA,0,
+202311240MIN,"November 24, 2023",Colorado Avalanche,COL,3,Minnesota Wild,MIN,2,
+202311240NJD,"November 24, 2023",Columbus Blue Jackets,CBJ,2,New Jersey Devils,NJD,1,
+202311240OTT,"November 24, 2023",New York Islanders,NYI,5,Ottawa Senators,OTT,3,
+202311240PHI,"November 24, 2023",New York Rangers,NYR,3,Philadelphia Flyers,PHI,1,
+202311240SEA,"November 24, 2023",Vancouver Canucks,VAN,5,Seattle Kraken,SEA,1,
+202311240SJS,"November 24, 2023",Montreal Canadiens,MTL,2,San Jose Sharks,SJS,2,SO
+202311240STL,"November 24, 2023",Nashville Predators,NSH,8,St. Louis Blues,STL,3,
+202311240WSH,"November 24, 2023",Edmonton Oilers,EDM,5,Washington Capitals,WSH,0,
+202311250COL,"November 25, 2023",Calgary Flames,CGY,1,Colorado Avalanche,COL,3,
+202311250LAK,"November 25, 2023",Montreal Canadiens,MTL,0,Los Angeles Kings,LAK,4,
+202311250NJD,"November 25, 2023",Buffalo Sabres,BUF,2,New Jersey Devils,NJD,7,
+202311250NYI,"November 25, 2023",Philadelphia Flyers,PHI,0,New York Islanders,NYI,0,SO
+202311250NYR,"November 25, 2023",Boston Bruins,BOS,4,New York Rangers,NYR,7,
+202311250PIT,"November 25, 2023",Toronto Maple Leafs,TOR,2,Pittsburgh Penguins,PIT,3,
+202311250SJS,"November 25, 2023",Vancouver Canucks,VAN,3,San Jose Sharks,SJS,4,
+202311250VEG,"November 25, 2023",Arizona Coyotes,ARI,2,Vegas Golden Knights,VEG,0,
+202311260CAR,"November 26, 2023",Columbus Blue Jackets,CBJ,2,Carolina Hurricanes,CAR,3,
+202311260CHI,"November 26, 2023",St. Louis Blues,STL,4,Chicago Blackhawks,CHI,2,
+202311260DET,"November 26, 2023",Minnesota Wild,MIN,1,Detroit Red Wings,DET,4,
+202311260EDM,"November 26, 2023",Anaheim Ducks,ANA,2,Edmonton Oilers,EDM,8,
+202311260NSH,"November 26, 2023",Winnipeg Jets,WPG,2,Nashville Predators,NSH,3,
+202311270CBJ,"November 27, 2023",Boston Bruins,BOS,2,Columbus Blue Jackets,CBJ,5,
+202311270CGY,"November 27, 2023",Vegas Golden Knights,VEG,1,Calgary Flames,CGY,2,OT
+202311270COL,"November 27, 2023",Tampa Bay Lightning,TBL,1,Colorado Avalanche,COL,4,
+202311270NYR,"November 27, 2023",Buffalo Sabres,BUF,5,New York Rangers,NYR,1,
+202311270OTT,"November 27, 2023",Florida Panthers,FLA,5,Ottawa Senators,OTT,0,
+202311270SJS,"November 27, 2023",Washington Capitals,WSH,1,San Jose Sharks,SJS,2,
+202311280ARI,"November 28, 2023",Tampa Bay Lightning,TBL,1,Arizona Coyotes,ARI,3,
+202311280CHI,"November 28, 2023",Seattle Kraken,SEA,3,Chicago Blackhawks,CHI,4,
+202311280EDM,"November 28, 2023",Vegas Golden Knights,VEG,4,Edmonton Oilers,EDM,4,SO
+202311280MIN,"November 28, 2023",St. Louis Blues,STL,1,Minnesota Wild,MIN,3,
+202311280NJD,"November 28, 2023",New York Islanders,NYI,4,New Jersey Devils,NJD,5,
+202311280NSH,"November 28, 2023",Pittsburgh Penguins,PIT,2,Nashville Predators,NSH,3,OT
+202311280PHI,"November 28, 2023",Carolina Hurricanes,CAR,4,Philadelphia Flyers,PHI,1,
+202311280TOR,"November 28, 2023",Florida Panthers,FLA,1,Toronto Maple Leafs,TOR,1,SO
+202311280VAN,"November 28, 2023",Anaheim Ducks,ANA,1,Vancouver Canucks,VAN,3,
+202311280WPG,"November 28, 2023",Dallas Stars,DAL,2,Winnipeg Jets,WPG,0,
+202311290CBJ,"November 29, 2023",Montreal Canadiens,MTL,4,Columbus Blue Jackets,CBJ,2,
+202311290LAK,"November 29, 2023",Washington Capitals,WSH,2,Los Angeles Kings,LAK,1,
+202311290NYR,"November 29, 2023",Detroit Red Wings,DET,2,New York Rangers,NYR,3,
+202311300ANA,"November 30, 2023",Washington Capitals,WSH,5,Anaheim Ducks,ANA,4,
+202311300ARI,"November 30, 2023",Colorado Avalanche,COL,3,Arizona Coyotes,ARI,4,OT
+202311300BOS,"November 30, 2023",San Jose Sharks,SJS,0,Boston Bruins,BOS,3,
+202311300CAR,"November 30, 2023",New York Islanders,NYI,5,Carolina Hurricanes,CAR,4,OT
+202311300CGY,"November 30, 2023",Dallas Stars,DAL,3,Calgary Flames,CGY,4,OT
+202311300DET,"November 30, 2023",Chicago Blackhawks,CHI,1,Detroit Red Wings,DET,5,
+202311300MTL,"November 30, 2023",Florida Panthers,FLA,5,Montreal Canadiens,MTL,1,
+202311300NSH,"November 30, 2023",Minnesota Wild,MIN,6,Nashville Predators,NSH,1,
+202311300PHI,"November 30, 2023",New Jersey Devils,NJD,4,Philadelphia Flyers,PHI,3,OT
+202311300STL,"November 30, 2023",Buffalo Sabres,BUF,4,St. Louis Blues,STL,6,
+202311300TBL,"November 30, 2023",Pittsburgh Penguins,PIT,3,Tampa Bay Lightning,TBL,2,
+202311300TOR,"November 30, 2023",Seattle Kraken,SEA,3,Toronto Maple Leafs,TOR,3,SO
+202311300VAN,"November 30, 2023",Vegas Golden Knights,VEG,4,Vancouver Canucks,VAN,1,
+202311300WPG,"November 30, 2023",Edmonton Oilers,EDM,3,Winnipeg Jets,WPG,1,
+202312010CBJ,"December 01, 2023",Ottawa Senators,OTT,2,Columbus Blue Jackets,CBJ,4,
+202312010NJD,"December 01, 2023",San Jose Sharks,SJS,6,New Jersey Devils,NJD,3,
+202312020ANA,"December 02, 2023",Colorado Avalanche,COL,3,Anaheim Ducks,ANA,3,SO
+202312020ARI,"December 02, 2023",St. Louis Blues,STL,1,Arizona Coyotes,ARI,4,
+202312020CAR,"December 02, 2023",Buffalo Sabres,BUF,2,Carolina Hurricanes,CAR,6,
+202312020CGY,"December 02, 2023",Vancouver Canucks,VAN,4,Calgary Flames,CGY,3,
+202312020DAL,"December 02, 2023",Tampa Bay Lightning,TBL,1,Dallas Stars,DAL,8,
+202312020FLA,"December 02, 2023",New York Islanders,NYI,4,Florida Panthers,FLA,3,
+202312020MTL,"December 02, 2023",Detroit Red Wings,DET,5,Montreal Canadiens,MTL,4,OT
+202312020NSH,"December 02, 2023",New York Rangers,NYR,4,Nashville Predators,NSH,3,
+202312020OTT,"December 02, 2023",Seattle Kraken,SEA,0,Ottawa Senators,OTT,2,
+202312020PIT,"December 02, 2023",Philadelphia Flyers,PHI,3,Pittsburgh Penguins,PIT,3,SO
+202312020TOR,"December 02, 2023",Boston Bruins,BOS,4,Toronto Maple Leafs,TOR,3,OT
+202312020VEG,"December 02, 2023",Washington Capitals,WSH,1,Vegas Golden Knights,VEG,4,
+202312020WPG,"December 02, 2023",Chicago Blackhawks,CHI,1,Winnipeg Jets,WPG,3,
+202312030BOS,"December 03, 2023",Columbus Blue Jackets,CBJ,1,Boston Bruins,BOS,3,
+202312030BUF,"December 03, 2023",Nashville Predators,NSH,2,Buffalo Sabres,BUF,1,
+202312030LAK,"December 03, 2023",Colorado Avalanche,COL,1,Los Angeles Kings,LAK,4,
+202312030MIN,"December 03, 2023",Chicago Blackhawks,CHI,1,Minnesota Wild,MIN,4,
+202312030NYR,"December 03, 2023",San Jose Sharks,SJS,5,New York Rangers,NYR,6,
+202312040ARI,"December 04, 2023",Washington Capitals,WSH,0,Arizona Coyotes,ARI,6,
+202312040MTL,"December 04, 2023",Seattle Kraken,SEA,2,Montreal Canadiens,MTL,4,
+202312040PHI,"December 04, 2023",Pittsburgh Penguins,PIT,1,Philadelphia Flyers,PHI,2,OT
+202312040TBL,"December 04, 2023",Dallas Stars,DAL,0,Tampa Bay Lightning,TBL,4,
+202312040VEG,"December 04, 2023",St. Louis Blues,STL,2,Vegas Golden Knights,VEG,1,OT
+202312040WPG,"December 04, 2023",Carolina Hurricanes,CAR,1,Winnipeg Jets,WPG,2,
+202312050BUF,"December 05, 2023",Detroit Red Wings,DET,5,Buffalo Sabres,BUF,3,
+202312050CBJ,"December 05, 2023",Los Angeles Kings,LAK,4,Columbus Blue Jackets,CBJ,3,OT
+202312050CGY,"December 05, 2023",Minnesota Wild,MIN,5,Calgary Flames,CGY,2,
+202312050CHI,"December 05, 2023",Nashville Predators,NSH,3,Chicago Blackhawks,CHI,3,SO
+202312050COL,"December 05, 2023",Anaheim Ducks,ANA,2,Colorado Avalanche,COL,3,
+202312050NYI,"December 05, 2023",San Jose Sharks,SJS,5,New York Islanders,NYI,4,OT
+202312050OTT,"December 05, 2023",New York Rangers,NYR,2,Ottawa Senators,OTT,6,
+202312050VAN,"December 05, 2023",New Jersey Devils,NJD,6,Vancouver Canucks,VAN,5,
+202312060EDM,"December 06, 2023",Carolina Hurricanes,CAR,1,Edmonton Oilers,EDM,6,
+202312060FLA,"December 06, 2023",Dallas Stars,DAL,4,Florida Panthers,FLA,5,
+202312060STL,"December 06, 2023",Vegas Golden Knights,VEG,6,St. Louis Blues,STL,3,
+202312060TBL,"December 06, 2023",Pittsburgh Penguins,PIT,1,Tampa Bay Lightning,TBL,3,
+202312070ARI,"December 07, 2023",Philadelphia Flyers,PHI,4,Arizona Coyotes,ARI,1,
+202312070BOS,"December 07, 2023",Buffalo Sabres,BUF,3,Boston Bruins,BOS,1,
+202312070CGY,"December 07, 2023",Carolina Hurricanes,CAR,2,Calgary Flames,CGY,3,
+202312070CHI,"December 07, 2023",Anaheim Ducks,ANA,0,Chicago Blackhawks,CHI,1,
+202312070COL,"December 07, 2023",Winnipeg Jets,WPG,4,Colorado Avalanche,COL,2,
+202312070DET,"December 07, 2023",San Jose Sharks,SJS,6,Detroit Red Wings,DET,5,OT
+202312070MTL,"December 07, 2023",Los Angeles Kings,LAK,4,Montreal Canadiens,MTL,0,
+202312070NSH,"December 07, 2023",Tampa Bay Lightning,TBL,1,Nashville Predators,NSH,5,
+202312070NYI,"December 07, 2023",Columbus Blue Jackets,CBJ,3,New York Islanders,NYI,7,
+202312070OTT,"December 07, 2023",Toronto Maple Leafs,TOR,4,Ottawa Senators,OTT,3,
+202312070SEA,"December 07, 2023",New Jersey Devils,NJD,2,Seattle Kraken,SEA,1,
+202312070VAN,"December 07, 2023",Minnesota Wild,MIN,0,Vancouver Canucks,VAN,2,
+202312070WSH,"December 07, 2023",Dallas Stars,DAL,4,Washington Capitals,WSH,4,SO
+202312080CBJ,"December 08, 2023",St. Louis Blues,STL,2,Columbus Blue Jackets,CBJ,5,
+202312080EDM,"December 08, 2023",Minnesota Wild,MIN,3,Edmonton Oilers,EDM,4,
+202312080FLA,"December 08, 2023",Pittsburgh Penguins,PIT,1,Florida Panthers,FLA,3,
+202312090BOS,"December 09, 2023",Arizona Coyotes,ARI,3,Boston Bruins,BOS,5,
+202312090BUF,"December 09, 2023",Montreal Canadiens,MTL,2,Buffalo Sabres,BUF,2,SO
+202312090CGY,"December 09, 2023",New Jersey Devils,NJD,4,Calgary Flames,CGY,2,
+202312090CHI,"December 09, 2023",St. Louis Blues,STL,1,Chicago Blackhawks,CHI,3,
+202312090COL,"December 09, 2023",Philadelphia Flyers,PHI,5,Colorado Avalanche,COL,2,
+202312090DAL,"December 09, 2023",Vegas Golden Knights,VEG,6,Dallas Stars,DAL,1,
+202312090DET,"December 09, 2023",Ottawa Senators,OTT,5,Detroit Red Wings,DET,1,
+202312090NYI,"December 09, 2023",Los Angeles Kings,LAK,2,New York Islanders,NYI,3,OT
+202312090SEA,"December 09, 2023",Tampa Bay Lightning,TBL,4,Seattle Kraken,SEA,3,OT
+202312090TOR,"December 09, 2023",Nashville Predators,NSH,0,Toronto Maple Leafs,TOR,4,
+202312090VAN,"December 09, 2023",Carolina Hurricanes,CAR,3,Vancouver Canucks,VAN,4,
+202312090WSH,"December 09, 2023",New York Rangers,NYR,0,Washington Capitals,WSH,4,
+202312100ANA,"December 10, 2023",Winnipeg Jets,WPG,4,Anaheim Ducks,ANA,2,
+202312100CBJ,"December 10, 2023",Florida Panthers,FLA,5,Columbus Blue Jackets,CBJ,2,
+202312100CHI,"December 10, 2023",Washington Capitals,WSH,4,Chicago Blackhawks,CHI,2,
+202312100EDM,"December 10, 2023",New Jersey Devils,NJD,1,Edmonton Oilers,EDM,4,
+202312100MTL,"December 10, 2023",Nashville Predators,NSH,2,Montreal Canadiens,MTL,1,
+202312100NYR,"December 10, 2023",Los Angeles Kings,LAK,1,New York Rangers,NYR,4,
+202312100SEA,"December 10, 2023",Minnesota Wild,MIN,3,Seattle Kraken,SEA,0,
+202312100VEG,"December 10, 2023",San Jose Sharks,SJS,4,Vegas Golden Knights,VEG,4,SO
+202312110BUF,"December 11, 2023",Arizona Coyotes,ARI,2,Buffalo Sabres,BUF,5,
+202312110COL,"December 11, 2023",Calgary Flames,CGY,5,Colorado Avalanche,COL,6,
+202312110DAL,"December 11, 2023",Detroit Red Wings,DET,3,Dallas Stars,DAL,6,
+202312110NYI,"December 11, 2023",Toronto Maple Leafs,TOR,3,New York Islanders,NYI,4,OT
+202312120EDM,"December 12, 2023",Chicago Blackhawks,CHI,1,Edmonton Oilers,EDM,4,
+202312120NSH,"December 12, 2023",Philadelphia Flyers,PHI,2,Nashville Predators,NSH,3,OT
+202312120NYR,"December 12, 2023",Toronto Maple Leafs,TOR,7,New York Rangers,NYR,3,
+202312120OTT,"December 12, 2023",Carolina Hurricanes,CAR,4,Ottawa Senators,OTT,1,
+202312120PIT,"December 12, 2023",Arizona Coyotes,ARI,2,Pittsburgh Penguins,PIT,4,
+202312120SEA,"December 12, 2023",Florida Panthers,FLA,0,Seattle Kraken,SEA,4,
+202312120SJS,"December 12, 2023",Winnipeg Jets,WPG,1,San Jose Sharks,SJS,2,
+202312120STL,"December 12, 2023",Detroit Red Wings,DET,6,St. Louis Blues,STL,4,
+202312120VAN,"December 12, 2023",Tampa Bay Lightning,TBL,1,Vancouver Canucks,VAN,4,
+202312120VEG,"December 12, 2023",Calgary Flames,CGY,4,Vegas Golden Knights,VEG,5,OT
+202312130COL,"December 13, 2023",Buffalo Sabres,BUF,1,Colorado Avalanche,COL,5,
+202312130LAK,"December 13, 2023",Winnipeg Jets,WPG,5,Los Angeles Kings,LAK,2,
+202312130MTL,"December 13, 2023",Pittsburgh Penguins,PIT,3,Montreal Canadiens,MTL,3,SO
+202312130NJD,"December 13, 2023",Boston Bruins,BOS,1,New Jersey Devils,NJD,2,OT
+202312130NYI,"December 13, 2023",Anaheim Ducks,ANA,3,New York Islanders,NYI,4,
+202312140DET,"December 14, 2023",Carolina Hurricanes,CAR,2,Detroit Red Wings,DET,1,
+202312140EDM,"December 14, 2023",Tampa Bay Lightning,TBL,7,Edmonton Oilers,EDM,4,
+202312140MIN,"December 14, 2023",Calgary Flames,CGY,2,Minnesota Wild,MIN,2,SO
+202312140PHI,"December 14, 2023",Washington Capitals,WSH,3,Philadelphia Flyers,PHI,3,SO
+202312140SEA,"December 14, 2023",Chicago Blackhawks,CHI,1,Seattle Kraken,SEA,7,
+202312140STL,"December 14, 2023",Ottawa Senators,OTT,2,St. Louis Blues,STL,4,
+202312140TOR,"December 14, 2023",Columbus Blue Jackets,CBJ,6,Toronto Maple Leafs,TOR,5,OT
+202312140VAN,"December 14, 2023",Florida Panthers,FLA,0,Vancouver Canucks,VAN,4,
+202312150ARI,"December 15, 2023",San Jose Sharks,SJS,0,Arizona Coyotes,ARI,1,
+202312150CAR,"December 15, 2023",Nashville Predators,NSH,6,Carolina Hurricanes,CAR,5,OT
+202312150DAL,"December 15, 2023",Ottawa Senators,OTT,4,Dallas Stars,DAL,5,
+202312150NYI,"December 15, 2023",Boston Bruins,BOS,4,New York Islanders,NYI,4,SO
+202312150NYR,"December 15, 2023",Anaheim Ducks,ANA,1,New York Rangers,NYR,5,
+202312150VEG,"December 15, 2023",Buffalo Sabres,BUF,5,Vegas Golden Knights,VEG,2,
+202312160ARI,"December 16, 2023",Buffalo Sabres,BUF,0,Arizona Coyotes,ARI,2,
+202312160BOS,"December 16, 2023",New York Rangers,NYR,2,Boston Bruins,BOS,1,OT
+202312160CBJ,"December 16, 2023",New Jersey Devils,NJD,6,Columbus Blue Jackets,CBJ,3,
+202312160CGY,"December 16, 2023",Tampa Bay Lightning,TBL,2,Calgary Flames,CGY,4,
+202312160EDM,"December 16, 2023",Florida Panthers,FLA,5,Edmonton Oilers,EDM,1,
+202312160MIN,"December 16, 2023",Vancouver Canucks,VAN,1,Minnesota Wild,MIN,1,SO
+202312160MTL,"December 16, 2023",New York Islanders,NYI,3,Montreal Canadiens,MTL,5,
+202312160NSH,"December 16, 2023",Washington Capitals,WSH,1,Nashville Predators,NSH,3,
+202312160PHI,"December 16, 2023",Detroit Red Wings,DET,0,Philadelphia Flyers,PHI,1,
+202312160SEA,"December 16, 2023",Los Angeles Kings,LAK,2,Seattle Kraken,SEA,2,SO
+202312160STL,"December 16, 2023",Dallas Stars,DAL,3,St. Louis Blues,STL,4,OT
+202312160TOR,"December 16, 2023",Pittsburgh Penguins,PIT,0,Toronto Maple Leafs,TOR,7,
+202312160WPG,"December 16, 2023",Colorado Avalanche,COL,2,Winnipeg Jets,WPG,6,
+202312170CAR,"December 17, 2023",Washington Capitals,WSH,1,Carolina Hurricanes,CAR,1,SO
+202312170CHI,"December 17, 2023",Vancouver Canucks,VAN,4,Chicago Blackhawks,CHI,3,
+202312170COL,"December 17, 2023",San Jose Sharks,SJS,2,Colorado Avalanche,COL,6,
+202312170NJD,"December 17, 2023",Anaheim Ducks,ANA,5,New Jersey Devils,NJD,1,
+202312170VEG,"December 17, 2023",Ottawa Senators,OTT,3,Vegas Golden Knights,VEG,6,
+202312180CGY,"December 18, 2023",Florida Panthers,FLA,1,Calgary Flames,CGY,3,
+202312180DAL,"December 18, 2023",Seattle Kraken,SEA,3,Dallas Stars,DAL,4,OT
+202312180DET,"December 18, 2023",Anaheim Ducks,ANA,4,Detroit Red Wings,DET,3,
+202312180PIT,"December 18, 2023",Minnesota Wild,MIN,3,Pittsburgh Penguins,PIT,4,
+202312180WPG,"December 18, 2023",Montreal Canadiens,MTL,3,Winnipeg Jets,WPG,2,OT
+202312190ARI,"December 19, 2023",Ottawa Senators,OTT,3,Arizona Coyotes,ARI,4,
+202312190BOS,"December 19, 2023",Minnesota Wild,MIN,4,Boston Bruins,BOS,3,OT
+202312190BUF,"December 19, 2023",Columbus Blue Jackets,CBJ,9,Buffalo Sabres,BUF,4,
+202312190CAR,"December 19, 2023",Vegas Golden Knights,VEG,3,Carolina Hurricanes,CAR,6,
+202312190CHI,"December 19, 2023",Colorado Avalanche,COL,2,Chicago Blackhawks,CHI,3,
+202312190NJD,"December 19, 2023",Philadelphia Flyers,PHI,3,New Jersey Devils,NJD,2,OT
+202312190NSH,"December 19, 2023",Vancouver Canucks,VAN,5,Nashville Predators,NSH,2,
+202312190NYI,"December 19, 2023",Edmonton Oilers,EDM,1,New York Islanders,NYI,3,
+202312190SJS,"December 19, 2023",Los Angeles Kings,LAK,4,San Jose Sharks,SJS,1,
+202312190TBL,"December 19, 2023",St. Louis Blues,STL,1,Tampa Bay Lightning,TBL,6,
+202312190TOR,"December 19, 2023",New York Rangers,NYR,5,Toronto Maple Leafs,TOR,2,
+202312200LAK,"December 20, 2023",Seattle Kraken,SEA,2,Los Angeles Kings,LAK,1,
+202312200WPG,"December 20, 2023",Detroit Red Wings,DET,2,Winnipeg Jets,WPG,5,
+202312200WSH,"December 20, 2023",New York Islanders,NYI,2,Washington Capitals,WSH,3,OT
+202312210ANA,"December 21, 2023",Calgary Flames,CGY,3,Anaheim Ducks,ANA,0,
+202312210BUF,"December 21, 2023",Toronto Maple Leafs,TOR,3,Buffalo Sabres,BUF,9,
+202312210CBJ,"December 21, 2023",Washington Capitals,WSH,3,Columbus Blue Jackets,CBJ,2,OT
+202312210COL,"December 21, 2023",Ottawa Senators,OTT,4,Colorado Avalanche,COL,6,
+202312210DAL,"December 21, 2023",Vancouver Canucks,VAN,3,Dallas Stars,DAL,4,OT
+202312210FLA,"December 21, 2023",St. Louis Blues,STL,4,Florida Panthers,FLA,1,
+202312210MIN,"December 21, 2023",Montreal Canadiens,MTL,3,Minnesota Wild,MIN,4,OT
+202312210NJD,"December 21, 2023",Edmonton Oilers,EDM,6,New Jersey Devils,NJD,3,
+202312210PHI,"December 21, 2023",Nashville Predators,NSH,4,Philadelphia Flyers,PHI,2,
+202312210PIT,"December 21, 2023",Carolina Hurricanes,CAR,1,Pittsburgh Penguins,PIT,1,SO
+202312210SJS,"December 21, 2023",Arizona Coyotes,ARI,5,San Jose Sharks,SJS,2,
+202312210TBL,"December 21, 2023",Vegas Golden Knights,VEG,4,Tampa Bay Lightning,TBL,5,
+202312220CHI,"December 22, 2023",Montreal Canadiens,MTL,5,Chicago Blackhawks,CHI,2,
+202312220DET,"December 22, 2023",Philadelphia Flyers,PHI,6,Detroit Red Wings,DET,6,SO
+202312220NYR,"December 22, 2023",Edmonton Oilers,EDM,4,New York Rangers,NYR,3,
+202312220WPG,"December 22, 2023",Boston Bruins,BOS,1,Winnipeg Jets,WPG,5,
+202312230ANA,"December 23, 2023",Seattle Kraken,SEA,3,Anaheim Ducks,ANA,2,
+202312230CAR,"December 23, 2023",New York Islanders,NYI,5,Carolina Hurricanes,CAR,4,
+202312230CBJ,"December 23, 2023",Toronto Maple Leafs,TOR,4,Columbus Blue Jackets,CBJ,1,
+202312230COL,"December 23, 2023",Arizona Coyotes,ARI,1,Colorado Avalanche,COL,4,
+202312230FLA,"December 23, 2023",Vegas Golden Knights,VEG,2,Florida Panthers,FLA,4,
+202312230LAK,"December 23, 2023",Calgary Flames,CGY,3,Los Angeles Kings,LAK,5,
+202312230MIN,"December 23, 2023",Boston Bruins,BOS,2,Minnesota Wild,MIN,3,
+202312230NJD,"December 23, 2023",Detroit Red Wings,DET,2,New Jersey Devils,NJD,3,
+202312230NSH,"December 23, 2023",Dallas Stars,DAL,3,Nashville Predators,NSH,2,
+202312230NYR,"December 23, 2023",Buffalo Sabres,BUF,3,New York Rangers,NYR,4,OT
+202312230OTT,"December 23, 2023",Pittsburgh Penguins,PIT,4,Ottawa Senators,OTT,5,OT
+202312230STL,"December 23, 2023",Chicago Blackhawks,CHI,5,St. Louis Blues,STL,7,
+202312230VAN,"December 23, 2023",San Jose Sharks,SJS,4,Vancouver Canucks,VAN,7,
+202312230WSH,"December 23, 2023",Tampa Bay Lightning,TBL,1,Washington Capitals,WSH,1,SO
+202312270ANA,"December 27, 2023",Vegas Golden Knights,VEG,2,Anaheim Ducks,ANA,5,
+202312270ARI,"December 27, 2023",Colorado Avalanche,COL,4,Arizona Coyotes,ARI,5,OT
+202312270BUF,"December 27, 2023",Boston Bruins,BOS,4,Buffalo Sabres,BUF,1,
+202312270CGY,"December 27, 2023",Seattle Kraken,SEA,2,Calgary Flames,CGY,1,
+202312270CHI,"December 27, 2023",Winnipeg Jets,WPG,1,Chicago Blackhawks,CHI,2,OT
+202312270LAK,"December 27, 2023",San Jose Sharks,SJS,1,Los Angeles Kings,LAK,5,
+202312270MIN,"December 27, 2023",Detroit Red Wings,DET,3,Minnesota Wild,MIN,6,
+202312270NJD,"December 27, 2023",Columbus Blue Jackets,CBJ,3,New Jersey Devils,NJD,4,OT
+202312270NSH,"December 27, 2023",Carolina Hurricanes,CAR,5,Nashville Predators,NSH,2,
+202312270NYI,"December 27, 2023",Pittsburgh Penguins,PIT,7,New York Islanders,NYI,0,
+202312270NYR,"December 27, 2023",Washington Capitals,WSH,1,New York Rangers,NYR,5,
+202312270STL,"December 27, 2023",Dallas Stars,DAL,1,St. Louis Blues,STL,2,
+202312270TBL,"December 27, 2023",Florida Panthers,FLA,3,Tampa Bay Lightning,TBL,2,
+202312270TOR,"December 27, 2023",Ottawa Senators,OTT,4,Toronto Maple Leafs,TOR,2,
+202312280CAR,"December 28, 2023",Montreal Canadiens,MTL,3,Carolina Hurricanes,CAR,5,
+202312280SJS,"December 28, 2023",Edmonton Oilers,EDM,5,San Jose Sharks,SJS,0,
+202312280VAN,"December 28, 2023",Philadelphia Flyers,PHI,4,Vancouver Canucks,VAN,1,
+202312280VEG,"December 28, 2023",Los Angeles Kings,LAK,2,Vegas Golden Knights,VEG,3,
+202312290ANA,"December 29, 2023",Arizona Coyotes,ARI,2,Anaheim Ducks,ANA,0,
+202312290CBJ,"December 29, 2023",Toronto Maple Leafs,TOR,5,Columbus Blue Jackets,CBJ,6,OT
+202312290DAL,"December 29, 2023",Chicago Blackhawks,CHI,4,Dallas Stars,DAL,5,OT
+202312290DET,"December 29, 2023",Nashville Predators,NSH,4,Detroit Red Wings,DET,5,OT
+202312290FLA,"December 29, 2023",New York Rangers,NYR,3,Florida Panthers,FLA,4,
+202312290NYI,"December 29, 2023",Washington Capitals,WSH,1,New York Islanders,NYI,5,
+202312290OTT,"December 29, 2023",New Jersey Devils,NJD,6,Ottawa Senators,OTT,2,
+202312290SEA,"December 29, 2023",Philadelphia Flyers,PHI,1,Seattle Kraken,SEA,2,OT
+202312290STL,"December 29, 2023",Colorado Avalanche,COL,2,St. Louis Blues,STL,1,
+202312300BOS,"December 30, 2023",New Jersey Devils,NJD,2,Boston Bruins,BOS,5,
+202312300BUF,"December 30, 2023",Columbus Blue Jackets,CBJ,2,Buffalo Sabres,BUF,3,OT
+202312300FLA,"December 30, 2023",Montreal Canadiens,MTL,1,Florida Panthers,FLA,4,
+202312300LAK,"December 30, 2023",Edmonton Oilers,EDM,2,Los Angeles Kings,LAK,2,SO
+202312300PIT,"December 30, 2023",St. Louis Blues,STL,2,Pittsburgh Penguins,PIT,4,
+202312300TBL,"December 30, 2023",New York Rangers,NYR,5,Tampa Bay Lightning,TBL,1,
+202312300TOR,"December 30, 2023",Carolina Hurricanes,CAR,3,Toronto Maple Leafs,TOR,2,
+202312300WPG,"December 30, 2023",Minnesota Wild,MIN,2,Winnipeg Jets,WPG,4,
+202312300WSH,"December 30, 2023",Nashville Predators,NSH,2,Washington Capitals,WSH,2,SO
+202312310ANA,"December 31, 2023",Edmonton Oilers,EDM,7,Anaheim Ducks,ANA,2,
+202312310CGY,"December 31, 2023",Philadelphia Flyers,PHI,3,Calgary Flames,CGY,4,
+202312310COL,"December 31, 2023",San Jose Sharks,SJS,1,Colorado Avalanche,COL,3,
+202312310DAL,"December 31, 2023",Chicago Blackhawks,CHI,1,Dallas Stars,DAL,8,
+202312310DET,"December 31, 2023",Boston Bruins,BOS,5,Detroit Red Wings,DET,3,
+202312310MIN,"December 31, 2023",Winnipeg Jets,WPG,3,Minnesota Wild,MIN,2,
+202312310OTT,"December 31, 2023",Buffalo Sabres,BUF,1,Ottawa Senators,OTT,5,
+202312310PIT,"December 31, 2023",New York Islanders,NYI,1,Pittsburgh Penguins,PIT,3,
+202312310TBL,"December 31, 2023",Montreal Canadiens,MTL,3,Tampa Bay Lightning,TBL,4,
+202401010SEA,"January 01, 2024",Vegas Golden Knights,VEG,0,Seattle Kraken,SEA,3,
+202401020ARI,"January 02, 2024",Florida Panthers,FLA,4,Arizona Coyotes,ARI,1,
+202401020CBJ,"January 02, 2024",Boston Bruins,BOS,4,Columbus Blue Jackets,CBJ,1,
+202401020COL,"January 02, 2024",New York Islanders,NYI,4,Colorado Avalanche,COL,5,OT
+202401020DAL,"January 02, 2024",Montreal Canadiens,MTL,4,Dallas Stars,DAL,3,
+202401020EDM,"January 02, 2024",Philadelphia Flyers,PHI,2,Edmonton Oilers,EDM,5,
+202401020LAK,"January 02, 2024",Toronto Maple Leafs,TOR,3,Los Angeles Kings,LAK,0,
+202401020MIN,"January 02, 2024",Calgary Flames,CGY,3,Minnesota Wild,MIN,1,
+202401020NSH,"January 02, 2024",Chicago Blackhawks,CHI,0,Nashville Predators,NSH,3,
+202401020NYR,"January 02, 2024",Carolina Hurricanes,CAR,6,New York Rangers,NYR,1,
+202401020PIT,"January 02, 2024",Washington Capitals,WSH,4,Pittsburgh Penguins,PIT,3,
+202401020SJS,"January 02, 2024",Detroit Red Wings,DET,5,San Jose Sharks,SJS,3,
+202401020VAN,"January 02, 2024",Ottawa Senators,OTT,3,Vancouver Canucks,VAN,6,
+202401020WPG,"January 02, 2024",Tampa Bay Lightning,TBL,2,Winnipeg Jets,WPG,4,
+202401030ANA,"January 03, 2024",Toronto Maple Leafs,TOR,2,Anaheim Ducks,ANA,1,OT
+202401030WSH,"January 03, 2024",New Jersey Devils,NJD,6,Washington Capitals,WSH,3,
+202401040ARI,"January 04, 2024",New York Islanders,NYI,5,Arizona Coyotes,ARI,1,
+202401040BOS,"January 04, 2024",Pittsburgh Penguins,PIT,6,Boston Bruins,BOS,5,
+202401040DAL,"January 04, 2024",Colorado Avalanche,COL,5,Dallas Stars,DAL,4,OT
+202401040LAK,"January 04, 2024",Detroit Red Wings,DET,3,Los Angeles Kings,LAK,3,SO
+202401040MIN,"January 04, 2024",Tampa Bay Lightning,TBL,4,Minnesota Wild,MIN,1,
+202401040MTL,"January 04, 2024",Buffalo Sabres,BUF,6,Montreal Canadiens,MTL,1,
+202401040NSH,"January 04, 2024",Calgary Flames,CGY,6,Nashville Predators,NSH,3,
+202401040NYR,"January 04, 2024",Chicago Blackhawks,CHI,1,New York Rangers,NYR,4,
+202401040PHI,"January 04, 2024",Columbus Blue Jackets,CBJ,2,Philadelphia Flyers,PHI,2,SO
+202401040SEA,"January 04, 2024",Ottawa Senators,OTT,1,Seattle Kraken,SEA,4,
+202401040SJS,"January 04, 2024",Winnipeg Jets,WPG,2,San Jose Sharks,SJS,1,
+202401040STL,"January 04, 2024",Vancouver Canucks,VAN,1,St. Louis Blues,STL,2,
+202401040VEG,"January 04, 2024",Florida Panthers,FLA,4,Vegas Golden Knights,VEG,1,
+202401050ANA,"January 05, 2024",Winnipeg Jets,WPG,3,Anaheim Ducks,ANA,1,
+202401050NJD,"January 05, 2024",Chicago Blackhawks,CHI,2,New Jersey Devils,NJD,4,
+202401050WSH,"January 05, 2024",Carolina Hurricanes,CAR,6,Washington Capitals,WSH,2,
+202401060BOS,"January 06, 2024",Tampa Bay Lightning,TBL,3,Boston Bruins,BOS,7,
+202401060CAR,"January 06, 2024",St. Louis Blues,STL,1,Carolina Hurricanes,CAR,1,SO
+202401060CBJ,"January 06, 2024",Minnesota Wild,MIN,4,Columbus Blue Jackets,CBJ,3,OT
+202401060COL,"January 06, 2024",Florida Panthers,FLA,8,Colorado Avalanche,COL,4,
+202401060DAL,"January 06, 2024",Nashville Predators,NSH,4,Dallas Stars,DAL,3,
+202401060EDM,"January 06, 2024",Ottawa Senators,OTT,1,Edmonton Oilers,EDM,3,
+202401060MTL,"January 06, 2024",New York Rangers,NYR,3,Montreal Canadiens,MTL,3,SO
+202401060NJD,"January 06, 2024",Vancouver Canucks,VAN,6,New Jersey Devils,NJD,4,
+202401060PHI,"January 06, 2024",Calgary Flames,CGY,2,Philadelphia Flyers,PHI,3,
+202401060PIT,"January 06, 2024",Buffalo Sabres,BUF,3,Pittsburgh Penguins,PIT,1,
+202401060SJS,"January 06, 2024",Toronto Maple Leafs,TOR,4,San Jose Sharks,SJS,1,
+202401060VEG,"January 06, 2024",New York Islanders,NYI,2,Vegas Golden Knights,VEG,5,
+202401070ANA,"January 07, 2024",Detroit Red Wings,DET,3,Anaheim Ducks,ANA,2,
+202401070ARI,"January 07, 2024",Winnipeg Jets,WPG,6,Arizona Coyotes,ARI,2,
+202401070CHI,"January 07, 2024",Calgary Flames,CGY,3,Chicago Blackhawks,CHI,4,
+202401070WSH,"January 07, 2024",Los Angeles Kings,LAK,3,Washington Capitals,WSH,4,
+202401080COL,"January 08, 2024",Boston Bruins,BOS,3,Colorado Avalanche,COL,3,SO
+202401080MIN,"January 08, 2024",Dallas Stars,DAL,4,Minnesota Wild,MIN,0,
+202401080NYR,"January 08, 2024",Vancouver Canucks,VAN,6,New York Rangers,NYR,3,
+202401080PHI,"January 08, 2024",Pittsburgh Penguins,PIT,4,Philadelphia Flyers,PHI,1,
+202401090ARI,"January 09, 2024",Boston Bruins,BOS,3,Arizona Coyotes,ARI,4,OT
+202401090BUF,"January 09, 2024",Seattle Kraken,SEA,5,Buffalo Sabres,BUF,2,
+202401090CGY,"January 09, 2024",Ottawa Senators,OTT,3,Calgary Flames,CGY,6,
+202401090CHI,"January 09, 2024",Edmonton Oilers,EDM,2,Chicago Blackhawks,CHI,1,
+202401090NSH,"January 09, 2024",Anaheim Ducks,ANA,5,Nashville Predators,NSH,3,
+202401090NYI,"January 09, 2024",Vancouver Canucks,VAN,5,New York Islanders,NYI,2,
+202401090STL,"January 09, 2024",Florida Panthers,FLA,5,St. Louis Blues,STL,1,
+202401090TBL,"January 09, 2024",Los Angeles Kings,LAK,2,Tampa Bay Lightning,TBL,3,OT
+202401090TOR,"January 09, 2024",San Jose Sharks,SJS,1,Toronto Maple Leafs,TOR,7,
+202401090WPG,"January 09, 2024",Columbus Blue Jackets,CBJ,0,Winnipeg Jets,WPG,5,
+202401100COL,"January 10, 2024",Vegas Golden Knights,VEG,0,Colorado Avalanche,COL,3,
+202401100DAL,"January 10, 2024",Minnesota Wild,MIN,2,Dallas Stars,DAL,7,
+202401100PHI,"January 10, 2024",Montreal Canadiens,MTL,2,Philadelphia Flyers,PHI,2,SO
+202401110ARI,"January 11, 2024",Calgary Flames,CGY,6,Arizona Coyotes,ARI,2,
+202401110BUF,"January 11, 2024",Ottawa Senators,OTT,3,Buffalo Sabres,BUF,5,
+202401110CAR,"January 11, 2024",Anaheim Ducks,ANA,3,Carolina Hurricanes,CAR,6,
+202401110DET,"January 11, 2024",Edmonton Oilers,EDM,3,Detroit Red Wings,DET,2,OT
+202401110FLA,"January 11, 2024",Los Angeles Kings,LAK,2,Florida Panthers,FLA,3,OT
+202401110MTL,"January 11, 2024",San Jose Sharks,SJS,3,Montreal Canadiens,MTL,2,
+202401110NYI,"January 11, 2024",Toronto Maple Leafs,TOR,3,New York Islanders,NYI,4,OT
+202401110PIT,"January 11, 2024",Vancouver Canucks,VAN,4,Pittsburgh Penguins,PIT,3,OT
+202401110STL,"January 11, 2024",New York Rangers,NYR,2,St. Louis Blues,STL,5,
+202401110TBL,"January 11, 2024",New Jersey Devils,NJD,3,Tampa Bay Lightning,TBL,4,OT
+202401110VEG,"January 11, 2024",Boston Bruins,BOS,1,Vegas Golden Knights,VEG,2,OT
+202401110WPG,"January 11, 2024",Chicago Blackhawks,CHI,1,Winnipeg Jets,WPG,2,
+202401110WSH,"January 11, 2024",Seattle Kraken,SEA,4,Washington Capitals,WSH,1,
+202401120DAL,"January 12, 2024",Nashville Predators,NSH,6,Dallas Stars,DAL,3,
+202401120MIN,"January 12, 2024",Philadelphia Flyers,PHI,4,Minnesota Wild,MIN,3,OT
+202401130BUF,"January 13, 2024",Vancouver Canucks,VAN,1,Buffalo Sabres,BUF,0,
+202401130CAR,"January 13, 2024",Pittsburgh Penguins,PIT,2,Carolina Hurricanes,CAR,3,OT
+202401130CBJ,"January 13, 2024",Seattle Kraken,SEA,7,Columbus Blue Jackets,CBJ,4,
+202401130CHI,"January 13, 2024",Dallas Stars,DAL,3,Chicago Blackhawks,CHI,1,
+202401130DET,"January 13, 2024",Los Angeles Kings,LAK,3,Detroit Red Wings,DET,5,
+202401130FLA,"January 13, 2024",New Jersey Devils,NJD,4,Florida Panthers,FLA,1,
+202401130MIN,"January 13, 2024",Arizona Coyotes,ARI,6,Minnesota Wild,MIN,0,
+202401130MTL,"January 13, 2024",Edmonton Oilers,EDM,2,Montreal Canadiens,MTL,1,OT
+202401130NSH,"January 13, 2024",New York Islanders,NYI,1,Nashville Predators,NSH,3,
+202401130OTT,"January 13, 2024",San Jose Sharks,SJS,4,Ottawa Senators,OTT,5,
+202401130STL,"January 13, 2024",Boston Bruins,BOS,4,St. Louis Blues,STL,3,OT
+202401130TBL,"January 13, 2024",Anaheim Ducks,ANA,1,Tampa Bay Lightning,TBL,5,
+202401130TOR,"January 13, 2024",Colorado Avalanche,COL,5,Toronto Maple Leafs,TOR,3,
+202401130VEG,"January 13, 2024",Calgary Flames,CGY,3,Vegas Golden Knights,VEG,1,
+202401130WPG,"January 13, 2024",Philadelphia Flyers,PHI,2,Winnipeg Jets,WPG,0,
+202401130WSH,"January 13, 2024",New York Rangers,NYR,2,Washington Capitals,WSH,3,
+202401140NYR,"January 14, 2024",Washington Capitals,WSH,1,New York Rangers,NYR,2,
+202401140TOR,"January 14, 2024",Detroit Red Wings,DET,4,Toronto Maple Leafs,TOR,2,
+202401150BOS,"January 15, 2024",New Jersey Devils,NJD,0,Boston Bruins,BOS,3,
+202401150BUF,"January 15, 2024",San Jose Sharks,SJS,0,Buffalo Sabres,BUF,3,
+202401150CAR,"January 15, 2024",Los Angeles Kings,LAK,5,Carolina Hurricanes,CAR,2,
+202401150CBJ,"January 15, 2024",Vancouver Canucks,VAN,3,Columbus Blue Jackets,CBJ,3,SO
+202401150FLA,"January 15, 2024",Anaheim Ducks,ANA,5,Florida Panthers,FLA,4,OT
+202401150MIN,"January 15, 2024",New York Islanders,NYI,0,Minnesota Wild,MIN,5,
+202401150MTL,"January 15, 2024",Colorado Avalanche,COL,3,Montreal Canadiens,MTL,4,
+202401150PIT,"January 15, 2024",Seattle Kraken,SEA,0,Pittsburgh Penguins,PIT,3,
+202401150STL,"January 15, 2024",Philadelphia Flyers,PHI,4,St. Louis Blues,STL,2,
+202401150VEG,"January 15, 2024",Nashville Predators,NSH,1,Vegas Golden Knights,VEG,4,
+202401160CGY,"January 16, 2024",Arizona Coyotes,ARI,2,Calgary Flames,CGY,3,OT
+202401160CHI,"January 16, 2024",San Jose Sharks,SJS,1,Chicago Blackhawks,CHI,1,SO
+202401160DAL,"January 16, 2024",Los Angeles Kings,LAK,1,Dallas Stars,DAL,5,
+202401160EDM,"January 16, 2024",Toronto Maple Leafs,TOR,2,Edmonton Oilers,EDM,4,
+202401160NYR,"January 16, 2024",Seattle Kraken,SEA,2,New York Rangers,NYR,5,
+202401160OTT,"January 16, 2024",Colorado Avalanche,COL,7,Ottawa Senators,OTT,4,
+202401160WPG,"January 16, 2024",New York Islanders,NYI,2,Winnipeg Jets,WPG,4,
+202401160WSH,"January 16, 2024",Anaheim Ducks,ANA,0,Washington Capitals,WSH,2,
+202401170FLA,"January 17, 2024",Detroit Red Wings,DET,3,Florida Panthers,FLA,2,OT
+202401170NJD,"January 17, 2024",Montreal Canadiens,MTL,3,New Jersey Devils,NJD,2,
+202401180BOS,"January 18, 2024",Colorado Avalanche,COL,2,Boston Bruins,BOS,5,
+202401180BUF,"January 18, 2024",Chicago Blackhawks,CHI,0,Buffalo Sabres,BUF,3,
+202401180CGY,"January 18, 2024",Toronto Maple Leafs,TOR,4,Calgary Flames,CGY,3,
+202401180EDM,"January 18, 2024",Seattle Kraken,SEA,2,Edmonton Oilers,EDM,4,
+202401180LAK,"January 18, 2024",Nashville Predators,NSH,2,Los Angeles Kings,LAK,1,
+202401180OTT,"January 18, 2024",Montreal Canadiens,MTL,2,Ottawa Senators,OTT,6,
+202401180PHI,"January 18, 2024",Dallas Stars,DAL,1,Philadelphia Flyers,PHI,5,
+202401180TBL,"January 18, 2024",Minnesota Wild,MIN,3,Tampa Bay Lightning,TBL,7,
+202401180VAN,"January 18, 2024",Arizona Coyotes,ARI,1,Vancouver Canucks,VAN,2,
+202401180VEG,"January 18, 2024",New York Rangers,NYR,1,Vegas Golden Knights,VEG,5,
+202401180WSH,"January 18, 2024",St. Louis Blues,STL,2,Washington Capitals,WSH,5,
+202401190CAR,"January 19, 2024",Detroit Red Wings,DET,2,Carolina Hurricanes,CAR,4,
+202401190CBJ,"January 19, 2024",New Jersey Devils,NJD,4,Columbus Blue Jackets,CBJ,1,
+202401190CHI,"January 19, 2024",New York Islanders,NYI,3,Chicago Blackhawks,CHI,4,OT
+202401190FLA,"January 19, 2024",Minnesota Wild,MIN,6,Florida Panthers,FLA,4,
+202401200ARI,"January 20, 2024",Nashville Predators,NSH,2,Arizona Coyotes,ARI,3,
+202401200BOS,"January 20, 2024",Montreal Canadiens,MTL,4,Boston Bruins,BOS,9,
+202401200BUF,"January 20, 2024",Tampa Bay Lightning,TBL,3,Buffalo Sabres,BUF,1,
+202401200CGY,"January 20, 2024",Edmonton Oilers,EDM,3,Calgary Flames,CGY,1,
+202401200LAK,"January 20, 2024",New York Rangers,NYR,1,Los Angeles Kings,LAK,2,
+202401200NJD,"January 20, 2024",Dallas Stars,DAL,6,New Jersey Devils,NJD,2,
+202401200OTT,"January 20, 2024",Winnipeg Jets,WPG,2,Ottawa Senators,OTT,1,OT
+202401200PHI,"January 20, 2024",Colorado Avalanche,COL,7,Philadelphia Flyers,PHI,4,
+202401200SJS,"January 20, 2024",Anaheim Ducks,ANA,3,San Jose Sharks,SJS,5,
+202401200STL,"January 20, 2024",Washington Capitals,WSH,0,St. Louis Blues,STL,3,
+202401200VAN,"January 20, 2024",Toronto Maple Leafs,TOR,4,Vancouver Canucks,VAN,6,
+202401200VEG,"January 20, 2024",Pittsburgh Penguins,PIT,2,Vegas Golden Knights,VEG,3,
+202401210ANA,"January 21, 2024",New York Rangers,NYR,5,Anaheim Ducks,ANA,2,
+202401210CAR,"January 21, 2024",Minnesota Wild,MIN,5,Carolina Hurricanes,CAR,2,
+202401210DET,"January 21, 2024",Tampa Bay Lightning,TBL,1,Detroit Red Wings,DET,2,
+202401210NYI,"January 21, 2024",Dallas Stars,DAL,2,New York Islanders,NYI,3,OT
+202401210PHI,"January 21, 2024",Ottawa Senators,OTT,5,Philadelphia Flyers,PHI,3,
+202401210SEA,"January 21, 2024",Toronto Maple Leafs,TOR,3,Seattle Kraken,SEA,1,
+202401220ARI,"January 22, 2024",Pittsburgh Penguins,PIT,2,Arizona Coyotes,ARI,5,
+202401220BOS,"January 22, 2024",Winnipeg Jets,WPG,1,Boston Bruins,BOS,4,
+202401220LAK,"January 22, 2024",San Jose Sharks,SJS,3,Los Angeles Kings,LAK,3,SO
+202401220NJD,"January 22, 2024",Vegas Golden Knights,VEG,5,New Jersey Devils,NJD,6,OT
+202401220NSH,"January 22, 2024",Florida Panthers,FLA,4,Nashville Predators,NSH,1,
+202401220VAN,"January 22, 2024",Chicago Blackhawks,CHI,0,Vancouver Canucks,VAN,2,
+202401230ANA,"January 23, 2024",Buffalo Sabres,BUF,2,Anaheim Ducks,ANA,4,
+202401230CGY,"January 23, 2024",St. Louis Blues,STL,4,Calgary Flames,CGY,3,
+202401230DET,"January 23, 2024",Dallas Stars,DAL,5,Detroit Red Wings,DET,4,
+202401230EDM,"January 23, 2024",Columbus Blue Jackets,CBJ,1,Edmonton Oilers,EDM,4,
+202401230MIN,"January 23, 2024",Washington Capitals,WSH,3,Minnesota Wild,MIN,5,
+202401230MTL,"January 23, 2024",Ottawa Senators,OTT,4,Montreal Canadiens,MTL,1,
+202401230NYI,"January 23, 2024",Vegas Golden Knights,VEG,3,New York Islanders,NYI,2,
+202401230PHI,"January 23, 2024",Tampa Bay Lightning,TBL,6,Philadelphia Flyers,PHI,3,
+202401230SJS,"January 23, 2024",New York Rangers,NYR,2,San Jose Sharks,SJS,3,OT
+202401240BOS,"January 24, 2024",Carolina Hurricanes,CAR,3,Boston Bruins,BOS,2,
+202401240COL,"January 24, 2024",Washington Capitals,WSH,2,Colorado Avalanche,COL,6,
+202401240FLA,"January 24, 2024",Arizona Coyotes,ARI,2,Florida Panthers,FLA,6,
+202401240LAK,"January 24, 2024",Buffalo Sabres,BUF,5,Los Angeles Kings,LAK,3,
+202401240SEA,"January 24, 2024",Chicago Blackhawks,CHI,2,Seattle Kraken,SEA,6,
+202401240TOR,"January 24, 2024",Winnipeg Jets,WPG,0,Toronto Maple Leafs,TOR,1,OT
+202401240VAN,"January 24, 2024",St. Louis Blues,STL,4,Vancouver Canucks,VAN,3,OT
+202401250CAR,"January 25, 2024",New Jersey Devils,NJD,2,Carolina Hurricanes,CAR,3,
+202401250CGY,"January 25, 2024",Columbus Blue Jackets,CBJ,5,Calgary Flames,CGY,2,
+202401250DAL,"January 25, 2024",Anaheim Ducks,ANA,3,Dallas Stars,DAL,4,OT
+202401250DET,"January 25, 2024",Philadelphia Flyers,PHI,0,Detroit Red Wings,DET,3,
+202401250EDM,"January 25, 2024",Chicago Blackhawks,CHI,0,Edmonton Oilers,EDM,3,
+202401250MIN,"January 25, 2024",Nashville Predators,NSH,3,Minnesota Wild,MIN,2,
+202401250MTL,"January 25, 2024",New York Islanders,NYI,3,Montreal Canadiens,MTL,4,
+202401250OTT,"January 25, 2024",Boston Bruins,BOS,3,Ottawa Senators,OTT,2,OT
+202401250TBL,"January 25, 2024",Arizona Coyotes,ARI,3,Tampa Bay Lightning,TBL,6,
+202401260COL,"January 26, 2024",Los Angeles Kings,LAK,1,Colorado Avalanche,COL,5,
+202401260NYR,"January 26, 2024",Vegas Golden Knights,VEG,5,New York Rangers,NYR,2,
+202401260PIT,"January 26, 2024",Florida Panthers,FLA,2,Pittsburgh Penguins,PIT,2,SO
+202401260SEA,"January 26, 2024",St. Louis Blues,STL,4,Seattle Kraken,SEA,3,OT
+202401270CAR,"January 27, 2024",Arizona Coyotes,ARI,1,Carolina Hurricanes,CAR,3,
+202401270CGY,"January 27, 2024",Chicago Blackhawks,CHI,0,Calgary Flames,CGY,1,
+202401270DAL,"January 27, 2024",Washington Capitals,WSH,4,Dallas Stars,DAL,5,OT
+202401270DET,"January 27, 2024",Vegas Golden Knights,VEG,2,Detroit Red Wings,DET,5,
+202401270EDM,"January 27, 2024",Nashville Predators,NSH,1,Edmonton Oilers,EDM,4,
+202401270MIN,"January 27, 2024",Anaheim Ducks,ANA,3,Minnesota Wild,MIN,2,
+202401270NYI,"January 27, 2024",Florida Panthers,FLA,3,New York Islanders,NYI,2,OT
+202401270OTT,"January 27, 2024",New York Rangers,NYR,7,Ottawa Senators,OTT,2,
+202401270PHI,"January 27, 2024",Boston Bruins,BOS,6,Philadelphia Flyers,PHI,2,
+202401270PIT,"January 27, 2024",Montreal Canadiens,MTL,2,Pittsburgh Penguins,PIT,3,OT
+202401270SJS,"January 27, 2024",Buffalo Sabres,BUF,5,San Jose Sharks,SJS,2,
+202401270TBL,"January 27, 2024",New Jersey Devils,NJD,3,Tampa Bay Lightning,TBL,6,
+202401270VAN,"January 27, 2024",Columbus Blue Jackets,CBJ,4,Vancouver Canucks,VAN,5,OT
+202401270WPG,"January 27, 2024",Toronto Maple Leafs,TOR,4,Winnipeg Jets,WPG,2,
+202401280SEA,"January 28, 2024",Columbus Blue Jackets,CBJ,2,Seattle Kraken,SEA,4,
+202401280STL,"January 28, 2024",Los Angeles Kings,LAK,3,St. Louis Blues,STL,4,OT
+202401290OTT,"January 29, 2024",Nashville Predators,NSH,3,Ottawa Senators,OTT,4,OT
+202401300SJS,"January 30, 2024",Seattle Kraken,SEA,0,San Jose Sharks,SJS,2,
+202401300STL,"January 30, 2024",Columbus Blue Jackets,CBJ,1,St. Louis Blues,STL,0,
+202401310ANA,"January 31, 2024",San Jose Sharks,SJS,2,Anaheim Ducks,ANA,3,OT
+202401310DET,"January 31, 2024",Ottawa Senators,OTT,3,Detroit Red Wings,DET,2,OT
+202401310NSH,"January 31, 2024",Los Angeles Kings,LAK,4,Nashville Predators,NSH,2,
+202402050NYR,"February 05, 2024",Colorado Avalanche,COL,1,New York Rangers,NYR,2,OT
+202402050TOR,"February 05, 2024",New York Islanders,NYI,3,Toronto Maple Leafs,TOR,2,
+202402060BOS,"February 06, 2024",Calgary Flames,CGY,4,Boston Bruins,BOS,1,
+202402060BUF,"February 06, 2024",Dallas Stars,DAL,2,Buffalo Sabres,BUF,1,
+202402060CAR,"February 06, 2024",Vancouver Canucks,VAN,3,Carolina Hurricanes,CAR,2,
+202402060FLA,"February 06, 2024",Philadelphia Flyers,PHI,2,Florida Panthers,FLA,1,
+202402060NJD,"February 06, 2024",Colorado Avalanche,COL,3,New Jersey Devils,NJD,5,
+202402060PIT,"February 06, 2024",Winnipeg Jets,WPG,0,Pittsburgh Penguins,PIT,3,
+202402060VEG,"February 06, 2024",Edmonton Oilers,EDM,1,Vegas Golden Knights,VEG,3,
+202402060WSH,"February 06, 2024",Montreal Canadiens,MTL,5,Washington Capitals,WSH,2,
+202402070CHI,"February 07, 2024",Minnesota Wild,MIN,2,Chicago Blackhawks,CHI,1,
+202402070NYR,"February 07, 2024",Tampa Bay Lightning,TBL,1,New York Rangers,NYR,3,
+202402070TOR,"February 07, 2024",Dallas Stars,DAL,4,Toronto Maple Leafs,TOR,5,
+202402080ARI,"February 08, 2024",Vegas Golden Knights,VEG,3,Arizona Coyotes,ARI,2,
+202402080BOS,"February 08, 2024",Vancouver Canucks,VAN,0,Boston Bruins,BOS,4,
+202402080CAR,"February 08, 2024",Colorado Avalanche,COL,2,Carolina Hurricanes,CAR,5,
+202402080FLA,"February 08, 2024",Washington Capitals,WSH,2,Florida Panthers,FLA,4,
+202402080NJD,"February 08, 2024",Calgary Flames,CGY,5,New Jersey Devils,NJD,3,
+202402080NYI,"February 08, 2024",Tampa Bay Lightning,TBL,2,New York Islanders,NYI,6,
+202402080PHI,"February 08, 2024",Winnipeg Jets,WPG,1,Philadelphia Flyers,PHI,4,
+202402090ANA,"February 09, 2024",Edmonton Oilers,EDM,5,Anaheim Ducks,ANA,3,
+202402090CHI,"February 09, 2024",New York Rangers,NYR,4,Chicago Blackhawks,CHI,3,OT
+202402090MIN,"February 09, 2024",Pittsburgh Penguins,PIT,2,Minnesota Wild,MIN,3,
+202402100BOS,"February 10, 2024",Washington Capitals,WSH,3,Boston Bruins,BOS,0,
+202402100BUF,"February 10, 2024",St. Louis Blues,STL,3,Buffalo Sabres,BUF,1,
+202402100CAR,"February 10, 2024",New Jersey Devils,NJD,0,Carolina Hurricanes,CAR,1,OT
+202402100CBJ,"February 10, 2024",Tampa Bay Lightning,TBL,4,Columbus Blue Jackets,CBJ,2,
+202402100DET,"February 10, 2024",Vancouver Canucks,VAN,3,Detroit Red Wings,DET,4,OT
+202402100FLA,"February 10, 2024",Colorado Avalanche,COL,0,Florida Panthers,FLA,4,
+202402100LAK,"February 10, 2024",Edmonton Oilers,EDM,0,Los Angeles Kings,LAK,4,
+202402100MTL,"February 10, 2024",Dallas Stars,DAL,3,Montreal Canadiens,MTL,2,
+202402100NSH,"February 10, 2024",Arizona Coyotes,ARI,4,Nashville Predators,NSH,5,OT
+202402100NYI,"February 10, 2024",Calgary Flames,CGY,5,New York Islanders,NYI,2,
+202402100OTT,"February 10, 2024",Toronto Maple Leafs,TOR,3,Ottawa Senators,OTT,5,
+202402100PHI,"February 10, 2024",Seattle Kraken,SEA,2,Philadelphia Flyers,PHI,3,
+202402100WPG,"February 10, 2024",Pittsburgh Penguins,PIT,1,Winnipeg Jets,WPG,2,
+202402110MTL,"February 11, 2024",St. Louis Blues,STL,7,Montreal Canadiens,MTL,2,
+202402110WSH,"February 11, 2024",Vancouver Canucks,VAN,3,Washington Capitals,WSH,2,OT
+202402120NJD,"February 12, 2024",Seattle Kraken,SEA,1,New Jersey Devils,NJD,3,
+202402120NYR,"February 12, 2024",Calgary Flames,CGY,0,New York Rangers,NYR,2,
+202402120PHI,"February 12, 2024",Arizona Coyotes,ARI,3,Philadelphia Flyers,PHI,5,
+202402120VEG,"February 12, 2024",Minnesota Wild,MIN,5,Vegas Golden Knights,VEG,3,
+202402130BOS,"February 13, 2024",Tampa Bay Lightning,TBL,2,Boston Bruins,BOS,2,SO
+202402130BUF,"February 13, 2024",Los Angeles Kings,LAK,0,Buffalo Sabres,BUF,7,
+202402130CHI,"February 13, 2024",Vancouver Canucks,VAN,4,Chicago Blackhawks,CHI,2,
+202402130DAL,"February 13, 2024",Carolina Hurricanes,CAR,2,Dallas Stars,DAL,4,
+202402130EDM,"February 13, 2024",Detroit Red Wings,DET,4,Edmonton Oilers,EDM,8,
+202402130MTL,"February 13, 2024",Anaheim Ducks,ANA,0,Montreal Canadiens,MTL,5,
+202402130NSH,"February 13, 2024",New Jersey Devils,NJD,4,Nashville Predators,NSH,2,
+202402130NYI,"February 13, 2024",Seattle Kraken,SEA,1,New York Islanders,NYI,1,SO
+202402130OTT,"February 13, 2024",Columbus Blue Jackets,CBJ,3,Ottawa Senators,OTT,6,
+202402130TOR,"February 13, 2024",St. Louis Blues,STL,1,Toronto Maple Leafs,TOR,4,
+202402130WSH,"February 13, 2024",Colorado Avalanche,COL,6,Washington Capitals,WSH,3,
+202402140ARI,"February 14, 2024",Minnesota Wild,MIN,3,Arizona Coyotes,ARI,1,
+202402140PIT,"February 14, 2024",Florida Panthers,FLA,5,Pittsburgh Penguins,PIT,2,
+202402140WPG,"February 14, 2024",San Jose Sharks,SJS,0,Winnipeg Jets,WPG,1,
+202402150BOS,"February 15, 2024",Seattle Kraken,SEA,4,Boston Bruins,BOS,1,
+202402150BUF,"February 15, 2024",Florida Panthers,FLA,4,Buffalo Sabres,BUF,0,
+202402150CGY,"February 15, 2024",San Jose Sharks,SJS,6,Calgary Flames,CGY,3,
+202402150CHI,"February 15, 2024",Pittsburgh Penguins,PIT,4,Chicago Blackhawks,CHI,1,
+202402150NJD,"February 15, 2024",Los Angeles Kings,LAK,2,New Jersey Devils,NJD,1,
+202402150NSH,"February 15, 2024",Dallas Stars,DAL,9,Nashville Predators,NSH,2,
+202402150NYR,"February 15, 2024",Montreal Canadiens,MTL,4,New York Rangers,NYR,7,
+202402150OTT,"February 15, 2024",Anaheim Ducks,ANA,5,Ottawa Senators,OTT,1,
+202402150STL,"February 15, 2024",Edmonton Oilers,EDM,3,St. Louis Blues,STL,6,
+202402150TBL,"February 15, 2024",Colorado Avalanche,COL,3,Tampa Bay Lightning,TBL,6,
+202402150TOR,"February 15, 2024",Philadelphia Flyers,PHI,3,Toronto Maple Leafs,TOR,4,OT
+202402150VAN,"February 15, 2024",Detroit Red Wings,DET,1,Vancouver Canucks,VAN,4,
+202402160ARI,"February 16, 2024",Carolina Hurricanes,CAR,5,Arizona Coyotes,ARI,1,
+202402170BOS,"February 17, 2024",Los Angeles Kings,LAK,5,Boston Bruins,BOS,4,OT
+202402170CGY,"February 17, 2024",Detroit Red Wings,DET,5,Calgary Flames,CGY,0,
+202402170CHI,"February 17, 2024",Ottawa Senators,OTT,2,Chicago Blackhawks,CHI,3,
+202402170DAL,"February 17, 2024",Edmonton Oilers,EDM,4,Dallas Stars,DAL,3,OT
+202402170MIN,"February 17, 2024",Buffalo Sabres,BUF,3,Minnesota Wild,MIN,2,OT
+202402170MTL,"February 17, 2024",Washington Capitals,WSH,4,Montreal Canadiens,MTL,3,
+202402170NJD,"February 17, 2024",Philadelphia Flyers,PHI,3,New Jersey Devils,NJD,6,
+202402170SJS,"February 17, 2024",Columbus Blue Jackets,CBJ,4,San Jose Sharks,SJS,3,
+202402170STL,"February 17, 2024",Nashville Predators,NSH,5,St. Louis Blues,STL,2,
+202402170TBL,"February 17, 2024",Florida Panthers,FLA,9,Tampa Bay Lightning,TBL,2,
+202402170TOR,"February 17, 2024",Anaheim Ducks,ANA,2,Toronto Maple Leafs,TOR,9,
+202402170VAN,"February 17, 2024",Winnipeg Jets,WPG,4,Vancouver Canucks,VAN,2,
+202402170VEG,"February 17, 2024",Carolina Hurricanes,CAR,3,Vegas Golden Knights,VEG,1,
+202402180COL,"February 18, 2024",Arizona Coyotes,ARI,3,Colorado Avalanche,COL,4,
+202402180NYI,"February 18, 2024",New York Rangers,NYR,6,New York Islanders,NYI,5,OT
+202402180PIT,"February 18, 2024",Los Angeles Kings,LAK,2,Pittsburgh Penguins,PIT,1,
+202402190ARI,"February 19, 2024",Edmonton Oilers,EDM,6,Arizona Coyotes,ARI,3,
+202402190BOS,"February 19, 2024",Dallas Stars,DAL,3,Boston Bruins,BOS,3,SO
+202402190BUF,"February 19, 2024",Anaheim Ducks,ANA,4,Buffalo Sabres,BUF,3,
+202402190CAR,"February 19, 2024",Chicago Blackhawks,CHI,3,Carolina Hurricanes,CAR,6,
+202402190CGY,"February 19, 2024",Winnipeg Jets,WPG,3,Calgary Flames,CGY,6,
+202402190MIN,"February 19, 2024",Vancouver Canucks,VAN,7,Minnesota Wild,MIN,10,
+202402190SEA,"February 19, 2024",Detroit Red Wings,DET,4,Seattle Kraken,SEA,3,OT
+202402190SJS,"February 19, 2024",Vegas Golden Knights,VEG,4,San Jose Sharks,SJS,0,
+202402190STL,"February 19, 2024",Toronto Maple Leafs,TOR,4,St. Louis Blues,STL,2,
+202402190TBL,"February 19, 2024",Ottawa Senators,OTT,4,Tampa Bay Lightning,TBL,2,
+202402200COL,"February 20, 2024",Vancouver Canucks,VAN,1,Colorado Avalanche,COL,3,
+202402200FLA,"February 20, 2024",Ottawa Senators,OTT,2,Florida Panthers,FLA,3,OT
+202402200LAK,"February 20, 2024",Columbus Blue Jackets,CBJ,1,Los Angeles Kings,LAK,5,
+202402200NYR,"February 20, 2024",Dallas Stars,DAL,1,New York Rangers,NYR,3,
+202402200PIT,"February 20, 2024",New York Islanders,NYI,5,Pittsburgh Penguins,PIT,4,OT
+202402200VEG,"February 20, 2024",Nashville Predators,NSH,5,Vegas Golden Knights,VEG,3,
+202402200WPG,"February 20, 2024",Minnesota Wild,MIN,3,Winnipeg Jets,WPG,6,
+202402200WSH,"February 20, 2024",New Jersey Devils,NJD,2,Washington Capitals,WSH,6,
+202402210ANA,"February 21, 2024",Columbus Blue Jackets,CBJ,7,Anaheim Ducks,ANA,4,
+202402210ARI,"February 21, 2024",Toronto Maple Leafs,TOR,6,Arizona Coyotes,ARI,3,
+202402210CHI,"February 21, 2024",Philadelphia Flyers,PHI,3,Chicago Blackhawks,CHI,1,
+202402210EDM,"February 21, 2024",Boston Bruins,BOS,6,Edmonton Oilers,EDM,5,OT
+202402210MTL,"February 21, 2024",Buffalo Sabres,BUF,3,Montreal Canadiens,MTL,2,
+202402220CAR,"February 22, 2024",Florida Panthers,FLA,0,Carolina Hurricanes,CAR,1,
+202402220CGY,"February 22, 2024",Boston Bruins,BOS,2,Calgary Flames,CGY,3,OT
+202402220DET,"February 22, 2024",Colorado Avalanche,COL,1,Detroit Red Wings,DET,2,OT
+202402220LAK,"February 22, 2024",Nashville Predators,NSH,4,Los Angeles Kings,LAK,1,
+202402220NJD,"February 22, 2024",New York Rangers,NYR,5,New Jersey Devils,NJD,1,
+202402220OTT,"February 22, 2024",Dallas Stars,DAL,1,Ottawa Senators,OTT,4,
+202402220PIT,"February 22, 2024",Montreal Canadiens,MTL,1,Pittsburgh Penguins,PIT,4,
+202402220SEA,"February 22, 2024",Vancouver Canucks,VAN,2,Seattle Kraken,SEA,5,
+202402220STL,"February 22, 2024",New York Islanders,NYI,0,St. Louis Blues,STL,4,
+202402220TBL,"February 22, 2024",Washington Capitals,WSH,5,Tampa Bay Lightning,TBL,3,
+202402220VEG,"February 22, 2024",Toronto Maple Leafs,TOR,7,Vegas Golden Knights,VEG,3,
+202402230CBJ,"February 23, 2024",Buffalo Sabres,BUF,2,Columbus Blue Jackets,CBJ,1,
+202402230CHI,"February 23, 2024",Winnipeg Jets,WPG,3,Chicago Blackhawks,CHI,2,OT
+202402230EDM,"February 23, 2024",Minnesota Wild,MIN,4,Edmonton Oilers,EDM,2,
+202402240CAR,"February 24, 2024",Dallas Stars,DAL,2,Carolina Hurricanes,CAR,1,
+202402240COL,"February 24, 2024",Toronto Maple Leafs,TOR,4,Colorado Avalanche,COL,3,
+202402240DET,"February 24, 2024",St. Louis Blues,STL,1,Detroit Red Wings,DET,6,
+202402240EDM,"February 24, 2024",Calgary Flames,CGY,6,Edmonton Oilers,EDM,3,
+202402240FLA,"February 24, 2024",Washington Capitals,WSH,2,Florida Panthers,FLA,3,OT
+202402240LAK,"February 24, 2024",Anaheim Ducks,ANA,2,Los Angeles Kings,LAK,2,SO
+202402240NJD,"February 24, 2024",Montreal Canadiens,MTL,3,New Jersey Devils,NJD,4,
+202402240NYI,"February 24, 2024",Tampa Bay Lightning,TBL,4,New York Islanders,NYI,2,
+202402240OTT,"February 24, 2024",Vegas Golden Knights,VEG,3,Ottawa Senators,OTT,3,SO
+202402240PHI,"February 24, 2024",New York Rangers,NYR,2,Philadelphia Flyers,PHI,1,
+202402240SEA,"February 24, 2024",Minnesota Wild,MIN,5,Seattle Kraken,SEA,2,
+202402240SJS,"February 24, 2024",Nashville Predators,NSH,4,San Jose Sharks,SJS,2,
+202402240VAN,"February 24, 2024",Boston Bruins,BOS,2,Vancouver Canucks,VAN,3,OT
+202402250ANA,"February 25, 2024",Nashville Predators,NSH,4,Anaheim Ducks,ANA,2,
+202402250BUF,"February 25, 2024",Carolina Hurricanes,CAR,2,Buffalo Sabres,BUF,2,SO
+202402250CBJ,"February 25, 2024",New York Rangers,NYR,2,Columbus Blue Jackets,CBJ,4,
+202402250CHI,"February 25, 2024",Detroit Red Wings,DET,3,Chicago Blackhawks,CHI,2,OT
+202402250NJD,"February 25, 2024",Tampa Bay Lightning,TBL,4,New Jersey Devils,NJD,1,
+202402250PIT,"February 25, 2024",Philadelphia Flyers,PHI,6,Pittsburgh Penguins,PIT,7,
+202402250WPG,"February 25, 2024",Arizona Coyotes,ARI,3,Winnipeg Jets,WPG,4,OT
+202402260DAL,"February 26, 2024",New York Islanders,NYI,3,Dallas Stars,DAL,2,OT
+202402260EDM,"February 26, 2024",Los Angeles Kings,LAK,2,Edmonton Oilers,EDM,4,
+202402260SEA,"February 26, 2024",Boston Bruins,BOS,3,Seattle Kraken,SEA,3,SO
+202402260WSH,"February 26, 2024",Ottawa Senators,OTT,3,Washington Capitals,WSH,6,
+202402270CGY,"February 27, 2024",Los Angeles Kings,LAK,2,Calgary Flames,CGY,4,
+202402270COL,"February 27, 2024",Dallas Stars,DAL,1,Colorado Avalanche,COL,5,
+202402270DET,"February 27, 2024",Washington Capitals,WSH,3,Detroit Red Wings,DET,8,
+202402270FLA,"February 27, 2024",Buffalo Sabres,BUF,2,Florida Panthers,FLA,3,
+202402270MIN,"February 27, 2024",Carolina Hurricanes,CAR,3,Minnesota Wild,MIN,2,
+202402270MTL,"February 27, 2024",Arizona Coyotes,ARI,2,Montreal Canadiens,MTL,4,
+202402270NSH,"February 27, 2024",Ottawa Senators,OTT,1,Nashville Predators,NSH,4,
+202402270PHI,"February 27, 2024",Tampa Bay Lightning,TBL,2,Philadelphia Flyers,PHI,6,
+202402270SJS,"February 27, 2024",New Jersey Devils,NJD,7,San Jose Sharks,SJS,2,
+202402270TOR,"February 27, 2024",Vegas Golden Knights,VEG,6,Toronto Maple Leafs,TOR,2,
+202402270VAN,"February 27, 2024",Pittsburgh Penguins,PIT,4,Vancouver Canucks,VAN,3,OT
+202402270WPG,"February 27, 2024",St. Louis Blues,STL,2,Winnipeg Jets,WPG,4,
+202402280EDM,"February 28, 2024",St. Louis Blues,STL,2,Edmonton Oilers,EDM,3,OT
+202402280NYR,"February 28, 2024",Columbus Blue Jackets,CBJ,1,New York Rangers,NYR,4,
+202402290BOS,"February 29, 2024",Vegas Golden Knights,VEG,4,Boston Bruins,BOS,5,
+202402290CBJ,"February 29, 2024",Carolina Hurricanes,CAR,4,Columbus Blue Jackets,CBJ,2,
+202402290CHI,"February 29, 2024",Colorado Avalanche,COL,5,Chicago Blackhawks,CHI,0,
+202402290DAL,"February 29, 2024",Winnipeg Jets,WPG,1,Dallas Stars,DAL,4,
+202402290DET,"February 29, 2024",New York Islanders,NYI,5,Detroit Red Wings,DET,3,
+202402290FLA,"February 29, 2024",Montreal Canadiens,MTL,3,Florida Panthers,FLA,3,SO
+202402290NSH,"February 29, 2024",Minnesota Wild,MIN,1,Nashville Predators,NSH,6,
+202402290SEA,"February 29, 2024",Pittsburgh Penguins,PIT,0,Seattle Kraken,SEA,2,
+202402290SJS,"February 29, 2024",Anaheim Ducks,ANA,6,San Jose Sharks,SJS,4,
+202402290TBL,"February 29, 2024",Buffalo Sabres,BUF,3,Tampa Bay Lightning,TBL,2,OT
+202402290TOR,"February 29, 2024",Arizona Coyotes,ARI,2,Toronto Maple Leafs,TOR,4,
+202402290VAN,"February 29, 2024",Los Angeles Kings,LAK,5,Vancouver Canucks,VAN,1,
+202403010ANA,"March 01, 2024",New Jersey Devils,NJD,3,Anaheim Ducks,ANA,4,
+202403010OTT,"March 01, 2024",Arizona Coyotes,ARI,5,Ottawa Senators,OTT,3,
+202403010WSH,"March 01, 2024",Philadelphia Flyers,PHI,2,Washington Capitals,WSH,5,
+202403020BUF,"March 02, 2024",Vegas Golden Knights,VEG,2,Buffalo Sabres,BUF,7,
+202403020CAR,"March 02, 2024",Winnipeg Jets,WPG,5,Carolina Hurricanes,CAR,3,
+202403020CGY,"March 02, 2024",Pittsburgh Penguins,PIT,3,Calgary Flames,CGY,4,
+202403020CHI,"March 02, 2024",Columbus Blue Jackets,CBJ,5,Chicago Blackhawks,CHI,2,
+202403020DAL,"March 02, 2024",San Jose Sharks,SJS,2,Dallas Stars,DAL,2,SO
+202403020DET,"March 02, 2024",Florida Panthers,FLA,4,Detroit Red Wings,DET,0,
+202403020NSH,"March 02, 2024",Colorado Avalanche,COL,1,Nashville Predators,NSH,5,
+202403020NYI,"March 02, 2024",Boston Bruins,BOS,1,New York Islanders,NYI,5,
+202403020PHI,"March 02, 2024",Ottawa Senators,OTT,2,Philadelphia Flyers,PHI,4,
+202403020SEA,"March 02, 2024",Edmonton Oilers,EDM,2,Seattle Kraken,SEA,1,
+202403020STL,"March 02, 2024",Minnesota Wild,MIN,1,St. Louis Blues,STL,3,
+202403020TBL,"March 02, 2024",Montreal Canadiens,MTL,3,Tampa Bay Lightning,TBL,3,SO
+202403020TOR,"March 02, 2024",New York Rangers,NYR,3,Toronto Maple Leafs,TOR,3,SO
+202403030ANA,"March 03, 2024",Vancouver Canucks,VAN,2,Anaheim Ducks,ANA,1,
+202403030BUF,"March 03, 2024",Winnipeg Jets,WPG,5,Buffalo Sabres,BUF,2,
+202403030EDM,"March 03, 2024",Pittsburgh Penguins,PIT,1,Edmonton Oilers,EDM,6,
+202403030LAK,"March 03, 2024",New Jersey Devils,NJD,1,Los Angeles Kings,LAK,5,
+202403030MIN,"March 03, 2024",San Jose Sharks,SJS,3,Minnesota Wild,MIN,4,
+202403030WSH,"March 03, 2024",Arizona Coyotes,ARI,5,Washington Capitals,WSH,2,
+202403040CBJ,"March 04, 2024",Vegas Golden Knights,VEG,3,Columbus Blue Jackets,CBJ,6,
+202403040CGY,"March 04, 2024",Seattle Kraken,SEA,4,Calgary Flames,CGY,2,
+202403040COL,"March 04, 2024",Chicago Blackhawks,CHI,0,Colorado Avalanche,COL,5,
+202403040NYR,"March 04, 2024",Florida Panthers,FLA,4,New York Rangers,NYR,2,
+202403040PHI,"March 04, 2024",St. Louis Blues,STL,1,Philadelphia Flyers,PHI,1,SO
+202403040TOR,"March 04, 2024",Boston Bruins,BOS,4,Toronto Maple Leafs,TOR,1,
+202403050ARI,"March 05, 2024",Chicago Blackhawks,CHI,5,Arizona Coyotes,ARI,2,
+202403050BOS,"March 05, 2024",Edmonton Oilers,EDM,2,Boston Bruins,BOS,1,OT
+202403050LAK,"March 05, 2024",Vancouver Canucks,VAN,2,Los Angeles Kings,LAK,1,OT
+202403050NJD,"March 05, 2024",Florida Panthers,FLA,5,New Jersey Devils,NJD,3,
+202403050NSH,"March 05, 2024",Montreal Canadiens,MTL,4,Nashville Predators,NSH,3,OT
+202403050NYI,"March 05, 2024",St. Louis Blues,STL,2,New York Islanders,NYI,4,
+202403050PIT,"March 05, 2024",Columbus Blue Jackets,CBJ,3,Pittsburgh Penguins,PIT,5,
+202403050SJS,"March 05, 2024",Dallas Stars,DAL,7,San Jose Sharks,SJS,6,OT
+202403050WPG,"March 05, 2024",Seattle Kraken,SEA,4,Winnipeg Jets,WPG,3,
+202403060ANA,"March 06, 2024",Ottawa Senators,OTT,1,Anaheim Ducks,ANA,2,
+202403060COL,"March 06, 2024",Detroit Red Wings,DET,2,Colorado Avalanche,COL,7,
+202403060TOR,"March 06, 2024",Buffalo Sabres,BUF,1,Toronto Maple Leafs,TOR,2,OT
+202403070ARI,"March 07, 2024",Minnesota Wild,MIN,5,Arizona Coyotes,ARI,2,
+202403070BOS,"March 07, 2024",Toronto Maple Leafs,TOR,1,Boston Bruins,BOS,4,
+202403070CAR,"March 07, 2024",Montreal Canadiens,MTL,1,Carolina Hurricanes,CAR,4,
+202403070CBJ,"March 07, 2024",Edmonton Oilers,EDM,2,Columbus Blue Jackets,CBJ,4,
+202403070FLA,"March 07, 2024",Philadelphia Flyers,PHI,2,Florida Panthers,FLA,1,
+202403070LAK,"March 07, 2024",Ottawa Senators,OTT,3,Los Angeles Kings,LAK,4,OT
+202403070NJD,"March 07, 2024",St. Louis Blues,STL,1,New Jersey Devils,NJD,4,
+202403070NSH,"March 07, 2024",Buffalo Sabres,BUF,2,Nashville Predators,NSH,4,
+202403070PIT,"March 07, 2024",Washington Capitals,WSH,6,Pittsburgh Penguins,PIT,0,
+202403070SJS,"March 07, 2024",New York Islanders,NYI,7,San Jose Sharks,SJS,2,
+202403070TBL,"March 07, 2024",Calgary Flames,CGY,6,Tampa Bay Lightning,TBL,3,
+202403070VEG,"March 07, 2024",Vancouver Canucks,VAN,3,Vegas Golden Knights,VEG,1,
+202403080ANA,"March 08, 2024",Dallas Stars,DAL,6,Anaheim Ducks,ANA,2,
+202403080ARI,"March 08, 2024",Detroit Red Wings,DET,0,Arizona Coyotes,ARI,4,
+202403080COL,"March 08, 2024",Minnesota Wild,MIN,1,Colorado Avalanche,COL,2,OT
+202403080SEA,"March 08, 2024",Winnipeg Jets,WPG,3,Seattle Kraken,SEA,0,
+202403090BOS,"March 09, 2024",Pittsburgh Penguins,PIT,1,Boston Bruins,BOS,5,
+202403090BUF,"March 09, 2024",Edmonton Oilers,EDM,2,Buffalo Sabres,BUF,2,SO
+202403090CBJ,"March 09, 2024",Nashville Predators,NSH,2,Columbus Blue Jackets,CBJ,1,
+202403090FLA,"March 09, 2024",Calgary Flames,CGY,1,Florida Panthers,FLA,5,
+202403090LAK,"March 09, 2024",Dallas Stars,DAL,4,Los Angeles Kings,LAK,1,
+202403090MTL,"March 09, 2024",Toronto Maple Leafs,TOR,3,Montreal Canadiens,MTL,2,
+202403090NJD,"March 09, 2024",Carolina Hurricanes,CAR,4,New Jersey Devils,NJD,2,
+202403090NYR,"March 09, 2024",St. Louis Blues,STL,0,New York Rangers,NYR,4,
+202403090SJS,"March 09, 2024",Ottawa Senators,OTT,1,San Jose Sharks,SJS,2,
+202403090TBL,"March 09, 2024",Philadelphia Flyers,PHI,0,Tampa Bay Lightning,TBL,7,
+202403090VAN,"March 09, 2024",Winnipeg Jets,WPG,0,Vancouver Canucks,VAN,5,
+202403090VEG,"March 09, 2024",Detroit Red Wings,DET,3,Vegas Golden Knights,VEG,5,
+202403090WSH,"March 09, 2024",Chicago Blackhawks,CHI,1,Washington Capitals,WSH,4,
+202403100ANA,"March 10, 2024",New York Islanders,NYI,6,Anaheim Ducks,ANA,1,
+202403100CAR,"March 10, 2024",Calgary Flames,CGY,2,Carolina Hurricanes,CAR,7,
+202403100CHI,"March 10, 2024",Arizona Coyotes,ARI,4,Chicago Blackhawks,CHI,7,
+202403100MIN,"March 10, 2024",Nashville Predators,NSH,3,Minnesota Wild,MIN,4,OT
+202403100PIT,"March 10, 2024",Edmonton Oilers,EDM,4,Pittsburgh Penguins,PIT,0,
+202403110BOS,"March 11, 2024",St. Louis Blues,STL,5,Boston Bruins,BOS,1,
+202403110LAK,"March 11, 2024",New York Islanders,NYI,0,Los Angeles Kings,LAK,3,
+202403110NYR,"March 11, 2024",New Jersey Devils,NJD,1,New York Rangers,NYR,3,
+202403110WPG,"March 11, 2024",Washington Capitals,WSH,0,Winnipeg Jets,WPG,3,
+202403120BUF,"March 12, 2024",Detroit Red Wings,DET,3,Buffalo Sabres,BUF,7,
+202403120CAR,"March 12, 2024",New York Rangers,NYR,1,Carolina Hurricanes,CAR,0,
+202403120CGY,"March 12, 2024",Colorado Avalanche,COL,6,Calgary Flames,CGY,2,
+202403120CHI,"March 12, 2024",Anaheim Ducks,ANA,2,Chicago Blackhawks,CHI,7,
+202403120DAL,"March 12, 2024",Florida Panthers,FLA,4,Dallas Stars,DAL,3,
+202403120MIN,"March 12, 2024",Arizona Coyotes,ARI,1,Minnesota Wild,MIN,4,
+202403120MTL,"March 12, 2024",Columbus Blue Jackets,CBJ,0,Montreal Canadiens,MTL,3,
+202403120OTT,"March 12, 2024",Pittsburgh Penguins,PIT,1,Ottawa Senators,OTT,2,OT
+202403120PHI,"March 12, 2024",San Jose Sharks,SJS,2,Philadelphia Flyers,PHI,3,
+202403120SEA,"March 12, 2024",Vegas Golden Knights,VEG,5,Seattle Kraken,SEA,4,OT
+202403130EDM,"March 13, 2024",Washington Capitals,WSH,2,Edmonton Oilers,EDM,7,
+202403130STL,"March 13, 2024",Los Angeles Kings,LAK,1,St. Louis Blues,STL,3,
+202403130VAN,"March 13, 2024",Colorado Avalanche,COL,4,Vancouver Canucks,VAN,3,OT
+202403130WPG,"March 13, 2024",Nashville Predators,NSH,4,Winnipeg Jets,WPG,2,
+202403140BUF,"March 14, 2024",New York Islanders,NYI,0,Buffalo Sabres,BUF,4,
+202403140CAR,"March 14, 2024",Florida Panthers,FLA,0,Carolina Hurricanes,CAR,4,
+202403140CBJ,"March 14, 2024",Ottawa Senators,OTT,2,Columbus Blue Jackets,CBJ,2,SO
+202403140CGY,"March 14, 2024",Vegas Golden Knights,VEG,1,Calgary Flames,CGY,4,
+202403140DAL,"March 14, 2024",New Jersey Devils,NJD,6,Dallas Stars,DAL,2,
+202403140DET,"March 14, 2024",Arizona Coyotes,ARI,4,Detroit Red Wings,DET,1,
+202403140MIN,"March 14, 2024",Anaheim Ducks,ANA,0,Minnesota Wild,MIN,2,
+202403140MTL,"March 14, 2024",Boston Bruins,BOS,2,Montreal Canadiens,MTL,1,OT
+202403140PHI,"March 14, 2024",Toronto Maple Leafs,TOR,6,Philadelphia Flyers,PHI,2,
+202403140PIT,"March 14, 2024",San Jose Sharks,SJS,3,Pittsburgh Penguins,PIT,6,
+202403140SEA,"March 14, 2024",Washington Capitals,WSH,2,Seattle Kraken,SEA,1,
+202403140TBL,"March 14, 2024",New York Rangers,NYR,3,Tampa Bay Lightning,TBL,6,
+202403150CHI,"March 15, 2024",Los Angeles Kings,LAK,5,Chicago Blackhawks,CHI,0,
+202403150WPG,"March 15, 2024",Anaheim Ducks,ANA,0,Winnipeg Jets,WPG,6,
+202403160ARI,"March 16, 2024",New Jersey Devils,NJD,1,Arizona Coyotes,ARI,4,
+202403160BOS,"March 16, 2024",Philadelphia Flyers,PHI,5,Boston Bruins,BOS,6,
+202403160CBJ,"March 16, 2024",San Jose Sharks,SJS,2,Columbus Blue Jackets,CBJ,4,
+202403160CGY,"March 16, 2024",Montreal Canadiens,MTL,2,Calgary Flames,CGY,5,
+202403160DAL,"March 16, 2024",Los Angeles Kings,LAK,1,Dallas Stars,DAL,4,
+202403160DET,"March 16, 2024",Buffalo Sabres,BUF,1,Detroit Red Wings,DET,4,
+202403160EDM,"March 16, 2024",Colorado Avalanche,COL,3,Edmonton Oilers,EDM,2,OT
+202403160FLA,"March 16, 2024",Tampa Bay Lightning,TBL,5,Florida Panthers,FLA,3,
+202403160NYI,"March 16, 2024",Ottawa Senators,OTT,4,New York Islanders,NYI,3,OT
+202403160PIT,"March 16, 2024",New York Rangers,NYR,7,Pittsburgh Penguins,PIT,4,
+202403160SEA,"March 16, 2024",Nashville Predators,NSH,4,Seattle Kraken,SEA,1,
+202403160STL,"March 16, 2024",Minnesota Wild,MIN,2,St. Louis Blues,STL,2,SO
+202403160TOR,"March 16, 2024",Carolina Hurricanes,CAR,4,Toronto Maple Leafs,TOR,4,SO
+202403160VAN,"March 16, 2024",Washington Capitals,WSH,2,Vancouver Canucks,VAN,1,
+202403170CBJ,"March 17, 2024",Winnipeg Jets,WPG,6,Columbus Blue Jackets,CBJ,1,
+202403170CHI,"March 17, 2024",San Jose Sharks,SJS,2,Chicago Blackhawks,CHI,5,
+202403170NYR,"March 17, 2024",New York Islanders,NYI,2,New York Rangers,NYR,5,
+202403170OTT,"March 17, 2024",Carolina Hurricanes,CAR,7,Ottawa Senators,OTT,2,
+202403170PIT,"March 17, 2024",Detroit Red Wings,DET,3,Pittsburgh Penguins,PIT,6,
+202403170STL,"March 17, 2024",Anaheim Ducks,ANA,2,St. Louis Blues,STL,4,
+202403170VEG,"March 17, 2024",New Jersey Devils,NJD,1,Vegas Golden Knights,VEG,3,
+202403180CGY,"March 18, 2024",Washington Capitals,WSH,5,Calgary Flames,CGY,2,
+202403180SEA,"March 18, 2024",Buffalo Sabres,BUF,6,Seattle Kraken,SEA,2,
+202403190ANA,"March 19, 2024",Minnesota Wild,MIN,4,Anaheim Ducks,ANA,0,
+202403190BOS,"March 19, 2024",Ottawa Senators,OTT,2,Boston Bruins,BOS,6,
+202403190DET,"March 19, 2024",Columbus Blue Jackets,CBJ,3,Detroit Red Wings,DET,4,OT
+202403190EDM,"March 19, 2024",Montreal Canadiens,MTL,2,Edmonton Oilers,EDM,3,OT
+202403190LAK,"March 19, 2024",Chicago Blackhawks,CHI,2,Los Angeles Kings,LAK,6,
+202403190NJD,"March 19, 2024",Pittsburgh Penguins,PIT,2,New Jersey Devils,NJD,5,
+202403190NSH,"March 19, 2024",San Jose Sharks,SJS,2,Nashville Predators,NSH,8,
+202403190NYI,"March 19, 2024",Carolina Hurricanes,CAR,4,New York Islanders,NYI,1,
+202403190NYR,"March 19, 2024",Winnipeg Jets,WPG,4,New York Rangers,NYR,2,
+202403190PHI,"March 19, 2024",Toronto Maple Leafs,TOR,3,Philadelphia Flyers,PHI,4,
+202403190STL,"March 19, 2024",Colorado Avalanche,COL,4,St. Louis Blues,STL,3,
+202403190VAN,"March 19, 2024",Buffalo Sabres,BUF,2,Vancouver Canucks,VAN,3,
+202403190VEG,"March 19, 2024",Tampa Bay Lightning,TBL,5,Vegas Golden Knights,VEG,3,
+202403200DAL,"March 20, 2024",Arizona Coyotes,ARI,2,Dallas Stars,DAL,5,
+202403200LAK,"March 20, 2024",Minnesota Wild,MIN,0,Los Angeles Kings,LAK,6,
+202403200WSH,"March 20, 2024",Toronto Maple Leafs,TOR,7,Washington Capitals,WSH,3,
+202403210ANA,"March 21, 2024",Chicago Blackhawks,CHI,0,Anaheim Ducks,ANA,4,
+202403210BOS,"March 21, 2024",New York Rangers,NYR,5,Boston Bruins,BOS,2,
+202403210CAR,"March 21, 2024",Philadelphia Flyers,PHI,2,Carolina Hurricanes,CAR,3,OT
+202403210DET,"March 21, 2024",New York Islanders,NYI,3,Detroit Red Wings,DET,6,
+202403210EDM,"March 21, 2024",Buffalo Sabres,BUF,3,Edmonton Oilers,EDM,8,
+202403210FLA,"March 21, 2024",Nashville Predators,NSH,3,Florida Panthers,FLA,0,
+202403210NJD,"March 21, 2024",Winnipeg Jets,WPG,1,New Jersey Devils,NJD,4,
+202403210OTT,"March 21, 2024",St. Louis Blues,STL,5,Ottawa Senators,OTT,2,
+202403210SJS,"March 21, 2024",Tampa Bay Lightning,TBL,4,San Jose Sharks,SJS,1,
+202403210VAN,"March 21, 2024",Montreal Canadiens,MTL,1,Vancouver Canucks,VAN,4,
+202403210VEG,"March 21, 2024",Seattle Kraken,SEA,1,Vegas Golden Knights,VEG,3,
+202403220ARI,"March 22, 2024",Seattle Kraken,SEA,1,Arizona Coyotes,ARI,2,OT
+202403220COL,"March 22, 2024",Columbus Blue Jackets,CBJ,1,Colorado Avalanche,COL,6,
+202403220DAL,"March 22, 2024",Pittsburgh Penguins,PIT,2,Dallas Stars,DAL,4,
+202403220WSH,"March 22, 2024",Carolina Hurricanes,CAR,6,Washington Capitals,WSH,6,SO
+202403230LAK,"March 23, 2024",Tampa Bay Lightning,TBL,3,Los Angeles Kings,LAK,4,OT
+202403230MIN,"March 23, 2024",St. Louis Blues,STL,5,Minnesota Wild,MIN,4,OT
+202403230NJD,"March 23, 2024",Ottawa Senators,OTT,5,New Jersey Devils,NJD,2,
+202403230NSH,"March 23, 2024",Detroit Red Wings,DET,0,Nashville Predators,NSH,1,
+202403230NYI,"March 23, 2024",Winnipeg Jets,WPG,3,New York Islanders,NYI,6,
+202403230NYR,"March 23, 2024",Florida Panthers,FLA,3,New York Rangers,NYR,3,SO
+202403230PHI,"March 23, 2024",Boston Bruins,BOS,2,Philadelphia Flyers,PHI,3,
+202403230SJS,"March 23, 2024",Chicago Blackhawks,CHI,5,San Jose Sharks,SJS,4,OT
+202403230TOR,"March 23, 2024",Edmonton Oilers,EDM,3,Toronto Maple Leafs,TOR,6,
+202403230VAN,"March 23, 2024",Calgary Flames,CGY,2,Vancouver Canucks,VAN,4,
+202403230VEG,"March 23, 2024",Columbus Blue Jackets,CBJ,2,Vegas Golden Knights,VEG,4,
+202403240ANA,"March 24, 2024",Tampa Bay Lightning,TBL,3,Anaheim Ducks,ANA,2,OT
+202403240ARI,"March 24, 2024",Dallas Stars,DAL,4,Arizona Coyotes,ARI,2,
+202403240CAR,"March 24, 2024",Toronto Maple Leafs,TOR,1,Carolina Hurricanes,CAR,2,
+202403240CGY,"March 24, 2024",Buffalo Sabres,BUF,4,Calgary Flames,CGY,1,
+202403240COL,"March 24, 2024",Pittsburgh Penguins,PIT,4,Colorado Avalanche,COL,5,OT
+202403240NYI,"March 24, 2024",New Jersey Devils,NJD,4,New York Islanders,NYI,0,
+202403240OTT,"March 24, 2024",Edmonton Oilers,EDM,3,Ottawa Senators,OTT,5,
+202403240PHI,"March 24, 2024",Florida Panthers,FLA,4,Philadelphia Flyers,PHI,1,
+202403240SEA,"March 24, 2024",Montreal Canadiens,MTL,5,Seattle Kraken,SEA,1,
+202403240WSH,"March 24, 2024",Winnipeg Jets,WPG,0,Washington Capitals,WSH,3,
+202403250STL,"March 25, 2024",Vegas Golden Knights,VEG,2,St. Louis Blues,STL,1,OT
+202403250VAN,"March 25, 2024",Los Angeles Kings,LAK,3,Vancouver Canucks,VAN,2,
+202403260ARI,"March 26, 2024",Columbus Blue Jackets,CBJ,2,Arizona Coyotes,ARI,6,
+202403260CHI,"March 26, 2024",Calgary Flames,CGY,1,Chicago Blackhawks,CHI,3,
+202403260COL,"March 26, 2024",Montreal Canadiens,MTL,2,Colorado Avalanche,COL,1,
+202403260FLA,"March 26, 2024",Boston Bruins,BOS,4,Florida Panthers,FLA,3,
+202403260NSH,"March 26, 2024",Vegas Golden Knights,VEG,4,Nashville Predators,NSH,5,OT
+202403260NYR,"March 26, 2024",Philadelphia Flyers,PHI,5,New York Rangers,NYR,6,OT
+202403260PIT,"March 26, 2024",Carolina Hurricanes,CAR,1,Pittsburgh Penguins,PIT,4,
+202403260SEA,"March 26, 2024",Anaheim Ducks,ANA,0,Seattle Kraken,SEA,4,
+202403260SJS,"March 26, 2024",Dallas Stars,DAL,6,San Jose Sharks,SJS,3,
+202403260TOR,"March 26, 2024",New Jersey Devils,NJD,6,Toronto Maple Leafs,TOR,3,
+202403260WPG,"March 26, 2024",Edmonton Oilers,EDM,4,Winnipeg Jets,WPG,3,OT
+202403260WSH,"March 26, 2024",Detroit Red Wings,DET,3,Washington Capitals,WSH,4,OT
+202403270BUF,"March 27, 2024",Ottawa Senators,OTT,6,Buffalo Sabres,BUF,2,
+202403270TBL,"March 27, 2024",Boston Bruins,BOS,1,Tampa Bay Lightning,TBL,3,
+202403280ARI,"March 28, 2024",Nashville Predators,NSH,4,Arizona Coyotes,ARI,8,
+202403280CAR,"March 28, 2024",Detroit Red Wings,DET,0,Carolina Hurricanes,CAR,4,
+202403280COL,"March 28, 2024",New York Rangers,NYR,2,Colorado Avalanche,COL,2,SO
+202403280EDM,"March 28, 2024",Los Angeles Kings,LAK,1,Edmonton Oilers,EDM,4,
+202403280FLA,"March 28, 2024",New York Islanders,NYI,3,Florida Panthers,FLA,2,
+202403280MIN,"March 28, 2024",San Jose Sharks,SJS,1,Minnesota Wild,MIN,3,
+202403280MTL,"March 28, 2024",Philadelphia Flyers,PHI,1,Montreal Canadiens,MTL,4,
+202403280OTT,"March 28, 2024",Chicago Blackhawks,CHI,0,Ottawa Senators,OTT,2,
+202403280PIT,"March 28, 2024",Columbus Blue Jackets,CBJ,2,Pittsburgh Penguins,PIT,3,
+202403280SEA,"March 28, 2024",Anaheim Ducks,ANA,2,Seattle Kraken,SEA,4,
+202403280STL,"March 28, 2024",Calgary Flames,CGY,3,St. Louis Blues,STL,5,
+202403280TOR,"March 28, 2024",Washington Capitals,WSH,1,Toronto Maple Leafs,TOR,5,
+202403280VAN,"March 28, 2024",Dallas Stars,DAL,3,Vancouver Canucks,VAN,1,
+202403280WPG,"March 28, 2024",Vegas Golden Knights,VEG,4,Winnipeg Jets,WPG,1,
+202403290BUF,"March 29, 2024",New Jersey Devils,NJD,2,Buffalo Sabres,BUF,5,
+202403300ARI,"March 30, 2024",New York Rangers,NYR,8,Arizona Coyotes,ARI,5,
+202403300BUF,"March 30, 2024",Toronto Maple Leafs,TOR,3,Buffalo Sabres,BUF,0,
+202403300CBJ,"March 30, 2024",Pittsburgh Penguins,PIT,3,Columbus Blue Jackets,CBJ,3,SO
+202403300CGY,"March 30, 2024",Los Angeles Kings,LAK,2,Calgary Flames,CGY,4,
+202403300COL,"March 30, 2024",Nashville Predators,NSH,4,Colorado Avalanche,COL,7,
+202403300EDM,"March 30, 2024",Anaheim Ducks,ANA,1,Edmonton Oilers,EDM,6,
+202403300FLA,"March 30, 2024",Detroit Red Wings,DET,2,Florida Panthers,FLA,2,SO
+202403300MIN,"March 30, 2024",Vegas Golden Knights,VEG,2,Minnesota Wild,MIN,1,OT
+202403300MTL,"March 30, 2024",Carolina Hurricanes,CAR,3,Montreal Canadiens,MTL,0,
+202403300PHI,"March 30, 2024",Chicago Blackhawks,CHI,5,Philadelphia Flyers,PHI,1,
+202403300SEA,"March 30, 2024",Dallas Stars,DAL,3,Seattle Kraken,SEA,0,
+202403300STL,"March 30, 2024",San Jose Sharks,SJS,4,St. Louis Blues,STL,0,
+202403300TBL,"March 30, 2024",New York Islanders,NYI,1,Tampa Bay Lightning,TBL,4,
+202403300WPG,"March 30, 2024",Ottawa Senators,OTT,3,Winnipeg Jets,WPG,2,
+202403300WSH,"March 30, 2024",Boston Bruins,BOS,2,Washington Capitals,WSH,2,SO
+202403310VAN,"March 31, 2024",Anaheim Ducks,ANA,2,Vancouver Canucks,VAN,3,
+202404010CBJ,"April 01, 2024",Colorado Avalanche,COL,1,Columbus Blue Jackets,CBJ,4,
+202404010NYR,"April 01, 2024",Pittsburgh Penguins,PIT,5,New York Rangers,NYR,2,
+202404010PHI,"April 01, 2024",New York Islanders,NYI,4,Philadelphia Flyers,PHI,3,OT
+202404010SJS,"April 01, 2024",Seattle Kraken,SEA,4,San Jose Sharks,SJS,2,
+202404010STL,"April 01, 2024",Edmonton Oilers,EDM,2,St. Louis Blues,STL,3,OT
+202404010TBL,"April 01, 2024",Detroit Red Wings,DET,4,Tampa Bay Lightning,TBL,2,
+202404010TOR,"April 01, 2024",Florida Panthers,FLA,4,Toronto Maple Leafs,TOR,6,
+202404010WPG,"April 01, 2024",Los Angeles Kings,LAK,3,Winnipeg Jets,WPG,4,
+202404020BUF,"April 02, 2024",Washington Capitals,WSH,2,Buffalo Sabres,BUF,6,
+202404020CGY,"April 02, 2024",Anaheim Ducks,ANA,5,Calgary Flames,CGY,3,
+202404020MIN,"April 02, 2024",Ottawa Senators,OTT,2,Minnesota Wild,MIN,3,
+202404020MTL,"April 02, 2024",Florida Panthers,FLA,3,Montreal Canadiens,MTL,5,
+202404020NJD,"April 02, 2024",Pittsburgh Penguins,PIT,6,New Jersey Devils,NJD,3,
+202404020NSH,"April 02, 2024",Boston Bruins,BOS,3,Nashville Predators,NSH,0,
+202404020NYI,"April 02, 2024",Chicago Blackhawks,CHI,1,New York Islanders,NYI,2,
+202404020VEG,"April 02, 2024",Vancouver Canucks,VAN,3,Vegas Golden Knights,VEG,6,
+202404030ARI,"April 03, 2024",Vancouver Canucks,VAN,2,Arizona Coyotes,ARI,1,
+202404030DAL,"April 03, 2024",Edmonton Oilers,EDM,0,Dallas Stars,DAL,5,
+202404030LAK,"April 03, 2024",Seattle Kraken,SEA,2,Los Angeles Kings,LAK,5,
+202404030NYR,"April 03, 2024",New Jersey Devils,NJD,3,New York Rangers,NYR,4,
+202404030TOR,"April 03, 2024",Tampa Bay Lightning,TBL,4,Toronto Maple Leafs,TOR,1,
+202404040CAR,"April 04, 2024",Boston Bruins,BOS,4,Carolina Hurricanes,CAR,1,
+202404040CBJ,"April 04, 2024",New York Islanders,NYI,4,Columbus Blue Jackets,CBJ,2,
+202404040MIN,"April 04, 2024",Colorado Avalanche,COL,5,Minnesota Wild,MIN,2,
+202404040MTL,"April 04, 2024",Tampa Bay Lightning,TBL,7,Montreal Canadiens,MTL,4,
+202404040NSH,"April 04, 2024",St. Louis Blues,STL,3,Nashville Predators,NSH,6,
+202404040OTT,"April 04, 2024",Florida Panthers,FLA,6,Ottawa Senators,OTT,0,
+202404040SJS,"April 04, 2024",Los Angeles Kings,LAK,2,San Jose Sharks,SJS,1,
+202404040WPG,"April 04, 2024",Calgary Flames,CGY,2,Winnipeg Jets,WPG,5,
+202404040WSH,"April 04, 2024",Pittsburgh Penguins,PIT,4,Washington Capitals,WSH,1,
+202404050ANA,"April 05, 2024",Seattle Kraken,SEA,3,Anaheim Ducks,ANA,1,
+202404050ARI,"April 05, 2024",Vegas Golden Knights,VEG,4,Arizona Coyotes,ARI,7,
+202404050BUF,"April 05, 2024",Philadelphia Flyers,PHI,2,Buffalo Sabres,BUF,4,
+202404050CAR,"April 05, 2024",Washington Capitals,WSH,2,Carolina Hurricanes,CAR,4,
+202404050DET,"April 05, 2024",New York Rangers,NYR,4,Detroit Red Wings,DET,3,
+202404050EDM,"April 05, 2024",Colorado Avalanche,COL,2,Edmonton Oilers,EDM,6,
+202404060BOS,"April 06, 2024",Florida Panthers,FLA,2,Boston Bruins,BOS,3,OT
+202404060CBJ,"April 06, 2024",Philadelphia Flyers,PHI,2,Columbus Blue Jackets,CBJ,6,
+202404060CGY,"April 06, 2024",Edmonton Oilers,EDM,4,Calgary Flames,CGY,2,
+202404060CHI,"April 06, 2024",Dallas Stars,DAL,2,Chicago Blackhawks,CHI,3,
+202404060LAK,"April 06, 2024",Vancouver Canucks,VAN,3,Los Angeles Kings,LAK,6,
+202404060MIN,"April 06, 2024",Winnipeg Jets,WPG,4,Minnesota Wild,MIN,2,
+202404060MTL,"April 06, 2024",Toronto Maple Leafs,TOR,4,Montreal Canadiens,MTL,2,
+202404060NYI,"April 06, 2024",Nashville Predators,NSH,0,New York Islanders,NYI,2,
+202404060OTT,"April 06, 2024",New Jersey Devils,NJD,4,Ottawa Senators,OTT,3,
+202404060PIT,"April 06, 2024",Tampa Bay Lightning,TBL,4,Pittsburgh Penguins,PIT,5,
+202404060SJS,"April 06, 2024",St. Louis Blues,STL,2,San Jose Sharks,SJS,3,OT
+202404070ANA,"April 07, 2024",St. Louis Blues,STL,5,Anaheim Ducks,ANA,5,SO
+202404070CAR,"April 07, 2024",Columbus Blue Jackets,CBJ,0,Carolina Hurricanes,CAR,3,
+202404070CHI,"April 07, 2024",Minnesota Wild,MIN,4,Chicago Blackhawks,CHI,0,
+202404070COL,"April 07, 2024",Dallas Stars,DAL,7,Colorado Avalanche,COL,4,
+202404070DET,"April 07, 2024",Buffalo Sabres,BUF,1,Detroit Red Wings,DET,3,
+202404070NJD,"April 07, 2024",Nashville Predators,NSH,2,New Jersey Devils,NJD,2,SO
+202404070NYR,"April 07, 2024",Montreal Canadiens,MTL,2,New York Rangers,NYR,5,
+202404070SJS,"April 07, 2024",Arizona Coyotes,ARI,5,San Jose Sharks,SJS,2,
+202404070WSH,"April 07, 2024",Ottawa Senators,OTT,3,Washington Capitals,WSH,2,OT
+202404080TOR,"April 08, 2024",Pittsburgh Penguins,PIT,2,Toronto Maple Leafs,TOR,3,OT
+202404080VAN,"April 08, 2024",Vegas Golden Knights,VEG,3,Vancouver Canucks,VAN,4,
+202404090ANA,"April 09, 2024",Los Angeles Kings,LAK,1,Anaheim Ducks,ANA,3,
+202404090BOS,"April 09, 2024",Carolina Hurricanes,CAR,4,Boston Bruins,BOS,1,
+202404090COL,"April 09, 2024",Minnesota Wild,MIN,2,Colorado Avalanche,COL,5,
+202404090DAL,"April 09, 2024",Buffalo Sabres,BUF,2,Dallas Stars,DAL,3,
+202404090DET,"April 09, 2024",Washington Capitals,WSH,2,Detroit Red Wings,DET,1,
+202404090FLA,"April 09, 2024",Ottawa Senators,OTT,0,Florida Panthers,FLA,2,
+202404090MTL,"April 09, 2024",Philadelphia Flyers,PHI,3,Montreal Canadiens,MTL,9,
+202404090NJD,"April 09, 2024",Toronto Maple Leafs,TOR,5,New Jersey Devils,NJD,2,
+202404090NSH,"April 09, 2024",Winnipeg Jets,WPG,4,Nashville Predators,NSH,3,OT
+202404090NYI,"April 09, 2024",New York Rangers,NYR,2,New York Islanders,NYI,4,
+202404090SEA,"April 09, 2024",Arizona Coyotes,ARI,0,Seattle Kraken,SEA,5,
+202404090SJS,"April 09, 2024",Calgary Flames,CGY,3,San Jose Sharks,SJS,2,OT
+202404090TBL,"April 09, 2024",Columbus Blue Jackets,CBJ,2,Tampa Bay Lightning,TBL,5,
+202404100EDM,"April 10, 2024",Vegas Golden Knights,VEG,1,Edmonton Oilers,EDM,5,
+202404100STL,"April 10, 2024",Chicago Blackhawks,CHI,2,St. Louis Blues,STL,5,
+202404100VAN,"April 10, 2024",Arizona Coyotes,ARI,4,Vancouver Canucks,VAN,3,OT
+202404110BUF,"April 11, 2024",Washington Capitals,WSH,2,Buffalo Sabres,BUF,4,
+202404110DAL,"April 11, 2024",Winnipeg Jets,WPG,3,Dallas Stars,DAL,0,
+202404110FLA,"April 11, 2024",Columbus Blue Jackets,CBJ,0,Florida Panthers,FLA,4,
+202404110LAK,"April 11, 2024",Calgary Flames,CGY,1,Los Angeles Kings,LAK,4,
+202404110NYI,"April 11, 2024",Montreal Canadiens,MTL,2,New York Islanders,NYI,3,OT
+202404110NYR,"April 11, 2024",Philadelphia Flyers,PHI,4,New York Rangers,NYR,1,
+202404110PIT,"April 11, 2024",Detroit Red Wings,DET,5,Pittsburgh Penguins,PIT,6,OT
+202404110SEA,"April 11, 2024",San Jose Sharks,SJS,3,Seattle Kraken,SEA,1,
+202404110TBL,"April 11, 2024",Ottawa Senators,OTT,2,Tampa Bay Lightning,TBL,2,SO
+202404110TOR,"April 11, 2024",New Jersey Devils,NJD,6,Toronto Maple Leafs,TOR,5,
+202404120ANA,"April 12, 2024",Calgary Flames,CGY,6,Anaheim Ducks,ANA,3,
+202404120CHI,"April 12, 2024",Nashville Predators,NSH,5,Chicago Blackhawks,CHI,1,
+202404120EDM,"April 12, 2024",Arizona Coyotes,ARI,3,Edmonton Oilers,EDM,2,OT
+202404120STL,"April 12, 2024",Carolina Hurricanes,CAR,5,St. Louis Blues,STL,2,
+202404120VEG,"April 12, 2024",Minnesota Wild,MIN,2,Vegas Golden Knights,VEG,7,
+202404130COL,"April 13, 2024",Winnipeg Jets,WPG,7,Colorado Avalanche,COL,0,
+202404130DAL,"April 13, 2024",Seattle Kraken,SEA,1,Dallas Stars,DAL,3,
+202404130EDM,"April 13, 2024",Vancouver Canucks,VAN,3,Edmonton Oilers,EDM,1,
+202404130FLA,"April 13, 2024",Buffalo Sabres,BUF,2,Florida Panthers,FLA,3,OT
+202404130LAK,"April 13, 2024",Anaheim Ducks,ANA,1,Los Angeles Kings,LAK,3,
+202404130NSH,"April 13, 2024",Columbus Blue Jackets,CBJ,4,Nashville Predators,NSH,6,
+202404130NYR,"April 13, 2024",New York Islanders,NYI,2,New York Rangers,NYR,2,SO
+202404130OTT,"April 13, 2024",Montreal Canadiens,MTL,4,Ottawa Senators,OTT,4,SO
+202404130PHI,"April 13, 2024",New Jersey Devils,NJD,0,Philadelphia Flyers,PHI,1,
+202404130PIT,"April 13, 2024",Boston Bruins,BOS,6,Pittsburgh Penguins,PIT,4,
+202404130SJS,"April 13, 2024",Minnesota Wild,MIN,6,San Jose Sharks,SJS,2,
+202404130TOR,"April 13, 2024",Detroit Red Wings,DET,5,Toronto Maple Leafs,TOR,4,OT
+202404130WSH,"April 13, 2024",Tampa Bay Lightning,TBL,2,Washington Capitals,WSH,4,
+202404140CGY,"April 14, 2024",Arizona Coyotes,ARI,5,Calgary Flames,CGY,6,
+202404140CHI,"April 14, 2024",Carolina Hurricanes,CAR,4,Chicago Blackhawks,CHI,2,
+202404140STL,"April 14, 2024",Seattle Kraken,SEA,1,St. Louis Blues,STL,4,
+202404140VEG,"April 14, 2024",Colorado Avalanche,COL,3,Vegas Golden Knights,VEG,4,OT
+202404150DET,"April 15, 2024",Montreal Canadiens,MTL,4,Detroit Red Wings,DET,5,OT
+202404150EDM,"April 15, 2024",San Jose Sharks,SJS,2,Edmonton Oilers,EDM,9,
+202404150LAK,"April 15, 2024",Minnesota Wild,MIN,3,Los Angeles Kings,LAK,1,
+202404150NJD,"April 15, 2024",New York Islanders,NYI,4,New Jersey Devils,NJD,1,
+202404150NYR,"April 15, 2024",Ottawa Senators,OTT,0,New York Rangers,NYR,4,
+202404150PIT,"April 15, 2024",Nashville Predators,NSH,2,Pittsburgh Penguins,PIT,4,
+202404150TBL,"April 15, 2024",Buffalo Sabres,BUF,4,Tampa Bay Lightning,TBL,2,
+202404150WSH,"April 15, 2024",Boston Bruins,BOS,0,Washington Capitals,WSH,2,
+202404160BOS,"April 16, 2024",Ottawa Senators,OTT,3,Boston Bruins,BOS,1,
+202404160CBJ,"April 16, 2024",Carolina Hurricanes,CAR,3,Columbus Blue Jackets,CBJ,6,
+202404160FLA,"April 16, 2024",Toronto Maple Leafs,TOR,2,Florida Panthers,FLA,5,
+202404160MTL,"April 16, 2024",Detroit Red Wings,DET,4,Montreal Canadiens,MTL,4,SO
+202404160PHI,"April 16, 2024",Washington Capitals,WSH,2,Philadelphia Flyers,PHI,1,
+202404160VAN,"April 16, 2024",Calgary Flames,CGY,1,Vancouver Canucks,VAN,4,
+202404160VEG,"April 16, 2024",Chicago Blackhawks,CHI,1,Vegas Golden Knights,VEG,3,
+202404160WPG,"April 16, 2024",Seattle Kraken,SEA,3,Winnipeg Jets,WPG,4,
+202404170ARI,"April 17, 2024",Edmonton Oilers,EDM,2,Arizona Coyotes,ARI,5,
+202404170DAL,"April 17, 2024",St. Louis Blues,STL,1,Dallas Stars,DAL,1,SO
+202404170NYI,"April 17, 2024",Pittsburgh Penguins,PIT,4,New York Islanders,NYI,5,
+202404170TBL,"April 17, 2024",Toronto Maple Leafs,TOR,4,Tampa Bay Lightning,TBL,6,
+202404180CGY,"April 18, 2024",San Jose Sharks,SJS,1,Calgary Flames,CGY,5,
+202404180COL,"April 18, 2024",Edmonton Oilers,EDM,1,Colorado Avalanche,COL,5,
+202404180LAK,"April 18, 2024",Chicago Blackhawks,CHI,4,Los Angeles Kings,LAK,5,OT
+202404180MIN,"April 18, 2024",Seattle Kraken,SEA,4,Minnesota Wild,MIN,3,
+202404180VEG,"April 18, 2024",Anaheim Ducks,ANA,4,Vegas Golden Knights,VEG,1,
+202404180WPG,"April 18, 2024",Vancouver Canucks,VAN,2,Winnipeg Jets,WPG,4,

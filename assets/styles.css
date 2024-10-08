@@ -33,8 +33,59 @@ a:hover {
 	background-color: #ecf5fe;
 	text-decoration: underline;
 }
-	
-	
+
+#searchResults {
+    position: absolute;
+    background-color: white;
+    border: 1px solid #ccc;
+    width: 100%;
+    max-height: 200px;
+    overflow-y: auto;
+    z-index: 1000;
+}
+
+#searchResults div {
+    padding: 10px;
+    cursor: pointer;
+}
+
+#searchResults div:hover, .highlighted {
+    background-color: #f1f1f1;
+}
+
+#searchResults a {
+    text-decoration: none;
+    color: black;
+    display: block;
+}
+
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+input[type="text"], select {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#resultsContainer {
+    margin-top: 20px;
+}
+
+
 
 /* Navigation Bar Styles */
 #navbar {
@@ -163,4 +214,22 @@ hr {
     padding: 50px;
     color: #777;
     font-size: 1.2rem;
+}
+
+/* Style all tables whose ID ends with '_gamelog_2023' */
+table {
+    border: 1px solid black;
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 14px;
+}
+
+table, th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+table tr:hover {
+    background-color: #ebffeb;
 }

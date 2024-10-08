@@ -1,407 +1,144 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Joseph Woll</title>
-  <link rel="stylesheet" href="/assets/styles.css">
-  <script src="/assets/searchBar.js" defer></script>
-  <script src="/assets/tableSort.js"></script>
-  
-  <style>
-    tr:hover {background-color: #F0FFF0;}
-  </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Joseph Woll Stats 2023-24</title>
+<link rel="stylesheet" href="/assets/styles.css">
+<script src="/assets/searchBar.js"></script>
+<script src="/assets/tableSort.js"></script>
 </head>
-
 <body>
-  <!-- Navigation Bar -->
-  <nav id="navbar">
-    <a href="/">Home</a>
-    <a href="/players/">Players</a>
-    <a href="/teams/">Teams</a>
-    <a href="/leaders/">Leaders</a>
-    <a href="/probabilities/">Probabilities</a>
-    <a href="/boxscores/">Boxscores</a>
-    <a href="/schedule/">Schedule</a>
+<nav id="navbar">
+<ul>
+<li><a href="/">Home</a></li>
+<li><a href="/players/">Players</a></li>
+<li><a href="/teams/">Teams</a></li>
+<li><a href="/probabilities/">Probabilities</a></li>
+<li><a href="/boxscores/">Boxscores</a></li>
+<li><a href="/versus/">Head to Head Stats</a></li>
+<li><a href="/leaders/">Leaders</a></li>
+<li><a href="/seasons/2025/schedule.html">Schedule and Results</a></li>
+<li><a href="/seasons/2025/standings.html">Current Standings</a></li>
+<li><a href="/seasons/2025/rosters.html">Team Rosters</a></li>
+<li>
+<input type="text" id="searchBar" placeholder="Search for players or teams..." oninput="performSearch()" autocomplete="off">
+<div id="searchResults" class="dropdown"></div>
+<button id="searchButton" onclick="handleSearch()">Search</button>
+</li>
+</ul>
+</nav>
+<main id="content">
+<div class="gamelog">
+<table id="totals">
+<tr><th>Team</th><th>Goalie</th><th>GP</th><th>G</th><th>A</th><th>PTS</th><th>SOG</th><th>HIT</th><th>BLK</th><th>PIM</th><th>TOI</th><th>ATOI</th><th>S%</th><th>EVG</th><th>PPG</th><th>SHG</th><th>GWG</th><th>EVA</th><th>PPA</th><th>SHA</th></tr>
+<tr><td><a href="/teams/TOR.html">TOR</a></td><td><a href="/players/wolljo01.html">Joseph Woll</a></td><td>25</td><td>72</td><td>2.94</td><td>772</td><td>700</td><td>90.28%</td><td>1</td><td>13</td><td>12</td><td>1</td><td>1471.65</td><td>58.87</td></tr>
+</table>
+<table id="wolljo01_gamelog">
+<tr><th>Date</th><th>Player</th><th>Team</th><th>Location</th><th>Opp</th><th>Result</th><th>OT/SO</th><th>GA</th><th>SA</th><th>SV</th><th>SV%</th><th>PIM</th><th>TOI</th></tr>
+<tr><td><a href="/boxscores/202310160TOR.html">10/16/2023</a></td><td><a href="/players/wolljo01.html">Joseph Woll</a></td><td><a href="/teams/TOR.html">TOR</a></td><td>vs</td><td><a href="/teams/CHI.html">CHI</a></td><td>L</td><td>nan</td><td>3</td><td>30</td><td>27</td><td>90.00%</td><td>0</td><td>56.22</td></tr>
+<tr><td><a href="/boxscores/202310210TBL.html">10/21/2023</a></td><td><a href="/players/wolljo01.html">Joseph Woll</a></td><td><a href="/teams/TOR.html">TOR</a></td><td>@</td><td><a href="/teams/TBL.html">TBL</a></td><td>W</td><td>OT</td><td>0</td><td>27</td><td>27</td><td>100.00%</td><td>0</td><td>50.6</td></tr>
+<tr><td><a href="/boxscores/202310240WSH.html">10/24/2023</a></td><td><a href="/players/wolljo01.html">Joseph Woll</a></td><td><a href="/teams/TOR.html">TOR</a></td><td>@</td><td><a href="/teams/WSH.html">WSH</a></td><td>W</td><td>nan</td><td>1</td><td>38</td><td>37</td><td>97.40%</td><td>0</td><td>59.55</td></tr>
+<tr><td><a href="/boxscores/202310260DAL.html">10/26/2023</a></td><td><a href="/players/wolljo01.html">Joseph Woll</a></td><td><a href="/teams/TOR.html">TOR</a></td><td>@</td><td><a href="/teams/DAL.html">DAL</a></td><td>W</td><td>nan</td><td>1</td><td>32</td><td>31</td><td>96.90%</td><td>0</td><td>59.93</td></tr>
+<tr><td><a href="/boxscores/202310310TOR.html">10/31/2023</a></td><td><a href="/players/wolljo01.html">Joseph Woll</a></td><td><a href="/teams/TOR.html">TOR</a></td><td>vs</td><td><a href="/teams/LAK.html">LAK</a></td><td>L</td><td>nan</td><td>4</td><td>27</td><td>23</td><td>85.20%</td><td>0</td><td>59.97</td></tr>
+<tr><td><a href="/boxscores/202311040TOR.html">11/4/2023</a></td><td><a href="/players/wolljo01.html">Joseph Woll</a></td><td><a href="/teams/TOR.html">TOR</a></td><td>vs</td><td><a href="/teams/BUF.html">BUF</a></td><td>L</td><td>nan</td><td>5</td><td>40</td><td>35</td><td>87.50%</td><td>0</td><td>59.38</td></tr>
+<tr><td><a href="/boxscores/202311060TOR.html">11/6/2023</a></td><td><a href="/players/wolljo01.html">Joseph Woll</a></td><td><a href="/teams/TOR.html">TOR</a></td><td>vs</td><td><a href="/teams/TBL.html">TBL</a></td><td>W</td><td>OT</td><td>1</td><td>19</td><td>18</td><td>94.70%</td><td>0</td><td>45.55</td></tr>
+<tr><td><a href="/boxscores/202311080TOR.html">11/8/2023</a></td><td><a href="/players/wolljo01.html">Joseph Woll</a></td><td><a href="/teams/TOR.html">TOR</a></td><td>vs</td><td><a href="/teams/OTT.html">OTT</a></td><td>L</td><td>nan</td><td>6</td><td>31</td><td>25</td><td>80.60%</td><td>0</td><td>60.0</td></tr>
+<tr><td><a href="/boxscores/202311100TOR.html">11/10/2023</a></td><td><a href="/players/wolljo01.html">Joseph Woll</a></td><td><a href="/teams/TOR.html">TOR</a></td><td>vs</td><td><a href="/teams/CGY.html">CGY</a></td><td>W</td><td>SO</td><td>4</td><td>28</td><td>24</td><td>85.70%</td><td>0</td><td>65.0</td></tr>
+<tr><td><a href="/boxscores/202311190MIN.html">11/19/2023</a></td><td><a href="/players/wolljo01.html">Joseph Woll</a></td><td><a href="/teams/TOR.html">TOR</a></td><td>@</td><td><a href="/teams/MIN.html">MIN</a></td><td>W</td><td>OT</td><td>3</td><td>36</td><td>33</td><td>91.70%</td><td>0</td><td>63.15</td></tr>
+<tr><td><a href="/boxscores/202311250PIT.html">11/25/2023</a></td><td><a href="/players/wolljo01.html">Joseph Woll</a></td><td><a href="/teams/TOR.html">TOR</a></td><td>@</td><td><a href="/teams/PIT.html">PIT</a></td><td>L</td><td>nan</td><td>3</td><td>35</td><td>32</td><td>91.40%</td><td>0</td><td>57.28</td></tr>
+<tr><td><a href="/boxscores/202311280TOR.html">11/28/2023</a></td><td><a href="/players/wolljo01.html">Joseph Woll</a></td><td><a href="/teams/TOR.html">TOR</a></td><td>vs</td><td><a href="/teams/FLA.html">FLA</a></td><td>W</td><td>SO</td><td>1</td><td>39</td><td>38</td><td>97.40%</td><td>0</td><td>65.0</td></tr>
+<tr><td><a href="/boxscores/202311300TOR.html">11/30/2023</a></td><td><a href="/players/wolljo01.html">Joseph Woll</a></td><td><a href="/teams/TOR.html">TOR</a></td><td>vs</td><td><a href="/teams/SEA.html">SEA</a></td><td>W</td><td>SO</td><td>3</td><td>40</td><td>37</td><td>92.50%</td><td>0</td><td>64.8</td></tr>
+<tr><td><a href="/boxscores/202312020TOR.html">12/2/2023</a></td><td><a href="/players/wolljo01.html">Joseph Woll</a></td><td><a href="/teams/TOR.html">TOR</a></td><td>vs</td><td><a href="/teams/BOS.html">BOS</a></td><td>L</td><td>OT</td><td>4</td><td>37</td><td>33</td><td>89.20%</td><td>0</td><td>63.08</td></tr>
+<tr><td><a href="/boxscores/202312070OTT.html">12/7/2023</a></td><td><a href="/players/wolljo01.html">Joseph Woll</a></td><td><a href="/teams/TOR.html">TOR</a></td><td>@</td><td><a href="/teams/OTT.html">OTT</a></td><td>W</td><td>nan</td><td>2</td><td>31</td><td>29</td><td>93.50%</td><td>0</td><td>50.37</td></tr>
+<tr><td><a href="/boxscores/202402290TOR.html">2/29/2024</a></td><td><a href="/players/wolljo01.html">Joseph Woll</a></td><td><a href="/teams/TOR.html">TOR</a></td><td>vs</td><td><a href="/teams/ARI.html">ARI</a></td><td>W</td><td>nan</td><td>2</td><td>32</td><td>30</td><td>93.80%</td><td>0</td><td>60.0</td></tr>
+<tr><td><a href="/boxscores/202403040TOR.html">3/4/2024</a></td><td><a href="/players/wolljo01.html">Joseph Woll</a></td><td><a href="/teams/TOR.html">TOR</a></td><td>vs</td><td><a href="/teams/BOS.html">BOS</a></td><td>L</td><td>nan</td><td>4</td><td>27</td><td>23</td><td>85.20%</td><td>0</td><td>58.38</td></tr>
+<tr><td><a href="/boxscores/202403070BOS.html">3/7/2024</a></td><td><a href="/players/wolljo01.html">Joseph Woll</a></td><td><a href="/teams/TOR.html">TOR</a></td><td>@</td><td><a href="/teams/BOS.html">BOS</a></td><td>L</td><td>nan</td><td>4</td><td>25</td><td>21</td><td>84.00%</td><td>0</td><td>59.93</td></tr>
+<tr><td><a href="/boxscores/202403200WSH.html">3/20/2024</a></td><td><a href="/players/wolljo01.html">Joseph Woll</a></td><td><a href="/teams/TOR.html">TOR</a></td><td>@</td><td><a href="/teams/WSH.html">WSH</a></td><td>W</td><td>nan</td><td>3</td><td>21</td><td>18</td><td>85.70%</td><td>0</td><td>60.0</td></tr>
+<tr><td><a href="/boxscores/202403240CAR.html">3/24/2024</a></td><td><a href="/players/wolljo01.html">Joseph Woll</a></td><td><a href="/teams/TOR.html">TOR</a></td><td>@</td><td><a href="/teams/CAR.html">CAR</a></td><td>L</td><td>nan</td><td>2</td><td>43</td><td>41</td><td>95.30%</td><td>0</td><td>57.72</td></tr>
+<tr><td><a href="/boxscores/202403260TOR.html">3/26/2024</a></td><td><a href="/players/wolljo01.html">Joseph Woll</a></td><td><a href="/teams/TOR.html">TOR</a></td><td>vs</td><td><a href="/teams/NJD.html">NJD</a></td><td>L</td><td>nan</td><td>5</td><td>24</td><td>19</td><td>79.20%</td><td>0</td><td>59.47</td></tr>
+<tr><td><a href="/boxscores/202403280TOR.html">3/28/2024</a></td><td><a href="/players/wolljo01.html">Joseph Woll</a></td><td><a href="/teams/TOR.html">TOR</a></td><td>vs</td><td><a href="/teams/WSH.html">WSH</a></td><td>W</td><td>nan</td><td>1</td><td>24</td><td>23</td><td>95.80%</td><td>0</td><td>60.0</td></tr>
+<tr><td><a href="/boxscores/202404030TOR.html">4/3/2024</a></td><td><a href="/players/wolljo01.html">Joseph Woll</a></td><td><a href="/teams/TOR.html">TOR</a></td><td>vs</td><td><a href="/teams/TBL.html">TBL</a></td><td>L</td><td>nan</td><td>4</td><td>25</td><td>21</td><td>84.00%</td><td>0</td><td>60.0</td></tr>
+<tr><td><a href="/boxscores/202404090NJD.html">4/9/2024</a></td><td><a href="/players/wolljo01.html">Joseph Woll</a></td><td><a href="/teams/TOR.html">TOR</a></td><td>@</td><td><a href="/teams/NJD.html">NJD</a></td><td>W</td><td>nan</td><td>2</td><td>20</td><td>18</td><td>90.00%</td><td>0</td><td>59.33</td></tr>
+<tr><td><a href="/boxscores/202404160FLA.html">4/16/2024</a></td><td><a href="/players/wolljo01.html">Joseph Woll</a></td><td><a href="/teams/TOR.html">TOR</a></td><td>@</td><td><a href="/teams/FLA.html">FLA</a></td><td>L</td><td>nan</td><td>4</td><td>41</td><td>37</td><td>90.20%</td><td>0</td><td>56.93</td></tr>
+</table>
+</div>
+<table id="scoring">
+<tr><th>Date</th><th>Team</th><th>Location</th><th>Opp</th><th>Result</th><th>Scorer</th><th>Assist1</th><th>Assist2</th><th>Goalie</th><th>Time</th></tr>
+<tr><td><a href="/boxscores/202310160TOR.html">10/16/2023</a></td><td><a href="/teams/CHI.html">CHI</a></td><td>@</td><td><a href="/teams/TOR.html">TOR</a></td><td>W</td><td><a href="/players/entwima01.html">MacKenzie Entwistle</a></td><td><a href="/players/athanan01.html">Andreas Athanasiou</a></td><td><a href="/players/katchbo01.html">Boris Katchouk</a></td><td><a href="/players/wolljo01.html">Joseph Woll</a></td><td>22.98</td></tr>
+<tr><td><a href="/boxscores/202310160TOR.html">10/16/2023</a></td><td><a href="/teams/CHI.html">CHI</a></td><td>@</td><td><a href="/teams/TOR.html">TOR</a></td><td>W</td><td><a href="/players/perryco01.html">Corey Perry</a></td><td><a href="/players/vlasial01.html">Alex Vlasic</a></td><td><a href="/players/jonesse01.html">Seth Jones</a></td><td><a href="/players/wolljo01.html">Joseph Woll</a></td><td>34.77</td></tr>
+<tr><td><a href="/boxscores/202310160TOR.html">10/16/2023</a></td><td><a href="/teams/CHI.html">CHI</a></td><td>@</td><td><a href="/teams/TOR.html">TOR</a></td><td>W</td><td><a href="/players/johnsty01.html">Tyler Johnson</a></td><td><a href="/players/athanan01.html">Andreas Athanasiou</a></td><td><a href="/players/korchke01.html">Kevin Korchinski</a></td><td><a href="/players/wolljo01.html">Joseph Woll</a></td><td>37.08</td></tr>
+<tr><td><a href="/boxscores/202310240WSH.html">10/24/2023</a></td><td><a href="/teams/WSH.html">WSH</a></td><td>vs</td><td><a href="/teams/TOR.html">TOR</a></td><td>L</td><td><a href="/players/ovechal01.html">Alex Ovechkin</a></td><td><a href="/players/carlsjo01.html">John Carlson</a></td><td><a href="/players/wilsoto01.html">Tom Wilson</a></td><td><a href="/players/wolljo01.html">Joseph Woll</a></td><td>39.82</td></tr>
+<tr><td><a href="/boxscores/202310260DAL.html">10/26/2023</a></td><td><a href="/teams/DAL.html">DAL</a></td><td>vs</td><td><a href="/teams/TOR.html">TOR</a></td><td>L</td><td><a href="/players/marchma01.html">Mason Marchment</a></td><td><a href="/players/duchema01.html">Matt Duchene</a></td><td><a href="/players/suterry01.html">Ryan Suter</a></td><td><a href="/players/wolljo01.html">Joseph Woll</a></td><td>31.28</td></tr>
+<tr><td><a href="/boxscores/202310310TOR.html">10/31/2023</a></td><td><a href="/teams/LAK.html">LAK</a></td><td>@</td><td><a href="/teams/TOR.html">TOR</a></td><td>W</td><td><a href="/players/engluan01.html">Andreas Englund</a></td><td><a href="/players/duboipi01.html">Pierre-Luc Dubois</a></td><td><a href="/players/--.html">--</a></td><td><a href="/players/wolljo01.html">Joseph Woll</a></td><td>6.63</td></tr>
+<tr><td><a href="/boxscores/202310310TOR.html">10/31/2023</a></td><td><a href="/teams/LAK.html">LAK</a></td><td>@</td><td><a href="/teams/TOR.html">TOR</a></td><td>W</td><td><a href="/players/danauph01.html">Phillip Danault</a></td><td><a href="/players/mooretr01.html">Trevor Moore</a></td><td><a href="/players/spencjo01.html">Jordan Spence</a></td><td><a href="/players/wolljo01.html">Joseph Woll</a></td><td>11.67</td></tr>
+<tr><td><a href="/boxscores/202310310TOR.html">10/31/2023</a></td><td><a href="/teams/LAK.html">LAK</a></td><td>@</td><td><a href="/teams/TOR.html">TOR</a></td><td>W</td><td><a href="/players/kaliyar01.html">Arthur Kaliyev</a></td><td><a href="/players/fialake01.html">Kevin Fiala</a></td><td><a href="/players/byfiequ01.html">Quinton Byfield</a></td><td><a href="/players/wolljo01.html">Joseph Woll</a></td><td>29.77</td></tr>
+<tr><td><a href="/boxscores/202310310TOR.html">10/31/2023</a></td><td><a href="/teams/LAK.html">LAK</a></td><td>@</td><td><a href="/teams/TOR.html">TOR</a></td><td>W</td><td><a href="/players/kempead01.html">Adrian Kempe</a></td><td><a href="/players/kopitan01.html">Anže Kopitar</a></td><td><a href="/players/byfiequ01.html">Quinton Byfield</a></td><td><a href="/players/wolljo01.html">Joseph Woll</a></td><td>52.22</td></tr>
+<tr><td><a href="/boxscores/202311040TOR.html">11/4/2023</a></td><td><a href="/teams/BUF.html">BUF</a></td><td>@</td><td><a href="/teams/TOR.html">TOR</a></td><td>W</td><td><a href="/players/peterjo01.html">John-Jason Peterka</a></td><td><a href="/players/powerow01.html">Owen Power</a></td><td><a href="/players/olofsvi01.html">Victor Olofsson</a></td><td><a href="/players/wolljo01.html">Joseph Woll</a></td><td>16.22</td></tr>
+<tr><td><a href="/boxscores/202311040TOR.html">11/4/2023</a></td><td><a href="/teams/BUF.html">BUF</a></td><td>@</td><td><a href="/teams/TOR.html">TOR</a></td><td>W</td><td><a href="/players/thompta01.html">Tage Thompson</a></td><td><a href="/players/nan.html">-</a></td><td><a href="/players/--.html">--</a></td><td><a href="/players/wolljo01.html">Joseph Woll</a></td><td>26.47</td></tr>
+<tr><td><a href="/boxscores/202311040TOR.html">11/4/2023</a></td><td><a href="/teams/BUF.html">BUF</a></td><td>@</td><td><a href="/teams/TOR.html">TOR</a></td><td>W</td><td><a href="/players/skinnje01.html">Jeff Skinner</a></td><td><a href="/players/johnsry03.html">Ryan Johnson</a></td><td><a href="/players/--.html">--</a></td><td><a href="/players/wolljo01.html">Joseph Woll</a></td><td>31.93</td></tr>
+<tr><td><a href="/boxscores/202311040TOR.html">11/4/2023</a></td><td><a href="/teams/BUF.html">BUF</a></td><td>@</td><td><a href="/teams/TOR.html">TOR</a></td><td>W</td><td><a href="/players/greenjo02.html">Jordan Greenway</a></td><td><a href="/players/mitteca01.html">Casey Mittelstadt</a></td><td><a href="/players/peterjo01.html">John-Jason Peterka</a></td><td><a href="/players/wolljo01.html">Joseph Woll</a></td><td>43.18</td></tr>
+<tr><td><a href="/boxscores/202311040TOR.html">11/4/2023</a></td><td><a href="/teams/BUF.html">BUF</a></td><td>@</td><td><a href="/teams/TOR.html">TOR</a></td><td>W</td><td><a href="/players/tuchal01.html">Alex Tuch</a></td><td><a href="/players/dahlira01.html">Rasmus Dahlin</a></td><td><a href="/players/cliftco01.html">Connor Clifton</a></td><td><a href="/players/wolljo01.html">Joseph Woll</a></td><td>52.8</td></tr>
+<tr><td><a href="/boxscores/202311060TOR.html">11/6/2023</a></td><td><a href="/teams/TBL.html">TBL</a></td><td>@</td><td><a href="/teams/TOR.html">TOR</a></td><td>L</td><td><a href="/players/hagelbr01.html">Brandon Hagel</a></td><td><a href="/players/dehaaca01.html">Calvin de Haan</a></td><td><a href="/players/cernaer01.html">Erik Černák</a></td><td><a href="/players/wolljo01.html">Joseph Woll</a></td><td>57.57</td></tr>
+<tr><td><a href="/boxscores/202311080TOR.html">11/8/2023</a></td><td><a href="/teams/OTT.html">OTT</a></td><td>@</td><td><a href="/teams/TOR.html">TOR</a></td><td>W</td><td><a href="/players/kubaldo01.html">Dominik Kubalík</a></td><td><a href="/players/klevety01.html">Tyler Kleven</a></td><td><a href="/players/jarvero01.html">Roby Jarventie</a></td><td><a href="/players/wolljo01.html">Joseph Woll</a></td><td>7.18</td></tr>
+<tr><td><a href="/boxscores/202311080TOR.html">11/8/2023</a></td><td><a href="/teams/OTT.html">OTT</a></td><td>@</td><td><a href="/teams/TOR.html">TOR</a></td><td>W</td><td><a href="/players/giroucl01.html">Claude Giroux</a></td><td><a href="/players/josepma01.html">Mathieu Joseph</a></td><td><a href="/players/stuetti02.html">Tim Stützle</a></td><td><a href="/players/wolljo01.html">Joseph Woll</a></td><td>21.07</td></tr>
+<tr><td><a href="/boxscores/202311080TOR.html">11/8/2023</a></td><td><a href="/teams/OTT.html">OTT</a></td><td>@</td><td><a href="/teams/TOR.html">TOR</a></td><td>W</td><td><a href="/players/chychja01.html">Jakob Chychrun</a></td><td><a href="/players/stuetti02.html">Tim Stützle</a></td><td><a href="/players/josepma01.html">Mathieu Joseph</a></td><td><a href="/players/wolljo01.html">Joseph Woll</a></td><td>34.1</td></tr>
+<tr><td><a href="/boxscores/202311080TOR.html">11/8/2023</a></td><td><a href="/teams/OTT.html">OTT</a></td><td>@</td><td><a href="/teams/TOR.html">TOR</a></td><td>W</td><td><a href="/players/kubaldo01.html">Dominik Kubalík</a></td><td><a href="/players/chychja01.html">Jakob Chychrun</a></td><td><a href="/players/tarasvl01.html">Vladimir Tarasenko</a></td><td><a href="/players/wolljo01.html">Joseph Woll</a></td><td>51.93</td></tr>
+<tr><td><a href="/boxscores/202311080TOR.html">11/8/2023</a></td><td><a href="/teams/OTT.html">OTT</a></td><td>@</td><td><a href="/teams/TOR.html">TOR</a></td><td>W</td><td><a href="/players/stuetti02.html">Tim Stützle</a></td><td><a href="/players/josepma01.html">Mathieu Joseph</a></td><td><a href="/players/giroucl01.html">Claude Giroux</a></td><td><a href="/players/wolljo01.html">Joseph Woll</a></td><td>52.68</td></tr>
+<tr><td><a href="/boxscores/202311080TOR.html">11/8/2023</a></td><td><a href="/teams/OTT.html">OTT</a></td><td>@</td><td><a href="/teams/TOR.html">TOR</a></td><td>W</td><td><a href="/players/giroucl01.html">Claude Giroux</a></td><td><a href="/players/stuetti02.html">Tim Stützle</a></td><td><a href="/players/--.html">--</a></td><td><a href="/players/wolljo01.html">Joseph Woll</a></td><td>55.12</td></tr>
+<tr><td><a href="/boxscores/202311100TOR.html">11/10/2023</a></td><td><a href="/teams/CGY.html">CGY</a></td><td>@</td><td><a href="/teams/TOR.html">TOR</a></td><td>L</td><td><a href="/players/zaryco01.html">Connor Zary</a></td><td><a href="/players/kadrina01.html">Nazem Kadri</a></td><td><a href="/players/--.html">--</a></td><td><a href="/players/wolljo01.html">Joseph Woll</a></td><td>7.03</td></tr>
+<tr><td><a href="/boxscores/202311100TOR.html">11/10/2023</a></td><td><a href="/teams/CGY.html">CGY</a></td><td>@</td><td><a href="/teams/TOR.html">TOR</a></td><td>L</td><td><a href="/players/zadorni01.html">Nikita Zadorov</a></td><td><a href="/players/mangian01.html">Andrew Mangiapane</a></td><td><a href="/players/huberjo01.html">Jonathan Huberdeau</a></td><td><a href="/players/wolljo01.html">Joseph Woll</a></td><td>25.55</td></tr>
+<tr><td><a href="/boxscores/202311100TOR.html">11/10/2023</a></td><td><a href="/teams/CGY.html">CGY</a></td><td>@</td><td><a href="/teams/TOR.html">TOR</a></td><td>L</td><td><a href="/players/greeraj01.html">A.J. Greer</a></td><td><a href="/players/weegama01.html">MacKenzie Weegar</a></td><td><a href="/players/anderra01.html">Rasmus Andersson</a></td><td><a href="/players/wolljo01.html">Joseph Woll</a></td><td>32.37</td></tr>
+<tr><td><a href="/boxscores/202311100TOR.html">11/10/2023</a></td><td><a href="/teams/CGY.html">CGY</a></td><td>@</td><td><a href="/teams/TOR.html">TOR</a></td><td>L</td><td><a href="/players/pospima01.html">Martin Pospisil</a></td><td><a href="/players/backlmi01.html">Mikael Backlund</a></td><td><a href="/players/colembl01.html">Blake Coleman</a></td><td><a href="/players/wolljo01.html">Joseph Woll</a></td><td>43.37</td></tr>
+<tr><td><a href="/boxscores/202311190MIN.html">11/19/2023</a></td><td><a href="/teams/MIN.html">MIN</a></td><td>vs</td><td><a href="/teams/TOR.html">TOR</a></td><td>L</td><td><a href="/players/merrijo01.html">Jonathon Merrill</a></td><td><a href="/players/rossima01.html">Marco Rossi</a></td><td><a href="/players/zuccama01.html">Mats Zuccarello</a></td><td><a href="/players/wolljo01.html">Joseph Woll</a></td><td>2.62</td></tr>
+<tr><td><a href="/boxscores/202311190MIN.html">11/19/2023</a></td><td><a href="/teams/MIN.html">MIN</a></td><td>vs</td><td><a href="/teams/TOR.html">TOR</a></td><td>L</td><td><a href="/players/middlja01.html">Jacob Middleton</a></td><td><a href="/players/foligma01.html">Marcus Foligno</a></td><td><a href="/players/eriksjo02.html">Joel Eriksson Ek</a></td><td><a href="/players/wolljo01.html">Joseph Woll</a></td><td>46.17</td></tr>
+<tr><td><a href="/boxscores/202311190MIN.html">11/19/2023</a></td><td><a href="/teams/MIN.html">MIN</a></td><td>vs</td><td><a href="/teams/TOR.html">TOR</a></td><td>L</td><td><a href="/players/zuccama01.html">Mats Zuccarello</a></td><td><a href="/players/faberbr01.html">Brock Faber</a></td><td><a href="/players/brodijo01.html">Jonas Brodin</a></td><td><a href="/players/wolljo01.html">Joseph Woll</a></td><td>48.7</td></tr>
+<tr><td><a href="/boxscores/202311250PIT.html">11/25/2023</a></td><td><a href="/teams/PIT.html">PIT</a></td><td>vs</td><td><a href="/teams/TOR.html">TOR</a></td><td>W</td><td><a href="/players/guentja01.html">Jake Guentzel</a></td><td><a href="/players/oconndr01.html">Drew O'Connor</a></td><td><a href="/players/crosbsi01.html">Sidney Crosby</a></td><td><a href="/players/wolljo01.html">Joseph Woll</a></td><td>4.45</td></tr>
+<tr><td><a href="/boxscores/202311250PIT.html">11/25/2023</a></td><td><a href="/teams/PIT.html">PIT</a></td><td>vs</td><td><a href="/teams/TOR.html">TOR</a></td><td>W</td><td><a href="/players/acciano01.html">Noel Acciari</a></td><td><a href="/players/nan.html">-</a></td><td><a href="/players/--.html">--</a></td><td><a href="/players/wolljo01.html">Joseph Woll</a></td><td>30.02</td></tr>
+<tr><td><a href="/boxscores/202311250PIT.html">11/25/2023</a></td><td><a href="/teams/PIT.html">PIT</a></td><td>vs</td><td><a href="/teams/TOR.html">TOR</a></td><td>W</td><td><a href="/players/karlser01.html">Erik Karlsson</a></td><td><a href="/players/letankr01.html">Kris Letang</a></td><td><a href="/players/carteje01.html">Jeff Carter</a></td><td><a href="/players/wolljo01.html">Joseph Woll</a></td><td>39.53</td></tr>
+<tr><td><a href="/boxscores/202311280TOR.html">11/28/2023</a></td><td><a href="/teams/FLA.html">FLA</a></td><td>@</td><td><a href="/teams/TOR.html">TOR</a></td><td>L</td><td><a href="/players/stenlke01.html">Kevin Stenlund</a></td><td><a href="/players/gadjojo01.html">Jonah Gadjovich</a></td><td><a href="/players/ekblaaa01.html">Aaron Ekblad</a></td><td><a href="/players/wolljo01.html">Joseph Woll</a></td><td>15.48</td></tr>
+<tr><td><a href="/boxscores/202311300TOR.html">11/30/2023</a></td><td><a href="/teams/SEA.html">SEA</a></td><td>@</td><td><a href="/teams/TOR.html">TOR</a></td><td>L</td><td><a href="/players/mccanja01.html">Jared McCann</a></td><td><a href="/players/bjorkol01.html">Oliver Bjorkstrand</a></td><td><a href="/players/eberljo01.html">Jordan Eberle</a></td><td><a href="/players/wolljo01.html">Joseph Woll</a></td><td>23.62</td></tr>
+<tr><td><a href="/boxscores/202311300TOR.html">11/30/2023</a></td><td><a href="/teams/SEA.html">SEA</a></td><td>@</td><td><a href="/teams/TOR.html">TOR</a></td><td>L</td><td><a href="/players/tolvaee01.html">Eeli Tolvanen</a></td><td><a href="/players/kartyty01.html">Tye Kartye</a></td><td><a href="/players/larssad01.html">Adam Larsson</a></td><td><a href="/players/wolljo01.html">Joseph Woll</a></td><td>46.25</td></tr>
+<tr><td><a href="/boxscores/202311300TOR.html">11/30/2023</a></td><td><a href="/teams/SEA.html">SEA</a></td><td>@</td><td><a href="/teams/TOR.html">TOR</a></td><td>L</td><td><a href="/players/mccanja01.html">Jared McCann</a></td><td><a href="/players/wennbal01.html">Alexander Wennberg</a></td><td><a href="/players/schulju01.html">Justin Schultz</a></td><td><a href="/players/wolljo01.html">Joseph Woll</a></td><td>53.4</td></tr>
+<tr><td><a href="/boxscores/202312020TOR.html">12/2/2023</a></td><td><a href="/teams/BOS.html">BOS</a></td><td>@</td><td><a href="/teams/TOR.html">TOR</a></td><td>W</td><td><a href="/players/pastrda01.html">David Pastrňák</a></td><td><a href="/players/carlobr01.html">Brandon Carlo</a></td><td><a href="/players/lindhha01.html">Hampus Lindholm</a></td><td><a href="/players/wolljo01.html">Joseph Woll</a></td><td>10.73</td></tr>
+<tr><td><a href="/boxscores/202312020TOR.html">12/2/2023</a></td><td><a href="/teams/BOS.html">BOS</a></td><td>@</td><td><a href="/teams/TOR.html">TOR</a></td><td>W</td><td><a href="/players/shattke01.html">Kevin Shattenkirk</a></td><td><a href="/players/pastrda01.html">David Pastrňák</a></td><td><a href="/players/debruja01.html">Jake DeBrusk</a></td><td><a href="/players/wolljo01.html">Joseph Woll</a></td><td>27.52</td></tr>
+<tr><td><a href="/boxscores/202312020TOR.html">12/2/2023</a></td><td><a href="/teams/BOS.html">BOS</a></td><td>@</td><td><a href="/teams/TOR.html">TOR</a></td><td>W</td><td><a href="/players/fredetr01.html">Trent Frederic</a></td><td><a href="/players/forbode01.html">Derek Forbort</a></td><td><a href="/players/geekimo01.html">Morgan Geekie</a></td><td><a href="/players/wolljo01.html">Joseph Woll</a></td><td>53.17</td></tr>
+<tr><td><a href="/boxscores/202312020TOR.html">12/2/2023</a></td><td><a href="/teams/BOS.html">BOS</a></td><td>@</td><td><a href="/teams/TOR.html">TOR</a></td><td>W</td><td><a href="/players/marchbr03.html">Brad Marchand</a></td><td><a href="/players/pastrda01.html">David Pastrňák</a></td><td><a href="/players/--.html">--</a></td><td><a href="/players/wolljo01.html">Joseph Woll</a></td><td>64.87</td></tr>
+<tr><td><a href="/boxscores/202312070OTT.html">12/7/2023</a></td><td><a href="/teams/OTT.html">OTT</a></td><td>vs</td><td><a href="/teams/TOR.html">TOR</a></td><td>L</td><td><a href="/players/norrijo01.html">Joshua Norris</a></td><td><a href="/players/chychja01.html">Jakob Chychrun</a></td><td><a href="/players/--.html">--</a></td><td><a href="/players/wolljo01.html">Joseph Woll</a></td><td>19.57</td></tr>
+<tr><td><a href="/boxscores/202312070OTT.html">12/7/2023</a></td><td><a href="/teams/OTT.html">OTT</a></td><td>vs</td><td><a href="/teams/TOR.html">TOR</a></td><td>L</td><td><a href="/players/bernaja01.html">Jacob Bernard-Docker</a></td><td><a href="/players/bathedr01.html">Drake Batherson</a></td><td><a href="/players/stuetti02.html">Tim Stützle</a></td><td><a href="/players/wolljo01.html">Joseph Woll</a></td><td>45.23</td></tr>
+<tr><td><a href="/boxscores/202402290TOR.html">2/29/2024</a></td><td><a href="/teams/ARI.html">ARI</a></td><td>@</td><td><a href="/teams/TOR.html">TOR</a></td><td>L</td><td><a href="/players/kerfoal01.html">Alexander Kerfoot</a></td><td><a href="/players/nan.html">-</a></td><td><a href="/players/--.html">--</a></td><td><a href="/players/wolljo01.html">Joseph Woll</a></td><td>34.65</td></tr>
+<tr><td><a href="/boxscores/202402290TOR.html">2/29/2024</a></td><td><a href="/teams/ARI.html">ARI</a></td><td>@</td><td><a href="/teams/TOR.html">TOR</a></td><td>L</td><td><a href="/players/coolelo01.html">Logan Cooley</a></td><td><a href="/players/maccema01.html">Matias Maccelli</a></td><td><a href="/players/valimju01.html">Juuso Välimäki</a></td><td><a href="/players/wolljo01.html">Joseph Woll</a></td><td>49.87</td></tr>
+<tr><td><a href="/boxscores/202403040TOR.html">3/4/2024</a></td><td><a href="/teams/BOS.html">BOS</a></td><td>@</td><td><a href="/teams/TOR.html">TOR</a></td><td>W</td><td><a href="/players/geekimo01.html">Morgan Geekie</a></td><td><a href="/players/pastrda01.html">David Pastrňák</a></td><td><a href="/players/lohrema01.html">Mason Lohrei</a></td><td><a href="/players/wolljo01.html">Joseph Woll</a></td><td>9.72</td></tr>
+<tr><td><a href="/boxscores/202403040TOR.html">3/4/2024</a></td><td><a href="/teams/BOS.html">BOS</a></td><td>@</td><td><a href="/teams/TOR.html">TOR</a></td><td>W</td><td><a href="/players/zachapa01.html">Pavel Zacha</a></td><td><a href="/players/pastrda01.html">David Pastrňák</a></td><td><a href="/players/debruja01.html">Jake DeBrusk</a></td><td><a href="/players/wolljo01.html">Joseph Woll</a></td><td>12.7</td></tr>
+<tr><td><a href="/boxscores/202403040TOR.html">3/4/2024</a></td><td><a href="/teams/BOS.html">BOS</a></td><td>@</td><td><a href="/teams/TOR.html">TOR</a></td><td>W</td><td><a href="/players/debruja01.html">Jake DeBrusk</a></td><td><a href="/players/coylech01.html">Charlie Coyle</a></td><td><a href="/players/marchbr03.html">Brad Marchand</a></td><td><a href="/players/wolljo01.html">Joseph Woll</a></td><td>25.12</td></tr>
+<tr><td><a href="/boxscores/202403040TOR.html">3/4/2024</a></td><td><a href="/teams/BOS.html">BOS</a></td><td>@</td><td><a href="/teams/TOR.html">TOR</a></td><td>W</td><td><a href="/players/zachapa01.html">Pavel Zacha</a></td><td><a href="/players/pastrda01.html">David Pastrňák</a></td><td><a href="/players/heineda01.html">Danton Heinen</a></td><td><a href="/players/wolljo01.html">Joseph Woll</a></td><td>50.58</td></tr>
+<tr><td><a href="/boxscores/202403070BOS.html">3/7/2024</a></td><td><a href="/teams/BOS.html">BOS</a></td><td>vs</td><td><a href="/teams/TOR.html">TOR</a></td><td>W</td><td><a href="/players/pastrda01.html">David Pastrňák</a></td><td><a href="/players/debruja01.html">Jake DeBrusk</a></td><td><a href="/players/marchbr03.html">Brad Marchand</a></td><td><a href="/players/wolljo01.html">Joseph Woll</a></td><td>5.62</td></tr>
+<tr><td><a href="/boxscores/202403070BOS.html">3/7/2024</a></td><td><a href="/teams/BOS.html">BOS</a></td><td>vs</td><td><a href="/teams/TOR.html">TOR</a></td><td>W</td><td><a href="/players/fredetr01.html">Trent Frederic</a></td><td><a href="/players/nan.html">-</a></td><td><a href="/players/--.html">--</a></td><td><a href="/players/wolljo01.html">Joseph Woll</a></td><td>24.27</td></tr>
+<tr><td><a href="/boxscores/202403070BOS.html">3/7/2024</a></td><td><a href="/teams/BOS.html">BOS</a></td><td>vs</td><td><a href="/teams/TOR.html">TOR</a></td><td>W</td><td><a href="/players/geekimo01.html">Morgan Geekie</a></td><td><a href="/players/shattke01.html">Kevin Shattenkirk</a></td><td><a href="/players/zachapa01.html">Pavel Zacha</a></td><td><a href="/players/wolljo01.html">Joseph Woll</a></td><td>37.27</td></tr>
+<tr><td><a href="/boxscores/202403070BOS.html">3/7/2024</a></td><td><a href="/teams/BOS.html">BOS</a></td><td>vs</td><td><a href="/teams/TOR.html">TOR</a></td><td>W</td><td><a href="/players/carlobr01.html">Brandon Carlo</a></td><td><a href="/players/marchbr03.html">Brad Marchand</a></td><td><a href="/players/debruja01.html">Jake DeBrusk</a></td><td><a href="/players/wolljo01.html">Joseph Woll</a></td><td>38.38</td></tr>
+<tr><td><a href="/boxscores/202403200WSH.html">3/20/2024</a></td><td><a href="/teams/WSH.html">WSH</a></td><td>vs</td><td><a href="/teams/TOR.html">TOR</a></td><td>L</td><td><a href="/players/ovechal01.html">Alex Ovechkin</a></td><td><a href="/players/carlsjo01.html">John Carlson</a></td><td><a href="/players/wilsoto01.html">Tom Wilson</a></td><td><a href="/players/wolljo01.html">Joseph Woll</a></td><td>29.95</td></tr>
+<tr><td><a href="/boxscores/202403200WSH.html">3/20/2024</a></td><td><a href="/teams/WSH.html">WSH</a></td><td>vs</td><td><a href="/teams/TOR.html">TOR</a></td><td>L</td><td><a href="/players/mcmicco01.html">Connor McMichael</a></td><td><a href="/players/sandira01.html">Rasmus Sandin</a></td><td><a href="/players/mirosiv01.html">Ivan Miroshnichenko</a></td><td><a href="/players/wolljo01.html">Joseph Woll</a></td><td>33.57</td></tr>
+<tr><td><a href="/boxscores/202403200WSH.html">3/20/2024</a></td><td><a href="/teams/WSH.html">WSH</a></td><td>vs</td><td><a href="/teams/TOR.html">TOR</a></td><td>L</td><td><a href="/players/ovechal01.html">Alex Ovechkin</a></td><td><a href="/players/stromdy01.html">Dylan Strome</a></td><td><a href="/players/--.html">--</a></td><td><a href="/players/wolljo01.html">Joseph Woll</a></td><td>46.7</td></tr>
+<tr><td><a href="/boxscores/202403240CAR.html">3/24/2024</a></td><td><a href="/teams/CAR.html">CAR</a></td><td>vs</td><td><a href="/teams/TOR.html">TOR</a></td><td>W</td><td><a href="/players/skjeibr01.html">Brady Skjei</a></td><td><a href="/players/staaljo01.html">Jordan Staal</a></td><td><a href="/players/martijo01.html">Jordan Martinook</a></td><td><a href="/players/wolljo01.html">Joseph Woll</a></td><td>1.1</td></tr>
+<tr><td><a href="/boxscores/202403240CAR.html">3/24/2024</a></td><td><a href="/teams/CAR.html">CAR</a></td><td>vs</td><td><a href="/teams/TOR.html">TOR</a></td><td>W</td><td><a href="/players/ahose01.html">Sebastian Aho</a></td><td><a href="/players/guentja01.html">Jake Guentzel</a></td><td><a href="/players/burnsbr01.html">Brent Burns</a></td><td><a href="/players/wolljo01.html">Joseph Woll</a></td><td>13.92</td></tr>
+<tr><td><a href="/boxscores/202403260TOR.html">3/26/2024</a></td><td><a href="/teams/NJD.html">NJD</a></td><td>@</td><td><a href="/teams/TOR.html">TOR</a></td><td>W</td><td><a href="/players/hughelu01.html">Luke Hughes</a></td><td><a href="/players/brattje01.html">Jesper Bratt</a></td><td><a href="/players/hischni01.html">Nico Hischier</a></td><td><a href="/players/wolljo01.html">Joseph Woll</a></td><td>4.42</td></tr>
+<tr><td><a href="/boxscores/202403260TOR.html">3/26/2024</a></td><td><a href="/teams/NJD.html">NJD</a></td><td>@</td><td><a href="/teams/TOR.html">TOR</a></td><td>W</td><td><a href="/players/hischni01.html">Nico Hischier</a></td><td><a href="/players/brattje01.html">Jesper Bratt</a></td><td><a href="/players/meierti01.html">Timo Meier</a></td><td><a href="/players/wolljo01.html">Joseph Woll</a></td><td>17.93</td></tr>
+<tr><td><a href="/boxscores/202403260TOR.html">3/26/2024</a></td><td><a href="/teams/NJD.html">NJD</a></td><td>@</td><td><a href="/teams/TOR.html">TOR</a></td><td>W</td><td><a href="/players/meierti01.html">Timo Meier</a></td><td><a href="/players/brattje01.html">Jesper Bratt</a></td><td><a href="/players/hischni01.html">Nico Hischier</a></td><td><a href="/players/wolljo01.html">Joseph Woll</a></td><td>25.58</td></tr>
+<tr><td><a href="/boxscores/202403260TOR.html">3/26/2024</a></td><td><a href="/teams/NJD.html">NJD</a></td><td>@</td><td><a href="/teams/TOR.html">TOR</a></td><td>W</td><td><a href="/players/willmma01.html">Maxwell Willman</a></td><td><a href="/players/lazarcu01.html">Curtis Lazar</a></td><td><a href="/players/tiernch01.html">Chris Tierney</a></td><td><a href="/players/wolljo01.html">Joseph Woll</a></td><td>33.08</td></tr>
+<tr><td><a href="/boxscores/202403260TOR.html">3/26/2024</a></td><td><a href="/teams/NJD.html">NJD</a></td><td>@</td><td><a href="/teams/TOR.html">TOR</a></td><td>W</td><td><a href="/players/hugheja03.html">Jack Hughes</a></td><td><a href="/players/lazarcu01.html">Curtis Lazar</a></td><td><a href="/players/--.html">--</a></td><td><a href="/players/wolljo01.html">Joseph Woll</a></td><td>56.78</td></tr>
+<tr><td><a href="/boxscores/202403280TOR.html">3/28/2024</a></td><td><a href="/teams/WSH.html">WSH</a></td><td>@</td><td><a href="/teams/TOR.html">TOR</a></td><td>L</td><td><a href="/players/dowdni01.html">Nic Dowd</a></td><td><a href="/players/jenseni02.html">Nick Jensen</a></td><td><a href="/players/lapiehe01.html">Hendrix Lapierre</a></td><td><a href="/players/wolljo01.html">Joseph Woll</a></td><td>25.45</td></tr>
+<tr><td><a href="/boxscores/202404030TOR.html">4/3/2024</a></td><td><a href="/teams/TBL.html">TBL</a></td><td>@</td><td><a href="/teams/TOR.html">TOR</a></td><td>W</td><td><a href="/players/hedmavi01.html">Victor Hedman</a></td><td><a href="/players/kucheni01.html">Nikita Kucherov</a></td><td><a href="/players/hagelbr01.html">Brandon Hagel</a></td><td><a href="/players/wolljo01.html">Joseph Woll</a></td><td>10.05</td></tr>
+<tr><td><a href="/boxscores/202404030TOR.html">4/3/2024</a></td><td><a href="/teams/TBL.html">TBL</a></td><td>@</td><td><a href="/teams/TOR.html">TOR</a></td><td>W</td><td><a href="/players/pointbr01.html">Brayden Point</a></td><td><a href="/players/kucheni01.html">Nikita Kucherov</a></td><td><a href="/players/duclaan01.html">Anthony Duclair</a></td><td><a href="/players/wolljo01.html">Joseph Woll</a></td><td>22.9</td></tr>
+<tr><td><a href="/boxscores/202404030TOR.html">4/3/2024</a></td><td><a href="/teams/TBL.html">TBL</a></td><td>@</td><td><a href="/teams/TOR.html">TOR</a></td><td>W</td><td><a href="/players/stamkst01.html">Steven Stamkos</a></td><td><a href="/players/hagelbr01.html">Brandon Hagel</a></td><td><a href="/players/fleurha01.html">Haydn Fleury</a></td><td><a href="/players/wolljo01.html">Joseph Woll</a></td><td>28.78</td></tr>
+<tr><td><a href="/boxscores/202404030TOR.html">4/3/2024</a></td><td><a href="/teams/TBL.html">TBL</a></td><td>@</td><td><a href="/teams/TOR.html">TOR</a></td><td>W</td><td><a href="/players/paulni01.html">Nick Paul</a></td><td><a href="/players/raddyda01.html">Darren Raddysh</a></td><td><a href="/players/kucheni01.html">Nikita Kucherov</a></td><td><a href="/players/wolljo01.html">Joseph Woll</a></td><td>54.32</td></tr>
+<tr><td><a href="/boxscores/202404090NJD.html">4/9/2024</a></td><td><a href="/teams/NJD.html">NJD</a></td><td>vs</td><td><a href="/teams/TOR.html">TOR</a></td><td>L</td><td><a href="/players/hischni01.html">Nico Hischier</a></td><td><a href="/players/merceda01.html">Dawson Mercer</a></td><td><a href="/players/smithbr05.html">Brendan Smith</a></td><td><a href="/players/wolljo01.html">Joseph Woll</a></td><td>14.42</td></tr>
+<tr><td><a href="/boxscores/202404090NJD.html">4/9/2024</a></td><td><a href="/teams/NJD.html">NJD</a></td><td>vs</td><td><a href="/teams/TOR.html">TOR</a></td><td>L</td><td><a href="/players/merceda01.html">Dawson Mercer</a></td><td><a href="/players/hischni01.html">Nico Hischier</a></td><td><a href="/players/--.html">--</a></td><td><a href="/players/wolljo01.html">Joseph Woll</a></td><td>25.28</td></tr>
+<tr><td><a href="/boxscores/202404160FLA.html">4/16/2024</a></td><td><a href="/teams/FLA.html">FLA</a></td><td>vs</td><td><a href="/teams/TOR.html">TOR</a></td><td>W</td><td><a href="/players/verhaca01.html">Carter Verhaeghe</a></td><td><a href="/players/bennesa01.html">Sam Bennett</a></td><td><a href="/players/tkachma01.html">Matthew Tkachuk</a></td><td><a href="/players/wolljo01.html">Joseph Woll</a></td><td>20.47</td></tr>
+<tr><td><a href="/boxscores/202404160FLA.html">4/16/2024</a></td><td><a href="/teams/FLA.html">FLA</a></td><td>vs</td><td><a href="/teams/TOR.html">TOR</a></td><td>W</td><td><a href="/players/bennesa01.html">Sam Bennett</a></td><td><a href="/players/forslgu02.html">Gustav Forsling</a></td><td><a href="/players/tkachma01.html">Matthew Tkachuk</a></td><td><a href="/players/wolljo01.html">Joseph Woll</a></td><td>30.53</td></tr>
+<tr><td><a href="/boxscores/202404160FLA.html">4/16/2024</a></td><td><a href="/teams/FLA.html">FLA</a></td><td>vs</td><td><a href="/teams/TOR.html">TOR</a></td><td>W</td><td><a href="/players/reinhsa01.html">Sam Reinhart</a></td><td><a href="/players/barkoal01.html">Aleksander Barkov</a></td><td><a href="/players/--.html">--</a></td><td><a href="/players/wolljo01.html">Joseph Woll</a></td><td>30.7</td></tr>
+<tr><td><a href="/boxscores/202404160FLA.html">4/16/2024</a></td><td><a href="/teams/FLA.html">FLA</a></td><td>vs</td><td><a href="/teams/TOR.html">TOR</a></td><td>W</td><td><a href="/players/montobr01.html">Brandon Montour</a></td><td><a href="/players/barkoal01.html">Aleksander Barkov</a></td><td><a href="/players/tarasvl01.html">Vladimir Tarasenko</a></td><td><a href="/players/wolljo01.html">Joseph Woll</a></td><td>33.7</td></tr>
+</table>
 
-    <!-- Search Bar -->
-    <div class="search-container">
-      <input type="text" id="searchInput" placeholder="Search players or teams..." oninput="searchEntities()" />
-      <ul id="suggestions"></ul> <!-- This will show the search suggestions -->
-    </div>
-  </nav>
-
-  <h1>Joseph Woll - Gamelogs</h1>
-  <table border="1">
-    <thead>
-      <tr>
-        <th>Season</th>
-        <th>Date</th>
-        <th>Team</th>
-        <th>Location</th>
-        <th>Opponent</th>
-        <th>Result</th>
-        <th>GA</th>
-        <th>SA</th>
-        <th>SV</th>
-        <th>SV%</th>
-        <th>TOI</th>
-      </tr>
-    </thead>
-    <tbody>
-    
-        <tr>
-          <td><a href="/schedule/2023-24.html">2023-24</a></td>
-          <td><a href="/boxscores/202310160TOR.html">10/16/2023</a></td>
-          <td><a href="/teams/TOR.html">TOR</a></td>
-          <td>vs</td>
-          <td><a href="/teams/CHI.html">CHI</a></td>
-          <td>L</td>
-          <td>3</td>
-          <td>30</td>
-          <td>27</td>
-          <td>90.00%</td>
-          <td>56.22</td>
-        </tr>
-        
-        <tr>
-          <td><a href="/schedule/2023-24.html">2023-24</a></td>
-          <td><a href="/boxscores/202310210TBL.html">10/21/2023</a></td>
-          <td><a href="/teams/TOR.html">TOR</a></td>
-          <td>@</td>
-          <td><a href="/teams/TBL.html">TBL</a></td>
-          <td>W</td>
-          <td>0</td>
-          <td>27</td>
-          <td>27</td>
-          <td>100.00%</td>
-          <td>50.6</td>
-        </tr>
-        
-        <tr>
-          <td><a href="/schedule/2023-24.html">2023-24</a></td>
-          <td><a href="/boxscores/202310240WSH.html">10/24/2023</a></td>
-          <td><a href="/teams/TOR.html">TOR</a></td>
-          <td>@</td>
-          <td><a href="/teams/WSH.html">WSH</a></td>
-          <td>W</td>
-          <td>1</td>
-          <td>38</td>
-          <td>37</td>
-          <td>97.00%</td>
-          <td>59.55</td>
-        </tr>
-        
-        <tr>
-          <td><a href="/schedule/2023-24.html">2023-24</a></td>
-          <td><a href="/boxscores/202310260DAL.html">10/26/2023</a></td>
-          <td><a href="/teams/TOR.html">TOR</a></td>
-          <td>@</td>
-          <td><a href="/teams/DAL.html">DAL</a></td>
-          <td>W</td>
-          <td>1</td>
-          <td>32</td>
-          <td>31</td>
-          <td>97.00%</td>
-          <td>59.93</td>
-        </tr>
-        
-        <tr>
-          <td><a href="/schedule/2023-24.html">2023-24</a></td>
-          <td><a href="/boxscores/202310310TOR.html">10/31/2023</a></td>
-          <td><a href="/teams/TOR.html">TOR</a></td>
-          <td>vs</td>
-          <td><a href="/teams/LAK.html">LAK</a></td>
-          <td>L</td>
-          <td>4</td>
-          <td>27</td>
-          <td>23</td>
-          <td>85.00%</td>
-          <td>59.97</td>
-        </tr>
-        
-        <tr>
-          <td><a href="/schedule/2023-24.html">2023-24</a></td>
-          <td><a href="/boxscores/202311040TOR.html">11/4/2023</a></td>
-          <td><a href="/teams/TOR.html">TOR</a></td>
-          <td>vs</td>
-          <td><a href="/teams/BUF.html">BUF</a></td>
-          <td>L</td>
-          <td>5</td>
-          <td>40</td>
-          <td>35</td>
-          <td>88.00%</td>
-          <td>59.38</td>
-        </tr>
-        
-        <tr>
-          <td><a href="/schedule/2023-24.html">2023-24</a></td>
-          <td><a href="/boxscores/202311060TOR.html">11/6/2023</a></td>
-          <td><a href="/teams/TOR.html">TOR</a></td>
-          <td>vs</td>
-          <td><a href="/teams/TBL.html">TBL</a></td>
-          <td>W</td>
-          <td>1</td>
-          <td>19</td>
-          <td>18</td>
-          <td>95.00%</td>
-          <td>45.55</td>
-        </tr>
-        
-        <tr>
-          <td><a href="/schedule/2023-24.html">2023-24</a></td>
-          <td><a href="/boxscores/202311080TOR.html">11/8/2023</a></td>
-          <td><a href="/teams/TOR.html">TOR</a></td>
-          <td>vs</td>
-          <td><a href="/teams/OTT.html">OTT</a></td>
-          <td>L</td>
-          <td>6</td>
-          <td>31</td>
-          <td>25</td>
-          <td>81.00%</td>
-          <td>60.0</td>
-        </tr>
-        
-        <tr>
-          <td><a href="/schedule/2023-24.html">2023-24</a></td>
-          <td><a href="/boxscores/202311100TOR.html">11/10/2023</a></td>
-          <td><a href="/teams/TOR.html">TOR</a></td>
-          <td>vs</td>
-          <td><a href="/teams/CGY.html">CGY</a></td>
-          <td>W</td>
-          <td>4</td>
-          <td>28</td>
-          <td>24</td>
-          <td>86.00%</td>
-          <td>65.0</td>
-        </tr>
-        
-        <tr>
-          <td><a href="/schedule/2023-24.html">2023-24</a></td>
-          <td><a href="/boxscores/202311190MIN.html">11/19/2023</a></td>
-          <td><a href="/teams/TOR.html">TOR</a></td>
-          <td>@</td>
-          <td><a href="/teams/MIN.html">MIN</a></td>
-          <td>W</td>
-          <td>3</td>
-          <td>36</td>
-          <td>33</td>
-          <td>92.00%</td>
-          <td>63.15</td>
-        </tr>
-        
-        <tr>
-          <td><a href="/schedule/2023-24.html">2023-24</a></td>
-          <td><a href="/boxscores/202311250PIT.html">11/25/2023</a></td>
-          <td><a href="/teams/TOR.html">TOR</a></td>
-          <td>@</td>
-          <td><a href="/teams/PIT.html">PIT</a></td>
-          <td>L</td>
-          <td>3</td>
-          <td>35</td>
-          <td>32</td>
-          <td>91.00%</td>
-          <td>57.28</td>
-        </tr>
-        
-        <tr>
-          <td><a href="/schedule/2023-24.html">2023-24</a></td>
-          <td><a href="/boxscores/202311280TOR.html">11/28/2023</a></td>
-          <td><a href="/teams/TOR.html">TOR</a></td>
-          <td>vs</td>
-          <td><a href="/teams/FLA.html">FLA</a></td>
-          <td>W</td>
-          <td>1</td>
-          <td>39</td>
-          <td>38</td>
-          <td>97.00%</td>
-          <td>65.0</td>
-        </tr>
-        
-        <tr>
-          <td><a href="/schedule/2023-24.html">2023-24</a></td>
-          <td><a href="/boxscores/202311300TOR.html">11/30/2023</a></td>
-          <td><a href="/teams/TOR.html">TOR</a></td>
-          <td>vs</td>
-          <td><a href="/teams/SEA.html">SEA</a></td>
-          <td>W</td>
-          <td>3</td>
-          <td>40</td>
-          <td>37</td>
-          <td>93.00%</td>
-          <td>64.8</td>
-        </tr>
-        
-        <tr>
-          <td><a href="/schedule/2023-24.html">2023-24</a></td>
-          <td><a href="/boxscores/202312020TOR.html">12/2/2023</a></td>
-          <td><a href="/teams/TOR.html">TOR</a></td>
-          <td>vs</td>
-          <td><a href="/teams/BOS.html">BOS</a></td>
-          <td>L-OT</td>
-          <td>4</td>
-          <td>37</td>
-          <td>33</td>
-          <td>89.00%</td>
-          <td>63.08</td>
-        </tr>
-        
-        <tr>
-          <td><a href="/schedule/2023-24.html">2023-24</a></td>
-          <td><a href="/boxscores/202312070OTT.html">12/7/2023</a></td>
-          <td><a href="/teams/TOR.html">TOR</a></td>
-          <td>@</td>
-          <td><a href="/teams/OTT.html">OTT</a></td>
-          <td>W</td>
-          <td>2</td>
-          <td>31</td>
-          <td>29</td>
-          <td>94.00%</td>
-          <td>50.37</td>
-        </tr>
-        
-        <tr>
-          <td><a href="/schedule/2023-24.html">2023-24</a></td>
-          <td><a href="/boxscores/202402290TOR.html">2/29/2024</a></td>
-          <td><a href="/teams/TOR.html">TOR</a></td>
-          <td>vs</td>
-          <td><a href="/teams/ARI.html">ARI</a></td>
-          <td>W</td>
-          <td>2</td>
-          <td>32</td>
-          <td>30</td>
-          <td>94.00%</td>
-          <td>60.0</td>
-        </tr>
-        
-        <tr>
-          <td><a href="/schedule/2023-24.html">2023-24</a></td>
-          <td><a href="/boxscores/202403040TOR.html">3/4/2024</a></td>
-          <td><a href="/teams/TOR.html">TOR</a></td>
-          <td>vs</td>
-          <td><a href="/teams/BOS.html">BOS</a></td>
-          <td>L</td>
-          <td>4</td>
-          <td>27</td>
-          <td>23</td>
-          <td>85.00%</td>
-          <td>58.38</td>
-        </tr>
-        
-        <tr>
-          <td><a href="/schedule/2023-24.html">2023-24</a></td>
-          <td><a href="/boxscores/202403070BOS.html">3/7/2024</a></td>
-          <td><a href="/teams/TOR.html">TOR</a></td>
-          <td>@</td>
-          <td><a href="/teams/BOS.html">BOS</a></td>
-          <td>L</td>
-          <td>4</td>
-          <td>25</td>
-          <td>21</td>
-          <td>84.00%</td>
-          <td>59.93</td>
-        </tr>
-        
-        <tr>
-          <td><a href="/schedule/2023-24.html">2023-24</a></td>
-          <td><a href="/boxscores/202403200WSH.html">3/20/2024</a></td>
-          <td><a href="/teams/TOR.html">TOR</a></td>
-          <td>@</td>
-          <td><a href="/teams/WSH.html">WSH</a></td>
-          <td>W</td>
-          <td>3</td>
-          <td>21</td>
-          <td>18</td>
-          <td>86.00%</td>
-          <td>60.0</td>
-        </tr>
-        
-        <tr>
-          <td><a href="/schedule/2023-24.html">2023-24</a></td>
-          <td><a href="/boxscores/202403240CAR.html">3/24/2024</a></td>
-          <td><a href="/teams/TOR.html">TOR</a></td>
-          <td>@</td>
-          <td><a href="/teams/CAR.html">CAR</a></td>
-          <td>L</td>
-          <td>2</td>
-          <td>43</td>
-          <td>41</td>
-          <td>95.00%</td>
-          <td>57.72</td>
-        </tr>
-        
-        <tr>
-          <td><a href="/schedule/2023-24.html">2023-24</a></td>
-          <td><a href="/boxscores/202403260TOR.html">3/26/2024</a></td>
-          <td><a href="/teams/TOR.html">TOR</a></td>
-          <td>vs</td>
-          <td><a href="/teams/NJD.html">NJD</a></td>
-          <td>L</td>
-          <td>5</td>
-          <td>24</td>
-          <td>19</td>
-          <td>79.00%</td>
-          <td>59.47</td>
-        </tr>
-        
-        <tr>
-          <td><a href="/schedule/2023-24.html">2023-24</a></td>
-          <td><a href="/boxscores/202403280TOR.html">3/28/2024</a></td>
-          <td><a href="/teams/TOR.html">TOR</a></td>
-          <td>vs</td>
-          <td><a href="/teams/WSH.html">WSH</a></td>
-          <td>W</td>
-          <td>1</td>
-          <td>24</td>
-          <td>23</td>
-          <td>96.00%</td>
-          <td>60.0</td>
-        </tr>
-        
-        <tr>
-          <td><a href="/schedule/2023-24.html">2023-24</a></td>
-          <td><a href="/boxscores/202404030TOR.html">4/3/2024</a></td>
-          <td><a href="/teams/TOR.html">TOR</a></td>
-          <td>vs</td>
-          <td><a href="/teams/TBL.html">TBL</a></td>
-          <td>L</td>
-          <td>4</td>
-          <td>25</td>
-          <td>21</td>
-          <td>84.00%</td>
-          <td>60.0</td>
-        </tr>
-        
-        <tr>
-          <td><a href="/schedule/2023-24.html">2023-24</a></td>
-          <td><a href="/boxscores/202404090NJD.html">4/9/2024</a></td>
-          <td><a href="/teams/TOR.html">TOR</a></td>
-          <td>@</td>
-          <td><a href="/teams/NJD.html">NJD</a></td>
-          <td>W</td>
-          <td>2</td>
-          <td>20</td>
-          <td>18</td>
-          <td>90.00%</td>
-          <td>59.33</td>
-        </tr>
-        
-        <tr>
-          <td><a href="/schedule/2023-24.html">2023-24</a></td>
-          <td><a href="/boxscores/202404160FLA.html">4/16/2024</a></td>
-          <td><a href="/teams/TOR.html">TOR</a></td>
-          <td>@</td>
-          <td><a href="/teams/FLA.html">FLA</a></td>
-          <td>L</td>
-          <td>4</td>
-          <td>41</td>
-          <td>37</td>
-          <td>90.00%</td>
-          <td>56.93</td>
-        </tr>
-        
-    </tbody>
-  </table>
+</main>
 </body>
 </html>
-    

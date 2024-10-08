@@ -1,147 +1,105 @@
-
-    <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Game 202311170ANA Boxscore</title>
-        <link rel="stylesheet" href="/assets/styles.css">
-        <script src="/assets/searchBar.js" defer></script>
-        <script src="/assets/tableSort.js"></script>
-        <style>
-            tr:hover {background-color: #F0FFF0;}
-        </style>
-    </head>
-    <body>
-        <nav id="navbar">
-            <a href="/">Home</a>
-            <a href="/players/">Players</a>
-            <a href="/teams/">Teams</a>
-            <a href="/leaders/">Leaders</a>
-            <a href="/probabilities/">Probabilities</a>
-            <a href="/boxscores/">Boxscores</a>
-            <a href="/schedule/">Schedule</a>
-
-            <div class="search-container">
-                <input type="text" id="searchInput" placeholder="Search players or teams..." oninput="searchEntities()" />
-                <ul id="suggestions"></ul>
-            </div>
-        </nav>
-
-        <main id="content">
-            <h1>Game 202311170ANA Boxscore</h1>
-
-            <h2>Skaters</h2>
-            <table id="202311170ANA_skaters" border="1">
-                <thead>
-                    <tr>
-                        <th>Date</th><th>Home Team</th><th>Away Team</th><th>Player</th><th>Team</th><th>G</th><th>A</th><th>PTS</th>
-                        <th>+/-</th><th>PIM</th><th>EVG</th><th>PPG</th><th>SHG</th><th>GWG</th><th>EV Assist</th><th>PP Assist</th>
-                        <th>SH Assist</th><th>SOG</th><th>S%</th><th>SHFT</th><th>TOI</th><th>iCF</th><th>SAT‑F</th><th>SAT‑A</th>
-                        <th>CF%</th><th>CRel%</th><th>ZSO</th><th>ZSD</th><th>oZS%</th><th>HIT</th><th>BLK</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr><td><a href="/boxscores/202311170ANA.html">11/17/2023</a></td><td><a href="/teams/ANA.html">ANA</a></td><td><a href="/teams/FLA.html">FLA</a></td><td><a href="/players/Aleksander Barkov.html">Aleksander Barkov</a></td><td><a href="/teams/FLA.html">FLA</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>2</td><td>0</td><td>17</td><td>12.92</td><td>3</td><td>21</td><td>9</td><td>70</td><td>19.5</td><td>5</td><td>5</td><td>50</td><td>1</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202311170ANA.html">11/17/2023</a></td><td><a href="/teams/ANA.html">ANA</a></td><td><a href="/teams/FLA.html">FLA</a></td><td><a href="/players/Sam Bennett.html">Sam Bennett</a></td><td><a href="/teams/FLA.html">FLA</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>4</td><td>0</td><td>24</td><td>18.67</td><td>7</td><td>23</td><td>19</td><td>54.8</td><td>0.2</td><td>9</td><td>9</td><td>50</td><td>2</td><td>1</td></tr>
-<tr><td><a href="/boxscores/202311170ANA.html">11/17/2023</a></td><td><a href="/teams/ANA.html">ANA</a></td><td><a href="/teams/FLA.html">FLA</a></td><td><a href="/players/Nick Cousins.html">Nick Cousins</a></td><td><a href="/teams/FLA.html">FLA</a></td><td>0</td><td>1</td><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>1</td><td>0</td><td>19</td><td>13.9</td><td>3</td><td>16</td><td>14</td><td>53.3</td><td>-1.7</td><td>7</td><td>3</td><td>70</td><td>1</td><td>1</td></tr>
-<tr><td><a href="/boxscores/202311170ANA.html">11/17/2023</a></td><td><a href="/teams/ANA.html">ANA</a></td><td><a href="/teams/FLA.html">FLA</a></td><td><a href="/players/Aaron Ekblad.html">Aaron Ekblad</a></td><td><a href="/teams/FLA.html">FLA</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>2</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>4</td><td>0</td><td>28</td><td>20.08</td><td>7</td><td>25</td><td>20</td><td>55.6</td><td>1.3</td><td>7</td><td>9</td><td>43.8</td><td>1</td><td>1</td></tr>
-<tr><td><a href="/boxscores/202311170ANA.html">11/17/2023</a></td><td><a href="/teams/ANA.html">ANA</a></td><td><a href="/teams/FLA.html">FLA</a></td><td><a href="/players/Oliver Ekman-Larsson.html">Oliver Ekman-Larsson</a></td><td><a href="/teams/FLA.html">FLA</a></td><td>1</td><td>0</td><td>1</td><td>1</td><td>0</td><td>1</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>1</td><td>100</td><td>23</td><td>17.98</td><td>4</td><td>27</td><td>20</td><td>57.4</td><td>4.1</td><td>11</td><td>3</td><td>78.6</td><td>1</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202311170ANA.html">11/17/2023</a></td><td><a href="/teams/ANA.html">ANA</a></td><td><a href="/teams/FLA.html">FLA</a></td><td><a href="/players/Gustav Forsling.html">Gustav Forsling</a></td><td><a href="/teams/FLA.html">FLA</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>2</td><td>0</td><td>27</td><td>19.68</td><td>2</td><td>22</td><td>20</td><td>52.4</td><td>-3.3</td><td>9</td><td>10</td><td>47.4</td><td>2</td><td>2</td></tr>
-<tr><td><a href="/boxscores/202311170ANA.html">11/17/2023</a></td><td><a href="/teams/ANA.html">ANA</a></td><td><a href="/teams/FLA.html">FLA</a></td><td><a href="/players/Jonah Gadjovich.html">Jonah Gadjovich</a></td><td><a href="/teams/FLA.html">FLA</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>2</td><td>0</td><td>11</td><td>6.33</td><td>4</td><td>12</td><td>4</td><td>75</td><td>23</td><td>1</td><td>1</td><td>50</td><td>2</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202311170ANA.html">11/17/2023</a></td><td><a href="/teams/ANA.html">ANA</a></td><td><a href="/teams/FLA.html">FLA</a></td><td><a href="/players/Dmitry Kulikov.html">Dmitry Kulikov</a></td><td><a href="/teams/FLA.html">FLA</a></td><td>0</td><td>0</td><td>0</td><td>1</td><td>2</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>18</td><td>12.32</td><td>1</td><td>13</td><td>13</td><td>50</td><td>-5.8</td><td>5</td><td>2</td><td>71.4</td><td>1</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202311170ANA.html">11/17/2023</a></td><td><a href="/teams/ANA.html">ANA</a></td><td><a href="/teams/FLA.html">FLA</a></td><td><a href="/players/Ryan Lomberg.html">Ryan Lomberg</a></td><td><a href="/teams/FLA.html">FLA</a></td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>15</td><td>8.3</td><td>0</td><td>13</td><td>8</td><td>61.9</td><td>8.5</td><td>1</td><td>3</td><td>25</td><td>0</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202311170ANA.html">11/17/2023</a></td><td><a href="/teams/ANA.html">ANA</a></td><td><a href="/teams/FLA.html">FLA</a></td><td><a href="/players/Anton Lundell.html">Anton Lundell</a></td><td><a href="/teams/FLA.html">FLA</a></td><td>0</td><td>2</td><td>2</td><td>2</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>2</td><td>0</td><td>0</td><td>4</td><td>0</td><td>23</td><td>16.85</td><td>4</td><td>17</td><td>24</td><td>41.5</td><td>-18.7</td><td>8</td><td>7</td><td>53.3</td><td>1</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202311170ANA.html">11/17/2023</a></td><td><a href="/teams/ANA.html">ANA</a></td><td><a href="/teams/FLA.html">FLA</a></td><td><a href="/players/Eetu Luostarinen.html">Eetu Luostarinen</a></td><td><a href="/teams/FLA.html">FLA</a></td><td>1</td><td>0</td><td>1</td><td>2</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>2</td><td>50</td><td>23</td><td>15.7</td><td>4</td><td>15</td><td>20</td><td>42.9</td><td>-15.8</td><td>7</td><td>6</td><td>53.8</td><td>2</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202311170ANA.html">11/17/2023</a></td><td><a href="/teams/ANA.html">ANA</a></td><td><a href="/teams/FLA.html">FLA</a></td><td><a href="/players/Niko Mikkola.html">Niko Mikkola</a></td><td><a href="/teams/FLA.html">FLA</a></td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>2</td><td>0</td><td>27</td><td>23.28</td><td>2</td><td>23</td><td>29</td><td>44.2</td><td>-16.7</td><td>6</td><td>11</td><td>35.3</td><td>2</td><td>1</td></tr>
-<tr><td><a href="/boxscores/202311170ANA.html">11/17/2023</a></td><td><a href="/teams/ANA.html">ANA</a></td><td><a href="/teams/FLA.html">FLA</a></td><td><a href="/players/Brandon Montour.html">Brandon Montour</a></td><td><a href="/teams/FLA.html">FLA</a></td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>25</td><td>24.03</td><td>5</td><td>31</td><td>24</td><td>56.4</td><td>2.8</td><td>7</td><td>11</td><td>38.9</td><td>1</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202311170ANA.html">11/17/2023</a></td><td><a href="/teams/ANA.html">ANA</a></td><td><a href="/teams/FLA.html">FLA</a></td><td><a href="/players/Sam Reinhart.html">Sam Reinhart</a></td><td><a href="/teams/FLA.html">FLA</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>24</td><td>21.5</td><td>6</td><td>25</td><td>25</td><td>50</td><td>-7.3</td><td>7</td><td>8</td><td>46.7</td><td>1</td><td>2</td></tr>
-<tr><td><a href="/boxscores/202311170ANA.html">11/17/2023</a></td><td><a href="/teams/ANA.html">ANA</a></td><td><a href="/teams/FLA.html">FLA</a></td><td><a href="/players/Evan Rodrigues.html">Evan Rodrigues</a></td><td><a href="/teams/FLA.html">FLA</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>3</td><td>0</td><td>21</td><td>17.03</td><td>8</td><td>23</td><td>14</td><td>62.2</td><td>10.2</td><td>9</td><td>7</td><td>56.3</td><td>2</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202311170ANA.html">11/17/2023</a></td><td><a href="/teams/ANA.html">ANA</a></td><td><a href="/teams/FLA.html">FLA</a></td><td><a href="/players/Kevin Stenlund.html">Kevin Stenlund</a></td><td><a href="/teams/FLA.html">FLA</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>2</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>17</td><td>9.78</td><td>3</td><td>13</td><td>10</td><td>56.5</td><td>2.2</td><td>1</td><td>4</td><td>20</td><td>1</td><td>1</td></tr>
-<tr><td><a href="/boxscores/202311170ANA.html">11/17/2023</a></td><td><a href="/teams/ANA.html">ANA</a></td><td><a href="/teams/FLA.html">FLA</a></td><td><a href="/players/Matthew Tkachuk.html">Matthew Tkachuk</a></td><td><a href="/teams/FLA.html">FLA</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>3</td><td>0</td><td>23</td><td>20.62</td><td>6</td><td>35</td><td>20</td><td>63.6</td><td>14.8</td><td>12</td><td>10</td><td>54.5</td><td>1</td><td>2</td></tr>
-<tr><td><a href="/boxscores/202311170ANA.html">11/17/2023</a></td><td><a href="/teams/ANA.html">ANA</a></td><td><a href="/teams/FLA.html">FLA</a></td><td><a href="/players/Carter Verhaeghe.html">Carter Verhaeghe</a></td><td><a href="/teams/FLA.html">FLA</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>3</td><td>0</td><td>19</td><td>16.37</td><td>7</td><td>26</td><td>16</td><td>61.9</td><td>10.4</td><td>7</td><td>3</td><td>70</td><td>0</td><td>1</td></tr>
-<tr><td><a href="/boxscores/202311170ANA.html">11/17/2023</a></td><td><a href="/teams/ANA.html">ANA</a></td><td><a href="/teams/FLA.html">FLA</a></td><td><a href="/players/Anthony Stolarz.html">Anthony Stolarz</a></td><td><a href="/teams/FLA.html">FLA</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>4</td><td>59.83</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202311170ANA.html">11/17/2023</a></td><td><a href="/teams/ANA.html">ANA</a></td><td><a href="/teams/FLA.html">FLA</a></td><td><a href="/players/--.html">--</a></td><td><a href="/teams/--.html">--</a></td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td></tr>
-<tr><td><a href="/boxscores/202311170ANA.html">11/17/2023</a></td><td><a href="/teams/ANA.html">ANA</a></td><td><a href="/teams/FLA.html">FLA</a></td><td><a href="/players/Sam Carrick.html">Sam Carrick</a></td><td><a href="/teams/ANA.html">ANA</a></td><td>0</td><td>0</td><td>0</td><td>-1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>23</td><td>14.63</td><td>2</td><td>17</td><td>27</td><td>38.6</td><td>-9.8</td><td>5</td><td>8</td><td>38.5</td><td>5</td><td>2</td></tr>
-<tr><td><a href="/boxscores/202311170ANA.html">11/17/2023</a></td><td><a href="/teams/ANA.html">ANA</a></td><td><a href="/teams/FLA.html">FLA</a></td><td><a href="/players/Cam Fowler.html">Cam Fowler</a></td><td><a href="/teams/ANA.html">ANA</a></td><td>0</td><td>1</td><td>1</td><td>-1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>1</td><td>0</td><td>29</td><td>22.35</td><td>6</td><td>31</td><td>26</td><td>54.4</td><td>15.4</td><td>12</td><td>6</td><td>66.7</td><td>0</td><td>1</td></tr>
-<tr><td><a href="/boxscores/202311170ANA.html">11/17/2023</a></td><td><a href="/teams/ANA.html">ANA</a></td><td><a href="/teams/FLA.html">FLA</a></td><td><a href="/players/Benoit-Olivier Groulx.html">Benoit-Olivier Groulx</a></td><td><a href="/teams/ANA.html">ANA</a></td><td>0</td><td>0</td><td>0</td><td>-1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>18</td><td>12.32</td><td>2</td><td>7</td><td>31</td><td>18.4</td><td>-37</td><td>0</td><td>10</td><td>0</td><td>3</td><td>2</td></tr>
-<tr><td><a href="/boxscores/202311170ANA.html">11/17/2023</a></td><td><a href="/teams/ANA.html">ANA</a></td><td><a href="/teams/FLA.html">FLA</a></td><td><a href="/players/Radko Gudas.html">Radko Gudas</a></td><td><a href="/teams/ANA.html">ANA</a></td><td>0</td><td>0</td><td>0</td><td>-1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>2</td><td>0</td><td>27</td><td>23.05</td><td>6</td><td>25</td><td>33</td><td>43.1</td><td>-3.8</td><td>5</td><td>11</td><td>31.3</td><td>5</td><td>4</td></tr>
-<tr><td><a href="/boxscores/202311170ANA.html">11/17/2023</a></td><td><a href="/teams/ANA.html">ANA</a></td><td><a href="/teams/FLA.html">FLA</a></td><td><a href="/players/Adam Henrique.html">Adam Henrique</a></td><td><a href="/teams/ANA.html">ANA</a></td><td>0</td><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>6</td><td>0</td><td>24</td><td>20.35</td><td>9</td><td>30</td><td>16</td><td>65.2</td><td>29.7</td><td>7</td><td>7</td><td>50</td><td>0</td><td>2</td></tr>
-<tr><td><a href="/boxscores/202311170ANA.html">11/17/2023</a></td><td><a href="/teams/ANA.html">ANA</a></td><td><a href="/teams/FLA.html">FLA</a></td><td><a href="/players/Ross Johnston.html">Ross Johnston</a></td><td><a href="/teams/ANA.html">ANA</a></td><td>0</td><td>0</td><td>0</td><td>-1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>10</td><td>7.28</td><td>1</td><td>5</td><td>18</td><td>21.7</td><td>-28.3</td><td>2</td><td>2</td><td>50</td><td>0</td><td>2</td></tr>
-<tr><td><a href="/boxscores/202311170ANA.html">11/17/2023</a></td><td><a href="/teams/ANA.html">ANA</a></td><td><a href="/teams/FLA.html">FLA</a></td><td><a href="/players/Max Jones.html">Max Jones</a></td><td><a href="/teams/ANA.html">ANA</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>3</td><td>0</td><td>19</td><td>14.2</td><td>4</td><td>13</td><td>17</td><td>43.3</td><td>-2.6</td><td>8</td><td>5</td><td>61.5</td><td>1</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202311170ANA.html">11/17/2023</a></td><td><a href="/teams/ANA.html">ANA</a></td><td><a href="/teams/FLA.html">FLA</a></td><td><a href="/players/Alex Killorn.html">Alex Killorn</a></td><td><a href="/teams/ANA.html">ANA</a></td><td>0</td><td>0</td><td>0</td><td>-1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>22</td><td>17.73</td><td>1</td><td>10</td><td>12</td><td>45.5</td><td>0.2</td><td>11</td><td>7</td><td>61.1</td><td>1</td><td>1</td></tr>
-<tr><td><a href="/boxscores/202311170ANA.html">11/17/2023</a></td><td><a href="/teams/ANA.html">ANA</a></td><td><a href="/teams/FLA.html">FLA</a></td><td><a href="/players/Jackson LaCombe.html">Jackson LaCombe</a></td><td><a href="/teams/ANA.html">ANA</a></td><td>0</td><td>0</td><td>0</td><td>-1</td><td>2</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>2</td><td>0</td><td>26</td><td>16.62</td><td>2</td><td>17</td><td>22</td><td>43.6</td><td>-2.4</td><td>6</td><td>6</td><td>50</td><td>0</td><td>2</td></tr>
-<tr><td><a href="/boxscores/202311170ANA.html">11/17/2023</a></td><td><a href="/teams/ANA.html">ANA</a></td><td><a href="/teams/FLA.html">FLA</a></td><td><a href="/players/Ilya Lyubushkin.html">Ilya Lyubushkin</a></td><td><a href="/teams/ANA.html">ANA</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>2</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>24</td><td>17.13</td><td>1</td><td>12</td><td>28</td><td>30</td><td>-21.5</td><td>5</td><td>8</td><td>38.5</td><td>0</td><td>5</td></tr>
-<tr><td><a href="/boxscores/202311170ANA.html">11/17/2023</a></td><td><a href="/teams/ANA.html">ANA</a></td><td><a href="/teams/FLA.html">FLA</a></td><td><a href="/players/Brock McGinn.html">Brock McGinn</a></td><td><a href="/teams/ANA.html">ANA</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>14</td><td>9.48</td><td>0</td><td>7</td><td>20</td><td>25.9</td><td>-24.1</td><td>2</td><td>2</td><td>50</td><td>2</td><td>2</td></tr>
-<tr><td><a href="/boxscores/202311170ANA.html">11/17/2023</a></td><td><a href="/teams/ANA.html">ANA</a></td><td><a href="/teams/FLA.html">FLA</a></td><td><a href="/players/Mason McTavish.html">Mason McTavish</a></td><td><a href="/teams/ANA.html">ANA</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>2</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>22</td><td>16.32</td><td>2</td><td>13</td><td>12</td><td>52</td><td>8.1</td><td>13</td><td>5</td><td>72.2</td><td>0</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202311170ANA.html">11/17/2023</a></td><td><a href="/teams/ANA.html">ANA</a></td><td><a href="/teams/FLA.html">FLA</a></td><td><a href="/players/Pavel Mintyukov.html">Pavel Mintyukov</a></td><td><a href="/teams/ANA.html">ANA</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>23</td><td>19.03</td><td>1</td><td>15</td><td>24</td><td>38.5</td><td>-9.5</td><td>9</td><td>7</td><td>56.3</td><td>0</td><td>3</td></tr>
-<tr><td><a href="/boxscores/202311170ANA.html">11/17/2023</a></td><td><a href="/teams/ANA.html">ANA</a></td><td><a href="/teams/FLA.html">FLA</a></td><td><a href="/players/Jakob Silfverberg.html">Jakob Silfverberg</a></td><td><a href="/teams/ANA.html">ANA</a></td><td>0</td><td>0</td><td>0</td><td>-1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>2</td><td>0</td><td>19</td><td>13.7</td><td>5</td><td>25</td><td>18</td><td>58.1</td><td>18.5</td><td>4</td><td>4</td><td>50</td><td>0</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202311170ANA.html">11/17/2023</a></td><td><a href="/teams/ANA.html">ANA</a></td><td><a href="/teams/FLA.html">FLA</a></td><td><a href="/players/Ryan Strome.html">Ryan Strome</a></td><td><a href="/teams/ANA.html">ANA</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>2</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>7</td><td>0</td><td>23</td><td>16.28</td><td>8</td><td>29</td><td>10</td><td>74.4</td><td>40.4</td><td>9</td><td>3</td><td>75</td><td>2</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202311170ANA.html">11/17/2023</a></td><td><a href="/teams/ANA.html">ANA</a></td><td><a href="/teams/FLA.html">FLA</a></td><td><a href="/players/Troy Terry.html">Troy Terry</a></td><td><a href="/teams/ANA.html">ANA</a></td><td>0</td><td>0</td><td>0</td><td>-1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>20</td><td>17.97</td><td>1</td><td>15</td><td>13</td><td>53.6</td><td>10.4</td><td>8</td><td>8</td><td>50</td><td>0</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202311170ANA.html">11/17/2023</a></td><td><a href="/teams/ANA.html">ANA</a></td><td><a href="/teams/FLA.html">FLA</a></td><td><a href="/players/Urho Vaakanainen.html">Urho Vaakanainen</a></td><td><a href="/teams/ANA.html">ANA</a></td><td>0</td><td>0</td><td>0</td><td>-1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>23</td><td>16.4</td><td>3</td><td>17</td><td>19</td><td>47.2</td><td>2.5</td><td>4</td><td>9</td><td>30.8</td><td>0</td><td>1</td></tr>
-<tr><td><a href="/boxscores/202311170ANA.html">11/17/2023</a></td><td><a href="/teams/ANA.html">ANA</a></td><td><a href="/teams/FLA.html">FLA</a></td><td><a href="/players/Frank Vatrano.html">Frank Vatrano</a></td><td><a href="/teams/ANA.html">ANA</a></td><td>1</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>5</td><td>20</td><td>26</td><td>19.3</td><td>9</td><td>28</td><td>16</td><td>63.6</td><td>26.8</td><td>9</td><td>5</td><td>64.3</td><td>5</td><td>2</td></tr>
-<tr><td><a href="/boxscores/202311170ANA.html">11/17/2023</a></td><td><a href="/teams/ANA.html">ANA</a></td><td><a href="/teams/FLA.html">FLA</a></td><td><a href="/players/John Gibson.html">John Gibson</a></td><td><a href="/teams/ANA.html">ANA</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>3</td><td>57.85</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202311170ANA.html">11/17/2023</a></td><td><a href="/teams/ANA.html">ANA</a></td><td><a href="/teams/FLA.html">FLA</a></td><td><a href="/players/--.html">--</a></td><td><a href="/teams/--.html">--</a></td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td></tr>
-
-                </tbody>
-            </table>
-
-            <h2>Goalies</h2>
-            <table id="202311170ANA_goalies" border="1">
-                <thead>
-                    <tr>
-                        <th>Home Team</th><th>Away Team</th><th>Goalie</th><th>Team</th><th>DEC</th><th>GA</th><th>SA</th><th>SV</th>
-                        <th>SV%</th><th>SO</th><th>PIM</th><th>Goalie TOI</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr><td><a href="/teams/ANA.html">ANA</a></td><td><a href="/teams/FLA.html">FLA</a></td><td><a href="/players/stolaan01.html">Anthony Stolarz</a></td><td><a href="/teams/FLA.html">FLA</a></td><td>W</td><td>1</td><td>35</td><td>34</td><td>0.971</td><td>0</td><td>0</td><td>59:50:00</td></tr>
-<tr><td><a href="/teams/ANA.html">ANA</a></td><td><a href="/teams/FLA.html">FLA</a></td><td><a href="/players/gibsojo02.html">John Gibson</a></td><td><a href="/teams/ANA.html">ANA</a></td><td>L</td><td>2</td><td>35</td><td>33</td><td>0.943</td><td>0</td><td>0</td><td>57:51:00</td></tr>
-
-                </tbody>
-            </table>
-
-            <h2>Scoring</h2>
-            <table id="202311170ANA_scoring" border="1">
-                <thead>
-                    <tr>
-                        <th>Home Team</th><th>Away Team</th><th>Period</th><th>Time</th><th>Team</th><th>Info</th>
-                        <th>Scorer</th><th>Assist1</th><th>Assist2</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr><td><a href="/teams/ANA.html">ANA</a></td><td><a href="/teams/FLA.html">FLA</a></td><td>1st Period</td><td>1st Period</td><td><a href="/teams/1st Period.html">1st Period</a></td><td>1st Period</td><td><a href="/players/1st Period.html">1st Period</a></td><td><a href="/players/1st Period.html">1st Period</a></td><td><a href="/players/1st Period.html">1st Period</a></td></tr>
-<tr><td><a href="/teams/ANA.html">ANA</a></td><td><a href="/teams/FLA.html">FLA</a></td><td>1st Period</td><td>14:50</td><td><a href="/teams/FLA.html">FLA</a></td><td>--</td><td><a href="/players/Eetu Luostarinen.html">Eetu Luostarinen</a></td><td><a href="/players/Anton Lundell.html">Anton Lundell</a></td><td><a href="/players/Anton Lundell.html">Anton Lundell</a></td></tr>
-<tr><td><a href="/teams/ANA.html">ANA</a></td><td><a href="/teams/FLA.html">FLA</a></td><td>1st Period</td><td>18:06</td><td><a href="/teams/FLA.html">FLA</a></td><td>--</td><td><a href="/players/Oliver Ekman-Larsson.html">Oliver Ekman-Larsson</a></td><td><a href="/players/Anton Lundell.html">Anton Lundell</a></td><td><a href="/players/Nick Cousins.html">Nick Cousins</a></td></tr>
-<tr><td><a href="/teams/ANA.html">ANA</a></td><td><a href="/teams/FLA.html">FLA</a></td><td>3rd Period</td><td>3rd Period</td><td><a href="/teams/3rd Period.html">3rd Period</a></td><td>3rd Period</td><td><a href="/players/3rd Period.html">3rd Period</a></td><td><a href="/players/3rd Period.html">3rd Period</a></td><td><a href="/players/3rd Period.html">3rd Period</a></td></tr>
-<tr><td><a href="/teams/ANA.html">ANA</a></td><td><a href="/teams/FLA.html">FLA</a></td><td>3rd Period</td><td>7:39</td><td><a href="/teams/ANA.html">ANA</a></td><td>PP</td><td><a href="/players/Frank Vatrano.html">Frank Vatrano</a></td><td><a href="/players/Adam Henrique.html">Adam Henrique</a></td><td><a href="/players/Cam Fowler.html">Cam Fowler</a></td></tr>
-
-                </tbody>
-            </table>
-
-            <h2>Penalties</h2>
-            <table id="202311170ANA_penalties" border="1">
-                <thead>
-                    <tr>
-                        <th>Home Team</th><th>Away Team</th><th>Period</th><th>Time</th><th>Team</th><th>Player</th>
-                        <th>Penalty</th><th>PIM</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr><td><a href="/teams/ANA.html">ANA</a></td><td><a href="/teams/FLA.html">FLA</a></td><td>1st Period</td><td>1st Period</td><td><a href="/teams/1st Period.html">1st Period</a></td><td><a href="/players/1st Period.html">1st Period</a></td><td>1st Period</td><td>1st Period</td></tr>
-<tr><td><a href="/teams/ANA.html">ANA</a></td><td><a href="/teams/FLA.html">FLA</a></td><td>1st Period</td><td>5:10</td><td><a href="/teams/FLA.html">FLA</a></td><td><a href="/players/Dmitry Kulikov.html">Dmitry Kulikov</a></td><td>Interference</td><td>2 min</td></tr>
-<tr><td><a href="/teams/ANA.html">ANA</a></td><td><a href="/teams/FLA.html">FLA</a></td><td>1st Period</td><td>19:58</td><td><a href="/teams/ANA.html">ANA</a></td><td><a href="/players/Ryan Strome.html">Ryan Strome</a></td><td>Slashing</td><td>2 min</td></tr>
-<tr><td><a href="/teams/ANA.html">ANA</a></td><td><a href="/teams/FLA.html">FLA</a></td><td>2nd Period</td><td>2nd Period</td><td><a href="/teams/2nd Period.html">2nd Period</a></td><td><a href="/players/2nd Period.html">2nd Period</a></td><td>2nd Period</td><td>2nd Period</td></tr>
-<tr><td><a href="/teams/ANA.html">ANA</a></td><td><a href="/teams/FLA.html">FLA</a></td><td>2nd Period</td><td>7:43</td><td><a href="/teams/ANA.html">ANA</a></td><td><a href="/players/Ilya Lyubushkin.html">Ilya Lyubushkin</a></td><td>Cross Checking</td><td>2 min</td></tr>
-<tr><td><a href="/teams/ANA.html">ANA</a></td><td><a href="/teams/FLA.html">FLA</a></td><td>2nd Period</td><td>10:09</td><td><a href="/teams/FLA.html">FLA</a></td><td><a href="/players/Kevin Stenlund.html">Kevin Stenlund</a></td><td>Interference</td><td>2 min</td></tr>
-<tr><td><a href="/teams/ANA.html">ANA</a></td><td><a href="/teams/FLA.html">FLA</a></td><td>3rd Period</td><td>3rd Period</td><td><a href="/teams/3rd Period.html">3rd Period</a></td><td><a href="/players/3rd Period.html">3rd Period</a></td><td>3rd Period</td><td>3rd Period</td></tr>
-<tr><td><a href="/teams/ANA.html">ANA</a></td><td><a href="/teams/FLA.html">FLA</a></td><td>3rd Period</td><td>0:57</td><td><a href="/teams/ANA.html">ANA</a></td><td><a href="/players/Jackson LaCombe.html">Jackson LaCombe</a></td><td>Tripping</td><td>2 min</td></tr>
-<tr><td><a href="/teams/ANA.html">ANA</a></td><td><a href="/teams/FLA.html">FLA</a></td><td>3rd Period</td><td>3:24</td><td><a href="/teams/ANA.html">ANA</a></td><td><a href="/players/Mason McTavish.html">Mason McTavish</a></td><td>Roughing</td><td>2 min</td></tr>
-<tr><td><a href="/teams/ANA.html">ANA</a></td><td><a href="/teams/FLA.html">FLA</a></td><td>3rd Period</td><td>6:50</td><td><a href="/teams/FLA.html">FLA</a></td><td><a href="/players/Aaron Ekblad.html">Aaron Ekblad</a></td><td>Tripping</td><td>2 min</td></tr>
-
-                </tbody>
-            </table>
-        </main>
-    </body>
-    </html>
-    
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Florida Panthers at Anaheim Ducks: November 17, 2023</title>
+<link rel="stylesheet" href="/assets/styles.css">
+<script src="/assets/searchBar.js"></script>
+<script src="/assets/tableSort.js"></script>
+</head>
+<body>
+<nav id="navbar">
+<ul>
+<li><a href="/">Home</a></li>
+<li><a href="/players/">Players</a></li>
+<li><a href="/teams/">Teams</a></li>
+<li><a href="/probabilities/">Probabilities</a></li>
+<li><a href="/boxscores/">Boxscores</a></li>
+<li><a href="/versus/">Head to Head Stats</a></li>
+<li><a href="/leaders/">Leaders</a></li>
+<li><a href="/seasons/2025/schedule.html">Schedule and Results</a></li>
+<li><a href="/seasons/2025/standings.html">Current Standings</a></li>
+<li><a href="/seasons/2025/rosters.html">Team Rosters</a></li>
+<li>
+<input type="text" id="searchBar" placeholder="Search for players or teams..." oninput="performSearch()" autocomplete="off">
+<div id="searchResults" class="dropdown"></div>
+<button id="searchButton" onclick="handleSearch()">Search</button>
+</li>
+</ul>
+</nav>
+<main id="content">
+<div class="scorebox">
+<div class="team"><div><a href="/teams/FLA.html">FLA</a></div><div class="score">2</div></div>
+<div class="team"><div><a href="/teams/ANA.html">ANA</a></div><div class="score">1</div></div>
+<div class="date">November 17, 2023</div>
+</div>
+<table id="FLA_skaters">
+<tr><th>Team</th><th>Player</th><th>G</th><th>A</th><th>PTS</th><th>SOG</th><th>HIT</th><th>BLK</th><th>TOI</th><th>PIM</th><th>SAT-F</th><th>SAT-A</th><th>CF%</th><th>CRel%</th></tr>
+<tr><td><a href="/teams/FLA.html">FLA</a></td><td><a href="/players/ekblaaa01.html">Aaron Ekblad</a></td><td>0</td><td>0</td><td>0</td><td>4</td><td>1</td><td>1</td><td>20.08</td><td>2</td><td>25</td><td>20</td><td>55.60%</td><td>1.30%</td></tr>
+<tr><td><a href="/teams/FLA.html">FLA</a></td><td><a href="/players/barkoal01.html">Aleksander Barkov</a></td><td>0</td><td>0</td><td>0</td><td>2</td><td>1</td><td>0</td><td>12.92</td><td>0</td><td>21</td><td>9</td><td>70.00%</td><td>19.50%</td></tr>
+<tr><td><a href="/teams/FLA.html">FLA</a></td><td><a href="/players/lundean01.html">Anton Lundell</a></td><td>0</td><td>2</td><td>2</td><td>4</td><td>1</td><td>0</td><td>16.85</td><td>0</td><td>17</td><td>24</td><td>41.50%</td><td>-18.70%</td></tr>
+<tr><td><a href="/teams/FLA.html">FLA</a></td><td><a href="/players/montobr01.html">Brandon Montour</a></td><td>0</td><td>0</td><td>0</td><td>1</td><td>1</td><td>0</td><td>24.03</td><td>0</td><td>31</td><td>24</td><td>56.40%</td><td>2.80%</td></tr>
+<tr><td><a href="/teams/FLA.html">FLA</a></td><td><a href="/players/verhaca01.html">Carter Verhaeghe</a></td><td>0</td><td>0</td><td>0</td><td>3</td><td>0</td><td>1</td><td>16.37</td><td>0</td><td>26</td><td>16</td><td>61.90%</td><td>10.40%</td></tr>
+<tr><td><a href="/teams/FLA.html">FLA</a></td><td><a href="/players/kulikdm01.html">Dmitry Kulikov</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>12.32</td><td>2</td><td>13</td><td>13</td><td>50.00%</td><td>-5.80%</td></tr>
+<tr><td><a href="/teams/FLA.html">FLA</a></td><td><a href="/players/luostee01.html">Eetu Luostarinen</a></td><td>1</td><td>0</td><td>1</td><td>2</td><td>2</td><td>0</td><td>15.7</td><td>0</td><td>15</td><td>20</td><td>42.90%</td><td>-15.80%</td></tr>
+<tr><td><a href="/teams/FLA.html">FLA</a></td><td><a href="/players/rodriev01.html">Evan Rodrigues</a></td><td>0</td><td>0</td><td>0</td><td>3</td><td>2</td><td>0</td><td>17.03</td><td>0</td><td>23</td><td>14</td><td>62.20%</td><td>10.20%</td></tr>
+<tr><td><a href="/teams/FLA.html">FLA</a></td><td><a href="/players/forslgu02.html">Gustav Forsling</a></td><td>0</td><td>0</td><td>0</td><td>2</td><td>2</td><td>2</td><td>19.68</td><td>0</td><td>22</td><td>20</td><td>52.40%</td><td>-3.30%</td></tr>
+<tr><td><a href="/teams/FLA.html">FLA</a></td><td><a href="/players/gadjojo01.html">Jonah Gadjovich</a></td><td>0</td><td>0</td><td>0</td><td>2</td><td>2</td><td>0</td><td>6.33</td><td>0</td><td>12</td><td>4</td><td>75.00%</td><td>23.00%</td></tr>
+<tr><td><a href="/teams/FLA.html">FLA</a></td><td><a href="/players/stenlke01.html">Kevin Stenlund</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>1</td><td>9.78</td><td>2</td><td>13</td><td>10</td><td>56.50%</td><td>2.20%</td></tr>
+<tr><td><a href="/teams/FLA.html">FLA</a></td><td><a href="/players/tkachma01.html">Matthew Tkachuk</a></td><td>0</td><td>0</td><td>0</td><td>3</td><td>1</td><td>2</td><td>20.62</td><td>0</td><td>35</td><td>20</td><td>63.60%</td><td>14.80%</td></tr>
+<tr><td><a href="/teams/FLA.html">FLA</a></td><td><a href="/players/cousini01.html">Nick Cousins</a></td><td>0</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>13.9</td><td>0</td><td>16</td><td>14</td><td>53.30%</td><td>-1.70%</td></tr>
+<tr><td><a href="/teams/FLA.html">FLA</a></td><td><a href="/players/mikkoni01.html">Niko Mikkola</a></td><td>0</td><td>0</td><td>0</td><td>2</td><td>2</td><td>1</td><td>23.28</td><td>0</td><td>23</td><td>29</td><td>44.20%</td><td>-16.70%</td></tr>
+<tr><td><a href="/teams/FLA.html">FLA</a></td><td><a href="/players/ekmanol01.html">Oliver Ekman-Larsson</a></td><td>1</td><td>0</td><td>1</td><td>1</td><td>1</td><td>0</td><td>17.98</td><td>0</td><td>27</td><td>20</td><td>57.40%</td><td>4.10%</td></tr>
+<tr><td><a href="/teams/FLA.html">FLA</a></td><td><a href="/players/lombery01.html">Ryan Lomberg</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>8.3</td><td>0</td><td>13</td><td>8</td><td>61.90%</td><td>8.50%</td></tr>
+<tr><td><a href="/teams/FLA.html">FLA</a></td><td><a href="/players/bennesa01.html">Sam Bennett</a></td><td>0</td><td>0</td><td>0</td><td>4</td><td>2</td><td>1</td><td>18.67</td><td>0</td><td>23</td><td>19</td><td>54.80%</td><td>0.20%</td></tr>
+<tr><td><a href="/teams/FLA.html">FLA</a></td><td><a href="/players/reinhsa01.html">Sam Reinhart</a></td><td>0</td><td>0</td><td>0</td><td>1</td><td>1</td><td>2</td><td>21.5</td><td>0</td><td>25</td><td>25</td><td>50.00%</td><td>-7.30%</td></tr>
+</table>
+<table id="ANA_skaters">
+<tr><th>Team</th><th>Player</th><th>G</th><th>A</th><th>PTS</th><th>SOG</th><th>HIT</th><th>BLK</th><th>TOI</th><th>PIM</th><th>SAT-F</th><th>SAT-A</th><th>CF%</th><th>CRel%</th></tr>
+<tr><td><a href="/teams/ANA.html">ANA</a></td><td><a href="/players/henriad01.html">Adam Henrique</a></td><td>0</td><td>1</td><td>1</td><td>6</td><td>0</td><td>2</td><td>20.35</td><td>0</td><td>30</td><td>16</td><td>65.20%</td><td>29.70%</td></tr>
+<tr><td><a href="/teams/ANA.html">ANA</a></td><td><a href="/players/killoal01.html">Alex Killorn</a></td><td>0</td><td>0</td><td>0</td><td>1</td><td>1</td><td>1</td><td>17.73</td><td>0</td><td>10</td><td>12</td><td>45.50%</td><td>0.20%</td></tr>
+<tr><td><a href="/teams/ANA.html">ANA</a></td><td><a href="/players/groulbe01.html">Benoit-Olivier Groulx</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>3</td><td>2</td><td>12.32</td><td>0</td><td>7</td><td>31</td><td>18.40%</td><td>-37.00%</td></tr>
+<tr><td><a href="/teams/ANA.html">ANA</a></td><td><a href="/players/mcginbr01.html">Brock McGinn</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>2</td><td>2</td><td>9.48</td><td>0</td><td>7</td><td>20</td><td>25.90%</td><td>-24.10%</td></tr>
+<tr><td><a href="/teams/ANA.html">ANA</a></td><td><a href="/players/fowleca01.html">Cam Fowler</a></td><td>0</td><td>1</td><td>1</td><td>1</td><td>0</td><td>1</td><td>22.35</td><td>0</td><td>31</td><td>26</td><td>54.40%</td><td>15.40%</td></tr>
+<tr><td><a href="/teams/ANA.html">ANA</a></td><td><a href="/players/vatrafr01.html">Frank Vatrano</a></td><td>1</td><td>0</td><td>1</td><td>5</td><td>5</td><td>2</td><td>19.3</td><td>0</td><td>28</td><td>16</td><td>63.60%</td><td>26.80%</td></tr>
+<tr><td><a href="/teams/ANA.html">ANA</a></td><td><a href="/players/lyubuil01.html">Ilya Lyubushkin</a></td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>5</td><td>17.13</td><td>2</td><td>12</td><td>28</td><td>30.00%</td><td>-21.50%</td></tr>
+<tr><td><a href="/teams/ANA.html">ANA</a></td><td><a href="/players/lacomja01.html">Jackson LaCombe</a></td><td>0</td><td>0</td><td>0</td><td>2</td><td>0</td><td>2</td><td>16.62</td><td>2</td><td>17</td><td>22</td><td>43.60%</td><td>-2.40%</td></tr>
+<tr><td><a href="/teams/ANA.html">ANA</a></td><td><a href="/players/silfvja01.html">Jakob Silfverberg</a></td><td>0</td><td>0</td><td>0</td><td>2</td><td>0</td><td>0</td><td>13.7</td><td>0</td><td>25</td><td>18</td><td>58.10%</td><td>18.50%</td></tr>
+<tr><td><a href="/teams/ANA.html">ANA</a></td><td><a href="/players/mctavma01.html">Mason McTavish</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>16.32</td><td>2</td><td>13</td><td>12</td><td>52.00%</td><td>8.10%</td></tr>
+<tr><td><a href="/teams/ANA.html">ANA</a></td><td><a href="/players/jonesma03.html">Max Jones</a></td><td>0</td><td>0</td><td>0</td><td>3</td><td>1</td><td>0</td><td>14.2</td><td>0</td><td>13</td><td>17</td><td>43.30%</td><td>-2.60%</td></tr>
+<tr><td><a href="/teams/ANA.html">ANA</a></td><td><a href="/players/mintypa01.html">Pavel Mintyukov</a></td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>3</td><td>19.03</td><td>0</td><td>15</td><td>24</td><td>38.50%</td><td>-9.50%</td></tr>
+<tr><td><a href="/teams/ANA.html">ANA</a></td><td><a href="/players/gudasra01.html">Radko Gudas</a></td><td>0</td><td>0</td><td>0</td><td>2</td><td>5</td><td>4</td><td>23.05</td><td>0</td><td>25</td><td>33</td><td>43.10%</td><td>-3.80%</td></tr>
+<tr><td><a href="/teams/ANA.html">ANA</a></td><td><a href="/players/johnsro02.html">Ross Johnston</a></td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>2</td><td>7.28</td><td>0</td><td>5</td><td>18</td><td>21.70%</td><td>-28.30%</td></tr>
+<tr><td><a href="/teams/ANA.html">ANA</a></td><td><a href="/players/stromry01.html">Ryan Strome</a></td><td>0</td><td>0</td><td>0</td><td>7</td><td>2</td><td>0</td><td>16.28</td><td>2</td><td>29</td><td>10</td><td>74.40%</td><td>40.40%</td></tr>
+<tr><td><a href="/teams/ANA.html">ANA</a></td><td><a href="/players/carrisa01.html">Sam Carrick</a></td><td>0</td><td>0</td><td>0</td><td>1</td><td>5</td><td>2</td><td>14.63</td><td>0</td><td>17</td><td>27</td><td>38.60%</td><td>-9.80%</td></tr>
+<tr><td><a href="/teams/ANA.html">ANA</a></td><td><a href="/players/terrytr01.html">Troy Terry</a></td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>17.97</td><td>0</td><td>15</td><td>13</td><td>53.60%</td><td>10.40%</td></tr>
+<tr><td><a href="/teams/ANA.html">ANA</a></td><td><a href="/players/vaakaur01.html">Urho Vaakanainen</a></td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>1</td><td>16.4</td><td>0</td><td>17</td><td>19</td><td>47.20%</td><td>2.50%</td></tr>
+</table>
+<table id="FLA_goalies">
+<tr><th>Team</th><th>Goalie</th><th>DEC</th><th>GA</th><th>SA</th><th>SV</th><th>SV%</th><th>SO</th><th>PIM</th><th>TOI</th></tr>
+<tr><td><a href="/teams/FLA.html">FLA</a></td><td><a href="/players/stolaan01.html">Anthony Stolarz</a></td><td>W</td><td>1</td><td>35</td><td>34</td><td>97.10%</td><td>0</td><td>0</td><td>59.83</td></tr>
+</table>
+<table id="ANA_goalies">
+<tr><th>Team</th><th>Goalie</th><th>DEC</th><th>GA</th><th>SA</th><th>SV</th><th>SV%</th><th>SO</th><th>PIM</th><th>TOI</th></tr>
+<tr><td><a href="/teams/ANA.html">ANA</a></td><td><a href="/players/gibsojo02.html">John Gibson</a></td><td>L</td><td>2</td><td>35</td><td>33</td><td>94.30%</td><td>0</td><td>0</td><td>57.85</td></tr>
+</table>
+<table id="scoring">
+<tr><th>Team</th><th>Time</th><th>Info</th><th>Scorer</th><th>Assist 1</th><th>Assist 2</th></tr>
+<tr><td><a href="/teams/FLA.html">FLA</a></td><td>14.83</td><td>--</td><td><a href="/players/luostee01.html">Eetu Luostarinen</a></td><td><a href="/players/lundean01.html">Anton Lundell</a></td><td><a href="/players/lundean01.html">Anton Lundell</a></td></tr>
+<tr><td><a href="/teams/FLA.html">FLA</a></td><td>18.1</td><td>--</td><td><a href="/players/ekmanol01.html">Oliver Ekman-Larsson</a></td><td><a href="/players/lundean01.html">Anton Lundell</a></td><td><a href="/players/cousini01.html">Nick Cousins</a></td></tr>
+<tr><td><a href="/teams/ANA.html">ANA</a></td><td>47.65</td><td>PP</td><td><a href="/players/vatrafr01.html">Frank Vatrano</a></td><td><a href="/players/henriad01.html">Adam Henrique</a></td><td><a href="/players/fowleca01.html">Cam Fowler</a></td></tr>
+</table>
+<table id="penalties">
+<tr><th>Team</th><th>Time</th><th>Player</th><th>Penalty</th><th>PIM</th></tr>
+<tr><td><a href="/teams/FLA.html">FLA</a></td><td>5.17</td><td><a href="/players/kulikdm01.html">Dmitry Kulikov</a></td><td>Interference</td><td>2 min</td></tr>
+<tr><td><a href="/teams/ANA.html">ANA</a></td><td>19.97</td><td><a href="/players/stromry01.html">Ryan Strome</a></td><td>Slashing</td><td>2 min</td></tr>
+<tr><td><a href="/teams/ANA.html">ANA</a></td><td>27.72</td><td><a href="/players/lyubuil01.html">Ilya Lyubushkin</a></td><td>Cross Checking</td><td>2 min</td></tr>
+<tr><td><a href="/teams/FLA.html">FLA</a></td><td>30.15</td><td><a href="/players/stenlke01.html">Kevin Stenlund</a></td><td>Interference</td><td>2 min</td></tr>
+<tr><td><a href="/teams/ANA.html">ANA</a></td><td>40.95</td><td><a href="/players/lacomja01.html">Jackson LaCombe</a></td><td>Tripping</td><td>2 min</td></tr>
+<tr><td><a href="/teams/ANA.html">ANA</a></td><td>43.4</td><td><a href="/players/mctavma01.html">Mason McTavish</a></td><td>Roughing</td><td>2 min</td></tr>
+<tr><td><a href="/teams/FLA.html">FLA</a></td><td>46.83</td><td><a href="/players/ekblaaa01.html">Aaron Ekblad</a></td><td>Tripping</td><td>2 min</td></tr>
+</table>
+</main>
+</body>
+</html>

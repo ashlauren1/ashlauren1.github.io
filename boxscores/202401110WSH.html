@@ -1,143 +1,102 @@
-
-    <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Game 202401110WSH Boxscore</title>
-        <link rel="stylesheet" href="/assets/styles.css">
-        <script src="/assets/searchBar.js" defer></script>
-        <script src="/assets/tableSort.js"></script>
-        <style>
-            tr:hover {background-color: #F0FFF0;}
-        </style>
-    </head>
-    <body>
-        <nav id="navbar">
-            <a href="/">Home</a>
-            <a href="/players/">Players</a>
-            <a href="/teams/">Teams</a>
-            <a href="/leaders/">Leaders</a>
-            <a href="/probabilities/">Probabilities</a>
-            <a href="/boxscores/">Boxscores</a>
-            <a href="/schedule/">Schedule</a>
-
-            <div class="search-container">
-                <input type="text" id="searchInput" placeholder="Search players or teams..." oninput="searchEntities()" />
-                <ul id="suggestions"></ul>
-            </div>
-        </nav>
-
-        <main id="content">
-            <h1>Game 202401110WSH Boxscore</h1>
-
-            <h2>Skaters</h2>
-            <table id="202401110WSH_skaters" border="1">
-                <thead>
-                    <tr>
-                        <th>Date</th><th>Home Team</th><th>Away Team</th><th>Player</th><th>Team</th><th>G</th><th>A</th><th>PTS</th>
-                        <th>+/-</th><th>PIM</th><th>EVG</th><th>PPG</th><th>SHG</th><th>GWG</th><th>EV Assist</th><th>PP Assist</th>
-                        <th>SH Assist</th><th>SOG</th><th>S%</th><th>SHFT</th><th>TOI</th><th>iCF</th><th>SAT‑F</th><th>SAT‑A</th>
-                        <th>CF%</th><th>CRel%</th><th>ZSO</th><th>ZSD</th><th>oZS%</th><th>HIT</th><th>BLK</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr><td><a href="/boxscores/202401110WSH.html">1/11/2024</a></td><td><a href="/teams/WSH.html">WSH</a></td><td><a href="/teams/SEA.html">SEA</a></td><td><a href="/players/Matthew Beniers.html">Matthew Beniers</a></td><td><a href="/teams/SEA.html">SEA</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>20</td><td>16.87</td><td>2</td><td>14</td><td>17</td><td>45.2</td><td>-6.9</td><td>6</td><td>1</td><td>85.7</td><td>0</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202401110WSH.html">1/11/2024</a></td><td><a href="/teams/WSH.html">WSH</a></td><td><a href="/teams/SEA.html">SEA</a></td><td><a href="/players/Oliver Bjorkstrand.html">Oliver Bjorkstrand</a></td><td><a href="/teams/SEA.html">SEA</a></td><td>0</td><td>1</td><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>2</td><td>0</td><td>18</td><td>15.68</td><td>8</td><td>18</td><td>13</td><td>58.1</td><td>10.2</td><td>4</td><td>2</td><td>66.7</td><td>1</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202401110WSH.html">1/11/2024</a></td><td><a href="/teams/WSH.html">WSH</a></td><td><a href="/teams/SEA.html">SEA</a></td><td><a href="/players/William Borgen.html">William Borgen</a></td><td><a href="/teams/SEA.html">SEA</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>2</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>24</td><td>19.57</td><td>1</td><td>16</td><td>21</td><td>43.2</td><td>-10.2</td><td>3</td><td>9</td><td>25</td><td>2</td><td>2</td></tr>
-<tr><td><a href="/boxscores/202401110WSH.html">1/11/2024</a></td><td><a href="/teams/WSH.html">WSH</a></td><td><a href="/teams/SEA.html">SEA</a></td><td><a href="/players/André Burakovsky.html">André Burakovsky</a></td><td><a href="/teams/SEA.html">SEA</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>17</td><td>13.57</td><td>1</td><td>10</td><td>14</td><td>41.7</td><td>-10.8</td><td>4</td><td>8</td><td>33.3</td><td>1</td><td>1</td></tr>
-<tr><td><a href="/boxscores/202401110WSH.html">1/11/2024</a></td><td><a href="/teams/WSH.html">WSH</a></td><td><a href="/teams/SEA.html">SEA</a></td><td><a href="/players/Brian Dumoulin.html">Brian Dumoulin</a></td><td><a href="/teams/SEA.html">SEA</a></td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>21</td><td>16.45</td><td>4</td><td>26</td><td>13</td><td>66.7</td><td>23.7</td><td>6</td><td>2</td><td>75</td><td>1</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202401110WSH.html">1/11/2024</a></td><td><a href="/teams/WSH.html">WSH</a></td><td><a href="/teams/SEA.html">SEA</a></td><td><a href="/players/Vince Dunn.html">Vince Dunn</a></td><td><a href="/teams/SEA.html">SEA</a></td><td>0</td><td>0</td><td>0</td><td>2</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>6</td><td>0</td><td>28</td><td>23.43</td><td>7</td><td>23</td><td>24</td><td>48.9</td><td>-2.4</td><td>8</td><td>5</td><td>61.5</td><td>0</td><td>1</td></tr>
-<tr><td><a href="/boxscores/202401110WSH.html">1/11/2024</a></td><td><a href="/teams/WSH.html">WSH</a></td><td><a href="/teams/SEA.html">SEA</a></td><td><a href="/players/Jordan Eberle.html">Jordan Eberle</a></td><td><a href="/teams/SEA.html">SEA</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>20</td><td>17.25</td><td>3</td><td>16</td><td>15</td><td>51.6</td><td>1.6</td><td>6</td><td>1</td><td>85.7</td><td>0</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202401110WSH.html">1/11/2024</a></td><td><a href="/teams/WSH.html">WSH</a></td><td><a href="/teams/SEA.html">SEA</a></td><td><a href="/players/Yanni Gourde.html">Yanni Gourde</a></td><td><a href="/teams/SEA.html">SEA</a></td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>3</td><td>0</td><td>19</td><td>17.07</td><td>6</td><td>23</td><td>11</td><td>67.6</td><td>23.6</td><td>4</td><td>2</td><td>66.7</td><td>2</td><td>1</td></tr>
-<tr><td><a href="/boxscores/202401110WSH.html">1/11/2024</a></td><td><a href="/teams/WSH.html">WSH</a></td><td><a href="/teams/SEA.html">SEA</a></td><td><a href="/players/Tye Kartye.html">Tye Kartye</a></td><td><a href="/teams/SEA.html">SEA</a></td><td>1</td><td>0</td><td>1</td><td>1</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>100</td><td>18</td><td>12.62</td><td>2</td><td>8</td><td>14</td><td>36.4</td><td>-17</td><td>3</td><td>7</td><td>30</td><td>1</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202401110WSH.html">1/11/2024</a></td><td><a href="/teams/WSH.html">WSH</a></td><td><a href="/teams/SEA.html">SEA</a></td><td><a href="/players/Adam Larsson.html">Adam Larsson</a></td><td><a href="/teams/SEA.html">SEA</a></td><td>1</td><td>1</td><td>2</td><td>2</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>1</td><td>100</td><td>28</td><td>24.45</td><td>4</td><td>24</td><td>30</td><td>44.4</td><td>-10.5</td><td>8</td><td>7</td><td>53.3</td><td>1</td><td>2</td></tr>
-<tr><td><a href="/boxscores/202401110WSH.html">1/11/2024</a></td><td><a href="/teams/WSH.html">WSH</a></td><td><a href="/teams/SEA.html">SEA</a></td><td><a href="/players/Jared McCann.html">Jared McCann</a></td><td><a href="/teams/SEA.html">SEA</a></td><td>0</td><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>19</td><td>13.02</td><td>1</td><td>9</td><td>14</td><td>39.1</td><td>-13.8</td><td>4</td><td>8</td><td>33.3</td><td>1</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202401110WSH.html">1/11/2024</a></td><td><a href="/teams/WSH.html">WSH</a></td><td><a href="/teams/SEA.html">SEA</a></td><td><a href="/players/Jamie Oleksiak.html">Jamie Oleksiak</a></td><td><a href="/teams/SEA.html">SEA</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>24</td><td>20.53</td><td>2</td><td>17</td><td>26</td><td>39.5</td><td>-16.6</td><td>3</td><td>11</td><td>21.4</td><td>0</td><td>2</td></tr>
-<tr><td><a href="/boxscores/202401110WSH.html">1/11/2024</a></td><td><a href="/teams/WSH.html">WSH</a></td><td><a href="/teams/SEA.html">SEA</a></td><td><a href="/players/Justin Schultz.html">Justin Schultz</a></td><td><a href="/teams/SEA.html">SEA</a></td><td>1</td><td>0</td><td>1</td><td>1</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>100</td><td>21</td><td>14.12</td><td>5</td><td>19</td><td>9</td><td>67.9</td><td>22.5</td><td>7</td><td>2</td><td>77.8</td><td>0</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202401110WSH.html">1/11/2024</a></td><td><a href="/teams/WSH.html">WSH</a></td><td><a href="/teams/SEA.html">SEA</a></td><td><a href="/players/Jaden Schwartz.html">Jaden Schwartz</a></td><td><a href="/teams/SEA.html">SEA</a></td><td>0</td><td>1</td><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>2</td><td>0</td><td>19</td><td>14.1</td><td>5</td><td>19</td><td>12</td><td>61.3</td><td>14.5</td><td>5</td><td>5</td><td>50</td><td>1</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202401110WSH.html">1/11/2024</a></td><td><a href="/teams/WSH.html">WSH</a></td><td><a href="/teams/SEA.html">SEA</a></td><td><a href="/players/Brandon Tanev.html">Brandon Tanev</a></td><td><a href="/teams/SEA.html">SEA</a></td><td>0</td><td>2</td><td>2</td><td>2</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>2</td><td>0</td><td>0</td><td>1</td><td>0</td><td>20</td><td>13.87</td><td>3</td><td>20</td><td>21</td><td>48.8</td><td>-2.4</td><td>4</td><td>7</td><td>36.4</td><td>0</td><td>1</td></tr>
-<tr><td><a href="/boxscores/202401110WSH.html">1/11/2024</a></td><td><a href="/teams/WSH.html">WSH</a></td><td><a href="/teams/SEA.html">SEA</a></td><td><a href="/players/Tomáš Tatar.html">Tomáš Tatar</a></td><td><a href="/teams/SEA.html">SEA</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>2</td><td>0</td><td>19</td><td>15.65</td><td>4</td><td>17</td><td>14</td><td>54.8</td><td>5.9</td><td>6</td><td>1</td><td>85.7</td><td>0</td><td>1</td></tr>
-<tr><td><a href="/boxscores/202401110WSH.html">1/11/2024</a></td><td><a href="/teams/WSH.html">WSH</a></td><td><a href="/teams/SEA.html">SEA</a></td><td><a href="/players/Eeli Tolvanen.html">Eeli Tolvanen</a></td><td><a href="/teams/SEA.html">SEA</a></td><td>0</td><td>1</td><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>18</td><td>15.87</td><td>3</td><td>18</td><td>15</td><td>54.5</td><td>5.6</td><td>5</td><td>2</td><td>71.4</td><td>0</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202401110WSH.html">1/11/2024</a></td><td><a href="/teams/WSH.html">WSH</a></td><td><a href="/teams/SEA.html">SEA</a></td><td><a href="/players/Alexander Wennberg.html">Alexander Wennberg</a></td><td><a href="/teams/SEA.html">SEA</a></td><td>1</td><td>0</td><td>1</td><td>2</td><td>0</td><td>1</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>1</td><td>100</td><td>22</td><td>13.9</td><td>2</td><td>18</td><td>19</td><td>48.6</td><td>-2.5</td><td>4</td><td>8</td><td>33.3</td><td>0</td><td>1</td></tr>
-<tr><td><a href="/boxscores/202401110WSH.html">1/11/2024</a></td><td><a href="/teams/WSH.html">WSH</a></td><td><a href="/teams/SEA.html">SEA</a></td><td><a href="/players/Joey Daccord.html">Joey Daccord</a></td><td><a href="/teams/SEA.html">SEA</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>3</td><td>60</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202401110WSH.html">1/11/2024</a></td><td><a href="/teams/WSH.html">WSH</a></td><td><a href="/teams/SEA.html">SEA</a></td><td><a href="/players/--.html">--</a></td><td><a href="/teams/--.html">--</a></td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td></tr>
-<tr><td><a href="/boxscores/202401110WSH.html">1/11/2024</a></td><td><a href="/teams/WSH.html">WSH</a></td><td><a href="/teams/SEA.html">SEA</a></td><td><a href="/players/Nicolas Aubé-Kubel.html">Nicolas Aubé-Kubel</a></td><td><a href="/teams/WSH.html">WSH</a></td><td>0</td><td>0</td><td>0</td><td>-1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>18</td><td>14.15</td><td>3</td><td>12</td><td>13</td><td>48</td><td>-2</td><td>0</td><td>10</td><td>0</td><td>1</td><td>1</td></tr>
-<tr><td><a href="/boxscores/202401110WSH.html">1/11/2024</a></td><td><a href="/teams/WSH.html">WSH</a></td><td><a href="/teams/SEA.html">SEA</a></td><td><a href="/players/Ethan Bear.html">Ethan Bear</a></td><td><a href="/teams/WSH.html">WSH</a></td><td>0</td><td>0</td><td>0</td><td>-2</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>4</td><td>0</td><td>19</td><td>17.05</td><td>6</td><td>21</td><td>21</td><td>50</td><td>0.6</td><td>8</td><td>2</td><td>80</td><td>1</td><td>4</td></tr>
-<tr><td><a href="/boxscores/202401110WSH.html">1/11/2024</a></td><td><a href="/teams/WSH.html">WSH</a></td><td><a href="/teams/SEA.html">SEA</a></td><td><a href="/players/John Carlson.html">John Carlson</a></td><td><a href="/teams/WSH.html">WSH</a></td><td>0</td><td>0</td><td>0</td><td>-1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>26</td><td>24.87</td><td>4</td><td>27</td><td>29</td><td>48.2</td><td>-2.5</td><td>7</td><td>11</td><td>38.9</td><td>0</td><td>2</td></tr>
-<tr><td><a href="/boxscores/202401110WSH.html">1/11/2024</a></td><td><a href="/teams/WSH.html">WSH</a></td><td><a href="/teams/SEA.html">SEA</a></td><td><a href="/players/Nic Dowd.html">Nic Dowd</a></td><td><a href="/teams/WSH.html">WSH</a></td><td>0</td><td>0</td><td>0</td><td>-1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>18</td><td>13.78</td><td>2</td><td>12</td><td>13</td><td>48</td><td>-2</td><td>0</td><td>11</td><td>0</td><td>1</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202401110WSH.html">1/11/2024</a></td><td><a href="/teams/WSH.html">WSH</a></td><td><a href="/teams/SEA.html">SEA</a></td><td><a href="/players/Joel Edmundson.html">Joel Edmundson</a></td><td><a href="/teams/WSH.html">WSH</a></td><td>0</td><td>0</td><td>0</td><td>-1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>19</td><td>15.5</td><td>3</td><td>20</td><td>13</td><td>60.6</td><td>14.9</td><td>7</td><td>1</td><td>87.5</td><td>2</td><td>1</td></tr>
-<tr><td><a href="/boxscores/202401110WSH.html">1/11/2024</a></td><td><a href="/teams/WSH.html">WSH</a></td><td><a href="/teams/SEA.html">SEA</a></td><td><a href="/players/Martin Fehérváry.html">Martin Fehérváry</a></td><td><a href="/teams/WSH.html">WSH</a></td><td>0</td><td>0</td><td>0</td><td>-3</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>24</td><td>20.73</td><td>1</td><td>15</td><td>27</td><td>35.7</td><td>-20.9</td><td>2</td><td>11</td><td>15.4</td><td>1</td><td>3</td></tr>
-<tr><td><a href="/boxscores/202401110WSH.html">1/11/2024</a></td><td><a href="/teams/WSH.html">WSH</a></td><td><a href="/teams/SEA.html">SEA</a></td><td><a href="/players/Nick Jensen.html">Nick Jensen</a></td><td><a href="/teams/WSH.html">WSH</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>25</td><td>18.72</td><td>3</td><td>14</td><td>20</td><td>41.2</td><td>-11.5</td><td>6</td><td>5</td><td>54.5</td><td>0</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202401110WSH.html">1/11/2024</a></td><td><a href="/teams/WSH.html">WSH</a></td><td><a href="/teams/SEA.html">SEA</a></td><td><a href="/players/Evgeny Kuznetsov.html">Evgeny Kuznetsov</a></td><td><a href="/teams/WSH.html">WSH</a></td><td>0</td><td>0</td><td>0</td><td>-2</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>18</td><td>14.42</td><td>3</td><td>21</td><td>16</td><td>56.8</td><td>10.2</td><td>8</td><td>3</td><td>72.7</td><td>0</td><td>1</td></tr>
-<tr><td><a href="/boxscores/202401110WSH.html">1/11/2024</a></td><td><a href="/teams/WSH.html">WSH</a></td><td><a href="/teams/SEA.html">SEA</a></td><td><a href="/players/Hendrix Lapierre.html">Hendrix Lapierre</a></td><td><a href="/teams/WSH.html">WSH</a></td><td>0</td><td>0</td><td>0</td><td>-1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>2</td><td>0</td><td>16</td><td>12.05</td><td>4</td><td>12</td><td>11</td><td>52.2</td><td>3.2</td><td>4</td><td>1</td><td>80</td><td>0</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202401110WSH.html">1/11/2024</a></td><td><a href="/teams/WSH.html">WSH</a></td><td><a href="/teams/SEA.html">SEA</a></td><td><a href="/players/Beck Malenstyn.html">Beck Malenstyn</a></td><td><a href="/teams/WSH.html">WSH</a></td><td>0</td><td>0</td><td>0</td><td>-1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>19</td><td>14.65</td><td>3</td><td>13</td><td>15</td><td>46.4</td><td>-4.1</td><td>0</td><td>11</td><td>0</td><td>2</td><td>1</td></tr>
-<tr><td><a href="/boxscores/202401110WSH.html">1/11/2024</a></td><td><a href="/teams/WSH.html">WSH</a></td><td><a href="/teams/SEA.html">SEA</a></td><td><a href="/players/Anthony Mantha.html">Anthony Mantha</a></td><td><a href="/teams/WSH.html">WSH</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>16</td><td>16.08</td><td>4</td><td>16</td><td>19</td><td>45.7</td><td>-5.4</td><td>3</td><td>0</td><td>100</td><td>0</td><td>1</td></tr>
-<tr><td><a href="/boxscores/202401110WSH.html">1/11/2024</a></td><td><a href="/teams/WSH.html">WSH</a></td><td><a href="/teams/SEA.html">SEA</a></td><td><a href="/players/Connor McMichael.html">Connor McMichael</a></td><td><a href="/teams/WSH.html">WSH</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>3</td><td>0</td><td>16</td><td>14.85</td><td>5</td><td>14</td><td>16</td><td>46.7</td><td>-3.8</td><td>3</td><td>0</td><td>100</td><td>1</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202401110WSH.html">1/11/2024</a></td><td><a href="/teams/WSH.html">WSH</a></td><td><a href="/teams/SEA.html">SEA</a></td><td><a href="/players/T.J. Oshie.html">T.J. Oshie</a></td><td><a href="/teams/WSH.html">WSH</a></td><td>0</td><td>0</td><td>0</td><td>-2</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>3</td><td>0</td><td>16</td><td>13.08</td><td>4</td><td>16</td><td>12</td><td>57.1</td><td>9.7</td><td>6</td><td>3</td><td>66.7</td><td>0</td><td>1</td></tr>
-<tr><td><a href="/boxscores/202401110WSH.html">1/11/2024</a></td><td><a href="/teams/WSH.html">WSH</a></td><td><a href="/teams/SEA.html">SEA</a></td><td><a href="/players/Alex Ovechkin.html">Alex Ovechkin</a></td><td><a href="/teams/WSH.html">WSH</a></td><td>0</td><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>5</td><td>0</td><td>19</td><td>16.67</td><td>7</td><td>25</td><td>18</td><td>58.1</td><td>13</td><td>11</td><td>4</td><td>73.3</td><td>0</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202401110WSH.html">1/11/2024</a></td><td><a href="/teams/WSH.html">WSH</a></td><td><a href="/teams/SEA.html">SEA</a></td><td><a href="/players/Max Pacioretty.html">Max Pacioretty</a></td><td><a href="/teams/WSH.html">WSH</a></td><td>1</td><td>0</td><td>1</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>100</td><td>20</td><td>17.57</td><td>3</td><td>25</td><td>18</td><td>58.1</td><td>13</td><td>9</td><td>4</td><td>69.2</td><td>1</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202401110WSH.html">1/11/2024</a></td><td><a href="/teams/WSH.html">WSH</a></td><td><a href="/teams/SEA.html">SEA</a></td><td><a href="/players/Aliaksei Protas.html">Aliaksei Protas</a></td><td><a href="/teams/WSH.html">WSH</a></td><td>0</td><td>0</td><td>0</td><td>-1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>18</td><td>15.97</td><td>2</td><td>9</td><td>22</td><td>29</td><td>-27.4</td><td>3</td><td>2</td><td>60</td><td>1</td><td>1</td></tr>
-<tr><td><a href="/boxscores/202401110WSH.html">1/11/2024</a></td><td><a href="/teams/WSH.html">WSH</a></td><td><a href="/teams/SEA.html">SEA</a></td><td><a href="/players/Dylan Strome.html">Dylan Strome</a></td><td><a href="/teams/WSH.html">WSH</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>17</td><td>16.43</td><td>3</td><td>19</td><td>16</td><td>54.3</td><td>6.5</td><td>9</td><td>4</td><td>69.2</td><td>0</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202401110WSH.html">1/11/2024</a></td><td><a href="/teams/WSH.html">WSH</a></td><td><a href="/teams/SEA.html">SEA</a></td><td><a href="/players/Trevor van Riemsdyk.html">Trevor van Riemsdyk</a></td><td><a href="/teams/WSH.html">WSH</a></td><td>0</td><td>1</td><td>1</td><td>1</td><td>2</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>26</td><td>21.43</td><td>2</td><td>18</td><td>16</td><td>52.9</td><td>4.5</td><td>4</td><td>6</td><td>40</td><td>0</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202401110WSH.html">1/11/2024</a></td><td><a href="/teams/WSH.html">WSH</a></td><td><a href="/teams/SEA.html">SEA</a></td><td><a href="/players/Darcy Kuemper.html">Darcy Kuemper</a></td><td><a href="/teams/WSH.html">WSH</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>3</td><td>60</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202401110WSH.html">1/11/2024</a></td><td><a href="/teams/WSH.html">WSH</a></td><td><a href="/teams/SEA.html">SEA</a></td><td><a href="/players/--.html">--</a></td><td><a href="/teams/--.html">--</a></td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td></tr>
-
-                </tbody>
-            </table>
-
-            <h2>Goalies</h2>
-            <table id="202401110WSH_goalies" border="1">
-                <thead>
-                    <tr>
-                        <th>Home Team</th><th>Away Team</th><th>Goalie</th><th>Team</th><th>DEC</th><th>GA</th><th>SA</th><th>SV</th>
-                        <th>SV%</th><th>SO</th><th>PIM</th><th>Goalie TOI</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr><td><a href="/teams/WSH.html">WSH</a></td><td><a href="/teams/SEA.html">SEA</a></td><td><a href="/players/daccojo01.html">Joey Daccord</a></td><td><a href="/teams/SEA.html">SEA</a></td><td>W</td><td>1</td><td>26</td><td>25</td><td>0.962</td><td>0</td><td>0</td><td>60:00:00</td></tr>
-<tr><td><a href="/teams/WSH.html">WSH</a></td><td><a href="/teams/SEA.html">SEA</a></td><td><a href="/players/kuempda01.html">Darcy Kuemper</a></td><td><a href="/teams/WSH.html">WSH</a></td><td>L</td><td>4</td><td>23</td><td>19</td><td>0.826</td><td>0</td><td>0</td><td>60:00:00</td></tr>
-
-                </tbody>
-            </table>
-
-            <h2>Scoring</h2>
-            <table id="202401110WSH_scoring" border="1">
-                <thead>
-                    <tr>
-                        <th>Home Team</th><th>Away Team</th><th>Period</th><th>Time</th><th>Team</th><th>Info</th>
-                        <th>Scorer</th><th>Assist1</th><th>Assist2</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr><td><a href="/teams/WSH.html">WSH</a></td><td><a href="/teams/SEA.html">SEA</a></td><td>1st Period</td><td>1st Period</td><td><a href="/teams/1st Period.html">1st Period</a></td><td>1st Period</td><td><a href="/players/1st Period.html">1st Period</a></td><td><a href="/players/1st Period.html">1st Period</a></td><td><a href="/players/1st Period.html">1st Period</a></td></tr>
-<tr><td><a href="/teams/WSH.html">WSH</a></td><td><a href="/teams/SEA.html">SEA</a></td><td>1st Period</td><td>8:50</td><td><a href="/teams/SEA.html">SEA</a></td><td>--</td><td><a href="/players/Tye Kartye.html">Tye Kartye</a></td><td><a href="/players/Jared McCann.html">Jared McCann</a></td><td><a href="/players/Adam Larsson.html">Adam Larsson</a></td></tr>
-<tr><td><a href="/teams/WSH.html">WSH</a></td><td><a href="/teams/SEA.html">SEA</a></td><td>1st Period</td><td>18:12</td><td><a href="/teams/SEA.html">SEA</a></td><td>--</td><td><a href="/players/Alexander Wennberg.html">Alexander Wennberg</a></td><td><a href="/players/Brandon Tanev.html">Brandon Tanev</a></td><td><a href="/players/Brandon Tanev.html">Brandon Tanev</a></td></tr>
-<tr><td><a href="/teams/WSH.html">WSH</a></td><td><a href="/teams/SEA.html">SEA</a></td><td>2nd Period</td><td>2nd Period</td><td><a href="/teams/2nd Period.html">2nd Period</a></td><td>2nd Period</td><td><a href="/players/2nd Period.html">2nd Period</a></td><td><a href="/players/2nd Period.html">2nd Period</a></td><td><a href="/players/2nd Period.html">2nd Period</a></td></tr>
-<tr><td><a href="/teams/WSH.html">WSH</a></td><td><a href="/teams/SEA.html">SEA</a></td><td>2nd Period</td><td>5:47</td><td><a href="/teams/WSH.html">WSH</a></td><td>--</td><td><a href="/players/Max Pacioretty.html">Max Pacioretty</a></td><td><a href="/players/Alex Ovechkin.html">Alex Ovechkin</a></td><td><a href="/players/Trevor van Riemsdyk.html">Trevor van Riemsdyk</a></td></tr>
-<tr><td><a href="/teams/WSH.html">WSH</a></td><td><a href="/teams/SEA.html">SEA</a></td><td>2nd Period</td><td>18:20</td><td><a href="/teams/SEA.html">SEA</a></td><td>--</td><td><a href="/players/Justin Schultz.html">Justin Schultz</a></td><td><a href="/players/Eeli Tolvanen.html">Eeli Tolvanen</a></td><td><a href="/players/Oliver Bjorkstrand.html">Oliver Bjorkstrand</a></td></tr>
-<tr><td><a href="/teams/WSH.html">WSH</a></td><td><a href="/teams/SEA.html">SEA</a></td><td>3rd Period</td><td>3rd Period</td><td><a href="/teams/3rd Period.html">3rd Period</a></td><td>3rd Period</td><td><a href="/players/3rd Period.html">3rd Period</a></td><td><a href="/players/3rd Period.html">3rd Period</a></td><td><a href="/players/3rd Period.html">3rd Period</a></td></tr>
-<tr><td><a href="/teams/WSH.html">WSH</a></td><td><a href="/teams/SEA.html">SEA</a></td><td>3rd Period</td><td>12:02</td><td><a href="/teams/SEA.html">SEA</a></td><td>--</td><td><a href="/players/Adam Larsson.html">Adam Larsson</a></td><td><a href="/players/Brandon Tanev.html">Brandon Tanev</a></td><td><a href="/players/Jaden Schwartz.html">Jaden Schwartz</a></td></tr>
-
-                </tbody>
-            </table>
-
-            <h2>Penalties</h2>
-            <table id="202401110WSH_penalties" border="1">
-                <thead>
-                    <tr>
-                        <th>Home Team</th><th>Away Team</th><th>Period</th><th>Time</th><th>Team</th><th>Player</th>
-                        <th>Penalty</th><th>PIM</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr><td><a href="/teams/WSH.html">WSH</a></td><td><a href="/teams/SEA.html">SEA</a></td><td>1st Period</td><td>1st Period</td><td><a href="/teams/1st Period.html">1st Period</a></td><td><a href="/players/1st Period.html">1st Period</a></td><td>1st Period</td><td>1st Period</td></tr>
-<tr><td><a href="/teams/WSH.html">WSH</a></td><td><a href="/teams/SEA.html">SEA</a></td><td>1st Period</td><td>7:00</td><td><a href="/teams/SEA.html">SEA</a></td><td><a href="/players/William Borgen.html">William Borgen</a></td><td>Tripping</td><td>2 min</td></tr>
-<tr><td><a href="/teams/WSH.html">WSH</a></td><td><a href="/teams/SEA.html">SEA</a></td><td>1st Period</td><td>13:50</td><td><a href="/teams/WSH.html">WSH</a></td><td><a href="/players/Trevor van Riemsdyk.html">Trevor van Riemsdyk</a></td><td>Cross Checking</td><td>2 min</td></tr>
-
-                </tbody>
-            </table>
-        </main>
-    </body>
-    </html>
-    
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Seattle Kraken at Washington Capitals: January 11, 2024</title>
+<link rel="stylesheet" href="/assets/styles.css">
+<script src="/assets/searchBar.js"></script>
+<script src="/assets/tableSort.js"></script>
+</head>
+<body>
+<nav id="navbar">
+<ul>
+<li><a href="/">Home</a></li>
+<li><a href="/players/">Players</a></li>
+<li><a href="/teams/">Teams</a></li>
+<li><a href="/probabilities/">Probabilities</a></li>
+<li><a href="/boxscores/">Boxscores</a></li>
+<li><a href="/versus/">Head to Head Stats</a></li>
+<li><a href="/leaders/">Leaders</a></li>
+<li><a href="/seasons/2025/schedule.html">Schedule and Results</a></li>
+<li><a href="/seasons/2025/standings.html">Current Standings</a></li>
+<li><a href="/seasons/2025/rosters.html">Team Rosters</a></li>
+<li>
+<input type="text" id="searchBar" placeholder="Search for players or teams..." oninput="performSearch()" autocomplete="off">
+<div id="searchResults" class="dropdown"></div>
+<button id="searchButton" onclick="handleSearch()">Search</button>
+</li>
+</ul>
+</nav>
+<main id="content">
+<div class="scorebox">
+<div class="team"><div><a href="/teams/SEA.html">SEA</a></div><div class="score">4</div></div>
+<div class="team"><div><a href="/teams/WSH.html">WSH</a></div><div class="score">1</div></div>
+<div class="date">January 11, 2024</div>
+</div>
+<table id="SEA_skaters">
+<tr><th>Team</th><th>Player</th><th>G</th><th>A</th><th>PTS</th><th>SOG</th><th>HIT</th><th>BLK</th><th>TOI</th><th>PIM</th><th>SAT-F</th><th>SAT-A</th><th>CF%</th><th>CRel%</th></tr>
+<tr><td><a href="/teams/SEA.html">SEA</a></td><td><a href="/players/larssad01.html">Adam Larsson</a></td><td>1</td><td>1</td><td>2</td><td>1</td><td>1</td><td>2</td><td>24.45</td><td>0</td><td>24</td><td>30</td><td>44.40%</td><td>-10.50%</td></tr>
+<tr><td><a href="/teams/SEA.html">SEA</a></td><td><a href="/players/wennbal01.html">Alexander Wennberg</a></td><td>1</td><td>0</td><td>1</td><td>1</td><td>0</td><td>1</td><td>13.9</td><td>0</td><td>18</td><td>19</td><td>48.60%</td><td>-2.50%</td></tr>
+<tr><td><a href="/teams/SEA.html">SEA</a></td><td><a href="/players/burakan01.html">André Burakovsky</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>1</td><td>13.57</td><td>0</td><td>10</td><td>14</td><td>41.70%</td><td>-10.80%</td></tr>
+<tr><td><a href="/teams/SEA.html">SEA</a></td><td><a href="/players/tanevbr01.html">Brandon Tanev</a></td><td>0</td><td>2</td><td>2</td><td>1</td><td>0</td><td>1</td><td>13.87</td><td>0</td><td>20</td><td>21</td><td>48.80%</td><td>-2.40%</td></tr>
+<tr><td><a href="/teams/SEA.html">SEA</a></td><td><a href="/players/dumoubr01.html">Brian Dumoulin</a></td><td>0</td><td>0</td><td>0</td><td>1</td><td>1</td><td>0</td><td>16.45</td><td>0</td><td>26</td><td>13</td><td>66.70%</td><td>23.70%</td></tr>
+<tr><td><a href="/teams/SEA.html">SEA</a></td><td><a href="/players/tolvaee01.html">Eeli Tolvanen</a></td><td>0</td><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td><td>15.87</td><td>0</td><td>18</td><td>15</td><td>54.50%</td><td>5.60%</td></tr>
+<tr><td><a href="/teams/SEA.html">SEA</a></td><td><a href="/players/schwaja01.html">Jaden Schwartz</a></td><td>0</td><td>1</td><td>1</td><td>2</td><td>1</td><td>0</td><td>14.1</td><td>0</td><td>19</td><td>12</td><td>61.30%</td><td>14.50%</td></tr>
+<tr><td><a href="/teams/SEA.html">SEA</a></td><td><a href="/players/oleksja01.html">Jamie Oleksiak</a></td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>2</td><td>20.53</td><td>0</td><td>17</td><td>26</td><td>39.50%</td><td>-16.60%</td></tr>
+<tr><td><a href="/teams/SEA.html">SEA</a></td><td><a href="/players/mccanja01.html">Jared McCann</a></td><td>0</td><td>1</td><td>1</td><td>0</td><td>1</td><td>0</td><td>13.02</td><td>0</td><td>9</td><td>14</td><td>39.10%</td><td>-13.80%</td></tr>
+<tr><td><a href="/teams/SEA.html">SEA</a></td><td><a href="/players/eberljo01.html">Jordan Eberle</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>17.25</td><td>0</td><td>16</td><td>15</td><td>51.60%</td><td>1.60%</td></tr>
+<tr><td><a href="/teams/SEA.html">SEA</a></td><td><a href="/players/schulju01.html">Justin Schultz</a></td><td>1</td><td>0</td><td>1</td><td>1</td><td>0</td><td>0</td><td>14.12</td><td>0</td><td>19</td><td>9</td><td>67.90%</td><td>22.50%</td></tr>
+<tr><td><a href="/teams/SEA.html">SEA</a></td><td><a href="/players/beniema01.html">Matthew Beniers</a></td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>16.87</td><td>0</td><td>14</td><td>17</td><td>45.20%</td><td>-6.90%</td></tr>
+<tr><td><a href="/teams/SEA.html">SEA</a></td><td><a href="/players/bjorkol01.html">Oliver Bjorkstrand</a></td><td>0</td><td>1</td><td>1</td><td>2</td><td>1</td><td>0</td><td>15.68</td><td>0</td><td>18</td><td>13</td><td>58.10%</td><td>10.20%</td></tr>
+<tr><td><a href="/teams/SEA.html">SEA</a></td><td><a href="/players/tatarto01.html">Tomáš Tatar</a></td><td>0</td><td>0</td><td>0</td><td>2</td><td>0</td><td>1</td><td>15.65</td><td>0</td><td>17</td><td>14</td><td>54.80%</td><td>5.90%</td></tr>
+<tr><td><a href="/teams/SEA.html">SEA</a></td><td><a href="/players/kartyty01.html">Tye Kartye</a></td><td>1</td><td>0</td><td>1</td><td>1</td><td>1</td><td>0</td><td>12.62</td><td>0</td><td>8</td><td>14</td><td>36.40%</td><td>-17.00%</td></tr>
+<tr><td><a href="/teams/SEA.html">SEA</a></td><td><a href="/players/dunnvi02.html">Vince Dunn</a></td><td>0</td><td>0</td><td>0</td><td>6</td><td>0</td><td>1</td><td>23.43</td><td>0</td><td>23</td><td>24</td><td>48.90%</td><td>-2.40%</td></tr>
+<tr><td><a href="/teams/SEA.html">SEA</a></td><td><a href="/players/borgewi01.html">William Borgen</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>2</td><td>2</td><td>19.57</td><td>2</td><td>16</td><td>21</td><td>43.20%</td><td>-10.20%</td></tr>
+<tr><td><a href="/teams/SEA.html">SEA</a></td><td><a href="/players/gourdya01.html">Yanni Gourde</a></td><td>0</td><td>0</td><td>0</td><td>3</td><td>2</td><td>1</td><td>17.07</td><td>0</td><td>23</td><td>11</td><td>67.60%</td><td>23.60%</td></tr>
+</table>
+<table id="WSH_skaters">
+<tr><th>Team</th><th>Player</th><th>G</th><th>A</th><th>PTS</th><th>SOG</th><th>HIT</th><th>BLK</th><th>TOI</th><th>PIM</th><th>SAT-F</th><th>SAT-A</th><th>CF%</th><th>CRel%</th></tr>
+<tr><td><a href="/teams/WSH.html">WSH</a></td><td><a href="/players/ovechal01.html">Alex Ovechkin</a></td><td>0</td><td>1</td><td>1</td><td>5</td><td>0</td><td>0</td><td>16.67</td><td>0</td><td>25</td><td>18</td><td>58.10%</td><td>13.00%</td></tr>
+<tr><td><a href="/teams/WSH.html">WSH</a></td><td><a href="/players/protaal01.html">Aliaksei Protas</a></td><td>0</td><td>0</td><td>0</td><td>1</td><td>1</td><td>1</td><td>15.97</td><td>0</td><td>9</td><td>22</td><td>29.00%</td><td>-27.40%</td></tr>
+<tr><td><a href="/teams/WSH.html">WSH</a></td><td><a href="/players/manthan01.html">Anthony Mantha</a></td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>1</td><td>16.08</td><td>0</td><td>16</td><td>19</td><td>45.70%</td><td>-5.40%</td></tr>
+<tr><td><a href="/teams/WSH.html">WSH</a></td><td><a href="/players/malenbe01.html">Beck Malenstyn</a></td><td>0</td><td>0</td><td>0</td><td>1</td><td>2</td><td>1</td><td>14.65</td><td>0</td><td>13</td><td>15</td><td>46.40%</td><td>-4.10%</td></tr>
+<tr><td><a href="/teams/WSH.html">WSH</a></td><td><a href="/players/mcmicco01.html">Connor McMichael</a></td><td>0</td><td>0</td><td>0</td><td>3</td><td>1</td><td>0</td><td>14.85</td><td>0</td><td>14</td><td>16</td><td>46.70%</td><td>-3.80%</td></tr>
+<tr><td><a href="/teams/WSH.html">WSH</a></td><td><a href="/players/stromdy01.html">Dylan Strome</a></td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>16.43</td><td>0</td><td>19</td><td>16</td><td>54.30%</td><td>6.50%</td></tr>
+<tr><td><a href="/teams/WSH.html">WSH</a></td><td><a href="/players/bearet01.html">Ethan Bear</a></td><td>0</td><td>0</td><td>0</td><td>4</td><td>1</td><td>4</td><td>17.05</td><td>0</td><td>21</td><td>21</td><td>50.00%</td><td>0.60%</td></tr>
+<tr><td><a href="/teams/WSH.html">WSH</a></td><td><a href="/players/kuzneev01.html">Evgeny Kuznetsov</a></td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>1</td><td>14.42</td><td>0</td><td>21</td><td>16</td><td>56.80%</td><td>10.20%</td></tr>
+<tr><td><a href="/teams/WSH.html">WSH</a></td><td><a href="/players/lapiehe01.html">Hendrix Lapierre</a></td><td>0</td><td>0</td><td>0</td><td>2</td><td>0</td><td>0</td><td>12.05</td><td>0</td><td>12</td><td>11</td><td>52.20%</td><td>3.20%</td></tr>
+<tr><td><a href="/teams/WSH.html">WSH</a></td><td><a href="/players/edmunjo01.html">Joel Edmundson</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>2</td><td>1</td><td>15.5</td><td>0</td><td>20</td><td>13</td><td>60.60%</td><td>14.90%</td></tr>
+<tr><td><a href="/teams/WSH.html">WSH</a></td><td><a href="/players/carlsjo01.html">John Carlson</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>2</td><td>24.87</td><td>0</td><td>27</td><td>29</td><td>48.20%</td><td>-2.50%</td></tr>
+<tr><td><a href="/teams/WSH.html">WSH</a></td><td><a href="/players/feherma01.html">Martin Fehérváry</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>3</td><td>20.73</td><td>0</td><td>15</td><td>27</td><td>35.70%</td><td>-20.90%</td></tr>
+<tr><td><a href="/teams/WSH.html">WSH</a></td><td><a href="/players/pacioma01.html">Max Pacioretty</a></td><td>1</td><td>0</td><td>1</td><td>1</td><td>1</td><td>0</td><td>17.57</td><td>0</td><td>25</td><td>18</td><td>58.10%</td><td>13.00%</td></tr>
+<tr><td><a href="/teams/WSH.html">WSH</a></td><td><a href="/players/dowdni01.html">Nic Dowd</a></td><td>0</td><td>0</td><td>0</td><td>1</td><td>1</td><td>0</td><td>13.78</td><td>0</td><td>12</td><td>13</td><td>48.00%</td><td>-2.00%</td></tr>
+<tr><td><a href="/teams/WSH.html">WSH</a></td><td><a href="/players/jenseni02.html">Nick Jensen</a></td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>18.72</td><td>0</td><td>14</td><td>20</td><td>41.20%</td><td>-11.50%</td></tr>
+<tr><td><a href="/teams/WSH.html">WSH</a></td><td><a href="/players/aubekni01.html">Nicolas Aubé-Kubel</a></td><td>0</td><td>0</td><td>0</td><td>1</td><td>1</td><td>1</td><td>14.15</td><td>0</td><td>12</td><td>13</td><td>48.00%</td><td>-2.00%</td></tr>
+<tr><td><a href="/teams/WSH.html">WSH</a></td><td><a href="/players/oshietj01.html">T.J. Oshie</a></td><td>0</td><td>0</td><td>0</td><td>3</td><td>0</td><td>1</td><td>13.08</td><td>0</td><td>16</td><td>12</td><td>57.10%</td><td>9.70%</td></tr>
+<tr><td><a href="/teams/WSH.html">WSH</a></td><td><a href="/players/vanritr01.html">Trevor van Riemsdyk</a></td><td>0</td><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td><td>21.43</td><td>2</td><td>18</td><td>16</td><td>52.90%</td><td>4.50%</td></tr>
+</table>
+<table id="SEA_goalies">
+<tr><th>Team</th><th>Goalie</th><th>DEC</th><th>GA</th><th>SA</th><th>SV</th><th>SV%</th><th>SO</th><th>PIM</th><th>TOI</th></tr>
+<tr><td><a href="/teams/SEA.html">SEA</a></td><td><a href="/players/daccojo01.html">Joey Daccord</a></td><td>W</td><td>1</td><td>26</td><td>25</td><td>96.20%</td><td>0</td><td>0</td><td>60.0</td></tr>
+</table>
+<table id="WSH_goalies">
+<tr><th>Team</th><th>Goalie</th><th>DEC</th><th>GA</th><th>SA</th><th>SV</th><th>SV%</th><th>SO</th><th>PIM</th><th>TOI</th></tr>
+<tr><td><a href="/teams/WSH.html">WSH</a></td><td><a href="/players/kuempda01.html">Darcy Kuemper</a></td><td>L</td><td>4</td><td>23</td><td>19</td><td>82.60%</td><td>0</td><td>0</td><td>60.0</td></tr>
+</table>
+<table id="scoring">
+<tr><th>Team</th><th>Time</th><th>Info</th><th>Scorer</th><th>Assist 1</th><th>Assist 2</th></tr>
+<tr><td><a href="/teams/SEA.html">SEA</a></td><td>8.83</td><td>--</td><td><a href="/players/kartyty01.html">Tye Kartye</a></td><td><a href="/players/mccanja01.html">Jared McCann</a></td><td><a href="/players/larssad01.html">Adam Larsson</a></td></tr>
+<tr><td><a href="/teams/SEA.html">SEA</a></td><td>18.2</td><td>--</td><td><a href="/players/wennbal01.html">Alexander Wennberg</a></td><td><a href="/players/tanevbr01.html">Brandon Tanev</a></td><td><a href="/players/tanevbr01.html">Brandon Tanev</a></td></tr>
+<tr><td><a href="/teams/WSH.html">WSH</a></td><td>25.78</td><td>--</td><td><a href="/players/pacioma01.html">Max Pacioretty</a></td><td><a href="/players/ovechal01.html">Alex Ovechkin</a></td><td><a href="/players/vanritr01.html">Trevor van Riemsdyk</a></td></tr>
+<tr><td><a href="/teams/SEA.html">SEA</a></td><td>38.33</td><td>--</td><td><a href="/players/schulju01.html">Justin Schultz</a></td><td><a href="/players/tolvaee01.html">Eeli Tolvanen</a></td><td><a href="/players/bjorkol01.html">Oliver Bjorkstrand</a></td></tr>
+<tr><td><a href="/teams/SEA.html">SEA</a></td><td>52.03</td><td>--</td><td><a href="/players/larssad01.html">Adam Larsson</a></td><td><a href="/players/tanevbr01.html">Brandon Tanev</a></td><td><a href="/players/schwaja01.html">Jaden Schwartz</a></td></tr>
+</table>
+<table id="penalties">
+<tr><th>Team</th><th>Time</th><th>Player</th><th>Penalty</th><th>PIM</th></tr>
+<tr><td><a href="/teams/SEA.html">SEA</a></td><td>7.0</td><td><a href="/players/borgewi01.html">William Borgen</a></td><td>Tripping</td><td>2 min</td></tr>
+<tr><td><a href="/teams/WSH.html">WSH</a></td><td>13.83</td><td><a href="/players/vanritr01.html">Trevor van Riemsdyk</a></td><td>Cross Checking</td><td>2 min</td></tr>
+</table>
+</main>
+</body>
+</html>

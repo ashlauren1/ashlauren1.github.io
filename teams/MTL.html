@@ -1,34 +1,61 @@
 
-    <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>MTL Stats</title>
-        <link rel="stylesheet" href="/assets/styles.css"> <!-- Assuming a shared stylesheet -->
-        <script src="/assets/searchBar.js" defer></script>
-        <script src="/assets/tableSort.js"></script>
-        <style>
-            tr:hover {background-color: #F0FFF0;}
-        </style>
-    </head>
-    <body>
-        <!-- Navigation Bar -->
-        <nav id="navbar">
-            <a href="/">Home</a>
-            <a href="/players/">Players</a>
-            <a href="/teams/">Teams</a>
-            <a href="/leaders/">Leaders</a>
-            <a href="/probabilities/">Probabilities</a>
-            <a href="/boxscores/">Boxscores</a>
-            <a href="/schedule/">Schedule</a>
+    <!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hockey Stats Site</title>
+    <link rel="stylesheet" href="/assets/styles.css">
+    <script src="/assets/searchBar.js"></script>
+    <script src="/assets/tableSort.js"></script>
+</head>
+<body>
 
-            <!-- Search Bar -->
-            <div class="search-container">
-                <input type="text" id="searchInput" placeholder="Search players or teams..." oninput="searchEntities()" />
-                <ul id="suggestions"></ul> <!-- This will show the search suggestions -->
-            </div>
-        </nav>
+<style>
+#searchResults {
+    position: absolute;
+    background-color: white;
+    border: 1px solid #ccc;
+    width: 100%;
+    max-height: 200px;
+    overflow-y: auto;
+    z-index: 1000;
+}
+
+#searchResults div {
+    padding: 10px;
+    cursor: pointer;
+}
+
+#searchResults div:hover, .highlighted {
+    background-color: #f1f1f1;
+}
+
+#searchResults a {
+    text-decoration: none;
+    color: black;
+    display: block;
+}
+</style>
+
+<!-- Navigation Bar -->
+<nav id="navbar">
+  <ul>
+    <li><a href="/">Home</a></li>
+    <li><a href="/players/">Players</a></li>
+    <li><a href="/teams/">Teams</a></li>
+    <li><a href="/leaders/">Leaders</a></li>
+    <li><a href="/probabilities/">Probabilities</a></li>
+    <li><a href="/boxscores/">Boxscores</a></li>
+    <li><a href="/schedule/">Schedule</a></li>
+    <!-- Search Bar -->
+    <li>
+      <input type="text" id="searchBar" placeholder="Search for players or teams..." oninput="performSearch()" autocomplete="off">
+      <div id="searchResults" class="dropdown"></div>
+      <button id="searchButton" onclick="handleSearch()">Search</button>
+    </li>  
+  </ul>
+</nav>
 
         <main id="content">
             <h1>MTL Gamelogs</h1>

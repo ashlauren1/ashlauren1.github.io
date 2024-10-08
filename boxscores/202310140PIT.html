@@ -1,151 +1,110 @@
-
-    <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Game 202310140PIT Boxscore</title>
-        <link rel="stylesheet" href="/assets/styles.css">
-        <script src="/assets/searchBar.js" defer></script>
-        <script src="/assets/tableSort.js"></script>
-        <style>
-            tr:hover {background-color: #F0FFF0;}
-        </style>
-    </head>
-    <body>
-        <nav id="navbar">
-            <a href="/">Home</a>
-            <a href="/players/">Players</a>
-            <a href="/teams/">Teams</a>
-            <a href="/leaders/">Leaders</a>
-            <a href="/probabilities/">Probabilities</a>
-            <a href="/boxscores/">Boxscores</a>
-            <a href="/schedule/">Schedule</a>
-
-            <div class="search-container">
-                <input type="text" id="searchInput" placeholder="Search players or teams..." oninput="searchEntities()" />
-                <ul id="suggestions"></ul>
-            </div>
-        </nav>
-
-        <main id="content">
-            <h1>Game 202310140PIT Boxscore</h1>
-
-            <h2>Skaters</h2>
-            <table id="202310140PIT_skaters" border="1">
-                <thead>
-                    <tr>
-                        <th>Date</th><th>Home Team</th><th>Away Team</th><th>Player</th><th>Team</th><th>G</th><th>A</th><th>PTS</th>
-                        <th>+/-</th><th>PIM</th><th>EVG</th><th>PPG</th><th>SHG</th><th>GWG</th><th>EV Assist</th><th>PP Assist</th>
-                        <th>SH Assist</th><th>SOG</th><th>S%</th><th>SHFT</th><th>TOI</th><th>iCF</th><th>SAT‑F</th><th>SAT‑A</th>
-                        <th>CF%</th><th>CRel%</th><th>ZSO</th><th>ZSD</th><th>oZS%</th><th>HIT</th><th>BLK</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr><td><a href="/boxscores/202310140PIT.html">10/14/2023</a></td><td><a href="/teams/PIT.html">PIT</a></td><td><a href="/teams/CGY.html">CGY</a></td><td><a href="/players/Rasmus Andersson.html">Rasmus Andersson</a></td><td><a href="/teams/CGY.html">CGY</a></td><td>0</td><td>1</td><td>1</td><td>-1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>4</td><td>0</td><td>30</td><td>24.15</td><td>8</td><td>46</td><td>14</td><td>76.7</td><td>26</td><td>22</td><td>4</td><td>84.6</td><td>0</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202310140PIT.html">10/14/2023</a></td><td><a href="/teams/PIT.html">PIT</a></td><td><a href="/teams/CGY.html">CGY</a></td><td><a href="/players/Mikael Backlund.html">Mikael Backlund</a></td><td><a href="/teams/CGY.html">CGY</a></td><td>0</td><td>0</td><td>0</td><td>-2</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>21</td><td>15.72</td><td>3</td><td>16</td><td>18</td><td>47.1</td><td>-21.3</td><td>0</td><td>7</td><td>0</td><td>1</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202310140PIT.html">10/14/2023</a></td><td><a href="/teams/PIT.html">PIT</a></td><td><a href="/teams/CGY.html">CGY</a></td><td><a href="/players/Blake Coleman.html">Blake Coleman</a></td><td><a href="/teams/CGY.html">CGY</a></td><td>0</td><td>0</td><td>0</td><td>-2</td><td>2</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>3</td><td>0</td><td>18</td><td>13.8</td><td>6</td><td>16</td><td>15</td><td>51.6</td><td>-14.7</td><td>1</td><td>4</td><td>20</td><td>1</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202310140PIT.html">10/14/2023</a></td><td><a href="/teams/PIT.html">PIT</a></td><td><a href="/teams/CGY.html">CGY</a></td><td><a href="/players/Matthew Coronato.html">Matthew Coronato</a></td><td><a href="/teams/CGY.html">CGY</a></td><td>1</td><td>0</td><td>1</td><td>-4</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>100</td><td>20</td><td>14.72</td><td>4</td><td>21</td><td>16</td><td>56.8</td><td>-8.4</td><td>6</td><td>4</td><td>60</td><td>0</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202310140PIT.html">10/14/2023</a></td><td><a href="/teams/PIT.html">PIT</a></td><td><a href="/teams/CGY.html">CGY</a></td><td><a href="/players/Dillon Dubé.html">Dillon Dubé</a></td><td><a href="/teams/CGY.html">CGY</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>2</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>21</td><td>14.38</td><td>6</td><td>14</td><td>6</td><td>70</td><td>8.5</td><td>7</td><td>0</td><td>100</td><td>0</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202310140PIT.html">10/14/2023</a></td><td><a href="/teams/PIT.html">PIT</a></td><td><a href="/teams/CGY.html">CGY</a></td><td><a href="/players/Walker Duehr.html">Walker Duehr</a></td><td><a href="/teams/CGY.html">CGY</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>16</td><td>10.65</td><td>3</td><td>16</td><td>3</td><td>84.2</td><td>25.1</td><td>0</td><td>1</td><td>0</td><td>2</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202310140PIT.html">10/14/2023</a></td><td><a href="/teams/PIT.html">PIT</a></td><td><a href="/teams/CGY.html">CGY</a></td><td><a href="/players/Dennis Gilbert.html">Dennis Gilbert</a></td><td><a href="/teams/CGY.html">CGY</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>19</td><td>10.58</td><td>0</td><td>8</td><td>7</td><td>53.3</td><td>-10.7</td><td>1</td><td>2</td><td>33.3</td><td>2</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202310140PIT.html">10/14/2023</a></td><td><a href="/teams/PIT.html">PIT</a></td><td><a href="/teams/CGY.html">CGY</a></td><td><a href="/players/A.J. Greer.html">A.J. Greer</a></td><td><a href="/teams/CGY.html">CGY</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>3</td><td>0</td><td>16</td><td>11.92</td><td>5</td><td>16</td><td>5</td><td>76.2</td><td>16</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202310140PIT.html">10/14/2023</a></td><td><a href="/teams/PIT.html">PIT</a></td><td><a href="/teams/CGY.html">CGY</a></td><td><a href="/players/Noah Hanifin.html">Noah Hanifin</a></td><td><a href="/teams/CGY.html">CGY</a></td><td>0</td><td>1</td><td>1</td><td>-3</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>32</td><td>23.47</td><td>5</td><td>37</td><td>15</td><td>71.2</td><td>14.1</td><td>17</td><td>5</td><td>77.3</td><td>1</td><td>1</td></tr>
-<tr><td><a href="/boxscores/202310140PIT.html">10/14/2023</a></td><td><a href="/teams/PIT.html">PIT</a></td><td><a href="/teams/CGY.html">CGY</a></td><td><a href="/players/Jonathan Huberdeau.html">Jonathan Huberdeau</a></td><td><a href="/teams/CGY.html">CGY</a></td><td>1</td><td>0</td><td>1</td><td>-2</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>5</td><td>20</td><td>24</td><td>18.42</td><td>9</td><td>37</td><td>15</td><td>71.2</td><td>14.1</td><td>23</td><td>3</td><td>88.5</td><td>1</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202310140PIT.html">10/14/2023</a></td><td><a href="/teams/PIT.html">PIT</a></td><td><a href="/teams/CGY.html">CGY</a></td><td><a href="/players/Nazem Kadri.html">Nazem Kadri</a></td><td><a href="/teams/CGY.html">CGY</a></td><td>0</td><td>0</td><td>0</td><td>-1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>2</td><td>0</td><td>25</td><td>19.33</td><td>6</td><td>29</td><td>10</td><td>74.4</td><td>16.6</td><td>17</td><td>0</td><td>100</td><td>1</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202310140PIT.html">10/14/2023</a></td><td><a href="/teams/PIT.html">PIT</a></td><td><a href="/teams/CGY.html">CGY</a></td><td><a href="/players/Elias Lindholm.html">Elias Lindholm</a></td><td><a href="/teams/CGY.html">CGY</a></td><td>0</td><td>1</td><td>1</td><td>-2</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>3</td><td>0</td><td>28</td><td>19.83</td><td>5</td><td>36</td><td>23</td><td>61</td><td>-3.3</td><td>23</td><td>9</td><td>71.9</td><td>0</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202310140PIT.html">10/14/2023</a></td><td><a href="/teams/PIT.html">PIT</a></td><td><a href="/teams/CGY.html">CGY</a></td><td><a href="/players/Andrew Mangiapane.html">Andrew Mangiapane</a></td><td><a href="/teams/CGY.html">CGY</a></td><td>0</td><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>1</td><td>0</td><td>19</td><td>14.6</td><td>3</td><td>24</td><td>10</td><td>70.6</td><td>10.6</td><td>15</td><td>3</td><td>83.3</td><td>1</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202310140PIT.html">10/14/2023</a></td><td><a href="/teams/PIT.html">PIT</a></td><td><a href="/teams/CGY.html">CGY</a></td><td><a href="/players/Adam Ružička.html">Adam Ružička</a></td><td><a href="/teams/CGY.html">CGY</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>2</td><td>0</td><td>20</td><td>12.7</td><td>2</td><td>12</td><td>5</td><td>70.6</td><td>9</td><td>6</td><td>0</td><td>100</td><td>1</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202310140PIT.html">10/14/2023</a></td><td><a href="/teams/PIT.html">PIT</a></td><td><a href="/teams/CGY.html">CGY</a></td><td><a href="/players/Yegor Sharangovich.html">Yegor Sharangovich</a></td><td><a href="/teams/CGY.html">CGY</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>2</td><td>0</td><td>20</td><td>13.9</td><td>3</td><td>16</td><td>7</td><td>69.6</td><td>8.3</td><td>2</td><td>1</td><td>66.7</td><td>0</td><td>1</td></tr>
-<tr><td><a href="/boxscores/202310140PIT.html">10/14/2023</a></td><td><a href="/teams/PIT.html">PIT</a></td><td><a href="/teams/CGY.html">CGY</a></td><td><a href="/players/Chris Tanev.html">Chris Tanev</a></td><td><a href="/teams/CGY.html">CGY</a></td><td>0</td><td>0</td><td>0</td><td>-1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>2</td><td>0</td><td>27</td><td>16.5</td><td>2</td><td>12</td><td>21</td><td>36.4</td><td>-35.5</td><td>3</td><td>5</td><td>37.5</td><td>0</td><td>2</td></tr>
-<tr><td><a href="/boxscores/202310140PIT.html">10/14/2023</a></td><td><a href="/teams/PIT.html">PIT</a></td><td><a href="/teams/CGY.html">CGY</a></td><td><a href="/players/MacKenzie Weegar.html">MacKenzie Weegar</a></td><td><a href="/teams/CGY.html">CGY</a></td><td>0</td><td>0</td><td>0</td><td>-1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>2</td><td>0</td><td>28</td><td>21.68</td><td>6</td><td>24</td><td>23</td><td>51.1</td><td>-18.4</td><td>7</td><td>6</td><td>53.8</td><td>0</td><td>1</td></tr>
-<tr><td><a href="/boxscores/202310140PIT.html">10/14/2023</a></td><td><a href="/teams/PIT.html">PIT</a></td><td><a href="/teams/CGY.html">CGY</a></td><td><a href="/players/Nikita Zadorov.html">Nikita Zadorov</a></td><td><a href="/teams/CGY.html">CGY</a></td><td>0</td><td>0</td><td>0</td><td>-2</td><td>2</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>3</td><td>0</td><td>25</td><td>19.83</td><td>5</td><td>26</td><td>15</td><td>63.4</td><td>0.9</td><td>8</td><td>4</td><td>66.7</td><td>1</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202310140PIT.html">10/14/2023</a></td><td><a href="/teams/PIT.html">PIT</a></td><td><a href="/teams/CGY.html">CGY</a></td><td><a href="/players/Jacob Markström.html">Jacob Markström</a></td><td><a href="/teams/CGY.html">CGY</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>6</td><td>57.82</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202310140PIT.html">10/14/2023</a></td><td><a href="/teams/PIT.html">PIT</a></td><td><a href="/teams/CGY.html">CGY</a></td><td><a href="/players/--.html">--</a></td><td><a href="/teams/--.html">--</a></td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td></tr>
-<tr><td><a href="/boxscores/202310140PIT.html">10/14/2023</a></td><td><a href="/teams/PIT.html">PIT</a></td><td><a href="/teams/CGY.html">CGY</a></td><td><a href="/players/Noel Acciari.html">Noel Acciari</a></td><td><a href="/teams/PIT.html">PIT</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>18</td><td>12.5</td><td>0</td><td>5</td><td>18</td><td>21.7</td><td>-18.9</td><td>2</td><td>6</td><td>25</td><td>2</td><td>1</td></tr>
-<tr><td><a href="/boxscores/202310140PIT.html">10/14/2023</a></td><td><a href="/teams/PIT.html">PIT</a></td><td><a href="/teams/CGY.html">CGY</a></td><td><a href="/players/Jeff Carter.html">Jeff Carter</a></td><td><a href="/teams/PIT.html">PIT</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>16</td><td>11.65</td><td>3</td><td>7</td><td>12</td><td>36.8</td><td>-0.5</td><td>2</td><td>2</td><td>50</td><td>0</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202310140PIT.html">10/14/2023</a></td><td><a href="/teams/PIT.html">PIT</a></td><td><a href="/teams/CGY.html">CGY</a></td><td><a href="/players/Sidney Crosby.html">Sidney Crosby</a></td><td><a href="/teams/PIT.html">PIT</a></td><td>0</td><td>1</td><td>1</td><td>2</td><td>2</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>3</td><td>0</td><td>22</td><td>18.07</td><td>4</td><td>21</td><td>23</td><td>47.7</td><td>15.9</td><td>5</td><td>16</td><td>23.8</td><td>1</td><td>1</td></tr>
-<tr><td><a href="/boxscores/202310140PIT.html">10/14/2023</a></td><td><a href="/teams/PIT.html">PIT</a></td><td><a href="/teams/CGY.html">CGY</a></td><td><a href="/players/Lars Eller.html">Lars Eller</a></td><td><a href="/teams/PIT.html">PIT</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>2</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>4</td><td>0</td><td>20</td><td>14.27</td><td>5</td><td>9</td><td>23</td><td>28.1</td><td>-12.1</td><td>1</td><td>9</td><td>10</td><td>0</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202310140PIT.html">10/14/2023</a></td><td><a href="/teams/PIT.html">PIT</a></td><td><a href="/teams/CGY.html">CGY</a></td><td><a href="/players/Ryan Graves.html">Ryan Graves</a></td><td><a href="/teams/PIT.html">PIT</a></td><td>0</td><td>1</td><td>1</td><td>3</td><td>4</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>2</td><td>0</td><td>28</td><td>21.58</td><td>3</td><td>20</td><td>33</td><td>37.7</td><td>0.9</td><td>4</td><td>13</td><td>23.5</td><td>0</td><td>2</td></tr>
-<tr><td><a href="/boxscores/202310140PIT.html">10/14/2023</a></td><td><a href="/teams/PIT.html">PIT</a></td><td><a href="/teams/CGY.html">CGY</a></td><td><a href="/players/Jake Guentzel.html">Jake Guentzel</a></td><td><a href="/teams/PIT.html">PIT</a></td><td>1</td><td>2</td><td>3</td><td>2</td><td>0</td><td>1</td><td>0</td><td>0</td><td>1</td><td>2</td><td>0</td><td>0</td><td>3</td><td>33.3</td><td>23</td><td>19.57</td><td>4</td><td>21</td><td>27</td><td>43.8</td><td>10.5</td><td>6</td><td>18</td><td>25</td><td>1</td><td>3</td></tr>
-<tr><td><a href="/boxscores/202310140PIT.html">10/14/2023</a></td><td><a href="/teams/PIT.html">PIT</a></td><td><a href="/teams/CGY.html">CGY</a></td><td><a href="/players/Jansen Harkins.html">Jansen Harkins</a></td><td><a href="/teams/PIT.html">PIT</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>14</td><td>10.37</td><td>3</td><td>7</td><td>13</td><td>35</td><td>-2.6</td><td>1</td><td>4</td><td>20</td><td>4</td><td>1</td></tr>
-<tr><td><a href="/boxscores/202310140PIT.html">10/14/2023</a></td><td><a href="/teams/PIT.html">PIT</a></td><td><a href="/teams/CGY.html">CGY</a></td><td><a href="/players/Pierre-Olivier Joseph.html">Pierre-Olivier Joseph</a></td><td><a href="/teams/PIT.html">PIT</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>17</td><td>11.52</td><td>2</td><td>4</td><td>12</td><td>25</td><td>-13.9</td><td>2</td><td>2</td><td>50</td><td>0</td><td>1</td></tr>
-<tr><td><a href="/boxscores/202310140PIT.html">10/14/2023</a></td><td><a href="/teams/PIT.html">PIT</a></td><td><a href="/teams/CGY.html">CGY</a></td><td><a href="/players/Erik Karlsson.html">Erik Karlsson</a></td><td><a href="/teams/PIT.html">PIT</a></td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>3</td><td>0</td><td>26</td><td>25.25</td><td>5</td><td>27</td><td>31</td><td>46.6</td><td>17</td><td>7</td><td>12</td><td>36.8</td><td>2</td><td>1</td></tr>
-<tr><td><a href="/boxscores/202310140PIT.html">10/14/2023</a></td><td><a href="/teams/PIT.html">PIT</a></td><td><a href="/teams/CGY.html">CGY</a></td><td><a href="/players/Kris Letang.html">Kris Letang</a></td><td><a href="/teams/PIT.html">PIT</a></td><td>0</td><td>2</td><td>2</td><td>3</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>2</td><td>0</td><td>0</td><td>1</td><td>0</td><td>30</td><td>24.32</td><td>2</td><td>20</td><td>40</td><td>33.3</td><td>-7.3</td><td>6</td><td>16</td><td>27.3</td><td>4</td><td>1</td></tr>
-<tr><td><a href="/boxscores/202310140PIT.html">10/14/2023</a></td><td><a href="/teams/PIT.html">PIT</a></td><td><a href="/teams/CGY.html">CGY</a></td><td><a href="/players/Evgeni Malkin.html">Evgeni Malkin</a></td><td><a href="/teams/PIT.html">PIT</a></td><td>1</td><td>1</td><td>2</td><td>2</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>5</td><td>20</td><td>20</td><td>17.77</td><td>8</td><td>23</td><td>20</td><td>53.5</td><td>24.4</td><td>8</td><td>3</td><td>72.7</td><td>0</td><td>1</td></tr>
-<tr><td><a href="/boxscores/202310140PIT.html">10/14/2023</a></td><td><a href="/teams/PIT.html">PIT</a></td><td><a href="/teams/CGY.html">CGY</a></td><td><a href="/players/Matthew Nieto.html">Matthew Nieto</a></td><td><a href="/teams/PIT.html">PIT</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>16</td><td>12.35</td><td>1</td><td>6</td><td>16</td><td>27.3</td><td>-12</td><td>2</td><td>4</td><td>33.3</td><td>1</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202310140PIT.html">10/14/2023</a></td><td><a href="/teams/PIT.html">PIT</a></td><td><a href="/teams/CGY.html">CGY</a></td><td><a href="/players/Drew O'Connor.html">Drew O'Connor</a></td><td><a href="/teams/PIT.html">PIT</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>16</td><td>10.45</td><td>0</td><td>6</td><td>13</td><td>31.6</td><td>-6.6</td><td>1</td><td>4</td><td>20</td><td>0</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202310140PIT.html">10/14/2023</a></td><td><a href="/teams/PIT.html">PIT</a></td><td><a href="/teams/CGY.html">CGY</a></td><td><a href="/players/Marcus Pettersson.html">Marcus Pettersson</a></td><td><a href="/teams/PIT.html">PIT</a></td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>27</td><td>21.72</td><td>1</td><td>10</td><td>30</td><td>25</td><td>-17.7</td><td>2</td><td>15</td><td>11.8</td><td>1</td><td>6</td></tr>
-<tr><td><a href="/boxscores/202310140PIT.html">10/14/2023</a></td><td><a href="/teams/PIT.html">PIT</a></td><td><a href="/teams/CGY.html">CGY</a></td><td><a href="/players/Rickard Rakell.html">Rickard Rakell</a></td><td><a href="/teams/PIT.html">PIT</a></td><td>0</td><td>0</td><td>0</td><td>2</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>20</td><td>15.57</td><td>2</td><td>19</td><td>16</td><td>54.3</td><td>23.4</td><td>8</td><td>1</td><td>88.9</td><td>1</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202310140PIT.html">10/14/2023</a></td><td><a href="/teams/PIT.html">PIT</a></td><td><a href="/teams/CGY.html">CGY</a></td><td><a href="/players/Chad Ruhwedel.html">Chad Ruhwedel</a></td><td><a href="/teams/PIT.html">PIT</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>18</td><td>12</td><td>0</td><td>4</td><td>16</td><td>20</td><td>-20.4</td><td>1</td><td>3</td><td>25</td><td>1</td><td>1</td></tr>
-<tr><td><a href="/boxscores/202310140PIT.html">10/14/2023</a></td><td><a href="/teams/PIT.html">PIT</a></td><td><a href="/teams/CGY.html">CGY</a></td><td><a href="/players/Bryan Rust.html">Bryan Rust</a></td><td><a href="/teams/PIT.html">PIT</a></td><td>2</td><td>0</td><td>2</td><td>2</td><td>0</td><td>2</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>3</td><td>66.7</td><td>25</td><td>19.43</td><td>4</td><td>16</td><td>32</td><td>33.3</td><td>-6.2</td><td>2</td><td>17</td><td>10.5</td><td>1</td><td>5</td></tr>
-<tr><td><a href="/boxscores/202310140PIT.html">10/14/2023</a></td><td><a href="/teams/PIT.html">PIT</a></td><td><a href="/teams/CGY.html">CGY</a></td><td><a href="/players/Reilly Smith.html">Reilly Smith</a></td><td><a href="/teams/PIT.html">PIT</a></td><td>1</td><td>1</td><td>2</td><td>2</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>1</td><td>100</td><td>21</td><td>14.95</td><td>1</td><td>12</td><td>18</td><td>40</td><td>3.6</td><td>4</td><td>4</td><td>50</td><td>0</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202310140PIT.html">10/14/2023</a></td><td><a href="/teams/PIT.html">PIT</a></td><td><a href="/teams/CGY.html">CGY</a></td><td><a href="/players/Alex Nedeljkovic.html">Alex Nedeljkovic</a></td><td><a href="/teams/PIT.html">PIT</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>4</td><td>59.7</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202310140PIT.html">10/14/2023</a></td><td><a href="/teams/PIT.html">PIT</a></td><td><a href="/teams/CGY.html">CGY</a></td><td><a href="/players/--.html">--</a></td><td><a href="/teams/--.html">--</a></td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td></tr>
-
-                </tbody>
-            </table>
-
-            <h2>Goalies</h2>
-            <table id="202310140PIT_goalies" border="1">
-                <thead>
-                    <tr>
-                        <th>Home Team</th><th>Away Team</th><th>Goalie</th><th>Team</th><th>DEC</th><th>GA</th><th>SA</th><th>SV</th>
-                        <th>SV%</th><th>SO</th><th>PIM</th><th>Goalie TOI</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr><td><a href="/teams/PIT.html">PIT</a></td><td><a href="/teams/CGY.html">CGY</a></td><td><a href="/players/marksja02.html">Jacob Markström</a></td><td><a href="/teams/CGY.html">CGY</a></td><td>L</td><td>4</td><td>28</td><td>24</td><td>0.857</td><td>0</td><td>0</td><td>57:49:00</td></tr>
-<tr><td><a href="/teams/PIT.html">PIT</a></td><td><a href="/teams/CGY.html">CGY</a></td><td><a href="/players/--.html">Empty Net</a></td><td><a href="/teams/CGY.html">CGY</a></td><td>--</td><td>1</td><td>1</td><td>0</td><td>0.0</td><td>0</td><td>0</td><td>0</td></tr>
-<tr><td><a href="/teams/PIT.html">PIT</a></td><td><a href="/teams/CGY.html">CGY</a></td><td><a href="/players/nedelal01.html">Alex Nedeljkovic</a></td><td><a href="/teams/PIT.html">PIT</a></td><td>W</td><td>2</td><td>36</td><td>34</td><td>0.944</td><td>0</td><td>0</td><td>59:42:00</td></tr>
-
-                </tbody>
-            </table>
-
-            <h2>Scoring</h2>
-            <table id="202310140PIT_scoring" border="1">
-                <thead>
-                    <tr>
-                        <th>Home Team</th><th>Away Team</th><th>Period</th><th>Time</th><th>Team</th><th>Info</th>
-                        <th>Scorer</th><th>Assist1</th><th>Assist2</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr><td><a href="/teams/PIT.html">PIT</a></td><td><a href="/teams/CGY.html">CGY</a></td><td>1st Period</td><td>1st Period</td><td><a href="/teams/1st Period.html">1st Period</a></td><td>1st Period</td><td><a href="/players/1st Period.html">1st Period</a></td><td><a href="/players/1st Period.html">1st Period</a></td><td><a href="/players/1st Period.html">1st Period</a></td></tr>
-<tr><td><a href="/teams/PIT.html">PIT</a></td><td><a href="/teams/CGY.html">CGY</a></td><td>1st Period</td><td>18:22</td><td><a href="/teams/CGY.html">CGY</a></td><td>PP</td><td><a href="/players/Matthew Coronato.html">Matthew Coronato</a></td><td><a href="/players/Elias Lindholm.html">Elias Lindholm</a></td><td><a href="/players/Rasmus Andersson.html">Rasmus Andersson</a></td></tr>
-<tr><td><a href="/teams/PIT.html">PIT</a></td><td><a href="/teams/CGY.html">CGY</a></td><td>3rd Period</td><td>3rd Period</td><td><a href="/teams/3rd Period.html">3rd Period</a></td><td>3rd Period</td><td><a href="/players/3rd Period.html">3rd Period</a></td><td><a href="/players/3rd Period.html">3rd Period</a></td><td><a href="/players/3rd Period.html">3rd Period</a></td></tr>
-<tr><td><a href="/teams/PIT.html">PIT</a></td><td><a href="/teams/CGY.html">CGY</a></td><td>3rd Period</td><td>0:18</td><td><a href="/teams/PIT.html">PIT</a></td><td>--</td><td><a href="/players/Bryan Rust.html">Bryan Rust</a></td><td><a href="/players/Kris Letang.html">Kris Letang</a></td><td><a href="/players/Jake Guentzel.html">Jake Guentzel</a></td></tr>
-<tr><td><a href="/teams/PIT.html">PIT</a></td><td><a href="/teams/CGY.html">CGY</a></td><td>3rd Period</td><td>0:41</td><td><a href="/teams/PIT.html">PIT</a></td><td>--</td><td><a href="/players/Reilly Smith.html">Reilly Smith</a></td><td><a href="/players/Evgeni Malkin.html">Evgeni Malkin</a></td><td><a href="/players/Ryan Graves.html">Ryan Graves</a></td></tr>
-<tr><td><a href="/teams/PIT.html">PIT</a></td><td><a href="/teams/CGY.html">CGY</a></td><td>3rd Period</td><td>5:50</td><td><a href="/teams/PIT.html">PIT</a></td><td>--</td><td><a href="/players/Jake Guentzel.html">Jake Guentzel</a></td><td><a href="/players/Kris Letang.html">Kris Letang</a></td><td><a href="/players/Sidney Crosby.html">Sidney Crosby</a></td></tr>
-<tr><td><a href="/teams/PIT.html">PIT</a></td><td><a href="/teams/CGY.html">CGY</a></td><td>3rd Period</td><td>14:14</td><td><a href="/teams/PIT.html">PIT</a></td><td>--</td><td><a href="/players/Evgeni Malkin.html">Evgeni Malkin</a></td><td><a href="/players/Reilly Smith.html">Reilly Smith</a></td><td><a href="/players/Reilly Smith.html">Reilly Smith</a></td></tr>
-<tr><td><a href="/teams/PIT.html">PIT</a></td><td><a href="/teams/CGY.html">CGY</a></td><td>3rd Period</td><td>16:05</td><td><a href="/teams/CGY.html">CGY</a></td><td>--</td><td><a href="/players/Jonathan Huberdeau.html">Jonathan Huberdeau</a></td><td><a href="/players/Andrew Mangiapane.html">Andrew Mangiapane</a></td><td><a href="/players/Noah Hanifin.html">Noah Hanifin</a></td></tr>
-<tr><td><a href="/teams/PIT.html">PIT</a></td><td><a href="/teams/CGY.html">CGY</a></td><td>3rd Period</td><td>19:38</td><td><a href="/teams/PIT.html">PIT</a></td><td>EN</td><td><a href="/players/Bryan Rust.html">Bryan Rust</a></td><td><a href="/players/Jake Guentzel.html">Jake Guentzel</a></td><td><a href="/players/Jake Guentzel.html">Jake Guentzel</a></td></tr>
-
-                </tbody>
-            </table>
-
-            <h2>Penalties</h2>
-            <table id="202310140PIT_penalties" border="1">
-                <thead>
-                    <tr>
-                        <th>Home Team</th><th>Away Team</th><th>Period</th><th>Time</th><th>Team</th><th>Player</th>
-                        <th>Penalty</th><th>PIM</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr><td><a href="/teams/PIT.html">PIT</a></td><td><a href="/teams/CGY.html">CGY</a></td><td>1st Period</td><td>1st Period</td><td><a href="/teams/1st Period.html">1st Period</a></td><td><a href="/players/1st Period.html">1st Period</a></td><td>1st Period</td><td>1st Period</td></tr>
-<tr><td><a href="/teams/PIT.html">PIT</a></td><td><a href="/teams/CGY.html">CGY</a></td><td>1st Period</td><td>10:40</td><td><a href="/teams/CGY.html">CGY</a></td><td><a href="/players/Nikita Zadorov.html">Nikita Zadorov</a></td><td>Tripping</td><td>2 min</td></tr>
-<tr><td><a href="/teams/PIT.html">PIT</a></td><td><a href="/teams/CGY.html">CGY</a></td><td>1st Period</td><td>12:05</td><td><a href="/teams/CGY.html">CGY</a></td><td><a href="/players/Blake Coleman.html">Blake Coleman</a></td><td>Hooking</td><td>2 min</td></tr>
-<tr><td><a href="/teams/PIT.html">PIT</a></td><td><a href="/teams/CGY.html">CGY</a></td><td>1st Period</td><td>13:02</td><td><a href="/teams/PIT.html">PIT</a></td><td><a href="/players/Sidney Crosby.html">Sidney Crosby</a></td><td>Hooking</td><td>2 min</td></tr>
-<tr><td><a href="/teams/PIT.html">PIT</a></td><td><a href="/teams/CGY.html">CGY</a></td><td>1st Period</td><td>13:52</td><td><a href="/teams/CGY.html">CGY</a></td><td><a href="/players/Dillon Dubé.html">Dillon Dubé</a></td><td>Holding</td><td>2 min</td></tr>
-<tr><td><a href="/teams/PIT.html">PIT</a></td><td><a href="/teams/CGY.html">CGY</a></td><td>1st Period</td><td>19:02</td><td><a href="/teams/PIT.html">PIT</a></td><td><a href="/players/Ryan Graves.html">Ryan Graves</a></td><td>Holding</td><td>2 min</td></tr>
-<tr><td><a href="/teams/PIT.html">PIT</a></td><td><a href="/teams/CGY.html">CGY</a></td><td>2nd Period</td><td>2nd Period</td><td><a href="/teams/2nd Period.html">2nd Period</a></td><td><a href="/players/2nd Period.html">2nd Period</a></td><td>2nd Period</td><td>2nd Period</td></tr>
-<tr><td><a href="/teams/PIT.html">PIT</a></td><td><a href="/teams/CGY.html">CGY</a></td><td>2nd Period</td><td>13:52</td><td><a href="/teams/PIT.html">PIT</a></td><td><a href="/players/Lars Eller.html">Lars Eller</a></td><td>Hooking</td><td>2 min</td></tr>
-<tr><td><a href="/teams/PIT.html">PIT</a></td><td><a href="/teams/CGY.html">CGY</a></td><td>2nd Period</td><td>17:23</td><td><a href="/teams/PIT.html">PIT</a></td><td><a href="/players/Ryan Graves.html">Ryan Graves</a></td><td>Holding</td><td>2 min</td></tr>
-
-                </tbody>
-            </table>
-        </main>
-    </body>
-    </html>
-    
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Calgary Flames at Pittsburgh Penguins: October 14, 2023</title>
+<link rel="stylesheet" href="/assets/styles.css">
+<script src="/assets/searchBar.js"></script>
+<script src="/assets/tableSort.js"></script>
+</head>
+<body>
+<nav id="navbar">
+<ul>
+<li><a href="/">Home</a></li>
+<li><a href="/players/">Players</a></li>
+<li><a href="/teams/">Teams</a></li>
+<li><a href="/probabilities/">Probabilities</a></li>
+<li><a href="/boxscores/">Boxscores</a></li>
+<li><a href="/versus/">Head to Head Stats</a></li>
+<li><a href="/leaders/">Leaders</a></li>
+<li><a href="/seasons/2025/schedule.html">Schedule and Results</a></li>
+<li><a href="/seasons/2025/standings.html">Current Standings</a></li>
+<li><a href="/seasons/2025/rosters.html">Team Rosters</a></li>
+<li>
+<input type="text" id="searchBar" placeholder="Search for players or teams..." oninput="performSearch()" autocomplete="off">
+<div id="searchResults" class="dropdown"></div>
+<button id="searchButton" onclick="handleSearch()">Search</button>
+</li>
+</ul>
+</nav>
+<main id="content">
+<div class="scorebox">
+<div class="team"><div><a href="/teams/CGY.html">CGY</a></div><div class="score">2</div></div>
+<div class="team"><div><a href="/teams/PIT.html">PIT</a></div><div class="score">5</div></div>
+<div class="date">October 14, 2023</div>
+</div>
+<table id="CGY_skaters">
+<tr><th>Team</th><th>Player</th><th>G</th><th>A</th><th>PTS</th><th>SOG</th><th>HIT</th><th>BLK</th><th>TOI</th><th>PIM</th><th>SAT-F</th><th>SAT-A</th><th>CF%</th><th>CRel%</th></tr>
+<tr><td><a href="/teams/CGY.html">CGY</a></td><td><a href="/players/greeraj01.html">A.J. Greer</a></td><td>0</td><td>0</td><td>0</td><td>3</td><td>0</td><td>0</td><td>11.92</td><td>0</td><td>16</td><td>5</td><td>76.20%</td><td>16.00%</td></tr>
+<tr><td><a href="/teams/CGY.html">CGY</a></td><td><a href="/players/ruzicad01.html">Adam Ružička</a></td><td>0</td><td>0</td><td>0</td><td>2</td><td>1</td><td>0</td><td>12.7</td><td>0</td><td>12</td><td>5</td><td>70.60%</td><td>9.00%</td></tr>
+<tr><td><a href="/teams/CGY.html">CGY</a></td><td><a href="/players/mangian01.html">Andrew Mangiapane</a></td><td>0</td><td>1</td><td>1</td><td>1</td><td>1</td><td>0</td><td>14.6</td><td>0</td><td>24</td><td>10</td><td>70.60%</td><td>10.60%</td></tr>
+<tr><td><a href="/teams/CGY.html">CGY</a></td><td><a href="/players/colembl01.html">Blake Coleman</a></td><td>0</td><td>0</td><td>0</td><td>3</td><td>1</td><td>0</td><td>13.8</td><td>2</td><td>16</td><td>15</td><td>51.60%</td><td>-14.70%</td></tr>
+<tr><td><a href="/teams/CGY.html">CGY</a></td><td><a href="/players/tanevch01.html">Chris Tanev</a></td><td>0</td><td>0</td><td>0</td><td>2</td><td>0</td><td>2</td><td>16.5</td><td>0</td><td>12</td><td>21</td><td>36.40%</td><td>-35.50%</td></tr>
+<tr><td><a href="/teams/CGY.html">CGY</a></td><td><a href="/players/gilbede01.html">Dennis Gilbert</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>2</td><td>0</td><td>10.58</td><td>0</td><td>8</td><td>7</td><td>53.30%</td><td>-10.70%</td></tr>
+<tr><td><a href="/teams/CGY.html">CGY</a></td><td><a href="/players/dubedi01.html">Dillon Dubé</a></td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>14.38</td><td>2</td><td>14</td><td>6</td><td>70.00%</td><td>8.50%</td></tr>
+<tr><td><a href="/teams/CGY.html">CGY</a></td><td><a href="/players/lindhel01.html">Elias Lindholm</a></td><td>0</td><td>1</td><td>1</td><td>3</td><td>0</td><td>0</td><td>19.83</td><td>0</td><td>36</td><td>23</td><td>61.00%</td><td>-3.30%</td></tr>
+<tr><td><a href="/teams/CGY.html">CGY</a></td><td><a href="/players/huberjo01.html">Jonathan Huberdeau</a></td><td>1</td><td>0</td><td>1</td><td>5</td><td>1</td><td>0</td><td>18.42</td><td>0</td><td>37</td><td>15</td><td>71.20%</td><td>14.10%</td></tr>
+<tr><td><a href="/teams/CGY.html">CGY</a></td><td><a href="/players/weegama01.html">MacKenzie Weegar</a></td><td>0</td><td>0</td><td>0</td><td>2</td><td>0</td><td>1</td><td>21.68</td><td>0</td><td>24</td><td>23</td><td>51.10%</td><td>-18.40%</td></tr>
+<tr><td><a href="/teams/CGY.html">CGY</a></td><td><a href="/players/coronma01.html">Matthew Coronato</a></td><td>1</td><td>0</td><td>1</td><td>1</td><td>0</td><td>0</td><td>14.72</td><td>0</td><td>21</td><td>16</td><td>56.80%</td><td>-8.40%</td></tr>
+<tr><td><a href="/teams/CGY.html">CGY</a></td><td><a href="/players/backlmi01.html">Mikael Backlund</a></td><td>0</td><td>0</td><td>0</td><td>1</td><td>1</td><td>0</td><td>15.72</td><td>0</td><td>16</td><td>18</td><td>47.10%</td><td>-21.30%</td></tr>
+<tr><td><a href="/teams/CGY.html">CGY</a></td><td><a href="/players/kadrina01.html">Nazem Kadri</a></td><td>0</td><td>0</td><td>0</td><td>2</td><td>1</td><td>0</td><td>19.33</td><td>0</td><td>29</td><td>10</td><td>74.40%</td><td>16.60%</td></tr>
+<tr><td><a href="/teams/CGY.html">CGY</a></td><td><a href="/players/zadorni01.html">Nikita Zadorov</a></td><td>0</td><td>0</td><td>0</td><td>3</td><td>1</td><td>0</td><td>19.83</td><td>2</td><td>26</td><td>15</td><td>63.40%</td><td>0.90%</td></tr>
+<tr><td><a href="/teams/CGY.html">CGY</a></td><td><a href="/players/hanifno01.html">Noah Hanifin</a></td><td>0</td><td>1</td><td>1</td><td>0</td><td>1</td><td>1</td><td>23.47</td><td>0</td><td>37</td><td>15</td><td>71.20%</td><td>14.10%</td></tr>
+<tr><td><a href="/teams/CGY.html">CGY</a></td><td><a href="/players/anderra01.html">Rasmus Andersson</a></td><td>0</td><td>1</td><td>1</td><td>4</td><td>0</td><td>0</td><td>24.15</td><td>0</td><td>46</td><td>14</td><td>76.70%</td><td>26.00%</td></tr>
+<tr><td><a href="/teams/CGY.html">CGY</a></td><td><a href="/players/duehrwa01.html">Walker Duehr</a></td><td>0</td><td>0</td><td>0</td><td>1</td><td>2</td><td>0</td><td>10.65</td><td>0</td><td>16</td><td>3</td><td>84.20%</td><td>25.10%</td></tr>
+<tr><td><a href="/teams/CGY.html">CGY</a></td><td><a href="/players/sharaye01.html">Yegor Sharangovich</a></td><td>0</td><td>0</td><td>0</td><td>2</td><td>0</td><td>1</td><td>13.9</td><td>0</td><td>16</td><td>7</td><td>69.60%</td><td>8.30%</td></tr>
+</table>
+<table id="PIT_skaters">
+<tr><th>Team</th><th>Player</th><th>G</th><th>A</th><th>PTS</th><th>SOG</th><th>HIT</th><th>BLK</th><th>TOI</th><th>PIM</th><th>SAT-F</th><th>SAT-A</th><th>CF%</th><th>CRel%</th></tr>
+<tr><td><a href="/teams/PIT.html">PIT</a></td><td><a href="/players/rustbr01.html">Bryan Rust</a></td><td>2</td><td>0</td><td>2</td><td>3</td><td>1</td><td>5</td><td>19.43</td><td>0</td><td>16</td><td>32</td><td>33.30%</td><td>-6.20%</td></tr>
+<tr><td><a href="/teams/PIT.html">PIT</a></td><td><a href="/players/ruhwech01.html">Chad Ruhwedel</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>1</td><td>12.0</td><td>0</td><td>4</td><td>16</td><td>20.00%</td><td>-20.40%</td></tr>
+<tr><td><a href="/teams/PIT.html">PIT</a></td><td><a href="/players/oconndr01.html">Drew O'Connor</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>10.45</td><td>0</td><td>6</td><td>13</td><td>31.60%</td><td>-6.60%</td></tr>
+<tr><td><a href="/teams/PIT.html">PIT</a></td><td><a href="/players/karlser01.html">Erik Karlsson</a></td><td>0</td><td>0</td><td>0</td><td>3</td><td>2</td><td>1</td><td>25.25</td><td>0</td><td>27</td><td>31</td><td>46.60%</td><td>17.00%</td></tr>
+<tr><td><a href="/teams/PIT.html">PIT</a></td><td><a href="/players/malkiev01.html">Evgeni Malkin</a></td><td>1</td><td>1</td><td>2</td><td>5</td><td>0</td><td>1</td><td>17.77</td><td>0</td><td>23</td><td>20</td><td>53.50%</td><td>24.40%</td></tr>
+<tr><td><a href="/teams/PIT.html">PIT</a></td><td><a href="/players/guentja01.html">Jake Guentzel</a></td><td>1</td><td>2</td><td>3</td><td>3</td><td>1</td><td>3</td><td>19.57</td><td>0</td><td>21</td><td>27</td><td>43.80%</td><td>10.50%</td></tr>
+<tr><td><a href="/teams/PIT.html">PIT</a></td><td><a href="/players/harkija01.html">Jansen Harkins</a></td><td>0</td><td>0</td><td>0</td><td>1</td><td>4</td><td>1</td><td>10.37</td><td>0</td><td>7</td><td>13</td><td>35.00%</td><td>-2.60%</td></tr>
+<tr><td><a href="/teams/PIT.html">PIT</a></td><td><a href="/players/carteje01.html">Jeff Carter</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>11.65</td><td>0</td><td>7</td><td>12</td><td>36.80%</td><td>-0.50%</td></tr>
+<tr><td><a href="/teams/PIT.html">PIT</a></td><td><a href="/players/letankr01.html">Kris Letang</a></td><td>0</td><td>2</td><td>2</td><td>1</td><td>4</td><td>1</td><td>24.32</td><td>0</td><td>20</td><td>40</td><td>33.30%</td><td>-7.30%</td></tr>
+<tr><td><a href="/teams/PIT.html">PIT</a></td><td><a href="/players/ellerla01.html">Lars Eller</a></td><td>0</td><td>0</td><td>0</td><td>4</td><td>0</td><td>0</td><td>14.27</td><td>2</td><td>9</td><td>23</td><td>28.10%</td><td>-12.10%</td></tr>
+<tr><td><a href="/teams/PIT.html">PIT</a></td><td><a href="/players/pettema01.html">Marcus Pettersson</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>6</td><td>21.72</td><td>0</td><td>10</td><td>30</td><td>25.00%</td><td>-17.70%</td></tr>
+<tr><td><a href="/teams/PIT.html">PIT</a></td><td><a href="/players/nietoma01.html">Matthew Nieto</a></td><td>0</td><td>0</td><td>0</td><td>1</td><td>1</td><td>0</td><td>12.35</td><td>0</td><td>6</td><td>16</td><td>27.30%</td><td>-12.00%</td></tr>
+<tr><td><a href="/teams/PIT.html">PIT</a></td><td><a href="/players/acciano01.html">Noel Acciari</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>2</td><td>1</td><td>12.5</td><td>0</td><td>5</td><td>18</td><td>21.70%</td><td>-18.90%</td></tr>
+<tr><td><a href="/teams/PIT.html">PIT</a></td><td><a href="/players/joseppi01.html">Pierre-Olivier Joseph</a></td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>1</td><td>11.52</td><td>0</td><td>4</td><td>12</td><td>25.00%</td><td>-13.90%</td></tr>
+<tr><td><a href="/teams/PIT.html">PIT</a></td><td><a href="/players/smithre01.html">Reilly Smith</a></td><td>1</td><td>1</td><td>2</td><td>1</td><td>0</td><td>0</td><td>14.95</td><td>0</td><td>12</td><td>18</td><td>40.00%</td><td>3.60%</td></tr>
+<tr><td><a href="/teams/PIT.html">PIT</a></td><td><a href="/players/rakelri01.html">Rickard Rakell</a></td><td>0</td><td>0</td><td>0</td><td>1</td><td>1</td><td>0</td><td>15.57</td><td>0</td><td>19</td><td>16</td><td>54.30%</td><td>23.40%</td></tr>
+<tr><td><a href="/teams/PIT.html">PIT</a></td><td><a href="/players/gravery01.html">Ryan Graves</a></td><td>0</td><td>1</td><td>1</td><td>2</td><td>0</td><td>2</td><td>21.58</td><td>4</td><td>20</td><td>33</td><td>37.70%</td><td>0.90%</td></tr>
+<tr><td><a href="/teams/PIT.html">PIT</a></td><td><a href="/players/crosbsi01.html">Sidney Crosby</a></td><td>0</td><td>1</td><td>1</td><td>3</td><td>1</td><td>1</td><td>18.07</td><td>2</td><td>21</td><td>23</td><td>47.70%</td><td>15.90%</td></tr>
+</table>
+<table id="CGY_goalies">
+<tr><th>Team</th><th>Goalie</th><th>DEC</th><th>GA</th><th>SA</th><th>SV</th><th>SV%</th><th>SO</th><th>PIM</th><th>TOI</th></tr>
+<tr><td><a href="/teams/CGY.html">CGY</a></td><td><a href="/players/marksja02.html">Jacob Markström</a></td><td>L</td><td>4</td><td>28</td><td>24</td><td>85.70%</td><td>0</td><td>0</td><td>57.82</td></tr>
+<tr><td><a href="/teams/CGY.html">CGY</a></td><td><a href="/players/nan.html">Empty Net</a></td><td>--</td><td>1</td><td>1</td><td>0</td><td>0.00%</td><td>0</td><td>0</td><td>0.0</td></tr>
+</table>
+<table id="PIT_goalies">
+<tr><th>Team</th><th>Goalie</th><th>DEC</th><th>GA</th><th>SA</th><th>SV</th><th>SV%</th><th>SO</th><th>PIM</th><th>TOI</th></tr>
+<tr><td><a href="/teams/PIT.html">PIT</a></td><td><a href="/players/nedelal01.html">Alex Nedeljkovic</a></td><td>W</td><td>2</td><td>36</td><td>34</td><td>94.40%</td><td>0</td><td>0</td><td>59.7</td></tr>
+</table>
+<table id="scoring">
+<tr><th>Team</th><th>Time</th><th>Info</th><th>Scorer</th><th>Assist 1</th><th>Assist 2</th></tr>
+<tr><td><a href="/teams/CGY.html">CGY</a></td><td>18.37</td><td>PP</td><td><a href="/players/coronma01.html">Matthew Coronato</a></td><td><a href="/players/lindhel01.html">Elias Lindholm</a></td><td><a href="/players/anderra01.html">Rasmus Andersson</a></td></tr>
+<tr><td><a href="/teams/PIT.html">PIT</a></td><td>40.3</td><td>--</td><td><a href="/players/rustbr01.html">Bryan Rust</a></td><td><a href="/players/letankr01.html">Kris Letang</a></td><td><a href="/players/guentja01.html">Jake Guentzel</a></td></tr>
+<tr><td><a href="/teams/PIT.html">PIT</a></td><td>40.68</td><td>--</td><td><a href="/players/smithre01.html">Reilly Smith</a></td><td><a href="/players/malkiev01.html">Evgeni Malkin</a></td><td><a href="/players/gravery01.html">Ryan Graves</a></td></tr>
+<tr><td><a href="/teams/PIT.html">PIT</a></td><td>45.83</td><td>--</td><td><a href="/players/guentja01.html">Jake Guentzel</a></td><td><a href="/players/letankr01.html">Kris Letang</a></td><td><a href="/players/crosbsi01.html">Sidney Crosby</a></td></tr>
+<tr><td><a href="/teams/PIT.html">PIT</a></td><td>54.23</td><td>--</td><td><a href="/players/malkiev01.html">Evgeni Malkin</a></td><td><a href="/players/smithre01.html">Reilly Smith</a></td><td><a href="/players/smithre01.html">Reilly Smith</a></td></tr>
+<tr><td><a href="/teams/CGY.html">CGY</a></td><td>56.08</td><td>--</td><td><a href="/players/huberjo01.html">Jonathan Huberdeau</a></td><td><a href="/players/mangian01.html">Andrew Mangiapane</a></td><td><a href="/players/hanifno01.html">Noah Hanifin</a></td></tr>
+<tr><td><a href="/teams/PIT.html">PIT</a></td><td>59.63</td><td>EN</td><td><a href="/players/rustbr01.html">Bryan Rust</a></td><td><a href="/players/guentja01.html">Jake Guentzel</a></td><td><a href="/players/guentja01.html">Jake Guentzel</a></td></tr>
+</table>
+<table id="penalties">
+<tr><th>Team</th><th>Time</th><th>Player</th><th>Penalty</th><th>PIM</th></tr>
+<tr><td><a href="/teams/CGY.html">CGY</a></td><td>10.67</td><td><a href="/players/zadorni01.html">Nikita Zadorov</a></td><td>Tripping</td><td>2 min</td></tr>
+<tr><td><a href="/teams/CGY.html">CGY</a></td><td>12.08</td><td><a href="/players/colembl01.html">Blake Coleman</a></td><td>Hooking</td><td>2 min</td></tr>
+<tr><td><a href="/teams/PIT.html">PIT</a></td><td>13.03</td><td><a href="/players/crosbsi01.html">Sidney Crosby</a></td><td>Hooking</td><td>2 min</td></tr>
+<tr><td><a href="/teams/CGY.html">CGY</a></td><td>13.87</td><td><a href="/players/dubedi01.html">Dillon Dubé</a></td><td>Holding</td><td>2 min</td></tr>
+<tr><td><a href="/teams/PIT.html">PIT</a></td><td>19.03</td><td><a href="/players/gravery01.html">Ryan Graves</a></td><td>Holding</td><td>2 min</td></tr>
+<tr><td><a href="/teams/PIT.html">PIT</a></td><td>33.87</td><td><a href="/players/ellerla01.html">Lars Eller</a></td><td>Hooking</td><td>2 min</td></tr>
+<tr><td><a href="/teams/PIT.html">PIT</a></td><td>37.38</td><td><a href="/players/gravery01.html">Ryan Graves</a></td><td>Holding</td><td>2 min</td></tr>
+</table>
+</main>
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stats</title>
+    <link rel="stylesheet" href="/assets/styles.css">
+    <script src="/assets/searchBar.js"></script>
+    <script src="/assets/tableSort.js"></script>
+</head>
+<body>
+
+<!-- Navigation Bar -->
+<nav id="navbar">
+  <ul>
+    <li><a href="/">Home</a></li>
+	<li><a href="/players/">Players</a></li>
+	<li><a href="/teams/">Teams</a></li>
+	<li><a href="/probabilities/">Probabilities</a></li>
+	<li><a href="/boxscores/">Boxscores</a></li>
+	<li><a href="/versus/">Head to Head Stats</a></li>
+	<li><a href="/leaders/">Leaders</a></li>
+	<li><a href="/seasons/2025/schedule.html">Schedule and Results</a></li>
+	<li><a href="/seasons/2025/standings.html">Current Standings</a></li>
+	<li><a href="/seasons/2025/rosters.html">Team Rosters</a></li>
+	<!-- Search Bar -->
+	<li>
+	  <input type="text" id="searchBar" placeholder="Search for players or teams..." oninput="performSearch()" autocomplete="off">
+	  <div id="searchResults" class="dropdown"></div>
+	  <button id="searchButton" onclick="handleSearch()">Search</button>
+	</li>  
+  </ul>
+</nav>

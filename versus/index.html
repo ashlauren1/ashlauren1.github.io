@@ -1,0 +1,76 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Head-to-Head Search</title>
+    <link rel="stylesheet" href="/assets/styles.css">
+    <script src="/assets/searchBar.js"></script>
+    <script src="/assets/tableSort.js"></script>
+</head>
+<body>
+
+<!-- Navigation Bar -->
+<nav id="navbar">
+  <ul>
+    <li><a href="/">Home</a></li>
+	<li><a href="/players/">Players</a></li>
+	<li><a href="/teams/">Teams</a></li>
+	<li><a href="/probabilities/">Probabilities</a></li>
+	<li><a href="/boxscores/">Boxscores</a></li>
+	<li><a href="/versus/">Head to Head Stats</a></li>
+	<li><a href="/leaders/">Leaders</a></li>
+	<li><a href="/seasons/2025/schedule.html">Schedule and Results</a></li>
+	<li><a href="/seasons/2025/standings.html">Current Standings</a></li>
+	<li><a href="/seasons/2025/rosters.html">Team Rosters</a></li>
+	<!-- Search Bar -->
+	<li>
+	  <input type="text" id="searchBar" placeholder="Search for players or teams..." oninput="performSearch()" autocomplete="off">
+	  <div id="searchResults" class="dropdown"></div>
+	  <button id="searchButton" onclick="handleSearch()">Search</button>
+	</li>  
+  </ul>
+</nav>
+
+    <h1>Advanced Head-to-Head Search</h1>
+    <form id="advancedSearchForm">
+        <div class="form-group">
+            <label for="player1">Player 1:</label>
+            <input type="text" id="player1" name="player1" placeholder="Enter Player 1 name">
+        </div>
+        <div class="form-group">
+            <label for="player2">Player 2:</label>
+            <input type="text" id="player2" name="player2" placeholder="Enter Player 2 name (optional)">
+        </div>
+        <div class="form-group">
+            <label for="team1">Team 1:</label>
+            <input type="text" id="team1" name="team1" placeholder="Enter Team 1 name">
+        </div>
+        <div class="form-group">
+            <label for="team2">Team 2:</label>
+            <input type="text" id="team2" name="team2" placeholder="Enter Team 2 name (optional)">
+        </div>
+        <div class="form-group">
+            <label for="season">Season:</label>
+            <select id="season" name="season">
+                <option value="all">All Seasons</option>
+                <option value="2021-22">2021-22</option>
+                <option value="2022-23">2022-23</option>
+                <option value="2023-24">2023-24</option>
+                <option value="2024-25">2024-25</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label><input type="checkbox" name="awayGamesOnly"> Away Games Only</label>
+        </div>
+        <div class="form-group">
+            <label><input type="checkbox" name="excludeTeammates"> Exclude Specific Teammates</label>
+            <input type="text" id="excludeTeammate" name="excludeTeammate" placeholder="Enter Teammate Name">
+        </div>
+        <button type="button" onclick="handleAdvancedSearch()">Search</button>
+    </form>
+    <div id="resultsContainer"></div>
+
+    <script src="/assets/advancedSearch.js"></script>
+</body>
+</html>

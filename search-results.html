@@ -1,0 +1,101 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hockey Stats</title>
+    <link rel="stylesheet" href="/assets/styles.css">
+    <script src="/assets/searchBar.js"></script>
+    <script src="/assets/tableSort.js"></script>
+</head>
+<body>
+
+
+<!-- Navigation Bar -->
+<nav id="navbar">
+  <ul>
+    <li><a href="/">Home</a></li>
+    <li><a href="/players/">Players</a></li>
+    <li><a href="/teams/">Teams</a></li>
+    <li><a href="/leaders/">Leaders</a></li>
+    <li><a href="/probabilities/">Probabilities</a></li>
+    <li><a href="/boxscores/">Boxscores</a></li>
+    <li><a href="/schedule/">Schedule</a></li>
+    <!-- Search Bar -->
+    <li>
+      <input type="text" id="searchBar" placeholder="Search for players or teams..." oninput="performSearch()" autocomplete="off">
+      <div id="searchResults" class="dropdown"></div>
+      <button id="searchButton" onclick="handleSearch()">Search</button>
+    </li>  
+  </ul>
+</nav>
+
+    <h1>Search Results</h1>
+    
+    <div id="searchResultsContainer"></div> <!-- Where results will be displayed -->
+
+    <script>
+        // Get the query parameter from the URL
+        const queryString = window.location.search;
+        const urlParams = new URLSearchParams(queryString);
+        const searchQuery = urlParams.get('q') || ''; // 'q' is the query parameter for the search
+
+        // Fetch players and teams data (this part can be loaded from your searchbar.js)
+        let players = [];
+        let teams = [];
+
+        fetch('/assets/players.json')
+            .then(response => response.json())
+            .then(data => {
+                players = data;
+                displayResults(); // Call the function to display results
+            });
+
+        fetch('/assets/teams.json')
+            .then(response => response.json())
+            .then(data => {
+                teams = data;
+                displayResults(); // Call the function to display results
+            });
+
+        // Function to display results based on search query
+        function displayResults() {
+            const resultsContainer = document.getElementById('searchResultsContainer');
+            resultsContainer.innerHTML = ''; // Clear previous results
+
+            if (searchQuery.length === 0) {
+                resultsContainer.innerHTML = '<p>No search query provided.</p>';
+                return;
+            }
+
+            const filteredPlayers = players.filter(player =>
+                player.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
+                player.eng_name.toLowerCase().includes(searchQuery.toLowerCase())
+            );
+
+            const filteredTeams = teams.filter(team =>
+                team.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
+                team.aliases.some(alias => alias.toLowerCase().includes(searchQuery.toLowerCase()))
+            );
+
+            if (filteredPlayers.length === 0 && filteredTeams.length === 0) {
+                resultsContainer.innerHTML = '<p>No results found for "' + searchQuery + '".</p>';
+            } else {
+                // Display filtered players
+                filteredPlayers.forEach(player => {
+                    const playerItem = document.createElement('div');
+                    playerItem.innerHTML = `<a href="${player.url}">${player.name}</a>`;
+                    resultsContainer.appendChild(playerItem);
+                });
+
+                // Display filtered teams
+                filteredTeams.forEach(team => {
+                    const teamItem = document.createElement('div');
+                    teamItem.innerHTML = `<a href="${team.url}">${team.name}</a>`;
+                    resultsContainer.appendChild(teamItem);
+                });
+            }
+        }
+    </script>
+</body>
+</html>

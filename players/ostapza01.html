@@ -1,16 +1,50 @@
-<!DOCTYPE lang="en"></!DOCTYPE><html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><title>Zack Ostapchuk Profile</title><link href="/assets/styles.css" rel="stylesheet"/><script src="/assets/searchBar.js"></script><script src="/assets/tableSort.js"></script></head><body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Zack Ostapchuk Stats 2023-24</title>
+<link rel="stylesheet" href="/assets/styles.css">
+<script src="/assets/searchBar.js"></script>
+<script src="/assets/tableSort.js"></script>
+</head>
+<body>
 <nav id="navbar">
-<a href="/">Home</a>
-<a href="/players/">Players</a>
-<a href="/teams/">Teams</a>
-<a href="/leaders/">Leaders</a>
-<a href="/probabilities/">Probabilities</a>
-<a href="/boxscores/">Boxscores</a>
-<a href="/schedule/">Schedule</a>
-<!-- Search Bar -->
-<div class="search-container">
-<input id="searchInput" oninput="searchEntities()" placeholder="Search players or teams..." type="text"/>
-<ul id="suggestions"></ul> <!-- This will show the search suggestions -->
-</div>
+<ul>
+<li><a href="/">Home</a></li>
+<li><a href="/players/">Players</a></li>
+<li><a href="/teams/">Teams</a></li>
+<li><a href="/probabilities/">Probabilities</a></li>
+<li><a href="/boxscores/">Boxscores</a></li>
+<li><a href="/versus/">Head to Head Stats</a></li>
+<li><a href="/leaders/">Leaders</a></li>
+<li><a href="/seasons/2025/schedule.html">Schedule and Results</a></li>
+<li><a href="/seasons/2025/standings.html">Current Standings</a></li>
+<li><a href="/seasons/2025/rosters.html">Team Rosters</a></li>
+<li>
+<input type="text" id="searchBar" placeholder="Search for players or teams..." oninput="performSearch()" autocomplete="off">
+<div id="searchResults" class="dropdown"></div>
+<button id="searchButton" onclick="handleSearch()">Search</button>
+</li>
+</ul>
 </nav>
-<h1>Zack Ostapchuk Stats</h1><table id="ostapza01_gamelog_2023"><caption>Zack Ostapchuk Gamelogs 2023-24</caption><tr><th>Season</th><th>Date</th><th>Team</th><th>Location</th><th>Opp</th><th>Result</th><th>G</th><th>A</th><th>PTS</th><th>+/-</th><th>PIM</th><th>EVG</th><th>PPG</th><th>SHG</th><th>GWG</th><th>EV Assist</th><th>PP Assist</th><th>SH Assist</th><th>SOG</th><th>S%</th><th>SHFT</th><th>TOI</th><th>HIT</th><th>BLK</th></tr><tr><td><a href="/schedule/2023.html">2023-24</a></td><td><a href="/boxscores/202403120OTT.html">3/12/2024</a></td><td><a href="/teams/OTT.html">OTT</a></td><td>vs</td><td><a href="/teams/PIT.html">PIT</a></td><td>W</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>2</td><td>0.0</td><td>17</td><td>12:44</td><td>1</td><td>0</td></tr><tr><td><a href="/schedule/2023.html">2023-24</a></td><td><a href="/boxscores/202403140CBJ.html">3/14/2024</a></td><td><a href="/teams/OTT.html">OTT</a></td><td>@</td><td><a href="/teams/CBJ.html">CBJ</a></td><td>W</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0.0</td><td>13</td><td>8:44</td><td>2</td><td>0</td></tr><tr><td><a href="/schedule/2023.html">2023-24</a></td><td><a href="/boxscores/202403160NYI.html">3/16/2024</a></td><td><a href="/teams/OTT.html">OTT</a></td><td>@</td><td><a href="/teams/NYI.html">NYI</a></td><td>W</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0.0</td><td>16</td><td>11:22</td><td>1</td><td>3</td></tr><tr><td><a href="/schedule/2023.html">2023-24</a></td><td><a href="/boxscores/202403170OTT.html">3/17/2024</a></td><td><a href="/teams/OTT.html">OTT</a></td><td>vs</td><td><a href="/teams/CAR.html">CAR</a></td><td>L</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0.0</td><td>18</td><td>11:07</td><td>2</td><td>3</td></tr><tr><td><a href="/schedule/2023.html">2023-24</a></td><td><a href="/boxscores/202403190BOS.html">3/19/2024</a></td><td><a href="/teams/OTT.html">OTT</a></td><td>@</td><td><a href="/teams/BOS.html">BOS</a></td><td>L</td><td>0</td><td>0</td><td>0</td><td>-1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0.0</td><td>16</td><td>10:17</td><td>2</td><td>0</td></tr><tr><td><a href="/schedule/2023.html">2023-24</a></td><td><a href="/boxscores/202403210OTT.html">3/21/2024</a></td><td><a href="/teams/OTT.html">OTT</a></td><td>vs</td><td><a href="/teams/STL.html">STL</a></td><td>L</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0.0</td><td>13</td><td>8:13</td><td>3</td><td>0</td></tr><tr><td><a href="/schedule/2023.html">2023-24</a></td><td><a href="/boxscores/202404160BOS.html">4/16/2024</a></td><td><a href="/teams/OTT.html">OTT</a></td><td>@</td><td><a href="/teams/BOS.html">BOS</a></td><td>W</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0.0</td><td>16</td><td>11:02</td><td>2</td><td>0</td></tr></table></body></html>
+<main id="content">
+<div class="gamelog">
+<table id="totals">
+<tr><th>Team</th><th>GP</th><th>G</th><th>A</th><th>PTS</th><th>SOG</th><th>HIT</th><th>BLK</th><th>PIM</th><th>TOI</th><th>ATOI</th><th>S%</th><th>EVG</th><th>PPG</th><th>SHG</th><th>GWG</th><th>EVA</th><th>PPA</th><th>SHA</th></tr>
+<tr><td><a href="/teams/OTT.html">OTT</a></td><td>7</td><td>0</td><td>0</td><td>0</td><td>5</td><td>13</td><td>6</td><td>0</td><td>73.48</td><td>10.5</td><td>0.00%</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+</table>
+<table id="ostapza01_gamelog">
+<tr><th>Date</th><th>Player</th><th>Team</th><th>Location</th><th>Opp</th><th>Result</th><th>OT/SO</th><th>G</th><th>A</th><th>PTS</th><th>SOG</th><th>HIT</th><th>BLK</th><th>TOI</th><th>PIM</th><th>S%</th><th>EVG</th><th>PPG</th><th>SHG</th><th>GWG</th><th>EVA</th><th>PPA</th><th>SHA</th></tr>
+<tr><td><a href="/boxscores/202403120OTT.html">3/12/2024</a></td><td><a href="/players/ostapza01.html">Zack Ostapchuk</a></td><td><a href="/teams/OTT.html">OTT</a></td><td>vs</td><td><a href="/teams/PIT.html">PIT</a></td><td>W</td><td>nan</td><td>0</td><td>0</td><td>0</td><td>2</td><td>1</td><td>0</td><td>12.73</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td><a href="/boxscores/202403140CBJ.html">3/14/2024</a></td><td><a href="/players/ostapza01.html">Zack Ostapchuk</a></td><td><a href="/teams/OTT.html">OTT</a></td><td>@</td><td><a href="/teams/CBJ.html">CBJ</a></td><td>W</td><td>nan</td><td>0</td><td>0</td><td>0</td><td>1</td><td>2</td><td>0</td><td>8.73</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td><a href="/boxscores/202403160NYI.html">3/16/2024</a></td><td><a href="/players/ostapza01.html">Zack Ostapchuk</a></td><td><a href="/teams/OTT.html">OTT</a></td><td>@</td><td><a href="/teams/NYI.html">NYI</a></td><td>W</td><td>nan</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>3</td><td>11.37</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td><a href="/boxscores/202403170OTT.html">3/17/2024</a></td><td><a href="/players/ostapza01.html">Zack Ostapchuk</a></td><td><a href="/teams/OTT.html">OTT</a></td><td>vs</td><td><a href="/teams/CAR.html">CAR</a></td><td>L</td><td>nan</td><td>0</td><td>0</td><td>0</td><td>0</td><td>2</td><td>3</td><td>11.12</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td><a href="/boxscores/202403190BOS.html">3/19/2024</a></td><td><a href="/players/ostapza01.html">Zack Ostapchuk</a></td><td><a href="/teams/OTT.html">OTT</a></td><td>@</td><td><a href="/teams/BOS.html">BOS</a></td><td>L</td><td>nan</td><td>0</td><td>0</td><td>0</td><td>1</td><td>2</td><td>0</td><td>10.28</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td><a href="/boxscores/202403210OTT.html">3/21/2024</a></td><td><a href="/players/ostapza01.html">Zack Ostapchuk</a></td><td><a href="/teams/OTT.html">OTT</a></td><td>vs</td><td><a href="/teams/STL.html">STL</a></td><td>L</td><td>nan</td><td>0</td><td>0</td><td>0</td><td>1</td><td>3</td><td>0</td><td>8.22</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td><a href="/boxscores/202404160BOS.html">4/16/2024</a></td><td><a href="/players/ostapza01.html">Zack Ostapchuk</a></td><td><a href="/teams/OTT.html">OTT</a></td><td>@</td><td><a href="/teams/BOS.html">BOS</a></td><td>W</td><td>nan</td><td>0</td><td>0</td><td>0</td><td>0</td><td>2</td><td>0</td><td>11.03</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+</table>
+</div>
+</main>
+</body>
+</html>

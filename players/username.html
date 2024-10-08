@@ -1,38 +1,61 @@
 
-        <!DOCTYPE html>
-        <html lang="en">
-        <head>
-            <meta charset="UTF-8">
-            <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <title>username Profile</title>
-        </head>
-        <body>
-            <!DOCTYPE html>
+        <!DOCTYPE html> 
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Player 1</title>
-    <link rel="stylesheet" href="/assets/css/styles.css">
+    <title>Hockey Stats Site</title>
+    <link rel="stylesheet" href="/assets/styles.css">
+    <script src="/assets/searchBar.js"></script>
+    <script src="/assets/tableSort.js"></script>
 </head>
 <body>
 
-    <!-- Navigation Bar -->
-    <nav id="navbar">
-        <ul>
-            <li><a href="/">Home</a></li>
-            <li><a href="/players/">Players</a></li>
-            <li><a href="/teams/">Teams</a></li>
-            <li><a href="/leaders/">Leaders</a></li>
-            <li><a href="/probabilities/">Probabilities</a></li>
-            <li><a href="/boxscores/">Boxscores</a></li>
-            <li><a href="/schedule/">Schedule</a></li>
-            <li>
-                <input type="text" id="search-bar" placeholder="Search players or teams..." onkeyup="showSuggestions(this.value)">
-                <ul id="suggestions" class="suggestion-list"></ul>
-            </li>
-        </ul>
-    </nav>
+<style>
+#searchResults {
+    position: absolute;
+    background-color: white;
+    border: 1px solid #ccc;
+    width: 100%;
+    max-height: 200px;
+    overflow-y: auto;
+    z-index: 1000;
+}
+
+#searchResults div {
+    padding: 10px;
+    cursor: pointer;
+}
+
+#searchResults div:hover, .highlighted {
+    background-color: #f1f1f1;
+}
+
+#searchResults a {
+    text-decoration: none;
+    color: black;
+    display: block;
+}
+</style>
+
+<!-- Navigation Bar -->
+<nav id="navbar">
+  <ul>
+    <li><a href="/">Home</a></li>
+    <li><a href="/players/">Players</a></li>
+    <li><a href="/teams/">Teams</a></li>
+    <li><a href="/leaders/">Leaders</a></li>
+    <li><a href="/probabilities/">Probabilities</a></li>
+    <li><a href="/boxscores/">Boxscores</a></li>
+    <li><a href="/schedule/">Schedule</a></li>
+    <!-- Search Bar -->
+    <li>
+      <input type="text" id="searchBar" placeholder="Search for players or teams..." oninput="performSearch()" autocomplete="off">
+      <div id="searchResults" class="dropdown"></div>
+      <button id="searchButton" onclick="handleSearch()">Search</button>
+    </li>  
+  </ul>
+</nav>
 
     <!-- Content Unique to Player 1 -->
     <main id="content">

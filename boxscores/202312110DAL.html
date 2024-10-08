@@ -1,157 +1,114 @@
-
-    <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Game 202312110DAL Boxscore</title>
-        <link rel="stylesheet" href="/assets/styles.css">
-        <script src="/assets/searchBar.js" defer></script>
-        <script src="/assets/tableSort.js"></script>
-        <style>
-            tr:hover {background-color: #F0FFF0;}
-        </style>
-    </head>
-    <body>
-        <nav id="navbar">
-            <a href="/">Home</a>
-            <a href="/players/">Players</a>
-            <a href="/teams/">Teams</a>
-            <a href="/leaders/">Leaders</a>
-            <a href="/probabilities/">Probabilities</a>
-            <a href="/boxscores/">Boxscores</a>
-            <a href="/schedule/">Schedule</a>
-
-            <div class="search-container">
-                <input type="text" id="searchInput" placeholder="Search players or teams..." oninput="searchEntities()" />
-                <ul id="suggestions"></ul>
-            </div>
-        </nav>
-
-        <main id="content">
-            <h1>Game 202312110DAL Boxscore</h1>
-
-            <h2>Skaters</h2>
-            <table id="202312110DAL_skaters" border="1">
-                <thead>
-                    <tr>
-                        <th>Date</th><th>Home Team</th><th>Away Team</th><th>Player</th><th>Team</th><th>G</th><th>A</th><th>PTS</th>
-                        <th>+/-</th><th>PIM</th><th>EVG</th><th>PPG</th><th>SHG</th><th>GWG</th><th>EV Assist</th><th>PP Assist</th>
-                        <th>SH Assist</th><th>SOG</th><th>S%</th><th>SHFT</th><th>TOI</th><th>iCF</th><th>SAT‑F</th><th>SAT‑A</th>
-                        <th>CF%</th><th>CRel%</th><th>ZSO</th><th>ZSD</th><th>oZS%</th><th>HIT</th><th>BLK</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr><td><a href="/boxscores/202312110DAL.html">12/11/2023</a></td><td><a href="/teams/DAL.html">DAL</a></td><td><a href="/teams/DET.html">DET</a></td><td><a href="/players/Zach Aston-Reese.html">Zach Aston-Reese</a></td><td><a href="/teams/DET.html">DET</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>11</td><td>6.35</td><td>0</td><td>2</td><td>11</td><td>15.4</td><td>-26.4</td><td>1</td><td>3</td><td>25</td><td>2</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202312110DAL.html">12/11/2023</a></td><td><a href="/teams/DAL.html">DAL</a></td><td><a href="/teams/DET.html">DET</a></td><td><a href="/players/Jonatan Berggren.html">Jonatan Berggren</a></td><td><a href="/teams/DET.html">DET</a></td><td>1</td><td>0</td><td>1</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>100</td><td>14</td><td>8.5</td><td>1</td><td>4</td><td>9</td><td>30.8</td><td>-9.2</td><td>3</td><td>3</td><td>50</td><td>0</td><td>2</td></tr>
-<tr><td><a href="/boxscores/202312110DAL.html">12/11/2023</a></td><td><a href="/teams/DAL.html">DAL</a></td><td><a href="/teams/DET.html">DET</a></td><td><a href="/players/Ben Chiarot.html">Ben Chiarot</a></td><td><a href="/teams/DET.html">DET</a></td><td>0</td><td>0</td><td>0</td><td>-1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>2</td><td>0</td><td>25</td><td>19.83</td><td>3</td><td>9</td><td>32</td><td>22</td><td>-25.6</td><td>7</td><td>11</td><td>38.9</td><td>0</td><td>6</td></tr>
-<tr><td><a href="/boxscores/202312110DAL.html">12/11/2023</a></td><td><a href="/teams/DAL.html">DAL</a></td><td><a href="/teams/DET.html">DET</a></td><td><a href="/players/Andrew Copp.html">Andrew Copp</a></td><td><a href="/teams/DET.html">DET</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>2</td><td>0</td><td>24</td><td>20.33</td><td>4</td><td>20</td><td>20</td><td>50</td><td>16.3</td><td>7</td><td>9</td><td>43.8</td><td>0</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202312110DAL.html">12/11/2023</a></td><td><a href="/teams/DAL.html">DAL</a></td><td><a href="/teams/DET.html">DET</a></td><td><a href="/players/Austin Czarnik.html">Austin Czarnik</a></td><td><a href="/teams/DET.html">DET</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>2</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>14</td><td>9.18</td><td>0</td><td>5</td><td>10</td><td>33.3</td><td>-6.5</td><td>1</td><td>4</td><td>20</td><td>0</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202312110DAL.html">12/11/2023</a></td><td><a href="/teams/DAL.html">DAL</a></td><td><a href="/teams/DET.html">DET</a></td><td><a href="/players/Alex DeBrincat.html">Alex DeBrincat</a></td><td><a href="/teams/DET.html">DET</a></td><td>0</td><td>1</td><td>1</td><td>-2</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>5</td><td>0</td><td>22</td><td>19.85</td><td>8</td><td>21</td><td>16</td><td>56.8</td><td>25.4</td><td>7</td><td>8</td><td>46.7</td><td>1</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202312110DAL.html">12/11/2023</a></td><td><a href="/teams/DAL.html">DAL</a></td><td><a href="/teams/DET.html">DET</a></td><td><a href="/players/Robby Fabbri.html">Robby Fabbri</a></td><td><a href="/teams/DET.html">DET</a></td><td>0</td><td>1</td><td>1</td><td>-1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>20</td><td>14.52</td><td>1</td><td>16</td><td>23</td><td>41</td><td>2.9</td><td>5</td><td>6</td><td>45.5</td><td>1</td><td>1</td></tr>
-<tr><td><a href="/boxscores/202312110DAL.html">12/11/2023</a></td><td><a href="/teams/DAL.html">DAL</a></td><td><a href="/teams/DET.html">DET</a></td><td><a href="/players/Christian Fischer.html">Christian Fischer</a></td><td><a href="/teams/DET.html">DET</a></td><td>0</td><td>1</td><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>1</td><td>0</td><td>17</td><td>13.08</td><td>1</td><td>8</td><td>17</td><td>32</td><td>-8.8</td><td>3</td><td>6</td><td>33.3</td><td>1</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202312110DAL.html">12/11/2023</a></td><td><a href="/teams/DAL.html">DAL</a></td><td><a href="/teams/DET.html">DET</a></td><td><a href="/players/Shayne Gostisbehere.html">Shayne Gostisbehere</a></td><td><a href="/teams/DET.html">DET</a></td><td>0</td><td>2</td><td>2</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>1</td><td>0</td><td>3</td><td>0</td><td>21</td><td>20.48</td><td>4</td><td>24</td><td>17</td><td>58.5</td><td>29.2</td><td>7</td><td>5</td><td>58.3</td><td>0</td><td>1</td></tr>
-<tr><td><a href="/boxscores/202312110DAL.html">12/11/2023</a></td><td><a href="/teams/DAL.html">DAL</a></td><td><a href="/teams/DET.html">DET</a></td><td><a href="/players/Patrick Kane.html">Patrick Kane</a></td><td><a href="/teams/DET.html">DET</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>2</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>22</td><td>20.73</td><td>1</td><td>19</td><td>15</td><td>55.9</td><td>23.3</td><td>7</td><td>8</td><td>46.7</td><td>0</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202312110DAL.html">12/11/2023</a></td><td><a href="/teams/DAL.html">DAL</a></td><td><a href="/teams/DET.html">DET</a></td><td><a href="/players/Olli Määttä.html">Olli Määttä</a></td><td><a href="/teams/DET.html">DET</a></td><td>0</td><td>1</td><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>21</td><td>15.5</td><td>1</td><td>13</td><td>15</td><td>46.4</td><td>9.6</td><td>3</td><td>4</td><td>42.9</td><td>1</td><td>1</td></tr>
-<tr><td><a href="/boxscores/202312110DAL.html">12/11/2023</a></td><td><a href="/teams/DAL.html">DAL</a></td><td><a href="/teams/DET.html">DET</a></td><td><a href="/players/Jeff Petry.html">Jeff Petry</a></td><td><a href="/teams/DET.html">DET</a></td><td>0</td><td>0</td><td>0</td><td>-1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>2</td><td>0</td><td>24</td><td>20.63</td><td>2</td><td>7</td><td>31</td><td>18.4</td><td>-29.8</td><td>7</td><td>11</td><td>38.9</td><td>3</td><td>3</td></tr>
-<tr><td><a href="/boxscores/202312110DAL.html">12/11/2023</a></td><td><a href="/teams/DAL.html">DAL</a></td><td><a href="/teams/DET.html">DET</a></td><td><a href="/players/Michael Rasmussen.html">Michael Rasmussen</a></td><td><a href="/teams/DET.html">DET</a></td><td>0</td><td>0</td><td>0</td><td>-1</td><td>2</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>3</td><td>0</td><td>23</td><td>15.5</td><td>4</td><td>10</td><td>29</td><td>25.6</td><td>-19.6</td><td>3</td><td>6</td><td>33.3</td><td>1</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202312110DAL.html">12/11/2023</a></td><td><a href="/teams/DAL.html">DAL</a></td><td><a href="/teams/DET.html">DET</a></td><td><a href="/players/Lucas Raymond.html">Lucas Raymond</a></td><td><a href="/teams/DET.html">DET</a></td><td>0</td><td>0</td><td>0</td><td>-2</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>21</td><td>18.1</td><td>2</td><td>18</td><td>21</td><td>46.2</td><td>10.5</td><td>6</td><td>7</td><td>46.2</td><td>0</td><td>1</td></tr>
-<tr><td><a href="/boxscores/202312110DAL.html">12/11/2023</a></td><td><a href="/teams/DAL.html">DAL</a></td><td><a href="/teams/DET.html">DET</a></td><td><a href="/players/Moritz Seider.html">Moritz Seider</a></td><td><a href="/teams/DET.html">DET</a></td><td>0</td><td>0</td><td>0</td><td>-1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>2</td><td>0</td><td>28</td><td>20.8</td><td>6</td><td>16</td><td>27</td><td>37.2</td><td>-2.8</td><td>3</td><td>11</td><td>21.4</td><td>0</td><td>2</td></tr>
-<tr><td><a href="/boxscores/202312110DAL.html">12/11/2023</a></td><td><a href="/teams/DAL.html">DAL</a></td><td><a href="/teams/DET.html">DET</a></td><td><a href="/players/Daniel Sprong.html">Daniel Sprong</a></td><td><a href="/teams/DET.html">DET</a></td><td>1</td><td>0</td><td>1</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>4</td><td>25</td><td>17</td><td>13.4</td><td>4</td><td>17</td><td>16</td><td>51.5</td><td>17.1</td><td>4</td><td>4</td><td>50</td><td>0</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202312110DAL.html">12/11/2023</a></td><td><a href="/teams/DAL.html">DAL</a></td><td><a href="/teams/DET.html">DET</a></td><td><a href="/players/Joe Veleno.html">Joe Veleno</a></td><td><a href="/teams/DET.html">DET</a></td><td>1</td><td>0</td><td>1</td><td>-2</td><td>2</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>2</td><td>50</td><td>25</td><td>22.18</td><td>2</td><td>18</td><td>31</td><td>36.7</td><td>-3.8</td><td>8</td><td>11</td><td>42.1</td><td>0</td><td>2</td></tr>
-<tr><td><a href="/boxscores/202312110DAL.html">12/11/2023</a></td><td><a href="/teams/DAL.html">DAL</a></td><td><a href="/teams/DET.html">DET</a></td><td><a href="/players/Jake Walman.html">Jake Walman</a></td><td><a href="/teams/DET.html">DET</a></td><td>0</td><td>0</td><td>0</td><td>-1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>25</td><td>16.83</td><td>4</td><td>15</td><td>24</td><td>38.5</td><td>-0.8</td><td>2</td><td>11</td><td>15.4</td><td>0</td><td>2</td></tr>
-<tr><td><a href="/boxscores/202312110DAL.html">12/11/2023</a></td><td><a href="/teams/DAL.html">DAL</a></td><td><a href="/teams/DET.html">DET</a></td><td><a href="/players/James Reimer.html">James Reimer</a></td><td><a href="/teams/DET.html">DET</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>5</td><td>58.15</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202312110DAL.html">12/11/2023</a></td><td><a href="/teams/DAL.html">DAL</a></td><td><a href="/teams/DET.html">DET</a></td><td><a href="/players/--.html">--</a></td><td><a href="/teams/--.html">--</a></td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td></tr>
-<tr><td><a href="/boxscores/202312110DAL.html">12/11/2023</a></td><td><a href="/teams/DAL.html">DAL</a></td><td><a href="/teams/DET.html">DET</a></td><td><a href="/players/Jamie Benn.html">Jamie Benn</a></td><td><a href="/teams/DAL.html">DAL</a></td><td>0</td><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>19</td><td>16.08</td><td>2</td><td>22</td><td>9</td><td>71</td><td>13.4</td><td>11</td><td>4</td><td>73.3</td><td>1</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202312110DAL.html">12/11/2023</a></td><td><a href="/teams/DAL.html">DAL</a></td><td><a href="/teams/DET.html">DET</a></td><td><a href="/players/Evgenii Dadonov.html">Evgenii Dadonov</a></td><td><a href="/teams/DAL.html">DAL</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>2</td><td>0</td><td>16</td><td>14.4</td><td>3</td><td>18</td><td>6</td><td>75</td><td>17.4</td><td>6</td><td>2</td><td>75</td><td>0</td><td>1</td></tr>
-<tr><td><a href="/boxscores/202312110DAL.html">12/11/2023</a></td><td><a href="/teams/DAL.html">DAL</a></td><td><a href="/teams/DET.html">DET</a></td><td><a href="/players/Matt Duchene.html">Matt Duchene</a></td><td><a href="/teams/DAL.html">DAL</a></td><td>1</td><td>0</td><td>1</td><td>0</td><td>2</td><td>1</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>4</td><td>25</td><td>21</td><td>15.47</td><td>7</td><td>22</td><td>19</td><td>53.7</td><td>-10.9</td><td>4</td><td>4</td><td>50</td><td>0</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202312110DAL.html">12/11/2023</a></td><td><a href="/teams/DAL.html">DAL</a></td><td><a href="/teams/DET.html">DET</a></td><td><a href="/players/Radek Faksa.html">Radek Faksa</a></td><td><a href="/teams/DAL.html">DAL</a></td><td>0</td><td>0</td><td>0</td><td>2</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>18</td><td>13.13</td><td>3</td><td>18</td><td>11</td><td>62.1</td><td>1.5</td><td>3</td><td>4</td><td>42.9</td><td>0</td><td>2</td></tr>
-<tr><td><a href="/boxscores/202312110DAL.html">12/11/2023</a></td><td><a href="/teams/DAL.html">DAL</a></td><td><a href="/teams/DET.html">DET</a></td><td><a href="/players/Jani Hakanpää.html">Jani Hakanpää</a></td><td><a href="/teams/DAL.html">DAL</a></td><td>0</td><td>1</td><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>1</td><td>0</td><td>21</td><td>16.9</td><td>2</td><td>23</td><td>22</td><td>51.1</td><td>-15.6</td><td>5</td><td>8</td><td>38.5</td><td>1</td><td>1</td></tr>
-<tr><td><a href="/boxscores/202312110DAL.html">12/11/2023</a></td><td><a href="/teams/DAL.html">DAL</a></td><td><a href="/teams/DET.html">DET</a></td><td><a href="/players/Joel Hanley.html">Joel Hanley</a></td><td><a href="/teams/DAL.html">DAL</a></td><td>0</td><td>1</td><td>1</td><td>1</td><td>4</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>2</td><td>0</td><td>21</td><td>13.35</td><td>2</td><td>20</td><td>6</td><td>76.9</td><td>20.2</td><td>2</td><td>4</td><td>33.3</td><td>1</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202312110DAL.html">12/11/2023</a></td><td><a href="/teams/DAL.html">DAL</a></td><td><a href="/teams/DET.html">DET</a></td><td><a href="/players/Thomas Harley.html">Thomas Harley</a></td><td><a href="/teams/DAL.html">DAL</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>2</td><td>0</td><td>21</td><td>20.57</td><td>8</td><td>33</td><td>17</td><td>66</td><td>8.5</td><td>10</td><td>7</td><td>58.8</td><td>0</td><td>1</td></tr>
-<tr><td><a href="/boxscores/202312110DAL.html">12/11/2023</a></td><td><a href="/teams/DAL.html">DAL</a></td><td><a href="/teams/DET.html">DET</a></td><td><a href="/players/Miro Heiskanen.html">Miro Heiskanen</a></td><td><a href="/teams/DAL.html">DAL</a></td><td>2</td><td>1</td><td>3</td><td>0</td><td>0</td><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>3</td><td>66.7</td><td>24</td><td>25.85</td><td>8</td><td>28</td><td>13</td><td>68.3</td><td>11</td><td>20</td><td>2</td><td>90.9</td><td>0</td><td>2</td></tr>
-<tr><td><a href="/boxscores/202312110DAL.html">12/11/2023</a></td><td><a href="/teams/DAL.html">DAL</a></td><td><a href="/teams/DET.html">DET</a></td><td><a href="/players/Roope Hintz.html">Roope Hintz</a></td><td><a href="/teams/DAL.html">DAL</a></td><td>0</td><td>2</td><td>2</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>1</td><td>0</td><td>2</td><td>0</td><td>23</td><td>16.23</td><td>4</td><td>21</td><td>14</td><td>60</td><td>-1.4</td><td>13</td><td>7</td><td>65</td><td>0</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202312110DAL.html">12/11/2023</a></td><td><a href="/teams/DAL.html">DAL</a></td><td><a href="/teams/DET.html">DET</a></td><td><a href="/players/Wyatt Johnston.html">Wyatt Johnston</a></td><td><a href="/teams/DAL.html">DAL</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>2</td><td>0</td><td>19</td><td>17.58</td><td>6</td><td>19</td><td>12</td><td>61.3</td><td>0.4</td><td>8</td><td>4</td><td>66.7</td><td>0</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202312110DAL.html">12/11/2023</a></td><td><a href="/teams/DAL.html">DAL</a></td><td><a href="/teams/DET.html">DET</a></td><td><a href="/players/Esa Lindell.html">Esa Lindell</a></td><td><a href="/teams/DAL.html">DAL</a></td><td>1</td><td>1</td><td>2</td><td>1</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>1</td><td>100</td><td>22</td><td>18.95</td><td>5</td><td>20</td><td>22</td><td>47.6</td><td>-20.3</td><td>5</td><td>8</td><td>38.5</td><td>0</td><td>1</td></tr>
-<tr><td><a href="/boxscores/202312110DAL.html">12/11/2023</a></td><td><a href="/teams/DAL.html">DAL</a></td><td><a href="/teams/DET.html">DET</a></td><td><a href="/players/Mason Marchment.html">Mason Marchment</a></td><td><a href="/teams/DAL.html">DAL</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>3</td><td>0</td><td>18</td><td>14.3</td><td>4</td><td>19</td><td>15</td><td>55.9</td><td>-7</td><td>4</td><td>5</td><td>44.4</td><td>0</td><td>2</td></tr>
-<tr><td><a href="/boxscores/202312110DAL.html">12/11/2023</a></td><td><a href="/teams/DAL.html">DAL</a></td><td><a href="/teams/DET.html">DET</a></td><td><a href="/players/Joe Pavelski.html">Joe Pavelski</a></td><td><a href="/teams/DAL.html">DAL</a></td><td>1</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>5</td><td>20</td><td>20</td><td>14.55</td><td>7</td><td>18</td><td>9</td><td>66.7</td><td>7.3</td><td>13</td><td>2</td><td>86.7</td><td>0</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202312110DAL.html">12/11/2023</a></td><td><a href="/teams/DAL.html">DAL</a></td><td><a href="/teams/DET.html">DET</a></td><td><a href="/players/Jason Robertson.html">Jason Robertson</a></td><td><a href="/teams/DAL.html">DAL</a></td><td>1</td><td>1</td><td>2</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>2</td><td>50</td><td>21</td><td>15.62</td><td>2</td><td>20</td><td>10</td><td>66.7</td><td>7.6</td><td>13</td><td>4</td><td>76.5</td><td>0</td><td>1</td></tr>
-<tr><td><a href="/boxscores/202312110DAL.html">12/11/2023</a></td><td><a href="/teams/DAL.html">DAL</a></td><td><a href="/teams/DET.html">DET</a></td><td><a href="/players/Tyler Seguin.html">Tyler Seguin</a></td><td><a href="/teams/DAL.html">DAL</a></td><td>0</td><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>22</td><td>16.78</td><td>2</td><td>19</td><td>24</td><td>44.2</td><td>-25.8</td><td>4</td><td>8</td><td>33.3</td><td>0</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202312110DAL.html">12/11/2023</a></td><td><a href="/teams/DAL.html">DAL</a></td><td><a href="/teams/DET.html">DET</a></td><td><a href="/players/Craig Smith.html">Craig Smith</a></td><td><a href="/teams/DAL.html">DAL</a></td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>3</td><td>0</td><td>15</td><td>10.9</td><td>5</td><td>17</td><td>2</td><td>89.5</td><td>33.7</td><td>2</td><td>1</td><td>66.7</td><td>1</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202312110DAL.html">12/11/2023</a></td><td><a href="/teams/DAL.html">DAL</a></td><td><a href="/teams/DET.html">DET</a></td><td><a href="/players/Sam Steel.html">Sam Steel</a></td><td><a href="/teams/DAL.html">DAL</a></td><td>0</td><td>2</td><td>2</td><td>2</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>2</td><td>0</td><td>0</td><td>1</td><td>0</td><td>19</td><td>13.38</td><td>1</td><td>19</td><td>4</td><td>82.6</td><td>26.6</td><td>3</td><td>1</td><td>75</td><td>0</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202312110DAL.html">12/11/2023</a></td><td><a href="/teams/DAL.html">DAL</a></td><td><a href="/teams/DET.html">DET</a></td><td><a href="/players/Ryan Suter.html">Ryan Suter</a></td><td><a href="/teams/DAL.html">DAL</a></td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>21</td><td>20.32</td><td>4</td><td>16</td><td>15</td><td>51.6</td><td>-12.5</td><td>7</td><td>4</td><td>63.6</td><td>0</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202312110DAL.html">12/11/2023</a></td><td><a href="/teams/DAL.html">DAL</a></td><td><a href="/teams/DET.html">DET</a></td><td><a href="/players/Jake Oettinger.html">Jake Oettinger</a></td><td><a href="/teams/DAL.html">DAL</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>4</td><td>59.75</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202312110DAL.html">12/11/2023</a></td><td><a href="/teams/DAL.html">DAL</a></td><td><a href="/teams/DET.html">DET</a></td><td><a href="/players/--.html">--</a></td><td><a href="/teams/--.html">--</a></td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td></tr>
-
-                </tbody>
-            </table>
-
-            <h2>Goalies</h2>
-            <table id="202312110DAL_goalies" border="1">
-                <thead>
-                    <tr>
-                        <th>Home Team</th><th>Away Team</th><th>Goalie</th><th>Team</th><th>DEC</th><th>GA</th><th>SA</th><th>SV</th>
-                        <th>SV%</th><th>SO</th><th>PIM</th><th>Goalie TOI</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr><td><a href="/teams/DAL.html">DAL</a></td><td><a href="/teams/DET.html">DET</a></td><td><a href="/players/reimeja01.html">James Reimer</a></td><td><a href="/teams/DET.html">DET</a></td><td>L</td><td>5</td><td>34</td><td>29</td><td>0.853</td><td>0</td><td>0</td><td>58:09:00</td></tr>
-<tr><td><a href="/teams/DAL.html">DAL</a></td><td><a href="/teams/DET.html">DET</a></td><td><a href="/players/--.html">Empty Net</a></td><td><a href="/teams/DET.html">DET</a></td><td>--</td><td>1</td><td>1</td><td>0</td><td>0.0</td><td>0</td><td>0</td><td>0</td></tr>
-<tr><td><a href="/teams/DAL.html">DAL</a></td><td><a href="/teams/DET.html">DET</a></td><td><a href="/players/oettija01.html">Jake Oettinger</a></td><td><a href="/teams/DAL.html">DAL</a></td><td>W</td><td>3</td><td>30</td><td>27</td><td>0.9</td><td>0</td><td>0</td><td>59:45:00</td></tr>
-
-                </tbody>
-            </table>
-
-            <h2>Scoring</h2>
-            <table id="202312110DAL_scoring" border="1">
-                <thead>
-                    <tr>
-                        <th>Home Team</th><th>Away Team</th><th>Period</th><th>Time</th><th>Team</th><th>Info</th>
-                        <th>Scorer</th><th>Assist1</th><th>Assist2</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr><td><a href="/teams/DAL.html">DAL</a></td><td><a href="/teams/DET.html">DET</a></td><td>1st Period</td><td>1st Period</td><td><a href="/teams/1st Period.html">1st Period</a></td><td>1st Period</td><td><a href="/players/1st Period.html">1st Period</a></td><td><a href="/players/1st Period.html">1st Period</a></td><td><a href="/players/1st Period.html">1st Period</a></td></tr>
-<tr><td><a href="/teams/DAL.html">DAL</a></td><td><a href="/teams/DET.html">DET</a></td><td>1st Period</td><td>5:20</td><td><a href="/teams/DET.html">DET</a></td><td>--</td><td><a href="/players/Daniel Sprong.html">Daniel Sprong</a></td><td><a href="/players/Robby Fabbri.html">Robby Fabbri</a></td><td><a href="/players/Christian Fischer.html">Christian Fischer</a></td></tr>
-<tr><td><a href="/teams/DAL.html">DAL</a></td><td><a href="/teams/DET.html">DET</a></td><td>1st Period</td><td>13:35</td><td><a href="/teams/DAL.html">DAL</a></td><td>PP</td><td><a href="/players/Miro Heiskanen.html">Miro Heiskanen</a></td><td><a href="/players/Jason Robertson.html">Jason Robertson</a></td><td><a href="/players/Jamie Benn.html">Jamie Benn</a></td></tr>
-<tr><td><a href="/teams/DAL.html">DAL</a></td><td><a href="/teams/DET.html">DET</a></td><td>1st Period</td><td>19:59</td><td><a href="/teams/DAL.html">DAL</a></td><td>--</td><td><a href="/players/Esa Lindell.html">Esa Lindell</a></td><td><a href="/players/Sam Steel.html">Sam Steel</a></td><td><a href="/players/Jani Hakanpää.html">Jani Hakanpää</a></td></tr>
-<tr><td><a href="/teams/DAL.html">DAL</a></td><td><a href="/teams/DET.html">DET</a></td><td>2nd Period</td><td>2nd Period</td><td><a href="/teams/2nd Period.html">2nd Period</a></td><td>2nd Period</td><td><a href="/players/2nd Period.html">2nd Period</a></td><td><a href="/players/2nd Period.html">2nd Period</a></td><td><a href="/players/2nd Period.html">2nd Period</a></td></tr>
-<tr><td><a href="/teams/DAL.html">DAL</a></td><td><a href="/teams/DET.html">DET</a></td><td>2nd Period</td><td>11:16</td><td><a href="/teams/DAL.html">DAL</a></td><td>--</td><td><a href="/players/Jason Robertson.html">Jason Robertson</a></td><td><a href="/players/Esa Lindell.html">Esa Lindell</a></td><td><a href="/players/Roope Hintz.html">Roope Hintz</a></td></tr>
-<tr><td><a href="/teams/DAL.html">DAL</a></td><td><a href="/teams/DET.html">DET</a></td><td>2nd Period</td><td>13:30</td><td><a href="/teams/DAL.html">DAL</a></td><td>--</td><td><a href="/players/Matt Duchene.html">Matt Duchene</a></td><td><a href="/players/Joel Hanley.html">Joel Hanley</a></td><td><a href="/players/Tyler Seguin.html">Tyler Seguin</a></td></tr>
-<tr><td><a href="/teams/DAL.html">DAL</a></td><td><a href="/teams/DET.html">DET</a></td><td>2nd Period</td><td>13:52</td><td><a href="/teams/DET.html">DET</a></td><td>--</td><td><a href="/players/Jonatan Berggren.html">Jonatan Berggren</a></td><td><a href="/players/Shayne Gostisbehere.html">Shayne Gostisbehere</a></td><td><a href="/players/Olli Määttä.html">Olli Määttä</a></td></tr>
-<tr><td><a href="/teams/DAL.html">DAL</a></td><td><a href="/teams/DET.html">DET</a></td><td>3rd Period</td><td>3rd Period</td><td><a href="/teams/3rd Period.html">3rd Period</a></td><td>3rd Period</td><td><a href="/players/3rd Period.html">3rd Period</a></td><td><a href="/players/3rd Period.html">3rd Period</a></td><td><a href="/players/3rd Period.html">3rd Period</a></td></tr>
-<tr><td><a href="/teams/DAL.html">DAL</a></td><td><a href="/teams/DET.html">DET</a></td><td>3rd Period</td><td>13:21</td><td><a href="/teams/DET.html">DET</a></td><td>PP</td><td><a href="/players/Joe Veleno.html">Joe Veleno</a></td><td><a href="/players/Alex DeBrincat.html">Alex DeBrincat</a></td><td><a href="/players/Shayne Gostisbehere.html">Shayne Gostisbehere</a></td></tr>
-<tr><td><a href="/teams/DAL.html">DAL</a></td><td><a href="/teams/DET.html">DET</a></td><td>3rd Period</td><td>13:51</td><td><a href="/teams/DAL.html">DAL</a></td><td>PP</td><td><a href="/players/Joe Pavelski.html">Joe Pavelski</a></td><td><a href="/players/Roope Hintz.html">Roope Hintz</a></td><td><a href="/players/Miro Heiskanen.html">Miro Heiskanen</a></td></tr>
-<tr><td><a href="/teams/DAL.html">DAL</a></td><td><a href="/teams/DET.html">DET</a></td><td>3rd Period</td><td>19:18</td><td><a href="/teams/DAL.html">DAL</a></td><td>EN</td><td><a href="/players/Miro Heiskanen.html">Miro Heiskanen</a></td><td><a href="/players/Sam Steel.html">Sam Steel</a></td><td><a href="/players/Sam Steel.html">Sam Steel</a></td></tr>
-
-                </tbody>
-            </table>
-
-            <h2>Penalties</h2>
-            <table id="202312110DAL_penalties" border="1">
-                <thead>
-                    <tr>
-                        <th>Home Team</th><th>Away Team</th><th>Period</th><th>Time</th><th>Team</th><th>Player</th>
-                        <th>Penalty</th><th>PIM</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr><td><a href="/teams/DAL.html">DAL</a></td><td><a href="/teams/DET.html">DET</a></td><td>1st Period</td><td>1st Period</td><td><a href="/teams/1st Period.html">1st Period</a></td><td><a href="/players/1st Period.html">1st Period</a></td><td>1st Period</td><td>1st Period</td></tr>
-<tr><td><a href="/teams/DAL.html">DAL</a></td><td><a href="/teams/DET.html">DET</a></td><td>1st Period</td><td>12:43</td><td><a href="/teams/DET.html">DET</a></td><td><a href="/players/Joe Veleno.html">Joe Veleno</a></td><td>Slashing</td><td>2 min</td></tr>
-<tr><td><a href="/teams/DAL.html">DAL</a></td><td><a href="/teams/DET.html">DET</a></td><td>2nd Period</td><td>2nd Period</td><td><a href="/teams/2nd Period.html">2nd Period</a></td><td><a href="/players/2nd Period.html">2nd Period</a></td><td>2nd Period</td><td>2nd Period</td></tr>
-<tr><td><a href="/teams/DAL.html">DAL</a></td><td><a href="/teams/DET.html">DET</a></td><td>2nd Period</td><td>3:20</td><td><a href="/teams/DET.html">DET</a></td><td><a href="/players/Austin Czarnik.html">Austin Czarnik</a></td><td>Holding</td><td>2 min</td></tr>
-<tr><td><a href="/teams/DAL.html">DAL</a></td><td><a href="/teams/DET.html">DET</a></td><td>2nd Period</td><td>4:40</td><td><a href="/teams/DAL.html">DAL</a></td><td><a href="/players/Matt Duchene.html">Matt Duchene</a></td><td>Hooking</td><td>2 min</td></tr>
-<tr><td><a href="/teams/DAL.html">DAL</a></td><td><a href="/teams/DET.html">DET</a></td><td>2nd Period</td><td>16:28</td><td><a href="/teams/DAL.html">DAL</a></td><td><a href="/players/Joel Hanley.html">Joel Hanley</a></td><td>Holding</td><td>2 min</td></tr>
-<tr><td><a href="/teams/DAL.html">DAL</a></td><td><a href="/teams/DET.html">DET</a></td><td>3rd Period</td><td>3rd Period</td><td><a href="/teams/3rd Period.html">3rd Period</a></td><td><a href="/players/3rd Period.html">3rd Period</a></td><td>3rd Period</td><td>3rd Period</td></tr>
-<tr><td><a href="/teams/DAL.html">DAL</a></td><td><a href="/teams/DET.html">DET</a></td><td>3rd Period</td><td>3:29</td><td><a href="/teams/DET.html">DET</a></td><td><a href="/players/Bench.html">Bench</a></td><td>Too Many Men on the Ice</td><td>2 min</td></tr>
-<tr><td><a href="/teams/DAL.html">DAL</a></td><td><a href="/teams/DET.html">DET</a></td><td>3rd Period</td><td>13:06</td><td><a href="/teams/DAL.html">DAL</a></td><td><a href="/players/Joel Hanley.html">Joel Hanley</a></td><td>Holding</td><td>2 min</td></tr>
-<tr><td><a href="/teams/DAL.html">DAL</a></td><td><a href="/teams/DET.html">DET</a></td><td>3rd Period</td><td>13:45</td><td><a href="/teams/DET.html">DET</a></td><td><a href="/players/Michael Rasmussen.html">Michael Rasmussen</a></td><td>Tripping</td><td>2 min</td></tr>
-<tr><td><a href="/teams/DAL.html">DAL</a></td><td><a href="/teams/DET.html">DET</a></td><td>3rd Period</td><td>18:13</td><td><a href="/teams/DAL.html">DAL</a></td><td><a href="/players/Bench.html">Bench</a></td><td>Too Many Men on the Ice</td><td>2 min</td></tr>
-<tr><td><a href="/teams/DAL.html">DAL</a></td><td><a href="/teams/DET.html">DET</a></td><td>3rd Period</td><td>18:49</td><td><a href="/teams/DET.html">DET</a></td><td><a href="/players/Patrick Kane.html">Patrick Kane</a></td><td>Hooking</td><td>2 min</td></tr>
-
-                </tbody>
-            </table>
-        </main>
-    </body>
-    </html>
-    
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Detroit Red Wings at Dallas Stars: December 11, 2023</title>
+<link rel="stylesheet" href="/assets/styles.css">
+<script src="/assets/searchBar.js"></script>
+<script src="/assets/tableSort.js"></script>
+</head>
+<body>
+<nav id="navbar">
+<ul>
+<li><a href="/">Home</a></li>
+<li><a href="/players/">Players</a></li>
+<li><a href="/teams/">Teams</a></li>
+<li><a href="/probabilities/">Probabilities</a></li>
+<li><a href="/boxscores/">Boxscores</a></li>
+<li><a href="/versus/">Head to Head Stats</a></li>
+<li><a href="/leaders/">Leaders</a></li>
+<li><a href="/seasons/2025/schedule.html">Schedule and Results</a></li>
+<li><a href="/seasons/2025/standings.html">Current Standings</a></li>
+<li><a href="/seasons/2025/rosters.html">Team Rosters</a></li>
+<li>
+<input type="text" id="searchBar" placeholder="Search for players or teams..." oninput="performSearch()" autocomplete="off">
+<div id="searchResults" class="dropdown"></div>
+<button id="searchButton" onclick="handleSearch()">Search</button>
+</li>
+</ul>
+</nav>
+<main id="content">
+<div class="scorebox">
+<div class="team"><div><a href="/teams/DET.html">DET</a></div><div class="score">3</div></div>
+<div class="team"><div><a href="/teams/DAL.html">DAL</a></div><div class="score">6</div></div>
+<div class="date">December 11, 2023</div>
+</div>
+<table id="DET_skaters">
+<tr><th>Team</th><th>Player</th><th>G</th><th>A</th><th>PTS</th><th>SOG</th><th>HIT</th><th>BLK</th><th>TOI</th><th>PIM</th><th>SAT-F</th><th>SAT-A</th><th>CF%</th><th>CRel%</th></tr>
+<tr><td><a href="/teams/DET.html">DET</a></td><td><a href="/players/debrial01.html">Alex DeBrincat</a></td><td>0</td><td>1</td><td>1</td><td>5</td><td>1</td><td>0</td><td>19.85</td><td>0</td><td>21</td><td>16</td><td>56.80%</td><td>25.40%</td></tr>
+<tr><td><a href="/teams/DET.html">DET</a></td><td><a href="/players/coppan01.html">Andrew Copp</a></td><td>0</td><td>0</td><td>0</td><td>2</td><td>0</td><td>0</td><td>20.33</td><td>0</td><td>20</td><td>20</td><td>50.00%</td><td>16.30%</td></tr>
+<tr><td><a href="/teams/DET.html">DET</a></td><td><a href="/players/czarnau01.html">Austin Czarnik</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>9.18</td><td>2</td><td>5</td><td>10</td><td>33.30%</td><td>-6.50%</td></tr>
+<tr><td><a href="/teams/DET.html">DET</a></td><td><a href="/players/chiarbe01.html">Ben Chiarot</a></td><td>0</td><td>0</td><td>0</td><td>2</td><td>0</td><td>6</td><td>19.83</td><td>0</td><td>9</td><td>32</td><td>22.00%</td><td>-25.60%</td></tr>
+<tr><td><a href="/teams/DET.html">DET</a></td><td><a href="/players/fischch01.html">Christian Fischer</a></td><td>0</td><td>1</td><td>1</td><td>1</td><td>1</td><td>0</td><td>13.08</td><td>0</td><td>8</td><td>17</td><td>32.00%</td><td>-8.80%</td></tr>
+<tr><td><a href="/teams/DET.html">DET</a></td><td><a href="/players/spronda01.html">Daniel Sprong</a></td><td>1</td><td>0</td><td>1</td><td>4</td><td>0</td><td>0</td><td>13.4</td><td>0</td><td>17</td><td>16</td><td>51.50%</td><td>17.10%</td></tr>
+<tr><td><a href="/teams/DET.html">DET</a></td><td><a href="/players/walmaja01.html">Jake Walman</a></td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>2</td><td>16.83</td><td>0</td><td>15</td><td>24</td><td>38.50%</td><td>-0.80%</td></tr>
+<tr><td><a href="/teams/DET.html">DET</a></td><td><a href="/players/petryje01.html">Jeff Petry</a></td><td>0</td><td>0</td><td>0</td><td>2</td><td>3</td><td>3</td><td>20.63</td><td>0</td><td>7</td><td>31</td><td>18.40%</td><td>-29.80%</td></tr>
+<tr><td><a href="/teams/DET.html">DET</a></td><td><a href="/players/velenjo01.html">Joe Veleno</a></td><td>1</td><td>0</td><td>1</td><td>2</td><td>0</td><td>2</td><td>22.18</td><td>2</td><td>18</td><td>31</td><td>36.70%</td><td>-3.80%</td></tr>
+<tr><td><a href="/teams/DET.html">DET</a></td><td><a href="/players/berggjo02.html">Jonatan Berggren</a></td><td>1</td><td>0</td><td>1</td><td>1</td><td>0</td><td>2</td><td>8.5</td><td>0</td><td>4</td><td>9</td><td>30.80%</td><td>-9.20%</td></tr>
+<tr><td><a href="/teams/DET.html">DET</a></td><td><a href="/players/raymolu01.html">Lucas Raymond</a></td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>1</td><td>18.1</td><td>0</td><td>18</td><td>21</td><td>46.20%</td><td>10.50%</td></tr>
+<tr><td><a href="/teams/DET.html">DET</a></td><td><a href="/players/rasmumi01.html">Michael Rasmussen</a></td><td>0</td><td>0</td><td>0</td><td>3</td><td>1</td><td>0</td><td>15.5</td><td>2</td><td>10</td><td>29</td><td>25.60%</td><td>-19.60%</td></tr>
+<tr><td><a href="/teams/DET.html">DET</a></td><td><a href="/players/seidemo01.html">Moritz Seider</a></td><td>0</td><td>0</td><td>0</td><td>2</td><td>0</td><td>2</td><td>20.8</td><td>0</td><td>16</td><td>27</td><td>37.20%</td><td>-2.80%</td></tr>
+<tr><td><a href="/teams/DET.html">DET</a></td><td><a href="/players/maattol01.html">Olli Määttä</a></td><td>0</td><td>1</td><td>1</td><td>0</td><td>1</td><td>1</td><td>15.5</td><td>0</td><td>13</td><td>15</td><td>46.40%</td><td>9.60%</td></tr>
+<tr><td><a href="/teams/DET.html">DET</a></td><td><a href="/players/kanepa01.html">Patrick Kane</a></td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>20.73</td><td>2</td><td>19</td><td>15</td><td>55.90%</td><td>23.30%</td></tr>
+<tr><td><a href="/teams/DET.html">DET</a></td><td><a href="/players/fabbrro01.html">Robby Fabbri</a></td><td>0</td><td>1</td><td>1</td><td>0</td><td>1</td><td>1</td><td>14.52</td><td>0</td><td>16</td><td>23</td><td>41.00%</td><td>2.90%</td></tr>
+<tr><td><a href="/teams/DET.html">DET</a></td><td><a href="/players/gostish01.html">Shayne Gostisbehere</a></td><td>0</td><td>2</td><td>2</td><td>3</td><td>0</td><td>1</td><td>20.48</td><td>0</td><td>24</td><td>17</td><td>58.50%</td><td>29.20%</td></tr>
+<tr><td><a href="/teams/DET.html">DET</a></td><td><a href="/players/astonza01.html">Zach Aston-Reese</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>2</td><td>0</td><td>6.35</td><td>0</td><td>2</td><td>11</td><td>15.40%</td><td>-26.40%</td></tr>
+</table>
+<table id="DAL_skaters">
+<tr><th>Team</th><th>Player</th><th>G</th><th>A</th><th>PTS</th><th>SOG</th><th>HIT</th><th>BLK</th><th>TOI</th><th>PIM</th><th>SAT-F</th><th>SAT-A</th><th>CF%</th><th>CRel%</th></tr>
+<tr><td><a href="/teams/DAL.html">DAL</a></td><td><a href="/players/smithcr01.html">Craig Smith</a></td><td>0</td><td>0</td><td>0</td><td>3</td><td>1</td><td>0</td><td>10.9</td><td>0</td><td>17</td><td>2</td><td>89.50%</td><td>33.70%</td></tr>
+<tr><td><a href="/teams/DAL.html">DAL</a></td><td><a href="/players/lindees01.html">Esa Lindell</a></td><td>1</td><td>1</td><td>2</td><td>1</td><td>0</td><td>1</td><td>18.95</td><td>0</td><td>20</td><td>22</td><td>47.60%</td><td>-20.30%</td></tr>
+<tr><td><a href="/teams/DAL.html">DAL</a></td><td><a href="/players/dadonev01.html">Evgenii Dadonov</a></td><td>0</td><td>0</td><td>0</td><td>2</td><td>0</td><td>1</td><td>14.4</td><td>0</td><td>18</td><td>6</td><td>75.00%</td><td>17.40%</td></tr>
+<tr><td><a href="/teams/DAL.html">DAL</a></td><td><a href="/players/bennja01.html">Jamie Benn</a></td><td>0</td><td>1</td><td>1</td><td>0</td><td>1</td><td>0</td><td>16.08</td><td>0</td><td>22</td><td>9</td><td>71.00%</td><td>13.40%</td></tr>
+<tr><td><a href="/teams/DAL.html">DAL</a></td><td><a href="/players/hakanja01.html">Jani Hakanpää</a></td><td>0</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>16.9</td><td>0</td><td>23</td><td>22</td><td>51.10%</td><td>-15.60%</td></tr>
+<tr><td><a href="/teams/DAL.html">DAL</a></td><td><a href="/players/roberja01.html">Jason Robertson</a></td><td>1</td><td>1</td><td>2</td><td>2</td><td>0</td><td>1</td><td>15.62</td><td>0</td><td>20</td><td>10</td><td>66.70%</td><td>7.60%</td></tr>
+<tr><td><a href="/teams/DAL.html">DAL</a></td><td><a href="/players/paveljo01.html">Joe Pavelski</a></td><td>1</td><td>0</td><td>1</td><td>5</td><td>0</td><td>0</td><td>14.55</td><td>0</td><td>18</td><td>9</td><td>66.70%</td><td>7.30%</td></tr>
+<tr><td><a href="/teams/DAL.html">DAL</a></td><td><a href="/players/hanlejo01.html">Joel Hanley</a></td><td>0</td><td>1</td><td>1</td><td>2</td><td>1</td><td>0</td><td>13.35</td><td>4</td><td>20</td><td>6</td><td>76.90%</td><td>20.20%</td></tr>
+<tr><td><a href="/teams/DAL.html">DAL</a></td><td><a href="/players/marchma01.html">Mason Marchment</a></td><td>0</td><td>0</td><td>0</td><td>3</td><td>0</td><td>2</td><td>14.3</td><td>0</td><td>19</td><td>15</td><td>55.90%</td><td>-7.00%</td></tr>
+<tr><td><a href="/teams/DAL.html">DAL</a></td><td><a href="/players/duchema01.html">Matt Duchene</a></td><td>1</td><td>0</td><td>1</td><td>4</td><td>0</td><td>0</td><td>15.47</td><td>2</td><td>22</td><td>19</td><td>53.70%</td><td>-10.90%</td></tr>
+<tr><td><a href="/teams/DAL.html">DAL</a></td><td><a href="/players/heiskmi01.html">Miro Heiskanen</a></td><td>2</td><td>1</td><td>3</td><td>3</td><td>0</td><td>2</td><td>25.85</td><td>0</td><td>28</td><td>13</td><td>68.30%</td><td>11.00%</td></tr>
+<tr><td><a href="/teams/DAL.html">DAL</a></td><td><a href="/players/faksara01.html">Radek Faksa</a></td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>2</td><td>13.13</td><td>0</td><td>18</td><td>11</td><td>62.10%</td><td>1.50%</td></tr>
+<tr><td><a href="/teams/DAL.html">DAL</a></td><td><a href="/players/hintzro01.html">Roope Hintz</a></td><td>0</td><td>2</td><td>2</td><td>2</td><td>0</td><td>0</td><td>16.23</td><td>0</td><td>21</td><td>14</td><td>60.00%</td><td>-1.40%</td></tr>
+<tr><td><a href="/teams/DAL.html">DAL</a></td><td><a href="/players/suterry01.html">Ryan Suter</a></td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>20.32</td><td>0</td><td>16</td><td>15</td><td>51.60%</td><td>-12.50%</td></tr>
+<tr><td><a href="/teams/DAL.html">DAL</a></td><td><a href="/players/steelsa01.html">Sam Steel</a></td><td>0</td><td>2</td><td>2</td><td>1</td><td>0</td><td>0</td><td>13.38</td><td>0</td><td>19</td><td>4</td><td>82.60%</td><td>26.60%</td></tr>
+<tr><td><a href="/teams/DAL.html">DAL</a></td><td><a href="/players/harleth01.html">Thomas Harley</a></td><td>0</td><td>0</td><td>0</td><td>2</td><td>0</td><td>1</td><td>20.57</td><td>0</td><td>33</td><td>17</td><td>66.00%</td><td>8.50%</td></tr>
+<tr><td><a href="/teams/DAL.html">DAL</a></td><td><a href="/players/seguity01.html">Tyler Seguin</a></td><td>0</td><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td><td>16.78</td><td>0</td><td>19</td><td>24</td><td>44.20%</td><td>-25.80%</td></tr>
+<tr><td><a href="/teams/DAL.html">DAL</a></td><td><a href="/players/johnswy01.html">Wyatt Johnston</a></td><td>0</td><td>0</td><td>0</td><td>2</td><td>0</td><td>0</td><td>17.58</td><td>0</td><td>19</td><td>12</td><td>61.30%</td><td>0.40%</td></tr>
+</table>
+<table id="DET_goalies">
+<tr><th>Team</th><th>Goalie</th><th>DEC</th><th>GA</th><th>SA</th><th>SV</th><th>SV%</th><th>SO</th><th>PIM</th><th>TOI</th></tr>
+<tr><td><a href="/teams/DET.html">DET</a></td><td><a href="/players/reimeja01.html">James Reimer</a></td><td>L</td><td>5</td><td>34</td><td>29</td><td>85.30%</td><td>0</td><td>0</td><td>58.15</td></tr>
+<tr><td><a href="/teams/DET.html">DET</a></td><td><a href="/players/nan.html">Empty Net</a></td><td>--</td><td>1</td><td>1</td><td>0</td><td>0.00%</td><td>0</td><td>0</td><td>0.0</td></tr>
+</table>
+<table id="DAL_goalies">
+<tr><th>Team</th><th>Goalie</th><th>DEC</th><th>GA</th><th>SA</th><th>SV</th><th>SV%</th><th>SO</th><th>PIM</th><th>TOI</th></tr>
+<tr><td><a href="/teams/DAL.html">DAL</a></td><td><a href="/players/oettija01.html">Jake Oettinger</a></td><td>W</td><td>3</td><td>30</td><td>27</td><td>90.00%</td><td>0</td><td>0</td><td>59.75</td></tr>
+</table>
+<table id="scoring">
+<tr><th>Team</th><th>Time</th><th>Info</th><th>Scorer</th><th>Assist 1</th><th>Assist 2</th></tr>
+<tr><td><a href="/teams/DET.html">DET</a></td><td>5.33</td><td>--</td><td><a href="/players/spronda01.html">Daniel Sprong</a></td><td><a href="/players/fabbrro01.html">Robby Fabbri</a></td><td><a href="/players/fischch01.html">Christian Fischer</a></td></tr>
+<tr><td><a href="/teams/DAL.html">DAL</a></td><td>13.58</td><td>PP</td><td><a href="/players/heiskmi01.html">Miro Heiskanen</a></td><td><a href="/players/roberja01.html">Jason Robertson</a></td><td><a href="/players/bennja01.html">Jamie Benn</a></td></tr>
+<tr><td><a href="/teams/DAL.html">DAL</a></td><td>19.98</td><td>--</td><td><a href="/players/lindees01.html">Esa Lindell</a></td><td><a href="/players/steelsa01.html">Sam Steel</a></td><td><a href="/players/hakanja01.html">Jani Hakanpää</a></td></tr>
+<tr><td><a href="/teams/DAL.html">DAL</a></td><td>31.27</td><td>--</td><td><a href="/players/roberja01.html">Jason Robertson</a></td><td><a href="/players/lindees01.html">Esa Lindell</a></td><td><a href="/players/hintzro01.html">Roope Hintz</a></td></tr>
+<tr><td><a href="/teams/DAL.html">DAL</a></td><td>33.5</td><td>--</td><td><a href="/players/duchema01.html">Matt Duchene</a></td><td><a href="/players/hanlejo01.html">Joel Hanley</a></td><td><a href="/players/seguity01.html">Tyler Seguin</a></td></tr>
+<tr><td><a href="/teams/DET.html">DET</a></td><td>33.87</td><td>--</td><td><a href="/players/berggjo02.html">Jonatan Berggren</a></td><td><a href="/players/gostish01.html">Shayne Gostisbehere</a></td><td><a href="/players/maattol01.html">Olli Määttä</a></td></tr>
+<tr><td><a href="/teams/DET.html">DET</a></td><td>53.35</td><td>PP</td><td><a href="/players/velenjo01.html">Joe Veleno</a></td><td><a href="/players/debrial01.html">Alex DeBrincat</a></td><td><a href="/players/gostish01.html">Shayne Gostisbehere</a></td></tr>
+<tr><td><a href="/teams/DAL.html">DAL</a></td><td>53.85</td><td>PP</td><td><a href="/players/paveljo01.html">Joe Pavelski</a></td><td><a href="/players/hintzro01.html">Roope Hintz</a></td><td><a href="/players/heiskmi01.html">Miro Heiskanen</a></td></tr>
+<tr><td><a href="/teams/DAL.html">DAL</a></td><td>59.3</td><td>EN</td><td><a href="/players/heiskmi01.html">Miro Heiskanen</a></td><td><a href="/players/steelsa01.html">Sam Steel</a></td><td><a href="/players/steelsa01.html">Sam Steel</a></td></tr>
+</table>
+<table id="penalties">
+<tr><th>Team</th><th>Time</th><th>Player</th><th>Penalty</th><th>PIM</th></tr>
+<tr><td><a href="/teams/DET.html">DET</a></td><td>12.72</td><td><a href="/players/velenjo01.html">Joe Veleno</a></td><td>Slashing</td><td>2 min</td></tr>
+<tr><td><a href="/teams/DET.html">DET</a></td><td>23.33</td><td><a href="/players/czarnau01.html">Austin Czarnik</a></td><td>Holding</td><td>2 min</td></tr>
+<tr><td><a href="/teams/DAL.html">DAL</a></td><td>24.67</td><td><a href="/players/duchema01.html">Matt Duchene</a></td><td>Hooking</td><td>2 min</td></tr>
+<tr><td><a href="/teams/DAL.html">DAL</a></td><td>36.47</td><td><a href="/players/hanlejo01.html">Joel Hanley</a></td><td>Holding</td><td>2 min</td></tr>
+<tr><td><a href="/teams/DET.html">DET</a></td><td>43.48</td><td><a href="/players/nan.html">Bench</a></td><td>Too Many Men on the Ice</td><td>2 min</td></tr>
+<tr><td><a href="/teams/DAL.html">DAL</a></td><td>53.1</td><td><a href="/players/hanlejo01.html">Joel Hanley</a></td><td>Holding</td><td>2 min</td></tr>
+<tr><td><a href="/teams/DET.html">DET</a></td><td>53.75</td><td><a href="/players/rasmumi01.html">Michael Rasmussen</a></td><td>Tripping</td><td>2 min</td></tr>
+<tr><td><a href="/teams/DAL.html">DAL</a></td><td>58.22</td><td><a href="/players/nan.html">Bench</a></td><td>Too Many Men on the Ice</td><td>2 min</td></tr>
+<tr><td><a href="/teams/DET.html">DET</a></td><td>58.82</td><td><a href="/players/kanepa01.html">Patrick Kane</a></td><td>Hooking</td><td>2 min</td></tr>
+</table>
+</main>
+</body>
+</html>

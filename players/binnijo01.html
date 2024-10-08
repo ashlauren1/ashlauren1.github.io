@@ -1,855 +1,263 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Jordan Binnington</title>
-  <link rel="stylesheet" href="/assets/styles.css">
-  <script src="/assets/searchBar.js" defer></script>
-  <script src="/assets/tableSort.js"></script>
-  
-  <style>
-    tr:hover {background-color: #F0FFF0;}
-  </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Jordan Binnington Stats 2023-24</title>
+<link rel="stylesheet" href="/assets/styles.css">
+<script src="/assets/searchBar.js"></script>
+<script src="/assets/tableSort.js"></script>
 </head>
-
 <body>
-  <!-- Navigation Bar -->
-  <nav id="navbar">
-    <a href="/">Home</a>
-    <a href="/players/">Players</a>
-    <a href="/teams/">Teams</a>
-    <a href="/leaders/">Leaders</a>
-    <a href="/probabilities/">Probabilities</a>
-    <a href="/boxscores/">Boxscores</a>
-    <a href="/schedule/">Schedule</a>
+<nav id="navbar">
+<ul>
+<li><a href="/">Home</a></li>
+<li><a href="/players/">Players</a></li>
+<li><a href="/teams/">Teams</a></li>
+<li><a href="/probabilities/">Probabilities</a></li>
+<li><a href="/boxscores/">Boxscores</a></li>
+<li><a href="/versus/">Head to Head Stats</a></li>
+<li><a href="/leaders/">Leaders</a></li>
+<li><a href="/seasons/2025/schedule.html">Schedule and Results</a></li>
+<li><a href="/seasons/2025/standings.html">Current Standings</a></li>
+<li><a href="/seasons/2025/rosters.html">Team Rosters</a></li>
+<li>
+<input type="text" id="searchBar" placeholder="Search for players or teams..." oninput="performSearch()" autocomplete="off">
+<div id="searchResults" class="dropdown"></div>
+<button id="searchButton" onclick="handleSearch()">Search</button>
+</li>
+</ul>
+</nav>
+<main id="content">
+<div class="gamelog">
+<table id="totals">
+<tr><th>Team</th><th>Goalie</th><th>GP</th><th>G</th><th>A</th><th>PTS</th><th>SOG</th><th>HIT</th><th>BLK</th><th>PIM</th><th>TOI</th><th>ATOI</th><th>S%</th><th>EVG</th><th>PPG</th><th>SHG</th><th>GWG</th><th>EVA</th><th>PPA</th><th>SHA</th></tr>
+<tr><td><a href="/teams/STL.html">STL</a></td><td><a href="/players/binnijo01.html">Jordan Binnington</a></td><td>57</td><td>156</td><td>2.84</td><td>1786</td><td>1630</td><td>90.45%</td><td>3</td><td>29</td><td>28</td><td>5</td><td>3291.48</td><td>57.75</td></tr>
+</table>
+<table id="binnijo01_gamelog">
+<tr><th>Date</th><th>Player</th><th>Team</th><th>Location</th><th>Opp</th><th>Result</th><th>OT/SO</th><th>GA</th><th>SA</th><th>SV</th><th>SV%</th><th>PIM</th><th>TOI</th></tr>
+<tr><td><a href="/boxscores/202310120DAL.html">10/12/2023</a></td><td><a href="/players/binnijo01.html">Jordan Binnington</a></td><td><a href="/teams/STL.html">STL</a></td><td>@</td><td><a href="/teams/DAL.html">DAL</a></td><td>L</td><td>SO</td><td>1</td><td>34</td><td>33</td><td>97.10%</td><td>0</td><td>64.83</td></tr>
+<tr><td><a href="/boxscores/202310140STL.html">10/14/2023</a></td><td><a href="/players/binnijo01.html">Jordan Binnington</a></td><td><a href="/teams/STL.html">STL</a></td><td>vs</td><td><a href="/teams/SEA.html">SEA</a></td><td>W</td><td>SO</td><td>1</td><td>31</td><td>30</td><td>96.80%</td><td>0</td><td>65.0</td></tr>
+<tr><td><a href="/boxscores/202310210STL.html">10/21/2023</a></td><td><a href="/players/binnijo01.html">Jordan Binnington</a></td><td><a href="/teams/STL.html">STL</a></td><td>vs</td><td><a href="/teams/PIT.html">PIT</a></td><td>W</td><td>nan</td><td>2</td><td>33</td><td>31</td><td>93.90%</td><td>0</td><td>60.0</td></tr>
+<tr><td><a href="/boxscores/202310240WPG.html">10/24/2023</a></td><td><a href="/players/binnijo01.html">Jordan Binnington</a></td><td><a href="/teams/STL.html">STL</a></td><td>@</td><td><a href="/teams/WPG.html">WPG</a></td><td>L</td><td>nan</td><td>3</td><td>29</td><td>26</td><td>89.70%</td><td>0</td><td>58.97</td></tr>
+<tr><td><a href="/boxscores/202310270VAN.html">10/27/2023</a></td><td><a href="/players/binnijo01.html">Jordan Binnington</a></td><td><a href="/teams/STL.html">STL</a></td><td>@</td><td><a href="/teams/VAN.html">VAN</a></td><td>L</td><td>nan</td><td>5</td><td>35</td><td>30</td><td>85.70%</td><td>0</td><td>60.0</td></tr>
+<tr><td><a href="/boxscores/202311010COL.html">11/1/2023</a></td><td><a href="/players/binnijo01.html">Jordan Binnington</a></td><td><a href="/teams/STL.html">STL</a></td><td>@</td><td><a href="/teams/COL.html">COL</a></td><td>L</td><td>nan</td><td>4</td><td>28</td><td>24</td><td>85.70%</td><td>0</td><td>59.53</td></tr>
+<tr><td><a href="/boxscores/202311030STL.html">11/3/2023</a></td><td><a href="/players/binnijo01.html">Jordan Binnington</a></td><td><a href="/teams/STL.html">STL</a></td><td>vs</td><td><a href="/teams/NJD.html">NJD</a></td><td>W</td><td>nan</td><td>1</td><td>34</td><td>33</td><td>97.10%</td><td>0</td><td>60.0</td></tr>
+<tr><td><a href="/boxscores/202311070STL.html">11/7/2023</a></td><td><a href="/players/binnijo01.html">Jordan Binnington</a></td><td><a href="/teams/STL.html">STL</a></td><td>vs</td><td><a href="/teams/WPG.html">WPG</a></td><td>L</td><td>nan</td><td>4</td><td>36</td><td>32</td><td>88.90%</td><td>0</td><td>59.38</td></tr>
+<tr><td><a href="/boxscores/202311110COL.html">11/11/2023</a></td><td><a href="/players/binnijo01.html">Jordan Binnington</a></td><td><a href="/teams/STL.html">STL</a></td><td>@</td><td><a href="/teams/COL.html">COL</a></td><td>W</td><td>nan</td><td>2</td><td>38</td><td>36</td><td>94.70%</td><td>0</td><td>60.0</td></tr>
+<tr><td><a href="/boxscores/202311140STL.html">11/14/2023</a></td><td><a href="/players/binnijo01.html">Jordan Binnington</a></td><td><a href="/teams/STL.html">STL</a></td><td>vs</td><td><a href="/teams/TBL.html">TBL</a></td><td>W</td><td>nan</td><td>0</td><td>30</td><td>30</td><td>100.00%</td><td>0</td><td>60.0</td></tr>
+<tr><td><a href="/boxscores/202311160SJS.html">11/16/2023</a></td><td><a href="/players/binnijo01.html">Jordan Binnington</a></td><td><a href="/teams/STL.html">STL</a></td><td>@</td><td><a href="/teams/SJS.html">SJS</a></td><td>L</td><td>nan</td><td>1</td><td>14</td><td>13</td><td>92.90%</td><td>0</td><td>36.58</td></tr>
+<tr><td><a href="/boxscores/202311180LAK.html">11/18/2023</a></td><td><a href="/players/binnijo01.html">Jordan Binnington</a></td><td><a href="/teams/STL.html">STL</a></td><td>@</td><td><a href="/teams/LAK.html">LAK</a></td><td>L</td><td>nan</td><td>5</td><td>31</td><td>26</td><td>83.90%</td><td>0</td><td>59.87</td></tr>
+<tr><td><a href="/boxscores/202311220ARI.html">11/22/2023</a></td><td><a href="/players/binnijo01.html">Jordan Binnington</a></td><td><a href="/teams/STL.html">STL</a></td><td>@</td><td><a href="/teams/ARI.html">ARI</a></td><td>W</td><td>nan</td><td>5</td><td>13</td><td>8</td><td>61.50%</td><td>0</td><td>28.0</td></tr>
+<tr><td><a href="/boxscores/202311240STL.html">11/24/2023</a></td><td><a href="/players/binnijo01.html">Jordan Binnington</a></td><td><a href="/teams/STL.html">STL</a></td><td>vs</td><td><a href="/teams/NSH.html">NSH</a></td><td>L</td><td>nan</td><td>4</td><td>20</td><td>16</td><td>80.00%</td><td>0</td><td>37.08</td></tr>
+<tr><td><a href="/boxscores/202311260CHI.html">11/26/2023</a></td><td><a href="/players/binnijo01.html">Jordan Binnington</a></td><td><a href="/teams/STL.html">STL</a></td><td>@</td><td><a href="/teams/CHI.html">CHI</a></td><td>W</td><td>nan</td><td>2</td><td>33</td><td>31</td><td>93.90%</td><td>0</td><td>60.0</td></tr>
+<tr><td><a href="/boxscores/202311280MIN.html">11/28/2023</a></td><td><a href="/players/binnijo01.html">Jordan Binnington</a></td><td><a href="/teams/STL.html">STL</a></td><td>@</td><td><a href="/teams/MIN.html">MIN</a></td><td>L</td><td>nan</td><td>3</td><td>37</td><td>34</td><td>91.90%</td><td>0</td><td>57.4</td></tr>
+<tr><td><a href="/boxscores/202311300STL.html">11/30/2023</a></td><td><a href="/players/binnijo01.html">Jordan Binnington</a></td><td><a href="/teams/STL.html">STL</a></td><td>vs</td><td><a href="/teams/BUF.html">BUF</a></td><td>W</td><td>nan</td><td>4</td><td>46</td><td>42</td><td>91.30%</td><td>0</td><td>60.0</td></tr>
+<tr><td><a href="/boxscores/202312040VEG.html">12/4/2023</a></td><td><a href="/players/binnijo01.html">Jordan Binnington</a></td><td><a href="/teams/STL.html">STL</a></td><td>@</td><td><a href="/teams/VEG.html">VEG</a></td><td>W</td><td>OT</td><td>1</td><td>34</td><td>33</td><td>97.10%</td><td>0</td><td>60.63</td></tr>
+<tr><td><a href="/boxscores/202312060STL.html">12/6/2023</a></td><td><a href="/players/binnijo01.html">Jordan Binnington</a></td><td><a href="/teams/STL.html">STL</a></td><td>vs</td><td><a href="/teams/VEG.html">VEG</a></td><td>L</td><td>nan</td><td>5</td><td>48</td><td>43</td><td>89.60%</td><td>0</td><td>56.35</td></tr>
+<tr><td><a href="/boxscores/202312090CHI.html">12/9/2023</a></td><td><a href="/players/binnijo01.html">Jordan Binnington</a></td><td><a href="/teams/STL.html">STL</a></td><td>@</td><td><a href="/teams/CHI.html">CHI</a></td><td>L</td><td>nan</td><td>3</td><td>24</td><td>21</td><td>87.50%</td><td>0</td><td>56.27</td></tr>
+<tr><td><a href="/boxscores/202312120STL.html">12/12/2023</a></td><td><a href="/players/binnijo01.html">Jordan Binnington</a></td><td><a href="/teams/STL.html">STL</a></td><td>vs</td><td><a href="/teams/DET.html">DET</a></td><td>L</td><td>nan</td><td>5</td><td>31</td><td>26</td><td>83.90%</td><td>0</td><td>59.62</td></tr>
+<tr><td><a href="/boxscores/202312140STL.html">12/14/2023</a></td><td><a href="/players/binnijo01.html">Jordan Binnington</a></td><td><a href="/teams/STL.html">STL</a></td><td>vs</td><td><a href="/teams/OTT.html">OTT</a></td><td>W</td><td>nan</td><td>2</td><td>34</td><td>32</td><td>94.10%</td><td>0</td><td>59.82</td></tr>
+<tr><td><a href="/boxscores/202312160STL.html">12/16/2023</a></td><td><a href="/players/binnijo01.html">Jordan Binnington</a></td><td><a href="/teams/STL.html">STL</a></td><td>vs</td><td><a href="/teams/DAL.html">DAL</a></td><td>W</td><td>OT</td><td>3</td><td>23</td><td>20</td><td>87.00%</td><td>0</td><td>60.18</td></tr>
+<tr><td><a href="/boxscores/202312190TBL.html">12/19/2023</a></td><td><a href="/players/binnijo01.html">Jordan Binnington</a></td><td><a href="/teams/STL.html">STL</a></td><td>@</td><td><a href="/teams/TBL.html">TBL</a></td><td>L</td><td>nan</td><td>5</td><td>23</td><td>18</td><td>78.30%</td><td>0</td><td>32.22</td></tr>
+<tr><td><a href="/boxscores/202312230STL.html">12/23/2023</a></td><td><a href="/players/binnijo01.html">Jordan Binnington</a></td><td><a href="/teams/STL.html">STL</a></td><td>vs</td><td><a href="/teams/CHI.html">CHI</a></td><td>W</td><td>nan</td><td>5</td><td>20</td><td>15</td><td>75.00%</td><td>0</td><td>60.0</td></tr>
+<tr><td><a href="/boxscores/202312290STL.html">12/29/2023</a></td><td><a href="/players/binnijo01.html">Jordan Binnington</a></td><td><a href="/teams/STL.html">STL</a></td><td>vs</td><td><a href="/teams/COL.html">COL</a></td><td>L</td><td>nan</td><td>2</td><td>23</td><td>21</td><td>91.30%</td><td>0</td><td>58.83</td></tr>
+<tr><td><a href="/boxscores/202401040STL.html">1/4/2024</a></td><td><a href="/players/binnijo01.html">Jordan Binnington</a></td><td><a href="/teams/STL.html">STL</a></td><td>vs</td><td><a href="/teams/VAN.html">VAN</a></td><td>W</td><td>nan</td><td>1</td><td>26</td><td>25</td><td>96.20%</td><td>0</td><td>60.0</td></tr>
+<tr><td><a href="/boxscores/202401060CAR.html">1/6/2024</a></td><td><a href="/players/binnijo01.html">Jordan Binnington</a></td><td><a href="/teams/STL.html">STL</a></td><td>@</td><td><a href="/teams/CAR.html">CAR</a></td><td>W</td><td>SO</td><td>1</td><td>30</td><td>29</td><td>96.70%</td><td>0</td><td>64.97</td></tr>
+<tr><td><a href="/boxscores/202401110STL.html">1/11/2024</a></td><td><a href="/players/binnijo01.html">Jordan Binnington</a></td><td><a href="/teams/STL.html">STL</a></td><td>vs</td><td><a href="/teams/NYR.html">NYR</a></td><td>W</td><td>nan</td><td>2</td><td>43</td><td>41</td><td>95.30%</td><td>0</td><td>59.77</td></tr>
+<tr><td><a href="/boxscores/202401130STL.html">1/13/2024</a></td><td><a href="/players/binnijo01.html">Jordan Binnington</a></td><td><a href="/teams/STL.html">STL</a></td><td>vs</td><td><a href="/teams/BOS.html">BOS</a></td><td>L</td><td>OT</td><td>4</td><td>35</td><td>31</td><td>88.60%</td><td>0</td><td>61.17</td></tr>
+<tr><td><a href="/boxscores/202401180WSH.html">1/18/2024</a></td><td><a href="/players/binnijo01.html">Jordan Binnington</a></td><td><a href="/teams/STL.html">STL</a></td><td>@</td><td><a href="/teams/WSH.html">WSH</a></td><td>L</td><td>nan</td><td>4</td><td>25</td><td>21</td><td>84.00%</td><td>0</td><td>57.73</td></tr>
+<tr><td><a href="/boxscores/202401200STL.html">1/20/2024</a></td><td><a href="/players/binnijo01.html">Jordan Binnington</a></td><td><a href="/teams/STL.html">STL</a></td><td>vs</td><td><a href="/teams/WSH.html">WSH</a></td><td>W</td><td>nan</td><td>0</td><td>18</td><td>18</td><td>100.00%</td><td>0</td><td>59.43</td></tr>
+<tr><td><a href="/boxscores/202401230CGY.html">1/23/2024</a></td><td><a href="/players/binnijo01.html">Jordan Binnington</a></td><td><a href="/teams/STL.html">STL</a></td><td>@</td><td><a href="/teams/CGY.html">CGY</a></td><td>W</td><td>nan</td><td>3</td><td>35</td><td>32</td><td>91.40%</td><td>0</td><td>60.0</td></tr>
+<tr><td><a href="/boxscores/202401260SEA.html">1/26/2024</a></td><td><a href="/players/binnijo01.html">Jordan Binnington</a></td><td><a href="/teams/STL.html">STL</a></td><td>@</td><td><a href="/teams/SEA.html">SEA</a></td><td>W</td><td>OT</td><td>3</td><td>36</td><td>33</td><td>91.70%</td><td>0</td><td>63.02</td></tr>
+<tr><td><a href="/boxscores/202401300STL.html">1/30/2024</a></td><td><a href="/players/binnijo01.html">Jordan Binnington</a></td><td><a href="/teams/STL.html">STL</a></td><td>vs</td><td><a href="/teams/CBJ.html">CBJ</a></td><td>L</td><td>nan</td><td>1</td><td>22</td><td>21</td><td>95.50%</td><td>0</td><td>58.17</td></tr>
+<tr><td><a href="/boxscores/202402110MTL.html">2/11/2024</a></td><td><a href="/players/binnijo01.html">Jordan Binnington</a></td><td><a href="/teams/STL.html">STL</a></td><td>@</td><td><a href="/teams/MTL.html">MTL</a></td><td>W</td><td>nan</td><td>2</td><td>32</td><td>30</td><td>93.80%</td><td>0</td><td>60.0</td></tr>
+<tr><td><a href="/boxscores/202402130TOR.html">2/13/2024</a></td><td><a href="/players/binnijo01.html">Jordan Binnington</a></td><td><a href="/teams/STL.html">STL</a></td><td>@</td><td><a href="/teams/TOR.html">TOR</a></td><td>L</td><td>nan</td><td>3</td><td>31</td><td>28</td><td>90.30%</td><td>0</td><td>59.13</td></tr>
+<tr><td><a href="/boxscores/202402150STL.html">2/15/2024</a></td><td><a href="/players/binnijo01.html">Jordan Binnington</a></td><td><a href="/teams/STL.html">STL</a></td><td>vs</td><td><a href="/teams/EDM.html">EDM</a></td><td>W</td><td>nan</td><td>3</td><td>38</td><td>35</td><td>92.10%</td><td>0</td><td>59.67</td></tr>
+<tr><td><a href="/boxscores/202402170STL.html">2/17/2024</a></td><td><a href="/players/binnijo01.html">Jordan Binnington</a></td><td><a href="/teams/STL.html">STL</a></td><td>vs</td><td><a href="/teams/NSH.html">NSH</a></td><td>L</td><td>nan</td><td>4</td><td>32</td><td>28</td><td>87.50%</td><td>2</td><td>57.83</td></tr>
+<tr><td><a href="/boxscores/202402220STL.html">2/22/2024</a></td><td><a href="/players/binnijo01.html">Jordan Binnington</a></td><td><a href="/teams/STL.html">STL</a></td><td>vs</td><td><a href="/teams/NYI.html">NYI</a></td><td>W</td><td>nan</td><td>0</td><td>38</td><td>38</td><td>100.00%</td><td>0</td><td>60.0</td></tr>
+<tr><td><a href="/boxscores/202402240DET.html">2/24/2024</a></td><td><a href="/players/binnijo01.html">Jordan Binnington</a></td><td><a href="/teams/STL.html">STL</a></td><td>@</td><td><a href="/teams/DET.html">DET</a></td><td>L</td><td>nan</td><td>4</td><td>14</td><td>10</td><td>71.40%</td><td>2</td><td>19.87</td></tr>
+<tr><td><a href="/boxscores/202402280EDM.html">2/28/2024</a></td><td><a href="/players/binnijo01.html">Jordan Binnington</a></td><td><a href="/teams/STL.html">STL</a></td><td>@</td><td><a href="/teams/EDM.html">EDM</a></td><td>L</td><td>OT</td><td>3</td><td>36</td><td>33</td><td>91.70%</td><td>0</td><td>64.2</td></tr>
+<tr><td><a href="/boxscores/202403020STL.html">3/2/2024</a></td><td><a href="/players/binnijo01.html">Jordan Binnington</a></td><td><a href="/teams/STL.html">STL</a></td><td>vs</td><td><a href="/teams/MIN.html">MIN</a></td><td>W</td><td>nan</td><td>1</td><td>22</td><td>21</td><td>95.50%</td><td>0</td><td>60.0</td></tr>
+<tr><td><a href="/boxscores/202403040PHI.html">3/4/2024</a></td><td><a href="/players/binnijo01.html">Jordan Binnington</a></td><td><a href="/teams/STL.html">STL</a></td><td>@</td><td><a href="/teams/PHI.html">PHI</a></td><td>W</td><td>SO</td><td>1</td><td>42</td><td>41</td><td>97.60%</td><td>0</td><td>65.0</td></tr>
+<tr><td><a href="/boxscores/202403070NJD.html">3/7/2024</a></td><td><a href="/players/binnijo01.html">Jordan Binnington</a></td><td><a href="/teams/STL.html">STL</a></td><td>@</td><td><a href="/teams/NJD.html">NJD</a></td><td>L</td><td>nan</td><td>3</td><td>32</td><td>29</td><td>90.60%</td><td>0</td><td>57.97</td></tr>
+<tr><td><a href="/boxscores/202403090NYR.html">3/9/2024</a></td><td><a href="/players/binnijo01.html">Jordan Binnington</a></td><td><a href="/teams/STL.html">STL</a></td><td>@</td><td><a href="/teams/NYR.html">NYR</a></td><td>L</td><td>nan</td><td>4</td><td>39</td><td>35</td><td>89.70%</td><td>0</td><td>60.0</td></tr>
+<tr><td><a href="/boxscores/202403130STL.html">3/13/2024</a></td><td><a href="/players/binnijo01.html">Jordan Binnington</a></td><td><a href="/teams/STL.html">STL</a></td><td>vs</td><td><a href="/teams/LAK.html">LAK</a></td><td>W</td><td>nan</td><td>1</td><td>41</td><td>40</td><td>97.60%</td><td>0</td><td>60.0</td></tr>
+<tr><td><a href="/boxscores/202403160STL.html">3/16/2024</a></td><td><a href="/players/binnijo01.html">Jordan Binnington</a></td><td><a href="/teams/STL.html">STL</a></td><td>vs</td><td><a href="/teams/MIN.html">MIN</a></td><td>W</td><td>SO</td><td>2</td><td>24</td><td>22</td><td>91.70%</td><td>0</td><td>65.0</td></tr>
+<tr><td><a href="/boxscores/202403190STL.html">3/19/2024</a></td><td><a href="/players/binnijo01.html">Jordan Binnington</a></td><td><a href="/teams/STL.html">STL</a></td><td>vs</td><td><a href="/teams/COL.html">COL</a></td><td>L</td><td>nan</td><td>4</td><td>35</td><td>31</td><td>88.60%</td><td>0</td><td>58.25</td></tr>
+<tr><td><a href="/boxscores/202403230MIN.html">3/23/2024</a></td><td><a href="/players/binnijo01.html">Jordan Binnington</a></td><td><a href="/teams/STL.html">STL</a></td><td>@</td><td><a href="/teams/MIN.html">MIN</a></td><td>W</td><td>OT</td><td>4</td><td>34</td><td>30</td><td>88.20%</td><td>0</td><td>62.08</td></tr>
+<tr><td><a href="/boxscores/202403250STL.html">3/25/2024</a></td><td><a href="/players/binnijo01.html">Jordan Binnington</a></td><td><a href="/teams/STL.html">STL</a></td><td>vs</td><td><a href="/teams/VEG.html">VEG</a></td><td>L</td><td>OT</td><td>2</td><td>34</td><td>32</td><td>94.10%</td><td>0</td><td>60.82</td></tr>
+<tr><td><a href="/boxscores/202403280STL.html">3/28/2024</a></td><td><a href="/players/binnijo01.html">Jordan Binnington</a></td><td><a href="/teams/STL.html">STL</a></td><td>vs</td><td><a href="/teams/CGY.html">CGY</a></td><td>W</td><td>nan</td><td>3</td><td>28</td><td>25</td><td>89.30%</td><td>0</td><td>60.0</td></tr>
+<tr><td><a href="/boxscores/202404010STL.html">4/1/2024</a></td><td><a href="/players/binnijo01.html">Jordan Binnington</a></td><td><a href="/teams/STL.html">STL</a></td><td>vs</td><td><a href="/teams/EDM.html">EDM</a></td><td>W</td><td>OT</td><td>2</td><td>38</td><td>36</td><td>94.70%</td><td>2</td><td>62.0</td></tr>
+<tr><td><a href="/boxscores/202404040NSH.html">4/4/2024</a></td><td><a href="/players/binnijo01.html">Jordan Binnington</a></td><td><a href="/teams/STL.html">STL</a></td><td>@</td><td><a href="/teams/NSH.html">NSH</a></td><td>L</td><td>nan</td><td>4</td><td>29</td><td>25</td><td>86.20%</td><td>0</td><td>55.6</td></tr>
+<tr><td><a href="/boxscores/202404070ANA.html">4/7/2024</a></td><td><a href="/players/binnijo01.html">Jordan Binnington</a></td><td><a href="/teams/STL.html">STL</a></td><td>@</td><td><a href="/teams/ANA.html">ANA</a></td><td>W</td><td>SO</td><td>5</td><td>38</td><td>33</td><td>86.80%</td><td>2</td><td>65.0</td></tr>
+<tr><td><a href="/boxscores/202404120STL.html">4/12/2024</a></td><td><a href="/players/binnijo01.html">Jordan Binnington</a></td><td><a href="/teams/STL.html">STL</a></td><td>vs</td><td><a href="/teams/CAR.html">CAR</a></td><td>L</td><td>nan</td><td>3</td><td>40</td><td>37</td><td>92.50%</td><td>0</td><td>59.25</td></tr>
+<tr><td><a href="/boxscores/202404170DAL.html">4/17/2024</a></td><td><a href="/players/binnijo01.html">Jordan Binnington</a></td><td><a href="/teams/STL.html">STL</a></td><td>@</td><td><a href="/teams/DAL.html">DAL</a></td><td>L</td><td>SO</td><td>1</td><td>37</td><td>36</td><td>97.30%</td><td>0</td><td>65.0</td></tr>
+</table>
+</div>
+<table id="scoring">
+<tr><th>Date</th><th>Team</th><th>Location</th><th>Opp</th><th>Result</th><th>Scorer</th><th>Assist1</th><th>Assist2</th><th>Goalie</th><th>Time</th></tr>
+<tr><td><a href="/boxscores/202403280STL.html">3/28/2024</a></td><td><a href="/teams/STL.html">STL</a></td><td>vs</td><td><a href="/teams/CGY.html">CGY</a></td><td>W</td><td><a href="/players/bolduza01.html">Zachary Bolduc</a></td><td><a href="/players/toropal01.html">Alexey Toropchenko</a></td><td><a href="/players/binnijo01.html">Jordan Binnington</a></td><td><a href="/players/wolfdu01.html">Dustin Wolf</a></td><td>13.03</td></tr>
+<tr><td><a href="/boxscores/202403280STL.html">3/28/2024</a></td><td><a href="/teams/STL.html">STL</a></td><td>vs</td><td><a href="/teams/CGY.html">CGY</a></td><td>W</td><td><a href="/players/buchnpa01.html">Pavel Buchnevich</a></td><td><a href="/players/krugto01.html">Torey Krug</a></td><td><a href="/players/binnijo01.html">Jordan Binnington</a></td><td><a href="/players/--.html">EN</a></td><td>58.75</td></tr>
+<tr><td><a href="/boxscores/202311030STL.html">11/3/2023</a></td><td><a href="/teams/STL.html">STL</a></td><td>vs</td><td><a href="/teams/NJD.html">NJD</a></td><td>W</td><td><a href="/players/hayeske01.html">Kevin Hayes</a></td><td><a href="/players/parayco01.html">Colton Parayko</a></td><td><a href="/players/binnijo01.html">Jordan Binnington</a></td><td><a href="/players/--.html">EN</a></td><td>58.38</td></tr>
+<tr><td><a href="/boxscores/202310120DAL.html">10/12/2023</a></td><td><a href="/teams/DAL.html">DAL</a></td><td>vs</td><td><a href="/teams/STL.html">STL</a></td><td>W</td><td><a href="/players/bennja01.html">Jamie Benn</a></td><td><a href="/players/dellaty01.html">Ty Dellandrea</a></td><td><a href="/players/johnswy01.html">Wyatt Johnston</a></td><td><a href="/players/binnijo01.html">Jordan Binnington</a></td><td>20.3</td></tr>
+<tr><td><a href="/boxscores/202310140STL.html">10/14/2023</a></td><td><a href="/teams/SEA.html">SEA</a></td><td>@</td><td><a href="/teams/STL.html">STL</a></td><td>L</td><td><a href="/players/schwaja01.html">Jaden Schwartz</a></td><td><a href="/players/bjorkol01.html">Oliver Bjorkstrand</a></td><td><a href="/players/dunnvi02.html">Vince Dunn</a></td><td><a href="/players/binnijo01.html">Jordan Binnington</a></td><td>20.67</td></tr>
+<tr><td><a href="/boxscores/202310210STL.html">10/21/2023</a></td><td><a href="/teams/PIT.html">PIT</a></td><td>@</td><td><a href="/teams/STL.html">STL</a></td><td>L</td><td><a href="/players/malkiev01.html">Evgeni Malkin</a></td><td><a href="/players/letankr01.html">Kris Letang</a></td><td><a href="/players/--.html">--</a></td><td><a href="/players/binnijo01.html">Jordan Binnington</a></td><td>19.92</td></tr>
+<tr><td><a href="/boxscores/202310210STL.html">10/21/2023</a></td><td><a href="/teams/PIT.html">PIT</a></td><td>@</td><td><a href="/teams/STL.html">STL</a></td><td>L</td><td><a href="/players/zohorra01.html">Radim Zohorna</a></td><td><a href="/players/ellerla01.html">Lars Eller</a></td><td><a href="/players/oconndr01.html">Drew O'Connor</a></td><td><a href="/players/binnijo01.html">Jordan Binnington</a></td><td>56.45</td></tr>
+<tr><td><a href="/boxscores/202310240WPG.html">10/24/2023</a></td><td><a href="/teams/WPG.html">WPG</a></td><td>vs</td><td><a href="/teams/STL.html">STL</a></td><td>W</td><td><a href="/players/gustada01.html">David Gustafsson</a></td><td><a href="/players/perfeco01.html">Cole Perfetti</a></td><td><a href="/players/demeldy01.html">Dylan DeMelo</a></td><td><a href="/players/binnijo01.html">Jordan Binnington</a></td><td>22.92</td></tr>
+<tr><td><a href="/boxscores/202310240WPG.html">10/24/2023</a></td><td><a href="/teams/WPG.html">WPG</a></td><td>vs</td><td><a href="/teams/STL.html">STL</a></td><td>W</td><td><a href="/players/applema01.html">Mason Appleton</a></td><td><a href="/players/lowryad01.html">Adam Lowry</a></td><td><a href="/players/pionkne01.html">Neal Pionk</a></td><td><a href="/players/binnijo01.html">Jordan Binnington</a></td><td>23.22</td></tr>
+<tr><td><a href="/boxscores/202310240WPG.html">10/24/2023</a></td><td><a href="/teams/WPG.html">WPG</a></td><td>vs</td><td><a href="/teams/STL.html">STL</a></td><td>W</td><td><a href="/players/connoky01.html">Kyle Connor</a></td><td><a href="/players/schmina01.html">Nate Schmidt</a></td><td><a href="/players/--.html">--</a></td><td><a href="/players/binnijo01.html">Jordan Binnington</a></td><td>44.17</td></tr>
+<tr><td><a href="/boxscores/202310270VAN.html">10/27/2023</a></td><td><a href="/teams/VAN.html">VAN</a></td><td>vs</td><td><a href="/teams/STL.html">STL</a></td><td>W</td><td><a href="/players/hughequ01.html">Quinn Hughes</a></td><td><a href="/players/hronefi01.html">Filip Hronek</a></td><td><a href="/players/--.html">--</a></td><td><a href="/players/binnijo01.html">Jordan Binnington</a></td><td>7.98</td></tr>
+<tr><td><a href="/boxscores/202310270VAN.html">10/27/2023</a></td><td><a href="/teams/VAN.html">VAN</a></td><td>vs</td><td><a href="/teams/STL.html">STL</a></td><td>W</td><td><a href="/players/hughequ01.html">Quinn Hughes</a></td><td><a href="/players/boesebr01.html">Brock Boeser</a></td><td><a href="/players/millejt01.html">J.T. Miller</a></td><td><a href="/players/binnijo01.html">Jordan Binnington</a></td><td>25.8</td></tr>
+<tr><td><a href="/boxscores/202310270VAN.html">10/27/2023</a></td><td><a href="/teams/VAN.html">VAN</a></td><td>vs</td><td><a href="/teams/STL.html">STL</a></td><td>W</td><td><a href="/players/digiuph01.html">Phillip Di Giuseppe</a></td><td><a href="/players/myersty01.html">Tyler Myers</a></td><td><a href="/players/millejt01.html">J.T. Miller</a></td><td><a href="/players/binnijo01.html">Jordan Binnington</a></td><td>26.97</td></tr>
+<tr><td><a href="/boxscores/202310270VAN.html">10/27/2023</a></td><td><a href="/teams/VAN.html">VAN</a></td><td>vs</td><td><a href="/teams/STL.html">STL</a></td><td>W</td><td><a href="/players/millejt01.html">J.T. Miller</a></td><td><a href="/players/petteel01.html">Elias Pettersson</a></td><td><a href="/players/--.html">--</a></td><td><a href="/players/binnijo01.html">Jordan Binnington</a></td><td>28.87</td></tr>
+<tr><td><a href="/boxscores/202310270VAN.html">10/27/2023</a></td><td><a href="/teams/VAN.html">VAN</a></td><td>vs</td><td><a href="/teams/STL.html">STL</a></td><td>W</td><td><a href="/players/mikheil01.html">Ilya Mikheyev</a></td><td><a href="/players/petteel01.html">Elias Pettersson</a></td><td><a href="/players/kuzmean01.html">Andrei Kuzmenko</a></td><td><a href="/players/binnijo01.html">Jordan Binnington</a></td><td>46.58</td></tr>
+<tr><td><a href="/boxscores/202311010COL.html">11/1/2023</a></td><td><a href="/teams/COL.html">COL</a></td><td>vs</td><td><a href="/teams/STL.html">STL</a></td><td>W</td><td><a href="/players/coltoro01.html">Ross Colton</a></td><td><a href="/players/woodmi01.html">Miles Wood</a></td><td><a href="/players/--.html">--</a></td><td><a href="/players/binnijo01.html">Jordan Binnington</a></td><td>8.88</td></tr>
+<tr><td><a href="/boxscores/202311010COL.html">11/1/2023</a></td><td><a href="/teams/COL.html">COL</a></td><td>vs</td><td><a href="/teams/STL.html">STL</a></td><td>W</td><td><a href="/players/rantami01.html">Mikko Rantanen</a></td><td><a href="/players/makarca01.html">Cale Makar</a></td><td><a href="/players/mackina01.html">Nathan MacKinnon</a></td><td><a href="/players/binnijo01.html">Jordan Binnington</a></td><td>13.32</td></tr>
+<tr><td><a href="/boxscores/202311010COL.html">11/1/2023</a></td><td><a href="/teams/COL.html">COL</a></td><td>vs</td><td><a href="/teams/STL.html">STL</a></td><td>W</td><td><a href="/players/lehkoar01.html">Artturi Lehkonen</a></td><td><a href="/players/makarca01.html">Cale Makar</a></td><td><a href="/players/rantami01.html">Mikko Rantanen</a></td><td><a href="/players/binnijo01.html">Jordan Binnington</a></td><td>41.68</td></tr>
+<tr><td><a href="/boxscores/202311010COL.html">11/1/2023</a></td><td><a href="/teams/COL.html">COL</a></td><td>vs</td><td><a href="/teams/STL.html">STL</a></td><td>W</td><td><a href="/players/byrambo01.html">Bowen Byram</a></td><td><a href="/players/mackina01.html">Nathan MacKinnon</a></td><td><a href="/players/--.html">--</a></td><td><a href="/players/binnijo01.html">Jordan Binnington</a></td><td>47.98</td></tr>
+<tr><td><a href="/boxscores/202311030STL.html">11/3/2023</a></td><td><a href="/teams/NJD.html">NJD</a></td><td>@</td><td><a href="/teams/STL.html">STL</a></td><td>L</td><td><a href="/players/lazarcu01.html">Curtis Lazar</a></td><td><a href="/players/holtzal01.html">Alexander Holtz</a></td><td><a href="/players/marinjo01.html">John Marino</a></td><td><a href="/players/binnijo01.html">Jordan Binnington</a></td><td>36.65</td></tr>
+<tr><td><a href="/boxscores/202311070STL.html">11/7/2023</a></td><td><a href="/teams/WPG.html">WPG</a></td><td>@</td><td><a href="/teams/STL.html">STL</a></td><td>W</td><td><a href="/players/scheima01.html">Mark Scheifele</a></td><td><a href="/players/iafalal01.html">Alex Iafallo</a></td><td><a href="/players/connoky01.html">Kyle Connor</a></td><td><a href="/players/binnijo01.html">Jordan Binnington</a></td><td>8.73</td></tr>
+<tr><td><a href="/boxscores/202311070STL.html">11/7/2023</a></td><td><a href="/teams/WPG.html">WPG</a></td><td>@</td><td><a href="/teams/STL.html">STL</a></td><td>W</td><td><a href="/players/pionkne01.html">Neal Pionk</a></td><td><a href="/players/scheima01.html">Mark Scheifele</a></td><td><a href="/players/iafalal01.html">Alex Iafallo</a></td><td><a href="/players/binnijo01.html">Jordan Binnington</a></td><td>16.25</td></tr>
+<tr><td><a href="/boxscores/202311070STL.html">11/7/2023</a></td><td><a href="/teams/WPG.html">WPG</a></td><td>@</td><td><a href="/teams/STL.html">STL</a></td><td>W</td><td><a href="/players/connoky01.html">Kyle Connor</a></td><td><a href="/players/morrijo04.html">Josh Morrissey</a></td><td><a href="/players/iafalal01.html">Alex Iafallo</a></td><td><a href="/players/binnijo01.html">Jordan Binnington</a></td><td>24.57</td></tr>
+<tr><td><a href="/boxscores/202311070STL.html">11/7/2023</a></td><td><a href="/teams/WPG.html">WPG</a></td><td>@</td><td><a href="/teams/STL.html">STL</a></td><td>W</td><td><a href="/players/connoky01.html">Kyle Connor</a></td><td><a href="/players/scheima01.html">Mark Scheifele</a></td><td><a href="/players/iafalal01.html">Alex Iafallo</a></td><td><a href="/players/binnijo01.html">Jordan Binnington</a></td><td>41.03</td></tr>
+<tr><td><a href="/boxscores/202311110COL.html">11/11/2023</a></td><td><a href="/teams/COL.html">COL</a></td><td>vs</td><td><a href="/teams/STL.html">STL</a></td><td>L</td><td><a href="/players/rantami01.html">Mikko Rantanen</a></td><td><a href="/players/makarca01.html">Cale Makar</a></td><td><a href="/players/mackina01.html">Nathan MacKinnon</a></td><td><a href="/players/binnijo01.html">Jordan Binnington</a></td><td>36.12</td></tr>
+<tr><td><a href="/boxscores/202311110COL.html">11/11/2023</a></td><td><a href="/teams/COL.html">COL</a></td><td>vs</td><td><a href="/teams/STL.html">STL</a></td><td>L</td><td><a href="/players/johnsja02.html">Jack Johnson</a></td><td><a href="/players/drouijo01.html">Jonathan Drouin</a></td><td><a href="/players/--.html">--</a></td><td><a href="/players/binnijo01.html">Jordan Binnington</a></td><td>59.53</td></tr>
+<tr><td><a href="/boxscores/202311160SJS.html">11/16/2023</a></td><td><a href="/teams/SJS.html">SJS</a></td><td>vs</td><td><a href="/teams/STL.html">STL</a></td><td>W</td><td><a href="/players/hoffmmi02.html">Mike Hoffman</a></td><td><a href="/players/zadinfi01.html">Filip Zadina</a></td><td><a href="/players/okhotni01.html">Nikita Okhotyuk</a></td><td><a href="/players/binnijo01.html">Jordan Binnington</a></td><td>33.75</td></tr>
+<tr><td><a href="/boxscores/202311180LAK.html">11/18/2023</a></td><td><a href="/teams/LAK.html">LAK</a></td><td>vs</td><td><a href="/teams/STL.html">STL</a></td><td>W</td><td><a href="/players/byfiequ01.html">Quinton Byfield</a></td><td><a href="/players/kopitan01.html">Anže Kopitar</a></td><td><a href="/players/kempead01.html">Adrian Kempe</a></td><td><a href="/players/binnijo01.html">Jordan Binnington</a></td><td>2.42</td></tr>
+<tr><td><a href="/boxscores/202311180LAK.html">11/18/2023</a></td><td><a href="/teams/LAK.html">LAK</a></td><td>vs</td><td><a href="/teams/STL.html">STL</a></td><td>W</td><td><a href="/players/lizotbl01.html">Blake Lizotte</a></td><td><a href="/players/nan.html">-</a></td><td><a href="/players/--.html">--</a></td><td><a href="/players/binnijo01.html">Jordan Binnington</a></td><td>2.73</td></tr>
+<tr><td><a href="/boxscores/202311180LAK.html">11/18/2023</a></td><td><a href="/teams/LAK.html">LAK</a></td><td>vs</td><td><a href="/teams/STL.html">STL</a></td><td>W</td><td><a href="/players/kempead01.html">Adrian Kempe</a></td><td><a href="/players/nan.html">-</a></td><td><a href="/players/--.html">--</a></td><td><a href="/players/binnijo01.html">Jordan Binnington</a></td><td>13.62</td></tr>
+<tr><td><a href="/boxscores/202311180LAK.html">11/18/2023</a></td><td><a href="/teams/LAK.html">LAK</a></td><td>vs</td><td><a href="/teams/STL.html">STL</a></td><td>W</td><td><a href="/players/duboipi01.html">Pierre-Luc Dubois</a></td><td><a href="/players/kaliyar01.html">Arthur Kaliyev</a></td><td><a href="/players/spencjo01.html">Jordan Spence</a></td><td><a href="/players/binnijo01.html">Jordan Binnington</a></td><td>15.33</td></tr>
+<tr><td><a href="/boxscores/202311180LAK.html">11/18/2023</a></td><td><a href="/teams/LAK.html">LAK</a></td><td>vs</td><td><a href="/teams/STL.html">STL</a></td><td>W</td><td><a href="/players/fialake01.html">Kevin Fiala</a></td><td><a href="/players/danauph01.html">Phillip Danault</a></td><td><a href="/players/doughdr01.html">Drew Doughty</a></td><td><a href="/players/binnijo01.html">Jordan Binnington</a></td><td>39.6</td></tr>
+<tr><td><a href="/boxscores/202311220ARI.html">11/22/2023</a></td><td><a href="/teams/ARI.html">ARI</a></td><td>vs</td><td><a href="/teams/STL.html">STL</a></td><td>L</td><td><a href="/players/bjugsni01.html">Nick Bjugstad</a></td><td><a href="/players/maccema01.html">Matias Maccelli</a></td><td><a href="/players/--.html">--</a></td><td><a href="/players/binnijo01.html">Jordan Binnington</a></td><td>10.67</td></tr>
+<tr><td><a href="/boxscores/202311220ARI.html">11/22/2023</a></td><td><a href="/teams/ARI.html">ARI</a></td><td>vs</td><td><a href="/teams/STL.html">STL</a></td><td>L</td><td><a href="/players/zuckeja01.html">Jason Zucker</a></td><td><a href="/players/carcomi01.html">Michael Carcone</a></td><td><a href="/players/--.html">--</a></td><td><a href="/players/binnijo01.html">Jordan Binnington</a></td><td>18.1</td></tr>
+<tr><td><a href="/boxscores/202311220ARI.html">11/22/2023</a></td><td><a href="/teams/ARI.html">ARI</a></td><td>vs</td><td><a href="/teams/STL.html">STL</a></td><td>L</td><td><a href="/players/crousla01.html">Lawson Crouse</a></td><td><a href="/players/maccema01.html">Matias Maccelli</a></td><td><a href="/players/bjugsni01.html">Nick Bjugstad</a></td><td><a href="/players/binnijo01.html">Jordan Binnington</a></td><td>20.37</td></tr>
+<tr><td><a href="/boxscores/202311220ARI.html">11/22/2023</a></td><td><a href="/teams/ARI.html">ARI</a></td><td>vs</td><td><a href="/teams/STL.html">STL</a></td><td>L</td><td><a href="/players/carcomi01.html">Michael Carcone</a></td><td><a href="/players/kerfoal01.html">Alexander Kerfoot</a></td><td><a href="/players/boydtr01.html">Travis Boyd</a></td><td><a href="/players/binnijo01.html">Jordan Binnington</a></td><td>26.93</td></tr>
+<tr><td><a href="/boxscores/202311220ARI.html">11/22/2023</a></td><td><a href="/teams/ARI.html">ARI</a></td><td>vs</td><td><a href="/teams/STL.html">STL</a></td><td>L</td><td><a href="/players/schmani01.html">Nick Schmaltz</a></td><td><a href="/players/moserja01.html">J.J. Moser</a></td><td><a href="/players/kellecl01.html">Clayton Keller</a></td><td><a href="/players/binnijo01.html">Jordan Binnington</a></td><td>28.0</td></tr>
+<tr><td><a href="/boxscores/202311240STL.html">11/24/2023</a></td><td><a href="/teams/NSH.html">NSH</a></td><td>@</td><td><a href="/teams/STL.html">STL</a></td><td>W</td><td><a href="/players/oreilry01.html">Ryan O'Reilly</a></td><td><a href="/players/forsbfi01.html">Filip Forsberg</a></td><td><a href="/players/barrity01.html">Tyson Barrie</a></td><td><a href="/players/binnijo01.html">Jordan Binnington</a></td><td>24.77</td></tr>
+<tr><td><a href="/boxscores/202311240STL.html">11/24/2023</a></td><td><a href="/teams/NSH.html">NSH</a></td><td>@</td><td><a href="/teams/STL.html">STL</a></td><td>W</td><td><a href="/players/evanglu01.html">Luke Evangelista</a></td><td><a href="/players/tomasph01.html">Philip Tomasino</a></td><td><a href="/players/carrial01.html">Alexandre Carrier</a></td><td><a href="/players/binnijo01.html">Jordan Binnington</a></td><td>26.0</td></tr>
+<tr><td><a href="/boxscores/202311240STL.html">11/24/2023</a></td><td><a href="/teams/NSH.html">NSH</a></td><td>@</td><td><a href="/teams/STL.html">STL</a></td><td>W</td><td><a href="/players/forsbfi01.html">Filip Forsberg</a></td><td><a href="/players/smithco02.html">Cole Smith</a></td><td><a href="/players/--.html">--</a></td><td><a href="/players/binnijo01.html">Jordan Binnington</a></td><td>37.48</td></tr>
+<tr><td><a href="/boxscores/202311240STL.html">11/24/2023</a></td><td><a href="/teams/NSH.html">NSH</a></td><td>@</td><td><a href="/teams/STL.html">STL</a></td><td>W</td><td><a href="/players/sherwki01.html">Kiefer Sherwood</a></td><td><a href="/players/nan.html">-</a></td><td><a href="/players/--.html">--</a></td><td><a href="/players/binnijo01.html">Jordan Binnington</a></td><td>52.7</td></tr>
+<tr><td><a href="/boxscores/202311260CHI.html">11/26/2023</a></td><td><a href="/teams/CHI.html">CHI</a></td><td>vs</td><td><a href="/teams/STL.html">STL</a></td><td>L</td><td><a href="/players/donatry01.html">Ryan Donato</a></td><td><a href="/players/phillis01.html">Isaak Phillips</a></td><td><a href="/players/kaisewy01.html">Wyatt Kaiser</a></td><td><a href="/players/binnijo01.html">Jordan Binnington</a></td><td>14.75</td></tr>
+<tr><td><a href="/boxscores/202311260CHI.html">11/26/2023</a></td><td><a href="/teams/CHI.html">CHI</a></td><td>vs</td><td><a href="/teams/STL.html">STL</a></td><td>L</td><td><a href="/players/katchbo01.html">Boris Katchouk</a></td><td><a href="/players/donatry01.html">Ryan Donato</a></td><td><a href="/players/kaisewy01.html">Wyatt Kaiser</a></td><td><a href="/players/binnijo01.html">Jordan Binnington</a></td><td>58.97</td></tr>
+<tr><td><a href="/boxscores/202311280MIN.html">11/28/2023</a></td><td><a href="/teams/MIN.html">MIN</a></td><td>vs</td><td><a href="/teams/STL.html">STL</a></td><td>W</td><td><a href="/players/eriksjo02.html">Joel Eriksson Ek</a></td><td><a href="/players/zuccama01.html">Mats Zuccarello</a></td><td><a href="/players/spurgja01.html">Jared Spurgeon</a></td><td><a href="/players/binnijo01.html">Jordan Binnington</a></td><td>2.68</td></tr>
+<tr><td><a href="/boxscores/202311280MIN.html">11/28/2023</a></td><td><a href="/teams/MIN.html">MIN</a></td><td>vs</td><td><a href="/teams/STL.html">STL</a></td><td>W</td><td><a href="/players/gaudrfr01.html">Frédérick Gaudreau</a></td><td><a href="/players/maroopa01.html">Pat Maroon</a></td><td><a href="/players/foligma01.html">Marcus Foligno</a></td><td><a href="/players/binnijo01.html">Jordan Binnington</a></td><td>18.17</td></tr>
+<tr><td><a href="/boxscores/202311280MIN.html">11/28/2023</a></td><td><a href="/teams/MIN.html">MIN</a></td><td>vs</td><td><a href="/teams/STL.html">STL</a></td><td>W</td><td><a href="/players/boldyma01.html">Matt Boldy</a></td><td><a href="/players/brodijo01.html">Jonas Brodin</a></td><td><a href="/players/--.html">--</a></td><td><a href="/players/binnijo01.html">Jordan Binnington</a></td><td>57.13</td></tr>
+<tr><td><a href="/boxscores/202311300STL.html">11/30/2023</a></td><td><a href="/teams/BUF.html">BUF</a></td><td>@</td><td><a href="/teams/STL.html">STL</a></td><td>L</td><td><a href="/players/dahlira01.html">Rasmus Dahlin</a></td><td><a href="/players/okposky01.html">Kyle Okposo</a></td><td><a href="/players/krebspe01.html">Peyton Krebs</a></td><td><a href="/players/binnijo01.html">Jordan Binnington</a></td><td>13.53</td></tr>
+<tr><td><a href="/boxscores/202311300STL.html">11/30/2023</a></td><td><a href="/teams/BUF.html">BUF</a></td><td>@</td><td><a href="/teams/STL.html">STL</a></td><td>L</td><td><a href="/players/bensoza01.html">Zach Benson</a></td><td><a href="/players/cozendy01.html">Dylan Cozens</a></td><td><a href="/players/--.html">--</a></td><td><a href="/players/binnijo01.html">Jordan Binnington</a></td><td>26.17</td></tr>
+<tr><td><a href="/boxscores/202311300STL.html">11/30/2023</a></td><td><a href="/teams/BUF.html">BUF</a></td><td>@</td><td><a href="/teams/STL.html">STL</a></td><td>L</td><td><a href="/players/krebspe01.html">Peyton Krebs</a></td><td><a href="/players/dahlira01.html">Rasmus Dahlin</a></td><td><a href="/players/greenjo02.html">Jordan Greenway</a></td><td><a href="/players/binnijo01.html">Jordan Binnington</a></td><td>30.88</td></tr>
+<tr><td><a href="/boxscores/202311300STL.html">11/30/2023</a></td><td><a href="/teams/BUF.html">BUF</a></td><td>@</td><td><a href="/teams/STL.html">STL</a></td><td>L</td><td><a href="/players/peterjo01.html">John-Jason Peterka</a></td><td><a href="/players/cozendy01.html">Dylan Cozens</a></td><td><a href="/players/bensoza01.html">Zach Benson</a></td><td><a href="/players/binnijo01.html">Jordan Binnington</a></td><td>56.7</td></tr>
+<tr><td><a href="/boxscores/202312040VEG.html">12/4/2023</a></td><td><a href="/teams/VEG.html">VEG</a></td><td>vs</td><td><a href="/teams/STL.html">STL</a></td><td>L</td><td><a href="/players/eicheja01.html">Jack Eichel</a></td><td><a href="/players/pietral01.html">Alex Pietrangelo</a></td><td><a href="/players/audymjo01.html">Jonathan Marchessault</a></td><td><a href="/players/binnijo01.html">Jordan Binnington</a></td><td>52.97</td></tr>
+<tr><td><a href="/boxscores/202312060STL.html">12/6/2023</a></td><td><a href="/teams/VEG.html">VEG</a></td><td>@</td><td><a href="/teams/STL.html">STL</a></td><td>W</td><td><a href="/players/whiteza01.html">Zach Whitecloud</a></td><td><a href="/players/royni01.html">Nicolas Roy</a></td><td><a href="/players/koleske01.html">Keegan Kolesar</a></td><td><a href="/players/binnijo01.html">Jordan Binnington</a></td><td>8.05</td></tr>
+<tr><td><a href="/boxscores/202312060STL.html">12/6/2023</a></td><td><a href="/teams/VEG.html">VEG</a></td><td>@</td><td><a href="/teams/STL.html">STL</a></td><td>W</td><td><a href="/players/eicheja01.html">Jack Eichel</a></td><td><a href="/players/barbaiv01.html">Ivan Barbashev</a></td><td><a href="/players/stonema01.html">Mark Stone</a></td><td><a href="/players/binnijo01.html">Jordan Binnington</a></td><td>29.7</td></tr>
+<tr><td><a href="/boxscores/202312060STL.html">12/6/2023</a></td><td><a href="/teams/VEG.html">VEG</a></td><td>@</td><td><a href="/teams/STL.html">STL</a></td><td>W</td><td><a href="/players/audymjo01.html">Jonathan Marchessault</a></td><td><a href="/players/karlswi01.html">William Karlsson</a></td><td><a href="/players/eicheja01.html">Jack Eichel</a></td><td><a href="/players/binnijo01.html">Jordan Binnington</a></td><td>31.85</td></tr>
+<tr><td><a href="/boxscores/202312060STL.html">12/6/2023</a></td><td><a href="/teams/VEG.html">VEG</a></td><td>@</td><td><a href="/teams/STL.html">STL</a></td><td>W</td><td><a href="/players/koleske01.html">Keegan Kolesar</a></td><td><a href="/players/mcnabbr01.html">Brayden McNabb</a></td><td><a href="/players/korczka01.html">Kaedan Korczak</a></td><td><a href="/players/binnijo01.html">Jordan Binnington</a></td><td>32.3</td></tr>
+<tr><td><a href="/boxscores/202312060STL.html">12/6/2023</a></td><td><a href="/teams/VEG.html">VEG</a></td><td>@</td><td><a href="/teams/STL.html">STL</a></td><td>W</td><td><a href="/players/amadimi01.html">Michael Amadio</a></td><td><a href="/players/stephch02.html">Chandler Stephenson</a></td><td><a href="/players/barbaiv01.html">Ivan Barbashev</a></td><td><a href="/players/binnijo01.html">Jordan Binnington</a></td><td>39.7</td></tr>
+<tr><td><a href="/boxscores/202312090CHI.html">12/9/2023</a></td><td><a href="/teams/CHI.html">CHI</a></td><td>vs</td><td><a href="/teams/STL.html">STL</a></td><td>W</td><td><a href="/players/beauvan01.html">Anthony Beauvillier</a></td><td><a href="/players/zaitsni01.html">Nikita Zaitsev</a></td><td><a href="/players/guttmco01.html">Cole Guttman</a></td><td><a href="/players/binnijo01.html">Jordan Binnington</a></td><td>4.72</td></tr>
+<tr><td><a href="/boxscores/202312090CHI.html">12/9/2023</a></td><td><a href="/teams/CHI.html">CHI</a></td><td>vs</td><td><a href="/teams/STL.html">STL</a></td><td>W</td><td><a href="/players/vlasial01.html">Alex Vlasic</a></td><td><a href="/players/crevilo01.html">Louis Crevier</a></td><td><a href="/players/entwima01.html">MacKenzie Entwistle</a></td><td><a href="/players/binnijo01.html">Jordan Binnington</a></td><td>9.33</td></tr>
+<tr><td><a href="/boxscores/202312090CHI.html">12/9/2023</a></td><td><a href="/teams/CHI.html">CHI</a></td><td>vs</td><td><a href="/teams/STL.html">STL</a></td><td>W</td><td><a href="/players/dickija01.html">Jason Dickinson</a></td><td><a href="/players/zaitsni01.html">Nikita Zaitsev</a></td><td><a href="/players/murphco02.html">Connor Murphy</a></td><td><a href="/players/binnijo01.html">Jordan Binnington</a></td><td>34.88</td></tr>
+<tr><td><a href="/boxscores/202312120STL.html">12/12/2023</a></td><td><a href="/teams/DET.html">DET</a></td><td>@</td><td><a href="/teams/STL.html">STL</a></td><td>W</td><td><a href="/players/walmaja01.html">Jake Walman</a></td><td><a href="/players/nan.html">-</a></td><td><a href="/players/--.html">--</a></td><td><a href="/players/binnijo01.html">Jordan Binnington</a></td><td>13.55</td></tr>
+<tr><td><a href="/boxscores/202312120STL.html">12/12/2023</a></td><td><a href="/teams/DET.html">DET</a></td><td>@</td><td><a href="/teams/STL.html">STL</a></td><td>W</td><td><a href="/players/berggjo02.html">Jonatan Berggren</a></td><td><a href="/players/petryje01.html">Jeff Petry</a></td><td><a href="/players/spronda01.html">Daniel Sprong</a></td><td><a href="/players/binnijo01.html">Jordan Binnington</a></td><td>15.52</td></tr>
+<tr><td><a href="/boxscores/202312120STL.html">12/12/2023</a></td><td><a href="/teams/DET.html">DET</a></td><td>@</td><td><a href="/teams/STL.html">STL</a></td><td>W</td><td><a href="/players/seidemo01.html">Moritz Seider</a></td><td><a href="/players/rasmumi01.html">Michael Rasmussen</a></td><td><a href="/players/--.html">--</a></td><td><a href="/players/binnijo01.html">Jordan Binnington</a></td><td>29.78</td></tr>
+<tr><td><a href="/boxscores/202312120STL.html">12/12/2023</a></td><td><a href="/teams/DET.html">DET</a></td><td>@</td><td><a href="/teams/STL.html">STL</a></td><td>W</td><td><a href="/players/raymolu01.html">Lucas Raymond</a></td><td><a href="/players/velenjo01.html">Joe Veleno</a></td><td><a href="/players/kanepa01.html">Patrick Kane</a></td><td><a href="/players/binnijo01.html">Jordan Binnington</a></td><td>40.8</td></tr>
+<tr><td><a href="/boxscores/202312120STL.html">12/12/2023</a></td><td><a href="/teams/DET.html">DET</a></td><td>@</td><td><a href="/teams/STL.html">STL</a></td><td>W</td><td><a href="/players/fabbrro01.html">Robby Fabbri</a></td><td><a href="/players/raymolu01.html">Lucas Raymond</a></td><td><a href="/players/coppan01.html">Andrew Copp</a></td><td><a href="/players/binnijo01.html">Jordan Binnington</a></td><td>46.63</td></tr>
+<tr><td><a href="/boxscores/202312140STL.html">12/14/2023</a></td><td><a href="/teams/OTT.html">OTT</a></td><td>@</td><td><a href="/teams/STL.html">STL</a></td><td>L</td><td><a href="/players/kubaldo01.html">Dominik Kubalík</a></td><td><a href="/players/bathedr01.html">Drake Batherson</a></td><td><a href="/players/chychja01.html">Jakob Chychrun</a></td><td><a href="/players/binnijo01.html">Jordan Binnington</a></td><td>30.37</td></tr>
+<tr><td><a href="/boxscores/202312140STL.html">12/14/2023</a></td><td><a href="/teams/OTT.html">OTT</a></td><td>@</td><td><a href="/teams/STL.html">STL</a></td><td>L</td><td><a href="/players/josepma01.html">Mathieu Joseph</a></td><td><a href="/players/greigri01.html">Ridly Greig</a></td><td><a href="/players/chychja01.html">Jakob Chychrun</a></td><td><a href="/players/binnijo01.html">Jordan Binnington</a></td><td>58.43</td></tr>
+<tr><td><a href="/boxscores/202312160STL.html">12/16/2023</a></td><td><a href="/teams/DAL.html">DAL</a></td><td>@</td><td><a href="/teams/STL.html">STL</a></td><td>L</td><td><a href="/players/marchma01.html">Mason Marchment</a></td><td><a href="/players/seguity01.html">Tyler Seguin</a></td><td><a href="/players/duchema01.html">Matt Duchene</a></td><td><a href="/players/binnijo01.html">Jordan Binnington</a></td><td>4.97</td></tr>
+<tr><td><a href="/boxscores/202312160STL.html">12/16/2023</a></td><td><a href="/teams/DAL.html">DAL</a></td><td>@</td><td><a href="/teams/STL.html">STL</a></td><td>L</td><td><a href="/players/dellaty01.html">Ty Dellandrea</a></td><td><a href="/players/faksara01.html">Radek Faksa</a></td><td><a href="/players/steelsa01.html">Sam Steel</a></td><td><a href="/players/binnijo01.html">Jordan Binnington</a></td><td>6.78</td></tr>
+<tr><td><a href="/boxscores/202312160STL.html">12/16/2023</a></td><td><a href="/teams/DAL.html">DAL</a></td><td>@</td><td><a href="/teams/STL.html">STL</a></td><td>L</td><td><a href="/players/dadonev01.html">Evgenii Dadonov</a></td><td><a href="/players/heiskmi01.html">Miro Heiskanen</a></td><td><a href="/players/harleth01.html">Thomas Harley</a></td><td><a href="/players/binnijo01.html">Jordan Binnington</a></td><td>53.15</td></tr>
+<tr><td><a href="/boxscores/202312190TBL.html">12/19/2023</a></td><td><a href="/teams/TBL.html">TBL</a></td><td>vs</td><td><a href="/teams/STL.html">STL</a></td><td>W</td><td><a href="/players/eyssimi01.html">Michael Eyssimont</a></td><td><a href="/players/jeannta01.html">Tanner Jeannot</a></td><td><a href="/players/fleurha01.html">Haydn Fleury</a></td><td><a href="/players/binnijo01.html">Jordan Binnington</a></td><td>2.38</td></tr>
+<tr><td><a href="/boxscores/202312190TBL.html">12/19/2023</a></td><td><a href="/teams/TBL.html">TBL</a></td><td>vs</td><td><a href="/teams/STL.html">STL</a></td><td>W</td><td><a href="/players/mottety01.html">Tyler Motte</a></td><td><a href="/players/stamkst01.html">Steven Stamkos</a></td><td><a href="/players/shearco01.html">Conor Sheary</a></td><td><a href="/players/binnijo01.html">Jordan Binnington</a></td><td>17.17</td></tr>
+<tr><td><a href="/boxscores/202312190TBL.html">12/19/2023</a></td><td><a href="/teams/TBL.html">TBL</a></td><td>vs</td><td><a href="/teams/STL.html">STL</a></td><td>W</td><td><a href="/players/kucheni01.html">Nikita Kucherov</a></td><td><a href="/players/pointbr01.html">Brayden Point</a></td><td><a href="/players/paulni01.html">Nick Paul</a></td><td><a href="/players/binnijo01.html">Jordan Binnington</a></td><td>19.77</td></tr>
+<tr><td><a href="/boxscores/202312190TBL.html">12/19/2023</a></td><td><a href="/teams/TBL.html">TBL</a></td><td>vs</td><td><a href="/teams/STL.html">STL</a></td><td>W</td><td><a href="/players/kucheni01.html">Nikita Kucherov</a></td><td><a href="/players/perbini01.html">Nicklaus Perbix</a></td><td><a href="/players/paulni01.html">Nick Paul</a></td><td><a href="/players/binnijo01.html">Jordan Binnington</a></td><td>21.6</td></tr>
+<tr><td><a href="/boxscores/202312190TBL.html">12/19/2023</a></td><td><a href="/teams/TBL.html">TBL</a></td><td>vs</td><td><a href="/teams/STL.html">STL</a></td><td>W</td><td><a href="/players/fleurha01.html">Haydn Fleury</a></td><td><a href="/players/stamkst01.html">Steven Stamkos</a></td><td><a href="/players/hagelbr01.html">Brandon Hagel</a></td><td><a href="/players/binnijo01.html">Jordan Binnington</a></td><td>32.22</td></tr>
+<tr><td><a href="/boxscores/202312230STL.html">12/23/2023</a></td><td><a href="/teams/CHI.html">CHI</a></td><td>@</td><td><a href="/teams/STL.html">STL</a></td><td>L</td><td><a href="/players/bedarco01.html">Connor Bedard</a></td><td><a href="/players/kurasph01.html">Philipp Kurashev</a></td><td><a href="/players/phillis01.html">Isaak Phillips</a></td><td><a href="/players/binnijo01.html">Jordan Binnington</a></td><td>3.82</td></tr>
+<tr><td><a href="/boxscores/202312230STL.html">12/23/2023</a></td><td><a href="/teams/CHI.html">CHI</a></td><td>@</td><td><a href="/teams/STL.html">STL</a></td><td>L</td><td><a href="/players/beauvan01.html">Anthony Beauvillier</a></td><td><a href="/players/tinorja01.html">Jarred Tinordi</a></td><td><a href="/players/raddyta01.html">Taylor Raddysh</a></td><td><a href="/players/binnijo01.html">Jordan Binnington</a></td><td>4.2</td></tr>
+<tr><td><a href="/boxscores/202312230STL.html">12/23/2023</a></td><td><a href="/teams/CHI.html">CHI</a></td><td>@</td><td><a href="/teams/STL.html">STL</a></td><td>L</td><td><a href="/players/foligni01.html">Nick Foligno</a></td><td><a href="/players/kurasph01.html">Philipp Kurashev</a></td><td><a href="/players/raddyta01.html">Taylor Raddysh</a></td><td><a href="/players/binnijo01.html">Jordan Binnington</a></td><td>20.33</td></tr>
+<tr><td><a href="/boxscores/202312230STL.html">12/23/2023</a></td><td><a href="/teams/CHI.html">CHI</a></td><td>@</td><td><a href="/teams/STL.html">STL</a></td><td>L</td><td><a href="/players/dickija01.html">Jason Dickinson</a></td><td><a href="/players/raddyta01.html">Taylor Raddysh</a></td><td><a href="/players/tinorja01.html">Jarred Tinordi</a></td><td><a href="/players/binnijo01.html">Jordan Binnington</a></td><td>35.9</td></tr>
+<tr><td><a href="/boxscores/202312230STL.html">12/23/2023</a></td><td><a href="/teams/CHI.html">CHI</a></td><td>@</td><td><a href="/teams/STL.html">STL</a></td><td>L</td><td><a href="/players/foligni01.html">Nick Foligno</a></td><td><a href="/players/tinorja01.html">Jarred Tinordi</a></td><td><a href="/players/--.html">--</a></td><td><a href="/players/binnijo01.html">Jordan Binnington</a></td><td>45.27</td></tr>
+<tr><td><a href="/boxscores/202312290STL.html">12/29/2023</a></td><td><a href="/teams/COL.html">COL</a></td><td>@</td><td><a href="/teams/STL.html">STL</a></td><td>W</td><td><a href="/players/johanry01.html">Ryan Johansen</a></td><td><a href="/players/drouijo01.html">Jonathan Drouin</a></td><td><a href="/players/mansojo01.html">Josh Manson</a></td><td><a href="/players/binnijo01.html">Jordan Binnington</a></td><td>15.18</td></tr>
+<tr><td><a href="/boxscores/202312290STL.html">12/29/2023</a></td><td><a href="/teams/COL.html">COL</a></td><td>@</td><td><a href="/teams/STL.html">STL</a></td><td>W</td><td><a href="/players/toewsde01.html">Devon Toews</a></td><td><a href="/players/nichuva01.html">Valeri Nichushkin</a></td><td><a href="/players/johanry01.html">Ryan Johansen</a></td><td><a href="/players/binnijo01.html">Jordan Binnington</a></td><td>57.1</td></tr>
+<tr><td><a href="/boxscores/202401040STL.html">1/4/2024</a></td><td><a href="/teams/VAN.html">VAN</a></td><td>@</td><td><a href="/teams/STL.html">STL</a></td><td>L</td><td><a href="/players/garlaco01.html">Conor Garland</a></td><td><a href="/players/bluegte01.html">Teddy Blueger</a></td><td><a href="/players/joshuda01.html">Dakota Joshua</a></td><td><a href="/players/binnijo01.html">Jordan Binnington</a></td><td>1.95</td></tr>
+<tr><td><a href="/boxscores/202401060CAR.html">1/6/2024</a></td><td><a href="/teams/CAR.html">CAR</a></td><td>vs</td><td><a href="/teams/STL.html">STL</a></td><td>L</td><td><a href="/players/teravte01.html">Teuvo Teräväinen</a></td><td><a href="/players/druryja01.html">Jack Drury</a></td><td><a href="/players/--.html">--</a></td><td><a href="/players/binnijo01.html">Jordan Binnington</a></td><td>13.28</td></tr>
+<tr><td><a href="/boxscores/202401110STL.html">1/11/2024</a></td><td><a href="/teams/NYR.html">NYR</a></td><td>@</td><td><a href="/teams/STL.html">STL</a></td><td>L</td><td><a href="/players/foxad01.html">Adam Fox</a></td><td><a href="/players/goodrba01.html">Barclay Goodrow</a></td><td><a href="/players/lindgry01.html">Ryan Lindgren</a></td><td><a href="/players/binnijo01.html">Jordan Binnington</a></td><td>1.85</td></tr>
+<tr><td><a href="/boxscores/202401110STL.html">1/11/2024</a></td><td><a href="/teams/NYR.html">NYR</a></td><td>@</td><td><a href="/teams/STL.html">STL</a></td><td>L</td><td><a href="/players/trochvi01.html">Vincent Trocheck</a></td><td><a href="/players/kreidch01.html">Chris Kreider</a></td><td><a href="/players/panarar01.html">Artemi Panarin</a></td><td><a href="/players/binnijo01.html">Jordan Binnington</a></td><td>50.97</td></tr>
+<tr><td><a href="/boxscores/202401130STL.html">1/13/2024</a></td><td><a href="/teams/BOS.html">BOS</a></td><td>@</td><td><a href="/teams/STL.html">STL</a></td><td>W</td><td><a href="/players/marchbr03.html">Brad Marchand</a></td><td><a href="/players/coylech01.html">Charlie Coyle</a></td><td><a href="/players/--.html">--</a></td><td><a href="/players/binnijo01.html">Jordan Binnington</a></td><td>5.03</td></tr>
+<tr><td><a href="/boxscores/202401130STL.html">1/13/2024</a></td><td><a href="/teams/BOS.html">BOS</a></td><td>@</td><td><a href="/teams/STL.html">STL</a></td><td>W</td><td><a href="/players/mcavoch01.html">Charlie McAvoy</a></td><td><a href="/players/boqvije01.html">Jesper Boqvist</a></td><td><a href="/players/vanrija01.html">James van Riemsdyk</a></td><td><a href="/players/binnijo01.html">Jordan Binnington</a></td><td>26.43</td></tr>
+<tr><td><a href="/boxscores/202401130STL.html">1/13/2024</a></td><td><a href="/teams/BOS.html">BOS</a></td><td>@</td><td><a href="/teams/STL.html">STL</a></td><td>W</td><td><a href="/players/marchbr03.html">Brad Marchand</a></td><td><a href="/players/pastrda01.html">David Pastrňák</a></td><td><a href="/players/vanrija01.html">James van Riemsdyk</a></td><td><a href="/players/binnijo01.html">Jordan Binnington</a></td><td>47.72</td></tr>
+<tr><td><a href="/boxscores/202401130STL.html">1/13/2024</a></td><td><a href="/teams/BOS.html">BOS</a></td><td>@</td><td><a href="/teams/STL.html">STL</a></td><td>W</td><td><a href="/players/mcavoch01.html">Charlie McAvoy</a></td><td><a href="/players/pastrda01.html">David Pastrňák</a></td><td><a href="/players/--.html">--</a></td><td><a href="/players/binnijo01.html">Jordan Binnington</a></td><td>61.17</td></tr>
+<tr><td><a href="/boxscores/202401180WSH.html">1/18/2024</a></td><td><a href="/teams/WSH.html">WSH</a></td><td>vs</td><td><a href="/teams/STL.html">STL</a></td><td>W</td><td><a href="/players/oshietj01.html">T.J. Oshie</a></td><td><a href="/players/pacioma01.html">Max Pacioretty</a></td><td><a href="/players/--.html">--</a></td><td><a href="/players/binnijo01.html">Jordan Binnington</a></td><td>10.4</td></tr>
+<tr><td><a href="/boxscores/202401180WSH.html">1/18/2024</a></td><td><a href="/teams/WSH.html">WSH</a></td><td>vs</td><td><a href="/teams/STL.html">STL</a></td><td>W</td><td><a href="/players/aubekni01.html">Nicolas Aubé-Kubel</a></td><td><a href="/players/lapiehe01.html">Hendrix Lapierre</a></td><td><a href="/players/carlsjo01.html">John Carlson</a></td><td><a href="/players/binnijo01.html">Jordan Binnington</a></td><td>23.53</td></tr>
+<tr><td><a href="/boxscores/202401180WSH.html">1/18/2024</a></td><td><a href="/teams/WSH.html">WSH</a></td><td>vs</td><td><a href="/teams/STL.html">STL</a></td><td>W</td><td><a href="/players/oshietj01.html">T.J. Oshie</a></td><td><a href="/players/stromdy01.html">Dylan Strome</a></td><td><a href="/players/pacioma01.html">Max Pacioretty</a></td><td><a href="/players/binnijo01.html">Jordan Binnington</a></td><td>30.45</td></tr>
+<tr><td><a href="/boxscores/202401180WSH.html">1/18/2024</a></td><td><a href="/teams/WSH.html">WSH</a></td><td>vs</td><td><a href="/teams/STL.html">STL</a></td><td>W</td><td><a href="/players/stromdy01.html">Dylan Strome</a></td><td><a href="/players/ovechal01.html">Alex Ovechkin</a></td><td><a href="/players/carlsjo01.html">John Carlson</a></td><td><a href="/players/binnijo01.html">Jordan Binnington</a></td><td>40.57</td></tr>
+<tr><td><a href="/boxscores/202401230CGY.html">1/23/2024</a></td><td><a href="/teams/CGY.html">CGY</a></td><td>vs</td><td><a href="/teams/STL.html">STL</a></td><td>L</td><td><a href="/players/weegama01.html">MacKenzie Weegar</a></td><td><a href="/players/anderra01.html">Rasmus Andersson</a></td><td><a href="/players/kadrina01.html">Nazem Kadri</a></td><td><a href="/players/binnijo01.html">Jordan Binnington</a></td><td>11.63</td></tr>
+<tr><td><a href="/boxscores/202401230CGY.html">1/23/2024</a></td><td><a href="/teams/CGY.html">CGY</a></td><td>vs</td><td><a href="/teams/STL.html">STL</a></td><td>L</td><td><a href="/players/hanifno01.html">Noah Hanifin</a></td><td><a href="/players/sharaye01.html">Yegor Sharangovich</a></td><td><a href="/players/tanevch01.html">Chris Tanev</a></td><td><a href="/players/binnijo01.html">Jordan Binnington</a></td><td>31.22</td></tr>
+<tr><td><a href="/boxscores/202401230CGY.html">1/23/2024</a></td><td><a href="/teams/CGY.html">CGY</a></td><td>vs</td><td><a href="/teams/STL.html">STL</a></td><td>L</td><td><a href="/players/sharaye01.html">Yegor Sharangovich</a></td><td><a href="/players/huberjo01.html">Jonathan Huberdeau</a></td><td><a href="/players/lindhel01.html">Elias Lindholm</a></td><td><a href="/players/binnijo01.html">Jordan Binnington</a></td><td>32.28</td></tr>
+<tr><td><a href="/boxscores/202401260SEA.html">1/26/2024</a></td><td><a href="/teams/SEA.html">SEA</a></td><td>vs</td><td><a href="/teams/STL.html">STL</a></td><td>L</td><td><a href="/players/dumoubr01.html">Brian Dumoulin</a></td><td><a href="/players/larssad01.html">Adam Larsson</a></td><td><a href="/players/schwaja01.html">Jaden Schwartz</a></td><td><a href="/players/binnijo01.html">Jordan Binnington</a></td><td>10.27</td></tr>
+<tr><td><a href="/boxscores/202401260SEA.html">1/26/2024</a></td><td><a href="/teams/SEA.html">SEA</a></td><td>vs</td><td><a href="/teams/STL.html">STL</a></td><td>L</td><td><a href="/players/bjorkol01.html">Oliver Bjorkstrand</a></td><td><a href="/players/wennbal01.html">Alexander Wennberg</a></td><td><a href="/players/mccanja01.html">Jared McCann</a></td><td><a href="/players/binnijo01.html">Jordan Binnington</a></td><td>23.92</td></tr>
+<tr><td><a href="/boxscores/202401260SEA.html">1/26/2024</a></td><td><a href="/teams/SEA.html">SEA</a></td><td>vs</td><td><a href="/teams/STL.html">STL</a></td><td>L</td><td><a href="/players/tolvaee01.html">Eeli Tolvanen</a></td><td><a href="/players/gourdya01.html">Yanni Gourde</a></td><td><a href="/players/bjorkol01.html">Oliver Bjorkstrand</a></td><td><a href="/players/binnijo01.html">Jordan Binnington</a></td><td>26.7</td></tr>
+<tr><td><a href="/boxscores/202401300STL.html">1/30/2024</a></td><td><a href="/teams/CBJ.html">CBJ</a></td><td>@</td><td><a href="/teams/STL.html">STL</a></td><td>W</td><td><a href="/players/vorondi01.html">Dmitri Voronkov</a></td><td><a href="/players/werenza01.html">Zach Werenski</a></td><td><a href="/players/gaudrjo01.html">Johnny Gaudreau</a></td><td><a href="/players/binnijo01.html">Jordan Binnington</a></td><td>44.18</td></tr>
+<tr><td><a href="/boxscores/202402110MTL.html">2/11/2024</a></td><td><a href="/teams/MTL.html">MTL</a></td><td>vs</td><td><a href="/teams/STL.html">STL</a></td><td>L</td><td><a href="/players/suzukni01.html">Nick Suzuki</a></td><td><a href="/players/slafkju01.html">Juraj Slafkovsky</a></td><td><a href="/players/mathemi01.html">Mike Matheson</a></td><td><a href="/players/binnijo01.html">Jordan Binnington</a></td><td>10.38</td></tr>
+<tr><td><a href="/boxscores/202402110MTL.html">2/11/2024</a></td><td><a href="/teams/MTL.html">MTL</a></td><td>vs</td><td><a href="/teams/STL.html">STL</a></td><td>L</td><td><a href="/players/armiajo01.html">Joel Armia</a></td><td><a href="/players/savarda01.html">David Savard</a></td><td><a href="/players/strubja01.html">Jayden Struble</a></td><td><a href="/players/binnijo01.html">Jordan Binnington</a></td><td>43.1</td></tr>
+<tr><td><a href="/boxscores/202402130TOR.html">2/13/2024</a></td><td><a href="/teams/TOR.html">TOR</a></td><td>vs</td><td><a href="/teams/STL.html">STL</a></td><td>W</td><td><a href="/players/mcmanbo02.html">Bobby McMann</a></td><td><a href="/players/gregono01.html">Noah Gregor</a></td><td><a href="/players/--.html">--</a></td><td><a href="/players/binnijo01.html">Jordan Binnington</a></td><td>5.55</td></tr>
+<tr><td><a href="/boxscores/202402130TOR.html">2/13/2024</a></td><td><a href="/teams/TOR.html">TOR</a></td><td>vs</td><td><a href="/teams/STL.html">STL</a></td><td>W</td><td><a href="/players/nylanwi01.html">William Nylander</a></td><td><a href="/players/nan.html">-</a></td><td><a href="/players/--.html">--</a></td><td><a href="/players/binnijo01.html">Jordan Binnington</a></td><td>16.42</td></tr>
+<tr><td><a href="/boxscores/202402130TOR.html">2/13/2024</a></td><td><a href="/teams/TOR.html">TOR</a></td><td>vs</td><td><a href="/teams/STL.html">STL</a></td><td>W</td><td><a href="/players/mcmanbo02.html">Bobby McMann</a></td><td><a href="/players/broditj01.html">T.J. Brodie</a></td><td><a href="/players/benoisi01.html">Simon Benoit</a></td><td><a href="/players/binnijo01.html">Jordan Binnington</a></td><td>48.03</td></tr>
+<tr><td><a href="/boxscores/202402150STL.html">2/15/2024</a></td><td><a href="/teams/EDM.html">EDM</a></td><td>@</td><td><a href="/teams/STL.html">STL</a></td><td>L</td><td><a href="/players/draisle01.html">Leon Draisaitl</a></td><td><a href="/players/mcdavco01.html">Connor McDavid</a></td><td><a href="/players/bouchev01.html">Evan Bouchard</a></td><td><a href="/players/binnijo01.html">Jordan Binnington</a></td><td>13.85</td></tr>
+<tr><td><a href="/boxscores/202402150STL.html">2/15/2024</a></td><td><a href="/teams/EDM.html">EDM</a></td><td>@</td><td><a href="/teams/STL.html">STL</a></td><td>L</td><td><a href="/players/nugenry01.html">Ryan Nugent-Hopkins</a></td><td><a href="/players/hymanza01.html">Zach Hyman</a></td><td><a href="/players/mcdavco01.html">Connor McDavid</a></td><td><a href="/players/binnijo01.html">Jordan Binnington</a></td><td>19.55</td></tr>
+<tr><td><a href="/boxscores/202402150STL.html">2/15/2024</a></td><td><a href="/teams/EDM.html">EDM</a></td><td>@</td><td><a href="/teams/STL.html">STL</a></td><td>L</td><td><a href="/players/perryco01.html">Corey Perry</a></td><td><a href="/players/kulakbr01.html">Brett Kulak</a></td><td><a href="/players/mcdavco01.html">Connor McDavid</a></td><td><a href="/players/binnijo01.html">Jordan Binnington</a></td><td>51.23</td></tr>
+<tr><td><a href="/boxscores/202402170STL.html">2/17/2024</a></td><td><a href="/teams/NSH.html">NSH</a></td><td>@</td><td><a href="/teams/STL.html">STL</a></td><td>W</td><td><a href="/players/sissoco01.html">Colton Sissons</a></td><td><a href="/players/nan.html">-</a></td><td><a href="/players/--.html">--</a></td><td><a href="/players/binnijo01.html">Jordan Binnington</a></td><td>4.18</td></tr>
+<tr><td><a href="/boxscores/202402170STL.html">2/17/2024</a></td><td><a href="/teams/NSH.html">NSH</a></td><td>@</td><td><a href="/teams/STL.html">STL</a></td><td>W</td><td><a href="/players/evanglu01.html">Luke Evangelista</a></td><td><a href="/players/lauzoje01.html">Jeremy Lauzon</a></td><td><a href="/players/--.html">--</a></td><td><a href="/players/binnijo01.html">Jordan Binnington</a></td><td>33.15</td></tr>
+<tr><td><a href="/boxscores/202402170STL.html">2/17/2024</a></td><td><a href="/teams/NSH.html">NSH</a></td><td>@</td><td><a href="/teams/STL.html">STL</a></td><td>W</td><td><a href="/players/forsbfi01.html">Filip Forsberg</a></td><td><a href="/players/josiro01.html">Roman Josi</a></td><td><a href="/players/oreilry01.html">Ryan O'Reilly</a></td><td><a href="/players/binnijo01.html">Jordan Binnington</a></td><td>46.8</td></tr>
+<tr><td><a href="/boxscores/202402170STL.html">2/17/2024</a></td><td><a href="/teams/NSH.html">NSH</a></td><td>@</td><td><a href="/teams/STL.html">STL</a></td><td>W</td><td><a href="/players/schenlu01.html">Luke Schenn</a></td><td><a href="/players/mcdonry01.html">Ryan McDonagh</a></td><td><a href="/players/sherwki01.html">Kiefer Sherwood</a></td><td><a href="/players/binnijo01.html">Jordan Binnington</a></td><td>47.85</td></tr>
+<tr><td><a href="/boxscores/202402240DET.html">2/24/2024</a></td><td><a href="/teams/DET.html">DET</a></td><td>vs</td><td><a href="/teams/STL.html">STL</a></td><td>W</td><td><a href="/players/kanepa01.html">Patrick Kane</a></td><td><a href="/players/gostish01.html">Shayne Gostisbehere</a></td><td><a href="/players/debrial01.html">Alex DeBrincat</a></td><td><a href="/players/binnijo01.html">Jordan Binnington</a></td><td>0.55</td></tr>
+<tr><td><a href="/boxscores/202402240DET.html">2/24/2024</a></td><td><a href="/teams/DET.html">DET</a></td><td>vs</td><td><a href="/teams/STL.html">STL</a></td><td>W</td><td><a href="/players/rasmumi01.html">Michael Rasmussen</a></td><td><a href="/players/raymolu01.html">Lucas Raymond</a></td><td><a href="/players/petryje01.html">Jeff Petry</a></td><td><a href="/players/binnijo01.html">Jordan Binnington</a></td><td>4.35</td></tr>
+<tr><td><a href="/boxscores/202402240DET.html">2/24/2024</a></td><td><a href="/teams/DET.html">DET</a></td><td>vs</td><td><a href="/teams/STL.html">STL</a></td><td>W</td><td><a href="/players/fabbrro01.html">Robby Fabbri</a></td><td><a href="/players/nan.html">-</a></td><td><a href="/players/--.html">--</a></td><td><a href="/players/binnijo01.html">Jordan Binnington</a></td><td>5.4</td></tr>
+<tr><td><a href="/boxscores/202402240DET.html">2/24/2024</a></td><td><a href="/teams/DET.html">DET</a></td><td>vs</td><td><a href="/teams/STL.html">STL</a></td><td>W</td><td><a href="/players/debrial01.html">Alex DeBrincat</a></td><td><a href="/players/seidemo01.html">Moritz Seider</a></td><td><a href="/players/spronda01.html">Daniel Sprong</a></td><td><a href="/players/binnijo01.html">Jordan Binnington</a></td><td>19.03</td></tr>
+<tr><td><a href="/boxscores/202402280EDM.html">2/28/2024</a></td><td><a href="/teams/EDM.html">EDM</a></td><td>vs</td><td><a href="/teams/STL.html">STL</a></td><td>W</td><td><a href="/players/hymanza01.html">Zach Hyman</a></td><td><a href="/players/mcdavco01.html">Connor McDavid</a></td><td><a href="/players/nugenry01.html">Ryan Nugent-Hopkins</a></td><td><a href="/players/binnijo01.html">Jordan Binnington</a></td><td>18.27</td></tr>
+<tr><td><a href="/boxscores/202402280EDM.html">2/28/2024</a></td><td><a href="/teams/EDM.html">EDM</a></td><td>vs</td><td><a href="/teams/STL.html">STL</a></td><td>W</td><td><a href="/players/hymanza01.html">Zach Hyman</a></td><td><a href="/players/mcdavco01.html">Connor McDavid</a></td><td><a href="/players/bouchev01.html">Evan Bouchard</a></td><td><a href="/players/binnijo01.html">Jordan Binnington</a></td><td>24.9</td></tr>
+<tr><td><a href="/boxscores/202402280EDM.html">2/28/2024</a></td><td><a href="/teams/EDM.html">EDM</a></td><td>vs</td><td><a href="/teams/STL.html">STL</a></td><td>W</td><td><a href="/players/mcdavco01.html">Connor McDavid</a></td><td><a href="/players/ekholma01.html">Mattias Ekholm</a></td><td><a href="/players/nugenry01.html">Ryan Nugent-Hopkins</a></td><td><a href="/players/binnijo01.html">Jordan Binnington</a></td><td>64.57</td></tr>
+<tr><td><a href="/boxscores/202403020STL.html">3/2/2024</a></td><td><a href="/teams/MIN.html">MIN</a></td><td>@</td><td><a href="/teams/STL.html">STL</a></td><td>L</td><td><a href="/players/merrijo01.html">Jonathon Merrill</a></td><td><a href="/players/nan.html">-</a></td><td><a href="/players/--.html">--</a></td><td><a href="/players/binnijo01.html">Jordan Binnington</a></td><td>30.1</td></tr>
+<tr><td><a href="/boxscores/202403040PHI.html">3/4/2024</a></td><td><a href="/teams/PHI.html">PHI</a></td><td>vs</td><td><a href="/teams/STL.html">STL</a></td><td>L</td><td><a href="/players/laughsc01.html">Scott Laughton</a></td><td><a href="/players/poehlry01.html">Ryan Poehling</a></td><td><a href="/players/sanhetr01.html">Travis Sanheim</a></td><td><a href="/players/binnijo01.html">Jordan Binnington</a></td><td>18.87</td></tr>
+<tr><td><a href="/boxscores/202403070NJD.html">3/7/2024</a></td><td><a href="/teams/NJD.html">NJD</a></td><td>vs</td><td><a href="/teams/STL.html">STL</a></td><td>W</td><td><a href="/players/meierti01.html">Timo Meier</a></td><td><a href="/players/hischni01.html">Nico Hischier</a></td><td><a href="/players/hugheja03.html">Jack Hughes</a></td><td><a href="/players/binnijo01.html">Jordan Binnington</a></td><td>13.4</td></tr>
+<tr><td><a href="/boxscores/202403070NJD.html">3/7/2024</a></td><td><a href="/teams/NJD.html">NJD</a></td><td>vs</td><td><a href="/teams/STL.html">STL</a></td><td>W</td><td><a href="/players/meierti01.html">Timo Meier</a></td><td><a href="/players/palaton01.html">Ondřej Palát</a></td><td><a href="/players/marinjo01.html">John Marino</a></td><td><a href="/players/binnijo01.html">Jordan Binnington</a></td><td>16.07</td></tr>
+<tr><td><a href="/boxscores/202403070NJD.html">3/7/2024</a></td><td><a href="/teams/NJD.html">NJD</a></td><td>vs</td><td><a href="/teams/STL.html">STL</a></td><td>W</td><td><a href="/players/meierti01.html">Timo Meier</a></td><td><a href="/players/palaton01.html">Ondřej Palát</a></td><td><a href="/players/hischni01.html">Nico Hischier</a></td><td><a href="/players/binnijo01.html">Jordan Binnington</a></td><td>36.67</td></tr>
+<tr><td><a href="/boxscores/202403090NYR.html">3/9/2024</a></td><td><a href="/teams/NYR.html">NYR</a></td><td>vs</td><td><a href="/teams/STL.html">STL</a></td><td>W</td><td><a href="/players/trochvi01.html">Vincent Trocheck</a></td><td><a href="/players/panarar01.html">Artemi Panarin</a></td><td><a href="/players/foxad01.html">Adam Fox</a></td><td><a href="/players/binnijo01.html">Jordan Binnington</a></td><td>5.85</td></tr>
+<tr><td><a href="/boxscores/202403090NYR.html">3/9/2024</a></td><td><a href="/teams/NYR.html">NYR</a></td><td>vs</td><td><a href="/teams/STL.html">STL</a></td><td>W</td><td><a href="/players/veseyji02.html">Jimmy Vesey</a></td><td><a href="/players/goodrba01.html">Barclay Goodrow</a></td><td><a href="/players/--.html">--</a></td><td><a href="/players/binnijo01.html">Jordan Binnington</a></td><td>19.62</td></tr>
+<tr><td><a href="/boxscores/202403090NYR.html">3/9/2024</a></td><td><a href="/teams/NYR.html">NYR</a></td><td>vs</td><td><a href="/teams/STL.html">STL</a></td><td>W</td><td><a href="/players/kreidch01.html">Chris Kreider</a></td><td><a href="/players/panarar01.html">Artemi Panarin</a></td><td><a href="/players/foxad01.html">Adam Fox</a></td><td><a href="/players/binnijo01.html">Jordan Binnington</a></td><td>46.38</td></tr>
+<tr><td><a href="/boxscores/202403090NYR.html">3/9/2024</a></td><td><a href="/teams/NYR.html">NYR</a></td><td>vs</td><td><a href="/teams/STL.html">STL</a></td><td>W</td><td><a href="/players/kakkoka01.html">Kaapo Kakko</a></td><td><a href="/players/gustaer02.html">Erik Gustafsson</a></td><td><a href="/players/wennbal01.html">Alexander Wennberg</a></td><td><a href="/players/binnijo01.html">Jordan Binnington</a></td><td>51.38</td></tr>
+<tr><td><a href="/boxscores/202403130STL.html">3/13/2024</a></td><td><a href="/teams/LAK.html">LAK</a></td><td>@</td><td><a href="/teams/STL.html">STL</a></td><td>L</td><td><a href="/players/kempead01.html">Adrian Kempe</a></td><td><a href="/players/doughdr01.html">Drew Doughty</a></td><td><a href="/players/turcoal02.html">Alex Turcotte</a></td><td><a href="/players/binnijo01.html">Jordan Binnington</a></td><td>53.13</td></tr>
+<tr><td><a href="/boxscores/202403160STL.html">3/16/2024</a></td><td><a href="/teams/MIN.html">MIN</a></td><td>@</td><td><a href="/teams/STL.html">STL</a></td><td>L</td><td><a href="/players/rossima01.html">Marco Rossi</a></td><td><a href="/players/kapriki01.html">Kirill Kaprizov</a></td><td><a href="/players/--.html">--</a></td><td><a href="/players/binnijo01.html">Jordan Binnington</a></td><td>41.17</td></tr>
+<tr><td><a href="/boxscores/202403160STL.html">3/16/2024</a></td><td><a href="/teams/MIN.html">MIN</a></td><td>@</td><td><a href="/teams/STL.html">STL</a></td><td>L</td><td><a href="/players/kapriki01.html">Kirill Kaprizov</a></td><td><a href="/players/zuccama01.html">Mats Zuccarello</a></td><td><a href="/players/bogosza01.html">Zach Bogosian</a></td><td><a href="/players/binnijo01.html">Jordan Binnington</a></td><td>56.02</td></tr>
+<tr><td><a href="/boxscores/202403190STL.html">3/19/2024</a></td><td><a href="/teams/COL.html">COL</a></td><td>@</td><td><a href="/teams/STL.html">STL</a></td><td>W</td><td><a href="/players/rantami01.html">Mikko Rantanen</a></td><td><a href="/players/mackina01.html">Nathan MacKinnon</a></td><td><a href="/players/makarca01.html">Cale Makar</a></td><td><a href="/players/binnijo01.html">Jordan Binnington</a></td><td>6.6</td></tr>
+<tr><td><a href="/boxscores/202403190STL.html">3/19/2024</a></td><td><a href="/teams/COL.html">COL</a></td><td>@</td><td><a href="/teams/STL.html">STL</a></td><td>W</td><td><a href="/players/mitteca01.html">Casey Mittelstadt</a></td><td><a href="/players/girarsa01.html">Samuel Girard</a></td><td><a href="/players/drouijo01.html">Jonathan Drouin</a></td><td><a href="/players/binnijo01.html">Jordan Binnington</a></td><td>26.68</td></tr>
+<tr><td><a href="/boxscores/202403190STL.html">3/19/2024</a></td><td><a href="/teams/COL.html">COL</a></td><td>@</td><td><a href="/teams/STL.html">STL</a></td><td>W</td><td><a href="/players/rantami01.html">Mikko Rantanen</a></td><td><a href="/players/drouijo01.html">Jonathan Drouin</a></td><td><a href="/players/nichuva01.html">Valeri Nichushkin</a></td><td><a href="/players/binnijo01.html">Jordan Binnington</a></td><td>38.77</td></tr>
+<tr><td><a href="/boxscores/202403190STL.html">3/19/2024</a></td><td><a href="/teams/COL.html">COL</a></td><td>@</td><td><a href="/teams/STL.html">STL</a></td><td>W</td><td><a href="/players/rantami01.html">Mikko Rantanen</a></td><td><a href="/players/nichuva01.html">Valeri Nichushkin</a></td><td><a href="/players/--.html">--</a></td><td><a href="/players/binnijo01.html">Jordan Binnington</a></td><td>44.25</td></tr>
+<tr><td><a href="/boxscores/202403230MIN.html">3/23/2024</a></td><td><a href="/teams/MIN.html">MIN</a></td><td>vs</td><td><a href="/teams/STL.html">STL</a></td><td>L</td><td><a href="/players/johanma03.html">Marcus Johansson</a></td><td><a href="/players/faberbr01.html">Brock Faber</a></td><td><a href="/players/boldyma01.html">Matt Boldy</a></td><td><a href="/players/binnijo01.html">Jordan Binnington</a></td><td>24.75</td></tr>
+<tr><td><a href="/boxscores/202403230MIN.html">3/23/2024</a></td><td><a href="/teams/MIN.html">MIN</a></td><td>vs</td><td><a href="/teams/STL.html">STL</a></td><td>L</td><td><a href="/players/rossima01.html">Marco Rossi</a></td><td><a href="/players/kapriki01.html">Kirill Kaprizov</a></td><td><a href="/players/--.html">--</a></td><td><a href="/players/binnijo01.html">Jordan Binnington</a></td><td>31.73</td></tr>
+<tr><td><a href="/boxscores/202403230MIN.html">3/23/2024</a></td><td><a href="/teams/MIN.html">MIN</a></td><td>vs</td><td><a href="/teams/STL.html">STL</a></td><td>L</td><td><a href="/players/rossima01.html">Marco Rossi</a></td><td><a href="/players/zuccama01.html">Mats Zuccarello</a></td><td><a href="/players/kapriki01.html">Kirill Kaprizov</a></td><td><a href="/players/binnijo01.html">Jordan Binnington</a></td><td>35.18</td></tr>
+<tr><td><a href="/boxscores/202403230MIN.html">3/23/2024</a></td><td><a href="/teams/MIN.html">MIN</a></td><td>vs</td><td><a href="/teams/STL.html">STL</a></td><td>L</td><td><a href="/players/faberbr01.html">Brock Faber</a></td><td><a href="/players/hartmry01.html">Ryan Hartman</a></td><td><a href="/players/middlja01.html">Jacob Middleton</a></td><td><a href="/players/binnijo01.html">Jordan Binnington</a></td><td>54.85</td></tr>
+<tr><td><a href="/boxscores/202403250STL.html">3/25/2024</a></td><td><a href="/teams/VEG.html">VEG</a></td><td>@</td><td><a href="/teams/STL.html">STL</a></td><td>W</td><td><a href="/players/dorofpa01.html">Pavel Dorofeyev</a></td><td><a href="/players/manthan01.html">Anthony Mantha</a></td><td><a href="/players/whiteza01.html">Zach Whitecloud</a></td><td><a href="/players/binnijo01.html">Jordan Binnington</a></td><td>5.98</td></tr>
+<tr><td><a href="/boxscores/202403250STL.html">3/25/2024</a></td><td><a href="/teams/VEG.html">VEG</a></td><td>@</td><td><a href="/teams/STL.html">STL</a></td><td>W</td><td><a href="/players/audymjo01.html">Jonathan Marchessault</a></td><td><a href="/players/karlswi01.html">William Karlsson</a></td><td><a href="/players/theodsh01.html">Shea Theodore</a></td><td><a href="/players/binnijo01.html">Jordan Binnington</a></td><td>60.82</td></tr>
+<tr><td><a href="/boxscores/202403280STL.html">3/28/2024</a></td><td><a href="/teams/CGY.html">CGY</a></td><td>@</td><td><a href="/teams/STL.html">STL</a></td><td>L</td><td><a href="/players/kuzmean01.html">Andrei Kuzmenko</a></td><td><a href="/players/nan.html">-</a></td><td><a href="/players/--.html">--</a></td><td><a href="/players/binnijo01.html">Jordan Binnington</a></td><td>14.8</td></tr>
+<tr><td><a href="/boxscores/202403280STL.html">3/28/2024</a></td><td><a href="/teams/CGY.html">CGY</a></td><td>@</td><td><a href="/teams/STL.html">STL</a></td><td>L</td><td><a href="/players/huberjo01.html">Jonathan Huberdeau</a></td><td><a href="/players/weegama01.html">MacKenzie Weegar</a></td><td><a href="/players/anderra01.html">Rasmus Andersson</a></td><td><a href="/players/binnijo01.html">Jordan Binnington</a></td><td>18.62</td></tr>
+<tr><td><a href="/boxscores/202403280STL.html">3/28/2024</a></td><td><a href="/teams/CGY.html">CGY</a></td><td>@</td><td><a href="/teams/STL.html">STL</a></td><td>L</td><td><a href="/players/kuzmean01.html">Andrei Kuzmenko</a></td><td><a href="/players/kadrina01.html">Nazem Kadri</a></td><td><a href="/players/weegama01.html">MacKenzie Weegar</a></td><td><a href="/players/binnijo01.html">Jordan Binnington</a></td><td>36.83</td></tr>
+<tr><td><a href="/boxscores/202404010STL.html">4/1/2024</a></td><td><a href="/teams/EDM.html">EDM</a></td><td>@</td><td><a href="/teams/STL.html">STL</a></td><td>L</td><td><a href="/players/ekholma01.html">Mattias Ekholm</a></td><td><a href="/players/brownco02.html">Connor Brown</a></td><td><a href="/players/carrisa01.html">Sam Carrick</a></td><td><a href="/players/binnijo01.html">Jordan Binnington</a></td><td>7.08</td></tr>
+<tr><td><a href="/boxscores/202404010STL.html">4/1/2024</a></td><td><a href="/teams/EDM.html">EDM</a></td><td>@</td><td><a href="/teams/STL.html">STL</a></td><td>L</td><td><a href="/players/draisle01.html">Leon Draisaitl</a></td><td><a href="/players/mcdavco01.html">Connor McDavid</a></td><td><a href="/players/ekholma01.html">Mattias Ekholm</a></td><td><a href="/players/binnijo01.html">Jordan Binnington</a></td><td>54.58</td></tr>
+<tr><td><a href="/boxscores/202404040NSH.html">4/4/2024</a></td><td><a href="/teams/NSH.html">NSH</a></td><td>vs</td><td><a href="/teams/STL.html">STL</a></td><td>W</td><td><a href="/players/josiro01.html">Roman Josi</a></td><td><a href="/players/oreilry01.html">Ryan O'Reilly</a></td><td><a href="/players/forsbfi01.html">Filip Forsberg</a></td><td><a href="/players/binnijo01.html">Jordan Binnington</a></td><td>0.52</td></tr>
+<tr><td><a href="/boxscores/202404040NSH.html">4/4/2024</a></td><td><a href="/teams/NSH.html">NSH</a></td><td>vs</td><td><a href="/teams/STL.html">STL</a></td><td>W</td><td><a href="/players/forsbfi01.html">Filip Forsberg</a></td><td><a href="/players/nyquigu01.html">Gustav Nyquist</a></td><td><a href="/players/oreilry01.html">Ryan O'Reilly</a></td><td><a href="/players/binnijo01.html">Jordan Binnington</a></td><td>21.22</td></tr>
+<tr><td><a href="/boxscores/202404040NSH.html">4/4/2024</a></td><td><a href="/teams/NSH.html">NSH</a></td><td>vs</td><td><a href="/teams/STL.html">STL</a></td><td>W</td><td><a href="/players/beauvan01.html">Anthony Beauvillier</a></td><td><a href="/players/nyquigu01.html">Gustav Nyquist</a></td><td><a href="/players/evanglu01.html">Luke Evangelista</a></td><td><a href="/players/binnijo01.html">Jordan Binnington</a></td><td>39.48</td></tr>
+<tr><td><a href="/boxscores/202404040NSH.html">4/4/2024</a></td><td><a href="/teams/NSH.html">NSH</a></td><td>vs</td><td><a href="/teams/STL.html">STL</a></td><td>W</td><td><a href="/players/mccarmi01.html">Michael McCarron</a></td><td><a href="/players/sherwki01.html">Kiefer Sherwood</a></td><td><a href="/players/--.html">--</a></td><td><a href="/players/binnijo01.html">Jordan Binnington</a></td><td>44.15</td></tr>
+<tr><td><a href="/boxscores/202404070ANA.html">4/7/2024</a></td><td><a href="/teams/ANA.html">ANA</a></td><td>vs</td><td><a href="/teams/STL.html">STL</a></td><td>L</td><td><a href="/players/nesteni02.html">Nikita Nesterenko</a></td><td><a href="/players/lindsgu01.html">Gustav Lindström</a></td><td><a href="/players/lundeis01.html">Isac Lundeström</a></td><td><a href="/players/binnijo01.html">Jordan Binnington</a></td><td>2.62</td></tr>
+<tr><td><a href="/boxscores/202404070ANA.html">4/7/2024</a></td><td><a href="/teams/ANA.html">ANA</a></td><td>vs</td><td><a href="/teams/STL.html">STL</a></td><td>L</td><td><a href="/players/vatrafr01.html">Frank Vatrano</a></td><td><a href="/players/killoal01.html">Alex Killorn</a></td><td><a href="/players/zegratr01.html">Trevor Zegras</a></td><td><a href="/players/binnijo01.html">Jordan Binnington</a></td><td>23.68</td></tr>
+<tr><td><a href="/boxscores/202404070ANA.html">4/7/2024</a></td><td><a href="/teams/ANA.html">ANA</a></td><td>vs</td><td><a href="/teams/STL.html">STL</a></td><td>L</td><td><a href="/players/carlsle01.html">Leo Carlsson</a></td><td><a href="/players/lundeis01.html">Isac Lundeström</a></td><td><a href="/players/terrytr01.html">Troy Terry</a></td><td><a href="/players/binnijo01.html">Jordan Binnington</a></td><td>41.02</td></tr>
+<tr><td><a href="/boxscores/202404070ANA.html">4/7/2024</a></td><td><a href="/teams/ANA.html">ANA</a></td><td>vs</td><td><a href="/teams/STL.html">STL</a></td><td>L</td><td><a href="/players/vatrafr01.html">Frank Vatrano</a></td><td><a href="/players/zegratr01.html">Trevor Zegras</a></td><td><a href="/players/stromry01.html">Ryan Strome</a></td><td><a href="/players/binnijo01.html">Jordan Binnington</a></td><td>48.07</td></tr>
+<tr><td><a href="/boxscores/202404070ANA.html">4/7/2024</a></td><td><a href="/teams/ANA.html">ANA</a></td><td>vs</td><td><a href="/teams/STL.html">STL</a></td><td>L</td><td><a href="/players/carlsle01.html">Leo Carlsson</a></td><td><a href="/players/killoal01.html">Alex Killorn</a></td><td><a href="/players/fowleca01.html">Cam Fowler</a></td><td><a href="/players/binnijo01.html">Jordan Binnington</a></td><td>56.15</td></tr>
+<tr><td><a href="/boxscores/202404120STL.html">4/12/2024</a></td><td><a href="/teams/CAR.html">CAR</a></td><td>@</td><td><a href="/teams/STL.html">STL</a></td><td>W</td><td><a href="/players/martijo01.html">Jordan Martinook</a></td><td><a href="/players/svechan01.html">Andrei Svechnikov</a></td><td><a href="/players/--.html">--</a></td><td><a href="/players/binnijo01.html">Jordan Binnington</a></td><td>18.98</td></tr>
+<tr><td><a href="/boxscores/202404120STL.html">4/12/2024</a></td><td><a href="/teams/CAR.html">CAR</a></td><td>@</td><td><a href="/teams/STL.html">STL</a></td><td>W</td><td><a href="/players/jarvise01.html">Seth Jarvis</a></td><td><a href="/players/skjeibr01.html">Brady Skjei</a></td><td><a href="/players/anderfr01.html">Frederik Andersen</a></td><td><a href="/players/binnijo01.html">Jordan Binnington</a></td><td>28.12</td></tr>
+<tr><td><a href="/boxscores/202404120STL.html">4/12/2024</a></td><td><a href="/teams/CAR.html">CAR</a></td><td>@</td><td><a href="/teams/STL.html">STL</a></td><td>W</td><td><a href="/players/slavija01.html">Jaccob Slavin</a></td><td><a href="/players/ahose01.html">Sebastian Aho</a></td><td><a href="/players/deangan01.html">Tony DeAngelo</a></td><td><a href="/players/binnijo01.html">Jordan Binnington</a></td><td>47.88</td></tr>
+<tr><td><a href="/boxscores/202404170DAL.html">4/17/2024</a></td><td><a href="/teams/DAL.html">DAL</a></td><td>vs</td><td><a href="/teams/STL.html">STL</a></td><td>W</td><td><a href="/players/marchma01.html">Mason Marchment</a></td><td><a href="/players/duchema01.html">Matt Duchene</a></td><td><a href="/players/lindees01.html">Esa Lindell</a></td><td><a href="/players/binnijo01.html">Jordan Binnington</a></td><td>45.18</td></tr>
+</table>
 
-    <!-- Search Bar -->
-    <div class="search-container">
-      <input type="text" id="searchInput" placeholder="Search players or teams..." oninput="searchEntities()" />
-      <ul id="suggestions"></ul> <!-- This will show the search suggestions -->
-    </div>
-  </nav>
-
-  <h1>Jordan Binnington - Gamelogs</h1>
-  <table border="1">
-    <thead>
-      <tr>
-        <th>Season</th>
-        <th>Date</th>
-        <th>Team</th>
-        <th>Location</th>
-        <th>Opponent</th>
-        <th>Result</th>
-        <th>GA</th>
-        <th>SA</th>
-        <th>SV</th>
-        <th>SV%</th>
-        <th>TOI</th>
-      </tr>
-    </thead>
-    <tbody>
-    
-        <tr>
-          <td><a href="/schedule/2023-24.html">2023-24</a></td>
-          <td><a href="/boxscores/202310120DAL.html">10/12/2023</a></td>
-          <td><a href="/teams/STL.html">STL</a></td>
-          <td>@</td>
-          <td><a href="/teams/DAL.html">DAL</a></td>
-          <td>L-SO</td>
-          <td>1</td>
-          <td>34</td>
-          <td>33</td>
-          <td>97.00%</td>
-          <td>64.83</td>
-        </tr>
-        
-        <tr>
-          <td><a href="/schedule/2023-24.html">2023-24</a></td>
-          <td><a href="/boxscores/202310140STL.html">10/14/2023</a></td>
-          <td><a href="/teams/STL.html">STL</a></td>
-          <td>vs</td>
-          <td><a href="/teams/SEA.html">SEA</a></td>
-          <td>W</td>
-          <td>1</td>
-          <td>31</td>
-          <td>30</td>
-          <td>97.00%</td>
-          <td>65.0</td>
-        </tr>
-        
-        <tr>
-          <td><a href="/schedule/2023-24.html">2023-24</a></td>
-          <td><a href="/boxscores/202310210STL.html">10/21/2023</a></td>
-          <td><a href="/teams/STL.html">STL</a></td>
-          <td>vs</td>
-          <td><a href="/teams/PIT.html">PIT</a></td>
-          <td>W</td>
-          <td>2</td>
-          <td>33</td>
-          <td>31</td>
-          <td>94.00%</td>
-          <td>60.0</td>
-        </tr>
-        
-        <tr>
-          <td><a href="/schedule/2023-24.html">2023-24</a></td>
-          <td><a href="/boxscores/202310240WPG.html">10/24/2023</a></td>
-          <td><a href="/teams/STL.html">STL</a></td>
-          <td>@</td>
-          <td><a href="/teams/WPG.html">WPG</a></td>
-          <td>L</td>
-          <td>3</td>
-          <td>29</td>
-          <td>26</td>
-          <td>90.00%</td>
-          <td>58.97</td>
-        </tr>
-        
-        <tr>
-          <td><a href="/schedule/2023-24.html">2023-24</a></td>
-          <td><a href="/boxscores/202310270VAN.html">10/27/2023</a></td>
-          <td><a href="/teams/STL.html">STL</a></td>
-          <td>@</td>
-          <td><a href="/teams/VAN.html">VAN</a></td>
-          <td>L</td>
-          <td>5</td>
-          <td>35</td>
-          <td>30</td>
-          <td>86.00%</td>
-          <td>60.0</td>
-        </tr>
-        
-        <tr>
-          <td><a href="/schedule/2023-24.html">2023-24</a></td>
-          <td><a href="/boxscores/202311010COL.html">11/1/2023</a></td>
-          <td><a href="/teams/STL.html">STL</a></td>
-          <td>@</td>
-          <td><a href="/teams/COL.html">COL</a></td>
-          <td>L</td>
-          <td>4</td>
-          <td>28</td>
-          <td>24</td>
-          <td>86.00%</td>
-          <td>59.53</td>
-        </tr>
-        
-        <tr>
-          <td><a href="/schedule/2023-24.html">2023-24</a></td>
-          <td><a href="/boxscores/202311030STL.html">11/3/2023</a></td>
-          <td><a href="/teams/STL.html">STL</a></td>
-          <td>vs</td>
-          <td><a href="/teams/NJD.html">NJD</a></td>
-          <td>W</td>
-          <td>1</td>
-          <td>34</td>
-          <td>33</td>
-          <td>97.00%</td>
-          <td>60.0</td>
-        </tr>
-        
-        <tr>
-          <td><a href="/schedule/2023-24.html">2023-24</a></td>
-          <td><a href="/boxscores/202311070STL.html">11/7/2023</a></td>
-          <td><a href="/teams/STL.html">STL</a></td>
-          <td>vs</td>
-          <td><a href="/teams/WPG.html">WPG</a></td>
-          <td>L</td>
-          <td>4</td>
-          <td>36</td>
-          <td>32</td>
-          <td>89.00%</td>
-          <td>59.38</td>
-        </tr>
-        
-        <tr>
-          <td><a href="/schedule/2023-24.html">2023-24</a></td>
-          <td><a href="/boxscores/202311110COL.html">11/11/2023</a></td>
-          <td><a href="/teams/STL.html">STL</a></td>
-          <td>@</td>
-          <td><a href="/teams/COL.html">COL</a></td>
-          <td>W</td>
-          <td>2</td>
-          <td>38</td>
-          <td>36</td>
-          <td>95.00%</td>
-          <td>60.0</td>
-        </tr>
-        
-        <tr>
-          <td><a href="/schedule/2023-24.html">2023-24</a></td>
-          <td><a href="/boxscores/202311140STL.html">11/14/2023</a></td>
-          <td><a href="/teams/STL.html">STL</a></td>
-          <td>vs</td>
-          <td><a href="/teams/TBL.html">TBL</a></td>
-          <td>W</td>
-          <td>0</td>
-          <td>30</td>
-          <td>30</td>
-          <td>100.00%</td>
-          <td>60.0</td>
-        </tr>
-        
-        <tr>
-          <td><a href="/schedule/2023-24.html">2023-24</a></td>
-          <td><a href="/boxscores/202311160SJS.html">11/16/2023</a></td>
-          <td><a href="/teams/STL.html">STL</a></td>
-          <td>@</td>
-          <td><a href="/teams/SJS.html">SJS</a></td>
-          <td>L</td>
-          <td>1</td>
-          <td>14</td>
-          <td>13</td>
-          <td>93.00%</td>
-          <td>36.58</td>
-        </tr>
-        
-        <tr>
-          <td><a href="/schedule/2023-24.html">2023-24</a></td>
-          <td><a href="/boxscores/202311180LAK.html">11/18/2023</a></td>
-          <td><a href="/teams/STL.html">STL</a></td>
-          <td>@</td>
-          <td><a href="/teams/LAK.html">LAK</a></td>
-          <td>L</td>
-          <td>5</td>
-          <td>31</td>
-          <td>26</td>
-          <td>84.00%</td>
-          <td>59.87</td>
-        </tr>
-        
-        <tr>
-          <td><a href="/schedule/2023-24.html">2023-24</a></td>
-          <td><a href="/boxscores/202311220ARI.html">11/22/2023</a></td>
-          <td><a href="/teams/STL.html">STL</a></td>
-          <td>@</td>
-          <td><a href="/teams/ARI.html">ARI</a></td>
-          <td>W</td>
-          <td>5</td>
-          <td>13</td>
-          <td>8</td>
-          <td>62.00%</td>
-          <td>28.0</td>
-        </tr>
-        
-        <tr>
-          <td><a href="/schedule/2023-24.html">2023-24</a></td>
-          <td><a href="/boxscores/202311240STL.html">11/24/2023</a></td>
-          <td><a href="/teams/STL.html">STL</a></td>
-          <td>vs</td>
-          <td><a href="/teams/NSH.html">NSH</a></td>
-          <td>L</td>
-          <td>4</td>
-          <td>20</td>
-          <td>16</td>
-          <td>80.00%</td>
-          <td>37.08</td>
-        </tr>
-        
-        <tr>
-          <td><a href="/schedule/2023-24.html">2023-24</a></td>
-          <td><a href="/boxscores/202311260CHI.html">11/26/2023</a></td>
-          <td><a href="/teams/STL.html">STL</a></td>
-          <td>@</td>
-          <td><a href="/teams/CHI.html">CHI</a></td>
-          <td>W</td>
-          <td>2</td>
-          <td>33</td>
-          <td>31</td>
-          <td>94.00%</td>
-          <td>60.0</td>
-        </tr>
-        
-        <tr>
-          <td><a href="/schedule/2023-24.html">2023-24</a></td>
-          <td><a href="/boxscores/202311280MIN.html">11/28/2023</a></td>
-          <td><a href="/teams/STL.html">STL</a></td>
-          <td>@</td>
-          <td><a href="/teams/MIN.html">MIN</a></td>
-          <td>L</td>
-          <td>3</td>
-          <td>37</td>
-          <td>34</td>
-          <td>92.00%</td>
-          <td>57.4</td>
-        </tr>
-        
-        <tr>
-          <td><a href="/schedule/2023-24.html">2023-24</a></td>
-          <td><a href="/boxscores/202311300STL.html">11/30/2023</a></td>
-          <td><a href="/teams/STL.html">STL</a></td>
-          <td>vs</td>
-          <td><a href="/teams/BUF.html">BUF</a></td>
-          <td>W</td>
-          <td>4</td>
-          <td>46</td>
-          <td>42</td>
-          <td>91.00%</td>
-          <td>60.0</td>
-        </tr>
-        
-        <tr>
-          <td><a href="/schedule/2023-24.html">2023-24</a></td>
-          <td><a href="/boxscores/202312040VEG.html">12/4/2023</a></td>
-          <td><a href="/teams/STL.html">STL</a></td>
-          <td>@</td>
-          <td><a href="/teams/VEG.html">VEG</a></td>
-          <td>W</td>
-          <td>1</td>
-          <td>34</td>
-          <td>33</td>
-          <td>97.00%</td>
-          <td>60.63</td>
-        </tr>
-        
-        <tr>
-          <td><a href="/schedule/2023-24.html">2023-24</a></td>
-          <td><a href="/boxscores/202312060STL.html">12/6/2023</a></td>
-          <td><a href="/teams/STL.html">STL</a></td>
-          <td>vs</td>
-          <td><a href="/teams/VEG.html">VEG</a></td>
-          <td>L</td>
-          <td>5</td>
-          <td>48</td>
-          <td>43</td>
-          <td>90.00%</td>
-          <td>56.35</td>
-        </tr>
-        
-        <tr>
-          <td><a href="/schedule/2023-24.html">2023-24</a></td>
-          <td><a href="/boxscores/202312090CHI.html">12/9/2023</a></td>
-          <td><a href="/teams/STL.html">STL</a></td>
-          <td>@</td>
-          <td><a href="/teams/CHI.html">CHI</a></td>
-          <td>L</td>
-          <td>3</td>
-          <td>24</td>
-          <td>21</td>
-          <td>88.00%</td>
-          <td>56.27</td>
-        </tr>
-        
-        <tr>
-          <td><a href="/schedule/2023-24.html">2023-24</a></td>
-          <td><a href="/boxscores/202312120STL.html">12/12/2023</a></td>
-          <td><a href="/teams/STL.html">STL</a></td>
-          <td>vs</td>
-          <td><a href="/teams/DET.html">DET</a></td>
-          <td>L</td>
-          <td>5</td>
-          <td>31</td>
-          <td>26</td>
-          <td>84.00%</td>
-          <td>59.62</td>
-        </tr>
-        
-        <tr>
-          <td><a href="/schedule/2023-24.html">2023-24</a></td>
-          <td><a href="/boxscores/202312140STL.html">12/14/2023</a></td>
-          <td><a href="/teams/STL.html">STL</a></td>
-          <td>vs</td>
-          <td><a href="/teams/OTT.html">OTT</a></td>
-          <td>W</td>
-          <td>2</td>
-          <td>34</td>
-          <td>32</td>
-          <td>94.00%</td>
-          <td>59.82</td>
-        </tr>
-        
-        <tr>
-          <td><a href="/schedule/2023-24.html">2023-24</a></td>
-          <td><a href="/boxscores/202312160STL.html">12/16/2023</a></td>
-          <td><a href="/teams/STL.html">STL</a></td>
-          <td>vs</td>
-          <td><a href="/teams/DAL.html">DAL</a></td>
-          <td>W</td>
-          <td>3</td>
-          <td>23</td>
-          <td>20</td>
-          <td>87.00%</td>
-          <td>60.18</td>
-        </tr>
-        
-        <tr>
-          <td><a href="/schedule/2023-24.html">2023-24</a></td>
-          <td><a href="/boxscores/202312190TBL.html">12/19/2023</a></td>
-          <td><a href="/teams/STL.html">STL</a></td>
-          <td>@</td>
-          <td><a href="/teams/TBL.html">TBL</a></td>
-          <td>L</td>
-          <td>5</td>
-          <td>23</td>
-          <td>18</td>
-          <td>78.00%</td>
-          <td>32.22</td>
-        </tr>
-        
-        <tr>
-          <td><a href="/schedule/2023-24.html">2023-24</a></td>
-          <td><a href="/boxscores/202312230STL.html">12/23/2023</a></td>
-          <td><a href="/teams/STL.html">STL</a></td>
-          <td>vs</td>
-          <td><a href="/teams/CHI.html">CHI</a></td>
-          <td>W</td>
-          <td>5</td>
-          <td>20</td>
-          <td>15</td>
-          <td>75.00%</td>
-          <td>60.0</td>
-        </tr>
-        
-        <tr>
-          <td><a href="/schedule/2023-24.html">2023-24</a></td>
-          <td><a href="/boxscores/202312290STL.html">12/29/2023</a></td>
-          <td><a href="/teams/STL.html">STL</a></td>
-          <td>vs</td>
-          <td><a href="/teams/COL.html">COL</a></td>
-          <td>L</td>
-          <td>2</td>
-          <td>23</td>
-          <td>21</td>
-          <td>91.00%</td>
-          <td>58.83</td>
-        </tr>
-        
-        <tr>
-          <td><a href="/schedule/2023-24.html">2023-24</a></td>
-          <td><a href="/boxscores/202401040STL.html">1/4/2024</a></td>
-          <td><a href="/teams/STL.html">STL</a></td>
-          <td>vs</td>
-          <td><a href="/teams/VAN.html">VAN</a></td>
-          <td>W</td>
-          <td>1</td>
-          <td>26</td>
-          <td>25</td>
-          <td>96.00%</td>
-          <td>60.0</td>
-        </tr>
-        
-        <tr>
-          <td><a href="/schedule/2023-24.html">2023-24</a></td>
-          <td><a href="/boxscores/202401060CAR.html">1/6/2024</a></td>
-          <td><a href="/teams/STL.html">STL</a></td>
-          <td>@</td>
-          <td><a href="/teams/CAR.html">CAR</a></td>
-          <td>W</td>
-          <td>1</td>
-          <td>30</td>
-          <td>29</td>
-          <td>97.00%</td>
-          <td>64.97</td>
-        </tr>
-        
-        <tr>
-          <td><a href="/schedule/2023-24.html">2023-24</a></td>
-          <td><a href="/boxscores/202401110STL.html">1/11/2024</a></td>
-          <td><a href="/teams/STL.html">STL</a></td>
-          <td>vs</td>
-          <td><a href="/teams/NYR.html">NYR</a></td>
-          <td>W</td>
-          <td>2</td>
-          <td>43</td>
-          <td>41</td>
-          <td>95.00%</td>
-          <td>59.77</td>
-        </tr>
-        
-        <tr>
-          <td><a href="/schedule/2023-24.html">2023-24</a></td>
-          <td><a href="/boxscores/202401130STL.html">1/13/2024</a></td>
-          <td><a href="/teams/STL.html">STL</a></td>
-          <td>vs</td>
-          <td><a href="/teams/BOS.html">BOS</a></td>
-          <td>L-OT</td>
-          <td>4</td>
-          <td>35</td>
-          <td>31</td>
-          <td>89.00%</td>
-          <td>61.17</td>
-        </tr>
-        
-        <tr>
-          <td><a href="/schedule/2023-24.html">2023-24</a></td>
-          <td><a href="/boxscores/202401180WSH.html">1/18/2024</a></td>
-          <td><a href="/teams/STL.html">STL</a></td>
-          <td>@</td>
-          <td><a href="/teams/WSH.html">WSH</a></td>
-          <td>L</td>
-          <td>4</td>
-          <td>25</td>
-          <td>21</td>
-          <td>84.00%</td>
-          <td>57.73</td>
-        </tr>
-        
-        <tr>
-          <td><a href="/schedule/2023-24.html">2023-24</a></td>
-          <td><a href="/boxscores/202401200STL.html">1/20/2024</a></td>
-          <td><a href="/teams/STL.html">STL</a></td>
-          <td>vs</td>
-          <td><a href="/teams/WSH.html">WSH</a></td>
-          <td>W</td>
-          <td>0</td>
-          <td>18</td>
-          <td>18</td>
-          <td>100.00%</td>
-          <td>59.43</td>
-        </tr>
-        
-        <tr>
-          <td><a href="/schedule/2023-24.html">2023-24</a></td>
-          <td><a href="/boxscores/202401230CGY.html">1/23/2024</a></td>
-          <td><a href="/teams/STL.html">STL</a></td>
-          <td>@</td>
-          <td><a href="/teams/CGY.html">CGY</a></td>
-          <td>W</td>
-          <td>3</td>
-          <td>35</td>
-          <td>32</td>
-          <td>91.00%</td>
-          <td>60.0</td>
-        </tr>
-        
-        <tr>
-          <td><a href="/schedule/2023-24.html">2023-24</a></td>
-          <td><a href="/boxscores/202401260SEA.html">1/26/2024</a></td>
-          <td><a href="/teams/STL.html">STL</a></td>
-          <td>@</td>
-          <td><a href="/teams/SEA.html">SEA</a></td>
-          <td>W</td>
-          <td>3</td>
-          <td>36</td>
-          <td>33</td>
-          <td>92.00%</td>
-          <td>63.02</td>
-        </tr>
-        
-        <tr>
-          <td><a href="/schedule/2023-24.html">2023-24</a></td>
-          <td><a href="/boxscores/202401300STL.html">1/30/2024</a></td>
-          <td><a href="/teams/STL.html">STL</a></td>
-          <td>vs</td>
-          <td><a href="/teams/CBJ.html">CBJ</a></td>
-          <td>L</td>
-          <td>1</td>
-          <td>22</td>
-          <td>21</td>
-          <td>96.00%</td>
-          <td>58.17</td>
-        </tr>
-        
-        <tr>
-          <td><a href="/schedule/2023-24.html">2023-24</a></td>
-          <td><a href="/boxscores/202402110MTL.html">2/11/2024</a></td>
-          <td><a href="/teams/STL.html">STL</a></td>
-          <td>@</td>
-          <td><a href="/teams/MTL.html">MTL</a></td>
-          <td>W</td>
-          <td>2</td>
-          <td>32</td>
-          <td>30</td>
-          <td>94.00%</td>
-          <td>60.0</td>
-        </tr>
-        
-        <tr>
-          <td><a href="/schedule/2023-24.html">2023-24</a></td>
-          <td><a href="/boxscores/202402130TOR.html">2/13/2024</a></td>
-          <td><a href="/teams/STL.html">STL</a></td>
-          <td>@</td>
-          <td><a href="/teams/TOR.html">TOR</a></td>
-          <td>L</td>
-          <td>3</td>
-          <td>31</td>
-          <td>28</td>
-          <td>90.00%</td>
-          <td>59.13</td>
-        </tr>
-        
-        <tr>
-          <td><a href="/schedule/2023-24.html">2023-24</a></td>
-          <td><a href="/boxscores/202402150STL.html">2/15/2024</a></td>
-          <td><a href="/teams/STL.html">STL</a></td>
-          <td>vs</td>
-          <td><a href="/teams/EDM.html">EDM</a></td>
-          <td>W</td>
-          <td>3</td>
-          <td>38</td>
-          <td>35</td>
-          <td>92.00%</td>
-          <td>59.67</td>
-        </tr>
-        
-        <tr>
-          <td><a href="/schedule/2023-24.html">2023-24</a></td>
-          <td><a href="/boxscores/202402170STL.html">2/17/2024</a></td>
-          <td><a href="/teams/STL.html">STL</a></td>
-          <td>vs</td>
-          <td><a href="/teams/NSH.html">NSH</a></td>
-          <td>L</td>
-          <td>4</td>
-          <td>32</td>
-          <td>28</td>
-          <td>88.00%</td>
-          <td>57.83</td>
-        </tr>
-        
-        <tr>
-          <td><a href="/schedule/2023-24.html">2023-24</a></td>
-          <td><a href="/boxscores/202402220STL.html">2/22/2024</a></td>
-          <td><a href="/teams/STL.html">STL</a></td>
-          <td>vs</td>
-          <td><a href="/teams/NYI.html">NYI</a></td>
-          <td>W</td>
-          <td>0</td>
-          <td>38</td>
-          <td>38</td>
-          <td>100.00%</td>
-          <td>60.0</td>
-        </tr>
-        
-        <tr>
-          <td><a href="/schedule/2023-24.html">2023-24</a></td>
-          <td><a href="/boxscores/202402240DET.html">2/24/2024</a></td>
-          <td><a href="/teams/STL.html">STL</a></td>
-          <td>@</td>
-          <td><a href="/teams/DET.html">DET</a></td>
-          <td>L</td>
-          <td>4</td>
-          <td>14</td>
-          <td>10</td>
-          <td>71.00%</td>
-          <td>19.87</td>
-        </tr>
-        
-        <tr>
-          <td><a href="/schedule/2023-24.html">2023-24</a></td>
-          <td><a href="/boxscores/202402280EDM.html">2/28/2024</a></td>
-          <td><a href="/teams/STL.html">STL</a></td>
-          <td>@</td>
-          <td><a href="/teams/EDM.html">EDM</a></td>
-          <td>L-OT</td>
-          <td>3</td>
-          <td>36</td>
-          <td>33</td>
-          <td>92.00%</td>
-          <td>64.2</td>
-        </tr>
-        
-        <tr>
-          <td><a href="/schedule/2023-24.html">2023-24</a></td>
-          <td><a href="/boxscores/202403020STL.html">3/2/2024</a></td>
-          <td><a href="/teams/STL.html">STL</a></td>
-          <td>vs</td>
-          <td><a href="/teams/MIN.html">MIN</a></td>
-          <td>W</td>
-          <td>1</td>
-          <td>22</td>
-          <td>21</td>
-          <td>96.00%</td>
-          <td>60.0</td>
-        </tr>
-        
-        <tr>
-          <td><a href="/schedule/2023-24.html">2023-24</a></td>
-          <td><a href="/boxscores/202403040PHI.html">3/4/2024</a></td>
-          <td><a href="/teams/STL.html">STL</a></td>
-          <td>@</td>
-          <td><a href="/teams/PHI.html">PHI</a></td>
-          <td>W</td>
-          <td>1</td>
-          <td>42</td>
-          <td>41</td>
-          <td>98.00%</td>
-          <td>65.0</td>
-        </tr>
-        
-        <tr>
-          <td><a href="/schedule/2023-24.html">2023-24</a></td>
-          <td><a href="/boxscores/202403070NJD.html">3/7/2024</a></td>
-          <td><a href="/teams/STL.html">STL</a></td>
-          <td>@</td>
-          <td><a href="/teams/NJD.html">NJD</a></td>
-          <td>L</td>
-          <td>3</td>
-          <td>32</td>
-          <td>29</td>
-          <td>91.00%</td>
-          <td>57.97</td>
-        </tr>
-        
-        <tr>
-          <td><a href="/schedule/2023-24.html">2023-24</a></td>
-          <td><a href="/boxscores/202403090NYR.html">3/9/2024</a></td>
-          <td><a href="/teams/STL.html">STL</a></td>
-          <td>@</td>
-          <td><a href="/teams/NYR.html">NYR</a></td>
-          <td>L</td>
-          <td>4</td>
-          <td>39</td>
-          <td>35</td>
-          <td>90.00%</td>
-          <td>60.0</td>
-        </tr>
-        
-        <tr>
-          <td><a href="/schedule/2023-24.html">2023-24</a></td>
-          <td><a href="/boxscores/202403130STL.html">3/13/2024</a></td>
-          <td><a href="/teams/STL.html">STL</a></td>
-          <td>vs</td>
-          <td><a href="/teams/LAK.html">LAK</a></td>
-          <td>W</td>
-          <td>1</td>
-          <td>41</td>
-          <td>40</td>
-          <td>98.00%</td>
-          <td>60.0</td>
-        </tr>
-        
-        <tr>
-          <td><a href="/schedule/2023-24.html">2023-24</a></td>
-          <td><a href="/boxscores/202403160STL.html">3/16/2024</a></td>
-          <td><a href="/teams/STL.html">STL</a></td>
-          <td>vs</td>
-          <td><a href="/teams/MIN.html">MIN</a></td>
-          <td>W</td>
-          <td>2</td>
-          <td>24</td>
-          <td>22</td>
-          <td>92.00%</td>
-          <td>65.0</td>
-        </tr>
-        
-        <tr>
-          <td><a href="/schedule/2023-24.html">2023-24</a></td>
-          <td><a href="/boxscores/202403190STL.html">3/19/2024</a></td>
-          <td><a href="/teams/STL.html">STL</a></td>
-          <td>vs</td>
-          <td><a href="/teams/COL.html">COL</a></td>
-          <td>L</td>
-          <td>4</td>
-          <td>35</td>
-          <td>31</td>
-          <td>89.00%</td>
-          <td>58.25</td>
-        </tr>
-        
-        <tr>
-          <td><a href="/schedule/2023-24.html">2023-24</a></td>
-          <td><a href="/boxscores/202403230MIN.html">3/23/2024</a></td>
-          <td><a href="/teams/STL.html">STL</a></td>
-          <td>@</td>
-          <td><a href="/teams/MIN.html">MIN</a></td>
-          <td>W</td>
-          <td>4</td>
-          <td>34</td>
-          <td>30</td>
-          <td>88.00%</td>
-          <td>62.08</td>
-        </tr>
-        
-        <tr>
-          <td><a href="/schedule/2023-24.html">2023-24</a></td>
-          <td><a href="/boxscores/202403250STL.html">3/25/2024</a></td>
-          <td><a href="/teams/STL.html">STL</a></td>
-          <td>vs</td>
-          <td><a href="/teams/VEG.html">VEG</a></td>
-          <td>L-OT</td>
-          <td>2</td>
-          <td>34</td>
-          <td>32</td>
-          <td>94.00%</td>
-          <td>60.82</td>
-        </tr>
-        
-        <tr>
-          <td><a href="/schedule/2023-24.html">2023-24</a></td>
-          <td><a href="/boxscores/202403280STL.html">3/28/2024</a></td>
-          <td><a href="/teams/STL.html">STL</a></td>
-          <td>vs</td>
-          <td><a href="/teams/CGY.html">CGY</a></td>
-          <td>W</td>
-          <td>3</td>
-          <td>28</td>
-          <td>25</td>
-          <td>89.00%</td>
-          <td>60.0</td>
-        </tr>
-        
-        <tr>
-          <td><a href="/schedule/2023-24.html">2023-24</a></td>
-          <td><a href="/boxscores/202404010STL.html">4/1/2024</a></td>
-          <td><a href="/teams/STL.html">STL</a></td>
-          <td>vs</td>
-          <td><a href="/teams/EDM.html">EDM</a></td>
-          <td>W</td>
-          <td>2</td>
-          <td>38</td>
-          <td>36</td>
-          <td>95.00%</td>
-          <td>62.0</td>
-        </tr>
-        
-        <tr>
-          <td><a href="/schedule/2023-24.html">2023-24</a></td>
-          <td><a href="/boxscores/202404040NSH.html">4/4/2024</a></td>
-          <td><a href="/teams/STL.html">STL</a></td>
-          <td>@</td>
-          <td><a href="/teams/NSH.html">NSH</a></td>
-          <td>L</td>
-          <td>4</td>
-          <td>29</td>
-          <td>25</td>
-          <td>86.00%</td>
-          <td>55.6</td>
-        </tr>
-        
-        <tr>
-          <td><a href="/schedule/2023-24.html">2023-24</a></td>
-          <td><a href="/boxscores/202404070ANA.html">4/7/2024</a></td>
-          <td><a href="/teams/STL.html">STL</a></td>
-          <td>@</td>
-          <td><a href="/teams/ANA.html">ANA</a></td>
-          <td>W</td>
-          <td>5</td>
-          <td>38</td>
-          <td>33</td>
-          <td>87.00%</td>
-          <td>65.0</td>
-        </tr>
-        
-        <tr>
-          <td><a href="/schedule/2023-24.html">2023-24</a></td>
-          <td><a href="/boxscores/202404120STL.html">4/12/2024</a></td>
-          <td><a href="/teams/STL.html">STL</a></td>
-          <td>vs</td>
-          <td><a href="/teams/CAR.html">CAR</a></td>
-          <td>L</td>
-          <td>3</td>
-          <td>40</td>
-          <td>37</td>
-          <td>93.00%</td>
-          <td>59.25</td>
-        </tr>
-        
-        <tr>
-          <td><a href="/schedule/2023-24.html">2023-24</a></td>
-          <td><a href="/boxscores/202404170DAL.html">4/17/2024</a></td>
-          <td><a href="/teams/STL.html">STL</a></td>
-          <td>@</td>
-          <td><a href="/teams/DAL.html">DAL</a></td>
-          <td>L-SO</td>
-          <td>1</td>
-          <td>37</td>
-          <td>36</td>
-          <td>97.00%</td>
-          <td>65.0</td>
-        </tr>
-        
-    </tbody>
-  </table>
+</main>
 </body>
 </html>
-    

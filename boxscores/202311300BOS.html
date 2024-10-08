@@ -1,155 +1,113 @@
-
-    <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Game 202311300BOS Boxscore</title>
-        <link rel="stylesheet" href="/assets/styles.css">
-        <script src="/assets/searchBar.js" defer></script>
-        <script src="/assets/tableSort.js"></script>
-        <style>
-            tr:hover {background-color: #F0FFF0;}
-        </style>
-    </head>
-    <body>
-        <nav id="navbar">
-            <a href="/">Home</a>
-            <a href="/players/">Players</a>
-            <a href="/teams/">Teams</a>
-            <a href="/leaders/">Leaders</a>
-            <a href="/probabilities/">Probabilities</a>
-            <a href="/boxscores/">Boxscores</a>
-            <a href="/schedule/">Schedule</a>
-
-            <div class="search-container">
-                <input type="text" id="searchInput" placeholder="Search players or teams..." oninput="searchEntities()" />
-                <ul id="suggestions"></ul>
-            </div>
-        </nav>
-
-        <main id="content">
-            <h1>Game 202311300BOS Boxscore</h1>
-
-            <h2>Skaters</h2>
-            <table id="202311300BOS_skaters" border="1">
-                <thead>
-                    <tr>
-                        <th>Date</th><th>Home Team</th><th>Away Team</th><th>Player</th><th>Team</th><th>G</th><th>A</th><th>PTS</th>
-                        <th>+/-</th><th>PIM</th><th>EVG</th><th>PPG</th><th>SHG</th><th>GWG</th><th>EV Assist</th><th>PP Assist</th>
-                        <th>SH Assist</th><th>SOG</th><th>S%</th><th>SHFT</th><th>TOI</th><th>iCF</th><th>SAT‑F</th><th>SAT‑A</th>
-                        <th>CF%</th><th>CRel%</th><th>ZSO</th><th>ZSD</th><th>oZS%</th><th>HIT</th><th>BLK</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr><td><a href="/boxscores/202311300BOS.html">11/30/2023</a></td><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/teams/SJS.html">SJS</a></td><td><a href="/players/Calen Addison.html">Calen Addison</a></td><td><a href="/teams/SJS.html">SJS</a></td><td>0</td><td>0</td><td>0</td><td>-1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>3</td><td>0</td><td>24</td><td>21.72</td><td>5</td><td>19</td><td>15</td><td>55.9</td><td>15.4</td><td>8</td><td>1</td><td>88.9</td><td>3</td><td>1</td></tr>
-<tr><td><a href="/boxscores/202311300BOS.html">11/30/2023</a></td><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/teams/SJS.html">SJS</a></td><td><a href="/players/Justin Bailey.html">Justin Bailey</a></td><td><a href="/teams/SJS.html">SJS</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>15</td><td>9.45</td><td>2</td><td>11</td><td>7</td><td>61.1</td><td>18.9</td><td>1</td><td>6</td><td>14.3</td><td>1</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202311300BOS.html">11/30/2023</a></td><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/teams/SJS.html">SJS</a></td><td><a href="/players/Matt Benning.html">Matt Benning</a></td><td><a href="/teams/SJS.html">SJS</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>2</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>21</td><td>15.45</td><td>2</td><td>15</td><td>17</td><td>46.9</td><td>2.2</td><td>5</td><td>5</td><td>50</td><td>1</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202311300BOS.html">11/30/2023</a></td><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/teams/SJS.html">SJS</a></td><td><a href="/players/Kyle Burroughs.html">Kyle Burroughs</a></td><td><a href="/teams/SJS.html">SJS</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>2</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>24</td><td>17.78</td><td>0</td><td>10</td><td>21</td><td>32.3</td><td>-18.3</td><td>4</td><td>10</td><td>28.6</td><td>4</td><td>1</td></tr>
-<tr><td><a href="/boxscores/202311300BOS.html">11/30/2023</a></td><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/teams/SJS.html">SJS</a></td><td><a href="/players/Ryan Carpenter.html">Ryan Carpenter</a></td><td><a href="/teams/SJS.html">SJS</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>18</td><td>12.95</td><td>0</td><td>7</td><td>13</td><td>35</td><td>-12.7</td><td>0</td><td>12</td><td>0</td><td>3</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202311300BOS.html">11/30/2023</a></td><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/teams/SJS.html">SJS</a></td><td><a href="/players/Anthony Duclair.html">Anthony Duclair</a></td><td><a href="/teams/SJS.html">SJS</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>3</td><td>0</td><td>22</td><td>16.07</td><td>6</td><td>18</td><td>17</td><td>51.4</td><td>8.9</td><td>6</td><td>4</td><td>60</td><td>1</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202311300BOS.html">11/30/2023</a></td><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/teams/SJS.html">SJS</a></td><td><a href="/players/William Eklund.html">William Eklund</a></td><td><a href="/teams/SJS.html">SJS</a></td><td>0</td><td>0</td><td>0</td><td>-2</td><td>2</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>21</td><td>18.33</td><td>1</td><td>14</td><td>14</td><td>50</td><td>6.2</td><td>6</td><td>2</td><td>75</td><td>2</td><td>1</td></tr>
-<tr><td><a href="/boxscores/202311300BOS.html">11/30/2023</a></td><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/teams/SJS.html">SJS</a></td><td><a href="/players/Ty Emberson.html">Ty Emberson</a></td><td><a href="/teams/SJS.html">SJS</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>2</td><td>0</td><td>25</td><td>17.68</td><td>4</td><td>16</td><td>18</td><td>47.1</td><td>2.5</td><td>3</td><td>11</td><td>21.4</td><td>2</td><td>2</td></tr>
-<tr><td><a href="/boxscores/202311300BOS.html">11/30/2023</a></td><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/teams/SJS.html">SJS</a></td><td><a href="/players/Mario Ferraro.html">Mario Ferraro</a></td><td><a href="/teams/SJS.html">SJS</a></td><td>0</td><td>0</td><td>0</td><td>-2</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>4</td><td>0</td><td>27</td><td>22.9</td><td>4</td><td>17</td><td>28</td><td>37.8</td><td>-13</td><td>3</td><td>15</td><td>16.7</td><td>3</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202311300BOS.html">11/30/2023</a></td><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/teams/SJS.html">SJS</a></td><td><a href="/players/Mikael Granlund.html">Mikael Granlund</a></td><td><a href="/teams/SJS.html">SJS</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>4</td><td>0</td><td>26</td><td>22.77</td><td>5</td><td>25</td><td>23</td><td>52.1</td><td>12.1</td><td>8</td><td>10</td><td>44.4</td><td>2</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202311300BOS.html">11/30/2023</a></td><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/teams/SJS.html">SJS</a></td><td><a href="/players/Tomáš Hertl.html">Tomáš Hertl</a></td><td><a href="/teams/SJS.html">SJS</a></td><td>0</td><td>0</td><td>0</td><td>-2</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>26</td><td>22.13</td><td>3</td><td>16</td><td>14</td><td>53.3</td><td>11</td><td>6</td><td>5</td><td>54.5</td><td>0</td><td>1</td></tr>
-<tr><td><a href="/boxscores/202311300BOS.html">11/30/2023</a></td><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/teams/SJS.html">SJS</a></td><td><a href="/players/Mike Hoffman.html">Mike Hoffman</a></td><td><a href="/teams/SJS.html">SJS</a></td><td>0</td><td>0</td><td>0</td><td>-2</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>2</td><td>0</td><td>18</td><td>15.47</td><td>3</td><td>13</td><td>15</td><td>46.4</td><td>1.4</td><td>4</td><td>4</td><td>50</td><td>1</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202311300BOS.html">11/30/2023</a></td><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/teams/SJS.html">SJS</a></td><td><a href="/players/Luke Kunin.html">Luke Kunin</a></td><td><a href="/teams/SJS.html">SJS</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>20</td><td>13.83</td><td>1</td><td>9</td><td>14</td><td>39.1</td><td>-8</td><td>3</td><td>5</td><td>37.5</td><td>2</td><td>2</td></tr>
-<tr><td><a href="/boxscores/202311300BOS.html">11/30/2023</a></td><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/teams/SJS.html">SJS</a></td><td><a href="/players/Jacob MacDonald.html">Jacob MacDonald</a></td><td><a href="/teams/SJS.html">SJS</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>15</td><td>11.5</td><td>1</td><td>11</td><td>8</td><td>57.9</td><td>15.2</td><td>2</td><td>4</td><td>33.3</td><td>1</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202311300BOS.html">11/30/2023</a></td><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/teams/SJS.html">SJS</a></td><td><a href="/players/Nikita Okhotyuk.html">Nikita Okhotyuk</a></td><td><a href="/teams/SJS.html">SJS</a></td><td>0</td><td>0</td><td>0</td><td>-1</td><td>2</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>24</td><td>17.65</td><td>4</td><td>11</td><td>20</td><td>35.5</td><td>-13.9</td><td>4</td><td>8</td><td>33.3</td><td>4</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202311300BOS.html">11/30/2023</a></td><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/teams/SJS.html">SJS</a></td><td><a href="/players/Givani Smith.html">Givani Smith</a></td><td><a href="/teams/SJS.html">SJS</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>7</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>5</td><td>2.98</td><td>0</td><td>0</td><td>2</td><td>0</td><td>-46.2</td><td>0</td><td>5</td><td>0</td><td>1</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202311300BOS.html">11/30/2023</a></td><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/teams/SJS.html">SJS</a></td><td><a href="/players/Nico Sturm.html">Nico Sturm</a></td><td><a href="/teams/SJS.html">SJS</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>2</td><td>0</td><td>23</td><td>15.52</td><td>4</td><td>13</td><td>20</td><td>39.4</td><td>-8.6</td><td>4</td><td>4</td><td>50</td><td>2</td><td>1</td></tr>
-<tr><td><a href="/boxscores/202311300BOS.html">11/30/2023</a></td><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/teams/SJS.html">SJS</a></td><td><a href="/players/Fabian Zetterlund.html">Fabian Zetterlund</a></td><td><a href="/teams/SJS.html">SJS</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>5</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>2</td><td>0</td><td>23</td><td>18.92</td><td>4</td><td>19</td><td>19</td><td>50</td><td>7.1</td><td>7</td><td>6</td><td>53.8</td><td>0</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202311300BOS.html">11/30/2023</a></td><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/teams/SJS.html">SJS</a></td><td><a href="/players/Mackenzie Blackwood.html">Mackenzie Blackwood</a></td><td><a href="/teams/SJS.html">SJS</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>3</td><td>60</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202311300BOS.html">11/30/2023</a></td><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/teams/SJS.html">SJS</a></td><td><a href="/players/--.html">--</a></td><td><a href="/teams/--.html">--</a></td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td></tr>
-<tr><td><a href="/boxscores/202311300BOS.html">11/30/2023</a></td><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/teams/SJS.html">SJS</a></td><td><a href="/players/John Beecher.html">John Beecher</a></td><td><a href="/teams/BOS.html">BOS</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>14</td><td>10.8</td><td>2</td><td>8</td><td>9</td><td>47.1</td><td>-8.9</td><td>0</td><td>4</td><td>0</td><td>2</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202311300BOS.html">11/30/2023</a></td><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/teams/SJS.html">SJS</a></td><td><a href="/players/Brandon Carlo.html">Brandon Carlo</a></td><td><a href="/teams/BOS.html">BOS</a></td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>2</td><td>0</td><td>24</td><td>20.57</td><td>4</td><td>15</td><td>24</td><td>38.5</td><td>-25.3</td><td>1</td><td>9</td><td>10</td><td>2</td><td>4</td></tr>
-<tr><td><a href="/boxscores/202311300BOS.html">11/30/2023</a></td><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/teams/SJS.html">SJS</a></td><td><a href="/players/Charlie Coyle.html">Charlie Coyle</a></td><td><a href="/teams/BOS.html">BOS</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>2</td><td>0</td><td>26</td><td>17.27</td><td>4</td><td>16</td><td>16</td><td>50</td><td>-6.6</td><td>8</td><td>8</td><td>50</td><td>1</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202311300BOS.html">11/30/2023</a></td><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/teams/SJS.html">SJS</a></td><td><a href="/players/Jake DeBrusk.html">Jake DeBrusk</a></td><td><a href="/teams/BOS.html">BOS</a></td><td>1</td><td>0</td><td>1</td><td>1</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>2</td><td>50</td><td>22</td><td>14.43</td><td>3</td><td>15</td><td>10</td><td>60</td><td>7</td><td>7</td><td>1</td><td>87.5</td><td>0</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202311300BOS.html">11/30/2023</a></td><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/teams/SJS.html">SJS</a></td><td><a href="/players/Derek Forbort.html">Derek Forbort</a></td><td><a href="/teams/BOS.html">BOS</a></td><td>0</td><td>0</td><td>0</td><td>1</td><td>2</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>28</td><td>18.73</td><td>2</td><td>18</td><td>13</td><td>58.1</td><td>4.9</td><td>4</td><td>4</td><td>50</td><td>2</td><td>1</td></tr>
-<tr><td><a href="/boxscores/202311300BOS.html">11/30/2023</a></td><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/teams/SJS.html">SJS</a></td><td><a href="/players/Trent Frederic.html">Trent Frederic</a></td><td><a href="/teams/BOS.html">BOS</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>5</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>3</td><td>0</td><td>18</td><td>12.32</td><td>3</td><td>10</td><td>10</td><td>50</td><td>-5.7</td><td>6</td><td>3</td><td>66.7</td><td>3</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202311300BOS.html">11/30/2023</a></td><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/teams/SJS.html">SJS</a></td><td><a href="/players/Morgan Geekie.html">Morgan Geekie</a></td><td><a href="/teams/BOS.html">BOS</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>3</td><td>0</td><td>17</td><td>13.6</td><td>5</td><td>17</td><td>10</td><td>63</td><td>11.1</td><td>0</td><td>3</td><td>0</td><td>0</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202311300BOS.html">11/30/2023</a></td><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/teams/SJS.html">SJS</a></td><td><a href="/players/Matt Grzelcyk.html">Matt Grzelcyk</a></td><td><a href="/teams/BOS.html">BOS</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>2</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>23</td><td>15.63</td><td>0</td><td>10</td><td>22</td><td>31.2</td><td>-33.3</td><td>7</td><td>6</td><td>53.8</td><td>1</td><td>2</td></tr>
-<tr><td><a href="/boxscores/202311300BOS.html">11/30/2023</a></td><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/teams/SJS.html">SJS</a></td><td><a href="/players/Danton Heinen.html">Danton Heinen</a></td><td><a href="/teams/BOS.html">BOS</a></td><td>1</td><td>0</td><td>1</td><td>1</td><td>0</td><td>1</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>2</td><td>50</td><td>20</td><td>15.25</td><td>3</td><td>17</td><td>18</td><td>48.6</td><td>-8.9</td><td>4</td><td>3</td><td>57.1</td><td>2</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202311300BOS.html">11/30/2023</a></td><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/teams/SJS.html">SJS</a></td><td><a href="/players/Jakub Lauko.html">Jakub Lauko</a></td><td><a href="/teams/BOS.html">BOS</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>2</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>2</td><td>0</td><td>15</td><td>9.48</td><td>2</td><td>6</td><td>9</td><td>40</td><td>-17</td><td>2</td><td>3</td><td>40</td><td>4</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202311300BOS.html">11/30/2023</a></td><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/teams/SJS.html">SJS</a></td><td><a href="/players/Hampus Lindholm.html">Hampus Lindholm</a></td><td><a href="/teams/BOS.html">BOS</a></td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>28</td><td>21.83</td><td>3</td><td>26</td><td>14</td><td>65</td><td>16.5</td><td>8</td><td>5</td><td>61.5</td><td>1</td><td>2</td></tr>
-<tr><td><a href="/boxscores/202311300BOS.html">11/30/2023</a></td><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/teams/SJS.html">SJS</a></td><td><a href="/players/Brad Marchand.html">Brad Marchand</a></td><td><a href="/teams/BOS.html">BOS</a></td><td>0</td><td>0</td><td>0</td><td>1</td><td>9</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>4</td><td>0</td><td>20</td><td>17.07</td><td>6</td><td>16</td><td>13</td><td>55.2</td><td>0.8</td><td>11</td><td>3</td><td>78.6</td><td>0</td><td>1</td></tr>
-<tr><td><a href="/boxscores/202311300BOS.html">11/30/2023</a></td><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/teams/SJS.html">SJS</a></td><td><a href="/players/Charlie McAvoy.html">Charlie McAvoy</a></td><td><a href="/teams/BOS.html">BOS</a></td><td>0</td><td>1</td><td>1</td><td>1</td><td>2</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>3</td><td>0</td><td>28</td><td>24.57</td><td>3</td><td>26</td><td>13</td><td>66.7</td><td>18.9</td><td>18</td><td>4</td><td>81.8</td><td>0</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202311300BOS.html">11/30/2023</a></td><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/teams/SJS.html">SJS</a></td><td><a href="/players/David Pastrňák.html">David Pastrňák</a></td><td><a href="/teams/BOS.html">BOS</a></td><td>0</td><td>2</td><td>2</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>1</td><td>0</td><td>4</td><td>0</td><td>22</td><td>19.08</td><td>7</td><td>25</td><td>10</td><td>71.4</td><td>24.8</td><td>15</td><td>3</td><td>83.3</td><td>2</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202311300BOS.html">11/30/2023</a></td><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/teams/SJS.html">SJS</a></td><td><a href="/players/Matthew Poitras.html">Matthew Poitras</a></td><td><a href="/teams/BOS.html">BOS</a></td><td>0</td><td>1</td><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>3</td><td>0</td><td>21</td><td>14.43</td><td>5</td><td>17</td><td>15</td><td>53.1</td><td>-2.2</td><td>5</td><td>3</td><td>62.5</td><td>1</td><td>1</td></tr>
-<tr><td><a href="/boxscores/202311300BOS.html">11/30/2023</a></td><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/teams/SJS.html">SJS</a></td><td><a href="/players/Kevin Shattenkirk.html">Kevin Shattenkirk</a></td><td><a href="/teams/BOS.html">BOS</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>2</td><td>0</td><td>20</td><td>14.32</td><td>4</td><td>15</td><td>13</td><td>53.6</td><td>-1.4</td><td>6</td><td>2</td><td>75</td><td>0</td><td>1</td></tr>
-<tr><td><a href="/boxscores/202311300BOS.html">11/30/2023</a></td><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/teams/SJS.html">SJS</a></td><td><a href="/players/James van Riemsdyk.html">James van Riemsdyk</a></td><td><a href="/teams/BOS.html">BOS</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>22</td><td>16.35</td><td>0</td><td>19</td><td>10</td><td>65.5</td><td>14.9</td><td>9</td><td>3</td><td>75</td><td>1</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202311300BOS.html">11/30/2023</a></td><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/teams/SJS.html">SJS</a></td><td><a href="/players/Pavel Zacha.html">Pavel Zacha</a></td><td><a href="/teams/BOS.html">BOS</a></td><td>1</td><td>1</td><td>2</td><td>1</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>3</td><td>33.3</td><td>20</td><td>14.7</td><td>3</td><td>16</td><td>6</td><td>72.7</td><td>22.7</td><td>13</td><td>2</td><td>86.7</td><td>0</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202311300BOS.html">11/30/2023</a></td><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/teams/SJS.html">SJS</a></td><td><a href="/players/Jeremy Swayman.html">Jeremy Swayman</a></td><td><a href="/teams/BOS.html">BOS</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>4</td><td>59.57</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202311300BOS.html">11/30/2023</a></td><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/teams/SJS.html">SJS</a></td><td><a href="/players/--.html">--</a></td><td><a href="/teams/--.html">--</a></td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td></tr>
-
-                </tbody>
-            </table>
-
-            <h2>Goalies</h2>
-            <table id="202311300BOS_goalies" border="1">
-                <thead>
-                    <tr>
-                        <th>Home Team</th><th>Away Team</th><th>Goalie</th><th>Team</th><th>DEC</th><th>GA</th><th>SA</th><th>SV</th>
-                        <th>SV%</th><th>SO</th><th>PIM</th><th>Goalie TOI</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/teams/SJS.html">SJS</a></td><td><a href="/players/blackma01.html">Mackenzie Blackwood</a></td><td><a href="/teams/SJS.html">SJS</a></td><td>L</td><td>3</td><td>37</td><td>34</td><td>0.919</td><td>0</td><td>0</td><td>60:00:00</td></tr>
-<tr><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/teams/SJS.html">SJS</a></td><td><a href="/players/swaymje01.html">Jeremy Swayman</a></td><td><a href="/teams/BOS.html">BOS</a></td><td>W</td><td>0</td><td>26</td><td>26</td><td>1.0</td><td>1</td><td>0</td><td>59:34:00</td></tr>
-
-                </tbody>
-            </table>
-
-            <h2>Scoring</h2>
-            <table id="202311300BOS_scoring" border="1">
-                <thead>
-                    <tr>
-                        <th>Home Team</th><th>Away Team</th><th>Period</th><th>Time</th><th>Team</th><th>Info</th>
-                        <th>Scorer</th><th>Assist1</th><th>Assist2</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/teams/SJS.html">SJS</a></td><td>1st Period</td><td>1st Period</td><td><a href="/teams/1st Period.html">1st Period</a></td><td>1st Period</td><td><a href="/players/1st Period.html">1st Period</a></td><td><a href="/players/1st Period.html">1st Period</a></td><td><a href="/players/1st Period.html">1st Period</a></td></tr>
-<tr><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/teams/SJS.html">SJS</a></td><td>1st Period</td><td>1:39</td><td><a href="/teams/BOS.html">BOS</a></td><td>--</td><td><a href="/players/Danton Heinen.html">Danton Heinen</a></td><td><a href="/players/Matthew Poitras.html">Matthew Poitras</a></td><td><a href="/players/Matthew Poitras.html">Matthew Poitras</a></td></tr>
-<tr><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/teams/SJS.html">SJS</a></td><td>1st Period</td><td>8:10</td><td><a href="/teams/BOS.html">BOS</a></td><td>--</td><td><a href="/players/Jake DeBrusk.html">Jake DeBrusk</a></td><td><a href="/players/Pavel Zacha.html">Pavel Zacha</a></td><td><a href="/players/David Pastrňák.html">David Pastrňák</a></td></tr>
-<tr><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/teams/SJS.html">SJS</a></td><td>3rd Period</td><td>3rd Period</td><td><a href="/teams/3rd Period.html">3rd Period</a></td><td>3rd Period</td><td><a href="/players/3rd Period.html">3rd Period</a></td><td><a href="/players/3rd Period.html">3rd Period</a></td><td><a href="/players/3rd Period.html">3rd Period</a></td></tr>
-<tr><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/teams/SJS.html">SJS</a></td><td>3rd Period</td><td>6:37</td><td><a href="/teams/BOS.html">BOS</a></td><td>PP</td><td><a href="/players/Pavel Zacha.html">Pavel Zacha</a></td><td><a href="/players/David Pastrňák.html">David Pastrňák</a></td><td><a href="/players/Charlie McAvoy.html">Charlie McAvoy</a></td></tr>
-
-                </tbody>
-            </table>
-
-            <h2>Penalties</h2>
-            <table id="202311300BOS_penalties" border="1">
-                <thead>
-                    <tr>
-                        <th>Home Team</th><th>Away Team</th><th>Period</th><th>Time</th><th>Team</th><th>Player</th>
-                        <th>Penalty</th><th>PIM</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/teams/SJS.html">SJS</a></td><td>1st Period</td><td>1st Period</td><td><a href="/teams/1st Period.html">1st Period</a></td><td><a href="/players/1st Period.html">1st Period</a></td><td>1st Period</td><td>1st Period</td></tr>
-<tr><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/teams/SJS.html">SJS</a></td><td>1st Period</td><td>9:48</td><td><a href="/teams/SJS.html">SJS</a></td><td><a href="/players/William Eklund.html">William Eklund</a></td><td>Hooking</td><td>2 min</td></tr>
-<tr><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/teams/SJS.html">SJS</a></td><td>1st Period</td><td>15:21</td><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/players/Jakub Lauko.html">Jakub Lauko</a></td><td>Tripping</td><td>2 min</td></tr>
-<tr><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/teams/SJS.html">SJS</a></td><td>2nd Period</td><td>2nd Period</td><td><a href="/teams/2nd Period.html">2nd Period</a></td><td><a href="/players/2nd Period.html">2nd Period</a></td><td>2nd Period</td><td>2nd Period</td></tr>
-<tr><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/teams/SJS.html">SJS</a></td><td>2nd Period</td><td>2:48</td><td><a href="/teams/SJS.html">SJS</a></td><td><a href="/players/Nikita Okhotyuk.html">Nikita Okhotyuk</a></td><td>Hooking</td><td>2 min</td></tr>
-<tr><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/teams/SJS.html">SJS</a></td><td>2nd Period</td><td>3:39</td><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/players/Brad Marchand.html">Brad Marchand</a></td><td>Hooking</td><td>2 min</td></tr>
-<tr><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/teams/SJS.html">SJS</a></td><td>2nd Period</td><td>13:57</td><td><a href="/teams/SJS.html">SJS</a></td><td><a href="/players/Kyle Burroughs.html">Kyle Burroughs</a></td><td>High Sticking</td><td>2 min</td></tr>
-<tr><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/teams/SJS.html">SJS</a></td><td>2nd Period</td><td>13:57</td><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/players/Derek Forbort.html">Derek Forbort</a></td><td>Roughing</td><td>2 min</td></tr>
-<tr><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/teams/SJS.html">SJS</a></td><td>2nd Period</td><td>13:57</td><td><a href="/teams/SJS.html">SJS</a></td><td><a href="/players/Givani Smith.html">Givani Smith</a></td><td>Boarding</td><td>2 min</td></tr>
-<tr><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/teams/SJS.html">SJS</a></td><td>2nd Period</td><td>16:40</td><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/players/Matt Grzelcyk.html">Matt Grzelcyk</a></td><td>Interference</td><td>2 min</td></tr>
-<tr><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/teams/SJS.html">SJS</a></td><td>2nd Period</td><td>19:06</td><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/players/Trent Frederic.html">Trent Frederic</a></td><td>Fighting</td><td>5 min</td></tr>
-<tr><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/teams/SJS.html">SJS</a></td><td>2nd Period</td><td>19:06</td><td><a href="/teams/SJS.html">SJS</a></td><td><a href="/players/Givani Smith.html">Givani Smith</a></td><td>Fighting</td><td>5 min</td></tr>
-<tr><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/teams/SJS.html">SJS</a></td><td>2nd Period</td><td>19:34</td><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/players/Brad Marchand.html">Brad Marchand</a></td><td>Roughing</td><td>2 min</td></tr>
-<tr><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/teams/SJS.html">SJS</a></td><td>2nd Period</td><td>19:34</td><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/players/Brad Marchand.html">Brad Marchand</a></td><td>Fighting</td><td>5 min</td></tr>
-<tr><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/teams/SJS.html">SJS</a></td><td>2nd Period</td><td>19:34</td><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/players/Charlie McAvoy.html">Charlie McAvoy</a></td><td>Boarding</td><td>2 min</td></tr>
-<tr><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/teams/SJS.html">SJS</a></td><td>2nd Period</td><td>19:34</td><td><a href="/teams/SJS.html">SJS</a></td><td><a href="/players/Fabian Zetterlund.html">Fabian Zetterlund</a></td><td>Fighting</td><td>5 min</td></tr>
-<tr><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/teams/SJS.html">SJS</a></td><td>3rd Period</td><td>3rd Period</td><td><a href="/teams/3rd Period.html">3rd Period</a></td><td><a href="/players/3rd Period.html">3rd Period</a></td><td>3rd Period</td><td>3rd Period</td></tr>
-<tr><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/teams/SJS.html">SJS</a></td><td>3rd Period</td><td>5:43</td><td><a href="/teams/SJS.html">SJS</a></td><td><a href="/players/Matt Benning.html">Matt Benning</a></td><td>Slashing</td><td>2 min</td></tr>
-
-                </tbody>
-            </table>
-        </main>
-    </body>
-    </html>
-    
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>San Jose Sharks at Boston Bruins: November 30, 2023</title>
+<link rel="stylesheet" href="/assets/styles.css">
+<script src="/assets/searchBar.js"></script>
+<script src="/assets/tableSort.js"></script>
+</head>
+<body>
+<nav id="navbar">
+<ul>
+<li><a href="/">Home</a></li>
+<li><a href="/players/">Players</a></li>
+<li><a href="/teams/">Teams</a></li>
+<li><a href="/probabilities/">Probabilities</a></li>
+<li><a href="/boxscores/">Boxscores</a></li>
+<li><a href="/versus/">Head to Head Stats</a></li>
+<li><a href="/leaders/">Leaders</a></li>
+<li><a href="/seasons/2025/schedule.html">Schedule and Results</a></li>
+<li><a href="/seasons/2025/standings.html">Current Standings</a></li>
+<li><a href="/seasons/2025/rosters.html">Team Rosters</a></li>
+<li>
+<input type="text" id="searchBar" placeholder="Search for players or teams..." oninput="performSearch()" autocomplete="off">
+<div id="searchResults" class="dropdown"></div>
+<button id="searchButton" onclick="handleSearch()">Search</button>
+</li>
+</ul>
+</nav>
+<main id="content">
+<div class="scorebox">
+<div class="team"><div><a href="/teams/SJS.html">SJS</a></div><div class="score">0</div></div>
+<div class="team"><div><a href="/teams/BOS.html">BOS</a></div><div class="score">3</div></div>
+<div class="date">November 30, 2023</div>
+</div>
+<table id="SJS_skaters">
+<tr><th>Team</th><th>Player</th><th>G</th><th>A</th><th>PTS</th><th>SOG</th><th>HIT</th><th>BLK</th><th>TOI</th><th>PIM</th><th>SAT-F</th><th>SAT-A</th><th>CF%</th><th>CRel%</th></tr>
+<tr><td><a href="/teams/SJS.html">SJS</a></td><td><a href="/players/duclaan01.html">Anthony Duclair</a></td><td>0</td><td>0</td><td>0</td><td>3</td><td>1</td><td>0</td><td>16.07</td><td>0</td><td>18</td><td>17</td><td>51.40%</td><td>8.90%</td></tr>
+<tr><td><a href="/teams/SJS.html">SJS</a></td><td><a href="/players/addisca01.html">Calen Addison</a></td><td>0</td><td>0</td><td>0</td><td>3</td><td>3</td><td>1</td><td>21.72</td><td>0</td><td>19</td><td>15</td><td>55.90%</td><td>15.40%</td></tr>
+<tr><td><a href="/teams/SJS.html">SJS</a></td><td><a href="/players/zettefa01.html">Fabian Zetterlund</a></td><td>0</td><td>0</td><td>0</td><td>2</td><td>0</td><td>0</td><td>18.92</td><td>5</td><td>19</td><td>19</td><td>50.00%</td><td>7.10%</td></tr>
+<tr><td><a href="/teams/SJS.html">SJS</a></td><td><a href="/players/smithgi01.html">Givani Smith</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>2.98</td><td>7</td><td>0</td><td>2</td><td>0.00%</td><td>-46.20%</td></tr>
+<tr><td><a href="/teams/SJS.html">SJS</a></td><td><a href="/players/macdoja02.html">Jacob MacDonald</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>11.5</td><td>0</td><td>11</td><td>8</td><td>57.90%</td><td>15.20%</td></tr>
+<tr><td><a href="/teams/SJS.html">SJS</a></td><td><a href="/players/baileju01.html">Justin Bailey</a></td><td>0</td><td>0</td><td>0</td><td>1</td><td>1</td><td>0</td><td>9.45</td><td>0</td><td>11</td><td>7</td><td>61.10%</td><td>18.90%</td></tr>
+<tr><td><a href="/teams/SJS.html">SJS</a></td><td><a href="/players/burroky01.html">Kyle Burroughs</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>4</td><td>1</td><td>17.78</td><td>2</td><td>10</td><td>21</td><td>32.30%</td><td>-18.30%</td></tr>
+<tr><td><a href="/teams/SJS.html">SJS</a></td><td><a href="/players/kuninlu01.html">Luke Kunin</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>2</td><td>2</td><td>13.83</td><td>0</td><td>9</td><td>14</td><td>39.10%</td><td>-8.00%</td></tr>
+<tr><td><a href="/teams/SJS.html">SJS</a></td><td><a href="/players/ferrama01.html">Mario Ferraro</a></td><td>0</td><td>0</td><td>0</td><td>4</td><td>3</td><td>0</td><td>22.9</td><td>0</td><td>17</td><td>28</td><td>37.80%</td><td>-13.00%</td></tr>
+<tr><td><a href="/teams/SJS.html">SJS</a></td><td><a href="/players/bennima01.html">Matt Benning</a></td><td>0</td><td>0</td><td>0</td><td>1</td><td>1</td><td>0</td><td>15.45</td><td>2</td><td>15</td><td>17</td><td>46.90%</td><td>2.20%</td></tr>
+<tr><td><a href="/teams/SJS.html">SJS</a></td><td><a href="/players/granlmi01.html">Mikael Granlund</a></td><td>0</td><td>0</td><td>0</td><td>4</td><td>2</td><td>0</td><td>22.77</td><td>0</td><td>25</td><td>23</td><td>52.10%</td><td>12.10%</td></tr>
+<tr><td><a href="/teams/SJS.html">SJS</a></td><td><a href="/players/hoffmmi02.html">Mike Hoffman</a></td><td>0</td><td>0</td><td>0</td><td>2</td><td>1</td><td>0</td><td>15.47</td><td>0</td><td>13</td><td>15</td><td>46.40%</td><td>1.40%</td></tr>
+<tr><td><a href="/teams/SJS.html">SJS</a></td><td><a href="/players/sturmni01.html">Nico Sturm</a></td><td>0</td><td>0</td><td>0</td><td>2</td><td>2</td><td>1</td><td>15.52</td><td>0</td><td>13</td><td>20</td><td>39.40%</td><td>-8.60%</td></tr>
+<tr><td><a href="/teams/SJS.html">SJS</a></td><td><a href="/players/okhotni01.html">Nikita Okhotyuk</a></td><td>0</td><td>0</td><td>0</td><td>1</td><td>4</td><td>0</td><td>17.65</td><td>2</td><td>11</td><td>20</td><td>35.50%</td><td>-13.90%</td></tr>
+<tr><td><a href="/teams/SJS.html">SJS</a></td><td><a href="/players/carpery01.html">Ryan Carpenter</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>3</td><td>0</td><td>12.95</td><td>0</td><td>7</td><td>13</td><td>35.00%</td><td>-12.70%</td></tr>
+<tr><td><a href="/teams/SJS.html">SJS</a></td><td><a href="/players/hertlto01.html">Tomáš Hertl</a></td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>1</td><td>22.13</td><td>0</td><td>16</td><td>14</td><td>53.30%</td><td>11.00%</td></tr>
+<tr><td><a href="/teams/SJS.html">SJS</a></td><td><a href="/players/emberty01.html">Ty Emberson</a></td><td>0</td><td>0</td><td>0</td><td>2</td><td>2</td><td>2</td><td>17.68</td><td>0</td><td>16</td><td>18</td><td>47.10%</td><td>2.50%</td></tr>
+<tr><td><a href="/teams/SJS.html">SJS</a></td><td><a href="/players/eklunwi01.html">William Eklund</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>2</td><td>1</td><td>18.33</td><td>2</td><td>14</td><td>14</td><td>50.00%</td><td>6.20%</td></tr>
+</table>
+<table id="BOS_skaters">
+<tr><th>Team</th><th>Player</th><th>G</th><th>A</th><th>PTS</th><th>SOG</th><th>HIT</th><th>BLK</th><th>TOI</th><th>PIM</th><th>SAT-F</th><th>SAT-A</th><th>CF%</th><th>CRel%</th></tr>
+<tr><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/players/marchbr03.html">Brad Marchand</a></td><td>0</td><td>0</td><td>0</td><td>4</td><td>0</td><td>1</td><td>17.07</td><td>9</td><td>16</td><td>13</td><td>55.20%</td><td>0.80%</td></tr>
+<tr><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/players/carlobr01.html">Brandon Carlo</a></td><td>0</td><td>0</td><td>0</td><td>2</td><td>2</td><td>4</td><td>20.57</td><td>0</td><td>15</td><td>24</td><td>38.50%</td><td>-25.30%</td></tr>
+<tr><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/players/coylech01.html">Charlie Coyle</a></td><td>0</td><td>0</td><td>0</td><td>2</td><td>1</td><td>0</td><td>17.27</td><td>0</td><td>16</td><td>16</td><td>50.00%</td><td>-6.60%</td></tr>
+<tr><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/players/mcavoch01.html">Charlie McAvoy</a></td><td>0</td><td>1</td><td>1</td><td>3</td><td>0</td><td>0</td><td>24.57</td><td>2</td><td>26</td><td>13</td><td>66.70%</td><td>18.90%</td></tr>
+<tr><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/players/heineda01.html">Danton Heinen</a></td><td>1</td><td>0</td><td>1</td><td>2</td><td>2</td><td>0</td><td>15.25</td><td>0</td><td>17</td><td>18</td><td>48.60%</td><td>-8.90%</td></tr>
+<tr><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/players/pastrda01.html">David Pastrňák</a></td><td>0</td><td>2</td><td>2</td><td>4</td><td>2</td><td>0</td><td>19.08</td><td>0</td><td>25</td><td>10</td><td>71.40%</td><td>24.80%</td></tr>
+<tr><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/players/forbode01.html">Derek Forbort</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>2</td><td>1</td><td>18.73</td><td>2</td><td>18</td><td>13</td><td>58.10%</td><td>4.90%</td></tr>
+<tr><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/players/lindhha01.html">Hampus Lindholm</a></td><td>0</td><td>0</td><td>0</td><td>1</td><td>1</td><td>2</td><td>21.83</td><td>0</td><td>26</td><td>14</td><td>65.00%</td><td>16.50%</td></tr>
+<tr><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/players/debruja01.html">Jake DeBrusk</a></td><td>1</td><td>0</td><td>1</td><td>2</td><td>0</td><td>0</td><td>14.43</td><td>0</td><td>15</td><td>10</td><td>60.00%</td><td>7.00%</td></tr>
+<tr><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/players/laukoja01.html">Jakub Lauko</a></td><td>0</td><td>0</td><td>0</td><td>2</td><td>4</td><td>0</td><td>9.48</td><td>2</td><td>6</td><td>9</td><td>40.00%</td><td>-17.00%</td></tr>
+<tr><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/players/vanrija01.html">James van Riemsdyk</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>16.35</td><td>0</td><td>19</td><td>10</td><td>65.50%</td><td>14.90%</td></tr>
+<tr><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/players/beechjo01.html">John Beecher</a></td><td>0</td><td>0</td><td>0</td><td>1</td><td>2</td><td>0</td><td>10.8</td><td>0</td><td>8</td><td>9</td><td>47.10%</td><td>-8.90%</td></tr>
+<tr><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/players/shattke01.html">Kevin Shattenkirk</a></td><td>0</td><td>0</td><td>0</td><td>2</td><td>0</td><td>1</td><td>14.32</td><td>0</td><td>15</td><td>13</td><td>53.60%</td><td>-1.40%</td></tr>
+<tr><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/players/grzelma01.html">Matt Grzelcyk</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>2</td><td>15.63</td><td>2</td><td>10</td><td>22</td><td>31.20%</td><td>-33.30%</td></tr>
+<tr><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/players/poitrma01.html">Matthew Poitras</a></td><td>0</td><td>1</td><td>1</td><td>3</td><td>1</td><td>1</td><td>14.43</td><td>0</td><td>17</td><td>15</td><td>53.10%</td><td>-2.20%</td></tr>
+<tr><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/players/geekimo01.html">Morgan Geekie</a></td><td>0</td><td>0</td><td>0</td><td>3</td><td>0</td><td>0</td><td>13.6</td><td>0</td><td>17</td><td>10</td><td>63.00%</td><td>11.10%</td></tr>
+<tr><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/players/zachapa01.html">Pavel Zacha</a></td><td>1</td><td>1</td><td>2</td><td>3</td><td>0</td><td>0</td><td>14.7</td><td>0</td><td>16</td><td>6</td><td>72.70%</td><td>22.70%</td></tr>
+<tr><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/players/fredetr01.html">Trent Frederic</a></td><td>0</td><td>0</td><td>0</td><td>3</td><td>3</td><td>0</td><td>12.32</td><td>5</td><td>10</td><td>10</td><td>50.00%</td><td>-5.70%</td></tr>
+</table>
+<table id="SJS_goalies">
+<tr><th>Team</th><th>Goalie</th><th>DEC</th><th>GA</th><th>SA</th><th>SV</th><th>SV%</th><th>SO</th><th>PIM</th><th>TOI</th></tr>
+<tr><td><a href="/teams/SJS.html">SJS</a></td><td><a href="/players/blackma01.html">Mackenzie Blackwood</a></td><td>L</td><td>3</td><td>37</td><td>34</td><td>91.90%</td><td>0</td><td>0</td><td>60.0</td></tr>
+</table>
+<table id="BOS_goalies">
+<tr><th>Team</th><th>Goalie</th><th>DEC</th><th>GA</th><th>SA</th><th>SV</th><th>SV%</th><th>SO</th><th>PIM</th><th>TOI</th></tr>
+<tr><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/players/swaymje01.html">Jeremy Swayman</a></td><td>W</td><td>0</td><td>26</td><td>26</td><td>100.00%</td><td>1</td><td>0</td><td>59.57</td></tr>
+</table>
+<table id="scoring">
+<tr><th>Team</th><th>Time</th><th>Info</th><th>Scorer</th><th>Assist 1</th><th>Assist 2</th></tr>
+<tr><td><a href="/teams/BOS.html">BOS</a></td><td>1.65</td><td>--</td><td><a href="/players/heineda01.html">Danton Heinen</a></td><td><a href="/players/poitrma01.html">Matthew Poitras</a></td><td><a href="/players/poitrma01.html">Matthew Poitras</a></td></tr>
+<tr><td><a href="/teams/BOS.html">BOS</a></td><td>8.17</td><td>--</td><td><a href="/players/debruja01.html">Jake DeBrusk</a></td><td><a href="/players/zachapa01.html">Pavel Zacha</a></td><td><a href="/players/pastrda01.html">David Pastrňák</a></td></tr>
+<tr><td><a href="/teams/BOS.html">BOS</a></td><td>46.62</td><td>PP</td><td><a href="/players/zachapa01.html">Pavel Zacha</a></td><td><a href="/players/pastrda01.html">David Pastrňák</a></td><td><a href="/players/mcavoch01.html">Charlie McAvoy</a></td></tr>
+</table>
+<table id="penalties">
+<tr><th>Team</th><th>Time</th><th>Player</th><th>Penalty</th><th>PIM</th></tr>
+<tr><td><a href="/teams/SJS.html">SJS</a></td><td>9.8</td><td><a href="/players/eklunwi01.html">William Eklund</a></td><td>Hooking</td><td>2 min</td></tr>
+<tr><td><a href="/teams/BOS.html">BOS</a></td><td>15.35</td><td><a href="/players/laukoja01.html">Jakub Lauko</a></td><td>Tripping</td><td>2 min</td></tr>
+<tr><td><a href="/teams/SJS.html">SJS</a></td><td>22.8</td><td><a href="/players/okhotni01.html">Nikita Okhotyuk</a></td><td>Hooking</td><td>2 min</td></tr>
+<tr><td><a href="/teams/BOS.html">BOS</a></td><td>23.65</td><td><a href="/players/marchbr03.html">Brad Marchand</a></td><td>Hooking</td><td>2 min</td></tr>
+<tr><td><a href="/teams/SJS.html">SJS</a></td><td>33.95</td><td><a href="/players/burroky01.html">Kyle Burroughs</a></td><td>High Sticking</td><td>2 min</td></tr>
+<tr><td><a href="/teams/BOS.html">BOS</a></td><td>33.95</td><td><a href="/players/forbode01.html">Derek Forbort</a></td><td>Roughing</td><td>2 min</td></tr>
+<tr><td><a href="/teams/SJS.html">SJS</a></td><td>33.95</td><td><a href="/players/smithgi01.html">Givani Smith</a></td><td>Boarding</td><td>2 min</td></tr>
+<tr><td><a href="/teams/BOS.html">BOS</a></td><td>36.67</td><td><a href="/players/grzelma01.html">Matt Grzelcyk</a></td><td>Interference</td><td>2 min</td></tr>
+<tr><td><a href="/teams/BOS.html">BOS</a></td><td>39.1</td><td><a href="/players/fredetr01.html">Trent Frederic</a></td><td>Fighting</td><td>5 min</td></tr>
+<tr><td><a href="/teams/SJS.html">SJS</a></td><td>39.1</td><td><a href="/players/smithgi01.html">Givani Smith</a></td><td>Fighting</td><td>5 min</td></tr>
+<tr><td><a href="/teams/BOS.html">BOS</a></td><td>39.57</td><td><a href="/players/marchbr03.html">Brad Marchand</a></td><td>Roughing</td><td>2 min</td></tr>
+<tr><td><a href="/teams/BOS.html">BOS</a></td><td>39.57</td><td><a href="/players/marchbr03.html">Brad Marchand</a></td><td>Fighting</td><td>5 min</td></tr>
+<tr><td><a href="/teams/BOS.html">BOS</a></td><td>39.57</td><td><a href="/players/mcavoch01.html">Charlie McAvoy</a></td><td>Boarding</td><td>2 min</td></tr>
+<tr><td><a href="/teams/SJS.html">SJS</a></td><td>39.57</td><td><a href="/players/zettefa01.html">Fabian Zetterlund</a></td><td>Fighting</td><td>5 min</td></tr>
+<tr><td><a href="/teams/SJS.html">SJS</a></td><td>45.72</td><td><a href="/players/bennima01.html">Matt Benning</a></td><td>Slashing</td><td>2 min</td></tr>
+</table>
+</main>
+</body>
+</html>

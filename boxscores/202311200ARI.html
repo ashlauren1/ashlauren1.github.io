@@ -1,155 +1,112 @@
-
-    <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Game 202311200ARI Boxscore</title>
-        <link rel="stylesheet" href="/assets/styles.css">
-        <script src="/assets/searchBar.js" defer></script>
-        <script src="/assets/tableSort.js"></script>
-        <style>
-            tr:hover {background-color: #F0FFF0;}
-        </style>
-    </head>
-    <body>
-        <nav id="navbar">
-            <a href="/">Home</a>
-            <a href="/players/">Players</a>
-            <a href="/teams/">Teams</a>
-            <a href="/leaders/">Leaders</a>
-            <a href="/probabilities/">Probabilities</a>
-            <a href="/boxscores/">Boxscores</a>
-            <a href="/schedule/">Schedule</a>
-
-            <div class="search-container">
-                <input type="text" id="searchInput" placeholder="Search players or teams..." oninput="searchEntities()" />
-                <ul id="suggestions"></ul>
-            </div>
-        </nav>
-
-        <main id="content">
-            <h1>Game 202311200ARI Boxscore</h1>
-
-            <h2>Skaters</h2>
-            <table id="202311200ARI_skaters" border="1">
-                <thead>
-                    <tr>
-                        <th>Date</th><th>Home Team</th><th>Away Team</th><th>Player</th><th>Team</th><th>G</th><th>A</th><th>PTS</th>
-                        <th>+/-</th><th>PIM</th><th>EVG</th><th>PPG</th><th>SHG</th><th>GWG</th><th>EV Assist</th><th>PP Assist</th>
-                        <th>SH Assist</th><th>SOG</th><th>S%</th><th>SHFT</th><th>TOI</th><th>iCF</th><th>SAT‑F</th><th>SAT‑A</th>
-                        <th>CF%</th><th>CRel%</th><th>ZSO</th><th>ZSD</th><th>oZS%</th><th>HIT</th><th>BLK</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr><td><a href="/boxscores/202311200ARI.html">11/20/2023</a></td><td><a href="/teams/ARI.html">ARI</a></td><td><a href="/teams/LAK.html">LAK</a></td><td><a href="/players/Michael Anderson.html">Michael Anderson</a></td><td><a href="/teams/LAK.html">LAK</a></td><td>0</td><td>0</td><td>0</td><td>2</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>22</td><td>20.98</td><td>0</td><td>9</td><td>24</td><td>27.3</td><td>-22.7</td><td>6</td><td>11</td><td>35.3</td><td>2</td><td>1</td></tr>
-<tr><td><a href="/boxscores/202311200ARI.html">11/20/2023</a></td><td><a href="/teams/ARI.html">ARI</a></td><td><a href="/teams/LAK.html">LAK</a></td><td><a href="/players/Jaret Anderson-Dolan.html">Jaret Anderson-Dolan</a></td><td><a href="/teams/LAK.html">LAK</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>2</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>12</td><td>8.98</td><td>3</td><td>10</td><td>7</td><td>58.8</td><td>18</td><td>2</td><td>6</td><td>25</td><td>2</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202311200ARI.html">11/20/2023</a></td><td><a href="/teams/ARI.html">ARI</a></td><td><a href="/teams/LAK.html">LAK</a></td><td><a href="/players/Quinton Byfield.html">Quinton Byfield</a></td><td><a href="/teams/LAK.html">LAK</a></td><td>0</td><td>1</td><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>21</td><td>14.9</td><td>0</td><td>11</td><td>22</td><td>33.3</td><td>-14.3</td><td>11</td><td>6</td><td>64.7</td><td>0</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202311200ARI.html">11/20/2023</a></td><td><a href="/teams/ARI.html">ARI</a></td><td><a href="/teams/LAK.html">LAK</a></td><td><a href="/players/Phillip Danault.html">Phillip Danault</a></td><td><a href="/teams/LAK.html">LAK</a></td><td>1</td><td>1</td><td>2</td><td>2</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>2</td><td>50</td><td>23</td><td>17.07</td><td>3</td><td>18</td><td>16</td><td>52.9</td><td>13.4</td><td>5</td><td>7</td><td>41.7</td><td>0</td><td>2</td></tr>
-<tr><td><a href="/boxscores/202311200ARI.html">11/20/2023</a></td><td><a href="/teams/ARI.html">ARI</a></td><td><a href="/teams/LAK.html">LAK</a></td><td><a href="/players/Drew Doughty.html">Drew Doughty</a></td><td><a href="/teams/LAK.html">LAK</a></td><td>0</td><td>0</td><td>0</td><td>3</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>24</td><td>25.07</td><td>3</td><td>20</td><td>29</td><td>40.8</td><td>-4.7</td><td>11</td><td>15</td><td>42.3</td><td>3</td><td>3</td></tr>
-<tr><td><a href="/boxscores/202311200ARI.html">11/20/2023</a></td><td><a href="/teams/ARI.html">ARI</a></td><td><a href="/teams/LAK.html">LAK</a></td><td><a href="/players/Pierre-Luc Dubois.html">Pierre-Luc Dubois</a></td><td><a href="/teams/LAK.html">LAK</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>4</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>20</td><td>16</td><td>1</td><td>12</td><td>8</td><td>60</td><td>20</td><td>8</td><td>3</td><td>72.7</td><td>2</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202311200ARI.html">11/20/2023</a></td><td><a href="/teams/ARI.html">ARI</a></td><td><a href="/teams/LAK.html">LAK</a></td><td><a href="/players/Andreas Englund.html">Andreas Englund</a></td><td><a href="/teams/LAK.html">LAK</a></td><td>0</td><td>0</td><td>0</td><td>-1</td><td>5</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>14</td><td>12.3</td><td>1</td><td>14</td><td>13</td><td>51.9</td><td>11</td><td>5</td><td>6</td><td>45.5</td><td>3</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202311200ARI.html">11/20/2023</a></td><td><a href="/teams/ARI.html">ARI</a></td><td><a href="/teams/LAK.html">LAK</a></td><td><a href="/players/Kevin Fiala.html">Kevin Fiala</a></td><td><a href="/teams/LAK.html">LAK</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>3</td><td>0</td><td>19</td><td>16.03</td><td>8</td><td>21</td><td>10</td><td>67.7</td><td>33.2</td><td>5</td><td>4</td><td>55.6</td><td>0</td><td>1</td></tr>
-<tr><td><a href="/boxscores/202311200ARI.html">11/20/2023</a></td><td><a href="/teams/ARI.html">ARI</a></td><td><a href="/teams/LAK.html">LAK</a></td><td><a href="/players/Vladislav Gavrikov.html">Vladislav Gavrikov</a></td><td><a href="/teams/LAK.html">LAK</a></td><td>0</td><td>0</td><td>0</td><td>2</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>23</td><td>19.18</td><td>2</td><td>14</td><td>31</td><td>31.1</td><td>-20.3</td><td>2</td><td>10</td><td>16.7</td><td>0</td><td>1</td></tr>
-<tr><td><a href="/boxscores/202311200ARI.html">11/20/2023</a></td><td><a href="/teams/ARI.html">ARI</a></td><td><a href="/teams/LAK.html">LAK</a></td><td><a href="/players/Carl Grundström.html">Carl Grundström</a></td><td><a href="/teams/LAK.html">LAK</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>2</td><td>0</td><td>16</td><td>12.55</td><td>3</td><td>11</td><td>16</td><td>40.7</td><td>-3.6</td><td>2</td><td>7</td><td>22.2</td><td>2</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202311200ARI.html">11/20/2023</a></td><td><a href="/teams/ARI.html">ARI</a></td><td><a href="/teams/LAK.html">LAK</a></td><td><a href="/players/Arthur Kaliyev.html">Arthur Kaliyev</a></td><td><a href="/teams/LAK.html">LAK</a></td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>2</td><td>0</td><td>18</td><td>14.53</td><td>3</td><td>16</td><td>5</td><td>76.2</td><td>40</td><td>8</td><td>2</td><td>80</td><td>0</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202311200ARI.html">11/20/2023</a></td><td><a href="/teams/ARI.html">ARI</a></td><td><a href="/teams/LAK.html">LAK</a></td><td><a href="/players/Adrian Kempe.html">Adrian Kempe</a></td><td><a href="/teams/LAK.html">LAK</a></td><td>0</td><td>0</td><td>0</td><td>1</td><td>4</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>26</td><td>18.42</td><td>1</td><td>11</td><td>28</td><td>28.2</td><td>-23.1</td><td>11</td><td>8</td><td>57.9</td><td>1</td><td>1</td></tr>
-<tr><td><a href="/boxscores/202311200ARI.html">11/20/2023</a></td><td><a href="/teams/ARI.html">ARI</a></td><td><a href="/teams/LAK.html">LAK</a></td><td><a href="/players/Anže Kopitar.html">Anže Kopitar</a></td><td><a href="/teams/LAK.html">LAK</a></td><td>1</td><td>0</td><td>1</td><td>1</td><td>2</td><td>1</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>2</td><td>50</td><td>24</td><td>18.5</td><td>4</td><td>13</td><td>27</td><td>32.5</td><td>-16.8</td><td>11</td><td>11</td><td>50</td><td>0</td><td>2</td></tr>
-<tr><td><a href="/boxscores/202311200ARI.html">11/20/2023</a></td><td><a href="/teams/ARI.html">ARI</a></td><td><a href="/teams/LAK.html">LAK</a></td><td><a href="/players/Alex Laferriere.html">Alex Laferriere</a></td><td><a href="/teams/LAK.html">LAK</a></td><td>0</td><td>1</td><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>1</td><td>0</td><td>15</td><td>11.4</td><td>3</td><td>6</td><td>5</td><td>54.5</td><td>12.2</td><td>4</td><td>2</td><td>66.7</td><td>3</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202311200ARI.html">11/20/2023</a></td><td><a href="/teams/ARI.html">ARI</a></td><td><a href="/teams/LAK.html">LAK</a></td><td><a href="/players/Trevor Lewis.html">Trevor Lewis</a></td><td><a href="/teams/LAK.html">LAK</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>2</td><td>0</td><td>15</td><td>11.53</td><td>3</td><td>13</td><td>14</td><td>48.1</td><td>6.1</td><td>2</td><td>6</td><td>25</td><td>0</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202311200ARI.html">11/20/2023</a></td><td><a href="/teams/ARI.html">ARI</a></td><td><a href="/teams/LAK.html">LAK</a></td><td><a href="/players/Trevor Moore.html">Trevor Moore</a></td><td><a href="/teams/LAK.html">LAK</a></td><td>2</td><td>0</td><td>2</td><td>1</td><td>0</td><td>1</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>5</td><td>40</td><td>23</td><td>16.67</td><td>6</td><td>19</td><td>16</td><td>54.3</td><td>15.5</td><td>5</td><td>7</td><td>41.7</td><td>0</td><td>2</td></tr>
-<tr><td><a href="/boxscores/202311200ARI.html">11/20/2023</a></td><td><a href="/teams/ARI.html">ARI</a></td><td><a href="/teams/LAK.html">LAK</a></td><td><a href="/players/Matt Roy.html">Matt Roy</a></td><td><a href="/teams/LAK.html">LAK</a></td><td>0</td><td>1</td><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>1</td><td>0</td><td>20</td><td>18.52</td><td>2</td><td>10</td><td>22</td><td>31.2</td><td>-17</td><td>1</td><td>6</td><td>14.3</td><td>2</td><td>2</td></tr>
-<tr><td><a href="/boxscores/202311200ARI.html">11/20/2023</a></td><td><a href="/teams/ARI.html">ARI</a></td><td><a href="/teams/LAK.html">LAK</a></td><td><a href="/players/Jordan Spence.html">Jordan Spence</a></td><td><a href="/teams/LAK.html">LAK</a></td><td>0</td><td>0</td><td>0</td><td>-1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>2</td><td>0</td><td>19</td><td>16.48</td><td>4</td><td>21</td><td>8</td><td>72.4</td><td>38.7</td><td>11</td><td>6</td><td>64.7</td><td>0</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202311200ARI.html">11/20/2023</a></td><td><a href="/teams/ARI.html">ARI</a></td><td><a href="/teams/LAK.html">LAK</a></td><td><a href="/players/Pheonix Copley.html">Pheonix Copley</a></td><td><a href="/teams/LAK.html">LAK</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>4</td><td>59.7</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202311200ARI.html">11/20/2023</a></td><td><a href="/teams/ARI.html">ARI</a></td><td><a href="/teams/LAK.html">LAK</a></td><td><a href="/players/--.html">--</a></td><td><a href="/teams/--.html">--</a></td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td></tr>
-<tr><td><a href="/boxscores/202311200ARI.html">11/20/2023</a></td><td><a href="/teams/ARI.html">ARI</a></td><td><a href="/teams/LAK.html">LAK</a></td><td><a href="/players/Nick Bjugstad.html">Nick Bjugstad</a></td><td><a href="/teams/ARI.html">ARI</a></td><td>0</td><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>5</td><td>0</td><td>27</td><td>20.9</td><td>5</td><td>22</td><td>27</td><td>44.9</td><td>-20.3</td><td>9</td><td>13</td><td>40.9</td><td>0</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202311200ARI.html">11/20/2023</a></td><td><a href="/teams/ARI.html">ARI</a></td><td><a href="/teams/LAK.html">LAK</a></td><td><a href="/players/Travis Boyd.html">Travis Boyd</a></td><td><a href="/teams/ARI.html">ARI</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>19</td><td>11.25</td><td>2</td><td>9</td><td>7</td><td>56.2</td><td>-0.4</td><td>7</td><td>2</td><td>77.8</td><td>2</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202311200ARI.html">11/20/2023</a></td><td><a href="/teams/ARI.html">ARI</a></td><td><a href="/teams/LAK.html">LAK</a></td><td><a href="/players/Josh Brown.html">Josh Brown</a></td><td><a href="/teams/ARI.html">ARI</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>17</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>17</td><td>13.35</td><td>0</td><td>8</td><td>11</td><td>42.1</td><td>-17.3</td><td>1</td><td>6</td><td>14.3</td><td>0</td><td>2</td></tr>
-<tr><td><a href="/boxscores/202311200ARI.html">11/20/2023</a></td><td><a href="/teams/ARI.html">ARI</a></td><td><a href="/teams/LAK.html">LAK</a></td><td><a href="/players/Michael Carcone.html">Michael Carcone</a></td><td><a href="/teams/ARI.html">ARI</a></td><td>0</td><td>0</td><td>0</td><td>-1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>16</td><td>12.05</td><td>1</td><td>11</td><td>14</td><td>44</td><td>-16</td><td>3</td><td>4</td><td>42.9</td><td>0</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202311200ARI.html">11/20/2023</a></td><td><a href="/teams/ARI.html">ARI</a></td><td><a href="/teams/LAK.html">LAK</a></td><td><a href="/players/Logan Cooley.html">Logan Cooley</a></td><td><a href="/teams/ARI.html">ARI</a></td><td>0</td><td>0</td><td>0</td><td>-2</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>2</td><td>0</td><td>19</td><td>17.3</td><td>3</td><td>24</td><td>10</td><td>70.6</td><td>20</td><td>9</td><td>1</td><td>90</td><td>0</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202311200ARI.html">11/20/2023</a></td><td><a href="/teams/ARI.html">ARI</a></td><td><a href="/teams/LAK.html">LAK</a></td><td><a href="/players/Lawson Crouse.html">Lawson Crouse</a></td><td><a href="/teams/ARI.html">ARI</a></td><td>1</td><td>0</td><td>1</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>7</td><td>14.3</td><td>25</td><td>16.53</td><td>9</td><td>24</td><td>14</td><td>63.2</td><td>10</td><td>8</td><td>6</td><td>57.1</td><td>5</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202311200ARI.html">11/20/2023</a></td><td><a href="/teams/ARI.html">ARI</a></td><td><a href="/teams/LAK.html">LAK</a></td><td><a href="/players/Mathew Dumba.html">Mathew Dumba</a></td><td><a href="/teams/ARI.html">ARI</a></td><td>0</td><td>0</td><td>0</td><td>-3</td><td>2</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>26</td><td>19.83</td><td>4</td><td>15</td><td>22</td><td>40.5</td><td>-23.6</td><td>9</td><td>10</td><td>47.4</td><td>2</td><td>1</td></tr>
-<tr><td><a href="/boxscores/202311200ARI.html">11/20/2023</a></td><td><a href="/teams/ARI.html">ARI</a></td><td><a href="/teams/LAK.html">LAK</a></td><td><a href="/players/Sean Durzi.html">Sean Durzi</a></td><td><a href="/teams/ARI.html">ARI</a></td><td>0</td><td>0</td><td>0</td><td>-2</td><td>2</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>2</td><td>0</td><td>29</td><td>25.12</td><td>6</td><td>30</td><td>23</td><td>56.6</td><td>0.1</td><td>12</td><td>6</td><td>66.7</td><td>1</td><td>3</td></tr>
-<tr><td><a href="/boxscores/202311200ARI.html">11/20/2023</a></td><td><a href="/teams/ARI.html">ARI</a></td><td><a href="/teams/LAK.html">LAK</a></td><td><a href="/players/Miloš Kelemen.html">Miloš Kelemen</a></td><td><a href="/teams/ARI.html">ARI</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>11</td><td>6.55</td><td>1</td><td>4</td><td>3</td><td>57.1</td><td>0.6</td><td>2</td><td>3</td><td>40</td><td>3</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202311200ARI.html">11/20/2023</a></td><td><a href="/teams/ARI.html">ARI</a></td><td><a href="/teams/LAK.html">LAK</a></td><td><a href="/players/Clayton Keller.html">Clayton Keller</a></td><td><a href="/teams/ARI.html">ARI</a></td><td>0</td><td>0</td><td>0</td><td>-2</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>2</td><td>0</td><td>23</td><td>18.73</td><td>6</td><td>24</td><td>10</td><td>70.6</td><td>20</td><td>13</td><td>4</td><td>76.5</td><td>1</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202311200ARI.html">11/20/2023</a></td><td><a href="/teams/ARI.html">ARI</a></td><td><a href="/teams/LAK.html">LAK</a></td><td><a href="/players/Alexander Kerfoot.html">Alexander Kerfoot</a></td><td><a href="/teams/ARI.html">ARI</a></td><td>0</td><td>0</td><td>0</td><td>-2</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>2</td><td>0</td><td>27</td><td>18.77</td><td>3</td><td>22</td><td>15</td><td>59.5</td><td>4.4</td><td>9</td><td>13</td><td>40.9</td><td>1</td><td>1</td></tr>
-<tr><td><a href="/boxscores/202311200ARI.html">11/20/2023</a></td><td><a href="/teams/ARI.html">ARI</a></td><td><a href="/teams/LAK.html">LAK</a></td><td><a href="/players/Michael Kesselring.html">Michael Kesselring</a></td><td><a href="/teams/ARI.html">ARI</a></td><td>0</td><td>0</td><td>0</td><td>-1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>15</td><td>9.65</td><td>0</td><td>7</td><td>10</td><td>41.2</td><td>-18</td><td>4</td><td>5</td><td>44.4</td><td>2</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202311200ARI.html">11/20/2023</a></td><td><a href="/teams/ARI.html">ARI</a></td><td><a href="/teams/LAK.html">LAK</a></td><td><a href="/players/Matias Maccelli.html">Matias Maccelli</a></td><td><a href="/teams/ARI.html">ARI</a></td><td>0</td><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>2</td><td>0</td><td>20</td><td>15</td><td>4</td><td>22</td><td>11</td><td>66.7</td><td>14.3</td><td>9</td><td>3</td><td>75</td><td>0</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202311200ARI.html">11/20/2023</a></td><td><a href="/teams/ARI.html">ARI</a></td><td><a href="/teams/LAK.html">LAK</a></td><td><a href="/players/J.J. Moser.html">J.J. Moser</a></td><td><a href="/teams/ARI.html">ARI</a></td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>30</td><td>23.75</td><td>2</td><td>29</td><td>21</td><td>58</td><td>2.6</td><td>12</td><td>8</td><td>60</td><td>4</td><td>3</td></tr>
-<tr><td><a href="/boxscores/202311200ARI.html">11/20/2023</a></td><td><a href="/teams/ARI.html">ARI</a></td><td><a href="/teams/LAK.html">LAK</a></td><td><a href="/players/Liam O'Brien.html">Liam O'Brien</a></td><td><a href="/teams/ARI.html">ARI</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>13</td><td>8.48</td><td>0</td><td>5</td><td>7</td><td>41.7</td><td>-16.6</td><td>3</td><td>4</td><td>42.9</td><td>1</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202311200ARI.html">11/20/2023</a></td><td><a href="/teams/ARI.html">ARI</a></td><td><a href="/teams/LAK.html">LAK</a></td><td><a href="/players/Nick Schmaltz.html">Nick Schmaltz</a></td><td><a href="/teams/ARI.html">ARI</a></td><td>0</td><td>0</td><td>0</td><td>-2</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>3</td><td>0</td><td>26</td><td>21.08</td><td>8</td><td>26</td><td>14</td><td>65</td><td>13</td><td>13</td><td>5</td><td>72.2</td><td>0</td><td>1</td></tr>
-<tr><td><a href="/boxscores/202311200ARI.html">11/20/2023</a></td><td><a href="/teams/ARI.html">ARI</a></td><td><a href="/teams/LAK.html">LAK</a></td><td><a href="/players/Troy Stecher.html">Troy Stecher</a></td><td><a href="/teams/ARI.html">ARI</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>26</td><td>18.55</td><td>6</td><td>18</td><td>12</td><td>60</td><td>4.7</td><td>5</td><td>9</td><td>35.7</td><td>1</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202311200ARI.html">11/20/2023</a></td><td><a href="/teams/ARI.html">ARI</a></td><td><a href="/teams/LAK.html">LAK</a></td><td><a href="/players/Jason Zucker.html">Jason Zucker</a></td><td><a href="/teams/ARI.html">ARI</a></td><td>0</td><td>0</td><td>0</td><td>-1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>2</td><td>0</td><td>19</td><td>15.17</td><td>5</td><td>21</td><td>8</td><td>72.4</td><td>21.2</td><td>6</td><td>0</td><td>100</td><td>1</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202311200ARI.html">11/20/2023</a></td><td><a href="/teams/ARI.html">ARI</a></td><td><a href="/teams/LAK.html">LAK</a></td><td><a href="/players/Connor Ingram.html">Connor Ingram</a></td><td><a href="/teams/ARI.html">ARI</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>3</td><td>60</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202311200ARI.html">11/20/2023</a></td><td><a href="/teams/ARI.html">ARI</a></td><td><a href="/teams/LAK.html">LAK</a></td><td><a href="/players/--.html">--</a></td><td><a href="/teams/--.html">--</a></td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td></tr>
-
-                </tbody>
-            </table>
-
-            <h2>Goalies</h2>
-            <table id="202311200ARI_goalies" border="1">
-                <thead>
-                    <tr>
-                        <th>Home Team</th><th>Away Team</th><th>Goalie</th><th>Team</th><th>DEC</th><th>GA</th><th>SA</th><th>SV</th>
-                        <th>SV%</th><th>SO</th><th>PIM</th><th>Goalie TOI</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr><td><a href="/teams/ARI.html">ARI</a></td><td><a href="/teams/LAK.html">LAK</a></td><td><a href="/players/copleph01.html">Pheonix Copley</a></td><td><a href="/teams/LAK.html">LAK</a></td><td>W</td><td>1</td><td>31</td><td>30</td><td>0.968</td><td>0</td><td>0</td><td>59:42:00</td></tr>
-<tr><td><a href="/teams/ARI.html">ARI</a></td><td><a href="/teams/LAK.html">LAK</a></td><td><a href="/players/ingraco01.html">Connor Ingram</a></td><td><a href="/teams/ARI.html">ARI</a></td><td>L</td><td>4</td><td>25</td><td>21</td><td>0.84</td><td>0</td><td>0</td><td>60:00:00</td></tr>
-
-                </tbody>
-            </table>
-
-            <h2>Scoring</h2>
-            <table id="202311200ARI_scoring" border="1">
-                <thead>
-                    <tr>
-                        <th>Home Team</th><th>Away Team</th><th>Period</th><th>Time</th><th>Team</th><th>Info</th>
-                        <th>Scorer</th><th>Assist1</th><th>Assist2</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr><td><a href="/teams/ARI.html">ARI</a></td><td><a href="/teams/LAK.html">LAK</a></td><td>1st Period</td><td>1st Period</td><td><a href="/teams/1st Period.html">1st Period</a></td><td>1st Period</td><td><a href="/players/1st Period.html">1st Period</a></td><td><a href="/players/1st Period.html">1st Period</a></td><td><a href="/players/1st Period.html">1st Period</a></td></tr>
-<tr><td><a href="/teams/ARI.html">ARI</a></td><td><a href="/teams/LAK.html">LAK</a></td><td>1st Period</td><td>3:36</td><td><a href="/teams/LAK.html">LAK</a></td><td>SH</td><td><a href="/players/Trevor Moore.html">Trevor Moore</a></td><td><a href="/players/Phillip Danault.html">Phillip Danault</a></td><td><a href="/players/Phillip Danault.html">Phillip Danault</a></td></tr>
-<tr><td><a href="/teams/ARI.html">ARI</a></td><td><a href="/teams/LAK.html">LAK</a></td><td>1st Period</td><td>8:20</td><td><a href="/teams/LAK.html">LAK</a></td><td>--</td><td><a href="/players/Anže Kopitar.html">Anže Kopitar</a></td><td><a href="/players/Quinton Byfield.html">Quinton Byfield</a></td><td><a href="/players/Quinton Byfield.html">Quinton Byfield</a></td></tr>
-<tr><td><a href="/teams/ARI.html">ARI</a></td><td><a href="/teams/LAK.html">LAK</a></td><td>2nd Period</td><td>2nd Period</td><td><a href="/teams/2nd Period.html">2nd Period</a></td><td>2nd Period</td><td><a href="/players/2nd Period.html">2nd Period</a></td><td><a href="/players/2nd Period.html">2nd Period</a></td><td><a href="/players/2nd Period.html">2nd Period</a></td></tr>
-<tr><td><a href="/teams/ARI.html">ARI</a></td><td><a href="/teams/LAK.html">LAK</a></td><td>2nd Period</td><td>15:31</td><td><a href="/teams/LAK.html">LAK</a></td><td>--</td><td><a href="/players/Trevor Moore.html">Trevor Moore</a></td><td><a href="/players/--.html">--</a></td><td><a href="/players/--.html">--</a></td></tr>
-<tr><td><a href="/teams/ARI.html">ARI</a></td><td><a href="/teams/LAK.html">LAK</a></td><td>2nd Period</td><td>18:55</td><td><a href="/teams/ARI.html">ARI</a></td><td>--</td><td><a href="/players/Lawson Crouse.html">Lawson Crouse</a></td><td><a href="/players/Nick Bjugstad.html">Nick Bjugstad</a></td><td><a href="/players/Matias Maccelli.html">Matias Maccelli</a></td></tr>
-<tr><td><a href="/teams/ARI.html">ARI</a></td><td><a href="/teams/LAK.html">LAK</a></td><td>3rd Period</td><td>3rd Period</td><td><a href="/teams/3rd Period.html">3rd Period</a></td><td>3rd Period</td><td><a href="/players/3rd Period.html">3rd Period</a></td><td><a href="/players/3rd Period.html">3rd Period</a></td><td><a href="/players/3rd Period.html">3rd Period</a></td></tr>
-<tr><td><a href="/teams/ARI.html">ARI</a></td><td><a href="/teams/LAK.html">LAK</a></td><td>3rd Period</td><td>16:15</td><td><a href="/teams/LAK.html">LAK</a></td><td>--</td><td><a href="/players/Phillip Danault.html">Phillip Danault</a></td><td><a href="/players/Alex Laferriere.html">Alex Laferriere</a></td><td><a href="/players/Matt Roy.html">Matt Roy</a></td></tr>
-
-                </tbody>
-            </table>
-
-            <h2>Penalties</h2>
-            <table id="202311200ARI_penalties" border="1">
-                <thead>
-                    <tr>
-                        <th>Home Team</th><th>Away Team</th><th>Period</th><th>Time</th><th>Team</th><th>Player</th>
-                        <th>Penalty</th><th>PIM</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr><td><a href="/teams/ARI.html">ARI</a></td><td><a href="/teams/LAK.html">LAK</a></td><td>1st Period</td><td>1st Period</td><td><a href="/teams/1st Period.html">1st Period</a></td><td><a href="/players/1st Period.html">1st Period</a></td><td>1st Period</td><td>1st Period</td></tr>
-<tr><td><a href="/teams/ARI.html">ARI</a></td><td><a href="/teams/LAK.html">LAK</a></td><td>1st Period</td><td>2:47</td><td><a href="/teams/LAK.html">LAK</a></td><td><a href="/players/Jaret Anderson-Dolan.html">Jaret Anderson-Dolan</a></td><td>Hooking</td><td>2 min</td></tr>
-<tr><td><a href="/teams/ARI.html">ARI</a></td><td><a href="/teams/LAK.html">LAK</a></td><td>1st Period</td><td>12:02</td><td><a href="/teams/ARI.html">ARI</a></td><td><a href="/players/Sean Durzi.html">Sean Durzi</a></td><td>Slashing</td><td>2 min</td></tr>
-<tr><td><a href="/teams/ARI.html">ARI</a></td><td><a href="/teams/LAK.html">LAK</a></td><td>1st Period</td><td>17:57</td><td><a href="/teams/ARI.html">ARI</a></td><td><a href="/players/Josh Brown.html">Josh Brown</a></td><td>Instigator</td><td>2 min</td></tr>
-<tr><td><a href="/teams/ARI.html">ARI</a></td><td><a href="/teams/LAK.html">LAK</a></td><td>1st Period</td><td>17:57</td><td><a href="/teams/ARI.html">ARI</a></td><td><a href="/players/Josh Brown.html">Josh Brown</a></td><td>Fighting</td><td>5 min</td></tr>
-<tr><td><a href="/teams/ARI.html">ARI</a></td><td><a href="/teams/LAK.html">LAK</a></td><td>1st Period</td><td>17:57</td><td><a href="/teams/ARI.html">ARI</a></td><td><a href="/players/Josh Brown.html">Josh Brown</a></td><td>Instigator</td><td>10 min</td></tr>
-<tr><td><a href="/teams/ARI.html">ARI</a></td><td><a href="/teams/LAK.html">LAK</a></td><td>1st Period</td><td>17:57</td><td><a href="/teams/LAK.html">LAK</a></td><td><a href="/players/Andreas Englund.html">Andreas Englund</a></td><td>Fighting</td><td>5 min</td></tr>
-<tr><td><a href="/teams/ARI.html">ARI</a></td><td><a href="/teams/LAK.html">LAK</a></td><td>2nd Period</td><td>2nd Period</td><td><a href="/teams/2nd Period.html">2nd Period</a></td><td><a href="/players/2nd Period.html">2nd Period</a></td><td>2nd Period</td><td>2nd Period</td></tr>
-<tr><td><a href="/teams/ARI.html">ARI</a></td><td><a href="/teams/LAK.html">LAK</a></td><td>2nd Period</td><td>4:36</td><td><a href="/teams/LAK.html">LAK</a></td><td><a href="/players/Anže Kopitar.html">Anže Kopitar</a></td><td>Hooking</td><td>2 min</td></tr>
-<tr><td><a href="/teams/ARI.html">ARI</a></td><td><a href="/teams/LAK.html">LAK</a></td><td>2nd Period</td><td>8:15</td><td><a href="/teams/LAK.html">LAK</a></td><td><a href="/players/Pierre-Luc Dubois.html">Pierre-Luc Dubois</a></td><td>Roughing</td><td>2 min</td></tr>
-<tr><td><a href="/teams/ARI.html">ARI</a></td><td><a href="/teams/LAK.html">LAK</a></td><td>3rd Period</td><td>3rd Period</td><td><a href="/teams/3rd Period.html">3rd Period</a></td><td><a href="/players/3rd Period.html">3rd Period</a></td><td>3rd Period</td><td>3rd Period</td></tr>
-<tr><td><a href="/teams/ARI.html">ARI</a></td><td><a href="/teams/LAK.html">LAK</a></td><td>3rd Period</td><td>3:52</td><td><a href="/teams/ARI.html">ARI</a></td><td><a href="/players/Mathew Dumba.html">Mathew Dumba</a></td><td>Hooking</td><td>2 min</td></tr>
-<tr><td><a href="/teams/ARI.html">ARI</a></td><td><a href="/teams/LAK.html">LAK</a></td><td>3rd Period</td><td>6:23</td><td><a href="/teams/ARI.html">ARI</a></td><td><a href="/players/Bench.html">Bench</a></td><td>Too Many Men on the Ice</td><td>2 min</td></tr>
-<tr><td><a href="/teams/ARI.html">ARI</a></td><td><a href="/teams/LAK.html">LAK</a></td><td>3rd Period</td><td>7:51</td><td><a href="/teams/LAK.html">LAK</a></td><td><a href="/players/Adrian Kempe.html">Adrian Kempe</a></td><td>High Sticking</td><td>4 min</td></tr>
-<tr><td><a href="/teams/ARI.html">ARI</a></td><td><a href="/teams/LAK.html">LAK</a></td><td>3rd Period</td><td>18:49</td><td><a href="/teams/LAK.html">LAK</a></td><td><a href="/players/Pierre-Luc Dubois.html">Pierre-Luc Dubois</a></td><td>Holding</td><td>2 min</td></tr>
-
-                </tbody>
-            </table>
-        </main>
-    </body>
-    </html>
-    
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Los Angeles Kings at Arizona Coyotes: November 20, 2023</title>
+<link rel="stylesheet" href="/assets/styles.css">
+<script src="/assets/searchBar.js"></script>
+<script src="/assets/tableSort.js"></script>
+</head>
+<body>
+<nav id="navbar">
+<ul>
+<li><a href="/">Home</a></li>
+<li><a href="/players/">Players</a></li>
+<li><a href="/teams/">Teams</a></li>
+<li><a href="/probabilities/">Probabilities</a></li>
+<li><a href="/boxscores/">Boxscores</a></li>
+<li><a href="/versus/">Head to Head Stats</a></li>
+<li><a href="/leaders/">Leaders</a></li>
+<li><a href="/seasons/2025/schedule.html">Schedule and Results</a></li>
+<li><a href="/seasons/2025/standings.html">Current Standings</a></li>
+<li><a href="/seasons/2025/rosters.html">Team Rosters</a></li>
+<li>
+<input type="text" id="searchBar" placeholder="Search for players or teams..." oninput="performSearch()" autocomplete="off">
+<div id="searchResults" class="dropdown"></div>
+<button id="searchButton" onclick="handleSearch()">Search</button>
+</li>
+</ul>
+</nav>
+<main id="content">
+<div class="scorebox">
+<div class="team"><div><a href="/teams/LAK.html">LAK</a></div><div class="score">4</div></div>
+<div class="team"><div><a href="/teams/ARI.html">ARI</a></div><div class="score">1</div></div>
+<div class="date">November 20, 2023</div>
+</div>
+<table id="LAK_skaters">
+<tr><th>Team</th><th>Player</th><th>G</th><th>A</th><th>PTS</th><th>SOG</th><th>HIT</th><th>BLK</th><th>TOI</th><th>PIM</th><th>SAT-F</th><th>SAT-A</th><th>CF%</th><th>CRel%</th></tr>
+<tr><td><a href="/teams/LAK.html">LAK</a></td><td><a href="/players/kempead01.html">Adrian Kempe</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>1</td><td>18.42</td><td>4</td><td>11</td><td>28</td><td>28.20%</td><td>-23.10%</td></tr>
+<tr><td><a href="/teams/LAK.html">LAK</a></td><td><a href="/players/laferal01.html">Alex Laferriere</a></td><td>0</td><td>1</td><td>1</td><td>1</td><td>3</td><td>0</td><td>11.4</td><td>0</td><td>6</td><td>5</td><td>54.50%</td><td>12.20%</td></tr>
+<tr><td><a href="/teams/LAK.html">LAK</a></td><td><a href="/players/engluan01.html">Andreas Englund</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>3</td><td>0</td><td>12.3</td><td>5</td><td>14</td><td>13</td><td>51.90%</td><td>11.00%</td></tr>
+<tr><td><a href="/teams/LAK.html">LAK</a></td><td><a href="/players/kopitan01.html">Anže Kopitar</a></td><td>1</td><td>0</td><td>1</td><td>2</td><td>0</td><td>2</td><td>18.5</td><td>2</td><td>13</td><td>27</td><td>32.50%</td><td>-16.80%</td></tr>
+<tr><td><a href="/teams/LAK.html">LAK</a></td><td><a href="/players/kaliyar01.html">Arthur Kaliyev</a></td><td>0</td><td>0</td><td>0</td><td>2</td><td>0</td><td>0</td><td>14.53</td><td>0</td><td>16</td><td>5</td><td>76.20%</td><td>40.00%</td></tr>
+<tr><td><a href="/teams/LAK.html">LAK</a></td><td><a href="/players/grundca01.html">Carl Grundström</a></td><td>0</td><td>0</td><td>0</td><td>2</td><td>2</td><td>0</td><td>12.55</td><td>0</td><td>11</td><td>16</td><td>40.70%</td><td>-3.60%</td></tr>
+<tr><td><a href="/teams/LAK.html">LAK</a></td><td><a href="/players/doughdr01.html">Drew Doughty</a></td><td>0</td><td>0</td><td>0</td><td>1</td><td>3</td><td>3</td><td>25.07</td><td>0</td><td>20</td><td>29</td><td>40.80%</td><td>-4.70%</td></tr>
+<tr><td><a href="/teams/LAK.html">LAK</a></td><td><a href="/players/anderja01.html">Jaret Anderson-Dolan</a></td><td>0</td><td>0</td><td>0</td><td>1</td><td>2</td><td>0</td><td>8.98</td><td>2</td><td>10</td><td>7</td><td>58.80%</td><td>18.00%</td></tr>
+<tr><td><a href="/teams/LAK.html">LAK</a></td><td><a href="/players/spencjo01.html">Jordan Spence</a></td><td>0</td><td>0</td><td>0</td><td>2</td><td>0</td><td>0</td><td>16.48</td><td>0</td><td>21</td><td>8</td><td>72.40%</td><td>38.70%</td></tr>
+<tr><td><a href="/teams/LAK.html">LAK</a></td><td><a href="/players/fialake01.html">Kevin Fiala</a></td><td>0</td><td>0</td><td>0</td><td>3</td><td>0</td><td>1</td><td>16.03</td><td>0</td><td>21</td><td>10</td><td>67.70%</td><td>33.20%</td></tr>
+<tr><td><a href="/teams/LAK.html">LAK</a></td><td><a href="/players/royma04.html">Matt Roy</a></td><td>0</td><td>1</td><td>1</td><td>1</td><td>2</td><td>2</td><td>18.52</td><td>0</td><td>10</td><td>22</td><td>31.20%</td><td>-17.00%</td></tr>
+<tr><td><a href="/teams/LAK.html">LAK</a></td><td><a href="/players/andermi02.html">Michael Anderson</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>2</td><td>1</td><td>20.98</td><td>0</td><td>9</td><td>24</td><td>27.30%</td><td>-22.70%</td></tr>
+<tr><td><a href="/teams/LAK.html">LAK</a></td><td><a href="/players/danauph01.html">Phillip Danault</a></td><td>1</td><td>1</td><td>2</td><td>2</td><td>0</td><td>2</td><td>17.07</td><td>0</td><td>18</td><td>16</td><td>52.90%</td><td>13.40%</td></tr>
+<tr><td><a href="/teams/LAK.html">LAK</a></td><td><a href="/players/duboipi01.html">Pierre-Luc Dubois</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>2</td><td>0</td><td>16.0</td><td>4</td><td>12</td><td>8</td><td>60.00%</td><td>20.00%</td></tr>
+<tr><td><a href="/teams/LAK.html">LAK</a></td><td><a href="/players/byfiequ01.html">Quinton Byfield</a></td><td>0</td><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td><td>14.9</td><td>0</td><td>11</td><td>22</td><td>33.30%</td><td>-14.30%</td></tr>
+<tr><td><a href="/teams/LAK.html">LAK</a></td><td><a href="/players/lewistr01.html">Trevor Lewis</a></td><td>0</td><td>0</td><td>0</td><td>2</td><td>0</td><td>0</td><td>11.53</td><td>0</td><td>13</td><td>14</td><td>48.10%</td><td>6.10%</td></tr>
+<tr><td><a href="/teams/LAK.html">LAK</a></td><td><a href="/players/mooretr01.html">Trevor Moore</a></td><td>2</td><td>0</td><td>2</td><td>5</td><td>0</td><td>2</td><td>16.67</td><td>0</td><td>19</td><td>16</td><td>54.30%</td><td>15.50%</td></tr>
+<tr><td><a href="/teams/LAK.html">LAK</a></td><td><a href="/players/gavrivl01.html">Vladislav Gavrikov</a></td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>1</td><td>19.18</td><td>0</td><td>14</td><td>31</td><td>31.10%</td><td>-20.30%</td></tr>
+</table>
+<table id="ARI_skaters">
+<tr><th>Team</th><th>Player</th><th>G</th><th>A</th><th>PTS</th><th>SOG</th><th>HIT</th><th>BLK</th><th>TOI</th><th>PIM</th><th>SAT-F</th><th>SAT-A</th><th>CF%</th><th>CRel%</th></tr>
+<tr><td><a href="/teams/ARI.html">ARI</a></td><td><a href="/players/kerfoal01.html">Alexander Kerfoot</a></td><td>0</td><td>0</td><td>0</td><td>2</td><td>1</td><td>1</td><td>18.77</td><td>0</td><td>22</td><td>15</td><td>59.50%</td><td>4.40%</td></tr>
+<tr><td><a href="/teams/ARI.html">ARI</a></td><td><a href="/players/kellecl01.html">Clayton Keller</a></td><td>0</td><td>0</td><td>0</td><td>2</td><td>1</td><td>0</td><td>18.73</td><td>0</td><td>24</td><td>10</td><td>70.60%</td><td>20.00%</td></tr>
+<tr><td><a href="/teams/ARI.html">ARI</a></td><td><a href="/players/moserja01.html">J.J. Moser</a></td><td>0</td><td>0</td><td>0</td><td>1</td><td>4</td><td>3</td><td>23.75</td><td>0</td><td>29</td><td>21</td><td>58.00%</td><td>2.60%</td></tr>
+<tr><td><a href="/teams/ARI.html">ARI</a></td><td><a href="/players/zuckeja01.html">Jason Zucker</a></td><td>0</td><td>0</td><td>0</td><td>2</td><td>1</td><td>0</td><td>15.17</td><td>0</td><td>21</td><td>8</td><td>72.40%</td><td>21.20%</td></tr>
+<tr><td><a href="/teams/ARI.html">ARI</a></td><td><a href="/players/brownjo01.html">Josh Brown</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>2</td><td>13.35</td><td>17</td><td>8</td><td>11</td><td>42.10%</td><td>-17.30%</td></tr>
+<tr><td><a href="/teams/ARI.html">ARI</a></td><td><a href="/players/crousla01.html">Lawson Crouse</a></td><td>1</td><td>0</td><td>1</td><td>7</td><td>5</td><td>0</td><td>16.53</td><td>0</td><td>24</td><td>14</td><td>63.20%</td><td>10.00%</td></tr>
+<tr><td><a href="/teams/ARI.html">ARI</a></td><td><a href="/players/obrieli01.html">Liam O'Brien</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>8.48</td><td>0</td><td>5</td><td>7</td><td>41.70%</td><td>-16.60%</td></tr>
+<tr><td><a href="/teams/ARI.html">ARI</a></td><td><a href="/players/coolelo01.html">Logan Cooley</a></td><td>0</td><td>0</td><td>0</td><td>2</td><td>0</td><td>0</td><td>17.3</td><td>0</td><td>24</td><td>10</td><td>70.60%</td><td>20.00%</td></tr>
+<tr><td><a href="/teams/ARI.html">ARI</a></td><td><a href="/players/dumbama01.html">Mathew Dumba</a></td><td>0</td><td>0</td><td>0</td><td>1</td><td>2</td><td>1</td><td>19.83</td><td>2</td><td>15</td><td>22</td><td>40.50%</td><td>-23.60%</td></tr>
+<tr><td><a href="/teams/ARI.html">ARI</a></td><td><a href="/players/maccema01.html">Matias Maccelli</a></td><td>0</td><td>1</td><td>1</td><td>2</td><td>0</td><td>0</td><td>15.0</td><td>0</td><td>22</td><td>11</td><td>66.70%</td><td>14.30%</td></tr>
+<tr><td><a href="/teams/ARI.html">ARI</a></td><td><a href="/players/carcomi01.html">Michael Carcone</a></td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>12.05</td><td>0</td><td>11</td><td>14</td><td>44.00%</td><td>-16.00%</td></tr>
+<tr><td><a href="/teams/ARI.html">ARI</a></td><td><a href="/players/kessemi01.html">Michael Kesselring</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>2</td><td>0</td><td>9.65</td><td>0</td><td>7</td><td>10</td><td>41.20%</td><td>-18.00%</td></tr>
+<tr><td><a href="/teams/ARI.html">ARI</a></td><td><a href="/players/kelemmi01.html">Miloš Kelemen</a></td><td>0</td><td>0</td><td>0</td><td>1</td><td>3</td><td>0</td><td>6.55</td><td>0</td><td>4</td><td>3</td><td>57.10%</td><td>0.60%</td></tr>
+<tr><td><a href="/teams/ARI.html">ARI</a></td><td><a href="/players/bjugsni01.html">Nick Bjugstad</a></td><td>0</td><td>1</td><td>1</td><td>5</td><td>0</td><td>0</td><td>20.9</td><td>0</td><td>22</td><td>27</td><td>44.90%</td><td>-20.30%</td></tr>
+<tr><td><a href="/teams/ARI.html">ARI</a></td><td><a href="/players/schmani01.html">Nick Schmaltz</a></td><td>0</td><td>0</td><td>0</td><td>3</td><td>0</td><td>1</td><td>21.08</td><td>0</td><td>26</td><td>14</td><td>65.00%</td><td>13.00%</td></tr>
+<tr><td><a href="/teams/ARI.html">ARI</a></td><td><a href="/players/durzise01.html">Sean Durzi</a></td><td>0</td><td>0</td><td>0</td><td>2</td><td>1</td><td>3</td><td>25.12</td><td>2</td><td>30</td><td>23</td><td>56.60%</td><td>0.10%</td></tr>
+<tr><td><a href="/teams/ARI.html">ARI</a></td><td><a href="/players/boydtr01.html">Travis Boyd</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>2</td><td>0</td><td>11.25</td><td>0</td><td>9</td><td>7</td><td>56.20%</td><td>-0.40%</td></tr>
+<tr><td><a href="/teams/ARI.html">ARI</a></td><td><a href="/players/stechtr01.html">Troy Stecher</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>18.55</td><td>0</td><td>18</td><td>12</td><td>60.00%</td><td>4.70%</td></tr>
+</table>
+<table id="LAK_goalies">
+<tr><th>Team</th><th>Goalie</th><th>DEC</th><th>GA</th><th>SA</th><th>SV</th><th>SV%</th><th>SO</th><th>PIM</th><th>TOI</th></tr>
+<tr><td><a href="/teams/LAK.html">LAK</a></td><td><a href="/players/copleph01.html">Pheonix Copley</a></td><td>W</td><td>1</td><td>31</td><td>30</td><td>96.80%</td><td>0</td><td>0</td><td>59.7</td></tr>
+</table>
+<table id="ARI_goalies">
+<tr><th>Team</th><th>Goalie</th><th>DEC</th><th>GA</th><th>SA</th><th>SV</th><th>SV%</th><th>SO</th><th>PIM</th><th>TOI</th></tr>
+<tr><td><a href="/teams/ARI.html">ARI</a></td><td><a href="/players/ingraco01.html">Connor Ingram</a></td><td>L</td><td>4</td><td>25</td><td>21</td><td>84.00%</td><td>0</td><td>0</td><td>60.0</td></tr>
+</table>
+<table id="scoring">
+<tr><th>Team</th><th>Time</th><th>Info</th><th>Scorer</th><th>Assist 1</th><th>Assist 2</th></tr>
+<tr><td><a href="/teams/LAK.html">LAK</a></td><td>3.6</td><td>SH</td><td><a href="/players/mooretr01.html">Trevor Moore</a></td><td><a href="/players/danauph01.html">Phillip Danault</a></td><td><a href="/players/danauph01.html">Phillip Danault</a></td></tr>
+<tr><td><a href="/teams/LAK.html">LAK</a></td><td>8.33</td><td>--</td><td><a href="/players/kopitan01.html">Anže Kopitar</a></td><td><a href="/players/byfiequ01.html">Quinton Byfield</a></td><td><a href="/players/byfiequ01.html">Quinton Byfield</a></td></tr>
+<tr><td><a href="/teams/LAK.html">LAK</a></td><td>35.52</td><td>--</td><td><a href="/players/mooretr01.html">Trevor Moore</a></td><td><a href="/players/--.html">--</a></td><td><a href="/players/--.html">--</a></td></tr>
+<tr><td><a href="/teams/ARI.html">ARI</a></td><td>38.92</td><td>--</td><td><a href="/players/crousla01.html">Lawson Crouse</a></td><td><a href="/players/bjugsni01.html">Nick Bjugstad</a></td><td><a href="/players/maccema01.html">Matias Maccelli</a></td></tr>
+<tr><td><a href="/teams/LAK.html">LAK</a></td><td>56.25</td><td>--</td><td><a href="/players/danauph01.html">Phillip Danault</a></td><td><a href="/players/laferal01.html">Alex Laferriere</a></td><td><a href="/players/royma04.html">Matt Roy</a></td></tr>
+</table>
+<table id="penalties">
+<tr><th>Team</th><th>Time</th><th>Player</th><th>Penalty</th><th>PIM</th></tr>
+<tr><td><a href="/teams/LAK.html">LAK</a></td><td>2.78</td><td><a href="/players/anderja01.html">Jaret Anderson-Dolan</a></td><td>Hooking</td><td>2 min</td></tr>
+<tr><td><a href="/teams/ARI.html">ARI</a></td><td>12.03</td><td><a href="/players/durzise01.html">Sean Durzi</a></td><td>Slashing</td><td>2 min</td></tr>
+<tr><td><a href="/teams/ARI.html">ARI</a></td><td>17.95</td><td><a href="/players/brownjo01.html">Josh Brown</a></td><td>Instigator</td><td>2 min</td></tr>
+<tr><td><a href="/teams/ARI.html">ARI</a></td><td>17.95</td><td><a href="/players/brownjo01.html">Josh Brown</a></td><td>Fighting</td><td>5 min</td></tr>
+<tr><td><a href="/teams/ARI.html">ARI</a></td><td>17.95</td><td><a href="/players/brownjo01.html">Josh Brown</a></td><td>Instigator</td><td>10 min</td></tr>
+<tr><td><a href="/teams/LAK.html">LAK</a></td><td>17.95</td><td><a href="/players/engluan01.html">Andreas Englund</a></td><td>Fighting</td><td>5 min</td></tr>
+<tr><td><a href="/teams/LAK.html">LAK</a></td><td>24.6</td><td><a href="/players/kopitan01.html">Anže Kopitar</a></td><td>Hooking</td><td>2 min</td></tr>
+<tr><td><a href="/teams/LAK.html">LAK</a></td><td>28.25</td><td><a href="/players/duboipi01.html">Pierre-Luc Dubois</a></td><td>Roughing</td><td>2 min</td></tr>
+<tr><td><a href="/teams/ARI.html">ARI</a></td><td>43.87</td><td><a href="/players/dumbama01.html">Mathew Dumba</a></td><td>Hooking</td><td>2 min</td></tr>
+<tr><td><a href="/teams/ARI.html">ARI</a></td><td>46.38</td><td><a href="/players/nan.html">Bench</a></td><td>Too Many Men on the Ice</td><td>2 min</td></tr>
+<tr><td><a href="/teams/LAK.html">LAK</a></td><td>47.85</td><td><a href="/players/kempead01.html">Adrian Kempe</a></td><td>High Sticking</td><td>4 min</td></tr>
+<tr><td><a href="/teams/LAK.html">LAK</a></td><td>58.82</td><td><a href="/players/duboipi01.html">Pierre-Luc Dubois</a></td><td>Holding</td><td>2 min</td></tr>
+</table>
+</main>
+</body>
+</html>

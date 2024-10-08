@@ -1,155 +1,113 @@
-
-    <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Game 202401250MIN Boxscore</title>
-        <link rel="stylesheet" href="/assets/styles.css">
-        <script src="/assets/searchBar.js" defer></script>
-        <script src="/assets/tableSort.js"></script>
-        <style>
-            tr:hover {background-color: #F0FFF0;}
-        </style>
-    </head>
-    <body>
-        <nav id="navbar">
-            <a href="/">Home</a>
-            <a href="/players/">Players</a>
-            <a href="/teams/">Teams</a>
-            <a href="/leaders/">Leaders</a>
-            <a href="/probabilities/">Probabilities</a>
-            <a href="/boxscores/">Boxscores</a>
-            <a href="/schedule/">Schedule</a>
-
-            <div class="search-container">
-                <input type="text" id="searchInput" placeholder="Search players or teams..." oninput="searchEntities()" />
-                <ul id="suggestions"></ul>
-            </div>
-        </nav>
-
-        <main id="content">
-            <h1>Game 202401250MIN Boxscore</h1>
-
-            <h2>Skaters</h2>
-            <table id="202401250MIN_skaters" border="1">
-                <thead>
-                    <tr>
-                        <th>Date</th><th>Home Team</th><th>Away Team</th><th>Player</th><th>Team</th><th>G</th><th>A</th><th>PTS</th>
-                        <th>+/-</th><th>PIM</th><th>EVG</th><th>PPG</th><th>SHG</th><th>GWG</th><th>EV Assist</th><th>PP Assist</th>
-                        <th>SH Assist</th><th>SOG</th><th>S%</th><th>SHFT</th><th>TOI</th><th>iCF</th><th>SAT‑F</th><th>SAT‑A</th>
-                        <th>CF%</th><th>CRel%</th><th>ZSO</th><th>ZSD</th><th>oZS%</th><th>HIT</th><th>BLK</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr><td><a href="/boxscores/202401250MIN.html">1/25/2024</a></td><td><a href="/teams/MIN.html">MIN</a></td><td><a href="/teams/NSH.html">NSH</a></td><td><a href="/players/Alexandre Carrier.html">Alexandre Carrier</a></td><td><a href="/teams/NSH.html">NSH</a></td><td>1</td><td>0</td><td>1</td><td>1</td><td>2</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>3</td><td>33.3</td><td>24</td><td>19.58</td><td>5</td><td>17</td><td>23</td><td>42.5</td><td>-20</td><td>2</td><td>8</td><td>20</td><td>1</td><td>2</td></tr>
-<tr><td><a href="/boxscores/202401250MIN.html">1/25/2024</a></td><td><a href="/teams/MIN.html">MIN</a></td><td><a href="/teams/NSH.html">NSH</a></td><td><a href="/players/Luke Evangelista.html">Luke Evangelista</a></td><td><a href="/teams/NSH.html">NSH</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>3</td><td>0</td><td>14</td><td>13.5</td><td>5</td><td>12</td><td>6</td><td>66.7</td><td>13.5</td><td>5</td><td>0</td><td>100</td><td>3</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202401250MIN.html">1/25/2024</a></td><td><a href="/teams/MIN.html">MIN</a></td><td><a href="/teams/NSH.html">NSH</a></td><td><a href="/players/Dante Fabbro.html">Dante Fabbro</a></td><td><a href="/teams/NSH.html">NSH</a></td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>18</td><td>15.7</td><td>1</td><td>17</td><td>13</td><td>56.7</td><td>1.8</td><td>2</td><td>5</td><td>28.6</td><td>0</td><td>2</td></tr>
-<tr><td><a href="/boxscores/202401250MIN.html">1/25/2024</a></td><td><a href="/teams/MIN.html">MIN</a></td><td><a href="/teams/NSH.html">NSH</a></td><td><a href="/players/Filip Forsberg.html">Filip Forsberg</a></td><td><a href="/teams/NSH.html">NSH</a></td><td>1</td><td>0</td><td>1</td><td>2</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>100</td><td>24</td><td>19.45</td><td>8</td><td>27</td><td>13</td><td>67.5</td><td>18.9</td><td>5</td><td>2</td><td>71.4</td><td>3</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202401250MIN.html">1/25/2024</a></td><td><a href="/teams/MIN.html">MIN</a></td><td><a href="/teams/NSH.html">NSH</a></td><td><a href="/players/Cody Glass.html">Cody Glass</a></td><td><a href="/teams/NSH.html">NSH</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>2</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>15</td><td>11.03</td><td>0</td><td>8</td><td>4</td><td>66.7</td><td>12.7</td><td>5</td><td>0</td><td>100</td><td>0</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202401250MIN.html">1/25/2024</a></td><td><a href="/teams/MIN.html">MIN</a></td><td><a href="/teams/NSH.html">NSH</a></td><td><a href="/players/Denis Gurianov.html">Denis Gurianov</a></td><td><a href="/teams/NSH.html">NSH</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>18</td><td>13.35</td><td>4</td><td>17</td><td>5</td><td>77.3</td><td>27.3</td><td>0</td><td>1</td><td>0</td><td>0</td><td>1</td></tr>
-<tr><td><a href="/boxscores/202401250MIN.html">1/25/2024</a></td><td><a href="/teams/MIN.html">MIN</a></td><td><a href="/teams/NSH.html">NSH</a></td><td><a href="/players/Roman Josi.html">Roman Josi</a></td><td><a href="/teams/NSH.html">NSH</a></td><td>1</td><td>1</td><td>2</td><td>2</td><td>0</td><td>1</td><td>0</td><td>0</td><td>1</td><td>1</td><td>0</td><td>0</td><td>3</td><td>33.3</td><td>25</td><td>23.72</td><td>8</td><td>28</td><td>18</td><td>60.9</td><td>9.4</td><td>4</td><td>7</td><td>36.4</td><td>3</td><td>3</td></tr>
-<tr><td><a href="/boxscores/202401250MIN.html">1/25/2024</a></td><td><a href="/teams/MIN.html">MIN</a></td><td><a href="/teams/NSH.html">NSH</a></td><td><a href="/players/Jeremy Lauzon.html">Jeremy Lauzon</a></td><td><a href="/teams/NSH.html">NSH</a></td><td>0</td><td>0</td><td>0</td><td>2</td><td>2</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>23</td><td>20.72</td><td>4</td><td>23</td><td>23</td><td>50</td><td>-9.1</td><td>2</td><td>11</td><td>15.4</td><td>6</td><td>2</td></tr>
-<tr><td><a href="/boxscores/202401250MIN.html">1/25/2024</a></td><td><a href="/teams/MIN.html">MIN</a></td><td><a href="/teams/NSH.html">NSH</a></td><td><a href="/players/Michael McCarron.html">Michael McCarron</a></td><td><a href="/teams/NSH.html">NSH</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>5</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>15</td><td>8.32</td><td>0</td><td>7</td><td>10</td><td>41.2</td><td>-16.7</td><td>1</td><td>4</td><td>20</td><td>1</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202401250MIN.html">1/25/2024</a></td><td><a href="/teams/MIN.html">MIN</a></td><td><a href="/teams/NSH.html">NSH</a></td><td><a href="/players/Ryan McDonagh.html">Ryan McDonagh</a></td><td><a href="/teams/NSH.html">NSH</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>2</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>3</td><td>0</td><td>27</td><td>22.55</td><td>3</td><td>19</td><td>15</td><td>55.9</td><td>0.8</td><td>5</td><td>9</td><td>35.7</td><td>1</td><td>2</td></tr>
-<tr><td><a href="/boxscores/202401250MIN.html">1/25/2024</a></td><td><a href="/teams/MIN.html">MIN</a></td><td><a href="/teams/NSH.html">NSH</a></td><td><a href="/players/Thomas Novak.html">Thomas Novak</a></td><td><a href="/teams/NSH.html">NSH</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>16</td><td>13.75</td><td>1</td><td>13</td><td>7</td><td>65</td><td>11.7</td><td>5</td><td>0</td><td>100</td><td>0</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202401250MIN.html">1/25/2024</a></td><td><a href="/teams/MIN.html">MIN</a></td><td><a href="/teams/NSH.html">NSH</a></td><td><a href="/players/Gustav Nyquist.html">Gustav Nyquist</a></td><td><a href="/teams/NSH.html">NSH</a></td><td>0</td><td>1</td><td>1</td><td>2</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>2</td><td>0</td><td>23</td><td>17.75</td><td>2</td><td>24</td><td>14</td><td>63.2</td><td>11.8</td><td>5</td><td>4</td><td>55.6</td><td>1</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202401250MIN.html">1/25/2024</a></td><td><a href="/teams/MIN.html">MIN</a></td><td><a href="/teams/NSH.html">NSH</a></td><td><a href="/players/Ryan O'Reilly.html">Ryan O'Reilly</a></td><td><a href="/teams/NSH.html">NSH</a></td><td>0</td><td>2</td><td>2</td><td>2</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>2</td><td>0</td><td>0</td><td>2</td><td>0</td><td>26</td><td>20.05</td><td>4</td><td>23</td><td>14</td><td>62.2</td><td>10.2</td><td>5</td><td>5</td><td>50</td><td>0</td><td>1</td></tr>
-<tr><td><a href="/boxscores/202401250MIN.html">1/25/2024</a></td><td><a href="/teams/MIN.html">MIN</a></td><td><a href="/teams/NSH.html">NSH</a></td><td><a href="/players/Luke Schenn.html">Luke Schenn</a></td><td><a href="/teams/NSH.html">NSH</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>2</td><td>0</td><td>19</td><td>14.63</td><td>4</td><td>15</td><td>9</td><td>62.5</td><td>9.1</td><td>5</td><td>2</td><td>71.4</td><td>3</td><td>1</td></tr>
-<tr><td><a href="/boxscores/202401250MIN.html">1/25/2024</a></td><td><a href="/teams/MIN.html">MIN</a></td><td><a href="/teams/NSH.html">NSH</a></td><td><a href="/players/Kiefer Sherwood.html">Kiefer Sherwood</a></td><td><a href="/teams/NSH.html">NSH</a></td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>12</td><td>8.23</td><td>1</td><td>7</td><td>8</td><td>46.7</td><td>-10</td><td>1</td><td>7</td><td>12.5</td><td>7</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202401250MIN.html">1/25/2024</a></td><td><a href="/teams/MIN.html">MIN</a></td><td><a href="/teams/NSH.html">NSH</a></td><td><a href="/players/Colton Sissons.html">Colton Sissons</a></td><td><a href="/teams/NSH.html">NSH</a></td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>6</td><td>0</td><td>26</td><td>21.47</td><td>8</td><td>26</td><td>22</td><td>54.2</td><td>-2</td><td>2</td><td>14</td><td>12.5</td><td>1</td><td>1</td></tr>
-<tr><td><a href="/boxscores/202401250MIN.html">1/25/2024</a></td><td><a href="/teams/MIN.html">MIN</a></td><td><a href="/teams/NSH.html">NSH</a></td><td><a href="/players/Cole Smith.html">Cole Smith</a></td><td><a href="/teams/NSH.html">NSH</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>7</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>19</td><td>13.5</td><td>1</td><td>7</td><td>17</td><td>29.2</td><td>-33.3</td><td>1</td><td>11</td><td>8.3</td><td>1</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202401250MIN.html">1/25/2024</a></td><td><a href="/teams/MIN.html">MIN</a></td><td><a href="/teams/NSH.html">NSH</a></td><td><a href="/players/Yakov Trenin.html">Yakov Trenin</a></td><td><a href="/teams/NSH.html">NSH</a></td><td>0</td><td>1</td><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>1</td><td>0</td><td>21</td><td>16.47</td><td>3</td><td>20</td><td>12</td><td>62.5</td><td>10</td><td>0</td><td>6</td><td>0</td><td>3</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202401250MIN.html">1/25/2024</a></td><td><a href="/teams/MIN.html">MIN</a></td><td><a href="/teams/NSH.html">NSH</a></td><td><a href="/players/Juuse Saros.html">Juuse Saros</a></td><td><a href="/teams/NSH.html">NSH</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>3</td><td>60</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202401250MIN.html">1/25/2024</a></td><td><a href="/teams/MIN.html">MIN</a></td><td><a href="/teams/NSH.html">NSH</a></td><td><a href="/players/--.html">--</a></td><td><a href="/teams/--.html">--</a></td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td></tr>
-<tr><td><a href="/boxscores/202401250MIN.html">1/25/2024</a></td><td><a href="/teams/MIN.html">MIN</a></td><td><a href="/teams/NSH.html">NSH</a></td><td><a href="/players/Zach Bogosian.html">Zach Bogosian</a></td><td><a href="/teams/MIN.html">MIN</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>19</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>2</td><td>0</td><td>17</td><td>14.35</td><td>4</td><td>8</td><td>18</td><td>30.8</td><td>-18</td><td>5</td><td>3</td><td>62.5</td><td>1</td><td>1</td></tr>
-<tr><td><a href="/boxscores/202401250MIN.html">1/25/2024</a></td><td><a href="/teams/MIN.html">MIN</a></td><td><a href="/teams/NSH.html">NSH</a></td><td><a href="/players/Matt Boldy.html">Matt Boldy</a></td><td><a href="/teams/MIN.html">MIN</a></td><td>1</td><td>0</td><td>1</td><td>-2</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>5</td><td>20</td><td>19</td><td>19.18</td><td>8</td><td>29</td><td>18</td><td>61.7</td><td>29.4</td><td>11</td><td>3</td><td>78.6</td><td>0</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202401250MIN.html">1/25/2024</a></td><td><a href="/teams/MIN.html">MIN</a></td><td><a href="/teams/NSH.html">NSH</a></td><td><a href="/players/Jonas Brodin.html">Jonas Brodin</a></td><td><a href="/teams/MIN.html">MIN</a></td><td>0</td><td>0</td><td>0</td><td>-2</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>2</td><td>0</td><td>30</td><td>24.75</td><td>7</td><td>18</td><td>33</td><td>35.3</td><td>-17.2</td><td>3</td><td>7</td><td>30</td><td>2</td><td>6</td></tr>
-<tr><td><a href="/boxscores/202401250MIN.html">1/25/2024</a></td><td><a href="/teams/MIN.html">MIN</a></td><td><a href="/teams/NSH.html">NSH</a></td><td><a href="/players/Brandon Duhaime.html">Brandon Duhaime</a></td><td><a href="/teams/MIN.html">MIN</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>11</td><td>6.17</td><td>0</td><td>2</td><td>6</td><td>25</td><td>-21.2</td><td>0</td><td>1</td><td>0</td><td>1</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202401250MIN.html">1/25/2024</a></td><td><a href="/teams/MIN.html">MIN</a></td><td><a href="/teams/NSH.html">NSH</a></td><td><a href="/players/Joel Eriksson Ek.html">Joel Eriksson Ek</a></td><td><a href="/teams/MIN.html">MIN</a></td><td>1</td><td>0</td><td>1</td><td>-2</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>100</td><td>23</td><td>21.48</td><td>4</td><td>25</td><td>25</td><td>50</td><td>9.7</td><td>10</td><td>5</td><td>66.7</td><td>2</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202401250MIN.html">1/25/2024</a></td><td><a href="/teams/MIN.html">MIN</a></td><td><a href="/teams/NSH.html">NSH</a></td><td><a href="/players/Brock Faber.html">Brock Faber</a></td><td><a href="/teams/MIN.html">MIN</a></td><td>0</td><td>1</td><td>1</td><td>-2</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>2</td><td>0</td><td>31</td><td>27.72</td><td>4</td><td>29</td><td>33</td><td>46.8</td><td>4.8</td><td>11</td><td>7</td><td>61.1</td><td>0</td><td>4</td></tr>
-<tr><td><a href="/boxscores/202401250MIN.html">1/25/2024</a></td><td><a href="/teams/MIN.html">MIN</a></td><td><a href="/teams/NSH.html">NSH</a></td><td><a href="/players/Marcus Foligno.html">Marcus Foligno</a></td><td><a href="/teams/MIN.html">MIN</a></td><td>0</td><td>0</td><td>0</td><td>-1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>19</td><td>17.7</td><td>1</td><td>12</td><td>28</td><td>30</td><td>-22.8</td><td>2</td><td>7</td><td>22.2</td><td>6</td><td>2</td></tr>
-<tr><td><a href="/boxscores/202401250MIN.html">1/25/2024</a></td><td><a href="/teams/MIN.html">MIN</a></td><td><a href="/teams/NSH.html">NSH</a></td><td><a href="/players/Frédérick Gaudreau.html">Frédérick Gaudreau</a></td><td><a href="/teams/MIN.html">MIN</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>2</td><td>0</td><td>11</td><td>8.1</td><td>2</td><td>7</td><td>5</td><td>58.3</td><td>15.3</td><td>2</td><td>1</td><td>66.7</td><td>0</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202401250MIN.html">1/25/2024</a></td><td><a href="/teams/MIN.html">MIN</a></td><td><a href="/teams/NSH.html">NSH</a></td><td><a href="/players/Alex Goligoski.html">Alex Goligoski</a></td><td><a href="/teams/MIN.html">MIN</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>3</td><td>0</td><td>22</td><td>20.45</td><td>4</td><td>12</td><td>24</td><td>33.3</td><td>-16.7</td><td>6</td><td>3</td><td>66.7</td><td>0</td><td>1</td></tr>
-<tr><td><a href="/boxscores/202401250MIN.html">1/25/2024</a></td><td><a href="/teams/MIN.html">MIN</a></td><td><a href="/teams/NSH.html">NSH</a></td><td><a href="/players/Ryan Hartman.html">Ryan Hartman</a></td><td><a href="/teams/MIN.html">MIN</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>19</td><td>15.88</td><td>0</td><td>10</td><td>10</td><td>50</td><td>6.5</td><td>5</td><td>4</td><td>55.6</td><td>0</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202401250MIN.html">1/25/2024</a></td><td><a href="/teams/MIN.html">MIN</a></td><td><a href="/teams/NSH.html">NSH</a></td><td><a href="/players/Marcus Johansson.html">Marcus Johansson</a></td><td><a href="/teams/MIN.html">MIN</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>18</td><td>15.98</td><td>0</td><td>7</td><td>10</td><td>41.2</td><td>-4.1</td><td>3</td><td>2</td><td>60</td><td>0</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202401250MIN.html">1/25/2024</a></td><td><a href="/teams/MIN.html">MIN</a></td><td><a href="/teams/NSH.html">NSH</a></td><td><a href="/players/Kirill Kaprizov.html">Kirill Kaprizov</a></td><td><a href="/teams/MIN.html">MIN</a></td><td>0</td><td>2</td><td>2</td><td>-2</td><td>2</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>2</td><td>0</td><td>2</td><td>0</td><td>25</td><td>22.33</td><td>3</td><td>28</td><td>22</td><td>56</td><td>20.5</td><td>15</td><td>2</td><td>88.2</td><td>0</td><td>2</td></tr>
-<tr><td><a href="/boxscores/202401250MIN.html">1/25/2024</a></td><td><a href="/teams/MIN.html">MIN</a></td><td><a href="/teams/NSH.html">NSH</a></td><td><a href="/players/Jake Lucchini.html">Jake Lucchini</a></td><td><a href="/teams/MIN.html">MIN</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>9</td><td>5.97</td><td>2</td><td>3</td><td>6</td><td>33.3</td><td>-12.3</td><td>0</td><td>1</td><td>0</td><td>2</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202401250MIN.html">1/25/2024</a></td><td><a href="/teams/MIN.html">MIN</a></td><td><a href="/teams/NSH.html">NSH</a></td><td><a href="/players/Pat Maroon.html">Pat Maroon</a></td><td><a href="/teams/MIN.html">MIN</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>14</td><td>11.83</td><td>0</td><td>2</td><td>11</td><td>15.4</td><td>-33.1</td><td>1</td><td>3</td><td>25</td><td>0</td><td>3</td></tr>
-<tr><td><a href="/boxscores/202401250MIN.html">1/25/2024</a></td><td><a href="/teams/MIN.html">MIN</a></td><td><a href="/teams/NSH.html">NSH</a></td><td><a href="/players/Dakota Mermis.html">Dakota Mermis</a></td><td><a href="/teams/MIN.html">MIN</a></td><td>0</td><td>0</td><td>0</td><td>-1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>18</td><td>11.32</td><td>1</td><td>8</td><td>7</td><td>53.3</td><td>10</td><td>4</td><td>1</td><td>80</td><td>3</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202401250MIN.html">1/25/2024</a></td><td><a href="/teams/MIN.html">MIN</a></td><td><a href="/teams/NSH.html">NSH</a></td><td><a href="/players/Jacob Middleton.html">Jacob Middleton</a></td><td><a href="/teams/MIN.html">MIN</a></td><td>0</td><td>0</td><td>0</td><td>-1</td><td>5</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>21</td><td>14.42</td><td>2</td><td>9</td><td>8</td><td>52.9</td><td>9.7</td><td>4</td><td>1</td><td>80</td><td>1</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202401250MIN.html">1/25/2024</a></td><td><a href="/teams/MIN.html">MIN</a></td><td><a href="/teams/NSH.html">NSH</a></td><td><a href="/players/Marco Rossi.html">Marco Rossi</a></td><td><a href="/teams/MIN.html">MIN</a></td><td>0</td><td>0</td><td>0</td><td>-1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>19</td><td>18.03</td><td>2</td><td>16</td><td>22</td><td>42.1</td><td>-3.8</td><td>9</td><td>1</td><td>90</td><td>1</td><td>1</td></tr>
-<tr><td><a href="/boxscores/202401250MIN.html">1/25/2024</a></td><td><a href="/teams/MIN.html">MIN</a></td><td><a href="/teams/NSH.html">NSH</a></td><td><a href="/players/Mats Zuccarello.html">Mats Zuccarello</a></td><td><a href="/teams/MIN.html">MIN</a></td><td>0</td><td>1</td><td>1</td><td>-1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>1</td><td>0</td><td>19</td><td>21.52</td><td>6</td><td>26</td><td>20</td><td>56.5</td><td>20.1</td><td>16</td><td>1</td><td>94.1</td><td>0</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202401250MIN.html">1/25/2024</a></td><td><a href="/teams/MIN.html">MIN</a></td><td><a href="/teams/NSH.html">NSH</a></td><td><a href="/players/Filip Gustavsson.html">Filip Gustavsson</a></td><td><a href="/teams/MIN.html">MIN</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>4</td><td>58.82</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202401250MIN.html">1/25/2024</a></td><td><a href="/teams/MIN.html">MIN</a></td><td><a href="/teams/NSH.html">NSH</a></td><td><a href="/players/--.html">--</a></td><td><a href="/teams/--.html">--</a></td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td></tr>
-
-                </tbody>
-            </table>
-
-            <h2>Goalies</h2>
-            <table id="202401250MIN_goalies" border="1">
-                <thead>
-                    <tr>
-                        <th>Home Team</th><th>Away Team</th><th>Goalie</th><th>Team</th><th>DEC</th><th>GA</th><th>SA</th><th>SV</th>
-                        <th>SV%</th><th>SO</th><th>PIM</th><th>Goalie TOI</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr><td><a href="/teams/MIN.html">MIN</a></td><td><a href="/teams/NSH.html">NSH</a></td><td><a href="/players/sarosju01.html">Juuse Saros</a></td><td><a href="/teams/NSH.html">NSH</a></td><td>W</td><td>2</td><td>24</td><td>22</td><td>0.917</td><td>0</td><td>0</td><td>60:00:00</td></tr>
-<tr><td><a href="/teams/MIN.html">MIN</a></td><td><a href="/teams/NSH.html">NSH</a></td><td><a href="/players/gustafi01.html">Filip Gustavsson</a></td><td><a href="/teams/MIN.html">MIN</a></td><td>L</td><td>3</td><td>29</td><td>26</td><td>0.897</td><td>0</td><td>0</td><td>58:49:00</td></tr>
-
-                </tbody>
-            </table>
-
-            <h2>Scoring</h2>
-            <table id="202401250MIN_scoring" border="1">
-                <thead>
-                    <tr>
-                        <th>Home Team</th><th>Away Team</th><th>Period</th><th>Time</th><th>Team</th><th>Info</th>
-                        <th>Scorer</th><th>Assist1</th><th>Assist2</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr><td><a href="/teams/MIN.html">MIN</a></td><td><a href="/teams/NSH.html">NSH</a></td><td>1st Period</td><td>1st Period</td><td><a href="/teams/1st Period.html">1st Period</a></td><td>1st Period</td><td><a href="/players/1st Period.html">1st Period</a></td><td><a href="/players/1st Period.html">1st Period</a></td><td><a href="/players/1st Period.html">1st Period</a></td></tr>
-<tr><td><a href="/teams/MIN.html">MIN</a></td><td><a href="/teams/NSH.html">NSH</a></td><td>1st Period</td><td>12:44</td><td><a href="/teams/MIN.html">MIN</a></td><td>PP</td><td><a href="/players/Joel Eriksson Ek.html">Joel Eriksson Ek</a></td><td><a href="/players/Kirill Kaprizov.html">Kirill Kaprizov</a></td><td><a href="/players/Mats Zuccarello.html">Mats Zuccarello</a></td></tr>
-<tr><td><a href="/teams/MIN.html">MIN</a></td><td><a href="/teams/NSH.html">NSH</a></td><td>3rd Period</td><td>3rd Period</td><td><a href="/teams/3rd Period.html">3rd Period</a></td><td>3rd Period</td><td><a href="/players/3rd Period.html">3rd Period</a></td><td><a href="/players/3rd Period.html">3rd Period</a></td><td><a href="/players/3rd Period.html">3rd Period</a></td></tr>
-<tr><td><a href="/teams/MIN.html">MIN</a></td><td><a href="/teams/NSH.html">NSH</a></td><td>3rd Period</td><td>1:44</td><td><a href="/teams/NSH.html">NSH</a></td><td>--</td><td><a href="/players/Alexandre Carrier.html">Alexandre Carrier</a></td><td><a href="/players/Yakov Trenin.html">Yakov Trenin</a></td><td><a href="/players/Yakov Trenin.html">Yakov Trenin</a></td></tr>
-<tr><td><a href="/teams/MIN.html">MIN</a></td><td><a href="/teams/NSH.html">NSH</a></td><td>3rd Period</td><td>2:19</td><td><a href="/teams/NSH.html">NSH</a></td><td>--</td><td><a href="/players/Filip Forsberg.html">Filip Forsberg</a></td><td><a href="/players/Roman Josi.html">Roman Josi</a></td><td><a href="/players/Ryan O'Reilly.html">Ryan O'Reilly</a></td></tr>
-<tr><td><a href="/teams/MIN.html">MIN</a></td><td><a href="/teams/NSH.html">NSH</a></td><td>3rd Period</td><td>11:34</td><td><a href="/teams/NSH.html">NSH</a></td><td>--</td><td><a href="/players/Roman Josi.html">Roman Josi</a></td><td><a href="/players/Gustav Nyquist.html">Gustav Nyquist</a></td><td><a href="/players/Ryan O'Reilly.html">Ryan O'Reilly</a></td></tr>
-<tr><td><a href="/teams/MIN.html">MIN</a></td><td><a href="/teams/NSH.html">NSH</a></td><td>3rd Period</td><td>16:09</td><td><a href="/teams/MIN.html">MIN</a></td><td>PP</td><td><a href="/players/Matt Boldy.html">Matt Boldy</a></td><td><a href="/players/Brock Faber.html">Brock Faber</a></td><td><a href="/players/Kirill Kaprizov.html">Kirill Kaprizov</a></td></tr>
-
-                </tbody>
-            </table>
-
-            <h2>Penalties</h2>
-            <table id="202401250MIN_penalties" border="1">
-                <thead>
-                    <tr>
-                        <th>Home Team</th><th>Away Team</th><th>Period</th><th>Time</th><th>Team</th><th>Player</th>
-                        <th>Penalty</th><th>PIM</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr><td><a href="/teams/MIN.html">MIN</a></td><td><a href="/teams/NSH.html">NSH</a></td><td>1st Period</td><td>1st Period</td><td><a href="/teams/1st Period.html">1st Period</a></td><td><a href="/players/1st Period.html">1st Period</a></td><td>1st Period</td><td>1st Period</td></tr>
-<tr><td><a href="/teams/MIN.html">MIN</a></td><td><a href="/teams/NSH.html">NSH</a></td><td>1st Period</td><td>13:47</td><td><a href="/teams/MIN.html">MIN</a></td><td><a href="/players/Zach Bogosian.html">Zach Bogosian</a></td><td>Roughing</td><td>2 min</td></tr>
-<tr><td><a href="/teams/MIN.html">MIN</a></td><td><a href="/teams/NSH.html">NSH</a></td><td>2nd Period</td><td>2nd Period</td><td><a href="/teams/2nd Period.html">2nd Period</a></td><td><a href="/players/2nd Period.html">2nd Period</a></td><td>2nd Period</td><td>2nd Period</td></tr>
-<tr><td><a href="/teams/MIN.html">MIN</a></td><td><a href="/teams/NSH.html">NSH</a></td><td>2nd Period</td><td>5:49</td><td><a href="/teams/NSH.html">NSH</a></td><td><a href="/players/Cody Glass.html">Cody Glass</a></td><td>Tripping</td><td>2 min</td></tr>
-<tr><td><a href="/teams/MIN.html">MIN</a></td><td><a href="/teams/NSH.html">NSH</a></td><td>2nd Period</td><td>10:07</td><td><a href="/teams/NSH.html">NSH</a></td><td><a href="/players/Alexandre Carrier.html">Alexandre Carrier</a></td><td>Holding</td><td>2 min</td></tr>
-<tr><td><a href="/teams/MIN.html">MIN</a></td><td><a href="/teams/NSH.html">NSH</a></td><td>2nd Period</td><td>11:58</td><td><a href="/teams/NSH.html">NSH</a></td><td><a href="/players/Ryan McDonagh.html">Ryan McDonagh</a></td><td>Delay of Game</td><td>2 min</td></tr>
-<tr><td><a href="/teams/MIN.html">MIN</a></td><td><a href="/teams/NSH.html">NSH</a></td><td>2nd Period</td><td>14:44</td><td><a href="/teams/NSH.html">NSH</a></td><td><a href="/players/Michael McCarron.html">Michael McCarron</a></td><td>Fighting</td><td>5 min</td></tr>
-<tr><td><a href="/teams/MIN.html">MIN</a></td><td><a href="/teams/NSH.html">NSH</a></td><td>2nd Period</td><td>14:44</td><td><a href="/teams/MIN.html">MIN</a></td><td><a href="/players/Jacob Middleton.html">Jacob Middleton</a></td><td>Fighting</td><td>5 min</td></tr>
-<tr><td><a href="/teams/MIN.html">MIN</a></td><td><a href="/teams/NSH.html">NSH</a></td><td>2nd Period</td><td>15:37</td><td><a href="/teams/MIN.html">MIN</a></td><td><a href="/players/Zach Bogosian.html">Zach Bogosian</a></td><td>Instigator</td><td>2 min</td></tr>
-<tr><td><a href="/teams/MIN.html">MIN</a></td><td><a href="/teams/NSH.html">NSH</a></td><td>2nd Period</td><td>15:37</td><td><a href="/teams/MIN.html">MIN</a></td><td><a href="/players/Zach Bogosian.html">Zach Bogosian</a></td><td>Fighting</td><td>5 min</td></tr>
-<tr><td><a href="/teams/MIN.html">MIN</a></td><td><a href="/teams/NSH.html">NSH</a></td><td>2nd Period</td><td>15:37</td><td><a href="/teams/MIN.html">MIN</a></td><td><a href="/players/Zach Bogosian.html">Zach Bogosian</a></td><td>Instigator</td><td>10 min</td></tr>
-<tr><td><a href="/teams/MIN.html">MIN</a></td><td><a href="/teams/NSH.html">NSH</a></td><td>2nd Period</td><td>15:37</td><td><a href="/teams/NSH.html">NSH</a></td><td><a href="/players/Cole Smith.html">Cole Smith</a></td><td>Elbowing</td><td>2 min</td></tr>
-<tr><td><a href="/teams/MIN.html">MIN</a></td><td><a href="/teams/NSH.html">NSH</a></td><td>2nd Period</td><td>15:37</td><td><a href="/teams/NSH.html">NSH</a></td><td><a href="/players/Cole Smith.html">Cole Smith</a></td><td>Fighting</td><td>5 min</td></tr>
-<tr><td><a href="/teams/MIN.html">MIN</a></td><td><a href="/teams/NSH.html">NSH</a></td><td>2nd Period</td><td>18:22</td><td><a href="/teams/MIN.html">MIN</a></td><td><a href="/players/Kirill Kaprizov.html">Kirill Kaprizov</a></td><td>Hooking</td><td>2 min</td></tr>
-<tr><td><a href="/teams/MIN.html">MIN</a></td><td><a href="/teams/NSH.html">NSH</a></td><td>3rd Period</td><td>3rd Period</td><td><a href="/teams/3rd Period.html">3rd Period</a></td><td><a href="/players/3rd Period.html">3rd Period</a></td><td>3rd Period</td><td>3rd Period</td></tr>
-<tr><td><a href="/teams/MIN.html">MIN</a></td><td><a href="/teams/NSH.html">NSH</a></td><td>3rd Period</td><td>14:41</td><td><a href="/teams/NSH.html">NSH</a></td><td><a href="/players/Jeremy Lauzon.html">Jeremy Lauzon</a></td><td>Tripping</td><td>2 min</td></tr>
-
-                </tbody>
-            </table>
-        </main>
-    </body>
-    </html>
-    
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nashville Predators at Minnesota Wild: January 25, 2024</title>
+<link rel="stylesheet" href="/assets/styles.css">
+<script src="/assets/searchBar.js"></script>
+<script src="/assets/tableSort.js"></script>
+</head>
+<body>
+<nav id="navbar">
+<ul>
+<li><a href="/">Home</a></li>
+<li><a href="/players/">Players</a></li>
+<li><a href="/teams/">Teams</a></li>
+<li><a href="/probabilities/">Probabilities</a></li>
+<li><a href="/boxscores/">Boxscores</a></li>
+<li><a href="/versus/">Head to Head Stats</a></li>
+<li><a href="/leaders/">Leaders</a></li>
+<li><a href="/seasons/2025/schedule.html">Schedule and Results</a></li>
+<li><a href="/seasons/2025/standings.html">Current Standings</a></li>
+<li><a href="/seasons/2025/rosters.html">Team Rosters</a></li>
+<li>
+<input type="text" id="searchBar" placeholder="Search for players or teams..." oninput="performSearch()" autocomplete="off">
+<div id="searchResults" class="dropdown"></div>
+<button id="searchButton" onclick="handleSearch()">Search</button>
+</li>
+</ul>
+</nav>
+<main id="content">
+<div class="scorebox">
+<div class="team"><div><a href="/teams/NSH.html">NSH</a></div><div class="score">3</div></div>
+<div class="team"><div><a href="/teams/MIN.html">MIN</a></div><div class="score">2</div></div>
+<div class="date">January 25, 2024</div>
+</div>
+<table id="NSH_skaters">
+<tr><th>Team</th><th>Player</th><th>G</th><th>A</th><th>PTS</th><th>SOG</th><th>HIT</th><th>BLK</th><th>TOI</th><th>PIM</th><th>SAT-F</th><th>SAT-A</th><th>CF%</th><th>CRel%</th></tr>
+<tr><td><a href="/teams/NSH.html">NSH</a></td><td><a href="/players/carrial01.html">Alexandre Carrier</a></td><td>1</td><td>0</td><td>1</td><td>3</td><td>1</td><td>2</td><td>19.58</td><td>2</td><td>17</td><td>23</td><td>42.50%</td><td>-20.00%</td></tr>
+<tr><td><a href="/teams/NSH.html">NSH</a></td><td><a href="/players/glassco01.html">Cody Glass</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>11.03</td><td>2</td><td>8</td><td>4</td><td>66.70%</td><td>12.70%</td></tr>
+<tr><td><a href="/teams/NSH.html">NSH</a></td><td><a href="/players/smithco02.html">Cole Smith</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>13.5</td><td>7</td><td>7</td><td>17</td><td>29.20%</td><td>-33.30%</td></tr>
+<tr><td><a href="/teams/NSH.html">NSH</a></td><td><a href="/players/sissoco01.html">Colton Sissons</a></td><td>0</td><td>0</td><td>0</td><td>6</td><td>1</td><td>1</td><td>21.47</td><td>0</td><td>26</td><td>22</td><td>54.20%</td><td>-2.00%</td></tr>
+<tr><td><a href="/teams/NSH.html">NSH</a></td><td><a href="/players/fabbrda01.html">Dante Fabbro</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>2</td><td>15.7</td><td>0</td><td>17</td><td>13</td><td>56.70%</td><td>1.80%</td></tr>
+<tr><td><a href="/teams/NSH.html">NSH</a></td><td><a href="/players/guriade01.html">Denis Gurianov</a></td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>1</td><td>13.35</td><td>0</td><td>17</td><td>5</td><td>77.30%</td><td>27.30%</td></tr>
+<tr><td><a href="/teams/NSH.html">NSH</a></td><td><a href="/players/forsbfi01.html">Filip Forsberg</a></td><td>1</td><td>0</td><td>1</td><td>1</td><td>3</td><td>0</td><td>19.45</td><td>0</td><td>27</td><td>13</td><td>67.50%</td><td>18.90%</td></tr>
+<tr><td><a href="/teams/NSH.html">NSH</a></td><td><a href="/players/nyquigu01.html">Gustav Nyquist</a></td><td>0</td><td>1</td><td>1</td><td>2</td><td>1</td><td>0</td><td>17.75</td><td>0</td><td>24</td><td>14</td><td>63.20%</td><td>11.80%</td></tr>
+<tr><td><a href="/teams/NSH.html">NSH</a></td><td><a href="/players/lauzoje01.html">Jeremy Lauzon</a></td><td>0</td><td>0</td><td>0</td><td>1</td><td>6</td><td>2</td><td>20.72</td><td>2</td><td>23</td><td>23</td><td>50.00%</td><td>-9.10%</td></tr>
+<tr><td><a href="/teams/NSH.html">NSH</a></td><td><a href="/players/sherwki01.html">Kiefer Sherwood</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>7</td><td>0</td><td>8.23</td><td>0</td><td>7</td><td>8</td><td>46.70%</td><td>-10.00%</td></tr>
+<tr><td><a href="/teams/NSH.html">NSH</a></td><td><a href="/players/evanglu01.html">Luke Evangelista</a></td><td>0</td><td>0</td><td>0</td><td>3</td><td>3</td><td>0</td><td>13.5</td><td>0</td><td>12</td><td>6</td><td>66.70%</td><td>13.50%</td></tr>
+<tr><td><a href="/teams/NSH.html">NSH</a></td><td><a href="/players/schenlu01.html">Luke Schenn</a></td><td>0</td><td>0</td><td>0</td><td>2</td><td>3</td><td>1</td><td>14.63</td><td>0</td><td>15</td><td>9</td><td>62.50%</td><td>9.10%</td></tr>
+<tr><td><a href="/teams/NSH.html">NSH</a></td><td><a href="/players/mccarmi01.html">Michael McCarron</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>8.32</td><td>5</td><td>7</td><td>10</td><td>41.20%</td><td>-16.70%</td></tr>
+<tr><td><a href="/teams/NSH.html">NSH</a></td><td><a href="/players/josiro01.html">Roman Josi</a></td><td>1</td><td>1</td><td>2</td><td>3</td><td>3</td><td>3</td><td>23.72</td><td>0</td><td>28</td><td>18</td><td>60.90%</td><td>9.40%</td></tr>
+<tr><td><a href="/teams/NSH.html">NSH</a></td><td><a href="/players/mcdonry01.html">Ryan McDonagh</a></td><td>0</td><td>0</td><td>0</td><td>3</td><td>1</td><td>2</td><td>22.55</td><td>2</td><td>19</td><td>15</td><td>55.90%</td><td>0.80%</td></tr>
+<tr><td><a href="/teams/NSH.html">NSH</a></td><td><a href="/players/oreilry01.html">Ryan O'Reilly</a></td><td>0</td><td>2</td><td>2</td><td>2</td><td>0</td><td>1</td><td>20.05</td><td>0</td><td>23</td><td>14</td><td>62.20%</td><td>10.20%</td></tr>
+<tr><td><a href="/teams/NSH.html">NSH</a></td><td><a href="/players/novakth01.html">Thomas Novak</a></td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>13.75</td><td>0</td><td>13</td><td>7</td><td>65.00%</td><td>11.70%</td></tr>
+<tr><td><a href="/teams/NSH.html">NSH</a></td><td><a href="/players/treniya01.html">Yakov Trenin</a></td><td>0</td><td>1</td><td>1</td><td>1</td><td>3</td><td>0</td><td>16.47</td><td>0</td><td>20</td><td>12</td><td>62.50%</td><td>10.00%</td></tr>
+</table>
+<table id="MIN_skaters">
+<tr><th>Team</th><th>Player</th><th>G</th><th>A</th><th>PTS</th><th>SOG</th><th>HIT</th><th>BLK</th><th>TOI</th><th>PIM</th><th>SAT-F</th><th>SAT-A</th><th>CF%</th><th>CRel%</th></tr>
+<tr><td><a href="/teams/MIN.html">MIN</a></td><td><a href="/players/goligal01.html">Alex Goligoski</a></td><td>0</td><td>0</td><td>0</td><td>3</td><td>0</td><td>1</td><td>20.45</td><td>0</td><td>12</td><td>24</td><td>33.30%</td><td>-16.70%</td></tr>
+<tr><td><a href="/teams/MIN.html">MIN</a></td><td><a href="/players/duhaibr01.html">Brandon Duhaime</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>6.17</td><td>0</td><td>2</td><td>6</td><td>25.00%</td><td>-21.20%</td></tr>
+<tr><td><a href="/teams/MIN.html">MIN</a></td><td><a href="/players/faberbr01.html">Brock Faber</a></td><td>0</td><td>1</td><td>1</td><td>2</td><td>0</td><td>4</td><td>27.72</td><td>0</td><td>29</td><td>33</td><td>46.80%</td><td>4.80%</td></tr>
+<tr><td><a href="/teams/MIN.html">MIN</a></td><td><a href="/players/mermida01.html">Dakota Mermis</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>3</td><td>0</td><td>11.32</td><td>0</td><td>8</td><td>7</td><td>53.30%</td><td>10.00%</td></tr>
+<tr><td><a href="/teams/MIN.html">MIN</a></td><td><a href="/players/gaudrfr01.html">Frédérick Gaudreau</a></td><td>0</td><td>0</td><td>0</td><td>2</td><td>0</td><td>0</td><td>8.1</td><td>0</td><td>7</td><td>5</td><td>58.30%</td><td>15.30%</td></tr>
+<tr><td><a href="/teams/MIN.html">MIN</a></td><td><a href="/players/middlja01.html">Jacob Middleton</a></td><td>0</td><td>0</td><td>0</td><td>1</td><td>1</td><td>0</td><td>14.42</td><td>5</td><td>9</td><td>8</td><td>52.90%</td><td>9.70%</td></tr>
+<tr><td><a href="/teams/MIN.html">MIN</a></td><td><a href="/players/lucchja01.html">Jake Lucchini</a></td><td>0</td><td>0</td><td>0</td><td>1</td><td>2</td><td>0</td><td>5.97</td><td>0</td><td>3</td><td>6</td><td>33.30%</td><td>-12.30%</td></tr>
+<tr><td><a href="/teams/MIN.html">MIN</a></td><td><a href="/players/eriksjo02.html">Joel Eriksson Ek</a></td><td>1</td><td>0</td><td>1</td><td>1</td><td>2</td><td>0</td><td>21.48</td><td>0</td><td>25</td><td>25</td><td>50.00%</td><td>9.70%</td></tr>
+<tr><td><a href="/teams/MIN.html">MIN</a></td><td><a href="/players/brodijo01.html">Jonas Brodin</a></td><td>0</td><td>0</td><td>0</td><td>2</td><td>2</td><td>6</td><td>24.75</td><td>0</td><td>18</td><td>33</td><td>35.30%</td><td>-17.20%</td></tr>
+<tr><td><a href="/teams/MIN.html">MIN</a></td><td><a href="/players/kapriki01.html">Kirill Kaprizov</a></td><td>0</td><td>2</td><td>2</td><td>2</td><td>0</td><td>2</td><td>22.33</td><td>2</td><td>28</td><td>22</td><td>56.00%</td><td>20.50%</td></tr>
+<tr><td><a href="/teams/MIN.html">MIN</a></td><td><a href="/players/rossima01.html">Marco Rossi</a></td><td>0</td><td>0</td><td>0</td><td>1</td><td>1</td><td>1</td><td>18.03</td><td>0</td><td>16</td><td>22</td><td>42.10%</td><td>-3.80%</td></tr>
+<tr><td><a href="/teams/MIN.html">MIN</a></td><td><a href="/players/foligma01.html">Marcus Foligno</a></td><td>0</td><td>0</td><td>0</td><td>1</td><td>6</td><td>2</td><td>17.7</td><td>0</td><td>12</td><td>28</td><td>30.00%</td><td>-22.80%</td></tr>
+<tr><td><a href="/teams/MIN.html">MIN</a></td><td><a href="/players/johanma03.html">Marcus Johansson</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>15.98</td><td>0</td><td>7</td><td>10</td><td>41.20%</td><td>-4.10%</td></tr>
+<tr><td><a href="/teams/MIN.html">MIN</a></td><td><a href="/players/zuccama01.html">Mats Zuccarello</a></td><td>0</td><td>1</td><td>1</td><td>1</td><td>0</td><td>0</td><td>21.52</td><td>0</td><td>26</td><td>20</td><td>56.50%</td><td>20.10%</td></tr>
+<tr><td><a href="/teams/MIN.html">MIN</a></td><td><a href="/players/boldyma01.html">Matt Boldy</a></td><td>1</td><td>0</td><td>1</td><td>5</td><td>0</td><td>0</td><td>19.18</td><td>0</td><td>29</td><td>18</td><td>61.70%</td><td>29.40%</td></tr>
+<tr><td><a href="/teams/MIN.html">MIN</a></td><td><a href="/players/maroopa01.html">Pat Maroon</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>3</td><td>11.83</td><td>0</td><td>2</td><td>11</td><td>15.40%</td><td>-33.10%</td></tr>
+<tr><td><a href="/teams/MIN.html">MIN</a></td><td><a href="/players/hartmry01.html">Ryan Hartman</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>15.88</td><td>0</td><td>10</td><td>10</td><td>50.00%</td><td>6.50%</td></tr>
+<tr><td><a href="/teams/MIN.html">MIN</a></td><td><a href="/players/bogosza01.html">Zach Bogosian</a></td><td>0</td><td>0</td><td>0</td><td>2</td><td>1</td><td>1</td><td>14.35</td><td>19</td><td>8</td><td>18</td><td>30.80%</td><td>-18.00%</td></tr>
+</table>
+<table id="NSH_goalies">
+<tr><th>Team</th><th>Goalie</th><th>DEC</th><th>GA</th><th>SA</th><th>SV</th><th>SV%</th><th>SO</th><th>PIM</th><th>TOI</th></tr>
+<tr><td><a href="/teams/NSH.html">NSH</a></td><td><a href="/players/sarosju01.html">Juuse Saros</a></td><td>W</td><td>2</td><td>24</td><td>22</td><td>91.70%</td><td>0</td><td>0</td><td>60.0</td></tr>
+</table>
+<table id="MIN_goalies">
+<tr><th>Team</th><th>Goalie</th><th>DEC</th><th>GA</th><th>SA</th><th>SV</th><th>SV%</th><th>SO</th><th>PIM</th><th>TOI</th></tr>
+<tr><td><a href="/teams/MIN.html">MIN</a></td><td><a href="/players/gustafi01.html">Filip Gustavsson</a></td><td>L</td><td>3</td><td>29</td><td>26</td><td>89.70%</td><td>0</td><td>0</td><td>58.82</td></tr>
+</table>
+<table id="scoring">
+<tr><th>Team</th><th>Time</th><th>Info</th><th>Scorer</th><th>Assist 1</th><th>Assist 2</th></tr>
+<tr><td><a href="/teams/MIN.html">MIN</a></td><td>12.73</td><td>PP</td><td><a href="/players/eriksjo02.html">Joel Eriksson Ek</a></td><td><a href="/players/kapriki01.html">Kirill Kaprizov</a></td><td><a href="/players/zuccama01.html">Mats Zuccarello</a></td></tr>
+<tr><td><a href="/teams/NSH.html">NSH</a></td><td>41.73</td><td>--</td><td><a href="/players/carrial01.html">Alexandre Carrier</a></td><td><a href="/players/treniya01.html">Yakov Trenin</a></td><td><a href="/players/treniya01.html">Yakov Trenin</a></td></tr>
+<tr><td><a href="/teams/NSH.html">NSH</a></td><td>42.32</td><td>--</td><td><a href="/players/forsbfi01.html">Filip Forsberg</a></td><td><a href="/players/josiro01.html">Roman Josi</a></td><td><a href="/players/oreilry01.html">Ryan O'Reilly</a></td></tr>
+<tr><td><a href="/teams/NSH.html">NSH</a></td><td>51.57</td><td>--</td><td><a href="/players/josiro01.html">Roman Josi</a></td><td><a href="/players/nyquigu01.html">Gustav Nyquist</a></td><td><a href="/players/oreilry01.html">Ryan O'Reilly</a></td></tr>
+<tr><td><a href="/teams/MIN.html">MIN</a></td><td>56.15</td><td>PP</td><td><a href="/players/boldyma01.html">Matt Boldy</a></td><td><a href="/players/faberbr01.html">Brock Faber</a></td><td><a href="/players/kapriki01.html">Kirill Kaprizov</a></td></tr>
+</table>
+<table id="penalties">
+<tr><th>Team</th><th>Time</th><th>Player</th><th>Penalty</th><th>PIM</th></tr>
+<tr><td><a href="/teams/MIN.html">MIN</a></td><td>13.78</td><td><a href="/players/bogosza01.html">Zach Bogosian</a></td><td>Roughing</td><td>2 min</td></tr>
+<tr><td><a href="/teams/NSH.html">NSH</a></td><td>25.82</td><td><a href="/players/glassco01.html">Cody Glass</a></td><td>Tripping</td><td>2 min</td></tr>
+<tr><td><a href="/teams/NSH.html">NSH</a></td><td>30.12</td><td><a href="/players/carrial01.html">Alexandre Carrier</a></td><td>Holding</td><td>2 min</td></tr>
+<tr><td><a href="/teams/NSH.html">NSH</a></td><td>31.97</td><td><a href="/players/mcdonry01.html">Ryan McDonagh</a></td><td>Delay of Game</td><td>2 min</td></tr>
+<tr><td><a href="/teams/NSH.html">NSH</a></td><td>34.73</td><td><a href="/players/mccarmi01.html">Michael McCarron</a></td><td>Fighting</td><td>5 min</td></tr>
+<tr><td><a href="/teams/MIN.html">MIN</a></td><td>34.73</td><td><a href="/players/middlja01.html">Jacob Middleton</a></td><td>Fighting</td><td>5 min</td></tr>
+<tr><td><a href="/teams/MIN.html">MIN</a></td><td>35.62</td><td><a href="/players/bogosza01.html">Zach Bogosian</a></td><td>Instigator</td><td>2 min</td></tr>
+<tr><td><a href="/teams/MIN.html">MIN</a></td><td>35.62</td><td><a href="/players/bogosza01.html">Zach Bogosian</a></td><td>Fighting</td><td>5 min</td></tr>
+<tr><td><a href="/teams/MIN.html">MIN</a></td><td>35.62</td><td><a href="/players/bogosza01.html">Zach Bogosian</a></td><td>Instigator</td><td>10 min</td></tr>
+<tr><td><a href="/teams/NSH.html">NSH</a></td><td>35.62</td><td><a href="/players/smithco02.html">Cole Smith</a></td><td>Elbowing</td><td>2 min</td></tr>
+<tr><td><a href="/teams/NSH.html">NSH</a></td><td>35.62</td><td><a href="/players/smithco02.html">Cole Smith</a></td><td>Fighting</td><td>5 min</td></tr>
+<tr><td><a href="/teams/MIN.html">MIN</a></td><td>38.37</td><td><a href="/players/kapriki01.html">Kirill Kaprizov</a></td><td>Hooking</td><td>2 min</td></tr>
+<tr><td><a href="/teams/NSH.html">NSH</a></td><td>54.68</td><td><a href="/players/lauzoje01.html">Jeremy Lauzon</a></td><td>Tripping</td><td>2 min</td></tr>
+</table>
+</main>
+</body>
+</html>

@@ -1,152 +1,109 @@
-
-    <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Game 202401160WPG Boxscore</title>
-        <link rel="stylesheet" href="/assets/styles.css">
-        <script src="/assets/searchBar.js" defer></script>
-        <script src="/assets/tableSort.js"></script>
-        <style>
-            tr:hover {background-color: #F0FFF0;}
-        </style>
-    </head>
-    <body>
-        <nav id="navbar">
-            <a href="/">Home</a>
-            <a href="/players/">Players</a>
-            <a href="/teams/">Teams</a>
-            <a href="/leaders/">Leaders</a>
-            <a href="/probabilities/">Probabilities</a>
-            <a href="/boxscores/">Boxscores</a>
-            <a href="/schedule/">Schedule</a>
-
-            <div class="search-container">
-                <input type="text" id="searchInput" placeholder="Search players or teams..." oninput="searchEntities()" />
-                <ul id="suggestions"></ul>
-            </div>
-        </nav>
-
-        <main id="content">
-            <h1>Game 202401160WPG Boxscore</h1>
-
-            <h2>Skaters</h2>
-            <table id="202401160WPG_skaters" border="1">
-                <thead>
-                    <tr>
-                        <th>Date</th><th>Home Team</th><th>Away Team</th><th>Player</th><th>Team</th><th>G</th><th>A</th><th>PTS</th>
-                        <th>+/-</th><th>PIM</th><th>EVG</th><th>PPG</th><th>SHG</th><th>GWG</th><th>EV Assist</th><th>PP Assist</th>
-                        <th>SH Assist</th><th>SOG</th><th>S%</th><th>SHFT</th><th>TOI</th><th>iCF</th><th>SAT‑F</th><th>SAT‑A</th>
-                        <th>CF%</th><th>CRel%</th><th>ZSO</th><th>ZSD</th><th>oZS%</th><th>HIT</th><th>BLK</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr><td><a href="/boxscores/202401160WPG.html">1/16/2024</a></td><td><a href="/teams/WPG.html">WPG</a></td><td><a href="/teams/NYI.html">NYI</a></td><td><a href="/players/Sebastian Aho (NYI).html">Sebastian Aho (NYI)</a></td><td><a href="/teams/NYI.html">NYI</a></td><td>0</td><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>1</td><td>0</td><td>28</td><td>18.78</td><td>2</td><td>18</td><td>25</td><td>41.9</td><td>-7</td><td>7</td><td>3</td><td>70</td><td>1</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202401160WPG.html">1/16/2024</a></td><td><a href="/teams/WPG.html">WPG</a></td><td><a href="/teams/NYI.html">NYI</a></td><td><a href="/players/Mathew Barzal.html">Mathew Barzal</a></td><td><a href="/teams/NYI.html">NYI</a></td><td>0</td><td>0</td><td>0</td><td>-1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>22</td><td>21.23</td><td>3</td><td>21</td><td>20</td><td>51.2</td><td>6.5</td><td>9</td><td>6</td><td>60</td><td>1</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202401160WPG.html">1/16/2024</a></td><td><a href="/teams/WPG.html">WPG</a></td><td><a href="/teams/NYI.html">NYI</a></td><td><a href="/players/Cal Clutterbuck.html">Cal Clutterbuck</a></td><td><a href="/teams/NYI.html">NYI</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>2</td><td>0</td><td>20</td><td>12.95</td><td>2</td><td>10</td><td>22</td><td>31.2</td><td>-20.3</td><td>2</td><td>5</td><td>28.6</td><td>7</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202401160WPG.html">1/16/2024</a></td><td><a href="/teams/WPG.html">WPG</a></td><td><a href="/teams/NYI.html">NYI</a></td><td><a href="/players/Noah Dobson.html">Noah Dobson</a></td><td><a href="/teams/NYI.html">NYI</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>2</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>5</td><td>0</td><td>31</td><td>27.65</td><td>11</td><td>34</td><td>36</td><td>48.6</td><td>4</td><td>17</td><td>8</td><td>68</td><td>0</td><td>3</td></tr>
-<tr><td><a href="/boxscores/202401160WPG.html">1/16/2024</a></td><td><a href="/teams/WPG.html">WPG</a></td><td><a href="/teams/NYI.html">NYI</a></td><td><a href="/players/Hudson Fasching.html">Hudson Fasching</a></td><td><a href="/teams/NYI.html">NYI</a></td><td>0</td><td>0</td><td>0</td><td>-2</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>17</td><td>12.03</td><td>1</td><td>18</td><td>17</td><td>51.4</td><td>6.4</td><td>6</td><td>2</td><td>75</td><td>1</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202401160WPG.html">1/16/2024</a></td><td><a href="/teams/WPG.html">WPG</a></td><td><a href="/teams/NYI.html">NYI</a></td><td><a href="/players/Julien Gauthier.html">Julien Gauthier</a></td><td><a href="/teams/NYI.html">NYI</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>13</td><td>9.3</td><td>1</td><td>6</td><td>16</td><td>27.3</td><td>-23.1</td><td>1</td><td>4</td><td>20</td><td>1</td><td>1</td></tr>
-<tr><td><a href="/boxscores/202401160WPG.html">1/16/2024</a></td><td><a href="/teams/WPG.html">WPG</a></td><td><a href="/teams/NYI.html">NYI</a></td><td><a href="/players/Simon Holmström.html">Simon Holmström</a></td><td><a href="/teams/NYI.html">NYI</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>18</td><td>13.08</td><td>0</td><td>4</td><td>13</td><td>23.5</td><td>-26.5</td><td>3</td><td>6</td><td>33.3</td><td>0</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202401160WPG.html">1/16/2024</a></td><td><a href="/teams/WPG.html">WPG</a></td><td><a href="/teams/NYI.html">NYI</a></td><td><a href="/players/Bo Horvat.html">Bo Horvat</a></td><td><a href="/teams/NYI.html">NYI</a></td><td>0</td><td>1</td><td>1</td><td>-1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>2</td><td>0</td><td>28</td><td>22.45</td><td>5</td><td>27</td><td>30</td><td>47.4</td><td>1.2</td><td>13</td><td>8</td><td>61.9</td><td>1</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202401160WPG.html">1/16/2024</a></td><td><a href="/teams/WPG.html">WPG</a></td><td><a href="/teams/NYI.html">NYI</a></td><td><a href="/players/Anders Lee.html">Anders Lee</a></td><td><a href="/teams/NYI.html">NYI</a></td><td>2</td><td>0</td><td>2</td><td>1</td><td>2</td><td>2</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>6</td><td>33.3</td><td>22</td><td>16.15</td><td>8</td><td>26</td><td>11</td><td>70.3</td><td>32.5</td><td>11</td><td>4</td><td>73.3</td><td>3</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202401160WPG.html">1/16/2024</a></td><td><a href="/teams/WPG.html">WPG</a></td><td><a href="/teams/NYI.html">NYI</a></td><td><a href="/players/Matt Martin.html">Matt Martin</a></td><td><a href="/teams/NYI.html">NYI</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>12</td><td>8.17</td><td>1</td><td>5</td><td>13</td><td>27.8</td><td>-21.8</td><td>1</td><td>3</td><td>25</td><td>1</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202401160WPG.html">1/16/2024</a></td><td><a href="/teams/WPG.html">WPG</a></td><td><a href="/teams/NYI.html">NYI</a></td><td><a href="/players/Scott Mayfield.html">Scott Mayfield</a></td><td><a href="/teams/NYI.html">NYI</a></td><td>0</td><td>0</td><td>0</td><td>-1</td><td>2</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>2</td><td>0</td><td>22</td><td>15.17</td><td>4</td><td>11</td><td>16</td><td>40.7</td><td>-7.4</td><td>1</td><td>11</td><td>8.3</td><td>2</td><td>3</td></tr>
-<tr><td><a href="/boxscores/202401160WPG.html">1/16/2024</a></td><td><a href="/teams/WPG.html">WPG</a></td><td><a href="/teams/NYI.html">NYI</a></td><td><a href="/players/Brock Nelson.html">Brock Nelson</a></td><td><a href="/teams/NYI.html">NYI</a></td><td>0</td><td>0</td><td>0</td><td>-2</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>3</td><td>0</td><td>23</td><td>17.95</td><td>6</td><td>26</td><td>19</td><td>57.8</td><td>16.7</td><td>10</td><td>4</td><td>71.4</td><td>0</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202401160WPG.html">1/16/2024</a></td><td><a href="/teams/WPG.html">WPG</a></td><td><a href="/teams/NYI.html">NYI</a></td><td><a href="/players/Jean-Gabriel Pageau.html">Jean-Gabriel Pageau</a></td><td><a href="/teams/NYI.html">NYI</a></td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>24</td><td>15.65</td><td>0</td><td>14</td><td>21</td><td>40</td><td>-9</td><td>3</td><td>11</td><td>21.4</td><td>5</td><td>1</td></tr>
-<tr><td><a href="/boxscores/202401160WPG.html">1/16/2024</a></td><td><a href="/teams/WPG.html">WPG</a></td><td><a href="/teams/NYI.html">NYI</a></td><td><a href="/players/Kyle Palmieri.html">Kyle Palmieri</a></td><td><a href="/teams/NYI.html">NYI</a></td><td>0</td><td>0</td><td>0</td><td>-2</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>8</td><td>0</td><td>23</td><td>17.05</td><td>9</td><td>25</td><td>16</td><td>61</td><td>20.6</td><td>10</td><td>4</td><td>71.4</td><td>2</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202401160WPG.html">1/16/2024</a></td><td><a href="/teams/WPG.html">WPG</a></td><td><a href="/teams/NYI.html">NYI</a></td><td><a href="/players/Adam Pelech.html">Adam Pelech</a></td><td><a href="/teams/NYI.html">NYI</a></td><td>0</td><td>0</td><td>0</td><td>-2</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>29</td><td>19.53</td><td>2</td><td>18</td><td>17</td><td>51.4</td><td>6.4</td><td>0</td><td>13</td><td>0</td><td>0</td><td>3</td></tr>
-<tr><td><a href="/boxscores/202401160WPG.html">1/16/2024</a></td><td><a href="/teams/WPG.html">WPG</a></td><td><a href="/teams/NYI.html">NYI</a></td><td><a href="/players/Mike Reilly.html">Mike Reilly</a></td><td><a href="/teams/NYI.html">NYI</a></td><td>0</td><td>1</td><td>1</td><td>1</td><td>4</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>2</td><td>0</td><td>25</td><td>15.05</td><td>3</td><td>18</td><td>17</td><td>51.4</td><td>6.4</td><td>9</td><td>2</td><td>81.8</td><td>1</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202401160WPG.html">1/16/2024</a></td><td><a href="/teams/WPG.html">WPG</a></td><td><a href="/teams/NYI.html">NYI</a></td><td><a href="/players/Alexander Romanov.html">Alexander Romanov</a></td><td><a href="/teams/NYI.html">NYI</a></td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>27</td><td>19.37</td><td>2</td><td>19</td><td>30</td><td>38.8</td><td>-12.4</td><td>10</td><td>6</td><td>62.5</td><td>4</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202401160WPG.html">1/16/2024</a></td><td><a href="/teams/WPG.html">WPG</a></td><td><a href="/teams/NYI.html">NYI</a></td><td><a href="/players/Oliver Wahlstrom.html">Oliver Wahlstrom</a></td><td><a href="/teams/NYI.html">NYI</a></td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>16</td><td>10.68</td><td>3</td><td>16</td><td>4</td><td>80</td><td>39.1</td><td>7</td><td>2</td><td>77.8</td><td>1</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202401160WPG.html">1/16/2024</a></td><td><a href="/teams/WPG.html">WPG</a></td><td><a href="/teams/NYI.html">NYI</a></td><td><a href="/players/Ilya Sorokin.html">Ilya Sorokin</a></td><td><a href="/teams/NYI.html">NYI</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>3</td><td>58.27</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202401160WPG.html">1/16/2024</a></td><td><a href="/teams/WPG.html">WPG</a></td><td><a href="/teams/NYI.html">NYI</a></td><td><a href="/players/--.html">--</a></td><td><a href="/teams/--.html">--</a></td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td></tr>
-<tr><td><a href="/boxscores/202401160WPG.html">1/16/2024</a></td><td><a href="/teams/WPG.html">WPG</a></td><td><a href="/teams/NYI.html">NYI</a></td><td><a href="/players/Mason Appleton.html">Mason Appleton</a></td><td><a href="/teams/WPG.html">WPG</a></td><td>1</td><td>0</td><td>1</td><td>1</td><td>0</td><td>1</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>3</td><td>33.3</td><td>22</td><td>16.68</td><td>5</td><td>18</td><td>20</td><td>47.4</td><td>-8.3</td><td>4</td><td>7</td><td>36.4</td><td>0</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202401160WPG.html">1/16/2024</a></td><td><a href="/teams/WPG.html">WPG</a></td><td><a href="/teams/NYI.html">NYI</a></td><td><a href="/players/Morgan Barron.html">Morgan Barron</a></td><td><a href="/teams/WPG.html">WPG</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>15</td><td>11.05</td><td>1</td><td>15</td><td>16</td><td>48.4</td><td>-6.4</td><td>3</td><td>1</td><td>75</td><td>0</td><td>2</td></tr>
-<tr><td><a href="/boxscores/202401160WPG.html">1/16/2024</a></td><td><a href="/teams/WPG.html">WPG</a></td><td><a href="/teams/NYI.html">NYI</a></td><td><a href="/players/Kyle Connor.html">Kyle Connor</a></td><td><a href="/teams/WPG.html">WPG</a></td><td>1</td><td>0</td><td>1</td><td>1</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>6</td><td>16.7</td><td>24</td><td>19.05</td><td>10</td><td>26</td><td>22</td><td>54.2</td><td>1.3</td><td>10</td><td>9</td><td>52.6</td><td>0</td><td>1</td></tr>
-<tr><td><a href="/boxscores/202401160WPG.html">1/16/2024</a></td><td><a href="/teams/WPG.html">WPG</a></td><td><a href="/teams/NYI.html">NYI</a></td><td><a href="/players/Dylan DeMelo.html">Dylan DeMelo</a></td><td><a href="/teams/WPG.html">WPG</a></td><td>0</td><td>1</td><td>1</td><td>2</td><td>2</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>2</td><td>0</td><td>26</td><td>21.12</td><td>4</td><td>22</td><td>22</td><td>50</td><td>-4.9</td><td>7</td><td>10</td><td>41.2</td><td>2</td><td>1</td></tr>
-<tr><td><a href="/boxscores/202401160WPG.html">1/16/2024</a></td><td><a href="/teams/WPG.html">WPG</a></td><td><a href="/teams/NYI.html">NYI</a></td><td><a href="/players/Brenden Dillon.html">Brenden Dillon</a></td><td><a href="/teams/WPG.html">WPG</a></td><td>0</td><td>0</td><td>0</td><td>-1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>27</td><td>18.1</td><td>0</td><td>23</td><td>24</td><td>48.9</td><td>-6.8</td><td>4</td><td>12</td><td>25</td><td>2</td><td>1</td></tr>
-<tr><td><a href="/boxscores/202401160WPG.html">1/16/2024</a></td><td><a href="/teams/WPG.html">WPG</a></td><td><a href="/teams/NYI.html">NYI</a></td><td><a href="/players/Nikolaj Ehlers.html">Nikolaj Ehlers</a></td><td><a href="/teams/WPG.html">WPG</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>3</td><td>0</td><td>16</td><td>14.8</td><td>6</td><td>22</td><td>13</td><td>62.9</td><td>12.9</td><td>7</td><td>5</td><td>58.3</td><td>1</td><td>1</td></tr>
-<tr><td><a href="/boxscores/202401160WPG.html">1/16/2024</a></td><td><a href="/teams/WPG.html">WPG</a></td><td><a href="/teams/NYI.html">NYI</a></td><td><a href="/players/Alex Iafallo.html">Alex Iafallo</a></td><td><a href="/teams/WPG.html">WPG</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>3</td><td>0</td><td>16</td><td>12.25</td><td>5</td><td>16</td><td>9</td><td>64</td><td>13.1</td><td>4</td><td>5</td><td>44.4</td><td>0</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202401160WPG.html">1/16/2024</a></td><td><a href="/teams/WPG.html">WPG</a></td><td><a href="/teams/NYI.html">NYI</a></td><td><a href="/players/Rasmus Kupari.html">Rasmus Kupari</a></td><td><a href="/teams/WPG.html">WPG</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>2</td><td>0</td><td>11</td><td>9.93</td><td>5</td><td>14</td><td>5</td><td>73.7</td><td>23.7</td><td>3</td><td>0</td><td>100</td><td>2</td><td>1</td></tr>
-<tr><td><a href="/boxscores/202401160WPG.html">1/16/2024</a></td><td><a href="/teams/WPG.html">WPG</a></td><td><a href="/teams/NYI.html">NYI</a></td><td><a href="/players/Adam Lowry.html">Adam Lowry</a></td><td><a href="/teams/WPG.html">WPG</a></td><td>0</td><td>1</td><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>4</td><td>0</td><td>29</td><td>20.27</td><td>6</td><td>26</td><td>19</td><td>57.8</td><td>6.7</td><td>10</td><td>13</td><td>43.5</td><td>2</td><td>1</td></tr>
-<tr><td><a href="/boxscores/202401160WPG.html">1/16/2024</a></td><td><a href="/teams/WPG.html">WPG</a></td><td><a href="/teams/NYI.html">NYI</a></td><td><a href="/players/Josh Morrissey.html">Josh Morrissey</a></td><td><a href="/teams/WPG.html">WPG</a></td><td>0</td><td>1</td><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>1</td><td>0</td><td>30</td><td>25.1</td><td>3</td><td>30</td><td>25</td><td>54.5</td><td>2</td><td>13</td><td>9</td><td>59.1</td><td>2</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202401160WPG.html">1/16/2024</a></td><td><a href="/teams/WPG.html">WPG</a></td><td><a href="/teams/NYI.html">NYI</a></td><td><a href="/players/Vladislav Namestnikov.html">Vladislav Namestnikov</a></td><td><a href="/teams/WPG.html">WPG</a></td><td>0</td><td>0</td><td>0</td><td>-1</td><td>2</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>2</td><td>0</td><td>23</td><td>15.75</td><td>3</td><td>16</td><td>22</td><td>42.1</td><td>-15.6</td><td>6</td><td>4</td><td>60</td><td>0</td><td>1</td></tr>
-<tr><td><a href="/boxscores/202401160WPG.html">1/16/2024</a></td><td><a href="/teams/WPG.html">WPG</a></td><td><a href="/teams/NYI.html">NYI</a></td><td><a href="/players/Nino Niederreiter.html">Nino Niederreiter</a></td><td><a href="/teams/WPG.html">WPG</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>21</td><td>16.47</td><td>2</td><td>20</td><td>12</td><td>62.5</td><td>12</td><td>5</td><td>5</td><td>50</td><td>1</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202401160WPG.html">1/16/2024</a></td><td><a href="/teams/WPG.html">WPG</a></td><td><a href="/teams/NYI.html">NYI</a></td><td><a href="/players/Cole Perfetti.html">Cole Perfetti</a></td><td><a href="/teams/WPG.html">WPG</a></td><td>0</td><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>2</td><td>0</td><td>20</td><td>13.42</td><td>3</td><td>16</td><td>11</td><td>59.3</td><td>7.4</td><td>5</td><td>1</td><td>83.3</td><td>0</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202401160WPG.html">1/16/2024</a></td><td><a href="/teams/WPG.html">WPG</a></td><td><a href="/teams/NYI.html">NYI</a></td><td><a href="/players/Neal Pionk.html">Neal Pionk</a></td><td><a href="/teams/WPG.html">WPG</a></td><td>1</td><td>0</td><td>1</td><td>-2</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>3</td><td>33.3</td><td>30</td><td>19.28</td><td>4</td><td>27</td><td>21</td><td>56.2</td><td>4.5</td><td>7</td><td>11</td><td>38.9</td><td>3</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202401160WPG.html">1/16/2024</a></td><td><a href="/teams/WPG.html">WPG</a></td><td><a href="/teams/NYI.html">NYI</a></td><td><a href="/players/Dylan Samberg.html">Dylan Samberg</a></td><td><a href="/teams/WPG.html">WPG</a></td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>19</td><td>13.88</td><td>1</td><td>12</td><td>15</td><td>44.4</td><td>-11.2</td><td>2</td><td>3</td><td>40</td><td>0</td><td>1</td></tr>
-<tr><td><a href="/boxscores/202401160WPG.html">1/16/2024</a></td><td><a href="/teams/WPG.html">WPG</a></td><td><a href="/teams/NYI.html">NYI</a></td><td><a href="/players/Nate Schmidt.html">Nate Schmidt</a></td><td><a href="/teams/WPG.html">WPG</a></td><td>0</td><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>5</td><td>0</td><td>22</td><td>17</td><td>6</td><td>17</td><td>18</td><td>48.6</td><td>-6.4</td><td>6</td><td>2</td><td>75</td><td>1</td><td>1</td></tr>
-<tr><td><a href="/boxscores/202401160WPG.html">1/16/2024</a></td><td><a href="/teams/WPG.html">WPG</a></td><td><a href="/teams/NYI.html">NYI</a></td><td><a href="/players/Dominic Toninato.html">Dominic Toninato</a></td><td><a href="/teams/WPG.html">WPG</a></td><td>0</td><td>1</td><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>3</td><td>0</td><td>21</td><td>13.5</td><td>4</td><td>16</td><td>13</td><td>55.2</td><td>2.4</td><td>3</td><td>10</td><td>23.1</td><td>0</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202401160WPG.html">1/16/2024</a></td><td><a href="/teams/WPG.html">WPG</a></td><td><a href="/teams/NYI.html">NYI</a></td><td><a href="/players/Gabriel Vilardi.html">Gabriel Vilardi</a></td><td><a href="/teams/WPG.html">WPG</a></td><td>1</td><td>0</td><td>1</td><td>1</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>4</td><td>25</td><td>24</td><td>18.45</td><td>4</td><td>23</td><td>21</td><td>52.3</td><td>-1.5</td><td>10</td><td>9</td><td>52.6</td><td>1</td><td>1</td></tr>
-<tr><td><a href="/boxscores/202401160WPG.html">1/16/2024</a></td><td><a href="/teams/WPG.html">WPG</a></td><td><a href="/teams/NYI.html">NYI</a></td><td><a href="/players/Connor Hellebuyck.html">Connor Hellebuyck</a></td><td><a href="/teams/WPG.html">WPG</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>4</td><td>59.9</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202401160WPG.html">1/16/2024</a></td><td><a href="/teams/WPG.html">WPG</a></td><td><a href="/teams/NYI.html">NYI</a></td><td><a href="/players/--.html">--</a></td><td><a href="/teams/--.html">--</a></td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td></tr>
-
-                </tbody>
-            </table>
-
-            <h2>Goalies</h2>
-            <table id="202401160WPG_goalies" border="1">
-                <thead>
-                    <tr>
-                        <th>Home Team</th><th>Away Team</th><th>Goalie</th><th>Team</th><th>DEC</th><th>GA</th><th>SA</th><th>SV</th>
-                        <th>SV%</th><th>SO</th><th>PIM</th><th>Goalie TOI</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr><td><a href="/teams/WPG.html">WPG</a></td><td><a href="/teams/NYI.html">NYI</a></td><td><a href="/players/sorokil01.html">Ilya Sorokin</a></td><td><a href="/teams/NYI.html">NYI</a></td><td>L</td><td>3</td><td>43</td><td>40</td><td>0.93</td><td>0</td><td>0</td><td>58:16:00</td></tr>
-<tr><td><a href="/teams/WPG.html">WPG</a></td><td><a href="/teams/NYI.html">NYI</a></td><td><a href="/players/--.html">Empty Net</a></td><td><a href="/teams/NYI.html">NYI</a></td><td>--</td><td>1</td><td>1</td><td>0</td><td>0.0</td><td>0</td><td>0</td><td>0</td></tr>
-<tr><td><a href="/teams/WPG.html">WPG</a></td><td><a href="/teams/NYI.html">NYI</a></td><td><a href="/players/helleco01.html">Connor Hellebuyck</a></td><td><a href="/teams/WPG.html">WPG</a></td><td>W</td><td>2</td><td>37</td><td>35</td><td>0.946</td><td>0</td><td>0</td><td>59:54:00</td></tr>
-
-                </tbody>
-            </table>
-
-            <h2>Scoring</h2>
-            <table id="202401160WPG_scoring" border="1">
-                <thead>
-                    <tr>
-                        <th>Home Team</th><th>Away Team</th><th>Period</th><th>Time</th><th>Team</th><th>Info</th>
-                        <th>Scorer</th><th>Assist1</th><th>Assist2</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr><td><a href="/teams/WPG.html">WPG</a></td><td><a href="/teams/NYI.html">NYI</a></td><td>1st Period</td><td>1st Period</td><td><a href="/teams/1st Period.html">1st Period</a></td><td>1st Period</td><td><a href="/players/1st Period.html">1st Period</a></td><td><a href="/players/1st Period.html">1st Period</a></td><td><a href="/players/1st Period.html">1st Period</a></td></tr>
-<tr><td><a href="/teams/WPG.html">WPG</a></td><td><a href="/teams/NYI.html">NYI</a></td><td>1st Period</td><td>9:41</td><td><a href="/teams/WPG.html">WPG</a></td><td>--</td><td><a href="/players/Gabriel Vilardi.html">Gabriel Vilardi</a></td><td><a href="/players/Adam Lowry.html">Adam Lowry</a></td><td><a href="/players/Josh Morrissey.html">Josh Morrissey</a></td></tr>
-<tr><td><a href="/teams/WPG.html">WPG</a></td><td><a href="/teams/NYI.html">NYI</a></td><td>1st Period</td><td>15:53</td><td><a href="/teams/NYI.html">NYI</a></td><td>--</td><td><a href="/players/Anders Lee.html">Anders Lee</a></td><td><a href="/players/Mike Reilly.html">Mike Reilly</a></td><td><a href="/players/Sebastian Aho.html">Sebastian Aho</a></td></tr>
-<tr><td><a href="/teams/WPG.html">WPG</a></td><td><a href="/teams/NYI.html">NYI</a></td><td>2nd Period</td><td>2nd Period</td><td><a href="/teams/2nd Period.html">2nd Period</a></td><td>2nd Period</td><td><a href="/players/2nd Period.html">2nd Period</a></td><td><a href="/players/2nd Period.html">2nd Period</a></td><td><a href="/players/2nd Period.html">2nd Period</a></td></tr>
-<tr><td><a href="/teams/WPG.html">WPG</a></td><td><a href="/teams/NYI.html">NYI</a></td><td>2nd Period</td><td>15:19</td><td><a href="/teams/WPG.html">WPG</a></td><td>PP</td><td><a href="/players/Neal Pionk.html">Neal Pionk</a></td><td><a href="/players/Cole Perfetti.html">Cole Perfetti</a></td><td><a href="/players/Nate Schmidt.html">Nate Schmidt</a></td></tr>
-<tr><td><a href="/teams/WPG.html">WPG</a></td><td><a href="/teams/NYI.html">NYI</a></td><td>2nd Period</td><td>17:58</td><td><a href="/teams/WPG.html">WPG</a></td><td>--</td><td><a href="/players/Mason Appleton.html">Mason Appleton</a></td><td><a href="/players/Dominic Toninato.html">Dominic Toninato</a></td><td><a href="/players/Dylan DeMelo.html">Dylan DeMelo</a></td></tr>
-<tr><td><a href="/teams/WPG.html">WPG</a></td><td><a href="/teams/NYI.html">NYI</a></td><td>3rd Period</td><td>3rd Period</td><td><a href="/teams/3rd Period.html">3rd Period</a></td><td>3rd Period</td><td><a href="/players/3rd Period.html">3rd Period</a></td><td><a href="/players/3rd Period.html">3rd Period</a></td><td><a href="/players/3rd Period.html">3rd Period</a></td></tr>
-<tr><td><a href="/teams/WPG.html">WPG</a></td><td><a href="/teams/NYI.html">NYI</a></td><td>3rd Period</td><td>0:35</td><td><a href="/teams/NYI.html">NYI</a></td><td>--</td><td><a href="/players/Anders Lee.html">Anders Lee</a></td><td><a href="/players/Bo Horvat.html">Bo Horvat</a></td><td><a href="/players/Bo Horvat.html">Bo Horvat</a></td></tr>
-<tr><td><a href="/teams/WPG.html">WPG</a></td><td><a href="/teams/NYI.html">NYI</a></td><td>3rd Period</td><td>18:38</td><td><a href="/teams/WPG.html">WPG</a></td><td>EN</td><td><a href="/players/Kyle Connor.html">Kyle Connor</a></td><td><a href="/players/--.html">--</a></td><td><a href="/players/--.html">--</a></td></tr>
-
-                </tbody>
-            </table>
-
-            <h2>Penalties</h2>
-            <table id="202401160WPG_penalties" border="1">
-                <thead>
-                    <tr>
-                        <th>Home Team</th><th>Away Team</th><th>Period</th><th>Time</th><th>Team</th><th>Player</th>
-                        <th>Penalty</th><th>PIM</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr><td><a href="/teams/WPG.html">WPG</a></td><td><a href="/teams/NYI.html">NYI</a></td><td>1st Period</td><td>1st Period</td><td><a href="/teams/1st Period.html">1st Period</a></td><td><a href="/players/1st Period.html">1st Period</a></td><td>1st Period</td><td>1st Period</td></tr>
-<tr><td><a href="/teams/WPG.html">WPG</a></td><td><a href="/teams/NYI.html">NYI</a></td><td>1st Period</td><td>13:51</td><td><a href="/teams/WPG.html">WPG</a></td><td><a href="/players/Dylan DeMelo.html">Dylan DeMelo</a></td><td>Tripping</td><td>2 min</td></tr>
-<tr><td><a href="/teams/WPG.html">WPG</a></td><td><a href="/teams/NYI.html">NYI</a></td><td>1st Period</td><td>17:30</td><td><a href="/teams/NYI.html">NYI</a></td><td><a href="/players/Anders Lee.html">Anders Lee</a></td><td>Hooking</td><td>2 min</td></tr>
-<tr><td><a href="/teams/WPG.html">WPG</a></td><td><a href="/teams/NYI.html">NYI</a></td><td>2nd Period</td><td>2nd Period</td><td><a href="/teams/2nd Period.html">2nd Period</a></td><td><a href="/players/2nd Period.html">2nd Period</a></td><td>2nd Period</td><td>2nd Period</td></tr>
-<tr><td><a href="/teams/WPG.html">WPG</a></td><td><a href="/teams/NYI.html">NYI</a></td><td>2nd Period</td><td>1:04</td><td><a href="/teams/NYI.html">NYI</a></td><td><a href="/players/Mike Reilly.html">Mike Reilly</a></td><td>Tripping</td><td>2 min</td></tr>
-<tr><td><a href="/teams/WPG.html">WPG</a></td><td><a href="/teams/NYI.html">NYI</a></td><td>2nd Period</td><td>10:40</td><td><a href="/teams/WPG.html">WPG</a></td><td><a href="/players/Vladislav Namestnikov.html">Vladislav Namestnikov</a></td><td>Holding</td><td>2 min</td></tr>
-<tr><td><a href="/teams/WPG.html">WPG</a></td><td><a href="/teams/NYI.html">NYI</a></td><td>2nd Period</td><td>13:50</td><td><a href="/teams/NYI.html">NYI</a></td><td><a href="/players/Scott Mayfield.html">Scott Mayfield</a></td><td>Tripping</td><td>2 min</td></tr>
-<tr><td><a href="/teams/WPG.html">WPG</a></td><td><a href="/teams/NYI.html">NYI</a></td><td>2nd Period</td><td>15:42</td><td><a href="/teams/NYI.html">NYI</a></td><td><a href="/players/Mike Reilly.html">Mike Reilly</a></td><td>Cross Checking</td><td>2 min</td></tr>
-<tr><td><a href="/teams/WPG.html">WPG</a></td><td><a href="/teams/NYI.html">NYI</a></td><td>3rd Period</td><td>3rd Period</td><td><a href="/teams/3rd Period.html">3rd Period</a></td><td><a href="/players/3rd Period.html">3rd Period</a></td><td>3rd Period</td><td>3rd Period</td></tr>
-<tr><td><a href="/teams/WPG.html">WPG</a></td><td><a href="/teams/NYI.html">NYI</a></td><td>3rd Period</td><td>15:38</td><td><a href="/teams/NYI.html">NYI</a></td><td><a href="/players/Noah Dobson.html">Noah Dobson</a></td><td>Tripping</td><td>2 min</td></tr>
-
-                </tbody>
-            </table>
-        </main>
-    </body>
-    </html>
-    
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>New York Islanders at Winnipeg Jets: January 16, 2024</title>
+<link rel="stylesheet" href="/assets/styles.css">
+<script src="/assets/searchBar.js"></script>
+<script src="/assets/tableSort.js"></script>
+</head>
+<body>
+<nav id="navbar">
+<ul>
+<li><a href="/">Home</a></li>
+<li><a href="/players/">Players</a></li>
+<li><a href="/teams/">Teams</a></li>
+<li><a href="/probabilities/">Probabilities</a></li>
+<li><a href="/boxscores/">Boxscores</a></li>
+<li><a href="/versus/">Head to Head Stats</a></li>
+<li><a href="/leaders/">Leaders</a></li>
+<li><a href="/seasons/2025/schedule.html">Schedule and Results</a></li>
+<li><a href="/seasons/2025/standings.html">Current Standings</a></li>
+<li><a href="/seasons/2025/rosters.html">Team Rosters</a></li>
+<li>
+<input type="text" id="searchBar" placeholder="Search for players or teams..." oninput="performSearch()" autocomplete="off">
+<div id="searchResults" class="dropdown"></div>
+<button id="searchButton" onclick="handleSearch()">Search</button>
+</li>
+</ul>
+</nav>
+<main id="content">
+<div class="scorebox">
+<div class="team"><div><a href="/teams/NYI.html">NYI</a></div><div class="score">2</div></div>
+<div class="team"><div><a href="/teams/WPG.html">WPG</a></div><div class="score">4</div></div>
+<div class="date">January 16, 2024</div>
+</div>
+<table id="NYI_skaters">
+<tr><th>Team</th><th>Player</th><th>G</th><th>A</th><th>PTS</th><th>SOG</th><th>HIT</th><th>BLK</th><th>TOI</th><th>PIM</th><th>SAT-F</th><th>SAT-A</th><th>CF%</th><th>CRel%</th></tr>
+<tr><td><a href="/teams/NYI.html">NYI</a></td><td><a href="/players/pelecad01.html">Adam Pelech</a></td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>3</td><td>19.53</td><td>0</td><td>18</td><td>17</td><td>51.40%</td><td>6.40%</td></tr>
+<tr><td><a href="/teams/NYI.html">NYI</a></td><td><a href="/players/romanal01.html">Alexander Romanov</a></td><td>0</td><td>0</td><td>0</td><td>1</td><td>4</td><td>0</td><td>19.37</td><td>0</td><td>19</td><td>30</td><td>38.80%</td><td>-12.40%</td></tr>
+<tr><td><a href="/teams/NYI.html">NYI</a></td><td><a href="/players/leean01.html">Anders Lee</a></td><td>2</td><td>0</td><td>2</td><td>6</td><td>3</td><td>0</td><td>16.15</td><td>2</td><td>26</td><td>11</td><td>70.30%</td><td>32.50%</td></tr>
+<tr><td><a href="/teams/NYI.html">NYI</a></td><td><a href="/players/horvabo01.html">Bo Horvat</a></td><td>0</td><td>1</td><td>1</td><td>2</td><td>1</td><td>0</td><td>22.45</td><td>0</td><td>27</td><td>30</td><td>47.40%</td><td>1.20%</td></tr>
+<tr><td><a href="/teams/NYI.html">NYI</a></td><td><a href="/players/nelsobr01.html">Brock Nelson</a></td><td>0</td><td>0</td><td>0</td><td>3</td><td>0</td><td>0</td><td>17.95</td><td>0</td><td>26</td><td>19</td><td>57.80%</td><td>16.70%</td></tr>
+<tr><td><a href="/teams/NYI.html">NYI</a></td><td><a href="/players/cluttca01.html">Cal Clutterbuck</a></td><td>0</td><td>0</td><td>0</td><td>2</td><td>7</td><td>0</td><td>12.95</td><td>0</td><td>10</td><td>22</td><td>31.20%</td><td>-20.30%</td></tr>
+<tr><td><a href="/teams/NYI.html">NYI</a></td><td><a href="/players/faschhu01.html">Hudson Fasching</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>12.03</td><td>0</td><td>18</td><td>17</td><td>51.40%</td><td>6.40%</td></tr>
+<tr><td><a href="/teams/NYI.html">NYI</a></td><td><a href="/players/pageaje01.html">Jean-Gabriel Pageau</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>5</td><td>1</td><td>15.65</td><td>0</td><td>14</td><td>21</td><td>40.00%</td><td>-9.00%</td></tr>
+<tr><td><a href="/teams/NYI.html">NYI</a></td><td><a href="/players/gauthju01.html">Julien Gauthier</a></td><td>0</td><td>0</td><td>0</td><td>1</td><td>1</td><td>1</td><td>9.3</td><td>0</td><td>6</td><td>16</td><td>27.30%</td><td>-23.10%</td></tr>
+<tr><td><a href="/teams/NYI.html">NYI</a></td><td><a href="/players/palmiky01.html">Kyle Palmieri</a></td><td>0</td><td>0</td><td>0</td><td>8</td><td>2</td><td>0</td><td>17.05</td><td>0</td><td>25</td><td>16</td><td>61.00%</td><td>20.60%</td></tr>
+<tr><td><a href="/teams/NYI.html">NYI</a></td><td><a href="/players/barzama01.html">Mathew Barzal</a></td><td>0</td><td>0</td><td>0</td><td>1</td><td>1</td><td>0</td><td>21.23</td><td>0</td><td>21</td><td>20</td><td>51.20%</td><td>6.50%</td></tr>
+<tr><td><a href="/teams/NYI.html">NYI</a></td><td><a href="/players/martima02.html">Matt Martin</a></td><td>0</td><td>0</td><td>0</td><td>1</td><td>1</td><td>0</td><td>8.17</td><td>0</td><td>5</td><td>13</td><td>27.80%</td><td>-21.80%</td></tr>
+<tr><td><a href="/teams/NYI.html">NYI</a></td><td><a href="/players/reillmi01.html">Mike Reilly</a></td><td>0</td><td>1</td><td>1</td><td>2</td><td>1</td><td>0</td><td>15.05</td><td>4</td><td>18</td><td>17</td><td>51.40%</td><td>6.40%</td></tr>
+<tr><td><a href="/teams/NYI.html">NYI</a></td><td><a href="/players/dobsono01.html">Noah Dobson</a></td><td>0</td><td>0</td><td>0</td><td>5</td><td>0</td><td>3</td><td>27.65</td><td>2</td><td>34</td><td>36</td><td>48.60%</td><td>4.00%</td></tr>
+<tr><td><a href="/teams/NYI.html">NYI</a></td><td><a href="/players/wahlsol01.html">Oliver Wahlstrom</a></td><td>0</td><td>0</td><td>0</td><td>1</td><td>1</td><td>0</td><td>10.68</td><td>0</td><td>16</td><td>4</td><td>80.00%</td><td>39.10%</td></tr>
+<tr><td><a href="/teams/NYI.html">NYI</a></td><td><a href="/players/mayfisc01.html">Scott Mayfield</a></td><td>0</td><td>0</td><td>0</td><td>2</td><td>2</td><td>3</td><td>15.17</td><td>2</td><td>11</td><td>16</td><td>40.70%</td><td>-7.40%</td></tr>
+<tr><td><a href="/teams/NYI.html">NYI</a></td><td><a href="/players/ahose02.html">Sebastian Aho (NYI)</a></td><td>0</td><td>1</td><td>1</td><td>1</td><td>1</td><td>0</td><td>18.78</td><td>0</td><td>18</td><td>25</td><td>41.90%</td><td>-7.00%</td></tr>
+<tr><td><a href="/teams/NYI.html">NYI</a></td><td><a href="/players/holmssi01.html">Simon Holmström</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>13.08</td><td>0</td><td>4</td><td>13</td><td>23.50%</td><td>-26.50%</td></tr>
+</table>
+<table id="WPG_skaters">
+<tr><th>Team</th><th>Player</th><th>G</th><th>A</th><th>PTS</th><th>SOG</th><th>HIT</th><th>BLK</th><th>TOI</th><th>PIM</th><th>SAT-F</th><th>SAT-A</th><th>CF%</th><th>CRel%</th></tr>
+<tr><td><a href="/teams/WPG.html">WPG</a></td><td><a href="/players/lowryad01.html">Adam Lowry</a></td><td>0</td><td>1</td><td>1</td><td>4</td><td>2</td><td>1</td><td>20.27</td><td>0</td><td>26</td><td>19</td><td>57.80%</td><td>6.70%</td></tr>
+<tr><td><a href="/teams/WPG.html">WPG</a></td><td><a href="/players/iafalal01.html">Alex Iafallo</a></td><td>0</td><td>0</td><td>0</td><td>3</td><td>0</td><td>0</td><td>12.25</td><td>0</td><td>16</td><td>9</td><td>64.00%</td><td>13.10%</td></tr>
+<tr><td><a href="/teams/WPG.html">WPG</a></td><td><a href="/players/dillobr01.html">Brenden Dillon</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>2</td><td>1</td><td>18.1</td><td>0</td><td>23</td><td>24</td><td>48.90%</td><td>-6.80%</td></tr>
+<tr><td><a href="/teams/WPG.html">WPG</a></td><td><a href="/players/perfeco01.html">Cole Perfetti</a></td><td>0</td><td>1</td><td>1</td><td>2</td><td>0</td><td>0</td><td>13.42</td><td>0</td><td>16</td><td>11</td><td>59.30%</td><td>7.40%</td></tr>
+<tr><td><a href="/teams/WPG.html">WPG</a></td><td><a href="/players/tonindo01.html">Dominic Toninato</a></td><td>0</td><td>1</td><td>1</td><td>3</td><td>0</td><td>0</td><td>13.5</td><td>0</td><td>16</td><td>13</td><td>55.20%</td><td>2.40%</td></tr>
+<tr><td><a href="/teams/WPG.html">WPG</a></td><td><a href="/players/demeldy01.html">Dylan DeMelo</a></td><td>0</td><td>1</td><td>1</td><td>2</td><td>2</td><td>1</td><td>21.12</td><td>2</td><td>22</td><td>22</td><td>50.00%</td><td>-4.90%</td></tr>
+<tr><td><a href="/teams/WPG.html">WPG</a></td><td><a href="/players/sambedy01.html">Dylan Samberg</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>13.88</td><td>0</td><td>12</td><td>15</td><td>44.40%</td><td>-11.20%</td></tr>
+<tr><td><a href="/teams/WPG.html">WPG</a></td><td><a href="/players/vilarga01.html">Gabriel Vilardi</a></td><td>1</td><td>0</td><td>1</td><td>4</td><td>1</td><td>1</td><td>18.45</td><td>0</td><td>23</td><td>21</td><td>52.30%</td><td>-1.50%</td></tr>
+<tr><td><a href="/teams/WPG.html">WPG</a></td><td><a href="/players/morrijo04.html">Josh Morrissey</a></td><td>0</td><td>1</td><td>1</td><td>1</td><td>2</td><td>0</td><td>25.1</td><td>0</td><td>30</td><td>25</td><td>54.50%</td><td>2.00%</td></tr>
+<tr><td><a href="/teams/WPG.html">WPG</a></td><td><a href="/players/connoky01.html">Kyle Connor</a></td><td>1</td><td>0</td><td>1</td><td>6</td><td>0</td><td>1</td><td>19.05</td><td>0</td><td>26</td><td>22</td><td>54.20%</td><td>1.30%</td></tr>
+<tr><td><a href="/teams/WPG.html">WPG</a></td><td><a href="/players/applema01.html">Mason Appleton</a></td><td>1</td><td>0</td><td>1</td><td>3</td><td>0</td><td>0</td><td>16.68</td><td>0</td><td>18</td><td>20</td><td>47.40%</td><td>-8.30%</td></tr>
+<tr><td><a href="/teams/WPG.html">WPG</a></td><td><a href="/players/barromo01.html">Morgan Barron</a></td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>2</td><td>11.05</td><td>0</td><td>15</td><td>16</td><td>48.40%</td><td>-6.40%</td></tr>
+<tr><td><a href="/teams/WPG.html">WPG</a></td><td><a href="/players/schmina01.html">Nate Schmidt</a></td><td>0</td><td>1</td><td>1</td><td>5</td><td>1</td><td>1</td><td>17.0</td><td>0</td><td>17</td><td>18</td><td>48.60%</td><td>-6.40%</td></tr>
+<tr><td><a href="/teams/WPG.html">WPG</a></td><td><a href="/players/pionkne01.html">Neal Pionk</a></td><td>1</td><td>0</td><td>1</td><td>3</td><td>3</td><td>0</td><td>19.28</td><td>0</td><td>27</td><td>21</td><td>56.20%</td><td>4.50%</td></tr>
+<tr><td><a href="/teams/WPG.html">WPG</a></td><td><a href="/players/ehlerni01.html">Nikolaj Ehlers</a></td><td>0</td><td>0</td><td>0</td><td>3</td><td>1</td><td>1</td><td>14.8</td><td>0</td><td>22</td><td>13</td><td>62.90%</td><td>12.90%</td></tr>
+<tr><td><a href="/teams/WPG.html">WPG</a></td><td><a href="/players/niedeni01.html">Nino Niederreiter</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>16.47</td><td>0</td><td>20</td><td>12</td><td>62.50%</td><td>12.00%</td></tr>
+<tr><td><a href="/teams/WPG.html">WPG</a></td><td><a href="/players/kuparra01.html">Rasmus Kupari</a></td><td>0</td><td>0</td><td>0</td><td>2</td><td>2</td><td>1</td><td>9.93</td><td>0</td><td>14</td><td>5</td><td>73.70%</td><td>23.70%</td></tr>
+<tr><td><a href="/teams/WPG.html">WPG</a></td><td><a href="/players/namesvl01.html">Vladislav Namestnikov</a></td><td>0</td><td>0</td><td>0</td><td>2</td><td>0</td><td>1</td><td>15.75</td><td>2</td><td>16</td><td>22</td><td>42.10%</td><td>-15.60%</td></tr>
+</table>
+<table id="NYI_goalies">
+<tr><th>Team</th><th>Goalie</th><th>DEC</th><th>GA</th><th>SA</th><th>SV</th><th>SV%</th><th>SO</th><th>PIM</th><th>TOI</th></tr>
+<tr><td><a href="/teams/NYI.html">NYI</a></td><td><a href="/players/sorokil01.html">Ilya Sorokin</a></td><td>L</td><td>3</td><td>43</td><td>40</td><td>93.00%</td><td>0</td><td>0</td><td>58.27</td></tr>
+<tr><td><a href="/teams/NYI.html">NYI</a></td><td><a href="/players/nan.html">Empty Net</a></td><td>--</td><td>1</td><td>1</td><td>0</td><td>0.00%</td><td>0</td><td>0</td><td>0.0</td></tr>
+</table>
+<table id="WPG_goalies">
+<tr><th>Team</th><th>Goalie</th><th>DEC</th><th>GA</th><th>SA</th><th>SV</th><th>SV%</th><th>SO</th><th>PIM</th><th>TOI</th></tr>
+<tr><td><a href="/teams/WPG.html">WPG</a></td><td><a href="/players/helleco01.html">Connor Hellebuyck</a></td><td>W</td><td>2</td><td>37</td><td>35</td><td>94.60%</td><td>0</td><td>0</td><td>59.9</td></tr>
+</table>
+<table id="scoring">
+<tr><th>Team</th><th>Time</th><th>Info</th><th>Scorer</th><th>Assist 1</th><th>Assist 2</th></tr>
+<tr><td><a href="/teams/WPG.html">WPG</a></td><td>9.68</td><td>--</td><td><a href="/players/vilarga01.html">Gabriel Vilardi</a></td><td><a href="/players/lowryad01.html">Adam Lowry</a></td><td><a href="/players/morrijo04.html">Josh Morrissey</a></td></tr>
+<tr><td><a href="/teams/NYI.html">NYI</a></td><td>15.88</td><td>--</td><td><a href="/players/leean01.html">Anders Lee</a></td><td><a href="/players/reillmi01.html">Mike Reilly</a></td><td><a href="/players/Sebastian Aho.html">Sebastian Aho</a></td></tr>
+<tr><td><a href="/teams/WPG.html">WPG</a></td><td>35.32</td><td>PP</td><td><a href="/players/pionkne01.html">Neal Pionk</a></td><td><a href="/players/perfeco01.html">Cole Perfetti</a></td><td><a href="/players/schmina01.html">Nate Schmidt</a></td></tr>
+<tr><td><a href="/teams/WPG.html">WPG</a></td><td>37.97</td><td>--</td><td><a href="/players/applema01.html">Mason Appleton</a></td><td><a href="/players/tonindo01.html">Dominic Toninato</a></td><td><a href="/players/demeldy01.html">Dylan DeMelo</a></td></tr>
+<tr><td><a href="/teams/NYI.html">NYI</a></td><td>40.58</td><td>--</td><td><a href="/players/leean01.html">Anders Lee</a></td><td><a href="/players/horvabo01.html">Bo Horvat</a></td><td><a href="/players/horvabo01.html">Bo Horvat</a></td></tr>
+<tr><td><a href="/teams/WPG.html">WPG</a></td><td>58.63</td><td>EN</td><td><a href="/players/connoky01.html">Kyle Connor</a></td><td><a href="/players/--.html">--</a></td><td><a href="/players/--.html">--</a></td></tr>
+</table>
+<table id="penalties">
+<tr><th>Team</th><th>Time</th><th>Player</th><th>Penalty</th><th>PIM</th></tr>
+<tr><td><a href="/teams/WPG.html">WPG</a></td><td>13.85</td><td><a href="/players/demeldy01.html">Dylan DeMelo</a></td><td>Tripping</td><td>2 min</td></tr>
+<tr><td><a href="/teams/NYI.html">NYI</a></td><td>17.5</td><td><a href="/players/leean01.html">Anders Lee</a></td><td>Hooking</td><td>2 min</td></tr>
+<tr><td><a href="/teams/NYI.html">NYI</a></td><td>21.07</td><td><a href="/players/reillmi01.html">Mike Reilly</a></td><td>Tripping</td><td>2 min</td></tr>
+<tr><td><a href="/teams/WPG.html">WPG</a></td><td>30.67</td><td><a href="/players/namesvl01.html">Vladislav Namestnikov</a></td><td>Holding</td><td>2 min</td></tr>
+<tr><td><a href="/teams/NYI.html">NYI</a></td><td>33.83</td><td><a href="/players/mayfisc01.html">Scott Mayfield</a></td><td>Tripping</td><td>2 min</td></tr>
+<tr><td><a href="/teams/NYI.html">NYI</a></td><td>35.7</td><td><a href="/players/reillmi01.html">Mike Reilly</a></td><td>Cross Checking</td><td>2 min</td></tr>
+<tr><td><a href="/teams/NYI.html">NYI</a></td><td>55.63</td><td><a href="/players/dobsono01.html">Noah Dobson</a></td><td>Tripping</td><td>2 min</td></tr>
+</table>
+</main>
+</body>
+</html>

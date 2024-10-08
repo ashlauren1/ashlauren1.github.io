@@ -1,16 +1,48 @@
-<!DOCTYPE lang="en"></!DOCTYPE><html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><title>Derrick Pouliot Profile</title><link href="/assets/styles.css" rel="stylesheet"/><script src="/assets/searchBar.js"></script><script src="/assets/tableSort.js"></script></head><body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Derrick Pouliot Stats 2023-24</title>
+<link rel="stylesheet" href="/assets/styles.css">
+<script src="/assets/searchBar.js"></script>
+<script src="/assets/tableSort.js"></script>
+</head>
+<body>
 <nav id="navbar">
-<a href="/">Home</a>
-<a href="/players/">Players</a>
-<a href="/teams/">Teams</a>
-<a href="/leaders/">Leaders</a>
-<a href="/probabilities/">Probabilities</a>
-<a href="/boxscores/">Boxscores</a>
-<a href="/schedule/">Schedule</a>
-<!-- Search Bar -->
-<div class="search-container">
-<input id="searchInput" oninput="searchEntities()" placeholder="Search players or teams..." type="text"/>
-<ul id="suggestions"></ul> <!-- This will show the search suggestions -->
-</div>
+<ul>
+<li><a href="/">Home</a></li>
+<li><a href="/players/">Players</a></li>
+<li><a href="/teams/">Teams</a></li>
+<li><a href="/probabilities/">Probabilities</a></li>
+<li><a href="/boxscores/">Boxscores</a></li>
+<li><a href="/versus/">Head to Head Stats</a></li>
+<li><a href="/leaders/">Leaders</a></li>
+<li><a href="/seasons/2025/schedule.html">Schedule and Results</a></li>
+<li><a href="/seasons/2025/standings.html">Current Standings</a></li>
+<li><a href="/seasons/2025/rosters.html">Team Rosters</a></li>
+<li>
+<input type="text" id="searchBar" placeholder="Search for players or teams..." oninput="performSearch()" autocomplete="off">
+<div id="searchResults" class="dropdown"></div>
+<button id="searchButton" onclick="handleSearch()">Search</button>
+</li>
+</ul>
 </nav>
-<h1>Derrick Pouliot Stats</h1><table id="poulide01_gamelog_2023"><caption>Derrick Pouliot Gamelogs 2023-24</caption><tr><th>Season</th><th>Date</th><th>Team</th><th>Location</th><th>Opp</th><th>Result</th><th>G</th><th>A</th><th>PTS</th><th>+/-</th><th>PIM</th><th>EVG</th><th>PPG</th><th>SHG</th><th>GWG</th><th>EV Assist</th><th>PP Assist</th><th>SH Assist</th><th>SOG</th><th>S%</th><th>SHFT</th><th>TOI</th><th>HIT</th><th>BLK</th></tr><tr><td><a href="/schedule/2023.html">2023-24</a></td><td><a href="/boxscores/202402190BOS.html">2/19/2024</a></td><td><a href="/teams/DAL.html">DAL</a></td><td>@</td><td><a href="/teams/BOS.html">BOS</a></td><td>L-SO</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0.0</td><td>21</td><td>13:17</td><td>0</td><td>1</td></tr><tr><td><a href="/schedule/2023.html">2023-24</a></td><td><a href="/boxscores/202402200NYR.html">2/20/2024</a></td><td><a href="/teams/DAL.html">DAL</a></td><td>@</td><td><a href="/teams/NYR.html">NYR</a></td><td>L</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>2</td><td>0.0</td><td>17</td><td>10:33</td><td>1</td><td>2</td></tr><tr><td><a href="/schedule/2023.html">2023-24</a></td><td><a href="/boxscores/202402220OTT.html">2/22/2024</a></td><td><a href="/teams/DAL.html">DAL</a></td><td>@</td><td><a href="/teams/OTT.html">OTT</a></td><td>L</td><td>0</td><td>0</td><td>0</td><td>-1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0.0</td><td>19</td><td>15:55</td><td>1</td><td>1</td></tr><tr><td><a href="/schedule/2023.html">2023-24</a></td><td><a href="/boxscores/202402240CAR.html">2/24/2024</a></td><td><a href="/teams/DAL.html">DAL</a></td><td>@</td><td><a href="/teams/CAR.html">CAR</a></td><td>W</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0.0</td><td>15</td><td>9:56</td><td>1</td><td>1</td></tr><tr><td><a href="/schedule/2023.html">2023-24</a></td><td><a href="/boxscores/202402260DAL.html">2/26/2024</a></td><td><a href="/teams/DAL.html">DAL</a></td><td>vs</td><td><a href="/teams/NYI.html">NYI</a></td><td>L-OT</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>2</td><td>0.0</td><td>15</td><td>11:01</td><td>1</td><td>0</td></tr></table></body></html>
+<main id="content">
+<div class="gamelog">
+<table id="totals">
+<tr><th>Team</th><th>GP</th><th>G</th><th>A</th><th>PTS</th><th>SOG</th><th>HIT</th><th>BLK</th><th>PIM</th><th>TOI</th><th>ATOI</th><th>S%</th><th>EVG</th><th>PPG</th><th>SHG</th><th>GWG</th><th>EVA</th><th>PPA</th><th>SHA</th></tr>
+<tr><td><a href="/teams/DAL.html">DAL</a></td><td>5</td><td>0</td><td>0</td><td>0</td><td>5</td><td>4</td><td>5</td><td>0</td><td>60.7</td><td>12.14</td><td>0.00%</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+</table>
+<table id="poulide01_gamelog">
+<tr><th>Date</th><th>Player</th><th>Team</th><th>Location</th><th>Opp</th><th>Result</th><th>OT/SO</th><th>G</th><th>A</th><th>PTS</th><th>SOG</th><th>HIT</th><th>BLK</th><th>TOI</th><th>PIM</th><th>S%</th><th>EVG</th><th>PPG</th><th>SHG</th><th>GWG</th><th>EVA</th><th>PPA</th><th>SHA</th></tr>
+<tr><td><a href="/boxscores/202402190BOS.html">2/19/2024</a></td><td><a href="/players/poulide01.html">Derrick Pouliot</a></td><td><a href="/teams/DAL.html">DAL</a></td><td>@</td><td><a href="/teams/BOS.html">BOS</a></td><td>L</td><td>SO</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>13.28</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td><a href="/boxscores/202402200NYR.html">2/20/2024</a></td><td><a href="/players/poulide01.html">Derrick Pouliot</a></td><td><a href="/teams/DAL.html">DAL</a></td><td>@</td><td><a href="/teams/NYR.html">NYR</a></td><td>L</td><td>nan</td><td>0</td><td>0</td><td>0</td><td>2</td><td>1</td><td>2</td><td>10.55</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td><a href="/boxscores/202402220OTT.html">2/22/2024</a></td><td><a href="/players/poulide01.html">Derrick Pouliot</a></td><td><a href="/teams/DAL.html">DAL</a></td><td>@</td><td><a href="/teams/OTT.html">OTT</a></td><td>L</td><td>nan</td><td>0</td><td>0</td><td>0</td><td>1</td><td>1</td><td>1</td><td>15.92</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td><a href="/boxscores/202402240CAR.html">2/24/2024</a></td><td><a href="/players/poulide01.html">Derrick Pouliot</a></td><td><a href="/teams/DAL.html">DAL</a></td><td>@</td><td><a href="/teams/CAR.html">CAR</a></td><td>W</td><td>nan</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>1</td><td>9.93</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td><a href="/boxscores/202402260DAL.html">2/26/2024</a></td><td><a href="/players/poulide01.html">Derrick Pouliot</a></td><td><a href="/teams/DAL.html">DAL</a></td><td>vs</td><td><a href="/teams/NYI.html">NYI</a></td><td>L</td><td>OT</td><td>0</td><td>0</td><td>0</td><td>2</td><td>1</td><td>0</td><td>11.02</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+</table>
+</div>
+</main>
+</body>
+</html>

@@ -1,151 +1,108 @@
-
-    <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Game 202401180BOS Boxscore</title>
-        <link rel="stylesheet" href="/assets/styles.css">
-        <script src="/assets/searchBar.js" defer></script>
-        <script src="/assets/tableSort.js"></script>
-        <style>
-            tr:hover {background-color: #F0FFF0;}
-        </style>
-    </head>
-    <body>
-        <nav id="navbar">
-            <a href="/">Home</a>
-            <a href="/players/">Players</a>
-            <a href="/teams/">Teams</a>
-            <a href="/leaders/">Leaders</a>
-            <a href="/probabilities/">Probabilities</a>
-            <a href="/boxscores/">Boxscores</a>
-            <a href="/schedule/">Schedule</a>
-
-            <div class="search-container">
-                <input type="text" id="searchInput" placeholder="Search players or teams..." oninput="searchEntities()" />
-                <ul id="suggestions"></ul>
-            </div>
-        </nav>
-
-        <main id="content">
-            <h1>Game 202401180BOS Boxscore</h1>
-
-            <h2>Skaters</h2>
-            <table id="202401180BOS_skaters" border="1">
-                <thead>
-                    <tr>
-                        <th>Date</th><th>Home Team</th><th>Away Team</th><th>Player</th><th>Team</th><th>G</th><th>A</th><th>PTS</th>
-                        <th>+/-</th><th>PIM</th><th>EVG</th><th>PPG</th><th>SHG</th><th>GWG</th><th>EV Assist</th><th>PP Assist</th>
-                        <th>SH Assist</th><th>SOG</th><th>S%</th><th>SHFT</th><th>TOI</th><th>iCF</th><th>SAT‑F</th><th>SAT‑A</th>
-                        <th>CF%</th><th>CRel%</th><th>ZSO</th><th>ZSD</th><th>oZS%</th><th>HIT</th><th>BLK</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr><td><a href="/boxscores/202401180BOS.html">1/18/2024</a></td><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/teams/COL.html">COL</a></td><td><a href="/players/Andrew Cogliano.html">Andrew Cogliano</a></td><td><a href="/teams/COL.html">COL</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>19</td><td>12.98</td><td>1</td><td>13</td><td>17</td><td>43.3</td><td>-8.8</td><td>5</td><td>5</td><td>50</td><td>0</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202401180BOS.html">1/18/2024</a></td><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/teams/COL.html">COL</a></td><td><a href="/players/Ross Colton.html">Ross Colton</a></td><td><a href="/teams/COL.html">COL</a></td><td>0</td><td>0</td><td>0</td><td>-3</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>2</td><td>0</td><td>20</td><td>15.57</td><td>4</td><td>26</td><td>15</td><td>63.4</td><td>19.9</td><td>5</td><td>9</td><td>35.7</td><td>1</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202401180BOS.html">1/18/2024</a></td><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/teams/COL.html">COL</a></td><td><a href="/players/Jonathan Drouin.html">Jonathan Drouin</a></td><td><a href="/teams/COL.html">COL</a></td><td>0</td><td>0</td><td>0</td><td>-2</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>22</td><td>21.05</td><td>2</td><td>18</td><td>17</td><td>51.4</td><td>1.9</td><td>10</td><td>3</td><td>76.9</td><td>1</td><td>1</td></tr>
-<tr><td><a href="/boxscores/202401180BOS.html">1/18/2024</a></td><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/teams/COL.html">COL</a></td><td><a href="/players/Samuel Girard.html">Samuel Girard</a></td><td><a href="/teams/COL.html">COL</a></td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>2</td><td>0</td><td>25</td><td>19.68</td><td>4</td><td>28</td><td>19</td><td>59.6</td><td>15.3</td><td>7</td><td>8</td><td>46.7</td><td>0</td><td>3</td></tr>
-<tr><td><a href="/boxscores/202401180BOS.html">1/18/2024</a></td><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/teams/COL.html">COL</a></td><td><a href="/players/Ryan Johansen.html">Ryan Johansen</a></td><td><a href="/teams/COL.html">COL</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>20</td><td>14.47</td><td>2</td><td>18</td><td>21</td><td>46.2</td><td>-5.5</td><td>7</td><td>6</td><td>53.8</td><td>3</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202401180BOS.html">1/18/2024</a></td><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/teams/COL.html">COL</a></td><td><a href="/players/Jack Johnson.html">Jack Johnson</a></td><td><a href="/teams/COL.html">COL</a></td><td>0</td><td>0</td><td>0</td><td>-1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>17</td><td>15.12</td><td>2</td><td>13</td><td>17</td><td>43.3</td><td>-8.8</td><td>1</td><td>7</td><td>12.5</td><td>1</td><td>2</td></tr>
-<tr><td><a href="/boxscores/202401180BOS.html">1/18/2024</a></td><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/teams/COL.html">COL</a></td><td><a href="/players/Joel Kiviranta.html">Joel Kiviranta</a></td><td><a href="/teams/COL.html">COL</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>3</td><td>0</td><td>18</td><td>12.78</td><td>3</td><td>12</td><td>18</td><td>40</td><td>-13.1</td><td>5</td><td>3</td><td>62.5</td><td>1</td><td>2</td></tr>
-<tr><td><a href="/boxscores/202401180BOS.html">1/18/2024</a></td><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/teams/COL.html">COL</a></td><td><a href="/players/Kurtis MacDermid.html">Kurtis MacDermid</a></td><td><a href="/teams/COL.html">COL</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>10</td><td>7.1</td><td>1</td><td>3</td><td>6</td><td>33.3</td><td>-18</td><td>0</td><td>4</td><td>0</td><td>3</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202401180BOS.html">1/18/2024</a></td><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/teams/COL.html">COL</a></td><td><a href="/players/Nathan MacKinnon.html">Nathan MacKinnon</a></td><td><a href="/teams/COL.html">COL</a></td><td>1</td><td>0</td><td>1</td><td>-1</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>6</td><td>16.7</td><td>23</td><td>21.8</td><td>8</td><td>20</td><td>19</td><td>51.3</td><td>1.9</td><td>11</td><td>4</td><td>73.3</td><td>0</td><td>1</td></tr>
-<tr><td><a href="/boxscores/202401180BOS.html">1/18/2024</a></td><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/teams/COL.html">COL</a></td><td><a href="/players/Cale Makar.html">Cale Makar</a></td><td><a href="/teams/COL.html">COL</a></td><td>0</td><td>1</td><td>1</td><td>-2</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>2</td><td>0</td><td>25</td><td>27.53</td><td>5</td><td>24</td><td>30</td><td>44.4</td><td>-9.8</td><td>11</td><td>13</td><td>45.8</td><td>2</td><td>3</td></tr>
-<tr><td><a href="/boxscores/202401180BOS.html">1/18/2024</a></td><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/teams/COL.html">COL</a></td><td><a href="/players/Sam Malinski.html">Sam Malinski</a></td><td><a href="/teams/COL.html">COL</a></td><td>0</td><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>2</td><td>0</td><td>16</td><td>13.73</td><td>5</td><td>15</td><td>17</td><td>46.9</td><td>-4.2</td><td>1</td><td>6</td><td>14.3</td><td>2</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202401180BOS.html">1/18/2024</a></td><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/teams/COL.html">COL</a></td><td><a href="/players/Josh Manson.html">Josh Manson</a></td><td><a href="/teams/COL.html">COL</a></td><td>0</td><td>1</td><td>1</td><td>1</td><td>4</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>3</td><td>0</td><td>24</td><td>18.35</td><td>7</td><td>26</td><td>17</td><td>60.5</td><td>15.9</td><td>6</td><td>6</td><td>50</td><td>5</td><td>1</td></tr>
-<tr><td><a href="/boxscores/202401180BOS.html">1/18/2024</a></td><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/teams/COL.html">COL</a></td><td><a href="/players/Logan O'Connor.html">Logan O'Connor</a></td><td><a href="/teams/COL.html">COL</a></td><td>0</td><td>0</td><td>0</td><td>-1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>2</td><td>0</td><td>20</td><td>16.17</td><td>4</td><td>26</td><td>17</td><td>60.5</td><td>15.9</td><td>2</td><td>11</td><td>15.4</td><td>1</td><td>1</td></tr>
-<tr><td><a href="/boxscores/202401180BOS.html">1/18/2024</a></td><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/teams/COL.html">COL</a></td><td><a href="/players/Fredrik Olofsson.html">Fredrik Olofsson</a></td><td><a href="/teams/COL.html">COL</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>2</td><td>0</td><td>17</td><td>11.65</td><td>3</td><td>7</td><td>13</td><td>35</td><td>-17.8</td><td>0</td><td>8</td><td>0</td><td>5</td><td>1</td></tr>
-<tr><td><a href="/boxscores/202401180BOS.html">1/18/2024</a></td><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/teams/COL.html">COL</a></td><td><a href="/players/Jason Polin.html">Jason Polin</a></td><td><a href="/teams/COL.html">COL</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>11</td><td>7.6</td><td>0</td><td>3</td><td>6</td><td>33.3</td><td>-18</td><td>0</td><td>4</td><td>0</td><td>2</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202401180BOS.html">1/18/2024</a></td><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/teams/COL.html">COL</a></td><td><a href="/players/Mikko Rantanen.html">Mikko Rantanen</a></td><td><a href="/teams/COL.html">COL</a></td><td>0</td><td>0</td><td>0</td><td>-2</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>23</td><td>21.73</td><td>3</td><td>18</td><td>20</td><td>47.4</td><td>-3.7</td><td>11</td><td>3</td><td>78.6</td><td>0</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202401180BOS.html">1/18/2024</a></td><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/teams/COL.html">COL</a></td><td><a href="/players/Devon Toews.html">Devon Toews</a></td><td><a href="/teams/COL.html">COL</a></td><td>0</td><td>1</td><td>1</td><td>-1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>2</td><td>0</td><td>24</td><td>22.17</td><td>4</td><td>19</td><td>23</td><td>45.2</td><td>-7.2</td><td>7</td><td>12</td><td>36.8</td><td>1</td><td>1</td></tr>
-<tr><td><a href="/boxscores/202401180BOS.html">1/18/2024</a></td><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/teams/COL.html">COL</a></td><td><a href="/players/Miles Wood.html">Miles Wood</a></td><td><a href="/teams/COL.html">COL</a></td><td>1</td><td>0</td><td>1</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>4</td><td>25</td><td>19</td><td>15.92</td><td>5</td><td>28</td><td>17</td><td>62.2</td><td>19</td><td>2</td><td>11</td><td>15.4</td><td>4</td><td>1</td></tr>
-<tr><td><a href="/boxscores/202401180BOS.html">1/18/2024</a></td><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/teams/COL.html">COL</a></td><td><a href="/players/Alexandar Georgiev.html">Alexandar Georgiev</a></td><td><a href="/teams/COL.html">COL</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>4</td><td>58.62</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202401180BOS.html">1/18/2024</a></td><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/teams/COL.html">COL</a></td><td><a href="/players/--.html">--</a></td><td><a href="/teams/--.html">--</a></td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td></tr>
-<tr><td><a href="/boxscores/202401180BOS.html">1/18/2024</a></td><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/teams/COL.html">COL</a></td><td><a href="/players/Jesper Boqvist.html">Jesper Boqvist</a></td><td><a href="/teams/BOS.html">BOS</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>2</td><td>0</td><td>12</td><td>10.48</td><td>2</td><td>10</td><td>8</td><td>55.6</td><td>6.5</td><td>2</td><td>2</td><td>50</td><td>0</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202401180BOS.html">1/18/2024</a></td><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/teams/COL.html">COL</a></td><td><a href="/players/Charlie Coyle.html">Charlie Coyle</a></td><td><a href="/teams/BOS.html">BOS</a></td><td>0</td><td>2</td><td>2</td><td>2</td><td>2</td><td>0</td><td>0</td><td>0</td><td>0</td><td>2</td><td>0</td><td>0</td><td>2</td><td>0</td><td>25</td><td>20.53</td><td>2</td><td>25</td><td>15</td><td>62.5</td><td>18.3</td><td>9</td><td>8</td><td>52.9</td><td>2</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202401180BOS.html">1/18/2024</a></td><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/teams/COL.html">COL</a></td><td><a href="/players/Jake DeBrusk.html">Jake DeBrusk</a></td><td><a href="/teams/BOS.html">BOS</a></td><td>1</td><td>1</td><td>2</td><td>1</td><td>0</td><td>1</td><td>0</td><td>0</td><td>1</td><td>0</td><td>1</td><td>0</td><td>2</td><td>50</td><td>23</td><td>16.93</td><td>6</td><td>18</td><td>16</td><td>52.9</td><td>4</td><td>10</td><td>3</td><td>76.9</td><td>3</td><td>2</td></tr>
-<tr><td><a href="/boxscores/202401180BOS.html">1/18/2024</a></td><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/teams/COL.html">COL</a></td><td><a href="/players/Trent Frederic.html">Trent Frederic</a></td><td><a href="/teams/BOS.html">BOS</a></td><td>0</td><td>0</td><td>0</td><td>-1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>18</td><td>13.83</td><td>0</td><td>11</td><td>22</td><td>33.3</td><td>-22.6</td><td>6</td><td>5</td><td>54.5</td><td>0</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202401180BOS.html">1/18/2024</a></td><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/teams/COL.html">COL</a></td><td><a href="/players/Morgan Geekie.html">Morgan Geekie</a></td><td><a href="/teams/BOS.html">BOS</a></td><td>0</td><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>1</td><td>0</td><td>18</td><td>14.02</td><td>1</td><td>10</td><td>19</td><td>34.5</td><td>-20.1</td><td>6</td><td>5</td><td>54.5</td><td>1</td><td>1</td></tr>
-<tr><td><a href="/boxscores/202401180BOS.html">1/18/2024</a></td><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/teams/COL.html">COL</a></td><td><a href="/players/Matt Grzelcyk.html">Matt Grzelcyk</a></td><td><a href="/teams/BOS.html">BOS</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>29</td><td>19.05</td><td>2</td><td>14</td><td>27</td><td>34.1</td><td>-23.5</td><td>12</td><td>4</td><td>75</td><td>0</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202401180BOS.html">1/18/2024</a></td><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/teams/COL.html">COL</a></td><td><a href="/players/Danton Heinen.html">Danton Heinen</a></td><td><a href="/teams/BOS.html">BOS</a></td><td>0</td><td>0</td><td>0</td><td>-1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>15</td><td>13.72</td><td>4</td><td>13</td><td>17</td><td>43.3</td><td>-8.8</td><td>2</td><td>4</td><td>33.3</td><td>1</td><td>1</td></tr>
-<tr><td><a href="/boxscores/202401180BOS.html">1/18/2024</a></td><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/teams/COL.html">COL</a></td><td><a href="/players/Jakub Lauko.html">Jakub Lauko</a></td><td><a href="/teams/BOS.html">BOS</a></td><td>1</td><td>0</td><td>1</td><td>1</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>2</td><td>50</td><td>11</td><td>8.42</td><td>3</td><td>8</td><td>8</td><td>50</td><td>0</td><td>3</td><td>3</td><td>50</td><td>6</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202401180BOS.html">1/18/2024</a></td><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/teams/COL.html">COL</a></td><td><a href="/players/Hampus Lindholm.html">Hampus Lindholm</a></td><td><a href="/teams/BOS.html">BOS</a></td><td>0</td><td>1</td><td>1</td><td>2</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>29</td><td>21.25</td><td>2</td><td>28</td><td>18</td><td>60.9</td><td>17.1</td><td>5</td><td>9</td><td>35.7</td><td>0</td><td>2</td></tr>
-<tr><td><a href="/boxscores/202401180BOS.html">1/18/2024</a></td><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/teams/COL.html">COL</a></td><td><a href="/players/Mason Lohrei.html">Mason Lohrei</a></td><td><a href="/teams/BOS.html">BOS</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>19</td><td>16.52</td><td>1</td><td>16</td><td>17</td><td>48.5</td><td>-2</td><td>5</td><td>6</td><td>45.5</td><td>5</td><td>1</td></tr>
-<tr><td><a href="/boxscores/202401180BOS.html">1/18/2024</a></td><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/teams/COL.html">COL</a></td><td><a href="/players/Brad Marchand.html">Brad Marchand</a></td><td><a href="/teams/BOS.html">BOS</a></td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>2</td><td>0</td><td>25</td><td>21.32</td><td>5</td><td>22</td><td>15</td><td>59.5</td><td>13.4</td><td>9</td><td>8</td><td>52.9</td><td>1</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202401180BOS.html">1/18/2024</a></td><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/teams/COL.html">COL</a></td><td><a href="/players/Charlie McAvoy.html">Charlie McAvoy</a></td><td><a href="/teams/BOS.html">BOS</a></td><td>0</td><td>0</td><td>0</td><td>2</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>5</td><td>0</td><td>28</td><td>24.18</td><td>7</td><td>30</td><td>21</td><td>58.8</td><td>14.8</td><td>9</td><td>8</td><td>52.9</td><td>3</td><td>3</td></tr>
-<tr><td><a href="/boxscores/202401180BOS.html">1/18/2024</a></td><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/teams/COL.html">COL</a></td><td><a href="/players/David Pastrňák.html">David Pastrňák</a></td><td><a href="/teams/BOS.html">BOS</a></td><td>3</td><td>0</td><td>3</td><td>1</td><td>0</td><td>2</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>8</td><td>37.5</td><td>23</td><td>21.15</td><td>13</td><td>28</td><td>21</td><td>57.1</td><td>11.6</td><td>12</td><td>4</td><td>75</td><td>0</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202401180BOS.html">1/18/2024</a></td><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/teams/COL.html">COL</a></td><td><a href="/players/Kevin Shattenkirk.html">Kevin Shattenkirk</a></td><td><a href="/teams/BOS.html">BOS</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>19</td><td>15.58</td><td>4</td><td>14</td><td>17</td><td>45.2</td><td>-6.4</td><td>5</td><td>6</td><td>45.5</td><td>0</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202401180BOS.html">1/18/2024</a></td><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/teams/COL.html">COL</a></td><td><a href="/players/Oskar Steen.html">Oskar Steen</a></td><td><a href="/teams/BOS.html">BOS</a></td><td>0</td><td>0</td><td>0</td><td>-1</td><td>2</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>12</td><td>9.58</td><td>0</td><td>8</td><td>10</td><td>44.4</td><td>-6.5</td><td>2</td><td>2</td><td>50</td><td>0</td><td>1</td></tr>
-<tr><td><a href="/boxscores/202401180BOS.html">1/18/2024</a></td><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/teams/COL.html">COL</a></td><td><a href="/players/James van Riemsdyk.html">James van Riemsdyk</a></td><td><a href="/teams/BOS.html">BOS</a></td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>4</td><td>0</td><td>18</td><td>14.4</td><td>6</td><td>23</td><td>15</td><td>60.5</td><td>15</td><td>10</td><td>1</td><td>90.9</td><td>0</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202401180BOS.html">1/18/2024</a></td><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/teams/COL.html">COL</a></td><td><a href="/players/Parker Wotherspoon.html">Parker Wotherspoon</a></td><td><a href="/teams/BOS.html">BOS</a></td><td>0</td><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>29</td><td>19.22</td><td>1</td><td>17</td><td>25</td><td>40.5</td><td>-14.3</td><td>11</td><td>3</td><td>78.6</td><td>4</td><td>2</td></tr>
-<tr><td><a href="/boxscores/202401180BOS.html">1/18/2024</a></td><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/teams/COL.html">COL</a></td><td><a href="/players/Pavel Zacha.html">Pavel Zacha</a></td><td><a href="/teams/BOS.html">BOS</a></td><td>0</td><td>1</td><td>1</td><td>2</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>2</td><td>0</td><td>23</td><td>15.85</td><td>4</td><td>18</td><td>20</td><td>47.4</td><td>-3.7</td><td>12</td><td>7</td><td>63.2</td><td>1</td><td>1</td></tr>
-<tr><td><a href="/boxscores/202401180BOS.html">1/18/2024</a></td><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/teams/COL.html">COL</a></td><td><a href="/players/Jeremy Swayman.html">Jeremy Swayman</a></td><td><a href="/teams/BOS.html">BOS</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>3</td><td>59.97</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202401180BOS.html">1/18/2024</a></td><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/teams/COL.html">COL</a></td><td><a href="/players/--.html">--</a></td><td><a href="/teams/--.html">--</a></td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td></tr>
-
-                </tbody>
-            </table>
-
-            <h2>Goalies</h2>
-            <table id="202401180BOS_goalies" border="1">
-                <thead>
-                    <tr>
-                        <th>Home Team</th><th>Away Team</th><th>Goalie</th><th>Team</th><th>DEC</th><th>GA</th><th>SA</th><th>SV</th>
-                        <th>SV%</th><th>SO</th><th>PIM</th><th>Goalie TOI</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/teams/COL.html">COL</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td><a href="/teams/COL.html">COL</a></td><td>L</td><td>4</td><td>30</td><td>26</td><td>0.867</td><td>0</td><td>0</td><td>58:37:00</td></tr>
-<tr><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/teams/COL.html">COL</a></td><td><a href="/players/--.html">Empty Net</a></td><td><a href="/teams/COL.html">COL</a></td><td>--</td><td>1</td><td>1</td><td>0</td><td>0.0</td><td>0</td><td>0</td><td>0</td></tr>
-<tr><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/teams/COL.html">COL</a></td><td><a href="/players/swaymje01.html">Jeremy Swayman</a></td><td><a href="/teams/BOS.html">BOS</a></td><td>W</td><td>2</td><td>32</td><td>30</td><td>0.938</td><td>0</td><td>0</td><td>59:58:00</td></tr>
-
-                </tbody>
-            </table>
-
-            <h2>Scoring</h2>
-            <table id="202401180BOS_scoring" border="1">
-                <thead>
-                    <tr>
-                        <th>Home Team</th><th>Away Team</th><th>Period</th><th>Time</th><th>Team</th><th>Info</th>
-                        <th>Scorer</th><th>Assist1</th><th>Assist2</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/teams/COL.html">COL</a></td><td>1st Period</td><td>1st Period</td><td><a href="/teams/1st Period.html">1st Period</a></td><td>1st Period</td><td><a href="/players/1st Period.html">1st Period</a></td><td><a href="/players/1st Period.html">1st Period</a></td><td><a href="/players/1st Period.html">1st Period</a></td></tr>
-<tr><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/teams/COL.html">COL</a></td><td>1st Period</td><td>0:44</td><td><a href="/teams/BOS.html">BOS</a></td><td>--</td><td><a href="/players/David Pastrňák.html">David Pastrňák</a></td><td><a href="/players/Charlie Coyle.html">Charlie Coyle</a></td><td><a href="/players/Charlie Coyle.html">Charlie Coyle</a></td></tr>
-<tr><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/teams/COL.html">COL</a></td><td>1st Period</td><td>4:58</td><td><a href="/teams/BOS.html">BOS</a></td><td>--</td><td><a href="/players/Jakub Lauko.html">Jakub Lauko</a></td><td><a href="/players/Morgan Geekie.html">Morgan Geekie</a></td><td><a href="/players/Hampus Lindholm.html">Hampus Lindholm</a></td></tr>
-<tr><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/teams/COL.html">COL</a></td><td>1st Period</td><td>7:32</td><td><a href="/teams/COL.html">COL</a></td><td>--</td><td><a href="/players/Miles Wood.html">Miles Wood</a></td><td><a href="/players/Devon Toews.html">Devon Toews</a></td><td><a href="/players/Sam Malinski.html">Sam Malinski</a></td></tr>
-<tr><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/teams/COL.html">COL</a></td><td>1st Period</td><td>14:52</td><td><a href="/teams/BOS.html">BOS</a></td><td>--</td><td><a href="/players/Jake DeBrusk.html">Jake DeBrusk</a></td><td><a href="/players/Parker Wotherspoon.html">Parker Wotherspoon</a></td><td><a href="/players/Pavel Zacha.html">Pavel Zacha</a></td></tr>
-<tr><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/teams/COL.html">COL</a></td><td>2nd Period</td><td>2nd Period</td><td><a href="/teams/2nd Period.html">2nd Period</a></td><td>2nd Period</td><td><a href="/players/2nd Period.html">2nd Period</a></td><td><a href="/players/2nd Period.html">2nd Period</a></td><td><a href="/players/2nd Period.html">2nd Period</a></td></tr>
-<tr><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/teams/COL.html">COL</a></td><td>2nd Period</td><td>16:20</td><td><a href="/teams/COL.html">COL</a></td><td>--</td><td><a href="/players/Nathan MacKinnon.html">Nathan MacKinnon</a></td><td><a href="/players/Josh Manson.html">Josh Manson</a></td><td><a href="/players/Cale Makar.html">Cale Makar</a></td></tr>
-<tr><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/teams/COL.html">COL</a></td><td>3rd Period</td><td>3rd Period</td><td><a href="/teams/3rd Period.html">3rd Period</a></td><td>3rd Period</td><td><a href="/players/3rd Period.html">3rd Period</a></td><td><a href="/players/3rd Period.html">3rd Period</a></td><td><a href="/players/3rd Period.html">3rd Period</a></td></tr>
-<tr><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/teams/COL.html">COL</a></td><td>3rd Period</td><td>17:24</td><td><a href="/teams/BOS.html">BOS</a></td><td>PP</td><td><a href="/players/David Pastrňák.html">David Pastrňák</a></td><td><a href="/players/Jake DeBrusk.html">Jake DeBrusk</a></td><td><a href="/players/Jake DeBrusk.html">Jake DeBrusk</a></td></tr>
-<tr><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/teams/COL.html">COL</a></td><td>3rd Period</td><td>19:38</td><td><a href="/teams/BOS.html">BOS</a></td><td>EN</td><td><a href="/players/David Pastrňák.html">David Pastrňák</a></td><td><a href="/players/Charlie Coyle.html">Charlie Coyle</a></td><td><a href="/players/Charlie Coyle.html">Charlie Coyle</a></td></tr>
-
-                </tbody>
-            </table>
-
-            <h2>Penalties</h2>
-            <table id="202401180BOS_penalties" border="1">
-                <thead>
-                    <tr>
-                        <th>Home Team</th><th>Away Team</th><th>Period</th><th>Time</th><th>Team</th><th>Player</th>
-                        <th>Penalty</th><th>PIM</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/teams/COL.html">COL</a></td><td>1st Period</td><td>1st Period</td><td><a href="/teams/1st Period.html">1st Period</a></td><td><a href="/players/1st Period.html">1st Period</a></td><td>1st Period</td><td>1st Period</td></tr>
-<tr><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/teams/COL.html">COL</a></td><td>1st Period</td><td>5:29</td><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/players/Oskar Steen.html">Oskar Steen</a></td><td>Tripping</td><td>2 min</td></tr>
-<tr><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/teams/COL.html">COL</a></td><td>1st Period</td><td>14:52</td><td><a href="/teams/COL.html">COL</a></td><td><a href="/players/Bench.html">Bench</a></td><td>Delay of Game</td><td>2 min</td></tr>
-<tr><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/teams/COL.html">COL</a></td><td>2nd Period</td><td>2nd Period</td><td><a href="/teams/2nd Period.html">2nd Period</a></td><td><a href="/players/2nd Period.html">2nd Period</a></td><td>2nd Period</td><td>2nd Period</td></tr>
-<tr><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/teams/COL.html">COL</a></td><td>2nd Period</td><td>18:15</td><td><a href="/teams/COL.html">COL</a></td><td><a href="/players/Josh Manson.html">Josh Manson</a></td><td>Interference</td><td>2 min</td></tr>
-<tr><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/teams/COL.html">COL</a></td><td>2nd Period</td><td>19:19</td><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/players/Charlie Coyle.html">Charlie Coyle</a></td><td>Tripping</td><td>2 min</td></tr>
-<tr><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/teams/COL.html">COL</a></td><td>3rd Period</td><td>3rd Period</td><td><a href="/teams/3rd Period.html">3rd Period</a></td><td><a href="/players/3rd Period.html">3rd Period</a></td><td>3rd Period</td><td>3rd Period</td></tr>
-<tr><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/teams/COL.html">COL</a></td><td>3rd Period</td><td>15:25</td><td><a href="/teams/COL.html">COL</a></td><td><a href="/players/Josh Manson.html">Josh Manson</a></td><td>High Sticking</td><td>2 min</td></tr>
-
-                </tbody>
-            </table>
-        </main>
-    </body>
-    </html>
-    
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Colorado Avalanche at Boston Bruins: January 18, 2024</title>
+<link rel="stylesheet" href="/assets/styles.css">
+<script src="/assets/searchBar.js"></script>
+<script src="/assets/tableSort.js"></script>
+</head>
+<body>
+<nav id="navbar">
+<ul>
+<li><a href="/">Home</a></li>
+<li><a href="/players/">Players</a></li>
+<li><a href="/teams/">Teams</a></li>
+<li><a href="/probabilities/">Probabilities</a></li>
+<li><a href="/boxscores/">Boxscores</a></li>
+<li><a href="/versus/">Head to Head Stats</a></li>
+<li><a href="/leaders/">Leaders</a></li>
+<li><a href="/seasons/2025/schedule.html">Schedule and Results</a></li>
+<li><a href="/seasons/2025/standings.html">Current Standings</a></li>
+<li><a href="/seasons/2025/rosters.html">Team Rosters</a></li>
+<li>
+<input type="text" id="searchBar" placeholder="Search for players or teams..." oninput="performSearch()" autocomplete="off">
+<div id="searchResults" class="dropdown"></div>
+<button id="searchButton" onclick="handleSearch()">Search</button>
+</li>
+</ul>
+</nav>
+<main id="content">
+<div class="scorebox">
+<div class="team"><div><a href="/teams/COL.html">COL</a></div><div class="score">2</div></div>
+<div class="team"><div><a href="/teams/BOS.html">BOS</a></div><div class="score">5</div></div>
+<div class="date">January 18, 2024</div>
+</div>
+<table id="COL_skaters">
+<tr><th>Team</th><th>Player</th><th>G</th><th>A</th><th>PTS</th><th>SOG</th><th>HIT</th><th>BLK</th><th>TOI</th><th>PIM</th><th>SAT-F</th><th>SAT-A</th><th>CF%</th><th>CRel%</th></tr>
+<tr><td><a href="/teams/COL.html">COL</a></td><td><a href="/players/coglian01.html">Andrew Cogliano</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>12.98</td><td>0</td><td>13</td><td>17</td><td>43.30%</td><td>-8.80%</td></tr>
+<tr><td><a href="/teams/COL.html">COL</a></td><td><a href="/players/makarca01.html">Cale Makar</a></td><td>0</td><td>1</td><td>1</td><td>2</td><td>2</td><td>3</td><td>27.53</td><td>0</td><td>24</td><td>30</td><td>44.40%</td><td>-9.80%</td></tr>
+<tr><td><a href="/teams/COL.html">COL</a></td><td><a href="/players/toewsde01.html">Devon Toews</a></td><td>0</td><td>1</td><td>1</td><td>2</td><td>1</td><td>1</td><td>22.17</td><td>0</td><td>19</td><td>23</td><td>45.20%</td><td>-7.20%</td></tr>
+<tr><td><a href="/teams/COL.html">COL</a></td><td><a href="/players/olofsfr01.html">Fredrik Olofsson</a></td><td>0</td><td>0</td><td>0</td><td>2</td><td>5</td><td>1</td><td>11.65</td><td>0</td><td>7</td><td>13</td><td>35.00%</td><td>-17.80%</td></tr>
+<tr><td><a href="/teams/COL.html">COL</a></td><td><a href="/players/johnsja02.html">Jack Johnson</a></td><td>0</td><td>0</td><td>0</td><td>1</td><td>1</td><td>2</td><td>15.12</td><td>0</td><td>13</td><td>17</td><td>43.30%</td><td>-8.80%</td></tr>
+<tr><td><a href="/teams/COL.html">COL</a></td><td><a href="/players/polinja01.html">Jason Polin</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>2</td><td>0</td><td>7.6</td><td>0</td><td>3</td><td>6</td><td>33.30%</td><td>-18.00%</td></tr>
+<tr><td><a href="/teams/COL.html">COL</a></td><td><a href="/players/kivirjo01.html">Joel Kiviranta</a></td><td>0</td><td>0</td><td>0</td><td>3</td><td>1</td><td>2</td><td>12.78</td><td>0</td><td>12</td><td>18</td><td>40.00%</td><td>-13.10%</td></tr>
+<tr><td><a href="/teams/COL.html">COL</a></td><td><a href="/players/drouijo01.html">Jonathan Drouin</a></td><td>0</td><td>0</td><td>0</td><td>1</td><td>1</td><td>1</td><td>21.05</td><td>0</td><td>18</td><td>17</td><td>51.40%</td><td>1.90%</td></tr>
+<tr><td><a href="/teams/COL.html">COL</a></td><td><a href="/players/mansojo01.html">Josh Manson</a></td><td>0</td><td>1</td><td>1</td><td>3</td><td>5</td><td>1</td><td>18.35</td><td>4</td><td>26</td><td>17</td><td>60.50%</td><td>15.90%</td></tr>
+<tr><td><a href="/teams/COL.html">COL</a></td><td><a href="/players/macdeku01.html">Kurtis MacDermid</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>3</td><td>0</td><td>7.1</td><td>0</td><td>3</td><td>6</td><td>33.30%</td><td>-18.00%</td></tr>
+<tr><td><a href="/teams/COL.html">COL</a></td><td><a href="/players/oconnlo01.html">Logan O'Connor</a></td><td>0</td><td>0</td><td>0</td><td>2</td><td>1</td><td>1</td><td>16.17</td><td>0</td><td>26</td><td>17</td><td>60.50%</td><td>15.90%</td></tr>
+<tr><td><a href="/teams/COL.html">COL</a></td><td><a href="/players/rantami01.html">Mikko Rantanen</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>21.73</td><td>0</td><td>18</td><td>20</td><td>47.40%</td><td>-3.70%</td></tr>
+<tr><td><a href="/teams/COL.html">COL</a></td><td><a href="/players/woodmi01.html">Miles Wood</a></td><td>1</td><td>0</td><td>1</td><td>4</td><td>4</td><td>1</td><td>15.92</td><td>0</td><td>28</td><td>17</td><td>62.20%</td><td>19.00%</td></tr>
+<tr><td><a href="/teams/COL.html">COL</a></td><td><a href="/players/mackina01.html">Nathan MacKinnon</a></td><td>1</td><td>0</td><td>1</td><td>6</td><td>0</td><td>1</td><td>21.8</td><td>0</td><td>20</td><td>19</td><td>51.30%</td><td>1.90%</td></tr>
+<tr><td><a href="/teams/COL.html">COL</a></td><td><a href="/players/coltoro01.html">Ross Colton</a></td><td>0</td><td>0</td><td>0</td><td>2</td><td>1</td><td>0</td><td>15.57</td><td>0</td><td>26</td><td>15</td><td>63.40%</td><td>19.90%</td></tr>
+<tr><td><a href="/teams/COL.html">COL</a></td><td><a href="/players/johanry01.html">Ryan Johansen</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>3</td><td>0</td><td>14.47</td><td>0</td><td>18</td><td>21</td><td>46.20%</td><td>-5.50%</td></tr>
+<tr><td><a href="/teams/COL.html">COL</a></td><td><a href="/players/malinsa01.html">Sam Malinski</a></td><td>0</td><td>1</td><td>1</td><td>2</td><td>2</td><td>0</td><td>13.73</td><td>0</td><td>15</td><td>17</td><td>46.90%</td><td>-4.20%</td></tr>
+<tr><td><a href="/teams/COL.html">COL</a></td><td><a href="/players/girarsa01.html">Samuel Girard</a></td><td>0</td><td>0</td><td>0</td><td>2</td><td>0</td><td>3</td><td>19.68</td><td>0</td><td>28</td><td>19</td><td>59.60%</td><td>15.30%</td></tr>
+</table>
+<table id="BOS_skaters">
+<tr><th>Team</th><th>Player</th><th>G</th><th>A</th><th>PTS</th><th>SOG</th><th>HIT</th><th>BLK</th><th>TOI</th><th>PIM</th><th>SAT-F</th><th>SAT-A</th><th>CF%</th><th>CRel%</th></tr>
+<tr><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/players/marchbr03.html">Brad Marchand</a></td><td>0</td><td>0</td><td>0</td><td>2</td><td>1</td><td>0</td><td>21.32</td><td>0</td><td>22</td><td>15</td><td>59.50%</td><td>13.40%</td></tr>
+<tr><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/players/coylech01.html">Charlie Coyle</a></td><td>0</td><td>2</td><td>2</td><td>2</td><td>2</td><td>0</td><td>20.53</td><td>2</td><td>25</td><td>15</td><td>62.50%</td><td>18.30%</td></tr>
+<tr><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/players/mcavoch01.html">Charlie McAvoy</a></td><td>0</td><td>0</td><td>0</td><td>5</td><td>3</td><td>3</td><td>24.18</td><td>0</td><td>30</td><td>21</td><td>58.80%</td><td>14.80%</td></tr>
+<tr><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/players/heineda01.html">Danton Heinen</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>1</td><td>13.72</td><td>0</td><td>13</td><td>17</td><td>43.30%</td><td>-8.80%</td></tr>
+<tr><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/players/pastrda01.html">David Pastrňák</a></td><td>3</td><td>0</td><td>3</td><td>8</td><td>0</td><td>0</td><td>21.15</td><td>0</td><td>28</td><td>21</td><td>57.10%</td><td>11.60%</td></tr>
+<tr><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/players/lindhha01.html">Hampus Lindholm</a></td><td>0</td><td>1</td><td>1</td><td>0</td><td>0</td><td>2</td><td>21.25</td><td>0</td><td>28</td><td>18</td><td>60.90%</td><td>17.10%</td></tr>
+<tr><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/players/debruja01.html">Jake DeBrusk</a></td><td>1</td><td>1</td><td>2</td><td>2</td><td>3</td><td>2</td><td>16.93</td><td>0</td><td>18</td><td>16</td><td>52.90%</td><td>4.00%</td></tr>
+<tr><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/players/laukoja01.html">Jakub Lauko</a></td><td>1</td><td>0</td><td>1</td><td>2</td><td>6</td><td>0</td><td>8.42</td><td>0</td><td>8</td><td>8</td><td>50.00%</td><td>0.00%</td></tr>
+<tr><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/players/vanrija01.html">James van Riemsdyk</a></td><td>0</td><td>0</td><td>0</td><td>4</td><td>0</td><td>0</td><td>14.4</td><td>0</td><td>23</td><td>15</td><td>60.50%</td><td>15.00%</td></tr>
+<tr><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/players/boqvije01.html">Jesper Boqvist</a></td><td>0</td><td>0</td><td>0</td><td>2</td><td>0</td><td>0</td><td>10.48</td><td>0</td><td>10</td><td>8</td><td>55.60%</td><td>6.50%</td></tr>
+<tr><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/players/shattke01.html">Kevin Shattenkirk</a></td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>15.58</td><td>0</td><td>14</td><td>17</td><td>45.20%</td><td>-6.40%</td></tr>
+<tr><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/players/lohrema01.html">Mason Lohrei</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>5</td><td>1</td><td>16.52</td><td>0</td><td>16</td><td>17</td><td>48.50%</td><td>-2.00%</td></tr>
+<tr><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/players/grzelma01.html">Matt Grzelcyk</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>19.05</td><td>0</td><td>14</td><td>27</td><td>34.10%</td><td>-23.50%</td></tr>
+<tr><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/players/geekimo01.html">Morgan Geekie</a></td><td>0</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>14.02</td><td>0</td><td>10</td><td>19</td><td>34.50%</td><td>-20.10%</td></tr>
+<tr><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/players/steenos01.html">Oskar Steen</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>9.58</td><td>2</td><td>8</td><td>10</td><td>44.40%</td><td>-6.50%</td></tr>
+<tr><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/players/wothepa01.html">Parker Wotherspoon</a></td><td>0</td><td>1</td><td>1</td><td>0</td><td>4</td><td>2</td><td>19.22</td><td>0</td><td>17</td><td>25</td><td>40.50%</td><td>-14.30%</td></tr>
+<tr><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/players/zachapa01.html">Pavel Zacha</a></td><td>0</td><td>1</td><td>1</td><td>2</td><td>1</td><td>1</td><td>15.85</td><td>0</td><td>18</td><td>20</td><td>47.40%</td><td>-3.70%</td></tr>
+<tr><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/players/fredetr01.html">Trent Frederic</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>13.83</td><td>0</td><td>11</td><td>22</td><td>33.30%</td><td>-22.60%</td></tr>
+</table>
+<table id="COL_goalies">
+<tr><th>Team</th><th>Goalie</th><th>DEC</th><th>GA</th><th>SA</th><th>SV</th><th>SV%</th><th>SO</th><th>PIM</th><th>TOI</th></tr>
+<tr><td><a href="/teams/COL.html">COL</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td>L</td><td>4</td><td>30</td><td>26</td><td>86.70%</td><td>0</td><td>0</td><td>58.62</td></tr>
+<tr><td><a href="/teams/COL.html">COL</a></td><td><a href="/players/nan.html">Empty Net</a></td><td>--</td><td>1</td><td>1</td><td>0</td><td>0.00%</td><td>0</td><td>0</td><td>0.0</td></tr>
+</table>
+<table id="BOS_goalies">
+<tr><th>Team</th><th>Goalie</th><th>DEC</th><th>GA</th><th>SA</th><th>SV</th><th>SV%</th><th>SO</th><th>PIM</th><th>TOI</th></tr>
+<tr><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/players/swaymje01.html">Jeremy Swayman</a></td><td>W</td><td>2</td><td>32</td><td>30</td><td>93.80%</td><td>0</td><td>0</td><td>59.97</td></tr>
+</table>
+<table id="scoring">
+<tr><th>Team</th><th>Time</th><th>Info</th><th>Scorer</th><th>Assist 1</th><th>Assist 2</th></tr>
+<tr><td><a href="/teams/BOS.html">BOS</a></td><td>0.73</td><td>--</td><td><a href="/players/pastrda01.html">David Pastrňák</a></td><td><a href="/players/coylech01.html">Charlie Coyle</a></td><td><a href="/players/coylech01.html">Charlie Coyle</a></td></tr>
+<tr><td><a href="/teams/BOS.html">BOS</a></td><td>4.97</td><td>--</td><td><a href="/players/laukoja01.html">Jakub Lauko</a></td><td><a href="/players/geekimo01.html">Morgan Geekie</a></td><td><a href="/players/lindhha01.html">Hampus Lindholm</a></td></tr>
+<tr><td><a href="/teams/COL.html">COL</a></td><td>7.53</td><td>--</td><td><a href="/players/woodmi01.html">Miles Wood</a></td><td><a href="/players/toewsde01.html">Devon Toews</a></td><td><a href="/players/malinsa01.html">Sam Malinski</a></td></tr>
+<tr><td><a href="/teams/BOS.html">BOS</a></td><td>14.87</td><td>--</td><td><a href="/players/debruja01.html">Jake DeBrusk</a></td><td><a href="/players/wothepa01.html">Parker Wotherspoon</a></td><td><a href="/players/zachapa01.html">Pavel Zacha</a></td></tr>
+<tr><td><a href="/teams/COL.html">COL</a></td><td>36.33</td><td>--</td><td><a href="/players/mackina01.html">Nathan MacKinnon</a></td><td><a href="/players/mansojo01.html">Josh Manson</a></td><td><a href="/players/makarca01.html">Cale Makar</a></td></tr>
+<tr><td><a href="/teams/BOS.html">BOS</a></td><td>57.4</td><td>PP</td><td><a href="/players/pastrda01.html">David Pastrňák</a></td><td><a href="/players/debruja01.html">Jake DeBrusk</a></td><td><a href="/players/debruja01.html">Jake DeBrusk</a></td></tr>
+<tr><td><a href="/teams/BOS.html">BOS</a></td><td>59.63</td><td>EN</td><td><a href="/players/pastrda01.html">David Pastrňák</a></td><td><a href="/players/coylech01.html">Charlie Coyle</a></td><td><a href="/players/coylech01.html">Charlie Coyle</a></td></tr>
+</table>
+<table id="penalties">
+<tr><th>Team</th><th>Time</th><th>Player</th><th>Penalty</th><th>PIM</th></tr>
+<tr><td><a href="/teams/BOS.html">BOS</a></td><td>5.48</td><td><a href="/players/steenos01.html">Oskar Steen</a></td><td>Tripping</td><td>2 min</td></tr>
+<tr><td><a href="/teams/COL.html">COL</a></td><td>14.87</td><td><a href="/players/nan.html">Bench</a></td><td>Delay of Game</td><td>2 min</td></tr>
+<tr><td><a href="/teams/COL.html">COL</a></td><td>38.25</td><td><a href="/players/mansojo01.html">Josh Manson</a></td><td>Interference</td><td>2 min</td></tr>
+<tr><td><a href="/teams/BOS.html">BOS</a></td><td>39.32</td><td><a href="/players/coylech01.html">Charlie Coyle</a></td><td>Tripping</td><td>2 min</td></tr>
+<tr><td><a href="/teams/COL.html">COL</a></td><td>55.42</td><td><a href="/players/mansojo01.html">Josh Manson</a></td><td>High Sticking</td><td>2 min</td></tr>
+</table>
+</main>
+</body>
+</html>

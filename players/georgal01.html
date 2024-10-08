@@ -1,939 +1,295 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Alexandar Georgiev</title>
-  <link rel="stylesheet" href="/assets/styles.css">
-  <script src="/assets/searchBar.js" defer></script>
-  <script src="/assets/tableSort.js"></script>
-  
-  <style>
-    tr:hover {background-color: #F0FFF0;}
-  </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Alexandar Georgiev Stats 2023-24</title>
+<link rel="stylesheet" href="/assets/styles.css">
+<script src="/assets/searchBar.js"></script>
+<script src="/assets/tableSort.js"></script>
 </head>
-
 <body>
-  <!-- Navigation Bar -->
-  <nav id="navbar">
-    <a href="/">Home</a>
-    <a href="/players/">Players</a>
-    <a href="/teams/">Teams</a>
-    <a href="/leaders/">Leaders</a>
-    <a href="/probabilities/">Probabilities</a>
-    <a href="/boxscores/">Boxscores</a>
-    <a href="/schedule/">Schedule</a>
+<nav id="navbar">
+<ul>
+<li><a href="/">Home</a></li>
+<li><a href="/players/">Players</a></li>
+<li><a href="/teams/">Teams</a></li>
+<li><a href="/probabilities/">Probabilities</a></li>
+<li><a href="/boxscores/">Boxscores</a></li>
+<li><a href="/versus/">Head to Head Stats</a></li>
+<li><a href="/leaders/">Leaders</a></li>
+<li><a href="/seasons/2025/schedule.html">Schedule and Results</a></li>
+<li><a href="/seasons/2025/standings.html">Current Standings</a></li>
+<li><a href="/seasons/2025/rosters.html">Team Rosters</a></li>
+<li>
+<input type="text" id="searchBar" placeholder="Search for players or teams..." oninput="performSearch()" autocomplete="off">
+<div id="searchResults" class="dropdown"></div>
+<button id="searchButton" onclick="handleSearch()">Search</button>
+</li>
+</ul>
+</nav>
+<main id="content">
+<div class="gamelog">
+<table id="totals">
+<tr><th>Team</th><th>Goalie</th><th>GP</th><th>G</th><th>A</th><th>PTS</th><th>SOG</th><th>HIT</th><th>BLK</th><th>PIM</th><th>TOI</th><th>ATOI</th><th>S%</th><th>EVG</th><th>PPG</th><th>SHG</th><th>GWG</th><th>EVA</th><th>PPA</th><th>SHA</th></tr>
+<tr><td><a href="/teams/COL.html">COL</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td>63</td><td>183</td><td>3.02</td><td>1770</td><td>1587</td><td>89.25%</td><td>2</td><td>40</td><td>23</td><td>5</td><td>3637.95</td><td>57.75</td></tr>
+</table>
+<table id="georgal01_gamelog">
+<tr><th>Date</th><th>Player</th><th>Team</th><th>Location</th><th>Opp</th><th>Result</th><th>OT/SO</th><th>GA</th><th>SA</th><th>SV</th><th>SV%</th><th>PIM</th><th>TOI</th></tr>
+<tr><td><a href="/boxscores/202310110LAK.html">10/11/2023</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td><a href="/teams/COL.html">COL</a></td><td>@</td><td><a href="/teams/LAK.html">LAK</a></td><td>W</td><td>nan</td><td>2</td><td>36</td><td>34</td><td>94.40%</td><td>0</td><td>60.0</td></tr>
+<tr><td><a href="/boxscores/202310140SJS.html">10/14/2023</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td><a href="/teams/COL.html">COL</a></td><td>@</td><td><a href="/teams/SJS.html">SJS</a></td><td>W</td><td>SO</td><td>1</td><td>21</td><td>20</td><td>95.20%</td><td>0</td><td>64.2</td></tr>
+<tr><td><a href="/boxscores/202310170SEA.html">10/17/2023</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td><a href="/teams/COL.html">COL</a></td><td>@</td><td><a href="/teams/SEA.html">SEA</a></td><td>W</td><td>nan</td><td>1</td><td>38</td><td>37</td><td>97.40%</td><td>0</td><td>60.0</td></tr>
+<tr><td><a href="/boxscores/202310190COL.html">10/19/2023</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td><a href="/teams/COL.html">COL</a></td><td>vs</td><td><a href="/teams/CHI.html">CHI</a></td><td>W</td><td>nan</td><td>0</td><td>18</td><td>18</td><td>100.00%</td><td>0</td><td>60.0</td></tr>
+<tr><td><a href="/boxscores/202310210COL.html">10/21/2023</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td><a href="/teams/COL.html">COL</a></td><td>vs</td><td><a href="/teams/CAR.html">CAR</a></td><td>W</td><td>nan</td><td>4</td><td>27</td><td>23</td><td>85.20%</td><td>0</td><td>60.0</td></tr>
+<tr><td><a href="/boxscores/202310240NYI.html">10/24/2023</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td><a href="/teams/COL.html">COL</a></td><td>@</td><td><a href="/teams/NYI.html">NYI</a></td><td>W</td><td>nan</td><td>4</td><td>32</td><td>28</td><td>87.50%</td><td>0</td><td>59.53</td></tr>
+<tr><td><a href="/boxscores/202310260PIT.html">10/26/2023</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td><a href="/teams/COL.html">COL</a></td><td>@</td><td><a href="/teams/PIT.html">PIT</a></td><td>L</td><td>nan</td><td>4</td><td>24</td><td>20</td><td>83.30%</td><td>0</td><td>51.92</td></tr>
+<tr><td><a href="/boxscores/202310290BUF.html">10/29/2023</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td><a href="/teams/COL.html">COL</a></td><td>@</td><td><a href="/teams/BUF.html">BUF</a></td><td>L</td><td>nan</td><td>3</td><td>28</td><td>25</td><td>89.30%</td><td>0</td><td>59.22</td></tr>
+<tr><td><a href="/boxscores/202311040VEG.html">11/4/2023</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td><a href="/teams/COL.html">COL</a></td><td>@</td><td><a href="/teams/VEG.html">VEG</a></td><td>L</td><td>nan</td><td>7</td><td>34</td><td>27</td><td>79.40%</td><td>0</td><td>60.0</td></tr>
+<tr><td><a href="/boxscores/202311070COL.html">11/7/2023</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td><a href="/teams/COL.html">COL</a></td><td>vs</td><td><a href="/teams/NJD.html">NJD</a></td><td>W</td><td>nan</td><td>3</td><td>23</td><td>20</td><td>87.00%</td><td>0</td><td>60.0</td></tr>
+<tr><td><a href="/boxscores/202311110COL.html">11/11/2023</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td><a href="/teams/COL.html">COL</a></td><td>vs</td><td><a href="/teams/STL.html">STL</a></td><td>L</td><td>nan</td><td>6</td><td>28</td><td>22</td><td>78.60%</td><td>0</td><td>42.82</td></tr>
+<tr><td><a href="/boxscores/202311130SEA.html">11/13/2023</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td><a href="/teams/COL.html">COL</a></td><td>@</td><td><a href="/teams/SEA.html">SEA</a></td><td>W</td><td>nan</td><td>1</td><td>19</td><td>18</td><td>94.70%</td><td>0</td><td>59.73</td></tr>
+<tr><td><a href="/boxscores/202311150COL.html">11/15/2023</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td><a href="/teams/COL.html">COL</a></td><td>vs</td><td><a href="/teams/ANA.html">ANA</a></td><td>W</td><td>nan</td><td>2</td><td>17</td><td>15</td><td>88.20%</td><td>0</td><td>59.88</td></tr>
+<tr><td><a href="/boxscores/202311180DAL.html">11/18/2023</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td><a href="/teams/COL.html">COL</a></td><td>@</td><td><a href="/teams/DAL.html">DAL</a></td><td>W</td><td>nan</td><td>3</td><td>28</td><td>25</td><td>89.30%</td><td>0</td><td>60.0</td></tr>
+<tr><td><a href="/boxscores/202311200NSH.html">11/20/2023</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td><a href="/teams/COL.html">COL</a></td><td>@</td><td><a href="/teams/NSH.html">NSH</a></td><td>L</td><td>nan</td><td>4</td><td>30</td><td>26</td><td>86.70%</td><td>0</td><td>59.23</td></tr>
+<tr><td><a href="/boxscores/202311220COL.html">11/22/2023</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td><a href="/teams/COL.html">COL</a></td><td>vs</td><td><a href="/teams/VAN.html">VAN</a></td><td>W</td><td>nan</td><td>2</td><td>29</td><td>27</td><td>93.10%</td><td>0</td><td>60.0</td></tr>
+<tr><td><a href="/boxscores/202311240MIN.html">11/24/2023</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td><a href="/teams/COL.html">COL</a></td><td>@</td><td><a href="/teams/MIN.html">MIN</a></td><td>W</td><td>nan</td><td>2</td><td>21</td><td>19</td><td>90.50%</td><td>0</td><td>60.0</td></tr>
+<tr><td><a href="/boxscores/202311270COL.html">11/27/2023</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td><a href="/teams/COL.html">COL</a></td><td>vs</td><td><a href="/teams/TBL.html">TBL</a></td><td>W</td><td>nan</td><td>1</td><td>39</td><td>38</td><td>97.40%</td><td>0</td><td>59.92</td></tr>
+<tr><td><a href="/boxscores/202311300ARI.html">11/30/2023</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td><a href="/teams/COL.html">COL</a></td><td>@</td><td><a href="/teams/ARI.html">ARI</a></td><td>L</td><td>OT</td><td>4</td><td>32</td><td>28</td><td>87.50%</td><td>0</td><td>64.65</td></tr>
+<tr><td><a href="/boxscores/202312030LAK.html">12/3/2023</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td><a href="/teams/COL.html">COL</a></td><td>@</td><td><a href="/teams/LAK.html">LAK</a></td><td>L</td><td>nan</td><td>3</td><td>37</td><td>34</td><td>91.90%</td><td>0</td><td>58.47</td></tr>
+<tr><td><a href="/boxscores/202312050COL.html">12/5/2023</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td><a href="/teams/COL.html">COL</a></td><td>vs</td><td><a href="/teams/ANA.html">ANA</a></td><td>W</td><td>nan</td><td>2</td><td>33</td><td>31</td><td>93.90%</td><td>0</td><td>60.0</td></tr>
+<tr><td><a href="/boxscores/202312070COL.html">12/7/2023</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td><a href="/teams/COL.html">COL</a></td><td>vs</td><td><a href="/teams/WPG.html">WPG</a></td><td>L</td><td>nan</td><td>3</td><td>27</td><td>24</td><td>88.90%</td><td>0</td><td>58.93</td></tr>
+<tr><td><a href="/boxscores/202312110COL.html">12/11/2023</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td><a href="/teams/COL.html">COL</a></td><td>vs</td><td><a href="/teams/CGY.html">CGY</a></td><td>W</td><td>nan</td><td>5</td><td>21</td><td>16</td><td>76.20%</td><td>2</td><td>40.0</td></tr>
+<tr><td><a href="/boxscores/202312170COL.html">12/17/2023</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td><a href="/teams/COL.html">COL</a></td><td>vs</td><td><a href="/teams/SJS.html">SJS</a></td><td>W</td><td>nan</td><td>2</td><td>27</td><td>25</td><td>92.60%</td><td>0</td><td>60.0</td></tr>
+<tr><td><a href="/boxscores/202312190CHI.html">12/19/2023</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td><a href="/teams/COL.html">COL</a></td><td>@</td><td><a href="/teams/CHI.html">CHI</a></td><td>L</td><td>nan</td><td>3</td><td>22</td><td>19</td><td>86.40%</td><td>0</td><td>58.25</td></tr>
+<tr><td><a href="/boxscores/202312210COL.html">12/21/2023</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td><a href="/teams/COL.html">COL</a></td><td>vs</td><td><a href="/teams/OTT.html">OTT</a></td><td>W</td><td>nan</td><td>4</td><td>45</td><td>41</td><td>91.10%</td><td>0</td><td>59.37</td></tr>
+<tr><td><a href="/boxscores/202312230COL.html">12/23/2023</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td><a href="/teams/COL.html">COL</a></td><td>vs</td><td><a href="/teams/ARI.html">ARI</a></td><td>W</td><td>nan</td><td>1</td><td>25</td><td>24</td><td>96.00%</td><td>0</td><td>60.0</td></tr>
+<tr><td><a href="/boxscores/202312270ARI.html">12/27/2023</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td><a href="/teams/COL.html">COL</a></td><td>@</td><td><a href="/teams/ARI.html">ARI</a></td><td>L</td><td>OT</td><td>5</td><td>27</td><td>22</td><td>81.50%</td><td>0</td><td>64.67</td></tr>
+<tr><td><a href="/boxscores/202312290STL.html">12/29/2023</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td><a href="/teams/COL.html">COL</a></td><td>@</td><td><a href="/teams/STL.html">STL</a></td><td>W</td><td>nan</td><td>1</td><td>29</td><td>28</td><td>96.60%</td><td>0</td><td>60.0</td></tr>
+<tr><td><a href="/boxscores/202312310COL.html">12/31/2023</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td><a href="/teams/COL.html">COL</a></td><td>vs</td><td><a href="/teams/SJS.html">SJS</a></td><td>W</td><td>nan</td><td>1</td><td>11</td><td>10</td><td>90.90%</td><td>0</td><td>59.8</td></tr>
+<tr><td><a href="/boxscores/202401020COL.html">1/2/2024</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td><a href="/teams/COL.html">COL</a></td><td>vs</td><td><a href="/teams/NYI.html">NYI</a></td><td>W</td><td>OT</td><td>4</td><td>22</td><td>18</td><td>81.80%</td><td>0</td><td>60.47</td></tr>
+<tr><td><a href="/boxscores/202401040DAL.html">1/4/2024</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td><a href="/teams/COL.html">COL</a></td><td>@</td><td><a href="/teams/DAL.html">DAL</a></td><td>W</td><td>OT</td><td>4</td><td>32</td><td>28</td><td>87.50%</td><td>0</td><td>62.28</td></tr>
+<tr><td><a href="/boxscores/202401060COL.html">1/6/2024</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td><a href="/teams/COL.html">COL</a></td><td>vs</td><td><a href="/teams/FLA.html">FLA</a></td><td>L</td><td>nan</td><td>3</td><td>15</td><td>12</td><td>80.00%</td><td>0</td><td>30.92</td></tr>
+<tr><td><a href="/boxscores/202401080COL.html">1/8/2024</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td><a href="/teams/COL.html">COL</a></td><td>vs</td><td><a href="/teams/BOS.html">BOS</a></td><td>W</td><td>SO</td><td>3</td><td>26</td><td>23</td><td>88.50%</td><td>0</td><td>65.0</td></tr>
+<tr><td><a href="/boxscores/202401100COL.html">1/10/2024</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td><a href="/teams/COL.html">COL</a></td><td>vs</td><td><a href="/teams/VEG.html">VEG</a></td><td>W</td><td>nan</td><td>0</td><td>25</td><td>25</td><td>100.00%</td><td>0</td><td>60.0</td></tr>
+<tr><td><a href="/boxscores/202401130TOR.html">1/13/2024</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td><a href="/teams/COL.html">COL</a></td><td>@</td><td><a href="/teams/TOR.html">TOR</a></td><td>W</td><td>nan</td><td>3</td><td>29</td><td>26</td><td>89.70%</td><td>0</td><td>59.57</td></tr>
+<tr><td><a href="/boxscores/202401150MTL.html">1/15/2024</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td><a href="/teams/COL.html">COL</a></td><td>@</td><td><a href="/teams/MTL.html">MTL</a></td><td>L</td><td>nan</td><td>4</td><td>34</td><td>30</td><td>88.20%</td><td>0</td><td>58.13</td></tr>
+<tr><td><a href="/boxscores/202401180BOS.html">1/18/2024</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td><a href="/teams/COL.html">COL</a></td><td>@</td><td><a href="/teams/BOS.html">BOS</a></td><td>L</td><td>nan</td><td>4</td><td>30</td><td>26</td><td>86.70%</td><td>0</td><td>58.62</td></tr>
+<tr><td><a href="/boxscores/202401200PHI.html">1/20/2024</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td><a href="/teams/COL.html">COL</a></td><td>@</td><td><a href="/teams/PHI.html">PHI</a></td><td>W</td><td>nan</td><td>4</td><td>40</td><td>36</td><td>90.00%</td><td>0</td><td>60.0</td></tr>
+<tr><td><a href="/boxscores/202401240COL.html">1/24/2024</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td><a href="/teams/COL.html">COL</a></td><td>vs</td><td><a href="/teams/WSH.html">WSH</a></td><td>W</td><td>nan</td><td>2</td><td>25</td><td>23</td><td>92.00%</td><td>0</td><td>60.0</td></tr>
+<tr><td><a href="/boxscores/202401260COL.html">1/26/2024</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td><a href="/teams/COL.html">COL</a></td><td>vs</td><td><a href="/teams/LAK.html">LAK</a></td><td>W</td><td>nan</td><td>1</td><td>27</td><td>26</td><td>96.30%</td><td>0</td><td>59.5</td></tr>
+<tr><td><a href="/boxscores/202402050NYR.html">2/5/2024</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td><a href="/teams/COL.html">COL</a></td><td>@</td><td><a href="/teams/NYR.html">NYR</a></td><td>L</td><td>OT</td><td>2</td><td>29</td><td>27</td><td>93.10%</td><td>0</td><td>61.8</td></tr>
+<tr><td><a href="/boxscores/202402080CAR.html">2/8/2024</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td><a href="/teams/COL.html">COL</a></td><td>@</td><td><a href="/teams/CAR.html">CAR</a></td><td>L</td><td>nan</td><td>4</td><td>27</td><td>23</td><td>85.20%</td><td>0</td><td>57.13</td></tr>
+<tr><td><a href="/boxscores/202402100FLA.html">2/10/2024</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td><a href="/teams/COL.html">COL</a></td><td>@</td><td><a href="/teams/FLA.html">FLA</a></td><td>L</td><td>nan</td><td>4</td><td>41</td><td>37</td><td>90.20%</td><td>0</td><td>60.0</td></tr>
+<tr><td><a href="/boxscores/202402130WSH.html">2/13/2024</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td><a href="/teams/COL.html">COL</a></td><td>@</td><td><a href="/teams/WSH.html">WSH</a></td><td>W</td><td>nan</td><td>3</td><td>27</td><td>24</td><td>88.90%</td><td>0</td><td>60.0</td></tr>
+<tr><td><a href="/boxscores/202402180COL.html">2/18/2024</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td><a href="/teams/COL.html">COL</a></td><td>vs</td><td><a href="/teams/ARI.html">ARI</a></td><td>W</td><td>nan</td><td>3</td><td>30</td><td>27</td><td>90.00%</td><td>0</td><td>60.0</td></tr>
+<tr><td><a href="/boxscores/202402200COL.html">2/20/2024</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td><a href="/teams/COL.html">COL</a></td><td>vs</td><td><a href="/teams/VAN.html">VAN</a></td><td>W</td><td>nan</td><td>1</td><td>25</td><td>24</td><td>96.00%</td><td>0</td><td>59.78</td></tr>
+<tr><td><a href="/boxscores/202402240COL.html">2/24/2024</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td><a href="/teams/COL.html">COL</a></td><td>vs</td><td><a href="/teams/TOR.html">TOR</a></td><td>L</td><td>nan</td><td>4</td><td>30</td><td>26</td><td>86.70%</td><td>0</td><td>58.22</td></tr>
+<tr><td><a href="/boxscores/202402270COL.html">2/27/2024</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td><a href="/teams/COL.html">COL</a></td><td>vs</td><td><a href="/teams/DAL.html">DAL</a></td><td>W</td><td>nan</td><td>1</td><td>34</td><td>33</td><td>97.10%</td><td>0</td><td>60.0</td></tr>
+<tr><td><a href="/boxscores/202403020NSH.html">3/2/2024</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td><a href="/teams/COL.html">COL</a></td><td>@</td><td><a href="/teams/NSH.html">NSH</a></td><td>L</td><td>nan</td><td>4</td><td>34</td><td>30</td><td>88.20%</td><td>0</td><td>58.63</td></tr>
+<tr><td><a href="/boxscores/202403060COL.html">3/6/2024</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td><a href="/teams/COL.html">COL</a></td><td>vs</td><td><a href="/teams/DET.html">DET</a></td><td>W</td><td>nan</td><td>2</td><td>29</td><td>27</td><td>93.10%</td><td>0</td><td>60.0</td></tr>
+<tr><td><a href="/boxscores/202403080COL.html">3/8/2024</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td><a href="/teams/COL.html">COL</a></td><td>vs</td><td><a href="/teams/MIN.html">MIN</a></td><td>W</td><td>OT</td><td>1</td><td>30</td><td>29</td><td>96.70%</td><td>0</td><td>62.53</td></tr>
+<tr><td><a href="/boxscores/202403130VAN.html">3/13/2024</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td><a href="/teams/COL.html">COL</a></td><td>@</td><td><a href="/teams/VAN.html">VAN</a></td><td>W</td><td>OT</td><td>3</td><td>21</td><td>18</td><td>85.70%</td><td>0</td><td>59.75</td></tr>
+<tr><td><a href="/boxscores/202403160EDM.html">3/16/2024</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td><a href="/teams/COL.html">COL</a></td><td>@</td><td><a href="/teams/EDM.html">EDM</a></td><td>W</td><td>OT</td><td>2</td><td>34</td><td>32</td><td>94.10%</td><td>0</td><td>64.98</td></tr>
+<tr><td><a href="/boxscores/202403220COL.html">3/22/2024</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td><a href="/teams/COL.html">COL</a></td><td>vs</td><td><a href="/teams/CBJ.html">CBJ</a></td><td>W</td><td>nan</td><td>1</td><td>24</td><td>23</td><td>95.80%</td><td>0</td><td>60.0</td></tr>
+<tr><td><a href="/boxscores/202403240COL.html">3/24/2024</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td><a href="/teams/COL.html">COL</a></td><td>vs</td><td><a href="/teams/PIT.html">PIT</a></td><td>W</td><td>OT</td><td>4</td><td>34</td><td>30</td><td>88.20%</td><td>0</td><td>60.9</td></tr>
+<tr><td><a href="/boxscores/202403280COL.html">3/28/2024</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td><a href="/teams/COL.html">COL</a></td><td>vs</td><td><a href="/teams/NYR.html">NYR</a></td><td>L</td><td>SO</td><td>2</td><td>25</td><td>23</td><td>92.00%</td><td>0</td><td>65.0</td></tr>
+<tr><td><a href="/boxscores/202403300COL.html">3/30/2024</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td><a href="/teams/COL.html">COL</a></td><td>vs</td><td><a href="/teams/NSH.html">NSH</a></td><td>W</td><td>nan</td><td>4</td><td>13</td><td>9</td><td>69.20%</td><td>2</td><td>20.73</td></tr>
+<tr><td><a href="/boxscores/202404050EDM.html">4/5/2024</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td><a href="/teams/COL.html">COL</a></td><td>@</td><td><a href="/teams/EDM.html">EDM</a></td><td>L</td><td>nan</td><td>6</td><td>47</td><td>41</td><td>87.20%</td><td>0</td><td>60.0</td></tr>
+<tr><td><a href="/boxscores/202404070COL.html">4/7/2024</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td><a href="/teams/COL.html">COL</a></td><td>vs</td><td><a href="/teams/DAL.html">DAL</a></td><td>L</td><td>nan</td><td>6</td><td>36</td><td>30</td><td>83.30%</td><td>0</td><td>56.75</td></tr>
+<tr><td><a href="/boxscores/202404090COL.html">4/9/2024</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td><a href="/teams/COL.html">COL</a></td><td>vs</td><td><a href="/teams/MIN.html">MIN</a></td><td>W</td><td>nan</td><td>2</td><td>22</td><td>20</td><td>90.90%</td><td>0</td><td>60.0</td></tr>
+<tr><td><a href="/boxscores/202404130COL.html">4/13/2024</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td><a href="/teams/COL.html">COL</a></td><td>vs</td><td><a href="/teams/WPG.html">WPG</a></td><td>L</td><td>nan</td><td>4</td><td>15</td><td>11</td><td>73.30%</td><td>0</td><td>15.28</td></tr>
+<tr><td><a href="/boxscores/202404140VEG.html">4/14/2024</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td><a href="/teams/COL.html">COL</a></td><td>@</td><td><a href="/teams/VEG.html">VEG</a></td><td>L</td><td>OT</td><td>4</td><td>30</td><td>26</td><td>86.70%</td><td>0</td><td>61.38</td></tr>
+</table>
+</div>
+<table id="scoring">
+<tr><th>Date</th><th>Team</th><th>Location</th><th>Opp</th><th>Result</th><th>Scorer</th><th>Assist1</th><th>Assist2</th><th>Goalie</th><th>Time</th></tr>
+<tr><td><a href="/boxscores/202311150COL.html">11/15/2023</a></td><td><a href="/teams/COL.html">COL</a></td><td>vs</td><td><a href="/teams/ANA.html">ANA</a></td><td>W</td><td><a href="/players/kivirjo01.html">Joel Kiviranta</a></td><td><a href="/players/girarsa01.html">Samuel Girard</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td><a href="/players/dostalu01.html">Lukáš Dostál</a></td><td>53.22</td></tr>
+<tr><td><a href="/boxscores/202310110LAK.html">10/11/2023</a></td><td><a href="/teams/LAK.html">LAK</a></td><td>vs</td><td><a href="/teams/COL.html">COL</a></td><td>L</td><td><a href="/players/grundca01.html">Carl Grundström</a></td><td><a href="/players/danauph01.html">Phillip Danault</a></td><td><a href="/players/--.html">--</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td>26.3</td></tr>
+<tr><td><a href="/boxscores/202310110LAK.html">10/11/2023</a></td><td><a href="/teams/LAK.html">LAK</a></td><td>vs</td><td><a href="/teams/COL.html">COL</a></td><td>L</td><td><a href="/players/byfiequ01.html">Quinton Byfield</a></td><td><a href="/players/kopitan01.html">Anže Kopitar</a></td><td><a href="/players/--.html">--</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td>39.92</td></tr>
+<tr><td><a href="/boxscores/202310140SJS.html">10/14/2023</a></td><td><a href="/teams/SJS.html">SJS</a></td><td>vs</td><td><a href="/teams/COL.html">COL</a></td><td>L</td><td><a href="/players/bordeth01.html">Thomas Bordeleau</a></td><td><a href="/players/bennima01.html">Matt Benning</a></td><td><a href="/players/hoffmmi02.html">Mike Hoffman</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td>8.7</td></tr>
+<tr><td><a href="/boxscores/202310170SEA.html">10/17/2023</a></td><td><a href="/teams/SEA.html">SEA</a></td><td>vs</td><td><a href="/teams/COL.html">COL</a></td><td>L</td><td><a href="/players/yamamka01.html">Kailer Yamamoto</a></td><td><a href="/players/dunnvi02.html">Vince Dunn</a></td><td><a href="/players/--.html">--</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td>15.15</td></tr>
+<tr><td><a href="/boxscores/202310210COL.html">10/21/2023</a></td><td><a href="/teams/CAR.html">CAR</a></td><td>@</td><td><a href="/teams/COL.html">COL</a></td><td>L</td><td><a href="/players/kotkaje01.html">Jesperi Kotkaniemi</a></td><td><a href="/players/noesest01.html">Stefan Noesen</a></td><td><a href="/players/druryja01.html">Jack Drury</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td>16.15</td></tr>
+<tr><td><a href="/boxscores/202310210COL.html">10/21/2023</a></td><td><a href="/teams/CAR.html">CAR</a></td><td>@</td><td><a href="/teams/COL.html">COL</a></td><td>L</td><td><a href="/players/burnsbr01.html">Brent Burns</a></td><td><a href="/players/orlovdm01.html">Dmitry Orlov</a></td><td><a href="/players/noesest01.html">Stefan Noesen</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td>29.28</td></tr>
+<tr><td><a href="/boxscores/202310210COL.html">10/21/2023</a></td><td><a href="/teams/CAR.html">CAR</a></td><td>@</td><td><a href="/teams/COL.html">COL</a></td><td>L</td><td><a href="/players/buntimi01.html">Michael Bunting</a></td><td><a href="/players/necasma01.html">Martin Nečas</a></td><td><a href="/players/slavija01.html">Jaccob Slavin</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td>30.7</td></tr>
+<tr><td><a href="/boxscores/202310210COL.html">10/21/2023</a></td><td><a href="/teams/CAR.html">CAR</a></td><td>@</td><td><a href="/teams/COL.html">COL</a></td><td>L</td><td><a href="/players/slavija01.html">Jaccob Slavin</a></td><td><a href="/players/kotkaje01.html">Jesperi Kotkaniemi</a></td><td><a href="/players/jarvise01.html">Seth Jarvis</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td>52.43</td></tr>
+<tr><td><a href="/boxscores/202310240NYI.html">10/24/2023</a></td><td><a href="/teams/NYI.html">NYI</a></td><td>vs</td><td><a href="/teams/COL.html">COL</a></td><td>L</td><td><a href="/players/cluttca01.html">Cal Clutterbuck</a></td><td><a href="/players/dobsono01.html">Noah Dobson</a></td><td><a href="/players/pageaje01.html">Jean-Gabriel Pageau</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td>10.05</td></tr>
+<tr><td><a href="/boxscores/202310240NYI.html">10/24/2023</a></td><td><a href="/teams/NYI.html">NYI</a></td><td>vs</td><td><a href="/teams/COL.html">COL</a></td><td>L</td><td><a href="/players/palmiky01.html">Kyle Palmieri</a></td><td><a href="/players/barzama01.html">Mathew Barzal</a></td><td><a href="/players/dobsono01.html">Noah Dobson</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td>22.93</td></tr>
+<tr><td><a href="/boxscores/202310240NYI.html">10/24/2023</a></td><td><a href="/teams/NYI.html">NYI</a></td><td>vs</td><td><a href="/teams/COL.html">COL</a></td><td>L</td><td><a href="/players/holmssi01.html">Simon Holmström</a></td><td><a href="/players/cluttca01.html">Cal Clutterbuck</a></td><td><a href="/players/pageaje01.html">Jean-Gabriel Pageau</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td>25.92</td></tr>
+<tr><td><a href="/boxscores/202310240NYI.html">10/24/2023</a></td><td><a href="/teams/NYI.html">NYI</a></td><td>vs</td><td><a href="/teams/COL.html">COL</a></td><td>L</td><td><a href="/players/leean01.html">Anders Lee</a></td><td><a href="/players/nan.html">-</a></td><td><a href="/players/--.html">--</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td>44.67</td></tr>
+<tr><td><a href="/boxscores/202310260PIT.html">10/26/2023</a></td><td><a href="/teams/PIT.html">PIT</a></td><td>vs</td><td><a href="/teams/COL.html">COL</a></td><td>W</td><td><a href="/players/smithre01.html">Reilly Smith</a></td><td><a href="/players/nan.html">-</a></td><td><a href="/players/--.html">--</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td>4.67</td></tr>
+<tr><td><a href="/boxscores/202310260PIT.html">10/26/2023</a></td><td><a href="/teams/PIT.html">PIT</a></td><td>vs</td><td><a href="/teams/COL.html">COL</a></td><td>W</td><td><a href="/players/smithre01.html">Reilly Smith</a></td><td><a href="/players/malkiev01.html">Evgeni Malkin</a></td><td><a href="/players/rustbr01.html">Bryan Rust</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td>16.85</td></tr>
+<tr><td><a href="/boxscores/202310260PIT.html">10/26/2023</a></td><td><a href="/teams/PIT.html">PIT</a></td><td>vs</td><td><a href="/teams/COL.html">COL</a></td><td>W</td><td><a href="/players/ellerla01.html">Lars Eller</a></td><td><a href="/players/zohorra01.html">Radim Zohorna</a></td><td><a href="/players/--.html">--</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td>26.0</td></tr>
+<tr><td><a href="/boxscores/202310260PIT.html">10/26/2023</a></td><td><a href="/teams/PIT.html">PIT</a></td><td>vs</td><td><a href="/teams/COL.html">COL</a></td><td>W</td><td><a href="/players/crosbsi01.html">Sidney Crosby</a></td><td><a href="/players/guentja01.html">Jake Guentzel</a></td><td><a href="/players/--.html">--</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td>50.58</td></tr>
+<tr><td><a href="/boxscores/202310290BUF.html">10/29/2023</a></td><td><a href="/teams/BUF.html">BUF</a></td><td>vs</td><td><a href="/teams/COL.html">COL</a></td><td>W</td><td><a href="/players/peterjo01.html">John-Jason Peterka</a></td><td><a href="/players/skinnje01.html">Jeff Skinner</a></td><td><a href="/players/--.html">--</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td>10.53</td></tr>
+<tr><td><a href="/boxscores/202310290BUF.html">10/29/2023</a></td><td><a href="/teams/BUF.html">BUF</a></td><td>vs</td><td><a href="/teams/COL.html">COL</a></td><td>W</td><td><a href="/players/mitteca01.html">Casey Mittelstadt</a></td><td><a href="/players/skinnje01.html">Jeff Skinner</a></td><td><a href="/players/jokihhe01.html">Henri Jokiharju</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td>21.65</td></tr>
+<tr><td><a href="/boxscores/202310290BUF.html">10/29/2023</a></td><td><a href="/teams/BUF.html">BUF</a></td><td>vs</td><td><a href="/teams/COL.html">COL</a></td><td>W</td><td><a href="/players/jostty01.html">Tyson Jost</a></td><td><a href="/players/tuchal01.html">Alex Tuch</a></td><td><a href="/players/powerow01.html">Owen Power</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td>28.27</td></tr>
+<tr><td><a href="/boxscores/202311040VEG.html">11/4/2023</a></td><td><a href="/teams/VEG.html">VEG</a></td><td>vs</td><td><a href="/teams/COL.html">COL</a></td><td>W</td><td><a href="/players/stonema01.html">Mark Stone</a></td><td><a href="/players/mcnabbr01.html">Brayden McNabb</a></td><td><a href="/players/stephch02.html">Chandler Stephenson</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td>16.83</td></tr>
+<tr><td><a href="/boxscores/202311040VEG.html">11/4/2023</a></td><td><a href="/teams/VEG.html">VEG</a></td><td>vs</td><td><a href="/teams/COL.html">COL</a></td><td>W</td><td><a href="/players/eicheja01.html">Jack Eichel</a></td><td><a href="/players/audymjo01.html">Jonathan Marchessault</a></td><td><a href="/players/pietral01.html">Alex Pietrangelo</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td>29.58</td></tr>
+<tr><td><a href="/boxscores/202311040VEG.html">11/4/2023</a></td><td><a href="/teams/VEG.html">VEG</a></td><td>vs</td><td><a href="/teams/COL.html">COL</a></td><td>W</td><td><a href="/players/carriwi01.html">William Carrier</a></td><td><a href="/players/stonema01.html">Mark Stone</a></td><td><a href="/players/stephch02.html">Chandler Stephenson</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td>32.95</td></tr>
+<tr><td><a href="/boxscores/202311040VEG.html">11/4/2023</a></td><td><a href="/teams/VEG.html">VEG</a></td><td>vs</td><td><a href="/teams/COL.html">COL</a></td><td>W</td><td><a href="/players/eicheja01.html">Jack Eichel</a></td><td><a href="/players/stonema01.html">Mark Stone</a></td><td><a href="/players/theodsh01.html">Shea Theodore</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td>33.82</td></tr>
+<tr><td><a href="/boxscores/202311040VEG.html">11/4/2023</a></td><td><a href="/teams/VEG.html">VEG</a></td><td>vs</td><td><a href="/teams/COL.html">COL</a></td><td>W</td><td><a href="/players/stonema01.html">Mark Stone</a></td><td><a href="/players/nan.html">-</a></td><td><a href="/players/--.html">--</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td>43.37</td></tr>
+<tr><td><a href="/boxscores/202311040VEG.html">11/4/2023</a></td><td><a href="/teams/VEG.html">VEG</a></td><td>vs</td><td><a href="/teams/COL.html">COL</a></td><td>W</td><td><a href="/players/karlswi01.html">William Karlsson</a></td><td><a href="/players/dorofpa01.html">Pavel Dorofeyev</a></td><td><a href="/players/--.html">--</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td>49.22</td></tr>
+<tr><td><a href="/boxscores/202311040VEG.html">11/4/2023</a></td><td><a href="/teams/VEG.html">VEG</a></td><td>vs</td><td><a href="/teams/COL.html">COL</a></td><td>W</td><td><a href="/players/karlswi01.html">William Karlsson</a></td><td><a href="/players/dorofpa01.html">Pavel Dorofeyev</a></td><td><a href="/players/amadimi01.html">Michael Amadio</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td>54.72</td></tr>
+<tr><td><a href="/boxscores/202311070COL.html">11/7/2023</a></td><td><a href="/teams/NJD.html">NJD</a></td><td>@</td><td><a href="/teams/COL.html">COL</a></td><td>L</td><td><a href="/players/toffoty01.html">Tyler Toffoli</a></td><td><a href="/players/marinjo01.html">John Marino</a></td><td><a href="/players/mcleomi01.html">Michael McLeod</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td>3.72</td></tr>
+<tr><td><a href="/boxscores/202311070COL.html">11/7/2023</a></td><td><a href="/teams/NJD.html">NJD</a></td><td>@</td><td><a href="/teams/COL.html">COL</a></td><td>L</td><td><a href="/players/meierti01.html">Timo Meier</a></td><td><a href="/players/brattje01.html">Jesper Bratt</a></td><td><a href="/players/hamildo01.html">Dougie Hamilton</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td>31.07</td></tr>
+<tr><td><a href="/boxscores/202311070COL.html">11/7/2023</a></td><td><a href="/teams/NJD.html">NJD</a></td><td>@</td><td><a href="/teams/COL.html">COL</a></td><td>L</td><td><a href="/players/hamildo01.html">Dougie Hamilton</a></td><td><a href="/players/toffoty01.html">Tyler Toffoli</a></td><td><a href="/players/palaton01.html">Ondřej Palát</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td>35.07</td></tr>
+<tr><td><a href="/boxscores/202311110COL.html">11/11/2023</a></td><td><a href="/teams/STL.html">STL</a></td><td>@</td><td><a href="/teams/COL.html">COL</a></td><td>W</td><td><a href="/players/schenbr01.html">Brayden Schenn</a></td><td><a href="/players/krugto01.html">Torey Krug</a></td><td><a href="/players/faulkju01.html">Justin Faulk</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td>1.13</td></tr>
+<tr><td><a href="/boxscores/202311110COL.html">11/11/2023</a></td><td><a href="/teams/STL.html">STL</a></td><td>@</td><td><a href="/teams/COL.html">COL</a></td><td>W</td><td><a href="/players/schenbr01.html">Brayden Schenn</a></td><td><a href="/players/saadbr01.html">Brandon Saad</a></td><td><a href="/players/--.html">--</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td>18.88</td></tr>
+<tr><td><a href="/boxscores/202311110COL.html">11/11/2023</a></td><td><a href="/teams/STL.html">STL</a></td><td>@</td><td><a href="/teams/COL.html">COL</a></td><td>W</td><td><a href="/players/krugto01.html">Torey Krug</a></td><td><a href="/players/thomaro01.html">Robert Thomas</a></td><td><a href="/players/faulkju01.html">Justin Faulk</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td>19.97</td></tr>
+<tr><td><a href="/boxscores/202311110COL.html">11/11/2023</a></td><td><a href="/teams/STL.html">STL</a></td><td>@</td><td><a href="/teams/COL.html">COL</a></td><td>W</td><td><a href="/players/buchnpa01.html">Pavel Buchnevich</a></td><td><a href="/players/sundqos01.html">Oskar Sundqvist</a></td><td><a href="/players/parayco01.html">Colton Parayko</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td>31.87</td></tr>
+<tr><td><a href="/boxscores/202311110COL.html">11/11/2023</a></td><td><a href="/teams/STL.html">STL</a></td><td>@</td><td><a href="/teams/COL.html">COL</a></td><td>W</td><td><a href="/players/buchnpa01.html">Pavel Buchnevich</a></td><td><a href="/players/thomaro01.html">Robert Thomas</a></td><td><a href="/players/schenbr01.html">Brayden Schenn</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td>41.33</td></tr>
+<tr><td><a href="/boxscores/202311110COL.html">11/11/2023</a></td><td><a href="/teams/STL.html">STL</a></td><td>@</td><td><a href="/teams/COL.html">COL</a></td><td>W</td><td><a href="/players/schenbr01.html">Brayden Schenn</a></td><td><a href="/players/thomaro01.html">Robert Thomas</a></td><td><a href="/players/kyroujo01.html">Jordan Kyrou</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td>42.82</td></tr>
+<tr><td><a href="/boxscores/202311130SEA.html">11/13/2023</a></td><td><a href="/teams/SEA.html">SEA</a></td><td>vs</td><td><a href="/teams/COL.html">COL</a></td><td>L</td><td><a href="/players/tanevbr01.html">Brandon Tanev</a></td><td><a href="/players/dunnvi02.html">Vince Dunn</a></td><td><a href="/players/wennbal01.html">Alexander Wennberg</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td>6.22</td></tr>
+<tr><td><a href="/boxscores/202311150COL.html">11/15/2023</a></td><td><a href="/teams/ANA.html">ANA</a></td><td>@</td><td><a href="/teams/COL.html">COL</a></td><td>L</td><td><a href="/players/carrisa01.html">Sam Carrick</a></td><td><a href="/players/gudasra01.html">Radko Gudas</a></td><td><a href="/players/mcginbr01.html">Brock McGinn</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td>19.45</td></tr>
+<tr><td><a href="/boxscores/202311150COL.html">11/15/2023</a></td><td><a href="/teams/ANA.html">ANA</a></td><td>@</td><td><a href="/teams/COL.html">COL</a></td><td>L</td><td><a href="/players/jonesma03.html">Max Jones</a></td><td><a href="/players/henriad01.html">Adam Henrique</a></td><td><a href="/players/silfvja01.html">Jakob Silfverberg</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td>49.68</td></tr>
+<tr><td><a href="/boxscores/202311180DAL.html">11/18/2023</a></td><td><a href="/teams/DAL.html">DAL</a></td><td>vs</td><td><a href="/teams/COL.html">COL</a></td><td>L</td><td><a href="/players/seguity01.html">Tyler Seguin</a></td><td><a href="/players/marchma01.html">Mason Marchment</a></td><td><a href="/players/duchema01.html">Matt Duchene</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td>10.55</td></tr>
+<tr><td><a href="/boxscores/202311180DAL.html">11/18/2023</a></td><td><a href="/teams/DAL.html">DAL</a></td><td>vs</td><td><a href="/teams/COL.html">COL</a></td><td>L</td><td><a href="/players/paveljo01.html">Joe Pavelski</a></td><td><a href="/players/bennja01.html">Jamie Benn</a></td><td><a href="/players/roberja01.html">Jason Robertson</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td>14.35</td></tr>
+<tr><td><a href="/boxscores/202311180DAL.html">11/18/2023</a></td><td><a href="/teams/DAL.html">DAL</a></td><td>vs</td><td><a href="/teams/COL.html">COL</a></td><td>L</td><td><a href="/players/seguity01.html">Tyler Seguin</a></td><td><a href="/players/marchma01.html">Mason Marchment</a></td><td><a href="/players/lindees01.html">Esa Lindell</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td>22.2</td></tr>
+<tr><td><a href="/boxscores/202311200NSH.html">11/20/2023</a></td><td><a href="/teams/NSH.html">NSH</a></td><td>vs</td><td><a href="/teams/COL.html">COL</a></td><td>W</td><td><a href="/players/forsbfi01.html">Filip Forsberg</a></td><td><a href="/players/glassco01.html">Cody Glass</a></td><td><a href="/players/tomasph01.html">Philip Tomasino</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td>19.7</td></tr>
+<tr><td><a href="/boxscores/202311200NSH.html">11/20/2023</a></td><td><a href="/teams/NSH.html">NSH</a></td><td>vs</td><td><a href="/teams/COL.html">COL</a></td><td>W</td><td><a href="/players/lauzoje01.html">Jeremy Lauzon</a></td><td><a href="/players/nyquigu01.html">Gustav Nyquist</a></td><td><a href="/players/oreilry01.html">Ryan O'Reilly</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td>23.93</td></tr>
+<tr><td><a href="/boxscores/202311200NSH.html">11/20/2023</a></td><td><a href="/teams/NSH.html">NSH</a></td><td>vs</td><td><a href="/teams/COL.html">COL</a></td><td>W</td><td><a href="/players/forsbfi01.html">Filip Forsberg</a></td><td><a href="/players/nyquigu01.html">Gustav Nyquist</a></td><td><a href="/players/sissoco01.html">Colton Sissons</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td>59.37</td></tr>
+<tr><td><a href="/boxscores/202311200NSH.html">11/20/2023</a></td><td><a href="/teams/NSH.html">NSH</a></td><td>vs</td><td><a href="/teams/COL.html">COL</a></td><td>W</td><td><a href="/players/treniya01.html">Yakov Trenin</a></td><td><a href="/players/smithco02.html">Cole Smith</a></td><td><a href="/players/--.html">--</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td>59.63</td></tr>
+<tr><td><a href="/boxscores/202311220COL.html">11/22/2023</a></td><td><a href="/teams/VAN.html">VAN</a></td><td>@</td><td><a href="/teams/COL.html">COL</a></td><td>L</td><td><a href="/players/hoglani01.html">Nils Höglander</a></td><td><a href="/players/beauvan01.html">Anthony Beauvillier</a></td><td><a href="/players/laffesa01.html">Sam Lafferty</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td>16.38</td></tr>
+<tr><td><a href="/boxscores/202311220COL.html">11/22/2023</a></td><td><a href="/teams/VAN.html">VAN</a></td><td>@</td><td><a href="/teams/COL.html">COL</a></td><td>L</td><td><a href="/players/millejt01.html">J.T. Miller</a></td><td><a href="/players/hughequ01.html">Quinn Hughes</a></td><td><a href="/players/hronefi01.html">Filip Hronek</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td>29.07</td></tr>
+<tr><td><a href="/boxscores/202311240MIN.html">11/24/2023</a></td><td><a href="/teams/MIN.html">MIN</a></td><td>vs</td><td><a href="/teams/COL.html">COL</a></td><td>L</td><td><a href="/players/kapriki01.html">Kirill Kaprizov</a></td><td><a href="/players/rossima01.html">Marco Rossi</a></td><td><a href="/players/--.html">--</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td>29.22</td></tr>
+<tr><td><a href="/boxscores/202311240MIN.html">11/24/2023</a></td><td><a href="/teams/MIN.html">MIN</a></td><td>vs</td><td><a href="/teams/COL.html">COL</a></td><td>L</td><td><a href="/players/eriksjo02.html">Joel Eriksson Ek</a></td><td><a href="/players/zuccama01.html">Mats Zuccarello</a></td><td><a href="/players/kapriki01.html">Kirill Kaprizov</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td>34.35</td></tr>
+<tr><td><a href="/boxscores/202311270COL.html">11/27/2023</a></td><td><a href="/teams/TBL.html">TBL</a></td><td>@</td><td><a href="/teams/COL.html">COL</a></td><td>L</td><td><a href="/players/cirelan01.html">Anthony Cirelli</a></td><td><a href="/players/hedmavi01.html">Victor Hedman</a></td><td><a href="/players/kucheni01.html">Nikita Kucherov</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td>39.48</td></tr>
+<tr><td><a href="/boxscores/202311300ARI.html">11/30/2023</a></td><td><a href="/teams/ARI.html">ARI</a></td><td>vs</td><td><a href="/teams/COL.html">COL</a></td><td>W</td><td><a href="/players/boydtr01.html">Travis Boyd</a></td><td><a href="/players/obrieli01.html">Liam O'Brien</a></td><td><a href="/players/moserja01.html">J.J. Moser</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td>23.05</td></tr>
+<tr><td><a href="/boxscores/202311300ARI.html">11/30/2023</a></td><td><a href="/teams/ARI.html">ARI</a></td><td>vs</td><td><a href="/teams/COL.html">COL</a></td><td>W</td><td><a href="/players/schmani01.html">Nick Schmaltz</a></td><td><a href="/players/kerfoal01.html">Alexander Kerfoot</a></td><td><a href="/players/kellecl01.html">Clayton Keller</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td>36.37</td></tr>
+<tr><td><a href="/boxscores/202311300ARI.html">11/30/2023</a></td><td><a href="/teams/ARI.html">ARI</a></td><td>vs</td><td><a href="/teams/COL.html">COL</a></td><td>W</td><td><a href="/players/carcomi01.html">Michael Carcone</a></td><td><a href="/players/stechtr01.html">Troy Stecher</a></td><td><a href="/players/kessemi01.html">Michael Kesselring</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td>41.13</td></tr>
+<tr><td><a href="/boxscores/202311300ARI.html">11/30/2023</a></td><td><a href="/teams/ARI.html">ARI</a></td><td>vs</td><td><a href="/teams/COL.html">COL</a></td><td>W</td><td><a href="/players/bjugsni01.html">Nick Bjugstad</a></td><td><a href="/players/nan.html">-</a></td><td><a href="/players/--.html">--</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td>64.65</td></tr>
+<tr><td><a href="/boxscores/202312030LAK.html">12/3/2023</a></td><td><a href="/teams/LAK.html">LAK</a></td><td>vs</td><td><a href="/teams/COL.html">COL</a></td><td>W</td><td><a href="/players/byfiequ01.html">Quinton Byfield</a></td><td><a href="/players/andermi02.html">Michael Anderson</a></td><td><a href="/players/kempead01.html">Adrian Kempe</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td>29.05</td></tr>
+<tr><td><a href="/boxscores/202312030LAK.html">12/3/2023</a></td><td><a href="/teams/LAK.html">LAK</a></td><td>vs</td><td><a href="/teams/COL.html">COL</a></td><td>W</td><td><a href="/players/byfiequ01.html">Quinton Byfield</a></td><td><a href="/players/kempead01.html">Adrian Kempe</a></td><td><a href="/players/kopitan01.html">Anže Kopitar</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td>53.43</td></tr>
+<tr><td><a href="/boxscores/202312030LAK.html">12/3/2023</a></td><td><a href="/teams/LAK.html">LAK</a></td><td>vs</td><td><a href="/teams/COL.html">COL</a></td><td>W</td><td><a href="/players/mooretr01.html">Trevor Moore</a></td><td><a href="/players/grundca01.html">Carl Grundström</a></td><td><a href="/players/--.html">--</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td>54.37</td></tr>
+<tr><td><a href="/boxscores/202312050COL.html">12/5/2023</a></td><td><a href="/teams/ANA.html">ANA</a></td><td>@</td><td><a href="/teams/COL.html">COL</a></td><td>L</td><td><a href="/players/carrisa01.html">Sam Carrick</a></td><td><a href="/players/nan.html">-</a></td><td><a href="/players/--.html">--</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td>50.72</td></tr>
+<tr><td><a href="/boxscores/202312050COL.html">12/5/2023</a></td><td><a href="/teams/ANA.html">ANA</a></td><td>@</td><td><a href="/teams/COL.html">COL</a></td><td>L</td><td><a href="/players/carlsle01.html">Leo Carlsson</a></td><td><a href="/players/terrytr01.html">Troy Terry</a></td><td><a href="/players/fowleca01.html">Cam Fowler</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td>54.18</td></tr>
+<tr><td><a href="/boxscores/202312070COL.html">12/7/2023</a></td><td><a href="/teams/WPG.html">WPG</a></td><td>@</td><td><a href="/teams/COL.html">COL</a></td><td>W</td><td><a href="/players/lowryad01.html">Adam Lowry</a></td><td><a href="/players/jonssax01.html">Axel Jonsson-Fjällby</a></td><td><a href="/players/--.html">--</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td>19.95</td></tr>
+<tr><td><a href="/boxscores/202312070COL.html">12/7/2023</a></td><td><a href="/teams/WPG.html">WPG</a></td><td>@</td><td><a href="/teams/COL.html">COL</a></td><td>W</td><td><a href="/players/connoky01.html">Kyle Connor</a></td><td><a href="/players/ehlerni01.html">Nikolaj Ehlers</a></td><td><a href="/players/morrijo04.html">Josh Morrissey</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td>20.53</td></tr>
+<tr><td><a href="/boxscores/202312070COL.html">12/7/2023</a></td><td><a href="/teams/WPG.html">WPG</a></td><td>@</td><td><a href="/teams/COL.html">COL</a></td><td>W</td><td><a href="/players/morrijo04.html">Josh Morrissey</a></td><td><a href="/players/sambedy01.html">Dylan Samberg</a></td><td><a href="/players/niedeni01.html">Nino Niederreiter</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td>35.22</td></tr>
+<tr><td><a href="/boxscores/202312110COL.html">12/11/2023</a></td><td><a href="/teams/CGY.html">CGY</a></td><td>@</td><td><a href="/teams/COL.html">COL</a></td><td>L</td><td><a href="/players/kadrina01.html">Nazem Kadri</a></td><td><a href="/players/colembl01.html">Blake Coleman</a></td><td><a href="/players/--.html">--</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td>13.77</td></tr>
+<tr><td><a href="/boxscores/202312110COL.html">12/11/2023</a></td><td><a href="/teams/CGY.html">CGY</a></td><td>@</td><td><a href="/teams/COL.html">COL</a></td><td>L</td><td><a href="/players/mangian01.html">Andrew Mangiapane</a></td><td><a href="/players/kadrina01.html">Nazem Kadri</a></td><td><a href="/players/gilbede01.html">Dennis Gilbert</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td>25.23</td></tr>
+<tr><td><a href="/boxscores/202312110COL.html">12/11/2023</a></td><td><a href="/teams/CGY.html">CGY</a></td><td>@</td><td><a href="/teams/COL.html">COL</a></td><td>L</td><td><a href="/players/colembl01.html">Blake Coleman</a></td><td><a href="/players/backlmi01.html">Mikael Backlund</a></td><td><a href="/players/gilbede01.html">Dennis Gilbert</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td>33.35</td></tr>
+<tr><td><a href="/boxscores/202312110COL.html">12/11/2023</a></td><td><a href="/teams/CGY.html">CGY</a></td><td>@</td><td><a href="/teams/COL.html">COL</a></td><td>L</td><td><a href="/players/zaryco01.html">Connor Zary</a></td><td><a href="/players/weegama01.html">MacKenzie Weegar</a></td><td><a href="/players/--.html">--</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td>36.32</td></tr>
+<tr><td><a href="/boxscores/202312110COL.html">12/11/2023</a></td><td><a href="/teams/CGY.html">CGY</a></td><td>@</td><td><a href="/teams/COL.html">COL</a></td><td>L</td><td><a href="/players/sharaye01.html">Yegor Sharangovich</a></td><td><a href="/players/hanifno01.html">Noah Hanifin</a></td><td><a href="/players/anderra01.html">Rasmus Andersson</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td>38.57</td></tr>
+<tr><td><a href="/boxscores/202312170COL.html">12/17/2023</a></td><td><a href="/teams/SJS.html">SJS</a></td><td>@</td><td><a href="/teams/COL.html">COL</a></td><td>L</td><td><a href="/players/hertlto01.html">Tomáš Hertl</a></td><td><a href="/players/granlmi01.html">Mikael Granlund</a></td><td><a href="/players/barabal01.html">Alexander Barabanov</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td>29.02</td></tr>
+<tr><td><a href="/boxscores/202312170COL.html">12/17/2023</a></td><td><a href="/teams/SJS.html">SJS</a></td><td>@</td><td><a href="/teams/COL.html">COL</a></td><td>L</td><td><a href="/players/hertlto01.html">Tomáš Hertl</a></td><td><a href="/players/eklunwi01.html">William Eklund</a></td><td><a href="/players/granlmi01.html">Mikael Granlund</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td>50.75</td></tr>
+<tr><td><a href="/boxscores/202312190CHI.html">12/19/2023</a></td><td><a href="/teams/CHI.html">CHI</a></td><td>vs</td><td><a href="/teams/COL.html">COL</a></td><td>W</td><td><a href="/players/donatry01.html">Ryan Donato</a></td><td><a href="/players/zaitsni01.html">Nikita Zaitsev</a></td><td><a href="/players/bedarco01.html">Connor Bedard</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td>7.48</td></tr>
+<tr><td><a href="/boxscores/202312190CHI.html">12/19/2023</a></td><td><a href="/teams/CHI.html">CHI</a></td><td>vs</td><td><a href="/teams/COL.html">COL</a></td><td>W</td><td><a href="/players/reichlu01.html">Lukas Reichel</a></td><td><a href="/players/bedarco01.html">Connor Bedard</a></td><td><a href="/players/donatry01.html">Ryan Donato</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td>12.93</td></tr>
+<tr><td><a href="/boxscores/202312190CHI.html">12/19/2023</a></td><td><a href="/teams/CHI.html">CHI</a></td><td>vs</td><td><a href="/teams/COL.html">COL</a></td><td>W</td><td><a href="/players/johnsty01.html">Tyler Johnson</a></td><td><a href="/players/foligni01.html">Nick Foligno</a></td><td><a href="/players/zaitsni01.html">Nikita Zaitsev</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td>48.32</td></tr>
+<tr><td><a href="/boxscores/202312210COL.html">12/21/2023</a></td><td><a href="/teams/OTT.html">OTT</a></td><td>@</td><td><a href="/teams/COL.html">COL</a></td><td>L</td><td><a href="/players/norrijo01.html">Joshua Norris</a></td><td><a href="/players/bathedr01.html">Drake Batherson</a></td><td><a href="/players/stuetti02.html">Tim Stützle</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td>15.22</td></tr>
+<tr><td><a href="/boxscores/202312210COL.html">12/21/2023</a></td><td><a href="/teams/OTT.html">OTT</a></td><td>@</td><td><a href="/teams/COL.html">COL</a></td><td>L</td><td><a href="/players/greigri01.html">Ridly Greig</a></td><td><a href="/players/kubaldo01.html">Dominik Kubalík</a></td><td><a href="/players/chychja01.html">Jakob Chychrun</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td>15.47</td></tr>
+<tr><td><a href="/boxscores/202312210COL.html">12/21/2023</a></td><td><a href="/teams/OTT.html">OTT</a></td><td>@</td><td><a href="/teams/COL.html">COL</a></td><td>L</td><td><a href="/players/bernaja01.html">Jacob Bernard-Docker</a></td><td><a href="/players/smejkji01.html">Jiri Smejkal</a></td><td><a href="/players/kastema01.html">Mark Kastelic</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td>21.53</td></tr>
+<tr><td><a href="/boxscores/202312210COL.html">12/21/2023</a></td><td><a href="/teams/OTT.html">OTT</a></td><td>@</td><td><a href="/teams/COL.html">COL</a></td><td>L</td><td><a href="/players/bathedr01.html">Drake Batherson</a></td><td><a href="/players/tarasvl01.html">Vladimir Tarasenko</a></td><td><a href="/players/zubar01.html">Artem Zub</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td>34.78</td></tr>
+<tr><td><a href="/boxscores/202312230COL.html">12/23/2023</a></td><td><a href="/teams/ARI.html">ARI</a></td><td>@</td><td><a href="/teams/COL.html">COL</a></td><td>L</td><td><a href="/players/kerfoal01.html">Alexander Kerfoot</a></td><td><a href="/players/carcomi01.html">Michael Carcone</a></td><td><a href="/players/durzise01.html">Sean Durzi</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td>56.93</td></tr>
+<tr><td><a href="/boxscores/202312270ARI.html">12/27/2023</a></td><td><a href="/teams/ARI.html">ARI</a></td><td>vs</td><td><a href="/teams/COL.html">COL</a></td><td>W</td><td><a href="/players/crousla01.html">Lawson Crouse</a></td><td><a href="/players/bjugsni01.html">Nick Bjugstad</a></td><td><a href="/players/maccema01.html">Matias Maccelli</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td>36.52</td></tr>
+<tr><td><a href="/boxscores/202312270ARI.html">12/27/2023</a></td><td><a href="/teams/ARI.html">ARI</a></td><td>vs</td><td><a href="/teams/COL.html">COL</a></td><td>W</td><td><a href="/players/kessemi01.html">Michael Kesselring</a></td><td><a href="/players/durzise01.html">Sean Durzi</a></td><td><a href="/players/--.html">--</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td>43.8</td></tr>
+<tr><td><a href="/boxscores/202312270ARI.html">12/27/2023</a></td><td><a href="/teams/ARI.html">ARI</a></td><td>vs</td><td><a href="/teams/COL.html">COL</a></td><td>W</td><td><a href="/players/zuckeja01.html">Jason Zucker</a></td><td><a href="/players/durzise01.html">Sean Durzi</a></td><td><a href="/players/coolelo01.html">Logan Cooley</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td>47.07</td></tr>
+<tr><td><a href="/boxscores/202312270ARI.html">12/27/2023</a></td><td><a href="/teams/ARI.html">ARI</a></td><td>vs</td><td><a href="/teams/COL.html">COL</a></td><td>W</td><td><a href="/players/durzise01.html">Sean Durzi</a></td><td><a href="/players/maccema01.html">Matias Maccelli</a></td><td><a href="/players/crousla01.html">Lawson Crouse</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td>57.88</td></tr>
+<tr><td><a href="/boxscores/202312270ARI.html">12/27/2023</a></td><td><a href="/teams/ARI.html">ARI</a></td><td>vs</td><td><a href="/teams/COL.html">COL</a></td><td>W</td><td><a href="/players/mcbaija03.html">Jack McBain</a></td><td><a href="/players/zuckeja01.html">Jason Zucker</a></td><td><a href="/players/durzise01.html">Sean Durzi</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td>64.67</td></tr>
+<tr><td><a href="/boxscores/202312290STL.html">12/29/2023</a></td><td><a href="/teams/STL.html">STL</a></td><td>vs</td><td><a href="/teams/COL.html">COL</a></td><td>L</td><td><a href="/players/thomaro01.html">Robert Thomas</a></td><td><a href="/players/nan.html">-</a></td><td><a href="/players/--.html">--</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td>16.52</td></tr>
+<tr><td><a href="/boxscores/202312310COL.html">12/31/2023</a></td><td><a href="/teams/SJS.html">SJS</a></td><td>@</td><td><a href="/teams/COL.html">COL</a></td><td>L</td><td><a href="/players/hertlto01.html">Tomáš Hertl</a></td><td><a href="/players/granlmi01.html">Mikael Granlund</a></td><td><a href="/players/addisca01.html">Calen Addison</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td>36.88</td></tr>
+<tr><td><a href="/boxscores/202401020COL.html">1/2/2024</a></td><td><a href="/teams/NYI.html">NYI</a></td><td>@</td><td><a href="/teams/COL.html">COL</a></td><td>L</td><td><a href="/players/engvapi01.html">Pierre Engvall</a></td><td><a href="/players/nelsobr01.html">Brock Nelson</a></td><td><a href="/players/--.html">--</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td>5.65</td></tr>
+<tr><td><a href="/boxscores/202401020COL.html">1/2/2024</a></td><td><a href="/teams/NYI.html">NYI</a></td><td>@</td><td><a href="/teams/COL.html">COL</a></td><td>L</td><td><a href="/players/nelsobr01.html">Brock Nelson</a></td><td><a href="/players/dobsono01.html">Noah Dobson</a></td><td><a href="/players/sorokil01.html">Ilya Sorokin</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td>19.47</td></tr>
+<tr><td><a href="/boxscores/202401020COL.html">1/2/2024</a></td><td><a href="/teams/NYI.html">NYI</a></td><td>@</td><td><a href="/teams/COL.html">COL</a></td><td>L</td><td><a href="/players/holmssi01.html">Simon Holmström</a></td><td><a href="/players/cluttca01.html">Cal Clutterbuck</a></td><td><a href="/players/--.html">--</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td>21.15</td></tr>
+<tr><td><a href="/boxscores/202401020COL.html">1/2/2024</a></td><td><a href="/teams/NYI.html">NYI</a></td><td>@</td><td><a href="/teams/COL.html">COL</a></td><td>L</td><td><a href="/players/romanal01.html">Alexander Romanov</a></td><td><a href="/players/barzama01.html">Mathew Barzal</a></td><td><a href="/players/--.html">--</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td>30.3</td></tr>
+<tr><td><a href="/boxscores/202401040DAL.html">1/4/2024</a></td><td><a href="/teams/DAL.html">DAL</a></td><td>vs</td><td><a href="/teams/COL.html">COL</a></td><td>L</td><td><a href="/players/dadonev01.html">Evgenii Dadonov</a></td><td><a href="/players/nan.html">-</a></td><td><a href="/players/--.html">--</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td>11.95</td></tr>
+<tr><td><a href="/boxscores/202401040DAL.html">1/4/2024</a></td><td><a href="/teams/DAL.html">DAL</a></td><td>vs</td><td><a href="/teams/COL.html">COL</a></td><td>L</td><td><a href="/players/seguity01.html">Tyler Seguin</a></td><td><a href="/players/duchema01.html">Matt Duchene</a></td><td><a href="/players/marchma01.html">Mason Marchment</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td>21.47</td></tr>
+<tr><td><a href="/boxscores/202401040DAL.html">1/4/2024</a></td><td><a href="/teams/DAL.html">DAL</a></td><td>vs</td><td><a href="/teams/COL.html">COL</a></td><td>L</td><td><a href="/players/paveljo01.html">Joe Pavelski</a></td><td><a href="/players/duchema01.html">Matt Duchene</a></td><td><a href="/players/heiskmi01.html">Miro Heiskanen</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td>30.17</td></tr>
+<tr><td><a href="/boxscores/202401040DAL.html">1/4/2024</a></td><td><a href="/teams/DAL.html">DAL</a></td><td>vs</td><td><a href="/teams/COL.html">COL</a></td><td>L</td><td><a href="/players/seguity01.html">Tyler Seguin</a></td><td><a href="/players/marchma01.html">Mason Marchment</a></td><td><a href="/players/--.html">--</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td>49.12</td></tr>
+<tr><td><a href="/boxscores/202401060COL.html">1/6/2024</a></td><td><a href="/teams/FLA.html">FLA</a></td><td>@</td><td><a href="/teams/COL.html">COL</a></td><td>W</td><td><a href="/players/reinhsa01.html">Sam Reinhart</a></td><td><a href="/players/tkachma01.html">Matthew Tkachuk</a></td><td><a href="/players/barkoal01.html">Aleksander Barkov</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td>45.98</td></tr>
+<tr><td><a href="/boxscores/202401060COL.html">1/6/2024</a></td><td><a href="/teams/FLA.html">FLA</a></td><td>@</td><td><a href="/teams/COL.html">COL</a></td><td>W</td><td><a href="/players/stenlke01.html">Kevin Stenlund</a></td><td><a href="/players/lombery01.html">Ryan Lomberg</a></td><td><a href="/players/--.html">--</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td>48.98</td></tr>
+<tr><td><a href="/boxscores/202401060COL.html">1/6/2024</a></td><td><a href="/teams/FLA.html">FLA</a></td><td>@</td><td><a href="/teams/COL.html">COL</a></td><td>W</td><td><a href="/players/tkachma01.html">Matthew Tkachuk</a></td><td><a href="/players/verhaca01.html">Carter Verhaeghe</a></td><td><a href="/players/ekblaaa01.html">Aaron Ekblad</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td>56.28</td></tr>
+<tr><td><a href="/boxscores/202401080COL.html">1/8/2024</a></td><td><a href="/teams/BOS.html">BOS</a></td><td>@</td><td><a href="/teams/COL.html">COL</a></td><td>L</td><td><a href="/players/marchbr03.html">Brad Marchand</a></td><td><a href="/players/zachapa01.html">Pavel Zacha</a></td><td><a href="/players/pastrda01.html">David Pastrňák</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td>11.35</td></tr>
+<tr><td><a href="/boxscores/202401080COL.html">1/8/2024</a></td><td><a href="/teams/BOS.html">BOS</a></td><td>@</td><td><a href="/teams/COL.html">COL</a></td><td>L</td><td><a href="/players/beechjo01.html">John Beecher</a></td><td><a href="/players/heineda01.html">Danton Heinen</a></td><td><a href="/players/carlobr01.html">Brandon Carlo</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td>30.08</td></tr>
+<tr><td><a href="/boxscores/202401080COL.html">1/8/2024</a></td><td><a href="/teams/BOS.html">BOS</a></td><td>@</td><td><a href="/teams/COL.html">COL</a></td><td>L</td><td><a href="/players/marchbr03.html">Brad Marchand</a></td><td><a href="/players/coylech01.html">Charlie Coyle</a></td><td><a href="/players/grzelma01.html">Matt Grzelcyk</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td>45.77</td></tr>
+<tr><td><a href="/boxscores/202401130TOR.html">1/13/2024</a></td><td><a href="/teams/TOR.html">TOR</a></td><td>vs</td><td><a href="/teams/COL.html">COL</a></td><td>L</td><td><a href="/players/domima01.html">Max Domi</a></td><td><a href="/players/nan.html">-</a></td><td><a href="/players/--.html">--</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td>6.38</td></tr>
+<tr><td><a href="/boxscores/202401130TOR.html">1/13/2024</a></td><td><a href="/teams/TOR.html">TOR</a></td><td>vs</td><td><a href="/teams/COL.html">COL</a></td><td>L</td><td><a href="/players/riellmo01.html">Morgan Rielly</a></td><td><a href="/players/nan.html">-</a></td><td><a href="/players/--.html">--</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td>10.78</td></tr>
+<tr><td><a href="/boxscores/202401130TOR.html">1/13/2024</a></td><td><a href="/teams/TOR.html">TOR</a></td><td>vs</td><td><a href="/teams/COL.html">COL</a></td><td>L</td><td><a href="/players/liljeti01.html">Timothy Liljegren</a></td><td><a href="/players/nan.html">-</a></td><td><a href="/players/--.html">--</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td>15.07</td></tr>
+<tr><td><a href="/boxscores/202401150MTL.html">1/15/2024</a></td><td><a href="/teams/MTL.html">MTL</a></td><td>vs</td><td><a href="/teams/COL.html">COL</a></td><td>W</td><td><a href="/players/slafkju01.html">Juraj Slafkovsky</a></td><td><a href="/players/suzukni01.html">Nick Suzuki</a></td><td><a href="/players/caufico01.html">Cole Caufield</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td>7.28</td></tr>
+<tr><td><a href="/boxscores/202401150MTL.html">1/15/2024</a></td><td><a href="/teams/MTL.html">MTL</a></td><td>vs</td><td><a href="/teams/COL.html">COL</a></td><td>W</td><td><a href="/players/harvera01.html">Rafaël Harvey-Pinard</a></td><td><a href="/players/evansja02.html">Jake Evans</a></td><td><a href="/players/gallabr01.html">Brendan Gallagher</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td>36.13</td></tr>
+<tr><td><a href="/boxscores/202401150MTL.html">1/15/2024</a></td><td><a href="/teams/MTL.html">MTL</a></td><td>vs</td><td><a href="/teams/COL.html">COL</a></td><td>W</td><td><a href="/players/caufico01.html">Cole Caufield</a></td><td><a href="/players/suzukni01.html">Nick Suzuki</a></td><td><a href="/players/mathemi01.html">Mike Matheson</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td>41.87</td></tr>
+<tr><td><a href="/boxscores/202401150MTL.html">1/15/2024</a></td><td><a href="/teams/MTL.html">MTL</a></td><td>vs</td><td><a href="/teams/COL.html">COL</a></td><td>W</td><td><a href="/players/armiajo01.html">Joel Armia</a></td><td><a href="/players/monahse01.html">Sean Monahan</a></td><td><a href="/players/savarda01.html">David Savard</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td>55.83</td></tr>
+<tr><td><a href="/boxscores/202401180BOS.html">1/18/2024</a></td><td><a href="/teams/BOS.html">BOS</a></td><td>vs</td><td><a href="/teams/COL.html">COL</a></td><td>W</td><td><a href="/players/pastrda01.html">David Pastrňák</a></td><td><a href="/players/coylech01.html">Charlie Coyle</a></td><td><a href="/players/--.html">--</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td>0.73</td></tr>
+<tr><td><a href="/boxscores/202401180BOS.html">1/18/2024</a></td><td><a href="/teams/BOS.html">BOS</a></td><td>vs</td><td><a href="/teams/COL.html">COL</a></td><td>W</td><td><a href="/players/laukoja01.html">Jakub Lauko</a></td><td><a href="/players/geekimo01.html">Morgan Geekie</a></td><td><a href="/players/lindhha01.html">Hampus Lindholm</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td>4.97</td></tr>
+<tr><td><a href="/boxscores/202401180BOS.html">1/18/2024</a></td><td><a href="/teams/BOS.html">BOS</a></td><td>vs</td><td><a href="/teams/COL.html">COL</a></td><td>W</td><td><a href="/players/debruja01.html">Jake DeBrusk</a></td><td><a href="/players/wothepa01.html">Parker Wotherspoon</a></td><td><a href="/players/zachapa01.html">Pavel Zacha</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td>14.87</td></tr>
+<tr><td><a href="/boxscores/202401180BOS.html">1/18/2024</a></td><td><a href="/teams/BOS.html">BOS</a></td><td>vs</td><td><a href="/teams/COL.html">COL</a></td><td>W</td><td><a href="/players/pastrda01.html">David Pastrňák</a></td><td><a href="/players/debruja01.html">Jake DeBrusk</a></td><td><a href="/players/--.html">--</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td>57.4</td></tr>
+<tr><td><a href="/boxscores/202401200PHI.html">1/20/2024</a></td><td><a href="/teams/PHI.html">PHI</a></td><td>vs</td><td><a href="/teams/COL.html">COL</a></td><td>L</td><td><a href="/players/farabjo01.html">Joel Farabee</a></td><td><a href="/players/frostmo01.html">Morgan Frost</a></td><td><a href="/players/atkinca01.html">Cam Atkinson</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td>21.82</td></tr>
+<tr><td><a href="/boxscores/202401200PHI.html">1/20/2024</a></td><td><a href="/teams/PHI.html">PHI</a></td><td>vs</td><td><a href="/teams/COL.html">COL</a></td><td>L</td><td><a href="/players/konectr01.html">Travis Konecny</a></td><td><a href="/players/tippeow01.html">Owen Tippett</a></td><td><a href="/players/poehlry01.html">Ryan Poehling</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td>32.38</td></tr>
+<tr><td><a href="/boxscores/202401200PHI.html">1/20/2024</a></td><td><a href="/teams/PHI.html">PHI</a></td><td>vs</td><td><a href="/teams/COL.html">COL</a></td><td>L</td><td><a href="/players/foersty01.html">Tyson Foerster</a></td><td><a href="/players/frostmo01.html">Morgan Frost</a></td><td><a href="/players/atkinca01.html">Cam Atkinson</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td>45.43</td></tr>
+<tr><td><a href="/boxscores/202401200PHI.html">1/20/2024</a></td><td><a href="/teams/PHI.html">PHI</a></td><td>vs</td><td><a href="/teams/COL.html">COL</a></td><td>L</td><td><a href="/players/atkinca01.html">Cam Atkinson</a></td><td><a href="/players/ristora01.html">Rasmus Ristolainen</a></td><td><a href="/players/catesno01.html">Noah Cates</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td>48.18</td></tr>
+<tr><td><a href="/boxscores/202401240COL.html">1/24/2024</a></td><td><a href="/teams/WSH.html">WSH</a></td><td>@</td><td><a href="/teams/COL.html">COL</a></td><td>L</td><td><a href="/players/stromdy01.html">Dylan Strome</a></td><td><a href="/players/pacioma01.html">Max Pacioretty</a></td><td><a href="/players/ovechal01.html">Alex Ovechkin</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td>47.43</td></tr>
+<tr><td><a href="/boxscores/202401240COL.html">1/24/2024</a></td><td><a href="/teams/WSH.html">WSH</a></td><td>@</td><td><a href="/teams/COL.html">COL</a></td><td>L</td><td><a href="/players/stromdy01.html">Dylan Strome</a></td><td><a href="/players/wilsoto01.html">Tom Wilson</a></td><td><a href="/players/bearet01.html">Ethan Bear</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td>57.62</td></tr>
+<tr><td><a href="/boxscores/202401260COL.html">1/26/2024</a></td><td><a href="/teams/LAK.html">LAK</a></td><td>@</td><td><a href="/teams/COL.html">COL</a></td><td>L</td><td><a href="/players/fialake01.html">Kevin Fiala</a></td><td><a href="/players/laferal01.html">Alex Laferriere</a></td><td><a href="/players/doughdr01.html">Drew Doughty</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td>26.33</td></tr>
+<tr><td><a href="/boxscores/202402050NYR.html">2/5/2024</a></td><td><a href="/teams/NYR.html">NYR</a></td><td>vs</td><td><a href="/teams/COL.html">COL</a></td><td>W</td><td><a href="/players/panarar01.html">Artemi Panarin</a></td><td><a href="/players/milleka01.html">K'Andre Miller</a></td><td><a href="/players/schnebr01.html">Braden Schneider</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td>51.28</td></tr>
+<tr><td><a href="/boxscores/202402050NYR.html">2/5/2024</a></td><td><a href="/teams/NYR.html">NYR</a></td><td>vs</td><td><a href="/teams/COL.html">COL</a></td><td>W</td><td><a href="/players/lafreal01.html">Alexis Lafrenière</a></td><td><a href="/players/zibanmi01.html">Mika Zibanejad</a></td><td><a href="/players/quickjo01.html">Jonathan Quick</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td>61.88</td></tr>
+<tr><td><a href="/boxscores/202402080CAR.html">2/8/2024</a></td><td><a href="/teams/CAR.html">CAR</a></td><td>vs</td><td><a href="/teams/COL.html">COL</a></td><td>W</td><td><a href="/players/necasma01.html">Martin Nečas</a></td><td><a href="/players/skjeibr01.html">Brady Skjei</a></td><td><a href="/players/staaljo01.html">Jordan Staal</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td>1.87</td></tr>
+<tr><td><a href="/boxscores/202402080CAR.html">2/8/2024</a></td><td><a href="/teams/CAR.html">CAR</a></td><td>vs</td><td><a href="/teams/COL.html">COL</a></td><td>W</td><td><a href="/players/necasma01.html">Martin Nečas</a></td><td><a href="/players/burnsbr01.html">Brent Burns</a></td><td><a href="/players/teravte01.html">Teuvo Teräväinen</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td>6.42</td></tr>
+<tr><td><a href="/boxscores/202402080CAR.html">2/8/2024</a></td><td><a href="/teams/CAR.html">CAR</a></td><td>vs</td><td><a href="/teams/COL.html">COL</a></td><td>W</td><td><a href="/players/necasma01.html">Martin Nečas</a></td><td><a href="/players/teravte01.html">Teuvo Teräväinen</a></td><td><a href="/players/slavija01.html">Jaccob Slavin</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td>16.85</td></tr>
+<tr><td><a href="/boxscores/202402080CAR.html">2/8/2024</a></td><td><a href="/teams/CAR.html">CAR</a></td><td>vs</td><td><a href="/teams/COL.html">COL</a></td><td>W</td><td><a href="/players/buntimi01.html">Michael Bunting</a></td><td><a href="/players/teravte01.html">Teuvo Teräväinen</a></td><td><a href="/players/burnsbr01.html">Brent Burns</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td>32.1</td></tr>
+<tr><td><a href="/boxscores/202402100FLA.html">2/10/2024</a></td><td><a href="/teams/FLA.html">FLA</a></td><td>vs</td><td><a href="/teams/COL.html">COL</a></td><td>W</td><td><a href="/players/verhaca01.html">Carter Verhaeghe</a></td><td><a href="/players/barkoal01.html">Aleksander Barkov</a></td><td><a href="/players/tkachma01.html">Matthew Tkachuk</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td>10.32</td></tr>
+<tr><td><a href="/boxscores/202402100FLA.html">2/10/2024</a></td><td><a href="/teams/FLA.html">FLA</a></td><td>vs</td><td><a href="/teams/COL.html">COL</a></td><td>W</td><td><a href="/players/reinhsa01.html">Sam Reinhart</a></td><td><a href="/players/tkachma01.html">Matthew Tkachuk</a></td><td><a href="/players/barkoal01.html">Aleksander Barkov</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td>16.93</td></tr>
+<tr><td><a href="/boxscores/202402100FLA.html">2/10/2024</a></td><td><a href="/teams/FLA.html">FLA</a></td><td>vs</td><td><a href="/teams/COL.html">COL</a></td><td>W</td><td><a href="/players/luostee01.html">Eetu Luostarinen</a></td><td><a href="/players/kulikdm01.html">Dmitry Kulikov</a></td><td><a href="/players/rodriev01.html">Evan Rodrigues</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td>37.87</td></tr>
+<tr><td><a href="/boxscores/202402100FLA.html">2/10/2024</a></td><td><a href="/teams/FLA.html">FLA</a></td><td>vs</td><td><a href="/teams/COL.html">COL</a></td><td>W</td><td><a href="/players/barkoal01.html">Aleksander Barkov</a></td><td><a href="/players/nan.html">-</a></td><td><a href="/players/--.html">--</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td>49.33</td></tr>
+<tr><td><a href="/boxscores/202402130WSH.html">2/13/2024</a></td><td><a href="/teams/WSH.html">WSH</a></td><td>vs</td><td><a href="/teams/COL.html">COL</a></td><td>L</td><td><a href="/players/malenbe01.html">Beck Malenstyn</a></td><td><a href="/players/feherma01.html">Martin Fehérváry</a></td><td><a href="/players/dowdni01.html">Nic Dowd</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td>9.27</td></tr>
+<tr><td><a href="/boxscores/202402130WSH.html">2/13/2024</a></td><td><a href="/teams/WSH.html">WSH</a></td><td>vs</td><td><a href="/teams/COL.html">COL</a></td><td>L</td><td><a href="/players/mcmicco01.html">Connor McMichael</a></td><td><a href="/players/manthan01.html">Anthony Mantha</a></td><td><a href="/players/--.html">--</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td>10.0</td></tr>
+<tr><td><a href="/boxscores/202402130WSH.html">2/13/2024</a></td><td><a href="/teams/WSH.html">WSH</a></td><td>vs</td><td><a href="/teams/COL.html">COL</a></td><td>L</td><td><a href="/players/ovechal01.html">Alex Ovechkin</a></td><td><a href="/players/carlsjo01.html">John Carlson</a></td><td><a href="/players/manthan01.html">Anthony Mantha</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td>49.0</td></tr>
+<tr><td><a href="/boxscores/202402180COL.html">2/18/2024</a></td><td><a href="/teams/ARI.html">ARI</a></td><td>@</td><td><a href="/teams/COL.html">COL</a></td><td>L</td><td><a href="/players/dumbama01.html">Mathew Dumba</a></td><td><a href="/players/kerfoal01.html">Alexander Kerfoot</a></td><td><a href="/players/mcbaija03.html">Jack McBain</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td>7.8</td></tr>
+<tr><td><a href="/boxscores/202402180COL.html">2/18/2024</a></td><td><a href="/teams/ARI.html">ARI</a></td><td>@</td><td><a href="/teams/COL.html">COL</a></td><td>L</td><td><a href="/players/crousla01.html">Lawson Crouse</a></td><td><a href="/players/maccema01.html">Matias Maccelli</a></td><td><a href="/players/moserja01.html">J.J. Moser</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td>12.33</td></tr>
+<tr><td><a href="/boxscores/202402180COL.html">2/18/2024</a></td><td><a href="/teams/ARI.html">ARI</a></td><td>@</td><td><a href="/teams/COL.html">COL</a></td><td>L</td><td><a href="/players/coolelo01.html">Logan Cooley</a></td><td><a href="/players/maccema01.html">Matias Maccelli</a></td><td><a href="/players/dumbama01.html">Mathew Dumba</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td>29.87</td></tr>
+<tr><td><a href="/boxscores/202402200COL.html">2/20/2024</a></td><td><a href="/teams/VAN.html">VAN</a></td><td>@</td><td><a href="/teams/COL.html">COL</a></td><td>L</td><td><a href="/players/millejt01.html">J.T. Miller</a></td><td><a href="/players/boesebr01.html">Brock Boeser</a></td><td><a href="/players/hughequ01.html">Quinn Hughes</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td>10.77</td></tr>
+<tr><td><a href="/boxscores/202402240COL.html">2/24/2024</a></td><td><a href="/teams/TOR.html">TOR</a></td><td>@</td><td><a href="/teams/COL.html">COL</a></td><td>W</td><td><a href="/players/bertuty01.html">Tyler Bertuzzi</a></td><td><a href="/players/marnemi01.html">Mitch Marner</a></td><td><a href="/players/nylanwi01.html">William Nylander</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td>13.7</td></tr>
+<tr><td><a href="/boxscores/202402240COL.html">2/24/2024</a></td><td><a href="/teams/TOR.html">TOR</a></td><td>@</td><td><a href="/teams/COL.html">COL</a></td><td>W</td><td><a href="/players/bertuty01.html">Tyler Bertuzzi</a></td><td><a href="/players/nylanwi01.html">William Nylander</a></td><td><a href="/players/domima01.html">Max Domi</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td>34.75</td></tr>
+<tr><td><a href="/boxscores/202402240COL.html">2/24/2024</a></td><td><a href="/teams/TOR.html">TOR</a></td><td>@</td><td><a href="/teams/COL.html">COL</a></td><td>W</td><td><a href="/players/marnemi01.html">Mitch Marner</a></td><td><a href="/players/kniesma01.html">Matthew Knies</a></td><td><a href="/players/broditj01.html">T.J. Brodie</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td>36.8</td></tr>
+<tr><td><a href="/boxscores/202402240COL.html">2/24/2024</a></td><td><a href="/teams/TOR.html">TOR</a></td><td>@</td><td><a href="/teams/COL.html">COL</a></td><td>W</td><td><a href="/players/bertuty01.html">Tyler Bertuzzi</a></td><td><a href="/players/nylanwi01.html">William Nylander</a></td><td><a href="/players/matthau01.html">Auston Matthews</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td>57.15</td></tr>
+<tr><td><a href="/boxscores/202402270COL.html">2/27/2024</a></td><td><a href="/teams/DAL.html">DAL</a></td><td>@</td><td><a href="/teams/COL.html">COL</a></td><td>L</td><td><a href="/players/stanklo01.html">Logan Stankoven</a></td><td><a href="/players/johnswy01.html">Wyatt Johnston</a></td><td><a href="/players/roberja01.html">Jason Robertson</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td>1.0</td></tr>
+<tr><td><a href="/boxscores/202403020NSH.html">3/2/2024</a></td><td><a href="/teams/NSH.html">NSH</a></td><td>vs</td><td><a href="/teams/COL.html">COL</a></td><td>W</td><td><a href="/players/glassco01.html">Cody Glass</a></td><td><a href="/players/sissoco01.html">Colton Sissons</a></td><td><a href="/players/mcdonry01.html">Ryan McDonagh</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td>15.3</td></tr>
+<tr><td><a href="/boxscores/202403020NSH.html">3/2/2024</a></td><td><a href="/teams/NSH.html">NSH</a></td><td>vs</td><td><a href="/teams/COL.html">COL</a></td><td>W</td><td><a href="/players/glassco01.html">Cody Glass</a></td><td><a href="/players/novakth01.html">Thomas Novak</a></td><td><a href="/players/carrial01.html">Alexandre Carrier</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td>34.43</td></tr>
+<tr><td><a href="/boxscores/202403020NSH.html">3/2/2024</a></td><td><a href="/teams/NSH.html">NSH</a></td><td>vs</td><td><a href="/teams/COL.html">COL</a></td><td>W</td><td><a href="/players/oreilry01.html">Ryan O'Reilly</a></td><td><a href="/players/josiro01.html">Roman Josi</a></td><td><a href="/players/forsbfi01.html">Filip Forsberg</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td>49.77</td></tr>
+<tr><td><a href="/boxscores/202403020NSH.html">3/2/2024</a></td><td><a href="/teams/NSH.html">NSH</a></td><td>vs</td><td><a href="/teams/COL.html">COL</a></td><td>W</td><td><a href="/players/novakth01.html">Thomas Novak</a></td><td><a href="/players/sarosju01.html">Juuse Saros</a></td><td><a href="/players/--.html">--</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td>57.53</td></tr>
+<tr><td><a href="/boxscores/202403060COL.html">3/6/2024</a></td><td><a href="/teams/DET.html">DET</a></td><td>@</td><td><a href="/teams/COL.html">COL</a></td><td>L</td><td><a href="/players/fabbrro01.html">Robby Fabbri</a></td><td><a href="/players/debrial01.html">Alex DeBrincat</a></td><td><a href="/players/gostish01.html">Shayne Gostisbehere</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td>1.8</td></tr>
+<tr><td><a href="/boxscores/202403060COL.html">3/6/2024</a></td><td><a href="/teams/DET.html">DET</a></td><td>@</td><td><a href="/teams/COL.html">COL</a></td><td>L</td><td><a href="/players/perroda01.html">David Perron</a></td><td><a href="/players/coppan01.html">Andrew Copp</a></td><td><a href="/players/maattol01.html">Olli Määttä</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td>13.5</td></tr>
+<tr><td><a href="/boxscores/202403080COL.html">3/8/2024</a></td><td><a href="/teams/MIN.html">MIN</a></td><td>@</td><td><a href="/teams/COL.html">COL</a></td><td>L</td><td><a href="/players/faberbr01.html">Brock Faber</a></td><td><a href="/players/kapriki01.html">Kirill Kaprizov</a></td><td><a href="/players/eriksjo02.html">Joel Eriksson Ek</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td>30.73</td></tr>
+<tr><td><a href="/boxscores/202403130VAN.html">3/13/2024</a></td><td><a href="/teams/VAN.html">VAN</a></td><td>vs</td><td><a href="/teams/COL.html">COL</a></td><td>L</td><td><a href="/players/millejt01.html">J.T. Miller</a></td><td><a href="/players/coleia01.html">Ian Cole</a></td><td><a href="/players/boesebr01.html">Brock Boeser</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td>0.4</td></tr>
+<tr><td><a href="/boxscores/202403130VAN.html">3/13/2024</a></td><td><a href="/teams/VAN.html">VAN</a></td><td>vs</td><td><a href="/teams/COL.html">COL</a></td><td>L</td><td><a href="/players/mikheil01.html">Ilya Mikheyev</a></td><td><a href="/players/millejt01.html">J.T. Miller</a></td><td><a href="/players/zadorni01.html">Nikita Zadorov</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td>2.73</td></tr>
+<tr><td><a href="/boxscores/202403130VAN.html">3/13/2024</a></td><td><a href="/teams/VAN.html">VAN</a></td><td>vs</td><td><a href="/teams/COL.html">COL</a></td><td>L</td><td><a href="/players/zadorni01.html">Nikita Zadorov</a></td><td><a href="/players/garlaco01.html">Conor Garland</a></td><td><a href="/players/desmica01.html">Casey DeSmith</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td>24.38</td></tr>
+<tr><td><a href="/boxscores/202403160EDM.html">3/16/2024</a></td><td><a href="/teams/EDM.html">EDM</a></td><td>vs</td><td><a href="/teams/COL.html">COL</a></td><td>L</td><td><a href="/players/foegewa01.html">Warren Foegele</a></td><td><a href="/players/bouchev01.html">Evan Bouchard</a></td><td><a href="/players/--.html">--</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td>45.77</td></tr>
+<tr><td><a href="/boxscores/202403160EDM.html">3/16/2024</a></td><td><a href="/teams/EDM.html">EDM</a></td><td>vs</td><td><a href="/teams/COL.html">COL</a></td><td>L</td><td><a href="/players/carrisa01.html">Sam Carrick</a></td><td><a href="/players/janmama02.html">Mattias Janmark</a></td><td><a href="/players/perryco01.html">Corey Perry</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td>51.8</td></tr>
+<tr><td><a href="/boxscores/202403220COL.html">3/22/2024</a></td><td><a href="/teams/CBJ.html">CBJ</a></td><td>@</td><td><a href="/teams/COL.html">COL</a></td><td>L</td><td><a href="/players/severda01.html">Damon Severson</a></td><td><a href="/players/gaudrjo01.html">Johnny Gaudreau</a></td><td><a href="/players/jennebo01.html">Boone Jenner</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td>4.47</td></tr>
+<tr><td><a href="/boxscores/202403240COL.html">3/24/2024</a></td><td><a href="/teams/PIT.html">PIT</a></td><td>@</td><td><a href="/teams/COL.html">COL</a></td><td>L</td><td><a href="/players/puljuje01.html">Jesse Puljujärvi</a></td><td><a href="/players/smithre01.html">Reilly Smith</a></td><td><a href="/players/crosbsi01.html">Sidney Crosby</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td>7.88</td></tr>
+<tr><td><a href="/boxscores/202403240COL.html">3/24/2024</a></td><td><a href="/teams/PIT.html">PIT</a></td><td>@</td><td><a href="/teams/COL.html">COL</a></td><td>L</td><td><a href="/players/rustbr01.html">Bryan Rust</a></td><td><a href="/players/crosbsi01.html">Sidney Crosby</a></td><td><a href="/players/--.html">--</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td>15.18</td></tr>
+<tr><td><a href="/boxscores/202403240COL.html">3/24/2024</a></td><td><a href="/teams/PIT.html">PIT</a></td><td>@</td><td><a href="/teams/COL.html">COL</a></td><td>L</td><td><a href="/players/crosbsi01.html">Sidney Crosby</a></td><td><a href="/players/puustva01.html">Valtteri Puustinen</a></td><td><a href="/players/--.html">--</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td>33.78</td></tr>
+<tr><td><a href="/boxscores/202403240COL.html">3/24/2024</a></td><td><a href="/teams/PIT.html">PIT</a></td><td>@</td><td><a href="/teams/COL.html">COL</a></td><td>L</td><td><a href="/players/joseppi01.html">Pierre-Olivier Joseph</a></td><td><a href="/players/crosbsi01.html">Sidney Crosby</a></td><td><a href="/players/letankr01.html">Kris Letang</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td>35.67</td></tr>
+<tr><td><a href="/boxscores/202403280COL.html">3/28/2024</a></td><td><a href="/teams/NYR.html">NYR</a></td><td>@</td><td><a href="/teams/COL.html">COL</a></td><td>W</td><td><a href="/players/kakkoka01.html">Kaapo Kakko</a></td><td><a href="/players/nan.html">-</a></td><td><a href="/players/--.html">--</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td>42.98</td></tr>
+<tr><td><a href="/boxscores/202403280COL.html">3/28/2024</a></td><td><a href="/teams/NYR.html">NYR</a></td><td>@</td><td><a href="/teams/COL.html">COL</a></td><td>W</td><td><a href="/players/kreidch01.html">Chris Kreider</a></td><td><a href="/players/trochvi01.html">Vincent Trocheck</a></td><td><a href="/players/panarar01.html">Artemi Panarin</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td>49.58</td></tr>
+<tr><td><a href="/boxscores/202403300COL.html">3/30/2024</a></td><td><a href="/teams/NSH.html">NSH</a></td><td>@</td><td><a href="/teams/COL.html">COL</a></td><td>L</td><td><a href="/players/smithco02.html">Cole Smith</a></td><td><a href="/players/nyquigu01.html">Gustav Nyquist</a></td><td><a href="/players/mccarmi01.html">Michael McCarron</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td>3.68</td></tr>
+<tr><td><a href="/boxscores/202403300COL.html">3/30/2024</a></td><td><a href="/teams/NSH.html">NSH</a></td><td>@</td><td><a href="/teams/COL.html">COL</a></td><td>L</td><td><a href="/players/jankoma01.html">Mark Jankowski</a></td><td><a href="/players/novakth01.html">Thomas Novak</a></td><td><a href="/players/--.html">--</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td>13.03</td></tr>
+<tr><td><a href="/boxscores/202403300COL.html">3/30/2024</a></td><td><a href="/teams/NSH.html">NSH</a></td><td>@</td><td><a href="/teams/COL.html">COL</a></td><td>L</td><td><a href="/players/fabbrda01.html">Dante Fabbro</a></td><td><a href="/players/zuckeja01.html">Jason Zucker</a></td><td><a href="/players/sherwki01.html">Kiefer Sherwood</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td>13.72</td></tr>
+<tr><td><a href="/boxscores/202403300COL.html">3/30/2024</a></td><td><a href="/teams/NSH.html">NSH</a></td><td>@</td><td><a href="/teams/COL.html">COL</a></td><td>L</td><td><a href="/players/nyquigu01.html">Gustav Nyquist</a></td><td><a href="/players/stastsp01.html">Spencer Stastney</a></td><td><a href="/players/forsbfi01.html">Filip Forsberg</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td>20.95</td></tr>
+<tr><td><a href="/boxscores/202404050EDM.html">4/5/2024</a></td><td><a href="/teams/EDM.html">EDM</a></td><td>vs</td><td><a href="/teams/COL.html">COL</a></td><td>W</td><td><a href="/players/perryco01.html">Corey Perry</a></td><td><a href="/players/nurseda01.html">Darnell Nurse</a></td><td><a href="/players/cecico01.html">Cody Ceci</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td>1.87</td></tr>
+<tr><td><a href="/boxscores/202404050EDM.html">4/5/2024</a></td><td><a href="/teams/EDM.html">EDM</a></td><td>vs</td><td><a href="/teams/COL.html">COL</a></td><td>W</td><td><a href="/players/mcdavco01.html">Connor McDavid</a></td><td><a href="/players/ekholma01.html">Mattias Ekholm</a></td><td><a href="/players/draisle01.html">Leon Draisaitl</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td>17.3</td></tr>
+<tr><td><a href="/boxscores/202404050EDM.html">4/5/2024</a></td><td><a href="/teams/EDM.html">EDM</a></td><td>vs</td><td><a href="/teams/COL.html">COL</a></td><td>W</td><td><a href="/players/ekholma01.html">Mattias Ekholm</a></td><td><a href="/players/draisle01.html">Leon Draisaitl</a></td><td><a href="/players/bouchev01.html">Evan Bouchard</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td>28.92</td></tr>
+<tr><td><a href="/boxscores/202404050EDM.html">4/5/2024</a></td><td><a href="/teams/EDM.html">EDM</a></td><td>vs</td><td><a href="/teams/COL.html">COL</a></td><td>W</td><td><a href="/players/kaneev01.html">Evander Kane</a></td><td><a href="/players/mcleory01.html">Ryan McLeod</a></td><td><a href="/players/cecico01.html">Cody Ceci</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td>39.97</td></tr>
+<tr><td><a href="/boxscores/202404050EDM.html">4/5/2024</a></td><td><a href="/teams/EDM.html">EDM</a></td><td>vs</td><td><a href="/teams/COL.html">COL</a></td><td>W</td><td><a href="/players/mcdavco01.html">Connor McDavid</a></td><td><a href="/players/bouchev01.html">Evan Bouchard</a></td><td><a href="/players/hymanza01.html">Zach Hyman</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td>44.08</td></tr>
+<tr><td><a href="/boxscores/202404050EDM.html">4/5/2024</a></td><td><a href="/teams/EDM.html">EDM</a></td><td>vs</td><td><a href="/teams/COL.html">COL</a></td><td>W</td><td><a href="/players/kaneev01.html">Evander Kane</a></td><td><a href="/players/mcleory01.html">Ryan McLeod</a></td><td><a href="/players/kulakbr01.html">Brett Kulak</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td>51.98</td></tr>
+<tr><td><a href="/boxscores/202404070COL.html">4/7/2024</a></td><td><a href="/teams/DAL.html">DAL</a></td><td>@</td><td><a href="/teams/COL.html">COL</a></td><td>W</td><td><a href="/players/duchema01.html">Matt Duchene</a></td><td><a href="/players/tanevch01.html">Chris Tanev</a></td><td><a href="/players/--.html">--</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td>17.18</td></tr>
+<tr><td><a href="/boxscores/202404070COL.html">4/7/2024</a></td><td><a href="/teams/DAL.html">DAL</a></td><td>@</td><td><a href="/teams/COL.html">COL</a></td><td>W</td><td><a href="/players/bennja01.html">Jamie Benn</a></td><td><a href="/players/lindees01.html">Esa Lindell</a></td><td><a href="/players/johnswy01.html">Wyatt Johnston</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td>19.28</td></tr>
+<tr><td><a href="/boxscores/202404070COL.html">4/7/2024</a></td><td><a href="/teams/DAL.html">DAL</a></td><td>@</td><td><a href="/teams/COL.html">COL</a></td><td>W</td><td><a href="/players/hintzro01.html">Roope Hintz</a></td><td><a href="/players/paveljo01.html">Joe Pavelski</a></td><td><a href="/players/harleth01.html">Thomas Harley</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td>31.42</td></tr>
+<tr><td><a href="/boxscores/202404070COL.html">4/7/2024</a></td><td><a href="/teams/DAL.html">DAL</a></td><td>@</td><td><a href="/teams/COL.html">COL</a></td><td>W</td><td><a href="/players/seguity01.html">Tyler Seguin</a></td><td><a href="/players/duchema01.html">Matt Duchene</a></td><td><a href="/players/harleth01.html">Thomas Harley</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td>32.75</td></tr>
+<tr><td><a href="/boxscores/202404070COL.html">4/7/2024</a></td><td><a href="/teams/DAL.html">DAL</a></td><td>@</td><td><a href="/teams/COL.html">COL</a></td><td>W</td><td><a href="/players/marchma01.html">Mason Marchment</a></td><td><a href="/players/harleth01.html">Thomas Harley</a></td><td><a href="/players/johnswy01.html">Wyatt Johnston</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td>37.17</td></tr>
+<tr><td><a href="/boxscores/202404070COL.html">4/7/2024</a></td><td><a href="/teams/DAL.html">DAL</a></td><td>@</td><td><a href="/teams/COL.html">COL</a></td><td>W</td><td><a href="/players/johnswy01.html">Wyatt Johnston</a></td><td><a href="/players/stanklo01.html">Logan Stankoven</a></td><td><a href="/players/bennja01.html">Jamie Benn</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td>55.2</td></tr>
+<tr><td><a href="/boxscores/202404090COL.html">4/9/2024</a></td><td><a href="/teams/MIN.html">MIN</a></td><td>@</td><td><a href="/teams/COL.html">COL</a></td><td>L</td><td><a href="/players/kapriki01.html">Kirill Kaprizov</a></td><td><a href="/players/zuccama01.html">Mats Zuccarello</a></td><td><a href="/players/boldyma01.html">Matt Boldy</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td>10.23</td></tr>
+<tr><td><a href="/boxscores/202404090COL.html">4/9/2024</a></td><td><a href="/teams/MIN.html">MIN</a></td><td>@</td><td><a href="/teams/COL.html">COL</a></td><td>L</td><td><a href="/players/boldyma01.html">Matt Boldy</a></td><td><a href="/players/zuccama01.html">Mats Zuccarello</a></td><td><a href="/players/chishde01.html">Declan Chisholm</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td>19.67</td></tr>
+<tr><td><a href="/boxscores/202404130COL.html">4/13/2024</a></td><td><a href="/teams/WPG.html">WPG</a></td><td>@</td><td><a href="/teams/COL.html">COL</a></td><td>W</td><td><a href="/players/monahse01.html">Sean Monahan</a></td><td><a href="/players/ehlerni01.html">Nikolaj Ehlers</a></td><td><a href="/players/pionkne01.html">Neal Pionk</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td>5.98</td></tr>
+<tr><td><a href="/boxscores/202404130COL.html">4/13/2024</a></td><td><a href="/teams/WPG.html">WPG</a></td><td>@</td><td><a href="/teams/COL.html">COL</a></td><td>W</td><td><a href="/players/vilarga01.html">Gabriel Vilardi</a></td><td><a href="/players/connoky01.html">Kyle Connor</a></td><td><a href="/players/morrijo04.html">Josh Morrissey</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td>8.03</td></tr>
+<tr><td><a href="/boxscores/202404130COL.html">4/13/2024</a></td><td><a href="/teams/WPG.html">WPG</a></td><td>@</td><td><a href="/teams/COL.html">COL</a></td><td>W</td><td><a href="/players/morrijo04.html">Josh Morrissey</a></td><td><a href="/players/monahse01.html">Sean Monahan</a></td><td><a href="/players/--.html">--</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td>15.12</td></tr>
+<tr><td><a href="/boxscores/202404130COL.html">4/13/2024</a></td><td><a href="/teams/WPG.html">WPG</a></td><td>@</td><td><a href="/teams/COL.html">COL</a></td><td>W</td><td><a href="/players/lowryad01.html">Adam Lowry</a></td><td><a href="/players/gustada01.html">David Gustafsson</a></td><td><a href="/players/demeldy01.html">Dylan DeMelo</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td>15.28</td></tr>
+<tr><td><a href="/boxscores/202404140VEG.html">4/14/2024</a></td><td><a href="/teams/VEG.html">VEG</a></td><td>vs</td><td><a href="/teams/COL.html">COL</a></td><td>W</td><td><a href="/players/barbaiv01.html">Ivan Barbashev</a></td><td><a href="/players/koleske01.html">Keegan Kolesar</a></td><td><a href="/players/hanifno01.html">Noah Hanifin</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td>42.93</td></tr>
+<tr><td><a href="/boxscores/202404140VEG.html">4/14/2024</a></td><td><a href="/teams/VEG.html">VEG</a></td><td>vs</td><td><a href="/teams/COL.html">COL</a></td><td>W</td><td><a href="/players/karlswi01.html">William Karlsson</a></td><td><a href="/players/dorofpa01.html">Pavel Dorofeyev</a></td><td><a href="/players/theodsh01.html">Shea Theodore</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td>46.58</td></tr>
+<tr><td><a href="/boxscores/202404140VEG.html">4/14/2024</a></td><td><a href="/teams/VEG.html">VEG</a></td><td>vs</td><td><a href="/teams/COL.html">COL</a></td><td>W</td><td><a href="/players/karlswi01.html">William Karlsson</a></td><td><a href="/players/howdebr01.html">Brett Howden</a></td><td><a href="/players/whiteza01.html">Zach Whitecloud</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td>56.38</td></tr>
+<tr><td><a href="/boxscores/202404140VEG.html">4/14/2024</a></td><td><a href="/teams/VEG.html">VEG</a></td><td>vs</td><td><a href="/teams/COL.html">COL</a></td><td>W</td><td><a href="/players/hertlto01.html">Tomáš Hertl</a></td><td><a href="/players/eicheja01.html">Jack Eichel</a></td><td><a href="/players/audymjo01.html">Jonathan Marchessault</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td>61.38</td></tr>
+<tr><td><a href="/boxscores/202401260COL.html">1/26/2024</a></td><td><a href="/teams/COL.html">COL</a></td><td>vs</td><td><a href="/teams/LAK.html">LAK</a></td><td>W</td><td><a href="/players/oconnlo01.html">Logan O'Connor</a></td><td><a href="/players/girarsa01.html">Samuel Girard</a></td><td><a href="/players/georgal01.html">Alexandar Georgiev</a></td><td><a href="/players/talboca01.html">Cam Talbot</a></td><td>7.73</td></tr>
+</table>
 
-    <!-- Search Bar -->
-    <div class="search-container">
-      <input type="text" id="searchInput" placeholder="Search players or teams..." oninput="searchEntities()" />
-      <ul id="suggestions"></ul> <!-- This will show the search suggestions -->
-    </div>
-  </nav>
-
-  <h1>Alexandar Georgiev - Gamelogs</h1>
-  <table border="1">
-    <thead>
-      <tr>
-        <th>Season</th>
-        <th>Date</th>
-        <th>Team</th>
-        <th>Location</th>
-        <th>Opponent</th>
-        <th>Result</th>
-        <th>GA</th>
-        <th>SA</th>
-        <th>SV</th>
-        <th>SV%</th>
-        <th>TOI</th>
-      </tr>
-    </thead>
-    <tbody>
-    
-        <tr>
-          <td><a href="/schedule/2023-24.html">2023-24</a></td>
-          <td><a href="/boxscores/202310110LAK.html">10/11/2023</a></td>
-          <td><a href="/teams/COL.html">COL</a></td>
-          <td>@</td>
-          <td><a href="/teams/LAK.html">LAK</a></td>
-          <td>W</td>
-          <td>2</td>
-          <td>36</td>
-          <td>34</td>
-          <td>94.00%</td>
-          <td>60.0</td>
-        </tr>
-        
-        <tr>
-          <td><a href="/schedule/2023-24.html">2023-24</a></td>
-          <td><a href="/boxscores/202310140SJS.html">10/14/2023</a></td>
-          <td><a href="/teams/COL.html">COL</a></td>
-          <td>@</td>
-          <td><a href="/teams/SJS.html">SJS</a></td>
-          <td>W</td>
-          <td>1</td>
-          <td>21</td>
-          <td>20</td>
-          <td>95.00%</td>
-          <td>64.2</td>
-        </tr>
-        
-        <tr>
-          <td><a href="/schedule/2023-24.html">2023-24</a></td>
-          <td><a href="/boxscores/202310170SEA.html">10/17/2023</a></td>
-          <td><a href="/teams/COL.html">COL</a></td>
-          <td>@</td>
-          <td><a href="/teams/SEA.html">SEA</a></td>
-          <td>W</td>
-          <td>1</td>
-          <td>38</td>
-          <td>37</td>
-          <td>97.00%</td>
-          <td>60.0</td>
-        </tr>
-        
-        <tr>
-          <td><a href="/schedule/2023-24.html">2023-24</a></td>
-          <td><a href="/boxscores/202310190COL.html">10/19/2023</a></td>
-          <td><a href="/teams/COL.html">COL</a></td>
-          <td>vs</td>
-          <td><a href="/teams/CHI.html">CHI</a></td>
-          <td>W</td>
-          <td>0</td>
-          <td>18</td>
-          <td>18</td>
-          <td>100.00%</td>
-          <td>60.0</td>
-        </tr>
-        
-        <tr>
-          <td><a href="/schedule/2023-24.html">2023-24</a></td>
-          <td><a href="/boxscores/202310210COL.html">10/21/2023</a></td>
-          <td><a href="/teams/COL.html">COL</a></td>
-          <td>vs</td>
-          <td><a href="/teams/CAR.html">CAR</a></td>
-          <td>W</td>
-          <td>4</td>
-          <td>27</td>
-          <td>23</td>
-          <td>85.00%</td>
-          <td>60.0</td>
-        </tr>
-        
-        <tr>
-          <td><a href="/schedule/2023-24.html">2023-24</a></td>
-          <td><a href="/boxscores/202310240NYI.html">10/24/2023</a></td>
-          <td><a href="/teams/COL.html">COL</a></td>
-          <td>@</td>
-          <td><a href="/teams/NYI.html">NYI</a></td>
-          <td>W</td>
-          <td>4</td>
-          <td>32</td>
-          <td>28</td>
-          <td>88.00%</td>
-          <td>59.53</td>
-        </tr>
-        
-        <tr>
-          <td><a href="/schedule/2023-24.html">2023-24</a></td>
-          <td><a href="/boxscores/202310260PIT.html">10/26/2023</a></td>
-          <td><a href="/teams/COL.html">COL</a></td>
-          <td>@</td>
-          <td><a href="/teams/PIT.html">PIT</a></td>
-          <td>L</td>
-          <td>4</td>
-          <td>24</td>
-          <td>20</td>
-          <td>83.00%</td>
-          <td>51.92</td>
-        </tr>
-        
-        <tr>
-          <td><a href="/schedule/2023-24.html">2023-24</a></td>
-          <td><a href="/boxscores/202310290BUF.html">10/29/2023</a></td>
-          <td><a href="/teams/COL.html">COL</a></td>
-          <td>@</td>
-          <td><a href="/teams/BUF.html">BUF</a></td>
-          <td>L</td>
-          <td>3</td>
-          <td>28</td>
-          <td>25</td>
-          <td>89.00%</td>
-          <td>59.22</td>
-        </tr>
-        
-        <tr>
-          <td><a href="/schedule/2023-24.html">2023-24</a></td>
-          <td><a href="/boxscores/202311040VEG.html">11/4/2023</a></td>
-          <td><a href="/teams/COL.html">COL</a></td>
-          <td>@</td>
-          <td><a href="/teams/VEG.html">VEG</a></td>
-          <td>L</td>
-          <td>7</td>
-          <td>34</td>
-          <td>27</td>
-          <td>79.00%</td>
-          <td>60.0</td>
-        </tr>
-        
-        <tr>
-          <td><a href="/schedule/2023-24.html">2023-24</a></td>
-          <td><a href="/boxscores/202311070COL.html">11/7/2023</a></td>
-          <td><a href="/teams/COL.html">COL</a></td>
-          <td>vs</td>
-          <td><a href="/teams/NJD.html">NJD</a></td>
-          <td>W</td>
-          <td>3</td>
-          <td>23</td>
-          <td>20</td>
-          <td>87.00%</td>
-          <td>60.0</td>
-        </tr>
-        
-        <tr>
-          <td><a href="/schedule/2023-24.html">2023-24</a></td>
-          <td><a href="/boxscores/202311110COL.html">11/11/2023</a></td>
-          <td><a href="/teams/COL.html">COL</a></td>
-          <td>vs</td>
-          <td><a href="/teams/STL.html">STL</a></td>
-          <td>L</td>
-          <td>6</td>
-          <td>28</td>
-          <td>22</td>
-          <td>79.00%</td>
-          <td>42.82</td>
-        </tr>
-        
-        <tr>
-          <td><a href="/schedule/2023-24.html">2023-24</a></td>
-          <td><a href="/boxscores/202311130SEA.html">11/13/2023</a></td>
-          <td><a href="/teams/COL.html">COL</a></td>
-          <td>@</td>
-          <td><a href="/teams/SEA.html">SEA</a></td>
-          <td>W</td>
-          <td>1</td>
-          <td>19</td>
-          <td>18</td>
-          <td>95.00%</td>
-          <td>59.73</td>
-        </tr>
-        
-        <tr>
-          <td><a href="/schedule/2023-24.html">2023-24</a></td>
-          <td><a href="/boxscores/202311150COL.html">11/15/2023</a></td>
-          <td><a href="/teams/COL.html">COL</a></td>
-          <td>vs</td>
-          <td><a href="/teams/ANA.html">ANA</a></td>
-          <td>W</td>
-          <td>2</td>
-          <td>17</td>
-          <td>15</td>
-          <td>88.00%</td>
-          <td>59.88</td>
-        </tr>
-        
-        <tr>
-          <td><a href="/schedule/2023-24.html">2023-24</a></td>
-          <td><a href="/boxscores/202311180DAL.html">11/18/2023</a></td>
-          <td><a href="/teams/COL.html">COL</a></td>
-          <td>@</td>
-          <td><a href="/teams/DAL.html">DAL</a></td>
-          <td>W</td>
-          <td>3</td>
-          <td>28</td>
-          <td>25</td>
-          <td>89.00%</td>
-          <td>60.0</td>
-        </tr>
-        
-        <tr>
-          <td><a href="/schedule/2023-24.html">2023-24</a></td>
-          <td><a href="/boxscores/202311200NSH.html">11/20/2023</a></td>
-          <td><a href="/teams/COL.html">COL</a></td>
-          <td>@</td>
-          <td><a href="/teams/NSH.html">NSH</a></td>
-          <td>L</td>
-          <td>4</td>
-          <td>30</td>
-          <td>26</td>
-          <td>87.00%</td>
-          <td>59.23</td>
-        </tr>
-        
-        <tr>
-          <td><a href="/schedule/2023-24.html">2023-24</a></td>
-          <td><a href="/boxscores/202311220COL.html">11/22/2023</a></td>
-          <td><a href="/teams/COL.html">COL</a></td>
-          <td>vs</td>
-          <td><a href="/teams/VAN.html">VAN</a></td>
-          <td>W</td>
-          <td>2</td>
-          <td>29</td>
-          <td>27</td>
-          <td>93.00%</td>
-          <td>60.0</td>
-        </tr>
-        
-        <tr>
-          <td><a href="/schedule/2023-24.html">2023-24</a></td>
-          <td><a href="/boxscores/202311240MIN.html">11/24/2023</a></td>
-          <td><a href="/teams/COL.html">COL</a></td>
-          <td>@</td>
-          <td><a href="/teams/MIN.html">MIN</a></td>
-          <td>W</td>
-          <td>2</td>
-          <td>21</td>
-          <td>19</td>
-          <td>91.00%</td>
-          <td>60.0</td>
-        </tr>
-        
-        <tr>
-          <td><a href="/schedule/2023-24.html">2023-24</a></td>
-          <td><a href="/boxscores/202311270COL.html">11/27/2023</a></td>
-          <td><a href="/teams/COL.html">COL</a></td>
-          <td>vs</td>
-          <td><a href="/teams/TBL.html">TBL</a></td>
-          <td>W</td>
-          <td>1</td>
-          <td>39</td>
-          <td>38</td>
-          <td>97.00%</td>
-          <td>59.92</td>
-        </tr>
-        
-        <tr>
-          <td><a href="/schedule/2023-24.html">2023-24</a></td>
-          <td><a href="/boxscores/202311300ARI.html">11/30/2023</a></td>
-          <td><a href="/teams/COL.html">COL</a></td>
-          <td>@</td>
-          <td><a href="/teams/ARI.html">ARI</a></td>
-          <td>L-OT</td>
-          <td>4</td>
-          <td>32</td>
-          <td>28</td>
-          <td>88.00%</td>
-          <td>64.65</td>
-        </tr>
-        
-        <tr>
-          <td><a href="/schedule/2023-24.html">2023-24</a></td>
-          <td><a href="/boxscores/202312030LAK.html">12/3/2023</a></td>
-          <td><a href="/teams/COL.html">COL</a></td>
-          <td>@</td>
-          <td><a href="/teams/LAK.html">LAK</a></td>
-          <td>L</td>
-          <td>3</td>
-          <td>37</td>
-          <td>34</td>
-          <td>92.00%</td>
-          <td>58.47</td>
-        </tr>
-        
-        <tr>
-          <td><a href="/schedule/2023-24.html">2023-24</a></td>
-          <td><a href="/boxscores/202312050COL.html">12/5/2023</a></td>
-          <td><a href="/teams/COL.html">COL</a></td>
-          <td>vs</td>
-          <td><a href="/teams/ANA.html">ANA</a></td>
-          <td>W</td>
-          <td>2</td>
-          <td>33</td>
-          <td>31</td>
-          <td>94.00%</td>
-          <td>60.0</td>
-        </tr>
-        
-        <tr>
-          <td><a href="/schedule/2023-24.html">2023-24</a></td>
-          <td><a href="/boxscores/202312070COL.html">12/7/2023</a></td>
-          <td><a href="/teams/COL.html">COL</a></td>
-          <td>vs</td>
-          <td><a href="/teams/WPG.html">WPG</a></td>
-          <td>L</td>
-          <td>3</td>
-          <td>27</td>
-          <td>24</td>
-          <td>89.00%</td>
-          <td>58.93</td>
-        </tr>
-        
-        <tr>
-          <td><a href="/schedule/2023-24.html">2023-24</a></td>
-          <td><a href="/boxscores/202312110COL.html">12/11/2023</a></td>
-          <td><a href="/teams/COL.html">COL</a></td>
-          <td>vs</td>
-          <td><a href="/teams/CGY.html">CGY</a></td>
-          <td>W</td>
-          <td>5</td>
-          <td>21</td>
-          <td>16</td>
-          <td>76.00%</td>
-          <td>40.0</td>
-        </tr>
-        
-        <tr>
-          <td><a href="/schedule/2023-24.html">2023-24</a></td>
-          <td><a href="/boxscores/202312170COL.html">12/17/2023</a></td>
-          <td><a href="/teams/COL.html">COL</a></td>
-          <td>vs</td>
-          <td><a href="/teams/SJS.html">SJS</a></td>
-          <td>W</td>
-          <td>2</td>
-          <td>27</td>
-          <td>25</td>
-          <td>93.00%</td>
-          <td>60.0</td>
-        </tr>
-        
-        <tr>
-          <td><a href="/schedule/2023-24.html">2023-24</a></td>
-          <td><a href="/boxscores/202312190CHI.html">12/19/2023</a></td>
-          <td><a href="/teams/COL.html">COL</a></td>
-          <td>@</td>
-          <td><a href="/teams/CHI.html">CHI</a></td>
-          <td>L</td>
-          <td>3</td>
-          <td>22</td>
-          <td>19</td>
-          <td>86.00%</td>
-          <td>58.25</td>
-        </tr>
-        
-        <tr>
-          <td><a href="/schedule/2023-24.html">2023-24</a></td>
-          <td><a href="/boxscores/202312210COL.html">12/21/2023</a></td>
-          <td><a href="/teams/COL.html">COL</a></td>
-          <td>vs</td>
-          <td><a href="/teams/OTT.html">OTT</a></td>
-          <td>W</td>
-          <td>4</td>
-          <td>45</td>
-          <td>41</td>
-          <td>91.00%</td>
-          <td>59.37</td>
-        </tr>
-        
-        <tr>
-          <td><a href="/schedule/2023-24.html">2023-24</a></td>
-          <td><a href="/boxscores/202312230COL.html">12/23/2023</a></td>
-          <td><a href="/teams/COL.html">COL</a></td>
-          <td>vs</td>
-          <td><a href="/teams/ARI.html">ARI</a></td>
-          <td>W</td>
-          <td>1</td>
-          <td>25</td>
-          <td>24</td>
-          <td>96.00%</td>
-          <td>60.0</td>
-        </tr>
-        
-        <tr>
-          <td><a href="/schedule/2023-24.html">2023-24</a></td>
-          <td><a href="/boxscores/202312270ARI.html">12/27/2023</a></td>
-          <td><a href="/teams/COL.html">COL</a></td>
-          <td>@</td>
-          <td><a href="/teams/ARI.html">ARI</a></td>
-          <td>L-OT</td>
-          <td>5</td>
-          <td>27</td>
-          <td>22</td>
-          <td>82.00%</td>
-          <td>64.67</td>
-        </tr>
-        
-        <tr>
-          <td><a href="/schedule/2023-24.html">2023-24</a></td>
-          <td><a href="/boxscores/202312290STL.html">12/29/2023</a></td>
-          <td><a href="/teams/COL.html">COL</a></td>
-          <td>@</td>
-          <td><a href="/teams/STL.html">STL</a></td>
-          <td>W</td>
-          <td>1</td>
-          <td>29</td>
-          <td>28</td>
-          <td>97.00%</td>
-          <td>60.0</td>
-        </tr>
-        
-        <tr>
-          <td><a href="/schedule/2023-24.html">2023-24</a></td>
-          <td><a href="/boxscores/202312310COL.html">12/31/2023</a></td>
-          <td><a href="/teams/COL.html">COL</a></td>
-          <td>vs</td>
-          <td><a href="/teams/SJS.html">SJS</a></td>
-          <td>W</td>
-          <td>1</td>
-          <td>11</td>
-          <td>10</td>
-          <td>91.00%</td>
-          <td>59.8</td>
-        </tr>
-        
-        <tr>
-          <td><a href="/schedule/2023-24.html">2023-24</a></td>
-          <td><a href="/boxscores/202401020COL.html">1/2/2024</a></td>
-          <td><a href="/teams/COL.html">COL</a></td>
-          <td>vs</td>
-          <td><a href="/teams/NYI.html">NYI</a></td>
-          <td>W</td>
-          <td>4</td>
-          <td>22</td>
-          <td>18</td>
-          <td>82.00%</td>
-          <td>60.47</td>
-        </tr>
-        
-        <tr>
-          <td><a href="/schedule/2023-24.html">2023-24</a></td>
-          <td><a href="/boxscores/202401040DAL.html">1/4/2024</a></td>
-          <td><a href="/teams/COL.html">COL</a></td>
-          <td>@</td>
-          <td><a href="/teams/DAL.html">DAL</a></td>
-          <td>W</td>
-          <td>4</td>
-          <td>32</td>
-          <td>28</td>
-          <td>88.00%</td>
-          <td>62.28</td>
-        </tr>
-        
-        <tr>
-          <td><a href="/schedule/2023-24.html">2023-24</a></td>
-          <td><a href="/boxscores/202401060COL.html">1/6/2024</a></td>
-          <td><a href="/teams/COL.html">COL</a></td>
-          <td>vs</td>
-          <td><a href="/teams/FLA.html">FLA</a></td>
-          <td>L</td>
-          <td>3</td>
-          <td>15</td>
-          <td>12</td>
-          <td>80.00%</td>
-          <td>30.92</td>
-        </tr>
-        
-        <tr>
-          <td><a href="/schedule/2023-24.html">2023-24</a></td>
-          <td><a href="/boxscores/202401080COL.html">1/8/2024</a></td>
-          <td><a href="/teams/COL.html">COL</a></td>
-          <td>vs</td>
-          <td><a href="/teams/BOS.html">BOS</a></td>
-          <td>W</td>
-          <td>3</td>
-          <td>26</td>
-          <td>23</td>
-          <td>89.00%</td>
-          <td>65.0</td>
-        </tr>
-        
-        <tr>
-          <td><a href="/schedule/2023-24.html">2023-24</a></td>
-          <td><a href="/boxscores/202401100COL.html">1/10/2024</a></td>
-          <td><a href="/teams/COL.html">COL</a></td>
-          <td>vs</td>
-          <td><a href="/teams/VEG.html">VEG</a></td>
-          <td>W</td>
-          <td>0</td>
-          <td>25</td>
-          <td>25</td>
-          <td>100.00%</td>
-          <td>60.0</td>
-        </tr>
-        
-        <tr>
-          <td><a href="/schedule/2023-24.html">2023-24</a></td>
-          <td><a href="/boxscores/202401130TOR.html">1/13/2024</a></td>
-          <td><a href="/teams/COL.html">COL</a></td>
-          <td>@</td>
-          <td><a href="/teams/TOR.html">TOR</a></td>
-          <td>W</td>
-          <td>3</td>
-          <td>29</td>
-          <td>26</td>
-          <td>90.00%</td>
-          <td>59.57</td>
-        </tr>
-        
-        <tr>
-          <td><a href="/schedule/2023-24.html">2023-24</a></td>
-          <td><a href="/boxscores/202401150MTL.html">1/15/2024</a></td>
-          <td><a href="/teams/COL.html">COL</a></td>
-          <td>@</td>
-          <td><a href="/teams/MTL.html">MTL</a></td>
-          <td>L</td>
-          <td>4</td>
-          <td>34</td>
-          <td>30</td>
-          <td>88.00%</td>
-          <td>58.13</td>
-        </tr>
-        
-        <tr>
-          <td><a href="/schedule/2023-24.html">2023-24</a></td>
-          <td><a href="/boxscores/202401180BOS.html">1/18/2024</a></td>
-          <td><a href="/teams/COL.html">COL</a></td>
-          <td>@</td>
-          <td><a href="/teams/BOS.html">BOS</a></td>
-          <td>L</td>
-          <td>4</td>
-          <td>30</td>
-          <td>26</td>
-          <td>87.00%</td>
-          <td>58.62</td>
-        </tr>
-        
-        <tr>
-          <td><a href="/schedule/2023-24.html">2023-24</a></td>
-          <td><a href="/boxscores/202401200PHI.html">1/20/2024</a></td>
-          <td><a href="/teams/COL.html">COL</a></td>
-          <td>@</td>
-          <td><a href="/teams/PHI.html">PHI</a></td>
-          <td>W</td>
-          <td>4</td>
-          <td>40</td>
-          <td>36</td>
-          <td>90.00%</td>
-          <td>60.0</td>
-        </tr>
-        
-        <tr>
-          <td><a href="/schedule/2023-24.html">2023-24</a></td>
-          <td><a href="/boxscores/202401240COL.html">1/24/2024</a></td>
-          <td><a href="/teams/COL.html">COL</a></td>
-          <td>vs</td>
-          <td><a href="/teams/WSH.html">WSH</a></td>
-          <td>W</td>
-          <td>2</td>
-          <td>25</td>
-          <td>23</td>
-          <td>92.00%</td>
-          <td>60.0</td>
-        </tr>
-        
-        <tr>
-          <td><a href="/schedule/2023-24.html">2023-24</a></td>
-          <td><a href="/boxscores/202401260COL.html">1/26/2024</a></td>
-          <td><a href="/teams/COL.html">COL</a></td>
-          <td>vs</td>
-          <td><a href="/teams/LAK.html">LAK</a></td>
-          <td>W</td>
-          <td>1</td>
-          <td>27</td>
-          <td>26</td>
-          <td>96.00%</td>
-          <td>59.5</td>
-        </tr>
-        
-        <tr>
-          <td><a href="/schedule/2023-24.html">2023-24</a></td>
-          <td><a href="/boxscores/202402050NYR.html">2/5/2024</a></td>
-          <td><a href="/teams/COL.html">COL</a></td>
-          <td>@</td>
-          <td><a href="/teams/NYR.html">NYR</a></td>
-          <td>L-OT</td>
-          <td>2</td>
-          <td>29</td>
-          <td>27</td>
-          <td>93.00%</td>
-          <td>61.8</td>
-        </tr>
-        
-        <tr>
-          <td><a href="/schedule/2023-24.html">2023-24</a></td>
-          <td><a href="/boxscores/202402080CAR.html">2/8/2024</a></td>
-          <td><a href="/teams/COL.html">COL</a></td>
-          <td>@</td>
-          <td><a href="/teams/CAR.html">CAR</a></td>
-          <td>L</td>
-          <td>4</td>
-          <td>27</td>
-          <td>23</td>
-          <td>85.00%</td>
-          <td>57.13</td>
-        </tr>
-        
-        <tr>
-          <td><a href="/schedule/2023-24.html">2023-24</a></td>
-          <td><a href="/boxscores/202402100FLA.html">2/10/2024</a></td>
-          <td><a href="/teams/COL.html">COL</a></td>
-          <td>@</td>
-          <td><a href="/teams/FLA.html">FLA</a></td>
-          <td>L</td>
-          <td>4</td>
-          <td>41</td>
-          <td>37</td>
-          <td>90.00%</td>
-          <td>60.0</td>
-        </tr>
-        
-        <tr>
-          <td><a href="/schedule/2023-24.html">2023-24</a></td>
-          <td><a href="/boxscores/202402130WSH.html">2/13/2024</a></td>
-          <td><a href="/teams/COL.html">COL</a></td>
-          <td>@</td>
-          <td><a href="/teams/WSH.html">WSH</a></td>
-          <td>W</td>
-          <td>3</td>
-          <td>27</td>
-          <td>24</td>
-          <td>89.00%</td>
-          <td>60.0</td>
-        </tr>
-        
-        <tr>
-          <td><a href="/schedule/2023-24.html">2023-24</a></td>
-          <td><a href="/boxscores/202402180COL.html">2/18/2024</a></td>
-          <td><a href="/teams/COL.html">COL</a></td>
-          <td>vs</td>
-          <td><a href="/teams/ARI.html">ARI</a></td>
-          <td>W</td>
-          <td>3</td>
-          <td>30</td>
-          <td>27</td>
-          <td>90.00%</td>
-          <td>60.0</td>
-        </tr>
-        
-        <tr>
-          <td><a href="/schedule/2023-24.html">2023-24</a></td>
-          <td><a href="/boxscores/202402200COL.html">2/20/2024</a></td>
-          <td><a href="/teams/COL.html">COL</a></td>
-          <td>vs</td>
-          <td><a href="/teams/VAN.html">VAN</a></td>
-          <td>W</td>
-          <td>1</td>
-          <td>25</td>
-          <td>24</td>
-          <td>96.00%</td>
-          <td>59.78</td>
-        </tr>
-        
-        <tr>
-          <td><a href="/schedule/2023-24.html">2023-24</a></td>
-          <td><a href="/boxscores/202402240COL.html">2/24/2024</a></td>
-          <td><a href="/teams/COL.html">COL</a></td>
-          <td>vs</td>
-          <td><a href="/teams/TOR.html">TOR</a></td>
-          <td>L</td>
-          <td>4</td>
-          <td>30</td>
-          <td>26</td>
-          <td>87.00%</td>
-          <td>58.22</td>
-        </tr>
-        
-        <tr>
-          <td><a href="/schedule/2023-24.html">2023-24</a></td>
-          <td><a href="/boxscores/202402270COL.html">2/27/2024</a></td>
-          <td><a href="/teams/COL.html">COL</a></td>
-          <td>vs</td>
-          <td><a href="/teams/DAL.html">DAL</a></td>
-          <td>W</td>
-          <td>1</td>
-          <td>34</td>
-          <td>33</td>
-          <td>97.00%</td>
-          <td>60.0</td>
-        </tr>
-        
-        <tr>
-          <td><a href="/schedule/2023-24.html">2023-24</a></td>
-          <td><a href="/boxscores/202403020NSH.html">3/2/2024</a></td>
-          <td><a href="/teams/COL.html">COL</a></td>
-          <td>@</td>
-          <td><a href="/teams/NSH.html">NSH</a></td>
-          <td>L</td>
-          <td>4</td>
-          <td>34</td>
-          <td>30</td>
-          <td>88.00%</td>
-          <td>58.63</td>
-        </tr>
-        
-        <tr>
-          <td><a href="/schedule/2023-24.html">2023-24</a></td>
-          <td><a href="/boxscores/202403060COL.html">3/6/2024</a></td>
-          <td><a href="/teams/COL.html">COL</a></td>
-          <td>vs</td>
-          <td><a href="/teams/DET.html">DET</a></td>
-          <td>W</td>
-          <td>2</td>
-          <td>29</td>
-          <td>27</td>
-          <td>93.00%</td>
-          <td>60.0</td>
-        </tr>
-        
-        <tr>
-          <td><a href="/schedule/2023-24.html">2023-24</a></td>
-          <td><a href="/boxscores/202403080COL.html">3/8/2024</a></td>
-          <td><a href="/teams/COL.html">COL</a></td>
-          <td>vs</td>
-          <td><a href="/teams/MIN.html">MIN</a></td>
-          <td>W</td>
-          <td>1</td>
-          <td>30</td>
-          <td>29</td>
-          <td>97.00%</td>
-          <td>62.53</td>
-        </tr>
-        
-        <tr>
-          <td><a href="/schedule/2023-24.html">2023-24</a></td>
-          <td><a href="/boxscores/202403130VAN.html">3/13/2024</a></td>
-          <td><a href="/teams/COL.html">COL</a></td>
-          <td>@</td>
-          <td><a href="/teams/VAN.html">VAN</a></td>
-          <td>W</td>
-          <td>3</td>
-          <td>21</td>
-          <td>18</td>
-          <td>86.00%</td>
-          <td>59.75</td>
-        </tr>
-        
-        <tr>
-          <td><a href="/schedule/2023-24.html">2023-24</a></td>
-          <td><a href="/boxscores/202403160EDM.html">3/16/2024</a></td>
-          <td><a href="/teams/COL.html">COL</a></td>
-          <td>@</td>
-          <td><a href="/teams/EDM.html">EDM</a></td>
-          <td>W</td>
-          <td>2</td>
-          <td>34</td>
-          <td>32</td>
-          <td>94.00%</td>
-          <td>64.98</td>
-        </tr>
-        
-        <tr>
-          <td><a href="/schedule/2023-24.html">2023-24</a></td>
-          <td><a href="/boxscores/202403220COL.html">3/22/2024</a></td>
-          <td><a href="/teams/COL.html">COL</a></td>
-          <td>vs</td>
-          <td><a href="/teams/CBJ.html">CBJ</a></td>
-          <td>W</td>
-          <td>1</td>
-          <td>24</td>
-          <td>23</td>
-          <td>96.00%</td>
-          <td>60.0</td>
-        </tr>
-        
-        <tr>
-          <td><a href="/schedule/2023-24.html">2023-24</a></td>
-          <td><a href="/boxscores/202403240COL.html">3/24/2024</a></td>
-          <td><a href="/teams/COL.html">COL</a></td>
-          <td>vs</td>
-          <td><a href="/teams/PIT.html">PIT</a></td>
-          <td>W</td>
-          <td>4</td>
-          <td>34</td>
-          <td>30</td>
-          <td>88.00%</td>
-          <td>60.9</td>
-        </tr>
-        
-        <tr>
-          <td><a href="/schedule/2023-24.html">2023-24</a></td>
-          <td><a href="/boxscores/202403280COL.html">3/28/2024</a></td>
-          <td><a href="/teams/COL.html">COL</a></td>
-          <td>vs</td>
-          <td><a href="/teams/NYR.html">NYR</a></td>
-          <td>L-SO</td>
-          <td>2</td>
-          <td>25</td>
-          <td>23</td>
-          <td>92.00%</td>
-          <td>65.0</td>
-        </tr>
-        
-        <tr>
-          <td><a href="/schedule/2023-24.html">2023-24</a></td>
-          <td><a href="/boxscores/202403300COL.html">3/30/2024</a></td>
-          <td><a href="/teams/COL.html">COL</a></td>
-          <td>vs</td>
-          <td><a href="/teams/NSH.html">NSH</a></td>
-          <td>W</td>
-          <td>4</td>
-          <td>13</td>
-          <td>9</td>
-          <td>69.00%</td>
-          <td>20.73</td>
-        </tr>
-        
-        <tr>
-          <td><a href="/schedule/2023-24.html">2023-24</a></td>
-          <td><a href="/boxscores/202404050EDM.html">4/5/2024</a></td>
-          <td><a href="/teams/COL.html">COL</a></td>
-          <td>@</td>
-          <td><a href="/teams/EDM.html">EDM</a></td>
-          <td>L</td>
-          <td>6</td>
-          <td>47</td>
-          <td>41</td>
-          <td>87.00%</td>
-          <td>60.0</td>
-        </tr>
-        
-        <tr>
-          <td><a href="/schedule/2023-24.html">2023-24</a></td>
-          <td><a href="/boxscores/202404070COL.html">4/7/2024</a></td>
-          <td><a href="/teams/COL.html">COL</a></td>
-          <td>vs</td>
-          <td><a href="/teams/DAL.html">DAL</a></td>
-          <td>L</td>
-          <td>6</td>
-          <td>36</td>
-          <td>30</td>
-          <td>83.00%</td>
-          <td>56.75</td>
-        </tr>
-        
-        <tr>
-          <td><a href="/schedule/2023-24.html">2023-24</a></td>
-          <td><a href="/boxscores/202404090COL.html">4/9/2024</a></td>
-          <td><a href="/teams/COL.html">COL</a></td>
-          <td>vs</td>
-          <td><a href="/teams/MIN.html">MIN</a></td>
-          <td>W</td>
-          <td>2</td>
-          <td>22</td>
-          <td>20</td>
-          <td>91.00%</td>
-          <td>60.0</td>
-        </tr>
-        
-        <tr>
-          <td><a href="/schedule/2023-24.html">2023-24</a></td>
-          <td><a href="/boxscores/202404130COL.html">4/13/2024</a></td>
-          <td><a href="/teams/COL.html">COL</a></td>
-          <td>vs</td>
-          <td><a href="/teams/WPG.html">WPG</a></td>
-          <td>L</td>
-          <td>4</td>
-          <td>15</td>
-          <td>11</td>
-          <td>73.00%</td>
-          <td>15.28</td>
-        </tr>
-        
-        <tr>
-          <td><a href="/schedule/2023-24.html">2023-24</a></td>
-          <td><a href="/boxscores/202404140VEG.html">4/14/2024</a></td>
-          <td><a href="/teams/COL.html">COL</a></td>
-          <td>@</td>
-          <td><a href="/teams/VEG.html">VEG</a></td>
-          <td>L-OT</td>
-          <td>4</td>
-          <td>30</td>
-          <td>26</td>
-          <td>87.00%</td>
-          <td>61.38</td>
-        </tr>
-        
-    </tbody>
-  </table>
+</main>
 </body>
 </html>
-    

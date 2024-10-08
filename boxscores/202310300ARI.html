@@ -1,161 +1,117 @@
-
-    <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Game 202310300ARI Boxscore</title>
-        <link rel="stylesheet" href="/assets/styles.css">
-        <script src="/assets/searchBar.js" defer></script>
-        <script src="/assets/tableSort.js"></script>
-        <style>
-            tr:hover {background-color: #F0FFF0;}
-        </style>
-    </head>
-    <body>
-        <nav id="navbar">
-            <a href="/">Home</a>
-            <a href="/players/">Players</a>
-            <a href="/teams/">Teams</a>
-            <a href="/leaders/">Leaders</a>
-            <a href="/probabilities/">Probabilities</a>
-            <a href="/boxscores/">Boxscores</a>
-            <a href="/schedule/">Schedule</a>
-
-            <div class="search-container">
-                <input type="text" id="searchInput" placeholder="Search players or teams..." oninput="searchEntities()" />
-                <ul id="suggestions"></ul>
-            </div>
-        </nav>
-
-        <main id="content">
-            <h1>Game 202310300ARI Boxscore</h1>
-
-            <h2>Skaters</h2>
-            <table id="202310300ARI_skaters" border="1">
-                <thead>
-                    <tr>
-                        <th>Date</th><th>Home Team</th><th>Away Team</th><th>Player</th><th>Team</th><th>G</th><th>A</th><th>PTS</th>
-                        <th>+/-</th><th>PIM</th><th>EVG</th><th>PPG</th><th>SHG</th><th>GWG</th><th>EV Assist</th><th>PP Assist</th>
-                        <th>SH Assist</th><th>SOG</th><th>S%</th><th>SHFT</th><th>TOI</th><th>iCF</th><th>SAT‑F</th><th>SAT‑A</th>
-                        <th>CF%</th><th>CRel%</th><th>ZSO</th><th>ZSD</th><th>oZS%</th><th>HIT</th><th>BLK</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr><td><a href="/boxscores/202310300ARI.html">10/30/2023</a></td><td><a href="/teams/ARI.html">ARI</a></td><td><a href="/teams/CHI.html">CHI</a></td><td><a href="/players/Andreas Athanasiou.html">Andreas Athanasiou</a></td><td><a href="/teams/CHI.html">CHI</a></td><td>0</td><td>0</td><td>0</td><td>-3</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>17</td><td>12.63</td><td>2</td><td>13</td><td>13</td><td>50</td><td>-1.5</td><td>1</td><td>2</td><td>33.3</td><td>0</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202310300ARI.html">10/30/2023</a></td><td><a href="/teams/ARI.html">ARI</a></td><td><a href="/teams/CHI.html">CHI</a></td><td><a href="/players/Connor Bedard.html">Connor Bedard</a></td><td><a href="/teams/CHI.html">CHI</a></td><td>1</td><td>0</td><td>1</td><td>-1</td><td>2</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>3</td><td>33.3</td><td>22</td><td>18.5</td><td>6</td><td>29</td><td>25</td><td>53.7</td><td>4.4</td><td>13</td><td>3</td><td>81.3</td><td>1</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202310300ARI.html">10/30/2023</a></td><td><a href="/teams/ARI.html">ARI</a></td><td><a href="/teams/CHI.html">CHI</a></td><td><a href="/players/Jason Dickinson.html">Jason Dickinson</a></td><td><a href="/teams/CHI.html">CHI</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>19</td><td>15.25</td><td>3</td><td>12</td><td>11</td><td>52.2</td><td>1.3</td><td>6</td><td>5</td><td>54.5</td><td>1</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202310300ARI.html">10/30/2023</a></td><td><a href="/teams/ARI.html">ARI</a></td><td><a href="/teams/CHI.html">CHI</a></td><td><a href="/players/Ryan Donato.html">Ryan Donato</a></td><td><a href="/teams/CHI.html">CHI</a></td><td>0</td><td>0</td><td>0</td><td>-3</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>4</td><td>0</td><td>16</td><td>11.8</td><td>6</td><td>16</td><td>9</td><td>64</td><td>15.9</td><td>4</td><td>2</td><td>66.7</td><td>4</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202310300ARI.html">10/30/2023</a></td><td><a href="/teams/ARI.html">ARI</a></td><td><a href="/teams/CHI.html">CHI</a></td><td><a href="/players/Mackenzie Entwistle.html">Mackenzie Entwistle</a></td><td><a href="/teams/CHI.html">CHI</a></td><td>0</td><td>0</td><td>0</td><td>-2</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>17</td><td>12.48</td><td>1</td><td>16</td><td>13</td><td>55.2</td><td>5.2</td><td>1</td><td>3</td><td>25</td><td>7</td><td>2</td></tr>
-<tr><td><a href="/boxscores/202310300ARI.html">10/30/2023</a></td><td><a href="/teams/ARI.html">ARI</a></td><td><a href="/teams/CHI.html">CHI</a></td><td><a href="/players/Nick Foligno.html">Nick Foligno</a></td><td><a href="/teams/CHI.html">CHI</a></td><td>0</td><td>0</td><td>0</td><td>-1</td><td>5</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>20</td><td>17.08</td><td>2</td><td>25</td><td>20</td><td>55.6</td><td>6.8</td><td>10</td><td>5</td><td>66.7</td><td>2</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202310300ARI.html">10/30/2023</a></td><td><a href="/teams/ARI.html">ARI</a></td><td><a href="/teams/CHI.html">CHI</a></td><td><a href="/players/Reese Johnson.html">Reese Johnson</a></td><td><a href="/teams/CHI.html">CHI</a></td><td>0</td><td>0</td><td>0</td><td>-2</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>18</td><td>13.65</td><td>3</td><td>17</td><td>14</td><td>54.8</td><td>4.8</td><td>1</td><td>3</td><td>25</td><td>1</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202310300ARI.html">10/30/2023</a></td><td><a href="/teams/ARI.html">ARI</a></td><td><a href="/teams/CHI.html">CHI</a></td><td><a href="/players/Tyler Johnson.html">Tyler Johnson</a></td><td><a href="/teams/CHI.html">CHI</a></td><td>0</td><td>0</td><td>0</td><td>-3</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>3</td><td>0</td><td>15</td><td>11.55</td><td>3</td><td>10</td><td>15</td><td>40</td><td>-13.8</td><td>4</td><td>3</td><td>57.1</td><td>1</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202310300ARI.html">10/30/2023</a></td><td><a href="/teams/ARI.html">ARI</a></td><td><a href="/teams/CHI.html">CHI</a></td><td><a href="/players/Seth Jones.html">Seth Jones</a></td><td><a href="/teams/CHI.html">CHI</a></td><td>0</td><td>1</td><td>1</td><td>-2</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>5</td><td>0</td><td>25</td><td>23.77</td><td>11</td><td>35</td><td>19</td><td>64.8</td><td>23.5</td><td>13</td><td>8</td><td>61.9</td><td>2</td><td>2</td></tr>
-<tr><td><a href="/boxscores/202310300ARI.html">10/30/2023</a></td><td><a href="/teams/ARI.html">ARI</a></td><td><a href="/teams/CHI.html">CHI</a></td><td><a href="/players/Wyatt Kaiser.html">Wyatt Kaiser</a></td><td><a href="/teams/CHI.html">CHI</a></td><td>0</td><td>0</td><td>0</td><td>-3</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>24</td><td>18.9</td><td>3</td><td>9</td><td>21</td><td>30</td><td>-27.6</td><td>9</td><td>5</td><td>64.3</td><td>1</td><td>2</td></tr>
-<tr><td><a href="/boxscores/202310300ARI.html">10/30/2023</a></td><td><a href="/teams/ARI.html">ARI</a></td><td><a href="/teams/CHI.html">CHI</a></td><td><a href="/players/Kevin Korchinski.html">Kevin Korchinski</a></td><td><a href="/teams/CHI.html">CHI</a></td><td>0</td><td>1</td><td>1</td><td>-2</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>3</td><td>0</td><td>21</td><td>19.48</td><td>8</td><td>29</td><td>20</td><td>59.2</td><td>13</td><td>11</td><td>6</td><td>64.7</td><td>0</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202310300ARI.html">10/30/2023</a></td><td><a href="/teams/ARI.html">ARI</a></td><td><a href="/teams/CHI.html">CHI</a></td><td><a href="/players/Philipp Kurashev.html">Philipp Kurashev</a></td><td><a href="/teams/CHI.html">CHI</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>2</td><td>0</td><td>23</td><td>18.35</td><td>3</td><td>27</td><td>21</td><td>56.2</td><td>8.1</td><td>13</td><td>4</td><td>76.5</td><td>2</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202310300ARI.html">10/30/2023</a></td><td><a href="/teams/ARI.html">ARI</a></td><td><a href="/teams/CHI.html">CHI</a></td><td><a href="/players/Connor Murphy.html">Connor Murphy</a></td><td><a href="/teams/CHI.html">CHI</a></td><td>0</td><td>0</td><td>0</td><td>-1</td><td>2</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>2</td><td>0</td><td>25</td><td>20.5</td><td>3</td><td>17</td><td>24</td><td>41.5</td><td>-14.2</td><td>4</td><td>6</td><td>40</td><td>6</td><td>2</td></tr>
-<tr><td><a href="/boxscores/202310300ARI.html">10/30/2023</a></td><td><a href="/teams/ARI.html">ARI</a></td><td><a href="/teams/CHI.html">CHI</a></td><td><a href="/players/Corey Perry.html">Corey Perry</a></td><td><a href="/teams/CHI.html">CHI</a></td><td>0</td><td>0</td><td>0</td><td>-1</td><td>2</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>2</td><td>0</td><td>17</td><td>13.12</td><td>2</td><td>17</td><td>5</td><td>77.3</td><td>31.5</td><td>7</td><td>2</td><td>77.8</td><td>2</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202310300ARI.html">10/30/2023</a></td><td><a href="/teams/ARI.html">ARI</a></td><td><a href="/teams/CHI.html">CHI</a></td><td><a href="/players/Isaak Phillips.html">Isaak Phillips</a></td><td><a href="/teams/CHI.html">CHI</a></td><td>0</td><td>0</td><td>0</td><td>-1</td><td>4</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>26</td><td>17.42</td><td>5</td><td>15</td><td>22</td><td>40.5</td><td>-14.9</td><td>2</td><td>4</td><td>33.3</td><td>0</td><td>1</td></tr>
-<tr><td><a href="/boxscores/202310300ARI.html">10/30/2023</a></td><td><a href="/teams/ARI.html">ARI</a></td><td><a href="/teams/CHI.html">CHI</a></td><td><a href="/players/Taylor Raddysh.html">Taylor Raddysh</a></td><td><a href="/teams/CHI.html">CHI</a></td><td>0</td><td>0</td><td>0</td><td>-1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>2</td><td>0</td><td>20</td><td>14.58</td><td>2</td><td>11</td><td>15</td><td>42.3</td><td>-11.1</td><td>5</td><td>5</td><td>50</td><td>0</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202310300ARI.html">10/30/2023</a></td><td><a href="/teams/ARI.html">ARI</a></td><td><a href="/teams/CHI.html">CHI</a></td><td><a href="/players/Lukas Reichel.html">Lukas Reichel</a></td><td><a href="/teams/CHI.html">CHI</a></td><td>0</td><td>0</td><td>0</td><td>-1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>20</td><td>14.98</td><td>1</td><td>8</td><td>15</td><td>34.8</td><td>-19.9</td><td>8</td><td>4</td><td>66.7</td><td>0</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202310300ARI.html">10/30/2023</a></td><td><a href="/teams/ARI.html">ARI</a></td><td><a href="/teams/CHI.html">CHI</a></td><td><a href="/players/Jarred Tinordi.html">Jarred Tinordi</a></td><td><a href="/teams/CHI.html">CHI</a></td><td>0</td><td>0</td><td>0</td><td>-3</td><td>5</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>21</td><td>16.65</td><td>2</td><td>19</td><td>20</td><td>48.7</td><td>-3.5</td><td>7</td><td>3</td><td>70</td><td>3</td><td>1</td></tr>
-<tr><td><a href="/boxscores/202310300ARI.html">10/30/2023</a></td><td><a href="/teams/ARI.html">ARI</a></td><td><a href="/teams/CHI.html">CHI</a></td><td><a href="/players/Petr Mrázek.html">Petr Mrázek</a></td><td><a href="/teams/CHI.html">CHI</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>2</td><td>24.57</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202310300ARI.html">10/30/2023</a></td><td><a href="/teams/ARI.html">ARI</a></td><td><a href="/teams/CHI.html">CHI</a></td><td><a href="/players/Arvid Söderblom.html">Arvid Söderblom</a></td><td><a href="/teams/CHI.html">CHI</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>2</td><td>35.43</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202310300ARI.html">10/30/2023</a></td><td><a href="/teams/ARI.html">ARI</a></td><td><a href="/teams/CHI.html">CHI</a></td><td><a href="/players/--.html">--</a></td><td><a href="/teams/--.html">--</a></td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td></tr>
-<tr><td><a href="/boxscores/202310300ARI.html">10/30/2023</a></td><td><a href="/teams/ARI.html">ARI</a></td><td><a href="/teams/CHI.html">CHI</a></td><td><a href="/players/Nick Bjugstad.html">Nick Bjugstad</a></td><td><a href="/teams/ARI.html">ARI</a></td><td>0</td><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>1</td><td>0</td><td>20</td><td>16.1</td><td>2</td><td>12</td><td>20</td><td>37.5</td><td>-15.1</td><td>4</td><td>11</td><td>26.7</td><td>0</td><td>3</td></tr>
-<tr><td><a href="/boxscores/202310300ARI.html">10/30/2023</a></td><td><a href="/teams/ARI.html">ARI</a></td><td><a href="/teams/CHI.html">CHI</a></td><td><a href="/players/Travis Boyd.html">Travis Boyd</a></td><td><a href="/teams/ARI.html">ARI</a></td><td>0</td><td>2</td><td>2</td><td>3</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>2</td><td>0</td><td>0</td><td>2</td><td>0</td><td>22</td><td>13.85</td><td>4</td><td>18</td><td>17</td><td>51.4</td><td>3.5</td><td>4</td><td>2</td><td>66.7</td><td>1</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202310300ARI.html">10/30/2023</a></td><td><a href="/teams/ARI.html">ARI</a></td><td><a href="/teams/CHI.html">CHI</a></td><td><a href="/players/Josh Brown.html">Josh Brown</a></td><td><a href="/teams/ARI.html">ARI</a></td><td>1</td><td>0</td><td>1</td><td>3</td><td>4</td><td>1</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>1</td><td>100</td><td>23</td><td>15.88</td><td>1</td><td>17</td><td>20</td><td>45.9</td><td>-4.1</td><td>4</td><td>4</td><td>50</td><td>1</td><td>2</td></tr>
-<tr><td><a href="/boxscores/202310300ARI.html">10/30/2023</a></td><td><a href="/teams/ARI.html">ARI</a></td><td><a href="/teams/CHI.html">CHI</a></td><td><a href="/players/Michael Carcone.html">Michael Carcone</a></td><td><a href="/teams/ARI.html">ARI</a></td><td>3</td><td>1</td><td>4</td><td>3</td><td>0</td><td>2</td><td>1</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>7</td><td>42.9</td><td>20</td><td>14.53</td><td>8</td><td>18</td><td>18</td><td>50</td><td>1.6</td><td>4</td><td>1</td><td>80</td><td>0</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202310300ARI.html">10/30/2023</a></td><td><a href="/teams/ARI.html">ARI</a></td><td><a href="/teams/CHI.html">CHI</a></td><td><a href="/players/Logan Cooley.html">Logan Cooley</a></td><td><a href="/teams/ARI.html">ARI</a></td><td>0</td><td>1</td><td>1</td><td>3</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>1</td><td>0</td><td>21</td><td>17.98</td><td>6</td><td>26</td><td>16</td><td>61.9</td><td>19.4</td><td>7</td><td>3</td><td>70</td><td>1</td><td>1</td></tr>
-<tr><td><a href="/boxscores/202310300ARI.html">10/30/2023</a></td><td><a href="/teams/ARI.html">ARI</a></td><td><a href="/teams/CHI.html">CHI</a></td><td><a href="/players/Lawson Crouse.html">Lawson Crouse</a></td><td><a href="/teams/ARI.html">ARI</a></td><td>0</td><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>1</td><td>0</td><td>20</td><td>17.32</td><td>7</td><td>13</td><td>19</td><td>40.6</td><td>-10.9</td><td>5</td><td>10</td><td>33.3</td><td>4</td><td>1</td></tr>
-<tr><td><a href="/boxscores/202310300ARI.html">10/30/2023</a></td><td><a href="/teams/ARI.html">ARI</a></td><td><a href="/teams/CHI.html">CHI</a></td><td><a href="/players/Mathew Dumba.html">Mathew Dumba</a></td><td><a href="/teams/ARI.html">ARI</a></td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>26</td><td>22.37</td><td>2</td><td>17</td><td>29</td><td>37</td><td>-18.4</td><td>5</td><td>10</td><td>33.3</td><td>2</td><td>1</td></tr>
-<tr><td><a href="/boxscores/202310300ARI.html">10/30/2023</a></td><td><a href="/teams/ARI.html">ARI</a></td><td><a href="/teams/CHI.html">CHI</a></td><td><a href="/players/Sean Durzi.html">Sean Durzi</a></td><td><a href="/teams/ARI.html">ARI</a></td><td>1</td><td>1</td><td>2</td><td>2</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>3</td><td>33.3</td><td>23</td><td>19.57</td><td>6</td><td>28</td><td>15</td><td>65.1</td><td>24.4</td><td>6</td><td>7</td><td>46.2</td><td>0</td><td>2</td></tr>
-<tr><td><a href="/boxscores/202310300ARI.html">10/30/2023</a></td><td><a href="/teams/ARI.html">ARI</a></td><td><a href="/teams/CHI.html">CHI</a></td><td><a href="/players/Barrett Hayton.html">Barrett Hayton</a></td><td><a href="/teams/ARI.html">ARI</a></td><td>0</td><td>0</td><td>0</td><td>-1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>17</td><td>16.17</td><td>3</td><td>14</td><td>18</td><td>43.8</td><td>-6.7</td><td>4</td><td>5</td><td>44.4</td><td>1</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202310300ARI.html">10/30/2023</a></td><td><a href="/teams/ARI.html">ARI</a></td><td><a href="/teams/CHI.html">CHI</a></td><td><a href="/players/Clayton Keller.html">Clayton Keller</a></td><td><a href="/teams/ARI.html">ARI</a></td><td>0</td><td>0</td><td>0</td><td>-1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>3</td><td>0</td><td>19</td><td>16.87</td><td>3</td><td>17</td><td>15</td><td>53.1</td><td>5.7</td><td>5</td><td>4</td><td>55.6</td><td>0</td><td>1</td></tr>
-<tr><td><a href="/boxscores/202310300ARI.html">10/30/2023</a></td><td><a href="/teams/ARI.html">ARI</a></td><td><a href="/teams/CHI.html">CHI</a></td><td><a href="/players/Alexander Kerfoot.html">Alexander Kerfoot</a></td><td><a href="/teams/ARI.html">ARI</a></td><td>0</td><td>3</td><td>3</td><td>4</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>3</td><td>0</td><td>0</td><td>1</td><td>0</td><td>20</td><td>13.1</td><td>1</td><td>13</td><td>16</td><td>44.8</td><td>-5.2</td><td>3</td><td>9</td><td>25</td><td>0</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202310300ARI.html">10/30/2023</a></td><td><a href="/teams/ARI.html">ARI</a></td><td><a href="/teams/CHI.html">CHI</a></td><td><a href="/players/Matias Maccelli.html">Matias Maccelli</a></td><td><a href="/teams/ARI.html">ARI</a></td><td>0</td><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>2</td><td>0</td><td>18</td><td>14.72</td><td>5</td><td>15</td><td>13</td><td>53.6</td><td>6.1</td><td>4</td><td>10</td><td>28.6</td><td>1</td><td>1</td></tr>
-<tr><td><a href="/boxscores/202310300ARI.html">10/30/2023</a></td><td><a href="/teams/ARI.html">ARI</a></td><td><a href="/teams/CHI.html">CHI</a></td><td><a href="/players/Jack McBain.html">Jack McBain</a></td><td><a href="/teams/ARI.html">ARI</a></td><td>2</td><td>2</td><td>4</td><td>4</td><td>5</td><td>2</td><td>0</td><td>0</td><td>0</td><td>2</td><td>0</td><td>0</td><td>6</td><td>33.3</td><td>17</td><td>11.2</td><td>6</td><td>17</td><td>12</td><td>58.6</td><td>12.6</td><td>4</td><td>5</td><td>44.4</td><td>2</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202310300ARI.html">10/30/2023</a></td><td><a href="/teams/ARI.html">ARI</a></td><td><a href="/teams/CHI.html">CHI</a></td><td><a href="/players/J.J. Moser.html">J.J. Moser</a></td><td><a href="/teams/ARI.html">ARI</a></td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>25</td><td>20</td><td>1</td><td>21</td><td>26</td><td>44.7</td><td>-6.5</td><td>6</td><td>11</td><td>35.3</td><td>1</td><td>2</td></tr>
-<tr><td><a href="/boxscores/202310300ARI.html">10/30/2023</a></td><td><a href="/teams/ARI.html">ARI</a></td><td><a href="/teams/CHI.html">CHI</a></td><td><a href="/players/Liam O'Brien.html">Liam O'Brien</a></td><td><a href="/teams/ARI.html">ARI</a></td><td>1</td><td>1</td><td>2</td><td>4</td><td>7</td><td>1</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>1</td><td>100</td><td>18</td><td>9.65</td><td>2</td><td>15</td><td>9</td><td>62.5</td><td>16.8</td><td>2</td><td>5</td><td>28.6</td><td>2</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202310300ARI.html">10/30/2023</a></td><td><a href="/teams/ARI.html">ARI</a></td><td><a href="/teams/CHI.html">CHI</a></td><td><a href="/players/Nick Schmaltz.html">Nick Schmaltz</a></td><td><a href="/teams/ARI.html">ARI</a></td><td>0</td><td>0</td><td>0</td><td>-1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>20</td><td>16.55</td><td>3</td><td>16</td><td>15</td><td>51.6</td><td>3.6</td><td>5</td><td>4</td><td>55.6</td><td>0</td><td>1</td></tr>
-<tr><td><a href="/boxscores/202310300ARI.html">10/30/2023</a></td><td><a href="/teams/ARI.html">ARI</a></td><td><a href="/teams/CHI.html">CHI</a></td><td><a href="/players/Troy Stecher.html">Troy Stecher</a></td><td><a href="/teams/ARI.html">ARI</a></td><td>0</td><td>0</td><td>0</td><td>3</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>24</td><td>18.13</td><td>3</td><td>20</td><td>19</td><td>51.3</td><td>3.5</td><td>4</td><td>7</td><td>36.4</td><td>1</td><td>2</td></tr>
-<tr><td><a href="/boxscores/202310300ARI.html">10/30/2023</a></td><td><a href="/teams/ARI.html">ARI</a></td><td><a href="/teams/CHI.html">CHI</a></td><td><a href="/players/Juuso Välimäki.html">Juuso Välimäki</a></td><td><a href="/teams/ARI.html">ARI</a></td><td>0</td><td>0</td><td>0</td><td>2</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>23</td><td>20.22</td><td>0</td><td>17</td><td>23</td><td>42.5</td><td>-9.2</td><td>3</td><td>9</td><td>25</td><td>0</td><td>4</td></tr>
-<tr><td><a href="/boxscores/202310300ARI.html">10/30/2023</a></td><td><a href="/teams/ARI.html">ARI</a></td><td><a href="/teams/CHI.html">CHI</a></td><td><a href="/players/Connor Ingram.html">Connor Ingram</a></td><td><a href="/teams/ARI.html">ARI</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>5</td><td>59.8</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202310300ARI.html">10/30/2023</a></td><td><a href="/teams/ARI.html">ARI</a></td><td><a href="/teams/CHI.html">CHI</a></td><td><a href="/players/--.html">--</a></td><td><a href="/teams/--.html">--</a></td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td></tr>
-
-                </tbody>
-            </table>
-
-            <h2>Goalies</h2>
-            <table id="202310300ARI_goalies" border="1">
-                <thead>
-                    <tr>
-                        <th>Home Team</th><th>Away Team</th><th>Goalie</th><th>Team</th><th>DEC</th><th>GA</th><th>SA</th><th>SV</th>
-                        <th>SV%</th><th>SO</th><th>PIM</th><th>Goalie TOI</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr><td><a href="/teams/ARI.html">ARI</a></td><td><a href="/teams/CHI.html">CHI</a></td><td><a href="/players/soderar01.html">Arvid Söderblom</a></td><td><a href="/teams/CHI.html">CHI</a></td><td>L</td><td>7</td><td>22</td><td>15</td><td>0.682</td><td>0</td><td>0</td><td>35:26:00</td></tr>
-<tr><td><a href="/teams/ARI.html">ARI</a></td><td><a href="/teams/CHI.html">CHI</a></td><td><a href="/players/mrazepe01.html">Petr Mrázek</a></td><td><a href="/teams/CHI.html">CHI</a></td><td>--</td><td>1</td><td>11</td><td>10</td><td>0.909</td><td>0</td><td>0</td><td>24:34:00</td></tr>
-<tr><td><a href="/teams/ARI.html">ARI</a></td><td><a href="/teams/CHI.html">CHI</a></td><td><a href="/players/ingraco01.html">Connor Ingram</a></td><td><a href="/teams/ARI.html">ARI</a></td><td>W</td><td>1</td><td>30</td><td>29</td><td>0.967</td><td>0</td><td>0</td><td>59:48:00</td></tr>
-
-                </tbody>
-            </table>
-
-            <h2>Scoring</h2>
-            <table id="202310300ARI_scoring" border="1">
-                <thead>
-                    <tr>
-                        <th>Home Team</th><th>Away Team</th><th>Period</th><th>Time</th><th>Team</th><th>Info</th>
-                        <th>Scorer</th><th>Assist1</th><th>Assist2</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr><td><a href="/teams/ARI.html">ARI</a></td><td><a href="/teams/CHI.html">CHI</a></td><td>1st Period</td><td>1st Period</td><td><a href="/teams/1st Period.html">1st Period</a></td><td>1st Period</td><td><a href="/players/1st Period.html">1st Period</a></td><td><a href="/players/1st Period.html">1st Period</a></td><td><a href="/players/1st Period.html">1st Period</a></td></tr>
-<tr><td><a href="/teams/ARI.html">ARI</a></td><td><a href="/teams/CHI.html">CHI</a></td><td>1st Period</td><td>0:28</td><td><a href="/teams/CHI.html">CHI</a></td><td>--</td><td><a href="/players/Connor Bedard.html">Connor Bedard</a></td><td><a href="/players/Kevin Korchinski.html">Kevin Korchinski</a></td><td><a href="/players/Seth Jones.html">Seth Jones</a></td></tr>
-<tr><td><a href="/teams/ARI.html">ARI</a></td><td><a href="/teams/CHI.html">CHI</a></td><td>1st Period</td><td>2:23</td><td><a href="/teams/ARI.html">ARI</a></td><td>--</td><td><a href="/players/Michael Carcone.html">Michael Carcone</a></td><td><a href="/players/Logan Cooley.html">Logan Cooley</a></td><td><a href="/players/Sean Durzi.html">Sean Durzi</a></td></tr>
-<tr><td><a href="/teams/ARI.html">ARI</a></td><td><a href="/teams/CHI.html">CHI</a></td><td>1st Period</td><td>13:53</td><td><a href="/teams/ARI.html">ARI</a></td><td>--</td><td><a href="/players/Josh Brown.html">Josh Brown</a></td><td><a href="/players/Jack McBain.html">Jack McBain</a></td><td><a href="/players/Alexander Kerfoot.html">Alexander Kerfoot</a></td></tr>
-<tr><td><a href="/teams/ARI.html">ARI</a></td><td><a href="/teams/CHI.html">CHI</a></td><td>1st Period</td><td>15:55</td><td><a href="/teams/ARI.html">ARI</a></td><td>PP</td><td><a href="/players/Michael Carcone.html">Michael Carcone</a></td><td><a href="/players/Lawson Crouse.html">Lawson Crouse</a></td><td><a href="/players/Nick Bjugstad.html">Nick Bjugstad</a></td></tr>
-<tr><td><a href="/teams/ARI.html">ARI</a></td><td><a href="/teams/CHI.html">CHI</a></td><td>2nd Period</td><td>2nd Period</td><td><a href="/teams/2nd Period.html">2nd Period</a></td><td>2nd Period</td><td><a href="/players/2nd Period.html">2nd Period</a></td><td><a href="/players/2nd Period.html">2nd Period</a></td><td><a href="/players/2nd Period.html">2nd Period</a></td></tr>
-<tr><td><a href="/teams/ARI.html">ARI</a></td><td><a href="/teams/CHI.html">CHI</a></td><td>2nd Period</td><td>5:00</td><td><a href="/teams/ARI.html">ARI</a></td><td>--</td><td><a href="/players/Michael Carcone.html">Michael Carcone</a></td><td><a href="/players/Travis Boyd.html">Travis Boyd</a></td><td><a href="/players/Travis Boyd.html">Travis Boyd</a></td></tr>
-<tr><td><a href="/teams/ARI.html">ARI</a></td><td><a href="/teams/CHI.html">CHI</a></td><td>2nd Period</td><td>6:38</td><td><a href="/teams/ARI.html">ARI</a></td><td>--</td><td><a href="/players/Jack McBain.html">Jack McBain</a></td><td><a href="/players/Alexander Kerfoot.html">Alexander Kerfoot</a></td><td><a href="/players/Liam O'Brien.html">Liam O'Brien</a></td></tr>
-<tr><td><a href="/teams/ARI.html">ARI</a></td><td><a href="/teams/CHI.html">CHI</a></td><td>2nd Period</td><td>11:18</td><td><a href="/teams/ARI.html">ARI</a></td><td>--</td><td><a href="/players/Sean Durzi.html">Sean Durzi</a></td><td><a href="/players/Michael Carcone.html">Michael Carcone</a></td><td><a href="/players/Travis Boyd.html">Travis Boyd</a></td></tr>
-<tr><td><a href="/teams/ARI.html">ARI</a></td><td><a href="/teams/CHI.html">CHI</a></td><td>2nd Period</td><td>15:26</td><td><a href="/teams/ARI.html">ARI</a></td><td>--</td><td><a href="/players/Liam O'Brien.html">Liam O'Brien</a></td><td><a href="/players/Jack McBain.html">Jack McBain</a></td><td><a href="/players/Matias Maccelli.html">Matias Maccelli</a></td></tr>
-<tr><td><a href="/teams/ARI.html">ARI</a></td><td><a href="/teams/CHI.html">CHI</a></td><td>3rd Period</td><td>3rd Period</td><td><a href="/teams/3rd Period.html">3rd Period</a></td><td>3rd Period</td><td><a href="/players/3rd Period.html">3rd Period</a></td><td><a href="/players/3rd Period.html">3rd Period</a></td><td><a href="/players/3rd Period.html">3rd Period</a></td></tr>
-<tr><td><a href="/teams/ARI.html">ARI</a></td><td><a href="/teams/CHI.html">CHI</a></td><td>3rd Period</td><td>10:37</td><td><a href="/teams/ARI.html">ARI</a></td><td>--</td><td><a href="/players/Jack McBain.html">Jack McBain</a></td><td><a href="/players/Alexander Kerfoot.html">Alexander Kerfoot</a></td><td><a href="/players/Alexander Kerfoot.html">Alexander Kerfoot</a></td></tr>
-
-                </tbody>
-            </table>
-
-            <h2>Penalties</h2>
-            <table id="202310300ARI_penalties" border="1">
-                <thead>
-                    <tr>
-                        <th>Home Team</th><th>Away Team</th><th>Period</th><th>Time</th><th>Team</th><th>Player</th>
-                        <th>Penalty</th><th>PIM</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr><td><a href="/teams/ARI.html">ARI</a></td><td><a href="/teams/CHI.html">CHI</a></td><td>1st Period</td><td>1st Period</td><td><a href="/teams/1st Period.html">1st Period</a></td><td><a href="/players/1st Period.html">1st Period</a></td><td>1st Period</td><td>1st Period</td></tr>
-<tr><td><a href="/teams/ARI.html">ARI</a></td><td><a href="/teams/CHI.html">CHI</a></td><td>1st Period</td><td>14:37</td><td><a href="/teams/CHI.html">CHI</a></td><td><a href="/players/Connor Murphy.html">Connor Murphy</a></td><td>Tripping</td><td>2 min</td></tr>
-<tr><td><a href="/teams/ARI.html">ARI</a></td><td><a href="/teams/CHI.html">CHI</a></td><td>1st Period</td><td>15:59</td><td><a href="/teams/CHI.html">CHI</a></td><td><a href="/players/Nick Foligno.html">Nick Foligno</a></td><td>Fighting</td><td>5 min</td></tr>
-<tr><td><a href="/teams/ARI.html">ARI</a></td><td><a href="/teams/CHI.html">CHI</a></td><td>1st Period</td><td>15:59</td><td><a href="/teams/ARI.html">ARI</a></td><td><a href="/players/Liam O'Brien.html">Liam O'Brien</a></td><td>Fighting</td><td>5 min</td></tr>
-<tr><td><a href="/teams/ARI.html">ARI</a></td><td><a href="/teams/CHI.html">CHI</a></td><td>1st Period</td><td>17:31</td><td><a href="/teams/CHI.html">CHI</a></td><td><a href="/players/Connor Bedard.html">Connor Bedard</a></td><td>Slashing</td><td>2 min</td></tr>
-<tr><td><a href="/teams/ARI.html">ARI</a></td><td><a href="/teams/CHI.html">CHI</a></td><td>2nd Period</td><td>2nd Period</td><td><a href="/teams/2nd Period.html">2nd Period</a></td><td><a href="/players/2nd Period.html">2nd Period</a></td><td>2nd Period</td><td>2nd Period</td></tr>
-<tr><td><a href="/teams/ARI.html">ARI</a></td><td><a href="/teams/CHI.html">CHI</a></td><td>2nd Period</td><td>9:04</td><td><a href="/teams/ARI.html">ARI</a></td><td><a href="/players/Liam O'Brien.html">Liam O'Brien</a></td><td>Cross Checking</td><td>2 min</td></tr>
-<tr><td><a href="/teams/ARI.html">ARI</a></td><td><a href="/teams/CHI.html">CHI</a></td><td>2nd Period</td><td>12:28</td><td><a href="/teams/CHI.html">CHI</a></td><td><a href="/players/Isaak Phillips.html">Isaak Phillips</a></td><td>Holding</td><td>2 min</td></tr>
-<tr><td><a href="/teams/ARI.html">ARI</a></td><td><a href="/teams/CHI.html">CHI</a></td><td>2nd Period</td><td>19:00</td><td><a href="/teams/ARI.html">ARI</a></td><td><a href="/players/Jack McBain.html">Jack McBain</a></td><td>Fighting</td><td>5 min</td></tr>
-<tr><td><a href="/teams/ARI.html">ARI</a></td><td><a href="/teams/CHI.html">CHI</a></td><td>2nd Period</td><td>19:00</td><td><a href="/teams/CHI.html">CHI</a></td><td><a href="/players/Jarred Tinordi.html">Jarred Tinordi</a></td><td>Fighting</td><td>5 min</td></tr>
-<tr><td><a href="/teams/ARI.html">ARI</a></td><td><a href="/teams/CHI.html">CHI</a></td><td>3rd Period</td><td>3rd Period</td><td><a href="/teams/3rd Period.html">3rd Period</a></td><td><a href="/players/3rd Period.html">3rd Period</a></td><td>3rd Period</td><td>3rd Period</td></tr>
-<tr><td><a href="/teams/ARI.html">ARI</a></td><td><a href="/teams/CHI.html">CHI</a></td><td>3rd Period</td><td>5:01</td><td><a href="/teams/ARI.html">ARI</a></td><td><a href="/players/Josh Brown.html">Josh Brown</a></td><td>Tripping</td><td>2 min</td></tr>
-<tr><td><a href="/teams/ARI.html">ARI</a></td><td><a href="/teams/CHI.html">CHI</a></td><td>3rd Period</td><td>8:07</td><td><a href="/teams/ARI.html">ARI</a></td><td><a href="/players/Josh Brown.html">Josh Brown</a></td><td>Holding</td><td>2 min</td></tr>
-<tr><td><a href="/teams/ARI.html">ARI</a></td><td><a href="/teams/CHI.html">CHI</a></td><td>3rd Period</td><td>8:07</td><td><a href="/teams/CHI.html">CHI</a></td><td><a href="/players/Corey Perry.html">Corey Perry</a></td><td>Roughing</td><td>2 min</td></tr>
-<tr><td><a href="/teams/ARI.html">ARI</a></td><td><a href="/teams/CHI.html">CHI</a></td><td>3rd Period</td><td>17:49</td><td><a href="/teams/CHI.html">CHI</a></td><td><a href="/players/Isaak Phillips.html">Isaak Phillips</a></td><td>Cross Checking</td><td>2 min</td></tr>
-
-                </tbody>
-            </table>
-        </main>
-    </body>
-    </html>
-    
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Chicago Blackhawks at Arizona Coyotes: October 30, 2023</title>
+<link rel="stylesheet" href="/assets/styles.css">
+<script src="/assets/searchBar.js"></script>
+<script src="/assets/tableSort.js"></script>
+</head>
+<body>
+<nav id="navbar">
+<ul>
+<li><a href="/">Home</a></li>
+<li><a href="/players/">Players</a></li>
+<li><a href="/teams/">Teams</a></li>
+<li><a href="/probabilities/">Probabilities</a></li>
+<li><a href="/boxscores/">Boxscores</a></li>
+<li><a href="/versus/">Head to Head Stats</a></li>
+<li><a href="/leaders/">Leaders</a></li>
+<li><a href="/seasons/2025/schedule.html">Schedule and Results</a></li>
+<li><a href="/seasons/2025/standings.html">Current Standings</a></li>
+<li><a href="/seasons/2025/rosters.html">Team Rosters</a></li>
+<li>
+<input type="text" id="searchBar" placeholder="Search for players or teams..." oninput="performSearch()" autocomplete="off">
+<div id="searchResults" class="dropdown"></div>
+<button id="searchButton" onclick="handleSearch()">Search</button>
+</li>
+</ul>
+</nav>
+<main id="content">
+<div class="scorebox">
+<div class="team"><div><a href="/teams/CHI.html">CHI</a></div><div class="score">1</div></div>
+<div class="team"><div><a href="/teams/ARI.html">ARI</a></div><div class="score">8</div></div>
+<div class="date">October 30, 2023</div>
+</div>
+<table id="CHI_skaters">
+<tr><th>Team</th><th>Player</th><th>G</th><th>A</th><th>PTS</th><th>SOG</th><th>HIT</th><th>BLK</th><th>TOI</th><th>PIM</th><th>SAT-F</th><th>SAT-A</th><th>CF%</th><th>CRel%</th></tr>
+<tr><td><a href="/teams/CHI.html">CHI</a></td><td><a href="/players/athanan01.html">Andreas Athanasiou</a></td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>12.63</td><td>0</td><td>13</td><td>13</td><td>50.00%</td><td>-1.50%</td></tr>
+<tr><td><a href="/teams/CHI.html">CHI</a></td><td><a href="/players/bedarco01.html">Connor Bedard</a></td><td>1</td><td>0</td><td>1</td><td>3</td><td>1</td><td>0</td><td>18.5</td><td>2</td><td>29</td><td>25</td><td>53.70%</td><td>4.40%</td></tr>
+<tr><td><a href="/teams/CHI.html">CHI</a></td><td><a href="/players/murphco02.html">Connor Murphy</a></td><td>0</td><td>0</td><td>0</td><td>2</td><td>6</td><td>2</td><td>20.5</td><td>2</td><td>17</td><td>24</td><td>41.50%</td><td>-14.20%</td></tr>
+<tr><td><a href="/teams/CHI.html">CHI</a></td><td><a href="/players/perryco01.html">Corey Perry</a></td><td>0</td><td>0</td><td>0</td><td>2</td><td>2</td><td>0</td><td>13.12</td><td>2</td><td>17</td><td>5</td><td>77.30%</td><td>31.50%</td></tr>
+<tr><td><a href="/teams/CHI.html">CHI</a></td><td><a href="/players/phillis01.html">Isaak Phillips</a></td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>1</td><td>17.42</td><td>4</td><td>15</td><td>22</td><td>40.50%</td><td>-14.90%</td></tr>
+<tr><td><a href="/teams/CHI.html">CHI</a></td><td><a href="/players/tinorja01.html">Jarred Tinordi</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>3</td><td>1</td><td>16.65</td><td>5</td><td>19</td><td>20</td><td>48.70%</td><td>-3.50%</td></tr>
+<tr><td><a href="/teams/CHI.html">CHI</a></td><td><a href="/players/dickija01.html">Jason Dickinson</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>15.25</td><td>0</td><td>12</td><td>11</td><td>52.20%</td><td>1.30%</td></tr>
+<tr><td><a href="/teams/CHI.html">CHI</a></td><td><a href="/players/korchke01.html">Kevin Korchinski</a></td><td>0</td><td>1</td><td>1</td><td>3</td><td>0</td><td>0</td><td>19.48</td><td>0</td><td>29</td><td>20</td><td>59.20%</td><td>13.00%</td></tr>
+<tr><td><a href="/teams/CHI.html">CHI</a></td><td><a href="/players/reichlu01.html">Lukas Reichel</a></td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>14.98</td><td>0</td><td>8</td><td>15</td><td>34.80%</td><td>-19.90%</td></tr>
+<tr><td><a href="/teams/CHI.html">CHI</a></td><td><a href="/players/entwima01.html">Mackenzie Entwistle</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>7</td><td>2</td><td>12.48</td><td>0</td><td>16</td><td>13</td><td>55.20%</td><td>5.20%</td></tr>
+<tr><td><a href="/teams/CHI.html">CHI</a></td><td><a href="/players/foligni01.html">Nick Foligno</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>2</td><td>0</td><td>17.08</td><td>5</td><td>25</td><td>20</td><td>55.60%</td><td>6.80%</td></tr>
+<tr><td><a href="/teams/CHI.html">CHI</a></td><td><a href="/players/kurasph01.html">Philipp Kurashev</a></td><td>0</td><td>0</td><td>0</td><td>2</td><td>2</td><td>0</td><td>18.35</td><td>0</td><td>27</td><td>21</td><td>56.20%</td><td>8.10%</td></tr>
+<tr><td><a href="/teams/CHI.html">CHI</a></td><td><a href="/players/johnsre01.html">Reese Johnson</a></td><td>0</td><td>0</td><td>0</td><td>1</td><td>1</td><td>0</td><td>13.65</td><td>0</td><td>17</td><td>14</td><td>54.80%</td><td>4.80%</td></tr>
+<tr><td><a href="/teams/CHI.html">CHI</a></td><td><a href="/players/donatry01.html">Ryan Donato</a></td><td>0</td><td>0</td><td>0</td><td>4</td><td>4</td><td>0</td><td>11.8</td><td>0</td><td>16</td><td>9</td><td>64.00%</td><td>15.90%</td></tr>
+<tr><td><a href="/teams/CHI.html">CHI</a></td><td><a href="/players/jonesse01.html">Seth Jones</a></td><td>0</td><td>1</td><td>1</td><td>5</td><td>2</td><td>2</td><td>23.77</td><td>0</td><td>35</td><td>19</td><td>64.80%</td><td>23.50%</td></tr>
+<tr><td><a href="/teams/CHI.html">CHI</a></td><td><a href="/players/raddyta01.html">Taylor Raddysh</a></td><td>0</td><td>0</td><td>0</td><td>2</td><td>0</td><td>0</td><td>14.58</td><td>0</td><td>11</td><td>15</td><td>42.30%</td><td>-11.10%</td></tr>
+<tr><td><a href="/teams/CHI.html">CHI</a></td><td><a href="/players/johnsty01.html">Tyler Johnson</a></td><td>0</td><td>0</td><td>0</td><td>3</td><td>1</td><td>0</td><td>11.55</td><td>0</td><td>10</td><td>15</td><td>40.00%</td><td>-13.80%</td></tr>
+<tr><td><a href="/teams/CHI.html">CHI</a></td><td><a href="/players/kaisewy01.html">Wyatt Kaiser</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>2</td><td>18.9</td><td>0</td><td>9</td><td>21</td><td>30.00%</td><td>-27.60%</td></tr>
+</table>
+<table id="ARI_skaters">
+<tr><th>Team</th><th>Player</th><th>G</th><th>A</th><th>PTS</th><th>SOG</th><th>HIT</th><th>BLK</th><th>TOI</th><th>PIM</th><th>SAT-F</th><th>SAT-A</th><th>CF%</th><th>CRel%</th></tr>
+<tr><td><a href="/teams/ARI.html">ARI</a></td><td><a href="/players/kerfoal01.html">Alexander Kerfoot</a></td><td>0</td><td>3</td><td>3</td><td>1</td><td>0</td><td>0</td><td>13.1</td><td>0</td><td>13</td><td>16</td><td>44.80%</td><td>-5.20%</td></tr>
+<tr><td><a href="/teams/ARI.html">ARI</a></td><td><a href="/players/haytoba01.html">Barrett Hayton</a></td><td>0</td><td>0</td><td>0</td><td>1</td><td>1</td><td>0</td><td>16.17</td><td>0</td><td>14</td><td>18</td><td>43.80%</td><td>-6.70%</td></tr>
+<tr><td><a href="/teams/ARI.html">ARI</a></td><td><a href="/players/kellecl01.html">Clayton Keller</a></td><td>0</td><td>0</td><td>0</td><td>3</td><td>0</td><td>1</td><td>16.87</td><td>0</td><td>17</td><td>15</td><td>53.10%</td><td>5.70%</td></tr>
+<tr><td><a href="/teams/ARI.html">ARI</a></td><td><a href="/players/moserja01.html">J.J. Moser</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>2</td><td>20.0</td><td>0</td><td>21</td><td>26</td><td>44.70%</td><td>-6.50%</td></tr>
+<tr><td><a href="/teams/ARI.html">ARI</a></td><td><a href="/players/mcbaija03.html">Jack McBain</a></td><td>2</td><td>2</td><td>4</td><td>6</td><td>2</td><td>0</td><td>11.2</td><td>5</td><td>17</td><td>12</td><td>58.60%</td><td>12.60%</td></tr>
+<tr><td><a href="/teams/ARI.html">ARI</a></td><td><a href="/players/brownjo01.html">Josh Brown</a></td><td>1</td><td>0</td><td>1</td><td>1</td><td>1</td><td>2</td><td>15.88</td><td>4</td><td>17</td><td>20</td><td>45.90%</td><td>-4.10%</td></tr>
+<tr><td><a href="/teams/ARI.html">ARI</a></td><td><a href="/players/valimju01.html">Juuso Välimäki</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>4</td><td>20.22</td><td>0</td><td>17</td><td>23</td><td>42.50%</td><td>-9.20%</td></tr>
+<tr><td><a href="/teams/ARI.html">ARI</a></td><td><a href="/players/crousla01.html">Lawson Crouse</a></td><td>0</td><td>1</td><td>1</td><td>1</td><td>4</td><td>1</td><td>17.32</td><td>0</td><td>13</td><td>19</td><td>40.60%</td><td>-10.90%</td></tr>
+<tr><td><a href="/teams/ARI.html">ARI</a></td><td><a href="/players/obrieli01.html">Liam O'Brien</a></td><td>1</td><td>1</td><td>2</td><td>1</td><td>2</td><td>0</td><td>9.65</td><td>7</td><td>15</td><td>9</td><td>62.50%</td><td>16.80%</td></tr>
+<tr><td><a href="/teams/ARI.html">ARI</a></td><td><a href="/players/coolelo01.html">Logan Cooley</a></td><td>0</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>17.98</td><td>0</td><td>26</td><td>16</td><td>61.90%</td><td>19.40%</td></tr>
+<tr><td><a href="/teams/ARI.html">ARI</a></td><td><a href="/players/dumbama01.html">Mathew Dumba</a></td><td>0</td><td>0</td><td>0</td><td>1</td><td>2</td><td>1</td><td>22.37</td><td>0</td><td>17</td><td>29</td><td>37.00%</td><td>-18.40%</td></tr>
+<tr><td><a href="/teams/ARI.html">ARI</a></td><td><a href="/players/maccema01.html">Matias Maccelli</a></td><td>0</td><td>1</td><td>1</td><td>2</td><td>1</td><td>1</td><td>14.72</td><td>0</td><td>15</td><td>13</td><td>53.60%</td><td>6.10%</td></tr>
+<tr><td><a href="/teams/ARI.html">ARI</a></td><td><a href="/players/carcomi01.html">Michael Carcone</a></td><td>3</td><td>1</td><td>4</td><td>7</td><td>0</td><td>0</td><td>14.53</td><td>0</td><td>18</td><td>18</td><td>50.00%</td><td>1.60%</td></tr>
+<tr><td><a href="/teams/ARI.html">ARI</a></td><td><a href="/players/bjugsni01.html">Nick Bjugstad</a></td><td>0</td><td>1</td><td>1</td><td>1</td><td>0</td><td>3</td><td>16.1</td><td>0</td><td>12</td><td>20</td><td>37.50%</td><td>-15.10%</td></tr>
+<tr><td><a href="/teams/ARI.html">ARI</a></td><td><a href="/players/schmani01.html">Nick Schmaltz</a></td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>1</td><td>16.55</td><td>0</td><td>16</td><td>15</td><td>51.60%</td><td>3.60%</td></tr>
+<tr><td><a href="/teams/ARI.html">ARI</a></td><td><a href="/players/durzise01.html">Sean Durzi</a></td><td>1</td><td>1</td><td>2</td><td>3</td><td>0</td><td>2</td><td>19.57</td><td>0</td><td>28</td><td>15</td><td>65.10%</td><td>24.40%</td></tr>
+<tr><td><a href="/teams/ARI.html">ARI</a></td><td><a href="/players/boydtr01.html">Travis Boyd</a></td><td>0</td><td>2</td><td>2</td><td>2</td><td>1</td><td>0</td><td>13.85</td><td>0</td><td>18</td><td>17</td><td>51.40%</td><td>3.50%</td></tr>
+<tr><td><a href="/teams/ARI.html">ARI</a></td><td><a href="/players/stechtr01.html">Troy Stecher</a></td><td>0</td><td>0</td><td>0</td><td>1</td><td>1</td><td>2</td><td>18.13</td><td>0</td><td>20</td><td>19</td><td>51.30%</td><td>3.50%</td></tr>
+</table>
+<table id="CHI_goalies">
+<tr><th>Team</th><th>Goalie</th><th>DEC</th><th>GA</th><th>SA</th><th>SV</th><th>SV%</th><th>SO</th><th>PIM</th><th>TOI</th></tr>
+<tr><td><a href="/teams/CHI.html">CHI</a></td><td><a href="/players/soderar01.html">Arvid Söderblom</a></td><td>L</td><td>7</td><td>22</td><td>15</td><td>68.20%</td><td>0</td><td>0</td><td>35.43</td></tr>
+<tr><td><a href="/teams/CHI.html">CHI</a></td><td><a href="/players/mrazepe01.html">Petr Mrázek</a></td><td>--</td><td>1</td><td>11</td><td>10</td><td>90.90%</td><td>0</td><td>0</td><td>24.57</td></tr>
+</table>
+<table id="ARI_goalies">
+<tr><th>Team</th><th>Goalie</th><th>DEC</th><th>GA</th><th>SA</th><th>SV</th><th>SV%</th><th>SO</th><th>PIM</th><th>TOI</th></tr>
+<tr><td><a href="/teams/ARI.html">ARI</a></td><td><a href="/players/ingraco01.html">Connor Ingram</a></td><td>W</td><td>1</td><td>30</td><td>29</td><td>96.70%</td><td>0</td><td>0</td><td>59.8</td></tr>
+</table>
+<table id="scoring">
+<tr><th>Team</th><th>Time</th><th>Info</th><th>Scorer</th><th>Assist 1</th><th>Assist 2</th></tr>
+<tr><td><a href="/teams/CHI.html">CHI</a></td><td>0.47</td><td>--</td><td><a href="/players/bedarco01.html">Connor Bedard</a></td><td><a href="/players/korchke01.html">Kevin Korchinski</a></td><td><a href="/players/jonesse01.html">Seth Jones</a></td></tr>
+<tr><td><a href="/teams/ARI.html">ARI</a></td><td>2.38</td><td>--</td><td><a href="/players/carcomi01.html">Michael Carcone</a></td><td><a href="/players/coolelo01.html">Logan Cooley</a></td><td><a href="/players/durzise01.html">Sean Durzi</a></td></tr>
+<tr><td><a href="/teams/ARI.html">ARI</a></td><td>13.88</td><td>--</td><td><a href="/players/brownjo01.html">Josh Brown</a></td><td><a href="/players/mcbaija03.html">Jack McBain</a></td><td><a href="/players/kerfoal01.html">Alexander Kerfoot</a></td></tr>
+<tr><td><a href="/teams/ARI.html">ARI</a></td><td>15.92</td><td>PP</td><td><a href="/players/carcomi01.html">Michael Carcone</a></td><td><a href="/players/crousla01.html">Lawson Crouse</a></td><td><a href="/players/bjugsni01.html">Nick Bjugstad</a></td></tr>
+<tr><td><a href="/teams/ARI.html">ARI</a></td><td>25.0</td><td>--</td><td><a href="/players/carcomi01.html">Michael Carcone</a></td><td><a href="/players/boydtr01.html">Travis Boyd</a></td><td><a href="/players/boydtr01.html">Travis Boyd</a></td></tr>
+<tr><td><a href="/teams/ARI.html">ARI</a></td><td>26.63</td><td>--</td><td><a href="/players/mcbaija03.html">Jack McBain</a></td><td><a href="/players/kerfoal01.html">Alexander Kerfoot</a></td><td><a href="/players/obrieli01.html">Liam O'Brien</a></td></tr>
+<tr><td><a href="/teams/ARI.html">ARI</a></td><td>31.3</td><td>--</td><td><a href="/players/durzise01.html">Sean Durzi</a></td><td><a href="/players/carcomi01.html">Michael Carcone</a></td><td><a href="/players/boydtr01.html">Travis Boyd</a></td></tr>
+<tr><td><a href="/teams/ARI.html">ARI</a></td><td>35.43</td><td>--</td><td><a href="/players/obrieli01.html">Liam O'Brien</a></td><td><a href="/players/mcbaija03.html">Jack McBain</a></td><td><a href="/players/maccema01.html">Matias Maccelli</a></td></tr>
+<tr><td><a href="/teams/ARI.html">ARI</a></td><td>50.62</td><td>--</td><td><a href="/players/mcbaija03.html">Jack McBain</a></td><td><a href="/players/kerfoal01.html">Alexander Kerfoot</a></td><td><a href="/players/kerfoal01.html">Alexander Kerfoot</a></td></tr>
+</table>
+<table id="penalties">
+<tr><th>Team</th><th>Time</th><th>Player</th><th>Penalty</th><th>PIM</th></tr>
+<tr><td><a href="/teams/CHI.html">CHI</a></td><td>14.62</td><td><a href="/players/murphco02.html">Connor Murphy</a></td><td>Tripping</td><td>2 min</td></tr>
+<tr><td><a href="/teams/CHI.html">CHI</a></td><td>15.98</td><td><a href="/players/foligni01.html">Nick Foligno</a></td><td>Fighting</td><td>5 min</td></tr>
+<tr><td><a href="/teams/ARI.html">ARI</a></td><td>15.98</td><td><a href="/players/obrieli01.html">Liam O'Brien</a></td><td>Fighting</td><td>5 min</td></tr>
+<tr><td><a href="/teams/CHI.html">CHI</a></td><td>17.52</td><td><a href="/players/bedarco01.html">Connor Bedard</a></td><td>Slashing</td><td>2 min</td></tr>
+<tr><td><a href="/teams/ARI.html">ARI</a></td><td>29.07</td><td><a href="/players/obrieli01.html">Liam O'Brien</a></td><td>Cross Checking</td><td>2 min</td></tr>
+<tr><td><a href="/teams/CHI.html">CHI</a></td><td>32.47</td><td><a href="/players/phillis01.html">Isaak Phillips</a></td><td>Holding</td><td>2 min</td></tr>
+<tr><td><a href="/teams/ARI.html">ARI</a></td><td>39.0</td><td><a href="/players/mcbaija03.html">Jack McBain</a></td><td>Fighting</td><td>5 min</td></tr>
+<tr><td><a href="/teams/CHI.html">CHI</a></td><td>39.0</td><td><a href="/players/tinorja01.html">Jarred Tinordi</a></td><td>Fighting</td><td>5 min</td></tr>
+<tr><td><a href="/teams/ARI.html">ARI</a></td><td>45.02</td><td><a href="/players/brownjo01.html">Josh Brown</a></td><td>Tripping</td><td>2 min</td></tr>
+<tr><td><a href="/teams/ARI.html">ARI</a></td><td>48.12</td><td><a href="/players/brownjo01.html">Josh Brown</a></td><td>Holding</td><td>2 min</td></tr>
+<tr><td><a href="/teams/CHI.html">CHI</a></td><td>48.12</td><td><a href="/players/perryco01.html">Corey Perry</a></td><td>Roughing</td><td>2 min</td></tr>
+<tr><td><a href="/teams/CHI.html">CHI</a></td><td>57.82</td><td><a href="/players/phillis01.html">Isaak Phillips</a></td><td>Cross Checking</td><td>2 min</td></tr>
+</table>
+</main>
+</body>
+</html>

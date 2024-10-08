@@ -1,161 +1,116 @@
-
-    <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Game 202311220CAR Boxscore</title>
-        <link rel="stylesheet" href="/assets/styles.css">
-        <script src="/assets/searchBar.js" defer></script>
-        <script src="/assets/tableSort.js"></script>
-        <style>
-            tr:hover {background-color: #F0FFF0;}
-        </style>
-    </head>
-    <body>
-        <nav id="navbar">
-            <a href="/">Home</a>
-            <a href="/players/">Players</a>
-            <a href="/teams/">Teams</a>
-            <a href="/leaders/">Leaders</a>
-            <a href="/probabilities/">Probabilities</a>
-            <a href="/boxscores/">Boxscores</a>
-            <a href="/schedule/">Schedule</a>
-
-            <div class="search-container">
-                <input type="text" id="searchInput" placeholder="Search players or teams..." oninput="searchEntities()" />
-                <ul id="suggestions"></ul>
-            </div>
-        </nav>
-
-        <main id="content">
-            <h1>Game 202311220CAR Boxscore</h1>
-
-            <h2>Skaters</h2>
-            <table id="202311220CAR_skaters" border="1">
-                <thead>
-                    <tr>
-                        <th>Date</th><th>Home Team</th><th>Away Team</th><th>Player</th><th>Team</th><th>G</th><th>A</th><th>PTS</th>
-                        <th>+/-</th><th>PIM</th><th>EVG</th><th>PPG</th><th>SHG</th><th>GWG</th><th>EV Assist</th><th>PP Assist</th>
-                        <th>SH Assist</th><th>SOG</th><th>S%</th><th>SHFT</th><th>TOI</th><th>iCF</th><th>SAT‑F</th><th>SAT‑A</th>
-                        <th>CF%</th><th>CRel%</th><th>ZSO</th><th>ZSD</th><th>oZS%</th><th>HIT</th><th>BLK</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr><td><a href="/boxscores/202311220CAR.html">11/22/2023</a></td><td><a href="/teams/CAR.html">CAR</a></td><td><a href="/teams/EDM.html">EDM</a></td><td><a href="/players/Evan Bouchard.html">Evan Bouchard</a></td><td><a href="/teams/EDM.html">EDM</a></td><td>0</td><td>1</td><td>1</td><td>-1</td><td>2</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>3</td><td>0</td><td>26</td><td>21.5</td><td>4</td><td>23</td><td>14</td><td>62.2</td><td>19.5</td><td>10</td><td>4</td><td>71.4</td><td>0</td><td>3</td></tr>
-<tr><td><a href="/boxscores/202311220CAR.html">11/22/2023</a></td><td><a href="/teams/CAR.html">CAR</a></td><td><a href="/teams/EDM.html">EDM</a></td><td><a href="/players/Philip Broberg.html">Philip Broberg</a></td><td><a href="/teams/EDM.html">EDM</a></td><td>0</td><td>0</td><td>0</td><td>-1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>10</td><td>5.28</td><td>2</td><td>5</td><td>3</td><td>62.5</td><td>14.8</td><td>3</td><td>1</td><td>75</td><td>0</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202311220CAR.html">11/22/2023</a></td><td><a href="/teams/CAR.html">CAR</a></td><td><a href="/teams/EDM.html">EDM</a></td><td><a href="/players/Connor Brown.html">Connor Brown</a></td><td><a href="/teams/EDM.html">EDM</a></td><td>0</td><td>0</td><td>0</td><td>-2</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>2</td><td>0</td><td>17</td><td>15.87</td><td>5</td><td>14</td><td>18</td><td>43.8</td><td>-6.8</td><td>4</td><td>2</td><td>66.7</td><td>1</td><td>1</td></tr>
-<tr><td><a href="/boxscores/202311220CAR.html">11/22/2023</a></td><td><a href="/teams/CAR.html">CAR</a></td><td><a href="/teams/EDM.html">EDM</a></td><td><a href="/players/Cody Ceci.html">Cody Ceci</a></td><td><a href="/teams/EDM.html">EDM</a></td><td>0</td><td>0</td><td>0</td><td>-1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>17</td><td>15.12</td><td>2</td><td>18</td><td>21</td><td>46.2</td><td>-3.8</td><td>2</td><td>8</td><td>20</td><td>0</td><td>1</td></tr>
-<tr><td><a href="/boxscores/202311220CAR.html">11/22/2023</a></td><td><a href="/teams/CAR.html">CAR</a></td><td><a href="/teams/EDM.html">EDM</a></td><td><a href="/players/Vincent Desharnais.html">Vincent Desharnais</a></td><td><a href="/teams/EDM.html">EDM</a></td><td>0</td><td>0</td><td>0</td><td>-1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>18</td><td>16.82</td><td>1</td><td>14</td><td>12</td><td>53.8</td><td>6.5</td><td>2</td><td>7</td><td>22.2</td><td>1</td><td>1</td></tr>
-<tr><td><a href="/boxscores/202311220CAR.html">11/22/2023</a></td><td><a href="/teams/CAR.html">CAR</a></td><td><a href="/teams/EDM.html">EDM</a></td><td><a href="/players/Leon Draisaitl.html">Leon Draisaitl</a></td><td><a href="/teams/EDM.html">EDM</a></td><td>0</td><td>1</td><td>1</td><td>-4</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>2</td><td>0</td><td>21</td><td>19.8</td><td>5</td><td>16</td><td>27</td><td>37.2</td><td>-18.1</td><td>8</td><td>11</td><td>42.1</td><td>0</td><td>1</td></tr>
-<tr><td><a href="/boxscores/202311220CAR.html">11/22/2023</a></td><td><a href="/teams/CAR.html">CAR</a></td><td><a href="/teams/EDM.html">EDM</a></td><td><a href="/players/Mattias Ekholm.html">Mattias Ekholm</a></td><td><a href="/teams/EDM.html">EDM</a></td><td>1</td><td>0</td><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>2</td><td>50</td><td>26</td><td>22.52</td><td>3</td><td>23</td><td>20</td><td>53.5</td><td>7.4</td><td>7</td><td>5</td><td>58.3</td><td>3</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202311220CAR.html">11/22/2023</a></td><td><a href="/teams/CAR.html">CAR</a></td><td><a href="/teams/EDM.html">EDM</a></td><td><a href="/players/Warren Foegele.html">Warren Foegele</a></td><td><a href="/teams/EDM.html">EDM</a></td><td>0</td><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>1</td><td>0</td><td>22</td><td>15.22</td><td>2</td><td>14</td><td>16</td><td>46.7</td><td>-2.7</td><td>3</td><td>6</td><td>33.3</td><td>1</td><td>1</td></tr>
-<tr><td><a href="/boxscores/202311220CAR.html">11/22/2023</a></td><td><a href="/teams/CAR.html">CAR</a></td><td><a href="/teams/EDM.html">EDM</a></td><td><a href="/players/James Hamblin.html">James Hamblin</a></td><td><a href="/teams/EDM.html">EDM</a></td><td>0</td><td>0</td><td>0</td><td>-1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>11</td><td>7.55</td><td>2</td><td>8</td><td>7</td><td>53.3</td><td>5.2</td><td>1</td><td>1</td><td>50</td><td>1</td><td>2</td></tr>
-<tr><td><a href="/boxscores/202311220CAR.html">11/22/2023</a></td><td><a href="/teams/CAR.html">CAR</a></td><td><a href="/teams/EDM.html">EDM</a></td><td><a href="/players/Zach Hyman.html">Zach Hyman</a></td><td><a href="/teams/EDM.html">EDM</a></td><td>2</td><td>0</td><td>2</td><td>0</td><td>2</td><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>5</td><td>40</td><td>24</td><td>20.27</td><td>10</td><td>31</td><td>13</td><td>70.5</td><td>34.5</td><td>8</td><td>6</td><td>57.1</td><td>1</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202311220CAR.html">11/22/2023</a></td><td><a href="/teams/CAR.html">CAR</a></td><td><a href="/teams/EDM.html">EDM</a></td><td><a href="/players/Mattias Janmark.html">Mattias Janmark</a></td><td><a href="/teams/EDM.html">EDM</a></td><td>0</td><td>0</td><td>0</td><td>-2</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>15</td><td>11</td><td>1</td><td>4</td><td>17</td><td>19</td><td>-36.1</td><td>1</td><td>1</td><td>50</td><td>0</td><td>1</td></tr>
-<tr><td><a href="/boxscores/202311220CAR.html">11/22/2023</a></td><td><a href="/teams/CAR.html">CAR</a></td><td><a href="/teams/EDM.html">EDM</a></td><td><a href="/players/Evander Kane.html">Evander Kane</a></td><td><a href="/teams/EDM.html">EDM</a></td><td>0</td><td>0</td><td>0</td><td>-2</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>2</td><td>0</td><td>20</td><td>19.12</td><td>6</td><td>20</td><td>17</td><td>54.1</td><td>7.8</td><td>5</td><td>7</td><td>41.7</td><td>1</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202311220CAR.html">11/22/2023</a></td><td><a href="/teams/CAR.html">CAR</a></td><td><a href="/teams/EDM.html">EDM</a></td><td><a href="/players/Brett Kulak.html">Brett Kulak</a></td><td><a href="/teams/EDM.html">EDM</a></td><td>0</td><td>0</td><td>0</td><td>-3</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>19</td><td>16.12</td><td>2</td><td>14</td><td>29</td><td>32.6</td><td>-25.3</td><td>2</td><td>8</td><td>20</td><td>0</td><td>4</td></tr>
-<tr><td><a href="/boxscores/202311220CAR.html">11/22/2023</a></td><td><a href="/teams/CAR.html">CAR</a></td><td><a href="/teams/EDM.html">EDM</a></td><td><a href="/players/Connor McDavid.html">Connor McDavid</a></td><td><a href="/teams/EDM.html">EDM</a></td><td>0</td><td>1</td><td>1</td><td>-3</td><td>2</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>1</td><td>0</td><td>21</td><td>19.67</td><td>5</td><td>20</td><td>28</td><td>41.7</td><td>-11.8</td><td>8</td><td>8</td><td>50</td><td>1</td><td>3</td></tr>
-<tr><td><a href="/boxscores/202311220CAR.html">11/22/2023</a></td><td><a href="/teams/CAR.html">CAR</a></td><td><a href="/teams/EDM.html">EDM</a></td><td><a href="/players/Ryan McLeod.html">Ryan McLeod</a></td><td><a href="/teams/EDM.html">EDM</a></td><td>0</td><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>2</td><td>0</td><td>19</td><td>13.97</td><td>2</td><td>12</td><td>8</td><td>60</td><td>13.5</td><td>3</td><td>3</td><td>50</td><td>1</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202311220CAR.html">11/22/2023</a></td><td><a href="/teams/CAR.html">CAR</a></td><td><a href="/teams/EDM.html">EDM</a></td><td><a href="/players/Ryan Nugent-Hopkins.html">Ryan Nugent-Hopkins</a></td><td><a href="/teams/EDM.html">EDM</a></td><td>0</td><td>1</td><td>1</td><td>0</td><td>2</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>1</td><td>0</td><td>24</td><td>19.07</td><td>2</td><td>28</td><td>15</td><td>65.1</td><td>25.6</td><td>7</td><td>8</td><td>46.7</td><td>0</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202311220CAR.html">11/22/2023</a></td><td><a href="/teams/CAR.html">CAR</a></td><td><a href="/teams/EDM.html">EDM</a></td><td><a href="/players/Darnell Nurse.html">Darnell Nurse</a></td><td><a href="/teams/EDM.html">EDM</a></td><td>0</td><td>0</td><td>0</td><td>-1</td><td>2</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>24</td><td>20.98</td><td>3</td><td>14</td><td>22</td><td>38.9</td><td>-14.1</td><td>2</td><td>11</td><td>15.4</td><td>0</td><td>1</td></tr>
-<tr><td><a href="/boxscores/202311220CAR.html">11/22/2023</a></td><td><a href="/teams/CAR.html">CAR</a></td><td><a href="/teams/EDM.html">EDM</a></td><td><a href="/players/Derek Ryan.html">Derek Ryan</a></td><td><a href="/teams/EDM.html">EDM</a></td><td>0</td><td>0</td><td>0</td><td>-1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>18</td><td>11.07</td><td>1</td><td>9</td><td>7</td><td>56.2</td><td>8.6</td><td>2</td><td>6</td><td>25</td><td>1</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202311220CAR.html">11/22/2023</a></td><td><a href="/teams/CAR.html">CAR</a></td><td><a href="/teams/EDM.html">EDM</a></td><td><a href="/players/Calvin Pickard.html">Calvin Pickard</a></td><td><a href="/teams/EDM.html">EDM</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>5</td><td>44.28</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202311220CAR.html">11/22/2023</a></td><td><a href="/teams/CAR.html">CAR</a></td><td><a href="/teams/EDM.html">EDM</a></td><td><a href="/players/Stuart Skinner.html">Stuart Skinner</a></td><td><a href="/teams/EDM.html">EDM</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>14.8</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202311220CAR.html">11/22/2023</a></td><td><a href="/teams/CAR.html">CAR</a></td><td><a href="/teams/EDM.html">EDM</a></td><td><a href="/players/--.html">--</a></td><td><a href="/teams/--.html">--</a></td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td></tr>
-<tr><td><a href="/boxscores/202311220CAR.html">11/22/2023</a></td><td><a href="/teams/CAR.html">CAR</a></td><td><a href="/teams/EDM.html">EDM</a></td><td><a href="/players/Sebastian Aho (CAR).html">Sebastian Aho (CAR)</a></td><td><a href="/teams/CAR.html">CAR</a></td><td>0</td><td>1</td><td>1</td><td>2</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>22</td><td>19.12</td><td>1</td><td>11</td><td>19</td><td>36.7</td><td>-19.5</td><td>5</td><td>7</td><td>41.7</td><td>0</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202311220CAR.html">11/22/2023</a></td><td><a href="/teams/CAR.html">CAR</a></td><td><a href="/teams/EDM.html">EDM</a></td><td><a href="/players/Michael Bunting.html">Michael Bunting</a></td><td><a href="/teams/CAR.html">CAR</a></td><td>0</td><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>13</td><td>9.37</td><td>3</td><td>13</td><td>3</td><td>81.2</td><td>34.6</td><td>5</td><td>1</td><td>83.3</td><td>0</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202311220CAR.html">11/22/2023</a></td><td><a href="/teams/CAR.html">CAR</a></td><td><a href="/teams/EDM.html">EDM</a></td><td><a href="/players/Brent Burns.html">Brent Burns</a></td><td><a href="/teams/CAR.html">CAR</a></td><td>1</td><td>0</td><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>3</td><td>33.3</td><td>25</td><td>20.33</td><td>4</td><td>22</td><td>23</td><td>48.9</td><td>-3.8</td><td>8</td><td>8</td><td>50</td><td>1</td><td>2</td></tr>
-<tr><td><a href="/boxscores/202311220CAR.html">11/22/2023</a></td><td><a href="/teams/CAR.html">CAR</a></td><td><a href="/teams/EDM.html">EDM</a></td><td><a href="/players/Jalen Chatfield.html">Jalen Chatfield</a></td><td><a href="/teams/CAR.html">CAR</a></td><td>0</td><td>2</td><td>2</td><td>2</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>2</td><td>0</td><td>0</td><td>0</td><td>0</td><td>18</td><td>14.8</td><td>2</td><td>14</td><td>13</td><td>51.9</td><td>0.8</td><td>4</td><td>2</td><td>66.7</td><td>0</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202311220CAR.html">11/22/2023</a></td><td><a href="/teams/CAR.html">CAR</a></td><td><a href="/teams/EDM.html">EDM</a></td><td><a href="/players/Jack Drury.html">Jack Drury</a></td><td><a href="/teams/CAR.html">CAR</a></td><td>1</td><td>0</td><td>1</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>2</td><td>50</td><td>10</td><td>7.67</td><td>3</td><td>8</td><td>4</td><td>66.7</td><td>17.2</td><td>2</td><td>1</td><td>66.7</td><td>0</td><td>1</td></tr>
-<tr><td><a href="/boxscores/202311220CAR.html">11/22/2023</a></td><td><a href="/teams/CAR.html">CAR</a></td><td><a href="/teams/EDM.html">EDM</a></td><td><a href="/players/Jesper Fast.html">Jesper Fast</a></td><td><a href="/teams/CAR.html">CAR</a></td><td>1</td><td>0</td><td>1</td><td>1</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>100</td><td>18</td><td>13.88</td><td>1</td><td>18</td><td>9</td><td>66.7</td><td>20</td><td>6</td><td>4</td><td>60</td><td>2</td><td>2</td></tr>
-<tr><td><a href="/boxscores/202311220CAR.html">11/22/2023</a></td><td><a href="/teams/CAR.html">CAR</a></td><td><a href="/teams/EDM.html">EDM</a></td><td><a href="/players/Seth Jarvis.html">Seth Jarvis</a></td><td><a href="/teams/CAR.html">CAR</a></td><td>1</td><td>1</td><td>2</td><td>1</td><td>0</td><td>1</td><td>0</td><td>0</td><td>1</td><td>1</td><td>0</td><td>0</td><td>3</td><td>33.3</td><td>25</td><td>18.62</td><td>3</td><td>10</td><td>24</td><td>29.4</td><td>-30.6</td><td>5</td><td>6</td><td>45.5</td><td>3</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202311220CAR.html">11/22/2023</a></td><td><a href="/teams/CAR.html">CAR</a></td><td><a href="/teams/EDM.html">EDM</a></td><td><a href="/players/Jesperi Kotkaniemi.html">Jesperi Kotkaniemi</a></td><td><a href="/teams/CAR.html">CAR</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>2</td><td>0</td><td>19</td><td>16.65</td><td>4</td><td>21</td><td>19</td><td>52.5</td><td>1.9</td><td>9</td><td>1</td><td>90</td><td>0</td><td>1</td></tr>
-<tr><td><a href="/boxscores/202311220CAR.html">11/22/2023</a></td><td><a href="/teams/CAR.html">CAR</a></td><td><a href="/teams/EDM.html">EDM</a></td><td><a href="/players/Jordan Martinook.html">Jordan Martinook</a></td><td><a href="/teams/CAR.html">CAR</a></td><td>0</td><td>1</td><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>1</td><td>0</td><td>18</td><td>14.57</td><td>7</td><td>17</td><td>11</td><td>60.7</td><td>12.3</td><td>6</td><td>4</td><td>60</td><td>0</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202311220CAR.html">11/22/2023</a></td><td><a href="/teams/CAR.html">CAR</a></td><td><a href="/teams/EDM.html">EDM</a></td><td><a href="/players/Martin Nečas.html">Martin Nečas</a></td><td><a href="/teams/CAR.html">CAR</a></td><td>1</td><td>0</td><td>1</td><td>0</td><td>2</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>2</td><td>50</td><td>19</td><td>18.92</td><td>4</td><td>24</td><td>22</td><td>52.2</td><td>1.5</td><td>8</td><td>4</td><td>66.7</td><td>0</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202311220CAR.html">11/22/2023</a></td><td><a href="/teams/CAR.html">CAR</a></td><td><a href="/teams/EDM.html">EDM</a></td><td><a href="/players/Stefan Noesen.html">Stefan Noesen</a></td><td><a href="/teams/CAR.html">CAR</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>2</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>13</td><td>10.28</td><td>0</td><td>12</td><td>4</td><td>75</td><td>27.4</td><td>5</td><td>1</td><td>83.3</td><td>2</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202311220CAR.html">11/22/2023</a></td><td><a href="/teams/CAR.html">CAR</a></td><td><a href="/teams/EDM.html">EDM</a></td><td><a href="/players/Dmitry Orlov.html">Dmitry Orlov</a></td><td><a href="/teams/CAR.html">CAR</a></td><td>0</td><td>1</td><td>1</td><td>2</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>5</td><td>0</td><td>18</td><td>15.1</td><td>8</td><td>13</td><td>12</td><td>52</td><td>0.9</td><td>4</td><td>2</td><td>66.7</td><td>1</td><td>3</td></tr>
-<tr><td><a href="/boxscores/202311220CAR.html">11/22/2023</a></td><td><a href="/teams/CAR.html">CAR</a></td><td><a href="/teams/EDM.html">EDM</a></td><td><a href="/players/Brett Pesce.html">Brett Pesce</a></td><td><a href="/teams/CAR.html">CAR</a></td><td>0</td><td>0</td><td>0</td><td>1</td><td>2</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>3</td><td>0</td><td>23</td><td>20.85</td><td>5</td><td>23</td><td>22</td><td>51.1</td><td>-0.3</td><td>7</td><td>5</td><td>58.3</td><td>0</td><td>5</td></tr>
-<tr><td><a href="/boxscores/202311220CAR.html">11/22/2023</a></td><td><a href="/teams/CAR.html">CAR</a></td><td><a href="/teams/EDM.html">EDM</a></td><td><a href="/players/Brady Skjei.html">Brady Skjei</a></td><td><a href="/teams/CAR.html">CAR</a></td><td>0</td><td>1</td><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>1</td><td>0</td><td>23</td><td>20.85</td><td>4</td><td>20</td><td>22</td><td>47.6</td><td>-5.6</td><td>8</td><td>6</td><td>57.1</td><td>1</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202311220CAR.html">11/22/2023</a></td><td><a href="/teams/CAR.html">CAR</a></td><td><a href="/teams/EDM.html">EDM</a></td><td><a href="/players/Jaccob Slavin.html">Jaccob Slavin</a></td><td><a href="/teams/CAR.html">CAR</a></td><td>0</td><td>1</td><td>1</td><td>2</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>1</td><td>0</td><td>24</td><td>22.07</td><td>3</td><td>22</td><td>23</td><td>48.9</td><td>-3.8</td><td>8</td><td>8</td><td>50</td><td>2</td><td>2</td></tr>
-<tr><td><a href="/boxscores/202311220CAR.html">11/22/2023</a></td><td><a href="/teams/CAR.html">CAR</a></td><td><a href="/teams/EDM.html">EDM</a></td><td><a href="/players/Jordan Staal.html">Jordan Staal</a></td><td><a href="/teams/CAR.html">CAR</a></td><td>0</td><td>1</td><td>1</td><td>2</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>19</td><td>15.45</td><td>2</td><td>20</td><td>15</td><td>57.1</td><td>8.3</td><td>6</td><td>7</td><td>46.2</td><td>0</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202311220CAR.html">11/22/2023</a></td><td><a href="/teams/CAR.html">CAR</a></td><td><a href="/teams/EDM.html">EDM</a></td><td><a href="/players/Andrei Svechnikov.html">Andrei Svechnikov</a></td><td><a href="/teams/CAR.html">CAR</a></td><td>0</td><td>1</td><td>1</td><td>1</td><td>2</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>2</td><td>0</td><td>19</td><td>18.13</td><td>4</td><td>23</td><td>18</td><td>56.1</td><td>7.4</td><td>9</td><td>2</td><td>81.8</td><td>4</td><td>1</td></tr>
-<tr><td><a href="/boxscores/202311220CAR.html">11/22/2023</a></td><td><a href="/teams/CAR.html">CAR</a></td><td><a href="/teams/EDM.html">EDM</a></td><td><a href="/players/Teuvo Teräväinen.html">Teuvo Teräväinen</a></td><td><a href="/teams/CAR.html">CAR</a></td><td>1</td><td>1</td><td>2</td><td>2</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>1</td><td>100</td><td>22</td><td>18.05</td><td>3</td><td>12</td><td>21</td><td>36.4</td><td>-20.6</td><td>5</td><td>5</td><td>50</td><td>0</td><td>1</td></tr>
-<tr><td><a href="/boxscores/202311220CAR.html">11/22/2023</a></td><td><a href="/teams/CAR.html">CAR</a></td><td><a href="/teams/EDM.html">EDM</a></td><td><a href="/players/Pyotr Kochetkov.html">Pyotr Kochetkov</a></td><td><a href="/teams/CAR.html">CAR</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>2</td><td>40</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202311220CAR.html">11/22/2023</a></td><td><a href="/teams/CAR.html">CAR</a></td><td><a href="/teams/EDM.html">EDM</a></td><td><a href="/players/Antti Raanta.html">Antti Raanta</a></td><td><a href="/teams/CAR.html">CAR</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>20</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202311220CAR.html">11/22/2023</a></td><td><a href="/teams/CAR.html">CAR</a></td><td><a href="/teams/EDM.html">EDM</a></td><td><a href="/players/--.html">--</a></td><td><a href="/teams/--.html">--</a></td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td></tr>
-
-                </tbody>
-            </table>
-
-            <h2>Goalies</h2>
-            <table id="202311220CAR_goalies" border="1">
-                <thead>
-                    <tr>
-                        <th>Home Team</th><th>Away Team</th><th>Goalie</th><th>Team</th><th>DEC</th><th>GA</th><th>SA</th><th>SV</th>
-                        <th>SV%</th><th>SO</th><th>PIM</th><th>Goalie TOI</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr><td><a href="/teams/CAR.html">CAR</a></td><td><a href="/teams/EDM.html">EDM</a></td><td><a href="/players/skinnst01.html">Stuart Skinner</a></td><td><a href="/teams/EDM.html">EDM</a></td><td>L</td><td>4</td><td>12</td><td>8</td><td>0.667</td><td>0</td><td>0</td><td>14:48</td></tr>
-<tr><td><a href="/teams/CAR.html">CAR</a></td><td><a href="/teams/EDM.html">EDM</a></td><td><a href="/players/pickaca01.html">Calvin Pickard</a></td><td><a href="/teams/EDM.html">EDM</a></td><td>--</td><td>1</td><td>14</td><td>13</td><td>0.929</td><td>0</td><td>0</td><td>44:17:00</td></tr>
-<tr><td><a href="/teams/CAR.html">CAR</a></td><td><a href="/teams/EDM.html">EDM</a></td><td><a href="/players/--.html">Empty Net</a></td><td><a href="/teams/EDM.html">EDM</a></td><td>--</td><td>1</td><td>1</td><td>0</td><td>0.0</td><td>0</td><td>0</td><td>0</td></tr>
-<tr><td><a href="/teams/CAR.html">CAR</a></td><td><a href="/teams/EDM.html">EDM</a></td><td><a href="/players/raantan01.html">Antti Raanta</a></td><td><a href="/teams/CAR.html">CAR</a></td><td>W</td><td>1</td><td>8</td><td>7</td><td>0.875</td><td>0</td><td>0</td><td>20:00</td></tr>
-<tr><td><a href="/teams/CAR.html">CAR</a></td><td><a href="/teams/EDM.html">EDM</a></td><td><a href="/players/kochepy01.html">Pyotr Kochetkov</a></td><td><a href="/teams/CAR.html">CAR</a></td><td>--</td><td>2</td><td>15</td><td>13</td><td>0.867</td><td>0</td><td>0</td><td>40:00:00</td></tr>
-
-                </tbody>
-            </table>
-
-            <h2>Scoring</h2>
-            <table id="202311220CAR_scoring" border="1">
-                <thead>
-                    <tr>
-                        <th>Home Team</th><th>Away Team</th><th>Period</th><th>Time</th><th>Team</th><th>Info</th>
-                        <th>Scorer</th><th>Assist1</th><th>Assist2</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr><td><a href="/teams/CAR.html">CAR</a></td><td><a href="/teams/EDM.html">EDM</a></td><td>1st Period</td><td>1st Period</td><td><a href="/teams/1st Period.html">1st Period</a></td><td>1st Period</td><td><a href="/players/1st Period.html">1st Period</a></td><td><a href="/players/1st Period.html">1st Period</a></td><td><a href="/players/1st Period.html">1st Period</a></td></tr>
-<tr><td><a href="/teams/CAR.html">CAR</a></td><td><a href="/teams/EDM.html">EDM</a></td><td>1st Period</td><td>9:17</td><td><a href="/teams/CAR.html">CAR</a></td><td>--</td><td><a href="/players/Jesper Fast.html">Jesper Fast</a></td><td><a href="/players/Jordan Martinook.html">Jordan Martinook</a></td><td><a href="/players/Jalen Chatfield.html">Jalen Chatfield</a></td></tr>
-<tr><td><a href="/teams/CAR.html">CAR</a></td><td><a href="/teams/EDM.html">EDM</a></td><td>1st Period</td><td>9:52</td><td><a href="/teams/CAR.html">CAR</a></td><td>--</td><td><a href="/players/Jack Drury.html">Jack Drury</a></td><td><a href="/players/Michael Bunting.html">Michael Bunting</a></td><td><a href="/players/Dmitry Orlov.html">Dmitry Orlov</a></td></tr>
-<tr><td><a href="/teams/CAR.html">CAR</a></td><td><a href="/teams/EDM.html">EDM</a></td><td>1st Period</td><td>11:23</td><td><a href="/teams/CAR.html">CAR</a></td><td>--</td><td><a href="/players/Teuvo Teräväinen.html">Teuvo Teräväinen</a></td><td><a href="/players/Sebastian Aho.html">Sebastian Aho</a></td><td><a href="/players/Seth Jarvis.html">Seth Jarvis</a></td></tr>
-<tr><td><a href="/teams/CAR.html">CAR</a></td><td><a href="/teams/EDM.html">EDM</a></td><td>1st Period</td><td>14:48</td><td><a href="/teams/CAR.html">CAR</a></td><td>--</td><td><a href="/players/Seth Jarvis.html">Seth Jarvis</a></td><td><a href="/players/Teuvo Teräväinen.html">Teuvo Teräväinen</a></td><td><a href="/players/Jalen Chatfield.html">Jalen Chatfield</a></td></tr>
-<tr><td><a href="/teams/CAR.html">CAR</a></td><td><a href="/teams/EDM.html">EDM</a></td><td>1st Period</td><td>17:13</td><td><a href="/teams/EDM.html">EDM</a></td><td>PP</td><td><a href="/players/Zach Hyman.html">Zach Hyman</a></td><td><a href="/players/Leon Draisaitl.html">Leon Draisaitl</a></td><td><a href="/players/Evan Bouchard.html">Evan Bouchard</a></td></tr>
-<tr><td><a href="/teams/CAR.html">CAR</a></td><td><a href="/teams/EDM.html">EDM</a></td><td>2nd Period</td><td>2nd Period</td><td><a href="/teams/2nd Period.html">2nd Period</a></td><td>2nd Period</td><td><a href="/players/2nd Period.html">2nd Period</a></td><td><a href="/players/2nd Period.html">2nd Period</a></td><td><a href="/players/2nd Period.html">2nd Period</a></td></tr>
-<tr><td><a href="/teams/CAR.html">CAR</a></td><td><a href="/teams/EDM.html">EDM</a></td><td>2nd Period</td><td>2:13</td><td><a href="/teams/CAR.html">CAR</a></td><td>--</td><td><a href="/players/Martin Nečas.html">Martin Nečas</a></td><td><a href="/players/Andrei Svechnikov.html">Andrei Svechnikov</a></td><td><a href="/players/Brady Skjei.html">Brady Skjei</a></td></tr>
-<tr><td><a href="/teams/CAR.html">CAR</a></td><td><a href="/teams/EDM.html">EDM</a></td><td>2nd Period</td><td>17:48</td><td><a href="/teams/EDM.html">EDM</a></td><td>SH</td><td><a href="/players/Mattias Ekholm.html">Mattias Ekholm</a></td><td><a href="/players/Ryan McLeod.html">Ryan McLeod</a></td><td><a href="/players/Warren Foegele.html">Warren Foegele</a></td></tr>
-<tr><td><a href="/teams/CAR.html">CAR</a></td><td><a href="/teams/EDM.html">EDM</a></td><td>3rd Period</td><td>3rd Period</td><td><a href="/teams/3rd Period.html">3rd Period</a></td><td>3rd Period</td><td><a href="/players/3rd Period.html">3rd Period</a></td><td><a href="/players/3rd Period.html">3rd Period</a></td><td><a href="/players/3rd Period.html">3rd Period</a></td></tr>
-<tr><td><a href="/teams/CAR.html">CAR</a></td><td><a href="/teams/EDM.html">EDM</a></td><td>3rd Period</td><td>3:46</td><td><a href="/teams/EDM.html">EDM</a></td><td>--</td><td><a href="/players/Zach Hyman.html">Zach Hyman</a></td><td><a href="/players/Connor McDavid.html">Connor McDavid</a></td><td><a href="/players/Ryan Nugent-Hopkins.html">Ryan Nugent-Hopkins</a></td></tr>
-<tr><td><a href="/teams/CAR.html">CAR</a></td><td><a href="/teams/EDM.html">EDM</a></td><td>3rd Period</td><td>18:56</td><td><a href="/teams/CAR.html">CAR</a></td><td>SH, EN</td><td><a href="/players/Brent Burns.html">Brent Burns</a></td><td><a href="/players/Jordan Staal.html">Jordan Staal</a></td><td><a href="/players/Jaccob Slavin.html">Jaccob Slavin</a></td></tr>
-
-                </tbody>
-            </table>
-
-            <h2>Penalties</h2>
-            <table id="202311220CAR_penalties" border="1">
-                <thead>
-                    <tr>
-                        <th>Home Team</th><th>Away Team</th><th>Period</th><th>Time</th><th>Team</th><th>Player</th>
-                        <th>Penalty</th><th>PIM</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr><td><a href="/teams/CAR.html">CAR</a></td><td><a href="/teams/EDM.html">EDM</a></td><td>1st Period</td><td>1st Period</td><td><a href="/teams/1st Period.html">1st Period</a></td><td><a href="/players/1st Period.html">1st Period</a></td><td>1st Period</td><td>1st Period</td></tr>
-<tr><td><a href="/teams/CAR.html">CAR</a></td><td><a href="/teams/EDM.html">EDM</a></td><td>1st Period</td><td>3:40</td><td><a href="/teams/EDM.html">EDM</a></td><td><a href="/players/Zach Hyman.html">Zach Hyman</a></td><td>Hooking</td><td>2 min</td></tr>
-<tr><td><a href="/teams/CAR.html">CAR</a></td><td><a href="/teams/EDM.html">EDM</a></td><td>1st Period</td><td>17:08</td><td><a href="/teams/CAR.html">CAR</a></td><td><a href="/players/Stefan Noesen.html">Stefan Noesen</a></td><td>Interference</td><td>2 min</td></tr>
-<tr><td><a href="/teams/CAR.html">CAR</a></td><td><a href="/teams/EDM.html">EDM</a></td><td>2nd Period</td><td>2nd Period</td><td><a href="/teams/2nd Period.html">2nd Period</a></td><td><a href="/players/2nd Period.html">2nd Period</a></td><td>2nd Period</td><td>2nd Period</td></tr>
-<tr><td><a href="/teams/CAR.html">CAR</a></td><td><a href="/teams/EDM.html">EDM</a></td><td>2nd Period</td><td>10:30</td><td><a href="/teams/EDM.html">EDM</a></td><td><a href="/players/Darnell Nurse.html">Darnell Nurse</a></td><td>Cross Checking</td><td>2 min</td></tr>
-<tr><td><a href="/teams/CAR.html">CAR</a></td><td><a href="/teams/EDM.html">EDM</a></td><td>2nd Period</td><td>14:07</td><td><a href="/teams/EDM.html">EDM</a></td><td><a href="/players/Ryan Nugent-Hopkins.html">Ryan Nugent-Hopkins</a></td><td>Interference</td><td>2 min</td></tr>
-<tr><td><a href="/teams/CAR.html">CAR</a></td><td><a href="/teams/EDM.html">EDM</a></td><td>2nd Period</td><td>14:20</td><td><a href="/teams/CAR.html">CAR</a></td><td><a href="/players/Andrei Svechnikov.html">Andrei Svechnikov</a></td><td>Tripping</td><td>2 min</td></tr>
-<tr><td><a href="/teams/CAR.html">CAR</a></td><td><a href="/teams/EDM.html">EDM</a></td><td>2nd Period</td><td>16:30</td><td><a href="/teams/EDM.html">EDM</a></td><td><a href="/players/Evan Bouchard.html">Evan Bouchard</a></td><td>Slashing</td><td>2 min</td></tr>
-<tr><td><a href="/teams/CAR.html">CAR</a></td><td><a href="/teams/EDM.html">EDM</a></td><td>3rd Period</td><td>3rd Period</td><td><a href="/teams/3rd Period.html">3rd Period</a></td><td><a href="/players/3rd Period.html">3rd Period</a></td><td>3rd Period</td><td>3rd Period</td></tr>
-<tr><td><a href="/teams/CAR.html">CAR</a></td><td><a href="/teams/EDM.html">EDM</a></td><td>3rd Period</td><td>5:56</td><td><a href="/teams/CAR.html">CAR</a></td><td><a href="/players/Martin Nečas.html">Martin Nečas</a></td><td>Holding Stick</td><td>2 min</td></tr>
-<tr><td><a href="/teams/CAR.html">CAR</a></td><td><a href="/teams/EDM.html">EDM</a></td><td>3rd Period</td><td>15:58</td><td><a href="/teams/EDM.html">EDM</a></td><td><a href="/players/Connor McDavid.html">Connor McDavid</a></td><td>Interference</td><td>2 min</td></tr>
-<tr><td><a href="/teams/CAR.html">CAR</a></td><td><a href="/teams/EDM.html">EDM</a></td><td>3rd Period</td><td>18:47</td><td><a href="/teams/CAR.html">CAR</a></td><td><a href="/players/Brett Pesce.html">Brett Pesce</a></td><td>Holding</td><td>2 min</td></tr>
-
-                </tbody>
-            </table>
-        </main>
-    </body>
-    </html>
-    
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Edmonton Oilers at Carolina Hurricanes: November 22, 2023</title>
+<link rel="stylesheet" href="/assets/styles.css">
+<script src="/assets/searchBar.js"></script>
+<script src="/assets/tableSort.js"></script>
+</head>
+<body>
+<nav id="navbar">
+<ul>
+<li><a href="/">Home</a></li>
+<li><a href="/players/">Players</a></li>
+<li><a href="/teams/">Teams</a></li>
+<li><a href="/probabilities/">Probabilities</a></li>
+<li><a href="/boxscores/">Boxscores</a></li>
+<li><a href="/versus/">Head to Head Stats</a></li>
+<li><a href="/leaders/">Leaders</a></li>
+<li><a href="/seasons/2025/schedule.html">Schedule and Results</a></li>
+<li><a href="/seasons/2025/standings.html">Current Standings</a></li>
+<li><a href="/seasons/2025/rosters.html">Team Rosters</a></li>
+<li>
+<input type="text" id="searchBar" placeholder="Search for players or teams..." oninput="performSearch()" autocomplete="off">
+<div id="searchResults" class="dropdown"></div>
+<button id="searchButton" onclick="handleSearch()">Search</button>
+</li>
+</ul>
+</nav>
+<main id="content">
+<div class="scorebox">
+<div class="team"><div><a href="/teams/EDM.html">EDM</a></div><div class="score">3</div></div>
+<div class="team"><div><a href="/teams/CAR.html">CAR</a></div><div class="score">6</div></div>
+<div class="date">November 22, 2023</div>
+</div>
+<table id="EDM_skaters">
+<tr><th>Team</th><th>Player</th><th>G</th><th>A</th><th>PTS</th><th>SOG</th><th>HIT</th><th>BLK</th><th>TOI</th><th>PIM</th><th>SAT-F</th><th>SAT-A</th><th>CF%</th><th>CRel%</th></tr>
+<tr><td><a href="/teams/EDM.html">EDM</a></td><td><a href="/players/kulakbr01.html">Brett Kulak</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>4</td><td>16.12</td><td>0</td><td>14</td><td>29</td><td>32.60%</td><td>-25.30%</td></tr>
+<tr><td><a href="/teams/EDM.html">EDM</a></td><td><a href="/players/cecico01.html">Cody Ceci</a></td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>1</td><td>15.12</td><td>0</td><td>18</td><td>21</td><td>46.20%</td><td>-3.80%</td></tr>
+<tr><td><a href="/teams/EDM.html">EDM</a></td><td><a href="/players/brownco02.html">Connor Brown</a></td><td>0</td><td>0</td><td>0</td><td>2</td><td>1</td><td>1</td><td>15.87</td><td>0</td><td>14</td><td>18</td><td>43.80%</td><td>-6.80%</td></tr>
+<tr><td><a href="/teams/EDM.html">EDM</a></td><td><a href="/players/mcdavco01.html">Connor McDavid</a></td><td>0</td><td>1</td><td>1</td><td>1</td><td>1</td><td>3</td><td>19.67</td><td>2</td><td>20</td><td>28</td><td>41.70%</td><td>-11.80%</td></tr>
+<tr><td><a href="/teams/EDM.html">EDM</a></td><td><a href="/players/nurseda01.html">Darnell Nurse</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>20.98</td><td>2</td><td>14</td><td>22</td><td>38.90%</td><td>-14.10%</td></tr>
+<tr><td><a href="/teams/EDM.html">EDM</a></td><td><a href="/players/ryande01.html">Derek Ryan</a></td><td>0</td><td>0</td><td>0</td><td>1</td><td>1</td><td>0</td><td>11.07</td><td>0</td><td>9</td><td>7</td><td>56.20%</td><td>8.60%</td></tr>
+<tr><td><a href="/teams/EDM.html">EDM</a></td><td><a href="/players/bouchev01.html">Evan Bouchard</a></td><td>0</td><td>1</td><td>1</td><td>3</td><td>0</td><td>3</td><td>21.5</td><td>2</td><td>23</td><td>14</td><td>62.20%</td><td>19.50%</td></tr>
+<tr><td><a href="/teams/EDM.html">EDM</a></td><td><a href="/players/kaneev01.html">Evander Kane</a></td><td>0</td><td>0</td><td>0</td><td>2</td><td>1</td><td>0</td><td>19.12</td><td>0</td><td>20</td><td>17</td><td>54.10%</td><td>7.80%</td></tr>
+<tr><td><a href="/teams/EDM.html">EDM</a></td><td><a href="/players/hamblja01.html">James Hamblin</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>2</td><td>7.55</td><td>0</td><td>8</td><td>7</td><td>53.30%</td><td>5.20%</td></tr>
+<tr><td><a href="/teams/EDM.html">EDM</a></td><td><a href="/players/draisle01.html">Leon Draisaitl</a></td><td>0</td><td>1</td><td>1</td><td>2</td><td>0</td><td>1</td><td>19.8</td><td>0</td><td>16</td><td>27</td><td>37.20%</td><td>-18.10%</td></tr>
+<tr><td><a href="/teams/EDM.html">EDM</a></td><td><a href="/players/ekholma01.html">Mattias Ekholm</a></td><td>1</td><td>0</td><td>1</td><td>2</td><td>3</td><td>0</td><td>22.52</td><td>0</td><td>23</td><td>20</td><td>53.50%</td><td>7.40%</td></tr>
+<tr><td><a href="/teams/EDM.html">EDM</a></td><td><a href="/players/janmama02.html">Mattias Janmark</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>11.0</td><td>0</td><td>4</td><td>17</td><td>19.00%</td><td>-36.10%</td></tr>
+<tr><td><a href="/teams/EDM.html">EDM</a></td><td><a href="/players/brobeph01.html">Philip Broberg</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>5.28</td><td>0</td><td>5</td><td>3</td><td>62.50%</td><td>14.80%</td></tr>
+<tr><td><a href="/teams/EDM.html">EDM</a></td><td><a href="/players/mcleory01.html">Ryan McLeod</a></td><td>0</td><td>1</td><td>1</td><td>2</td><td>1</td><td>0</td><td>13.97</td><td>0</td><td>12</td><td>8</td><td>60.00%</td><td>13.50%</td></tr>
+<tr><td><a href="/teams/EDM.html">EDM</a></td><td><a href="/players/nugenry01.html">Ryan Nugent-Hopkins</a></td><td>0</td><td>1</td><td>1</td><td>1</td><td>0</td><td>0</td><td>19.07</td><td>2</td><td>28</td><td>15</td><td>65.10%</td><td>25.60%</td></tr>
+<tr><td><a href="/teams/EDM.html">EDM</a></td><td><a href="/players/deshavi01.html">Vincent Desharnais</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>1</td><td>16.82</td><td>0</td><td>14</td><td>12</td><td>53.80%</td><td>6.50%</td></tr>
+<tr><td><a href="/teams/EDM.html">EDM</a></td><td><a href="/players/foegewa01.html">Warren Foegele</a></td><td>0</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>15.22</td><td>0</td><td>14</td><td>16</td><td>46.70%</td><td>-2.70%</td></tr>
+<tr><td><a href="/teams/EDM.html">EDM</a></td><td><a href="/players/hymanza01.html">Zach Hyman</a></td><td>2</td><td>0</td><td>2</td><td>5</td><td>1</td><td>0</td><td>20.27</td><td>2</td><td>31</td><td>13</td><td>70.50%</td><td>34.50%</td></tr>
+</table>
+<table id="CAR_skaters">
+<tr><th>Team</th><th>Player</th><th>G</th><th>A</th><th>PTS</th><th>SOG</th><th>HIT</th><th>BLK</th><th>TOI</th><th>PIM</th><th>SAT-F</th><th>SAT-A</th><th>CF%</th><th>CRel%</th></tr>
+<tr><td><a href="/teams/CAR.html">CAR</a></td><td><a href="/players/svechan01.html">Andrei Svechnikov</a></td><td>0</td><td>1</td><td>1</td><td>2</td><td>4</td><td>1</td><td>18.13</td><td>2</td><td>23</td><td>18</td><td>56.10%</td><td>7.40%</td></tr>
+<tr><td><a href="/teams/CAR.html">CAR</a></td><td><a href="/players/skjeibr01.html">Brady Skjei</a></td><td>0</td><td>1</td><td>1</td><td>1</td><td>1</td><td>0</td><td>20.85</td><td>0</td><td>20</td><td>22</td><td>47.60%</td><td>-5.60%</td></tr>
+<tr><td><a href="/teams/CAR.html">CAR</a></td><td><a href="/players/burnsbr01.html">Brent Burns</a></td><td>1</td><td>0</td><td>1</td><td>3</td><td>1</td><td>2</td><td>20.33</td><td>0</td><td>22</td><td>23</td><td>48.90%</td><td>-3.80%</td></tr>
+<tr><td><a href="/teams/CAR.html">CAR</a></td><td><a href="/players/pescebr01.html">Brett Pesce</a></td><td>0</td><td>0</td><td>0</td><td>3</td><td>0</td><td>5</td><td>20.85</td><td>2</td><td>23</td><td>22</td><td>51.10%</td><td>-0.30%</td></tr>
+<tr><td><a href="/teams/CAR.html">CAR</a></td><td><a href="/players/orlovdm01.html">Dmitry Orlov</a></td><td>0</td><td>1</td><td>1</td><td>5</td><td>1</td><td>3</td><td>15.1</td><td>0</td><td>13</td><td>12</td><td>52.00%</td><td>0.90%</td></tr>
+<tr><td><a href="/teams/CAR.html">CAR</a></td><td><a href="/players/slavija01.html">Jaccob Slavin</a></td><td>0</td><td>1</td><td>1</td><td>1</td><td>2</td><td>2</td><td>22.07</td><td>0</td><td>22</td><td>23</td><td>48.90%</td><td>-3.80%</td></tr>
+<tr><td><a href="/teams/CAR.html">CAR</a></td><td><a href="/players/druryja01.html">Jack Drury</a></td><td>1</td><td>0</td><td>1</td><td>2</td><td>0</td><td>1</td><td>7.67</td><td>0</td><td>8</td><td>4</td><td>66.70%</td><td>17.20%</td></tr>
+<tr><td><a href="/teams/CAR.html">CAR</a></td><td><a href="/players/chatfja01.html">Jalen Chatfield</a></td><td>0</td><td>2</td><td>2</td><td>0</td><td>0</td><td>0</td><td>14.8</td><td>0</td><td>14</td><td>13</td><td>51.90%</td><td>0.80%</td></tr>
+<tr><td><a href="/teams/CAR.html">CAR</a></td><td><a href="/players/fastje01.html">Jesper Fast</a></td><td>1</td><td>0</td><td>1</td><td>1</td><td>2</td><td>2</td><td>13.88</td><td>0</td><td>18</td><td>9</td><td>66.70%</td><td>20.00%</td></tr>
+<tr><td><a href="/teams/CAR.html">CAR</a></td><td><a href="/players/kotkaje01.html">Jesperi Kotkaniemi</a></td><td>0</td><td>0</td><td>0</td><td>2</td><td>0</td><td>1</td><td>16.65</td><td>0</td><td>21</td><td>19</td><td>52.50%</td><td>1.90%</td></tr>
+<tr><td><a href="/teams/CAR.html">CAR</a></td><td><a href="/players/martijo01.html">Jordan Martinook</a></td><td>0</td><td>1</td><td>1</td><td>1</td><td>0</td><td>0</td><td>14.57</td><td>0</td><td>17</td><td>11</td><td>60.70%</td><td>12.30%</td></tr>
+<tr><td><a href="/teams/CAR.html">CAR</a></td><td><a href="/players/staaljo01.html">Jordan Staal</a></td><td>0</td><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td><td>15.45</td><td>0</td><td>20</td><td>15</td><td>57.10%</td><td>8.30%</td></tr>
+<tr><td><a href="/teams/CAR.html">CAR</a></td><td><a href="/players/necasma01.html">Martin Nečas</a></td><td>1</td><td>0</td><td>1</td><td>2</td><td>0</td><td>0</td><td>18.92</td><td>2</td><td>24</td><td>22</td><td>52.20%</td><td>1.50%</td></tr>
+<tr><td><a href="/teams/CAR.html">CAR</a></td><td><a href="/players/buntimi01.html">Michael Bunting</a></td><td>0</td><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td><td>9.37</td><td>0</td><td>13</td><td>3</td><td>81.20%</td><td>34.60%</td></tr>
+<tr><td><a href="/teams/CAR.html">CAR</a></td><td><a href="/players/ahose01.html">Sebastian Aho (CAR)</a></td><td>0</td><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td><td>19.12</td><td>0</td><td>11</td><td>19</td><td>36.70%</td><td>-19.50%</td></tr>
+<tr><td><a href="/teams/CAR.html">CAR</a></td><td><a href="/players/jarvise01.html">Seth Jarvis</a></td><td>1</td><td>1</td><td>2</td><td>3</td><td>3</td><td>0</td><td>18.62</td><td>0</td><td>10</td><td>24</td><td>29.40%</td><td>-30.60%</td></tr>
+<tr><td><a href="/teams/CAR.html">CAR</a></td><td><a href="/players/noesest01.html">Stefan Noesen</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>2</td><td>0</td><td>10.28</td><td>2</td><td>12</td><td>4</td><td>75.00%</td><td>27.40%</td></tr>
+<tr><td><a href="/teams/CAR.html">CAR</a></td><td><a href="/players/teravte01.html">Teuvo Teräväinen</a></td><td>1</td><td>1</td><td>2</td><td>1</td><td>0</td><td>1</td><td>18.05</td><td>0</td><td>12</td><td>21</td><td>36.40%</td><td>-20.60%</td></tr>
+</table>
+<table id="EDM_goalies">
+<tr><th>Team</th><th>Goalie</th><th>DEC</th><th>GA</th><th>SA</th><th>SV</th><th>SV%</th><th>SO</th><th>PIM</th><th>TOI</th></tr>
+<tr><td><a href="/teams/EDM.html">EDM</a></td><td><a href="/players/skinnst01.html">Stuart Skinner</a></td><td>L</td><td>4</td><td>12</td><td>8</td><td>66.70%</td><td>0</td><td>0</td><td>14.8</td></tr>
+<tr><td><a href="/teams/EDM.html">EDM</a></td><td><a href="/players/pickaca01.html">Calvin Pickard</a></td><td>--</td><td>1</td><td>14</td><td>13</td><td>92.90%</td><td>0</td><td>0</td><td>44.28</td></tr>
+<tr><td><a href="/teams/EDM.html">EDM</a></td><td><a href="/players/nan.html">Empty Net</a></td><td>--</td><td>1</td><td>1</td><td>0</td><td>0.00%</td><td>0</td><td>0</td><td>0.0</td></tr>
+</table>
+<table id="CAR_goalies">
+<tr><th>Team</th><th>Goalie</th><th>DEC</th><th>GA</th><th>SA</th><th>SV</th><th>SV%</th><th>SO</th><th>PIM</th><th>TOI</th></tr>
+<tr><td><a href="/teams/CAR.html">CAR</a></td><td><a href="/players/raantan01.html">Antti Raanta</a></td><td>W</td><td>1</td><td>8</td><td>7</td><td>87.50%</td><td>0</td><td>0</td><td>20.0</td></tr>
+<tr><td><a href="/teams/CAR.html">CAR</a></td><td><a href="/players/kochepy01.html">Pyotr Kochetkov</a></td><td>--</td><td>2</td><td>15</td><td>13</td><td>86.70%</td><td>0</td><td>0</td><td>40.0</td></tr>
+</table>
+<table id="scoring">
+<tr><th>Team</th><th>Time</th><th>Info</th><th>Scorer</th><th>Assist 1</th><th>Assist 2</th></tr>
+<tr><td><a href="/teams/CAR.html">CAR</a></td><td>9.28</td><td>--</td><td><a href="/players/fastje01.html">Jesper Fast</a></td><td><a href="/players/martijo01.html">Jordan Martinook</a></td><td><a href="/players/chatfja01.html">Jalen Chatfield</a></td></tr>
+<tr><td><a href="/teams/CAR.html">CAR</a></td><td>9.87</td><td>--</td><td><a href="/players/druryja01.html">Jack Drury</a></td><td><a href="/players/buntimi01.html">Michael Bunting</a></td><td><a href="/players/orlovdm01.html">Dmitry Orlov</a></td></tr>
+<tr><td><a href="/teams/CAR.html">CAR</a></td><td>11.38</td><td>--</td><td><a href="/players/teravte01.html">Teuvo Teräväinen</a></td><td><a href="/players/Sebastian Aho.html">Sebastian Aho</a></td><td><a href="/players/jarvise01.html">Seth Jarvis</a></td></tr>
+<tr><td><a href="/teams/CAR.html">CAR</a></td><td>14.8</td><td>--</td><td><a href="/players/jarvise01.html">Seth Jarvis</a></td><td><a href="/players/teravte01.html">Teuvo Teräväinen</a></td><td><a href="/players/chatfja01.html">Jalen Chatfield</a></td></tr>
+<tr><td><a href="/teams/EDM.html">EDM</a></td><td>17.22</td><td>PP</td><td><a href="/players/hymanza01.html">Zach Hyman</a></td><td><a href="/players/draisle01.html">Leon Draisaitl</a></td><td><a href="/players/bouchev01.html">Evan Bouchard</a></td></tr>
+<tr><td><a href="/teams/CAR.html">CAR</a></td><td>22.22</td><td>--</td><td><a href="/players/necasma01.html">Martin Nečas</a></td><td><a href="/players/svechan01.html">Andrei Svechnikov</a></td><td><a href="/players/skjeibr01.html">Brady Skjei</a></td></tr>
+<tr><td><a href="/teams/EDM.html">EDM</a></td><td>37.8</td><td>SH</td><td><a href="/players/ekholma01.html">Mattias Ekholm</a></td><td><a href="/players/mcleory01.html">Ryan McLeod</a></td><td><a href="/players/foegewa01.html">Warren Foegele</a></td></tr>
+<tr><td><a href="/teams/EDM.html">EDM</a></td><td>43.77</td><td>--</td><td><a href="/players/hymanza01.html">Zach Hyman</a></td><td><a href="/players/mcdavco01.html">Connor McDavid</a></td><td><a href="/players/nugenry01.html">Ryan Nugent-Hopkins</a></td></tr>
+<tr><td><a href="/teams/CAR.html">CAR</a></td><td>58.93</td><td>SH, EN</td><td><a href="/players/burnsbr01.html">Brent Burns</a></td><td><a href="/players/staaljo01.html">Jordan Staal</a></td><td><a href="/players/slavija01.html">Jaccob Slavin</a></td></tr>
+</table>
+<table id="penalties">
+<tr><th>Team</th><th>Time</th><th>Player</th><th>Penalty</th><th>PIM</th></tr>
+<tr><td><a href="/teams/EDM.html">EDM</a></td><td>3.67</td><td><a href="/players/hymanza01.html">Zach Hyman</a></td><td>Hooking</td><td>2 min</td></tr>
+<tr><td><a href="/teams/CAR.html">CAR</a></td><td>17.13</td><td><a href="/players/noesest01.html">Stefan Noesen</a></td><td>Interference</td><td>2 min</td></tr>
+<tr><td><a href="/teams/EDM.html">EDM</a></td><td>30.5</td><td><a href="/players/nurseda01.html">Darnell Nurse</a></td><td>Cross Checking</td><td>2 min</td></tr>
+<tr><td><a href="/teams/EDM.html">EDM</a></td><td>34.12</td><td><a href="/players/nugenry01.html">Ryan Nugent-Hopkins</a></td><td>Interference</td><td>2 min</td></tr>
+<tr><td><a href="/teams/CAR.html">CAR</a></td><td>34.33</td><td><a href="/players/svechan01.html">Andrei Svechnikov</a></td><td>Tripping</td><td>2 min</td></tr>
+<tr><td><a href="/teams/EDM.html">EDM</a></td><td>36.5</td><td><a href="/players/bouchev01.html">Evan Bouchard</a></td><td>Slashing</td><td>2 min</td></tr>
+<tr><td><a href="/teams/CAR.html">CAR</a></td><td>45.93</td><td><a href="/players/necasma01.html">Martin Nečas</a></td><td>Holding Stick</td><td>2 min</td></tr>
+<tr><td><a href="/teams/EDM.html">EDM</a></td><td>55.97</td><td><a href="/players/mcdavco01.html">Connor McDavid</a></td><td>Interference</td><td>2 min</td></tr>
+<tr><td><a href="/teams/CAR.html">CAR</a></td><td>58.78</td><td><a href="/players/pescebr01.html">Brett Pesce</a></td><td>Holding</td><td>2 min</td></tr>
+</table>
+</main>
+</body>
+</html>

@@ -1,64 +1,93 @@
 
-    <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>ARI Stats</title>
-        <link rel="stylesheet" href="/assets/styles.css"> <!-- Assuming a shared stylesheet -->
-        <script src="/assets/searchBar.js" defer></script>
-        <script src="/assets/tableSort.js"></script>
-        <style>
-            tr:hover {background-color: #F0FFF0;}
-        </style>
-    </head>
-    <body>
-        <!-- Navigation Bar -->
-        <nav id="navbar">
-            <a href="/">Home</a>
-            <a href="/players/">Players</a>
-            <a href="/teams/">Teams</a>
-            <a href="/leaders/">Leaders</a>
-            <a href="/probabilities/">Probabilities</a>
-            <a href="/boxscores/">Boxscores</a>
-            <a href="/schedule/">Schedule</a>
+    <!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hockey Stats Site</title>
+    <link rel="stylesheet" href="/assets/styles.css">
+    <script src="/assets/searchBar.js"></script>
+    <script src="/assets/tableSort.js"></script>
+</head>
+<body>
 
-            <!-- Search Bar -->
-            <div class="search-container">
-                <input type="text" id="searchInput" placeholder="Search players or teams..." oninput="searchEntities()" />
-                <ul id="suggestions"></ul> <!-- This will show the search suggestions -->
-            </div>
-        </nav>
+<style>
+#searchResults {
+    position: absolute;
+    background-color: white;
+    border: 1px solid #ccc;
+    width: 100%;
+    max-height: 200px;
+    overflow-y: auto;
+    z-index: 1000;
+}
 
-        <main id="content">
-            <h1>ARI Gamelogs</h1>
-            <table border="1">
-                <thead>
-                    <tr>
-                        <th>Game</th>
-                        <th>Date</th>
-                        <th>Team</th>
-                        <th>Location</th>
-                        <th>Opponent</th>
-                        <th>G</th>
-                        <th>GA</th>
-                        <th>Result</th>
-                        <th>OT/SO</th>
-                        <th>SOG</th>
-                        <th>PIM</th>
-                        <th>SOGA</th>
-                        <th>PIMA</th>
-                        <th>CF at Even Strength</th>
-                        <th>CA at Even Strength</th>
-                        <th>CF% at Even Strength</th>
-                        <th>FF at Even Strength</th>
-                        <th>FA at Even Strength</th>
-                        <th>FF% at Even Strength</th>
-                        <th>FOW at Even Strength</th>
-                        <th>FOL at Even Strength</th>
-                    </tr>
-                </thead>
-                <tbody>
+#searchResults div {
+    padding: 10px;
+    cursor: pointer;
+}
+
+#searchResults div:hover, .highlighted {
+    background-color: #f1f1f1;
+}
+
+#searchResults a {
+    text-decoration: none;
+    color: black;
+    display: block;
+}
+</style>
+
+<!-- Navigation Bar -->
+<nav id="navbar">
+  <ul>
+    <li><a href="/">Home</a></li>
+    <li><a href="/players/">Players</a></li>
+    <li><a href="/teams/">Teams</a></li>
+    <li><a href="/leaders/">Leaders</a></li>
+    <li><a href="/probabilities/">Probabilities</a></li>
+    <li><a href="/boxscores/">Boxscores</a></li>
+    <li><a href="/schedule/">Schedule</a></li>
+    <!-- Search Bar -->
+    <li>
+      <input type="text" id="searchBar" placeholder="Search for players or teams..." oninput="performSearch()" autocomplete="off">
+      <div id="searchResults" class="dropdown"></div>
+      <button id="searchButton" onclick="handleSearch()">Search</button>
+    </li>  
+  </ul>
+</nav>
+
+<main id="content">
+<h1>ARI Gamelogs</h1>
+<table id="team_gamelogs" border="1">
+  <thead>
+    <tr>
+      <th onclick="sortTable('team_gamelogs',0)">Game</th>
+      <th onclick="sortTable('team_gamelogs',1)">Date</th>
+      <th onclick="sortTable('team_gamelogs',2)">Team</th>
+      <th onclick="sortTable('team_gamelogs',3)">Location</th>
+      <th onclick="sortTable('team_gamelogs',4)">Opponent</th>
+      <th onclick="sortTable('team_gamelogs',5)">G</th>
+      <th onclick="sortTable('team_gamelogs',6)">GA</th>
+      <th onclick="sortTable('team_gamelogs',7)">Result</th>
+      <th onclick="sortTable('team_gamelogs',8)">OT/SO</th>
+      <th onclick="sortTable('team_gamelogs',9)">SOG</th>
+      <th onclick="sortTable('team_gamelogs',10)">PIM</th>
+      <th onclick="sortTable('team_gamelogs',11)">SOGA</th>
+      <th onclick="sortTable('team_gamelogs',12)">PIMA</th>
+      <th onclick="sortTable('team_gamelogs',13)">CF at Even Strength</th>
+      <th onclick="sortTable('team_gamelogs',14)">CA at Even Strength</th>
+      <th onclick="sortTable('team_gamelogs',15)">CF% at Even Strength</th>
+      <th onclick="sortTable('team_gamelogs',16)">FF at Even Strength</th>
+      <th onclick="sortTable('team_gamelogs',17)">FA at Even Strength</th>
+      <th onclick="sortTable('team_gamelogs',18)">FF% at Even Strength</th>
+      <th onclick="sortTable('team_gamelogs',19)">FOW at Even Strength</th>
+      <th onclick="sortTable('team_gamelogs',20)">FOL at Even Strength</th>
+      <th onclick="sortTable('team_gamelogs',21)">
+
+    </tr>
+  </thead>
+ <tbody>
                     
         <tr>
             <td>1</td>

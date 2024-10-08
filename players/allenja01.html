@@ -1,1009 +1,197 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Jake Allen</title>
-  <link rel="stylesheet" href="/assets/styles.css">
-  <script src="/assets/searchBar.js" defer></script>
-  <script src="/assets/tableSort.js"></script>
-  
-  <style>
-    tr:hover {background-color: #F0FFF0;}
-  </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Jake Allen Stats 2023-24</title>
+<link rel="stylesheet" href="/assets/styles.css">
+<script src="/assets/searchBar.js"></script>
+<script src="/assets/tableSort.js"></script>
 </head>
-
 <body>
-  <!-- Navigation Bar -->
-  <nav id="navbar">
-    <a href="/">Home</a>
-    <a href="/players/">Players</a>
-    <a href="/teams/">Teams</a>
-    <a href="/leaders/">Leaders</a>
-    <a href="/probabilities/">Probabilities</a>
-    <a href="/boxscores/">Boxscores</a>
-    <a href="/schedule/">Schedule</a>
+<nav id="navbar">
+<ul>
+<li><a href="/">Home</a></li>
+<li><a href="/players/">Players</a></li>
+<li><a href="/teams/">Teams</a></li>
+<li><a href="/probabilities/">Probabilities</a></li>
+<li><a href="/boxscores/">Boxscores</a></li>
+<li><a href="/versus/">Head to Head Stats</a></li>
+<li><a href="/leaders/">Leaders</a></li>
+<li><a href="/seasons/2025/schedule.html">Schedule and Results</a></li>
+<li><a href="/seasons/2025/standings.html">Current Standings</a></li>
+<li><a href="/seasons/2025/rosters.html">Team Rosters</a></li>
+<li>
+<input type="text" id="searchBar" placeholder="Search for players or teams..." oninput="performSearch()" autocomplete="off">
+<div id="searchResults" class="dropdown"></div>
+<button id="searchButton" onclick="handleSearch()">Search</button>
+</li>
+</ul>
+</nav>
+<main id="content">
+<div class="gamelog">
+<table id="totals">
+<tr><th>Team</th><th>Goalie</th><th>GP</th><th>G</th><th>A</th><th>PTS</th><th>SOG</th><th>HIT</th><th>BLK</th><th>PIM</th><th>TOI</th><th>ATOI</th><th>S%</th><th>EVG</th><th>PPG</th><th>SHG</th><th>GWG</th><th>EVA</th><th>PPA</th><th>SHA</th></tr>
+<tr><td><a href="/teams/MTL.html">MTL</a></td><td><a href="/players/allenja01.html">Jake Allen</a></td><td>21</td><td>74</td><td>3.65</td><td>686</td><td>612</td><td>87.90%</td><td>0</td><td>6</td><td>15</td><td>3</td><td>1216.33</td><td>57.92</td></tr>
+<tr><td><a href="/teams/NJD.html">NJD</a></td><td><a href="/players/allenja01.html">Jake Allen</a></td><td>12</td><td>37</td><td>3.12</td><td>356</td><td>319</td><td>88.62%</td><td>0</td><td>5</td><td>7</td><td>1</td><td>710.55</td><td>59.21</td></tr>
+</table>
+<table id="allenja01_gamelog">
+<tr><th>Date</th><th>Player</th><th>Team</th><th>Location</th><th>Opp</th><th>Result</th><th>OT/SO</th><th>GA</th><th>SA</th><th>SV</th><th>SV%</th><th>PIM</th><th>TOI</th></tr>
+<tr><td><a href="/boxscores/202310110TOR.html">10/11/2023</a></td><td><a href="/players/allenja01.html">Jake Allen</a></td><td><a href="/teams/MTL.html">MTL</a></td><td>@</td><td><a href="/teams/TOR.html">TOR</a></td><td>L</td><td>SO</td><td>5</td><td>42</td><td>37</td><td>88.10%</td><td>0</td><td>65.0</td></tr>
+<tr><td><a href="/boxscores/202310210MTL.html">10/21/2023</a></td><td><a href="/players/allenja01.html">Jake Allen</a></td><td><a href="/teams/MTL.html">MTL</a></td><td>vs</td><td><a href="/teams/WSH.html">WSH</a></td><td>W</td><td>OT</td><td>2</td><td>33</td><td>31</td><td>93.90%</td><td>0</td><td>60.78</td></tr>
+<tr><td><a href="/boxscores/202310230BUF.html">10/23/2023</a></td><td><a href="/players/allenja01.html">Jake Allen</a></td><td><a href="/teams/MTL.html">MTL</a></td><td>@</td><td><a href="/teams/BUF.html">BUF</a></td><td>W</td><td>nan</td><td>1</td><td>37</td><td>36</td><td>97.30%</td><td>0</td><td>60.0</td></tr>
+<tr><td><a href="/boxscores/202310280MTL.html">10/28/2023</a></td><td><a href="/players/allenja01.html">Jake Allen</a></td><td><a href="/teams/MTL.html">MTL</a></td><td>vs</td><td><a href="/teams/WPG.html">WPG</a></td><td>W</td><td>SO</td><td>3</td><td>45</td><td>42</td><td>93.30%</td><td>0</td><td>65.0</td></tr>
+<tr><td><a href="/boxscores/202311020ARI.html">11/2/2023</a></td><td><a href="/players/allenja01.html">Jake Allen</a></td><td><a href="/teams/MTL.html">MTL</a></td><td>@</td><td><a href="/teams/ARI.html">ARI</a></td><td>L</td><td>nan</td><td>3</td><td>35</td><td>32</td><td>91.40%</td><td>0</td><td>57.75</td></tr>
+<tr><td><a href="/boxscores/202311070MTL.html">11/7/2023</a></td><td><a href="/players/allenja01.html">Jake Allen</a></td><td><a href="/teams/MTL.html">MTL</a></td><td>vs</td><td><a href="/teams/TBL.html">TBL</a></td><td>L</td><td>nan</td><td>4</td><td>9</td><td>5</td><td>55.60%</td><td>0</td><td>13.83</td></tr>
+<tr><td><a href="/boxscores/202311120MTL.html">11/12/2023</a></td><td><a href="/players/allenja01.html">Jake Allen</a></td><td><a href="/teams/MTL.html">MTL</a></td><td>vs</td><td><a href="/teams/VAN.html">VAN</a></td><td>L</td><td>nan</td><td>3</td><td>35</td><td>32</td><td>91.40%</td><td>0</td><td>58.88</td></tr>
+<tr><td><a href="/boxscores/202311180BOS.html">11/18/2023</a></td><td><a href="/players/allenja01.html">Jake Allen</a></td><td><a href="/teams/MTL.html">MTL</a></td><td>@</td><td><a href="/teams/BOS.html">BOS</a></td><td>L</td><td>nan</td><td>5</td><td>44</td><td>39</td><td>88.60%</td><td>0</td><td>60.0</td></tr>
+<tr><td><a href="/boxscores/202311250LAK.html">11/25/2023</a></td><td><a href="/players/allenja01.html">Jake Allen</a></td><td><a href="/teams/MTL.html">MTL</a></td><td>@</td><td><a href="/teams/LAK.html">LAK</a></td><td>L</td><td>nan</td><td>4</td><td>30</td><td>26</td><td>86.70%</td><td>0</td><td>60.0</td></tr>
+<tr><td><a href="/boxscores/202312020MTL.html">12/2/2023</a></td><td><a href="/players/allenja01.html">Jake Allen</a></td><td><a href="/teams/MTL.html">MTL</a></td><td>vs</td><td><a href="/teams/DET.html">DET</a></td><td>L</td><td>OT</td><td>5</td><td>33</td><td>28</td><td>84.80%</td><td>2</td><td>60.82</td></tr>
+<tr><td><a href="/boxscores/202312100MTL.html">12/10/2023</a></td><td><a href="/players/allenja01.html">Jake Allen</a></td><td><a href="/teams/MTL.html">MTL</a></td><td>vs</td><td><a href="/teams/NSH.html">NSH</a></td><td>L</td><td>nan</td><td>2</td><td>32</td><td>30</td><td>93.80%</td><td>0</td><td>58.53</td></tr>
+<tr><td><a href="/boxscores/202312180WPG.html">12/18/2023</a></td><td><a href="/players/allenja01.html">Jake Allen</a></td><td><a href="/teams/MTL.html">MTL</a></td><td>@</td><td><a href="/teams/WPG.html">WPG</a></td><td>W</td><td>OT</td><td>2</td><td>32</td><td>30</td><td>93.80%</td><td>0</td><td>61.15</td></tr>
+<tr><td><a href="/boxscores/202312300FLA.html">12/30/2023</a></td><td><a href="/players/allenja01.html">Jake Allen</a></td><td><a href="/teams/MTL.html">MTL</a></td><td>@</td><td><a href="/teams/FLA.html">FLA</a></td><td>L</td><td>nan</td><td>3</td><td>25</td><td>22</td><td>88.00%</td><td>0</td><td>58.93</td></tr>
+<tr><td><a href="/boxscores/202401040MTL.html">1/4/2024</a></td><td><a href="/players/allenja01.html">Jake Allen</a></td><td><a href="/teams/MTL.html">MTL</a></td><td>vs</td><td><a href="/teams/BUF.html">BUF</a></td><td>L</td><td>nan</td><td>5</td><td>37</td><td>32</td><td>86.50%</td><td>0</td><td>59.43</td></tr>
+<tr><td><a href="/boxscores/202401150MTL.html">1/15/2024</a></td><td><a href="/players/allenja01.html">Jake Allen</a></td><td><a href="/teams/MTL.html">MTL</a></td><td>vs</td><td><a href="/teams/COL.html">COL</a></td><td>W</td><td>nan</td><td>3</td><td>35</td><td>32</td><td>91.40%</td><td>0</td><td>60.0</td></tr>
+<tr><td><a href="/boxscores/202401230MTL.html">1/23/2024</a></td><td><a href="/players/allenja01.html">Jake Allen</a></td><td><a href="/teams/MTL.html">MTL</a></td><td>vs</td><td><a href="/teams/OTT.html">OTT</a></td><td>L</td><td>nan</td><td>3</td><td>27</td><td>24</td><td>88.90%</td><td>0</td><td>58.47</td></tr>
+<tr><td><a href="/boxscores/202401270PIT.html">1/27/2024</a></td><td><a href="/players/allenja01.html">Jake Allen</a></td><td><a href="/teams/MTL.html">MTL</a></td><td>@</td><td><a href="/teams/PIT.html">PIT</a></td><td>L</td><td>OT</td><td>3</td><td>33</td><td>30</td><td>90.90%</td><td>0</td><td>62.0</td></tr>
+<tr><td><a href="/boxscores/202402110MTL.html">2/11/2024</a></td><td><a href="/players/allenja01.html">Jake Allen</a></td><td><a href="/teams/MTL.html">MTL</a></td><td>vs</td><td><a href="/teams/STL.html">STL</a></td><td>L</td><td>nan</td><td>7</td><td>36</td><td>29</td><td>80.60%</td><td>0</td><td>60.0</td></tr>
+<tr><td><a href="/boxscores/202402170MTL.html">2/17/2024</a></td><td><a href="/players/allenja01.html">Jake Allen</a></td><td><a href="/teams/MTL.html">MTL</a></td><td>vs</td><td><a href="/teams/WSH.html">WSH</a></td><td>L</td><td>nan</td><td>4</td><td>34</td><td>30</td><td>88.20%</td><td>0</td><td>57.67</td></tr>
+<tr><td><a href="/boxscores/202402240NJD.html">2/24/2024</a></td><td><a href="/players/allenja01.html">Jake Allen</a></td><td><a href="/teams/MTL.html">MTL</a></td><td>@</td><td><a href="/teams/NJD.html">NJD</a></td><td>L</td><td>nan</td><td>4</td><td>24</td><td>20</td><td>83.30%</td><td>0</td><td>57.8</td></tr>
+<tr><td><a href="/boxscores/202403050NSH.html">3/5/2024</a></td><td><a href="/players/allenja01.html">Jake Allen</a></td><td><a href="/teams/MTL.html">MTL</a></td><td>@</td><td><a href="/teams/NSH.html">NSH</a></td><td>W</td><td>OT</td><td>3</td><td>28</td><td>25</td><td>89.30%</td><td>0</td><td>60.28</td></tr>
+<tr><td><a href="/boxscores/202403140DAL.html">3/14/2024</a></td><td><a href="/players/allenja01.html">Jake Allen</a></td><td><a href="/teams/NJD.html">NJD</a></td><td>@</td><td><a href="/teams/DAL.html">DAL</a></td><td>W</td><td>nan</td><td>2</td><td>37</td><td>35</td><td>94.60%</td><td>0</td><td>60.0</td></tr>
+<tr><td><a href="/boxscores/202403170VEG.html">3/17/2024</a></td><td><a href="/players/allenja01.html">Jake Allen</a></td><td><a href="/teams/NJD.html">NJD</a></td><td>@</td><td><a href="/teams/VEG.html">VEG</a></td><td>L</td><td>nan</td><td>2</td><td>36</td><td>34</td><td>94.40%</td><td>0</td><td>58.68</td></tr>
+<tr><td><a href="/boxscores/202403190NJD.html">3/19/2024</a></td><td><a href="/players/allenja01.html">Jake Allen</a></td><td><a href="/teams/NJD.html">NJD</a></td><td>vs</td><td><a href="/teams/PIT.html">PIT</a></td><td>W</td><td>nan</td><td>2</td><td>38</td><td>36</td><td>94.70%</td><td>0</td><td>60.0</td></tr>
+<tr><td><a href="/boxscores/202403210NJD.html">3/21/2024</a></td><td><a href="/players/allenja01.html">Jake Allen</a></td><td><a href="/teams/NJD.html">NJD</a></td><td>vs</td><td><a href="/teams/WPG.html">WPG</a></td><td>W</td><td>nan</td><td>1</td><td>19</td><td>18</td><td>94.70%</td><td>0</td><td>60.0</td></tr>
+<tr><td><a href="/boxscores/202403230NJD.html">3/23/2024</a></td><td><a href="/players/allenja01.html">Jake Allen</a></td><td><a href="/teams/NJD.html">NJD</a></td><td>vs</td><td><a href="/teams/OTT.html">OTT</a></td><td>L</td><td>nan</td><td>5</td><td>25</td><td>20</td><td>80.00%</td><td>0</td><td>60.0</td></tr>
+<tr><td><a href="/boxscores/202403260TOR.html">3/26/2024</a></td><td><a href="/players/allenja01.html">Jake Allen</a></td><td><a href="/teams/TOR.html">TOR</a></td><td>vs</td><td><a href="/teams/NJD.html">NJD</a></td><td>L</td><td>nan</td><td>3</td><td>45</td><td>42</td><td>93.30%</td><td>0</td><td>60.0</td></tr>
+<tr><td><a href="/boxscores/202403290BUF.html">3/29/2024</a></td><td><a href="/players/allenja01.html">Jake Allen</a></td><td><a href="/teams/NJD.html">NJD</a></td><td>@</td><td><a href="/teams/BUF.html">BUF</a></td><td>L</td><td>nan</td><td>3</td><td>34</td><td>31</td><td>91.20%</td><td>0</td><td>58.38</td></tr>
+<tr><td><a href="/boxscores/202404020NJD.html">4/2/2024</a></td><td><a href="/players/allenja01.html">Jake Allen</a></td><td><a href="/teams/NJD.html">NJD</a></td><td>vs</td><td><a href="/teams/PIT.html">PIT</a></td><td>L</td><td>nan</td><td>5</td><td>20</td><td>15</td><td>75.00%</td><td>0</td><td>59.25</td></tr>
+<tr><td><a href="/boxscores/202404060OTT.html">4/6/2024</a></td><td><a href="/players/allenja01.html">Jake Allen</a></td><td><a href="/teams/NJD.html">NJD</a></td><td>@</td><td><a href="/teams/OTT.html">OTT</a></td><td>W</td><td>nan</td><td>3</td><td>28</td><td>25</td><td>89.30%</td><td>0</td><td>60.0</td></tr>
+<tr><td><a href="/boxscores/202404070NJD.html">4/7/2024</a></td><td><a href="/players/allenja01.html">Jake Allen</a></td><td><a href="/teams/NJD.html">NJD</a></td><td>vs</td><td><a href="/teams/NSH.html">NSH</a></td><td>L</td><td>SO</td><td>1</td><td>30</td><td>29</td><td>96.70%</td><td>0</td><td>56.35</td></tr>
+<tr><td><a href="/boxscores/202404090NJD.html">4/9/2024</a></td><td><a href="/players/allenja01.html">Jake Allen</a></td><td><a href="/teams/NJD.html">NJD</a></td><td>vs</td><td><a href="/teams/TOR.html">TOR</a></td><td>L</td><td>nan</td><td>4</td><td>38</td><td>34</td><td>89.50%</td><td>0</td><td>57.88</td></tr>
+<tr><td><a href="/boxscores/202404110TOR.html">4/11/2024</a></td><td><a href="/players/allenja01.html">Jake Allen</a></td><td><a href="/teams/NJD.html">NJD</a></td><td>@</td><td><a href="/teams/TOR.html">TOR</a></td><td>W</td><td>nan</td><td>5</td><td>32</td><td>27</td><td>84.40%</td><td>0</td><td>60.0</td></tr>
+<tr><td><a href="/boxscores/202404150NJD.html">4/15/2024</a></td><td><a href="/players/allenja01.html">Jake Allen</a></td><td><a href="/teams/NJD.html">NJD</a></td><td>vs</td><td><a href="/teams/NYI.html">NYI</a></td><td>L</td><td>nan</td><td>4</td><td>19</td><td>15</td><td>78.90%</td><td>0</td><td>60.0</td></tr>
+</table>
+</div>
+<table id="scoring">
+<tr><th>Date</th><th>Team</th><th>Location</th><th>Opp</th><th>Result</th><th>Scorer</th><th>Assist1</th><th>Assist2</th><th>Goalie</th><th>Time</th></tr>
+<tr><td><a href="/boxscores/202310110TOR.html">10/11/2023</a></td><td><a href="/teams/TOR.html">TOR</a></td><td>vs</td><td><a href="/teams/MTL.html">MTL</a></td><td>W</td><td><a href="/players/gregono01.html">Noah Gregor</a></td><td><a href="/players/klingjo01.html">John Klingberg</a></td><td><a href="/players/--.html">--</a></td><td><a href="/players/allenja01.html">Jake Allen</a></td><td>27.77</td></tr>
+<tr><td><a href="/boxscores/202310110TOR.html">10/11/2023</a></td><td><a href="/teams/TOR.html">TOR</a></td><td>vs</td><td><a href="/teams/MTL.html">MTL</a></td><td>W</td><td><a href="/players/matthau01.html">Auston Matthews</a></td><td><a href="/players/marnemi01.html">Mitch Marner</a></td><td><a href="/players/tavarjo01.html">John Tavares</a></td><td><a href="/players/allenja01.html">Jake Allen</a></td><td>34.85</td></tr>
+<tr><td><a href="/boxscores/202310110TOR.html">10/11/2023</a></td><td><a href="/teams/TOR.html">TOR</a></td><td>vs</td><td><a href="/teams/MTL.html">MTL</a></td><td>W</td><td><a href="/players/nylanwi01.html">William Nylander</a></td><td><a href="/players/klingjo01.html">John Klingberg</a></td><td><a href="/players/tavarjo01.html">John Tavares</a></td><td><a href="/players/allenja01.html">Jake Allen</a></td><td>39.25</td></tr>
+<tr><td><a href="/boxscores/202310110TOR.html">10/11/2023</a></td><td><a href="/teams/TOR.html">TOR</a></td><td>vs</td><td><a href="/teams/MTL.html">MTL</a></td><td>W</td><td><a href="/players/matthau01.html">Auston Matthews</a></td><td><a href="/players/tavarjo01.html">John Tavares</a></td><td><a href="/players/riellmo01.html">Morgan Rielly</a></td><td><a href="/players/allenja01.html">Jake Allen</a></td><td>55.47</td></tr>
+<tr><td><a href="/boxscores/202310110TOR.html">10/11/2023</a></td><td><a href="/teams/TOR.html">TOR</a></td><td>vs</td><td><a href="/teams/MTL.html">MTL</a></td><td>W</td><td><a href="/players/matthau01.html">Auston Matthews</a></td><td><a href="/players/nylanwi01.html">William Nylander</a></td><td><a href="/players/--.html">--</a></td><td><a href="/players/allenja01.html">Jake Allen</a></td><td>58.88</td></tr>
+<tr><td><a href="/boxscores/202310210MTL.html">10/21/2023</a></td><td><a href="/teams/WSH.html">WSH</a></td><td>@</td><td><a href="/teams/MTL.html">MTL</a></td><td>L</td><td><a href="/players/stromdy01.html">Dylan Strome</a></td><td><a href="/players/ovechal01.html">Alex Ovechkin</a></td><td><a href="/players/phillma01.html">Matthew Phillips</a></td><td><a href="/players/allenja01.html">Jake Allen</a></td><td>51.42</td></tr>
+<tr><td><a href="/boxscores/202310210MTL.html">10/21/2023</a></td><td><a href="/teams/WSH.html">WSH</a></td><td>@</td><td><a href="/teams/MTL.html">MTL</a></td><td>L</td><td><a href="/players/stromdy01.html">Dylan Strome</a></td><td><a href="/players/kuzneev01.html">Evgeny Kuznetsov</a></td><td><a href="/players/carlsjo01.html">John Carlson</a></td><td><a href="/players/allenja01.html">Jake Allen</a></td><td>57.98</td></tr>
+<tr><td><a href="/boxscores/202310230BUF.html">10/23/2023</a></td><td><a href="/teams/BUF.html">BUF</a></td><td>vs</td><td><a href="/teams/MTL.html">MTL</a></td><td>L</td><td><a href="/players/skinnje01.html">Jeff Skinner</a></td><td><a href="/players/cozendy01.html">Dylan Cozens</a></td><td><a href="/players/dahlira01.html">Rasmus Dahlin</a></td><td><a href="/players/allenja01.html">Jake Allen</a></td><td>7.22</td></tr>
+<tr><td><a href="/boxscores/202310280MTL.html">10/28/2023</a></td><td><a href="/teams/WPG.html">WPG</a></td><td>@</td><td><a href="/teams/MTL.html">MTL</a></td><td>L</td><td><a href="/players/lowryad01.html">Adam Lowry</a></td><td><a href="/players/nan.html">PS</a></td><td><a href="/players/--.html">--</a></td><td><a href="/players/allenja01.html">Jake Allen</a></td><td>4.47</td></tr>
+<tr><td><a href="/boxscores/202310280MTL.html">10/28/2023</a></td><td><a href="/teams/WPG.html">WPG</a></td><td>@</td><td><a href="/teams/MTL.html">MTL</a></td><td>L</td><td><a href="/players/lowryad01.html">Adam Lowry</a></td><td><a href="/players/niedeni01.html">Nino Niederreiter</a></td><td><a href="/players/applema01.html">Mason Appleton</a></td><td><a href="/players/allenja01.html">Jake Allen</a></td><td>20.25</td></tr>
+<tr><td><a href="/boxscores/202310280MTL.html">10/28/2023</a></td><td><a href="/teams/WPG.html">WPG</a></td><td>@</td><td><a href="/teams/MTL.html">MTL</a></td><td>L</td><td><a href="/players/niedeni01.html">Nino Niederreiter</a></td><td><a href="/players/applema01.html">Mason Appleton</a></td><td><a href="/players/--.html">--</a></td><td><a href="/players/allenja01.html">Jake Allen</a></td><td>20.55</td></tr>
+<tr><td><a href="/boxscores/202311020ARI.html">11/2/2023</a></td><td><a href="/teams/ARI.html">ARI</a></td><td>vs</td><td><a href="/teams/MTL.html">MTL</a></td><td>W</td><td><a href="/players/schmani01.html">Nick Schmaltz</a></td><td><a href="/players/nan.html">PS</a></td><td><a href="/players/--.html">--</a></td><td><a href="/players/allenja01.html">Jake Allen</a></td><td>6.28</td></tr>
+<tr><td><a href="/boxscores/202311020ARI.html">11/2/2023</a></td><td><a href="/teams/ARI.html">ARI</a></td><td>vs</td><td><a href="/teams/MTL.html">MTL</a></td><td>W</td><td><a href="/players/crousla01.html">Lawson Crouse</a></td><td><a href="/players/maccema01.html">Matias Maccelli</a></td><td><a href="/players/bjugsni01.html">Nick Bjugstad</a></td><td><a href="/players/allenja01.html">Jake Allen</a></td><td>39.35</td></tr>
+<tr><td><a href="/boxscores/202311020ARI.html">11/2/2023</a></td><td><a href="/teams/ARI.html">ARI</a></td><td>vs</td><td><a href="/teams/MTL.html">MTL</a></td><td>W</td><td><a href="/players/schmani01.html">Nick Schmaltz</a></td><td><a href="/players/coolelo01.html">Logan Cooley</a></td><td><a href="/players/kellecl01.html">Clayton Keller</a></td><td><a href="/players/allenja01.html">Jake Allen</a></td><td>46.12</td></tr>
+<tr><td><a href="/boxscores/202311070MTL.html">11/7/2023</a></td><td><a href="/teams/TBL.html">TBL</a></td><td>@</td><td><a href="/teams/MTL.html">MTL</a></td><td>W</td><td><a href="/players/kucheni01.html">Nikita Kucherov</a></td><td><a href="/players/hagelbr01.html">Brandon Hagel</a></td><td><a href="/players/pointbr01.html">Brayden Point</a></td><td><a href="/players/allenja01.html">Jake Allen</a></td><td>0.37</td></tr>
+<tr><td><a href="/boxscores/202311070MTL.html">11/7/2023</a></td><td><a href="/teams/TBL.html">TBL</a></td><td>@</td><td><a href="/teams/MTL.html">MTL</a></td><td>W</td><td><a href="/players/paulni01.html">Nick Paul</a></td><td><a href="/players/stamkst01.html">Steven Stamkos</a></td><td><a href="/players/hedmavi01.html">Victor Hedman</a></td><td><a href="/players/allenja01.html">Jake Allen</a></td><td>7.25</td></tr>
+<tr><td><a href="/boxscores/202311070MTL.html">11/7/2023</a></td><td><a href="/teams/TBL.html">TBL</a></td><td>@</td><td><a href="/teams/MTL.html">MTL</a></td><td>W</td><td><a href="/players/barreal01.html">Alex Barré-Boulet</a></td><td><a href="/players/hagelbr01.html">Brandon Hagel</a></td><td><a href="/players/sergami01.html">Mikhail Sergachev</a></td><td><a href="/players/allenja01.html">Jake Allen</a></td><td>9.15</td></tr>
+<tr><td><a href="/boxscores/202311070MTL.html">11/7/2023</a></td><td><a href="/teams/TBL.html">TBL</a></td><td>@</td><td><a href="/teams/MTL.html">MTL</a></td><td>W</td><td><a href="/players/eyssimi01.html">Michael Eyssimont</a></td><td><a href="/players/hedmavi01.html">Victor Hedman</a></td><td><a href="/players/cernaer01.html">Erik Černák</a></td><td><a href="/players/allenja01.html">Jake Allen</a></td><td>13.83</td></tr>
+<tr><td><a href="/boxscores/202311120MTL.html">11/12/2023</a></td><td><a href="/teams/VAN.html">VAN</a></td><td>@</td><td><a href="/teams/MTL.html">MTL</a></td><td>W</td><td><a href="/players/garlaco01.html">Conor Garland</a></td><td><a href="/players/millejt01.html">J.T. Miller</a></td><td><a href="/players/hughequ01.html">Quinn Hughes</a></td><td><a href="/players/allenja01.html">Jake Allen</a></td><td>26.25</td></tr>
+<tr><td><a href="/boxscores/202311120MTL.html">11/12/2023</a></td><td><a href="/teams/VAN.html">VAN</a></td><td>@</td><td><a href="/teams/MTL.html">MTL</a></td><td>W</td><td><a href="/players/mikheil01.html">Ilya Mikheyev</a></td><td><a href="/players/kuzmean01.html">Andrei Kuzmenko</a></td><td><a href="/players/--.html">--</a></td><td><a href="/players/allenja01.html">Jake Allen</a></td><td>29.28</td></tr>
+<tr><td><a href="/boxscores/202311120MTL.html">11/12/2023</a></td><td><a href="/teams/VAN.html">VAN</a></td><td>@</td><td><a href="/teams/MTL.html">MTL</a></td><td>W</td><td><a href="/players/joshuda01.html">Dakota Joshua</a></td><td><a href="/players/garlaco01.html">Conor Garland</a></td><td><a href="/players/hronefi01.html">Filip Hronek</a></td><td><a href="/players/allenja01.html">Jake Allen</a></td><td>37.95</td></tr>
+<tr><td><a href="/boxscores/202311180BOS.html">11/18/2023</a></td><td><a href="/teams/BOS.html">BOS</a></td><td>vs</td><td><a href="/teams/MTL.html">MTL</a></td><td>W</td><td><a href="/players/mcavoch01.html">Charlie McAvoy</a></td><td><a href="/players/marchbr03.html">Brad Marchand</a></td><td><a href="/players/pastrda01.html">David Pastrňák</a></td><td><a href="/players/allenja01.html">Jake Allen</a></td><td>7.18</td></tr>
+<tr><td><a href="/boxscores/202311180BOS.html">11/18/2023</a></td><td><a href="/teams/BOS.html">BOS</a></td><td>vs</td><td><a href="/teams/MTL.html">MTL</a></td><td>W</td><td><a href="/players/fredetr01.html">Trent Frederic</a></td><td><a href="/players/carlobr01.html">Brandon Carlo</a></td><td><a href="/players/coylech01.html">Charlie Coyle</a></td><td><a href="/players/allenja01.html">Jake Allen</a></td><td>19.33</td></tr>
+<tr><td><a href="/boxscores/202311180BOS.html">11/18/2023</a></td><td><a href="/teams/BOS.html">BOS</a></td><td>vs</td><td><a href="/teams/MTL.html">MTL</a></td><td>W</td><td><a href="/players/zachapa01.html">Pavel Zacha</a></td><td><a href="/players/lindhha01.html">Hampus Lindholm</a></td><td><a href="/players/pastrda01.html">David Pastrňák</a></td><td><a href="/players/allenja01.html">Jake Allen</a></td><td>25.3</td></tr>
+<tr><td><a href="/boxscores/202311180BOS.html">11/18/2023</a></td><td><a href="/teams/BOS.html">BOS</a></td><td>vs</td><td><a href="/teams/MTL.html">MTL</a></td><td>W</td><td><a href="/players/fredetr01.html">Trent Frederic</a></td><td><a href="/players/coylech01.html">Charlie Coyle</a></td><td><a href="/players/debruja01.html">Jake DeBrusk</a></td><td><a href="/players/allenja01.html">Jake Allen</a></td><td>35.5</td></tr>
+<tr><td><a href="/boxscores/202311180BOS.html">11/18/2023</a></td><td><a href="/teams/BOS.html">BOS</a></td><td>vs</td><td><a href="/teams/MTL.html">MTL</a></td><td>W</td><td><a href="/players/vanrija01.html">James van Riemsdyk</a></td><td><a href="/players/marchbr03.html">Brad Marchand</a></td><td><a href="/players/pastrda01.html">David Pastrňák</a></td><td><a href="/players/allenja01.html">Jake Allen</a></td><td>45.65</td></tr>
+<tr><td><a href="/boxscores/202311250LAK.html">11/25/2023</a></td><td><a href="/teams/LAK.html">LAK</a></td><td>vs</td><td><a href="/teams/MTL.html">MTL</a></td><td>W</td><td><a href="/players/grundca01.html">Carl Grundström</a></td><td><a href="/players/duboipi01.html">Pierre-Luc Dubois</a></td><td><a href="/players/engluan01.html">Andreas Englund</a></td><td><a href="/players/allenja01.html">Jake Allen</a></td><td>15.47</td></tr>
+<tr><td><a href="/boxscores/202311250LAK.html">11/25/2023</a></td><td><a href="/teams/LAK.html">LAK</a></td><td>vs</td><td><a href="/teams/MTL.html">MTL</a></td><td>W</td><td><a href="/players/mooretr01.html">Trevor Moore</a></td><td><a href="/players/kaliyar01.html">Arthur Kaliyev</a></td><td><a href="/players/duboipi01.html">Pierre-Luc Dubois</a></td><td><a href="/players/allenja01.html">Jake Allen</a></td><td>29.92</td></tr>
+<tr><td><a href="/boxscores/202311250LAK.html">11/25/2023</a></td><td><a href="/teams/LAK.html">LAK</a></td><td>vs</td><td><a href="/teams/MTL.html">MTL</a></td><td>W</td><td><a href="/players/lewistr01.html">Trevor Lewis</a></td><td><a href="/players/anderja01.html">Jaret Anderson-Dolan</a></td><td><a href="/players/--.html">--</a></td><td><a href="/players/allenja01.html">Jake Allen</a></td><td>43.23</td></tr>
+<tr><td><a href="/boxscores/202311250LAK.html">11/25/2023</a></td><td><a href="/teams/LAK.html">LAK</a></td><td>vs</td><td><a href="/teams/MTL.html">MTL</a></td><td>W</td><td><a href="/players/mooretr01.html">Trevor Moore</a></td><td><a href="/players/fialake01.html">Kevin Fiala</a></td><td><a href="/players/--.html">--</a></td><td><a href="/players/allenja01.html">Jake Allen</a></td><td>53.43</td></tr>
+<tr><td><a href="/boxscores/202312020MTL.html">12/2/2023</a></td><td><a href="/teams/DET.html">DET</a></td><td>@</td><td><a href="/teams/MTL.html">MTL</a></td><td>W</td><td><a href="/players/velenjo01.html">Joe Veleno</a></td><td><a href="/players/raymolu01.html">Lucas Raymond</a></td><td><a href="/players/walmaja01.html">Jake Walman</a></td><td><a href="/players/allenja01.html">Jake Allen</a></td><td>7.35</td></tr>
+<tr><td><a href="/boxscores/202312020MTL.html">12/2/2023</a></td><td><a href="/teams/DET.html">DET</a></td><td>@</td><td><a href="/teams/MTL.html">MTL</a></td><td>W</td><td><a href="/players/fischch01.html">Christian Fischer</a></td><td><a href="/players/rasmumi01.html">Michael Rasmussen</a></td><td><a href="/players/--.html">--</a></td><td><a href="/players/allenja01.html">Jake Allen</a></td><td>11.73</td></tr>
+<tr><td><a href="/boxscores/202312020MTL.html">12/2/2023</a></td><td><a href="/teams/DET.html">DET</a></td><td>@</td><td><a href="/teams/MTL.html">MTL</a></td><td>W</td><td><a href="/players/spronda01.html">Daniel Sprong</a></td><td><a href="/players/seidemo01.html">Moritz Seider</a></td><td><a href="/players/--.html">--</a></td><td><a href="/players/allenja01.html">Jake Allen</a></td><td>19.33</td></tr>
+<tr><td><a href="/boxscores/202312020MTL.html">12/2/2023</a></td><td><a href="/teams/DET.html">DET</a></td><td>@</td><td><a href="/teams/MTL.html">MTL</a></td><td>W</td><td><a href="/players/debrial01.html">Alex DeBrincat</a></td><td><a href="/players/seidemo01.html">Moritz Seider</a></td><td><a href="/players/spronda01.html">Daniel Sprong</a></td><td><a href="/players/allenja01.html">Jake Allen</a></td><td>24.9</td></tr>
+<tr><td><a href="/boxscores/202312020MTL.html">12/2/2023</a></td><td><a href="/teams/DET.html">DET</a></td><td>@</td><td><a href="/teams/MTL.html">MTL</a></td><td>W</td><td><a href="/players/walmaja01.html">Jake Walman</a></td><td><a href="/players/larkidy01.html">Dylan Larkin</a></td><td><a href="/players/debrial01.html">Alex DeBrincat</a></td><td><a href="/players/allenja01.html">Jake Allen</a></td><td>60.9</td></tr>
+<tr><td><a href="/boxscores/202312100MTL.html">12/10/2023</a></td><td><a href="/teams/NSH.html">NSH</a></td><td>@</td><td><a href="/teams/MTL.html">MTL</a></td><td>W</td><td><a href="/players/sissoco01.html">Colton Sissons</a></td><td><a href="/players/forsbfi01.html">Filip Forsberg</a></td><td><a href="/players/josiro01.html">Roman Josi</a></td><td><a href="/players/allenja01.html">Jake Allen</a></td><td>11.68</td></tr>
+<tr><td><a href="/boxscores/202312100MTL.html">12/10/2023</a></td><td><a href="/teams/NSH.html">NSH</a></td><td>@</td><td><a href="/teams/MTL.html">MTL</a></td><td>W</td><td><a href="/players/sissoco01.html">Colton Sissons</a></td><td><a href="/players/fabbrda01.html">Dante Fabbro</a></td><td><a href="/players/josiro01.html">Roman Josi</a></td><td><a href="/players/allenja01.html">Jake Allen</a></td><td>27.05</td></tr>
+<tr><td><a href="/boxscores/202312180WPG.html">12/18/2023</a></td><td><a href="/teams/WPG.html">WPG</a></td><td>vs</td><td><a href="/teams/MTL.html">MTL</a></td><td>L</td><td><a href="/players/vilarga01.html">Gabriel Vilardi</a></td><td><a href="/players/morrijo04.html">Josh Morrissey</a></td><td><a href="/players/ehlerni01.html">Nikolaj Ehlers</a></td><td><a href="/players/allenja01.html">Jake Allen</a></td><td>39.07</td></tr>
+<tr><td><a href="/boxscores/202312180WPG.html">12/18/2023</a></td><td><a href="/teams/WPG.html">WPG</a></td><td>vs</td><td><a href="/teams/MTL.html">MTL</a></td><td>L</td><td><a href="/players/perfeco01.html">Cole Perfetti</a></td><td><a href="/players/namesvl01.html">Vladislav Namestnikov</a></td><td><a href="/players/dillobr01.html">Brenden Dillon</a></td><td><a href="/players/allenja01.html">Jake Allen</a></td><td>52.4</td></tr>
+<tr><td><a href="/boxscores/202312300FLA.html">12/30/2023</a></td><td><a href="/teams/FLA.html">FLA</a></td><td>vs</td><td><a href="/teams/MTL.html">MTL</a></td><td>W</td><td><a href="/players/luostee01.html">Eetu Luostarinen</a></td><td><a href="/players/rodriev01.html">Evan Rodrigues</a></td><td><a href="/players/bennesa01.html">Sam Bennett</a></td><td><a href="/players/allenja01.html">Jake Allen</a></td><td>24.08</td></tr>
+<tr><td><a href="/boxscores/202312300FLA.html">12/30/2023</a></td><td><a href="/teams/FLA.html">FLA</a></td><td>vs</td><td><a href="/teams/MTL.html">MTL</a></td><td>W</td><td><a href="/players/luostee01.html">Eetu Luostarinen</a></td><td><a href="/players/ekblaaa01.html">Aaron Ekblad</a></td><td><a href="/players/ekmanol01.html">Oliver Ekman-Larsson</a></td><td><a href="/players/allenja01.html">Jake Allen</a></td><td>47.57</td></tr>
+<tr><td><a href="/boxscores/202312300FLA.html">12/30/2023</a></td><td><a href="/teams/FLA.html">FLA</a></td><td>vs</td><td><a href="/teams/MTL.html">MTL</a></td><td>W</td><td><a href="/players/bennesa01.html">Sam Bennett</a></td><td><a href="/players/ekmanol01.html">Oliver Ekman-Larsson</a></td><td><a href="/players/verhaca01.html">Carter Verhaeghe</a></td><td><a href="/players/allenja01.html">Jake Allen</a></td><td>55.43</td></tr>
+<tr><td><a href="/boxscores/202401040MTL.html">1/4/2024</a></td><td><a href="/teams/BUF.html">BUF</a></td><td>@</td><td><a href="/teams/MTL.html">MTL</a></td><td>W</td><td><a href="/players/mitteca01.html">Casey Mittelstadt</a></td><td><a href="/players/skinnje01.html">Jeff Skinner</a></td><td><a href="/players/dahlira01.html">Rasmus Dahlin</a></td><td><a href="/players/allenja01.html">Jake Allen</a></td><td>25.55</td></tr>
+<tr><td><a href="/boxscores/202401040MTL.html">1/4/2024</a></td><td><a href="/teams/BUF.html">BUF</a></td><td>@</td><td><a href="/teams/MTL.html">MTL</a></td><td>W</td><td><a href="/players/skinnje01.html">Jeff Skinner</a></td><td><a href="/players/tuchal01.html">Alex Tuch</a></td><td><a href="/players/thompta01.html">Tage Thompson</a></td><td><a href="/players/allenja01.html">Jake Allen</a></td><td>26.98</td></tr>
+<tr><td><a href="/boxscores/202401040MTL.html">1/4/2024</a></td><td><a href="/teams/BUF.html">BUF</a></td><td>@</td><td><a href="/teams/MTL.html">MTL</a></td><td>W</td><td><a href="/players/quinnja01.html">Jack Quinn</a></td><td><a href="/players/peterjo01.html">John-Jason Peterka</a></td><td><a href="/players/cliftco01.html">Connor Clifton</a></td><td><a href="/players/allenja01.html">Jake Allen</a></td><td>46.75</td></tr>
+<tr><td><a href="/boxscores/202401040MTL.html">1/4/2024</a></td><td><a href="/teams/BUF.html">BUF</a></td><td>@</td><td><a href="/teams/MTL.html">MTL</a></td><td>W</td><td><a href="/players/thompta01.html">Tage Thompson</a></td><td><a href="/players/skinnje01.html">Jeff Skinner</a></td><td><a href="/players/tuchal01.html">Alex Tuch</a></td><td><a href="/players/allenja01.html">Jake Allen</a></td><td>48.58</td></tr>
+<tr><td><a href="/boxscores/202401040MTL.html">1/4/2024</a></td><td><a href="/teams/BUF.html">BUF</a></td><td>@</td><td><a href="/teams/MTL.html">MTL</a></td><td>W</td><td><a href="/players/thompta01.html">Tage Thompson</a></td><td><a href="/players/skinnje01.html">Jeff Skinner</a></td><td><a href="/players/quinnja01.html">Jack Quinn</a></td><td><a href="/players/allenja01.html">Jake Allen</a></td><td>58.53</td></tr>
+<tr><td><a href="/boxscores/202401150MTL.html">1/15/2024</a></td><td><a href="/teams/COL.html">COL</a></td><td>@</td><td><a href="/teams/MTL.html">MTL</a></td><td>L</td><td><a href="/players/coltoro01.html">Ross Colton</a></td><td><a href="/players/drouijo01.html">Jonathan Drouin</a></td><td><a href="/players/makarca01.html">Cale Makar</a></td><td><a href="/players/allenja01.html">Jake Allen</a></td><td>4.47</td></tr>
+<tr><td><a href="/boxscores/202401150MTL.html">1/15/2024</a></td><td><a href="/teams/COL.html">COL</a></td><td>@</td><td><a href="/teams/MTL.html">MTL</a></td><td>L</td><td><a href="/players/makarca01.html">Cale Makar</a></td><td><a href="/players/girarsa01.html">Samuel Girard</a></td><td><a href="/players/mackina01.html">Nathan MacKinnon</a></td><td><a href="/players/allenja01.html">Jake Allen</a></td><td>21.02</td></tr>
+<tr><td><a href="/boxscores/202401150MTL.html">1/15/2024</a></td><td><a href="/teams/COL.html">COL</a></td><td>@</td><td><a href="/teams/MTL.html">MTL</a></td><td>L</td><td><a href="/players/toewsde01.html">Devon Toews</a></td><td><a href="/players/rantami01.html">Mikko Rantanen</a></td><td><a href="/players/makarca01.html">Cale Makar</a></td><td><a href="/players/allenja01.html">Jake Allen</a></td><td>49.62</td></tr>
+<tr><td><a href="/boxscores/202401230MTL.html">1/23/2024</a></td><td><a href="/teams/OTT.html">OTT</a></td><td>@</td><td><a href="/teams/MTL.html">MTL</a></td><td>W</td><td><a href="/players/greigri01.html">Ridly Greig</a></td><td><a href="/players/branner01.html">Erik Brännström</a></td><td><a href="/players/norrijo01.html">Joshua Norris</a></td><td><a href="/players/allenja01.html">Jake Allen</a></td><td>7.75</td></tr>
+<tr><td><a href="/boxscores/202401230MTL.html">1/23/2024</a></td><td><a href="/teams/OTT.html">OTT</a></td><td>@</td><td><a href="/teams/MTL.html">MTL</a></td><td>W</td><td><a href="/players/sandeja01.html">Jake Sanderson</a></td><td><a href="/players/zubar01.html">Artem Zub</a></td><td><a href="/players/stuetti02.html">Tim Stützle</a></td><td><a href="/players/allenja01.html">Jake Allen</a></td><td>8.43</td></tr>
+<tr><td><a href="/boxscores/202401230MTL.html">1/23/2024</a></td><td><a href="/teams/OTT.html">OTT</a></td><td>@</td><td><a href="/teams/MTL.html">MTL</a></td><td>W</td><td><a href="/players/pintosh01.html">Shane Pinto</a></td><td><a href="/players/giroucl01.html">Claude Giroux</a></td><td><a href="/players/--.html">--</a></td><td><a href="/players/allenja01.html">Jake Allen</a></td><td>26.37</td></tr>
+<tr><td><a href="/boxscores/202401270PIT.html">1/27/2024</a></td><td><a href="/teams/PIT.html">PIT</a></td><td>vs</td><td><a href="/teams/MTL.html">MTL</a></td><td>W</td><td><a href="/players/ellerla01.html">Lars Eller</a></td><td><a href="/players/puustva01.html">Valtteri Puustinen</a></td><td><a href="/players/rakelri01.html">Rickard Rakell</a></td><td><a href="/players/allenja01.html">Jake Allen</a></td><td>24.08</td></tr>
+<tr><td><a href="/boxscores/202401270PIT.html">1/27/2024</a></td><td><a href="/teams/PIT.html">PIT</a></td><td>vs</td><td><a href="/teams/MTL.html">MTL</a></td><td>W</td><td><a href="/players/guentja01.html">Jake Guentzel</a></td><td><a href="/players/crosbsi01.html">Sidney Crosby</a></td><td><a href="/players/pettema01.html">Marcus Pettersson</a></td><td><a href="/players/allenja01.html">Jake Allen</a></td><td>50.05</td></tr>
+<tr><td><a href="/boxscores/202401270PIT.html">1/27/2024</a></td><td><a href="/teams/PIT.html">PIT</a></td><td>vs</td><td><a href="/teams/MTL.html">MTL</a></td><td>W</td><td><a href="/players/pettema01.html">Marcus Pettersson</a></td><td><a href="/players/rakelri01.html">Rickard Rakell</a></td><td><a href="/players/malkiev01.html">Evgeni Malkin</a></td><td><a href="/players/allenja01.html">Jake Allen</a></td><td>62.72</td></tr>
+<tr><td><a href="/boxscores/202402110MTL.html">2/11/2024</a></td><td><a href="/teams/STL.html">STL</a></td><td>@</td><td><a href="/teams/MTL.html">MTL</a></td><td>W</td><td><a href="/players/toropal01.html">Alexey Toropchenko</a></td><td><a href="/players/sundqos01.html">Oskar Sundqvist</a></td><td><a href="/players/krugto01.html">Torey Krug</a></td><td><a href="/players/allenja01.html">Jake Allen</a></td><td>0.42</td></tr>
+<tr><td><a href="/boxscores/202402110MTL.html">2/11/2024</a></td><td><a href="/teams/STL.html">STL</a></td><td>@</td><td><a href="/teams/MTL.html">MTL</a></td><td>W</td><td><a href="/players/parayco01.html">Colton Parayko</a></td><td><a href="/players/kapanka01.html">Kasperi Kapanen</a></td><td><a href="/players/--.html">--</a></td><td><a href="/players/allenja01.html">Jake Allen</a></td><td>5.08</td></tr>
+<tr><td><a href="/boxscores/202402110MTL.html">2/11/2024</a></td><td><a href="/teams/STL.html">STL</a></td><td>@</td><td><a href="/teams/MTL.html">MTL</a></td><td>W</td><td><a href="/players/kyroujo01.html">Jordan Kyrou</a></td><td><a href="/players/thomaro01.html">Robert Thomas</a></td><td><a href="/players/krugto01.html">Torey Krug</a></td><td><a href="/players/allenja01.html">Jake Allen</a></td><td>15.33</td></tr>
+<tr><td><a href="/boxscores/202402110MTL.html">2/11/2024</a></td><td><a href="/teams/STL.html">STL</a></td><td>@</td><td><a href="/teams/MTL.html">MTL</a></td><td>W</td><td><a href="/players/walkena01.html">Nathan Walker</a></td><td><a href="/players/schenbr01.html">Brayden Schenn</a></td><td><a href="/players/krugto01.html">Torey Krug</a></td><td><a href="/players/allenja01.html">Jake Allen</a></td><td>37.82</td></tr>
+<tr><td><a href="/boxscores/202402110MTL.html">2/11/2024</a></td><td><a href="/teams/STL.html">STL</a></td><td>@</td><td><a href="/teams/MTL.html">MTL</a></td><td>W</td><td><a href="/players/thomaro01.html">Robert Thomas</a></td><td><a href="/players/leddyni01.html">Nick Leddy</a></td><td><a href="/players/neighja01.html">Jake Neighbours</a></td><td><a href="/players/allenja01.html">Jake Allen</a></td><td>40.52</td></tr>
+<tr><td><a href="/boxscores/202402110MTL.html">2/11/2024</a></td><td><a href="/teams/STL.html">STL</a></td><td>@</td><td><a href="/teams/MTL.html">MTL</a></td><td>W</td><td><a href="/players/neighja01.html">Jake Neighbours</a></td><td><a href="/players/thomaro01.html">Robert Thomas</a></td><td><a href="/players/krugto01.html">Torey Krug</a></td><td><a href="/players/allenja01.html">Jake Allen</a></td><td>47.23</td></tr>
+<tr><td><a href="/boxscores/202402110MTL.html">2/11/2024</a></td><td><a href="/teams/STL.html">STL</a></td><td>@</td><td><a href="/teams/MTL.html">MTL</a></td><td>W</td><td><a href="/players/kyroujo01.html">Jordan Kyrou</a></td><td><a href="/players/thomaro01.html">Robert Thomas</a></td><td><a href="/players/krugto01.html">Torey Krug</a></td><td><a href="/players/allenja01.html">Jake Allen</a></td><td>55.55</td></tr>
+<tr><td><a href="/boxscores/202402170MTL.html">2/17/2024</a></td><td><a href="/teams/WSH.html">WSH</a></td><td>@</td><td><a href="/teams/MTL.html">MTL</a></td><td>W</td><td><a href="/players/manthan01.html">Anthony Mantha</a></td><td><a href="/players/protaal01.html">Aliaksei Protas</a></td><td><a href="/players/jenseni02.html">Nick Jensen</a></td><td><a href="/players/allenja01.html">Jake Allen</a></td><td>3.67</td></tr>
+<tr><td><a href="/boxscores/202402170MTL.html">2/17/2024</a></td><td><a href="/teams/WSH.html">WSH</a></td><td>@</td><td><a href="/teams/MTL.html">MTL</a></td><td>W</td><td><a href="/players/oshietj01.html">T.J. Oshie</a></td><td><a href="/players/stromdy01.html">Dylan Strome</a></td><td><a href="/players/ovechal01.html">Alex Ovechkin</a></td><td><a href="/players/allenja01.html">Jake Allen</a></td><td>10.0</td></tr>
+<tr><td><a href="/boxscores/202402170MTL.html">2/17/2024</a></td><td><a href="/teams/WSH.html">WSH</a></td><td>@</td><td><a href="/teams/MTL.html">MTL</a></td><td>W</td><td><a href="/players/milanso01.html">Sonny Milano</a></td><td><a href="/players/pacioma01.html">Max Pacioretty</a></td><td><a href="/players/edmunjo01.html">Joel Edmundson</a></td><td><a href="/players/allenja01.html">Jake Allen</a></td><td>43.45</td></tr>
+<tr><td><a href="/boxscores/202402170MTL.html">2/17/2024</a></td><td><a href="/teams/WSH.html">WSH</a></td><td>@</td><td><a href="/teams/MTL.html">MTL</a></td><td>W</td><td><a href="/players/protaal01.html">Aliaksei Protas</a></td><td><a href="/players/dowdni01.html">Nic Dowd</a></td><td><a href="/players/manthan01.html">Anthony Mantha</a></td><td><a href="/players/allenja01.html">Jake Allen</a></td><td>51.95</td></tr>
+<tr><td><a href="/boxscores/202402240NJD.html">2/24/2024</a></td><td><a href="/teams/NJD.html">NJD</a></td><td>vs</td><td><a href="/teams/MTL.html">MTL</a></td><td>W</td><td><a href="/players/meierti01.html">Timo Meier</a></td><td><a href="/players/bahlke01.html">Kevin Bahl</a></td><td><a href="/players/toffoty01.html">Tyler Toffoli</a></td><td><a href="/players/allenja01.html">Jake Allen</a></td><td>25.38</td></tr>
+<tr><td><a href="/boxscores/202402240NJD.html">2/24/2024</a></td><td><a href="/teams/NJD.html">NJD</a></td><td>vs</td><td><a href="/teams/MTL.html">MTL</a></td><td>W</td><td><a href="/players/palaton01.html">Ondřej Palát</a></td><td><a href="/players/nemecsi01.html">Simon Nemec</a></td><td><a href="/players/--.html">--</a></td><td><a href="/players/allenja01.html">Jake Allen</a></td><td>37.83</td></tr>
+<tr><td><a href="/boxscores/202402240NJD.html">2/24/2024</a></td><td><a href="/teams/NJD.html">NJD</a></td><td>vs</td><td><a href="/teams/MTL.html">MTL</a></td><td>W</td><td><a href="/players/hischni01.html">Nico Hischier</a></td><td><a href="/players/toffoty01.html">Tyler Toffoli</a></td><td><a href="/players/hughelu01.html">Luke Hughes</a></td><td><a href="/players/allenja01.html">Jake Allen</a></td><td>53.55</td></tr>
+<tr><td><a href="/boxscores/202402240NJD.html">2/24/2024</a></td><td><a href="/teams/NJD.html">NJD</a></td><td>vs</td><td><a href="/teams/MTL.html">MTL</a></td><td>W</td><td><a href="/players/brattje01.html">Jesper Bratt</a></td><td><a href="/players/meierti01.html">Timo Meier</a></td><td><a href="/players/--.html">--</a></td><td><a href="/players/allenja01.html">Jake Allen</a></td><td>56.55</td></tr>
+<tr><td><a href="/boxscores/202403050NSH.html">3/5/2024</a></td><td><a href="/teams/NSH.html">NSH</a></td><td>vs</td><td><a href="/teams/MTL.html">MTL</a></td><td>L</td><td><a href="/players/forsbfi01.html">Filip Forsberg</a></td><td><a href="/players/evanglu01.html">Luke Evangelista</a></td><td><a href="/players/oreilry01.html">Ryan O'Reilly</a></td><td><a href="/players/allenja01.html">Jake Allen</a></td><td>15.4</td></tr>
+<tr><td><a href="/boxscores/202403050NSH.html">3/5/2024</a></td><td><a href="/teams/NSH.html">NSH</a></td><td>vs</td><td><a href="/teams/MTL.html">MTL</a></td><td>L</td><td><a href="/players/nyquigu01.html">Gustav Nyquist</a></td><td><a href="/players/forsbfi01.html">Filip Forsberg</a></td><td><a href="/players/oreilry01.html">Ryan O'Reilly</a></td><td><a href="/players/allenja01.html">Jake Allen</a></td><td>25.18</td></tr>
+<tr><td><a href="/boxscores/202403050NSH.html">3/5/2024</a></td><td><a href="/teams/NSH.html">NSH</a></td><td>vs</td><td><a href="/teams/MTL.html">MTL</a></td><td>L</td><td><a href="/players/oreilry01.html">Ryan O'Reilly</a></td><td><a href="/players/nyquigu01.html">Gustav Nyquist</a></td><td><a href="/players/lauzoje01.html">Jeremy Lauzon</a></td><td><a href="/players/allenja01.html">Jake Allen</a></td><td>52.32</td></tr>
+<tr><td><a href="/boxscores/202403140DAL.html">3/14/2024</a></td><td><a href="/teams/DAL.html">DAL</a></td><td>vs</td><td><a href="/teams/NJD.html">NJD</a></td><td>L</td><td><a href="/players/johnswy01.html">Wyatt Johnston</a></td><td><a href="/players/bennja01.html">Jamie Benn</a></td><td><a href="/players/harleth01.html">Thomas Harley</a></td><td><a href="/players/allenja01.html">Jake Allen</a></td><td>0.25</td></tr>
+<tr><td><a href="/boxscores/202403140DAL.html">3/14/2024</a></td><td><a href="/teams/DAL.html">DAL</a></td><td>vs</td><td><a href="/teams/NJD.html">NJD</a></td><td>L</td><td><a href="/players/smithcr01.html">Craig Smith</a></td><td><a href="/players/hakanja01.html">Jani Hakanpää</a></td><td><a href="/players/dellaty01.html">Ty Dellandrea</a></td><td><a href="/players/allenja01.html">Jake Allen</a></td><td>12.07</td></tr>
+<tr><td><a href="/boxscores/202403170VEG.html">3/17/2024</a></td><td><a href="/teams/VEG.html">VEG</a></td><td>vs</td><td><a href="/teams/NJD.html">NJD</a></td><td>W</td><td><a href="/players/carriwi01.html">William Carrier</a></td><td><a href="/players/pietral01.html">Alex Pietrangelo</a></td><td><a href="/players/hanifno01.html">Noah Hanifin</a></td><td><a href="/players/allenja01.html">Jake Allen</a></td><td>42.95</td></tr>
+<tr><td><a href="/boxscores/202403170VEG.html">3/17/2024</a></td><td><a href="/teams/VEG.html">VEG</a></td><td>vs</td><td><a href="/teams/NJD.html">NJD</a></td><td>W</td><td><a href="/players/eicheja01.html">Jack Eichel</a></td><td><a href="/players/hanifno01.html">Noah Hanifin</a></td><td><a href="/players/--.html">--</a></td><td><a href="/players/allenja01.html">Jake Allen</a></td><td>51.1</td></tr>
+<tr><td><a href="/boxscores/202403190NJD.html">3/19/2024</a></td><td><a href="/teams/PIT.html">PIT</a></td><td>@</td><td><a href="/teams/NJD.html">NJD</a></td><td>L</td><td><a href="/players/pettema01.html">Marcus Pettersson</a></td><td><a href="/players/buntimi01.html">Michael Bunting</a></td><td><a href="/players/rakelri01.html">Rickard Rakell</a></td><td><a href="/players/allenja01.html">Jake Allen</a></td><td>27.27</td></tr>
+<tr><td><a href="/boxscores/202403190NJD.html">3/19/2024</a></td><td><a href="/teams/PIT.html">PIT</a></td><td>@</td><td><a href="/teams/NJD.html">NJD</a></td><td>L</td><td><a href="/players/rustbr01.html">Bryan Rust</a></td><td><a href="/players/crosbsi01.html">Sidney Crosby</a></td><td><a href="/players/--.html">--</a></td><td><a href="/players/allenja01.html">Jake Allen</a></td><td>57.25</td></tr>
+<tr><td><a href="/boxscores/202403210NJD.html">3/21/2024</a></td><td><a href="/teams/WPG.html">WPG</a></td><td>@</td><td><a href="/teams/NJD.html">NJD</a></td><td>L</td><td><a href="/players/ehlerni01.html">Nikolaj Ehlers</a></td><td><a href="/players/scheima01.html">Mark Scheifele</a></td><td><a href="/players/demeldy01.html">Dylan DeMelo</a></td><td><a href="/players/allenja01.html">Jake Allen</a></td><td>36.78</td></tr>
+<tr><td><a href="/boxscores/202403230NJD.html">3/23/2024</a></td><td><a href="/teams/OTT.html">OTT</a></td><td>@</td><td><a href="/teams/NJD.html">NJD</a></td><td>W</td><td><a href="/players/josepma01.html">Mathieu Joseph</a></td><td><a href="/players/nan.html">-</a></td><td><a href="/players/--.html">--</a></td><td><a href="/players/allenja01.html">Jake Allen</a></td><td>4.93</td></tr>
+<tr><td><a href="/boxscores/202403230NJD.html">3/23/2024</a></td><td><a href="/teams/OTT.html">OTT</a></td><td>@</td><td><a href="/teams/NJD.html">NJD</a></td><td>W</td><td><a href="/players/greigri01.html">Ridly Greig</a></td><td><a href="/players/josepma01.html">Mathieu Joseph</a></td><td><a href="/players/--.html">--</a></td><td><a href="/players/allenja01.html">Jake Allen</a></td><td>24.1</td></tr>
+<tr><td><a href="/boxscores/202403230NJD.html">3/23/2024</a></td><td><a href="/teams/OTT.html">OTT</a></td><td>@</td><td><a href="/teams/NJD.html">NJD</a></td><td>W</td><td><a href="/players/crookan01.html">Angus Crookshank</a></td><td><a href="/players/chaboth01.html">Thomas Chabot</a></td><td><a href="/players/stuetti02.html">Tim Stützle</a></td><td><a href="/players/allenja01.html">Jake Allen</a></td><td>26.03</td></tr>
+<tr><td><a href="/boxscores/202403230NJD.html">3/23/2024</a></td><td><a href="/teams/OTT.html">OTT</a></td><td>@</td><td><a href="/teams/NJD.html">NJD</a></td><td>W</td><td><a href="/players/chaboth01.html">Thomas Chabot</a></td><td><a href="/players/tkachbr01.html">Brady Tkachuk</a></td><td><a href="/players/branner01.html">Erik Brännström</a></td><td><a href="/players/allenja01.html">Jake Allen</a></td><td>29.02</td></tr>
+<tr><td><a href="/boxscores/202403230NJD.html">3/23/2024</a></td><td><a href="/teams/OTT.html">OTT</a></td><td>@</td><td><a href="/teams/NJD.html">NJD</a></td><td>W</td><td><a href="/players/bathedr01.html">Drake Batherson</a></td><td><a href="/players/tkachbr01.html">Brady Tkachuk</a></td><td><a href="/players/--.html">--</a></td><td><a href="/players/allenja01.html">Jake Allen</a></td><td>50.25</td></tr>
+<tr><td><a href="/boxscores/202403260TOR.html">3/26/2024</a></td><td><a href="/teams/TOR.html">TOR</a></td><td>vs</td><td><a href="/teams/NJD.html">NJD</a></td><td>L</td><td><a href="/players/bertuty01.html">Tyler Bertuzzi</a></td><td><a href="/players/domima01.html">Max Domi</a></td><td><a href="/players/broditj01.html">T.J. Brodie</a></td><td><a href="/players/allenja01.html">Jake Allen</a></td><td>1.07</td></tr>
+<tr><td><a href="/boxscores/202403260TOR.html">3/26/2024</a></td><td><a href="/teams/TOR.html">TOR</a></td><td>vs</td><td><a href="/teams/NJD.html">NJD</a></td><td>L</td><td><a href="/players/nylanwi01.html">William Nylander</a></td><td><a href="/players/timmico01.html">Conor Timmins</a></td><td><a href="/players/kniesma01.html">Matthew Knies</a></td><td><a href="/players/allenja01.html">Jake Allen</a></td><td>23.23</td></tr>
+<tr><td><a href="/boxscores/202403260TOR.html">3/26/2024</a></td><td><a href="/teams/TOR.html">TOR</a></td><td>vs</td><td><a href="/teams/NJD.html">NJD</a></td><td>L</td><td><a href="/players/matthau01.html">Auston Matthews</a></td><td><a href="/players/lyubuil01.html">Ilya Lyubushkin</a></td><td><a href="/players/broditj01.html">T.J. Brodie</a></td><td><a href="/players/allenja01.html">Jake Allen</a></td><td>24.85</td></tr>
+<tr><td><a href="/boxscores/202403290BUF.html">3/29/2024</a></td><td><a href="/teams/BUF.html">BUF</a></td><td>vs</td><td><a href="/teams/NJD.html">NJD</a></td><td>W</td><td><a href="/players/thompta01.html">Tage Thompson</a></td><td><a href="/players/nan.html">-</a></td><td><a href="/players/--.html">--</a></td><td><a href="/players/allenja01.html">Jake Allen</a></td><td>20.47</td></tr>
+<tr><td><a href="/boxscores/202403290BUF.html">3/29/2024</a></td><td><a href="/teams/BUF.html">BUF</a></td><td>vs</td><td><a href="/teams/NJD.html">NJD</a></td><td>W</td><td><a href="/players/thompta01.html">Tage Thompson</a></td><td><a href="/players/tuchal01.html">Alex Tuch</a></td><td><a href="/players/--.html">--</a></td><td><a href="/players/allenja01.html">Jake Allen</a></td><td>37.48</td></tr>
+<tr><td><a href="/boxscores/202403290BUF.html">3/29/2024</a></td><td><a href="/teams/BUF.html">BUF</a></td><td>vs</td><td><a href="/teams/NJD.html">NJD</a></td><td>W</td><td><a href="/players/thompta01.html">Tage Thompson</a></td><td><a href="/players/dahlira01.html">Rasmus Dahlin</a></td><td><a href="/players/tuchal01.html">Alex Tuch</a></td><td><a href="/players/allenja01.html">Jake Allen</a></td><td>55.43</td></tr>
+<tr><td><a href="/boxscores/202404020NJD.html">4/2/2024</a></td><td><a href="/teams/PIT.html">PIT</a></td><td>@</td><td><a href="/teams/NJD.html">NJD</a></td><td>W</td><td><a href="/players/karlser01.html">Erik Karlsson</a></td><td><a href="/players/nan.html">-</a></td><td><a href="/players/--.html">--</a></td><td><a href="/players/allenja01.html">Jake Allen</a></td><td>7.9</td></tr>
+<tr><td><a href="/boxscores/202404020NJD.html">4/2/2024</a></td><td><a href="/teams/PIT.html">PIT</a></td><td>@</td><td><a href="/teams/NJD.html">NJD</a></td><td>W</td><td><a href="/players/crosbsi01.html">Sidney Crosby</a></td><td><a href="/players/malkiev01.html">Evgeni Malkin</a></td><td><a href="/players/rustbr01.html">Bryan Rust</a></td><td><a href="/players/allenja01.html">Jake Allen</a></td><td>46.8</td></tr>
+<tr><td><a href="/boxscores/202404020NJD.html">4/2/2024</a></td><td><a href="/teams/PIT.html">PIT</a></td><td>@</td><td><a href="/teams/NJD.html">NJD</a></td><td>W</td><td><a href="/players/malkiev01.html">Evgeni Malkin</a></td><td><a href="/players/stivajo01.html">John St. Ivany</a></td><td><a href="/players/buntimi01.html">Michael Bunting</a></td><td><a href="/players/allenja01.html">Jake Allen</a></td><td>47.92</td></tr>
+<tr><td><a href="/boxscores/202404020NJD.html">4/2/2024</a></td><td><a href="/teams/PIT.html">PIT</a></td><td>@</td><td><a href="/teams/NJD.html">NJD</a></td><td>W</td><td><a href="/players/rakelri01.html">Rickard Rakell</a></td><td><a href="/players/pettema01.html">Marcus Pettersson</a></td><td><a href="/players/--.html">--</a></td><td><a href="/players/allenja01.html">Jake Allen</a></td><td>56.27</td></tr>
+<tr><td><a href="/boxscores/202404020NJD.html">4/2/2024</a></td><td><a href="/teams/PIT.html">PIT</a></td><td>@</td><td><a href="/teams/NJD.html">NJD</a></td><td>W</td><td><a href="/players/malkiev01.html">Evgeni Malkin</a></td><td><a href="/players/buntimi01.html">Michael Bunting</a></td><td><a href="/players/letankr01.html">Kris Letang</a></td><td><a href="/players/allenja01.html">Jake Allen</a></td><td>56.63</td></tr>
+<tr><td><a href="/boxscores/202404060OTT.html">4/6/2024</a></td><td><a href="/teams/OTT.html">OTT</a></td><td>vs</td><td><a href="/teams/NJD.html">NJD</a></td><td>L</td><td><a href="/players/sandeja01.html">Jake Sanderson</a></td><td><a href="/players/bathedr01.html">Drake Batherson</a></td><td><a href="/players/giroucl01.html">Claude Giroux</a></td><td><a href="/players/allenja01.html">Jake Allen</a></td><td>20.55</td></tr>
+<tr><td><a href="/boxscores/202404060OTT.html">4/6/2024</a></td><td><a href="/teams/OTT.html">OTT</a></td><td>vs</td><td><a href="/teams/NJD.html">NJD</a></td><td>L</td><td><a href="/players/giroucl01.html">Claude Giroux</a></td><td><a href="/players/sandeja01.html">Jake Sanderson</a></td><td><a href="/players/bathedr01.html">Drake Batherson</a></td><td><a href="/players/allenja01.html">Jake Allen</a></td><td>43.62</td></tr>
+<tr><td><a href="/boxscores/202404060OTT.html">4/6/2024</a></td><td><a href="/teams/OTT.html">OTT</a></td><td>vs</td><td><a href="/teams/NJD.html">NJD</a></td><td>L</td><td><a href="/players/tkachbr01.html">Brady Tkachuk</a></td><td><a href="/players/nan.html">-</a></td><td><a href="/players/--.html">--</a></td><td><a href="/players/allenja01.html">Jake Allen</a></td><td>54.28</td></tr>
+<tr><td><a href="/boxscores/202404070NJD.html">4/7/2024</a></td><td><a href="/teams/NSH.html">NSH</a></td><td>@</td><td><a href="/teams/NJD.html">NJD</a></td><td>W</td><td><a href="/players/evanglu01.html">Luke Evangelista</a></td><td><a href="/players/oreilry01.html">Ryan O'Reilly</a></td><td><a href="/players/forsbfi01.html">Filip Forsberg</a></td><td><a href="/players/allenja01.html">Jake Allen</a></td><td>52.75</td></tr>
+<tr><td><a href="/boxscores/202404090NJD.html">4/9/2024</a></td><td><a href="/teams/TOR.html">TOR</a></td><td>@</td><td><a href="/teams/NJD.html">NJD</a></td><td>W</td><td><a href="/players/roberni01.html">Nicholas Robertson</a></td><td><a href="/players/nan.html">-</a></td><td><a href="/players/--.html">--</a></td><td><a href="/players/allenja01.html">Jake Allen</a></td><td>8.93</td></tr>
+<tr><td><a href="/boxscores/202404090NJD.html">4/9/2024</a></td><td><a href="/teams/TOR.html">TOR</a></td><td>@</td><td><a href="/teams/NJD.html">NJD</a></td><td>W</td><td><a href="/players/bertuty01.html">Tyler Bertuzzi</a></td><td><a href="/players/domima01.html">Max Domi</a></td><td><a href="/players/mccabja01.html">Jake McCabe</a></td><td><a href="/players/allenja01.html">Jake Allen</a></td><td>35.0</td></tr>
+<tr><td><a href="/boxscores/202404090NJD.html">4/9/2024</a></td><td><a href="/teams/TOR.html">TOR</a></td><td>@</td><td><a href="/teams/NJD.html">NJD</a></td><td>W</td><td><a href="/players/giordma01.html">Mark Giordano</a></td><td><a href="/players/matthau01.html">Auston Matthews</a></td><td><a href="/players/bertuty01.html">Tyler Bertuzzi</a></td><td><a href="/players/allenja01.html">Jake Allen</a></td><td>35.15</td></tr>
+<tr><td><a href="/boxscores/202404090NJD.html">4/9/2024</a></td><td><a href="/teams/TOR.html">TOR</a></td><td>@</td><td><a href="/teams/NJD.html">NJD</a></td><td>W</td><td><a href="/players/matthau01.html">Auston Matthews</a></td><td><a href="/players/domima01.html">Max Domi</a></td><td><a href="/players/--.html">--</a></td><td><a href="/players/allenja01.html">Jake Allen</a></td><td>47.55</td></tr>
+<tr><td><a href="/boxscores/202404110TOR.html">4/11/2024</a></td><td><a href="/teams/TOR.html">TOR</a></td><td>vs</td><td><a href="/teams/NJD.html">NJD</a></td><td>L</td><td><a href="/players/tavarjo01.html">John Tavares</a></td><td><a href="/players/marnemi01.html">Mitch Marner</a></td><td><a href="/players/--.html">--</a></td><td><a href="/players/allenja01.html">Jake Allen</a></td><td>0.3</td></tr>
+<tr><td><a href="/boxscores/202404110TOR.html">4/11/2024</a></td><td><a href="/teams/TOR.html">TOR</a></td><td>vs</td><td><a href="/teams/NJD.html">NJD</a></td><td>L</td><td><a href="/players/matthau01.html">Auston Matthews</a></td><td><a href="/players/domima01.html">Max Domi</a></td><td><a href="/players/broditj01.html">T.J. Brodie</a></td><td><a href="/players/allenja01.html">Jake Allen</a></td><td>6.13</td></tr>
+<tr><td><a href="/boxscores/202404110TOR.html">4/11/2024</a></td><td><a href="/teams/TOR.html">TOR</a></td><td>vs</td><td><a href="/teams/NJD.html">NJD</a></td><td>L</td><td><a href="/players/matthau01.html">Auston Matthews</a></td><td><a href="/players/domima01.html">Max Domi</a></td><td><a href="/players/bertuty01.html">Tyler Bertuzzi</a></td><td><a href="/players/allenja01.html">Jake Allen</a></td><td>27.98</td></tr>
+<tr><td><a href="/boxscores/202404110TOR.html">4/11/2024</a></td><td><a href="/teams/TOR.html">TOR</a></td><td>vs</td><td><a href="/teams/NJD.html">NJD</a></td><td>L</td><td><a href="/players/kampfda01.html">David Kämpf</a></td><td><a href="/players/dewarco01.html">Connor Dewar</a></td><td><a href="/players/--.html">--</a></td><td><a href="/players/allenja01.html">Jake Allen</a></td><td>29.27</td></tr>
+<tr><td><a href="/boxscores/202404110TOR.html">4/11/2024</a></td><td><a href="/teams/TOR.html">TOR</a></td><td>vs</td><td><a href="/teams/NJD.html">NJD</a></td><td>L</td><td><a href="/players/tavarjo01.html">John Tavares</a></td><td><a href="/players/riellmo01.html">Morgan Rielly</a></td><td><a href="/players/marnemi01.html">Mitch Marner</a></td><td><a href="/players/allenja01.html">Jake Allen</a></td><td>55.22</td></tr>
+<tr><td><a href="/boxscores/202404150NJD.html">4/15/2024</a></td><td><a href="/teams/NYI.html">NYI</a></td><td>@</td><td><a href="/teams/NJD.html">NJD</a></td><td>W</td><td><a href="/players/pageaje01.html">Jean-Gabriel Pageau</a></td><td><a href="/players/engvapi01.html">Pierre Engvall</a></td><td><a href="/players/leean01.html">Anders Lee</a></td><td><a href="/players/allenja01.html">Jake Allen</a></td><td>12.37</td></tr>
+<tr><td><a href="/boxscores/202404150NJD.html">4/15/2024</a></td><td><a href="/teams/NYI.html">NYI</a></td><td>@</td><td><a href="/teams/NJD.html">NJD</a></td><td>W</td><td><a href="/players/palmiky01.html">Kyle Palmieri</a></td><td><a href="/players/reillmi01.html">Mike Reilly</a></td><td><a href="/players/nelsobr01.html">Brock Nelson</a></td><td><a href="/players/allenja01.html">Jake Allen</a></td><td>16.87</td></tr>
+<tr><td><a href="/boxscores/202404150NJD.html">4/15/2024</a></td><td><a href="/teams/NYI.html">NYI</a></td><td>@</td><td><a href="/teams/NJD.html">NJD</a></td><td>W</td><td><a href="/players/nelsobr01.html">Brock Nelson</a></td><td><a href="/players/faschhu01.html">Hudson Fasching</a></td><td><a href="/players/palmiky01.html">Kyle Palmieri</a></td><td><a href="/players/allenja01.html">Jake Allen</a></td><td>31.8</td></tr>
+<tr><td><a href="/boxscores/202404150NJD.html">4/15/2024</a></td><td><a href="/teams/NYI.html">NYI</a></td><td>@</td><td><a href="/teams/NJD.html">NJD</a></td><td>W</td><td><a href="/players/macleky01.html">Kyle MacLean</a></td><td><a href="/players/leean01.html">Anders Lee</a></td><td><a href="/players/engvapi01.html">Pierre Engvall</a></td><td><a href="/players/allenja01.html">Jake Allen</a></td><td>46.28</td></tr>
+<tr><td><a href="/boxscores/202311120MTL.html">11/12/2023</a></td><td><a href="/teams/MTL.html">MTL</a></td><td>vs</td><td><a href="/teams/VAN.html">VAN</a></td><td>L</td><td><a href="/players/xhekaar01.html">Arber Xhekaj</a></td><td><a href="/players/harrijo01.html">Jordan Harris</a></td><td><a href="/players/allenja01.html">Jake Allen</a></td><td><a href="/players/desmica01.html">Casey DeSmith</a></td><td>59.18</td></tr>
+</table>
 
-    <!-- Search Bar -->
-    <div class="search-container">
-      <input type="text" id="searchInput" placeholder="Search players or teams..." oninput="searchEntities()" />
-      <ul id="suggestions"></ul> <!-- This will show the search suggestions -->
-    </div>
-  </nav>
-
-  <h1>Jake Allen - Gamelogs</h1>
-  <table border="1">
-    <thead>
-      <tr>
-        <th>Season</th>
-        <th>Date</th>
-        <th>Team</th>
-        <th>Location</th>
-        <th>Opponent</th>
-        <th>Result</th>
-        <th>GA</th>
-        <th>SA</th>
-        <th>SV</th>
-        <th>SV%</th>
-        <th>TOI</th>
-      </tr>
-    </thead>
-    <tbody>
-    
-        <tr>
-          <td><a href="/schedule/2023-24.html">2023-24</a></td>
-          <td><a href="/boxscores/202310110TOR.html">10/11/2023</a></td>
-          <td><a href="/teams/MTL.html">MTL</a></td>
-          <td>@</td>
-          <td><a href="/teams/TOR.html">TOR</a></td>
-          <td>L-SO</td>
-          <td>5</td>
-          <td>42</td>
-          <td>37</td>
-          <td>88.00%</td>
-          <td>65.0</td>
-        </tr>
-        
-        <tr>
-          <td><a href="/schedule/2023-24.html">2023-24</a></td>
-          <td><a href="/boxscores/202310110TOR.html">10/11/2023</a></td>
-          <td><a href="/teams/MTL.html">MTL</a></td>
-          <td>@</td>
-          <td><a href="/teams/TOR.html">TOR</a></td>
-          <td>L-SO</td>
-          <td>5</td>
-          <td>42</td>
-          <td>37</td>
-          <td>88.00%</td>
-          <td>65.0</td>
-        </tr>
-        
-        <tr>
-          <td><a href="/schedule/2023-24.html">2023-24</a></td>
-          <td><a href="/boxscores/202310210MTL.html">10/21/2023</a></td>
-          <td><a href="/teams/MTL.html">MTL</a></td>
-          <td>vs</td>
-          <td><a href="/teams/WSH.html">WSH</a></td>
-          <td>W</td>
-          <td>2</td>
-          <td>33</td>
-          <td>31</td>
-          <td>94.00%</td>
-          <td>60.78</td>
-        </tr>
-        
-        <tr>
-          <td><a href="/schedule/2023-24.html">2023-24</a></td>
-          <td><a href="/boxscores/202310210MTL.html">10/21/2023</a></td>
-          <td><a href="/teams/MTL.html">MTL</a></td>
-          <td>vs</td>
-          <td><a href="/teams/WSH.html">WSH</a></td>
-          <td>W</td>
-          <td>2</td>
-          <td>33</td>
-          <td>31</td>
-          <td>94.00%</td>
-          <td>60.78</td>
-        </tr>
-        
-        <tr>
-          <td><a href="/schedule/2023-24.html">2023-24</a></td>
-          <td><a href="/boxscores/202310230BUF.html">10/23/2023</a></td>
-          <td><a href="/teams/MTL.html">MTL</a></td>
-          <td>@</td>
-          <td><a href="/teams/BUF.html">BUF</a></td>
-          <td>W</td>
-          <td>1</td>
-          <td>37</td>
-          <td>36</td>
-          <td>97.00%</td>
-          <td>60.0</td>
-        </tr>
-        
-        <tr>
-          <td><a href="/schedule/2023-24.html">2023-24</a></td>
-          <td><a href="/boxscores/202310230BUF.html">10/23/2023</a></td>
-          <td><a href="/teams/MTL.html">MTL</a></td>
-          <td>@</td>
-          <td><a href="/teams/BUF.html">BUF</a></td>
-          <td>W</td>
-          <td>1</td>
-          <td>37</td>
-          <td>36</td>
-          <td>97.00%</td>
-          <td>60.0</td>
-        </tr>
-        
-        <tr>
-          <td><a href="/schedule/2023-24.html">2023-24</a></td>
-          <td><a href="/boxscores/202310280MTL.html">10/28/2023</a></td>
-          <td><a href="/teams/MTL.html">MTL</a></td>
-          <td>vs</td>
-          <td><a href="/teams/WPG.html">WPG</a></td>
-          <td>W</td>
-          <td>3</td>
-          <td>45</td>
-          <td>42</td>
-          <td>93.00%</td>
-          <td>65.0</td>
-        </tr>
-        
-        <tr>
-          <td><a href="/schedule/2023-24.html">2023-24</a></td>
-          <td><a href="/boxscores/202310280MTL.html">10/28/2023</a></td>
-          <td><a href="/teams/MTL.html">MTL</a></td>
-          <td>vs</td>
-          <td><a href="/teams/WPG.html">WPG</a></td>
-          <td>W</td>
-          <td>3</td>
-          <td>45</td>
-          <td>42</td>
-          <td>93.00%</td>
-          <td>65.0</td>
-        </tr>
-        
-        <tr>
-          <td><a href="/schedule/2023-24.html">2023-24</a></td>
-          <td><a href="/boxscores/202311020ARI.html">11/2/2023</a></td>
-          <td><a href="/teams/MTL.html">MTL</a></td>
-          <td>@</td>
-          <td><a href="/teams/ARI.html">ARI</a></td>
-          <td>L</td>
-          <td>3</td>
-          <td>35</td>
-          <td>32</td>
-          <td>91.00%</td>
-          <td>57.75</td>
-        </tr>
-        
-        <tr>
-          <td><a href="/schedule/2023-24.html">2023-24</a></td>
-          <td><a href="/boxscores/202311020ARI.html">11/2/2023</a></td>
-          <td><a href="/teams/MTL.html">MTL</a></td>
-          <td>@</td>
-          <td><a href="/teams/ARI.html">ARI</a></td>
-          <td>L</td>
-          <td>3</td>
-          <td>35</td>
-          <td>32</td>
-          <td>91.00%</td>
-          <td>57.75</td>
-        </tr>
-        
-        <tr>
-          <td><a href="/schedule/2023-24.html">2023-24</a></td>
-          <td><a href="/boxscores/202311070MTL.html">11/7/2023</a></td>
-          <td><a href="/teams/MTL.html">MTL</a></td>
-          <td>vs</td>
-          <td><a href="/teams/TBL.html">TBL</a></td>
-          <td>L</td>
-          <td>4</td>
-          <td>9</td>
-          <td>5</td>
-          <td>56.00%</td>
-          <td>13.83</td>
-        </tr>
-        
-        <tr>
-          <td><a href="/schedule/2023-24.html">2023-24</a></td>
-          <td><a href="/boxscores/202311070MTL.html">11/7/2023</a></td>
-          <td><a href="/teams/MTL.html">MTL</a></td>
-          <td>vs</td>
-          <td><a href="/teams/TBL.html">TBL</a></td>
-          <td>L</td>
-          <td>4</td>
-          <td>9</td>
-          <td>5</td>
-          <td>56.00%</td>
-          <td>13.83</td>
-        </tr>
-        
-        <tr>
-          <td><a href="/schedule/2023-24.html">2023-24</a></td>
-          <td><a href="/boxscores/202311120MTL.html">11/12/2023</a></td>
-          <td><a href="/teams/MTL.html">MTL</a></td>
-          <td>vs</td>
-          <td><a href="/teams/VAN.html">VAN</a></td>
-          <td>L</td>
-          <td>3</td>
-          <td>35</td>
-          <td>32</td>
-          <td>91.00%</td>
-          <td>58.88</td>
-        </tr>
-        
-        <tr>
-          <td><a href="/schedule/2023-24.html">2023-24</a></td>
-          <td><a href="/boxscores/202311120MTL.html">11/12/2023</a></td>
-          <td><a href="/teams/MTL.html">MTL</a></td>
-          <td>vs</td>
-          <td><a href="/teams/VAN.html">VAN</a></td>
-          <td>L</td>
-          <td>3</td>
-          <td>35</td>
-          <td>32</td>
-          <td>91.00%</td>
-          <td>58.88</td>
-        </tr>
-        
-        <tr>
-          <td><a href="/schedule/2023-24.html">2023-24</a></td>
-          <td><a href="/boxscores/202311180BOS.html">11/18/2023</a></td>
-          <td><a href="/teams/MTL.html">MTL</a></td>
-          <td>@</td>
-          <td><a href="/teams/BOS.html">BOS</a></td>
-          <td>L</td>
-          <td>5</td>
-          <td>44</td>
-          <td>39</td>
-          <td>89.00%</td>
-          <td>60.0</td>
-        </tr>
-        
-        <tr>
-          <td><a href="/schedule/2023-24.html">2023-24</a></td>
-          <td><a href="/boxscores/202311180BOS.html">11/18/2023</a></td>
-          <td><a href="/teams/MTL.html">MTL</a></td>
-          <td>@</td>
-          <td><a href="/teams/BOS.html">BOS</a></td>
-          <td>L</td>
-          <td>5</td>
-          <td>44</td>
-          <td>39</td>
-          <td>89.00%</td>
-          <td>60.0</td>
-        </tr>
-        
-        <tr>
-          <td><a href="/schedule/2023-24.html">2023-24</a></td>
-          <td><a href="/boxscores/202311250LAK.html">11/25/2023</a></td>
-          <td><a href="/teams/MTL.html">MTL</a></td>
-          <td>@</td>
-          <td><a href="/teams/LAK.html">LAK</a></td>
-          <td>L</td>
-          <td>4</td>
-          <td>30</td>
-          <td>26</td>
-          <td>87.00%</td>
-          <td>60.0</td>
-        </tr>
-        
-        <tr>
-          <td><a href="/schedule/2023-24.html">2023-24</a></td>
-          <td><a href="/boxscores/202311250LAK.html">11/25/2023</a></td>
-          <td><a href="/teams/MTL.html">MTL</a></td>
-          <td>@</td>
-          <td><a href="/teams/LAK.html">LAK</a></td>
-          <td>L</td>
-          <td>4</td>
-          <td>30</td>
-          <td>26</td>
-          <td>87.00%</td>
-          <td>60.0</td>
-        </tr>
-        
-        <tr>
-          <td><a href="/schedule/2023-24.html">2023-24</a></td>
-          <td><a href="/boxscores/202312020MTL.html">12/2/2023</a></td>
-          <td><a href="/teams/MTL.html">MTL</a></td>
-          <td>vs</td>
-          <td><a href="/teams/DET.html">DET</a></td>
-          <td>L-OT</td>
-          <td>5</td>
-          <td>33</td>
-          <td>28</td>
-          <td>85.00%</td>
-          <td>60.82</td>
-        </tr>
-        
-        <tr>
-          <td><a href="/schedule/2023-24.html">2023-24</a></td>
-          <td><a href="/boxscores/202312020MTL.html">12/2/2023</a></td>
-          <td><a href="/teams/MTL.html">MTL</a></td>
-          <td>vs</td>
-          <td><a href="/teams/DET.html">DET</a></td>
-          <td>L-OT</td>
-          <td>5</td>
-          <td>33</td>
-          <td>28</td>
-          <td>85.00%</td>
-          <td>60.82</td>
-        </tr>
-        
-        <tr>
-          <td><a href="/schedule/2023-24.html">2023-24</a></td>
-          <td><a href="/boxscores/202312100MTL.html">12/10/2023</a></td>
-          <td><a href="/teams/MTL.html">MTL</a></td>
-          <td>vs</td>
-          <td><a href="/teams/NSH.html">NSH</a></td>
-          <td>L</td>
-          <td>2</td>
-          <td>32</td>
-          <td>30</td>
-          <td>94.00%</td>
-          <td>58.53</td>
-        </tr>
-        
-        <tr>
-          <td><a href="/schedule/2023-24.html">2023-24</a></td>
-          <td><a href="/boxscores/202312100MTL.html">12/10/2023</a></td>
-          <td><a href="/teams/MTL.html">MTL</a></td>
-          <td>vs</td>
-          <td><a href="/teams/NSH.html">NSH</a></td>
-          <td>L</td>
-          <td>2</td>
-          <td>32</td>
-          <td>30</td>
-          <td>94.00%</td>
-          <td>58.53</td>
-        </tr>
-        
-        <tr>
-          <td><a href="/schedule/2023-24.html">2023-24</a></td>
-          <td><a href="/boxscores/202312180WPG.html">12/18/2023</a></td>
-          <td><a href="/teams/MTL.html">MTL</a></td>
-          <td>@</td>
-          <td><a href="/teams/WPG.html">WPG</a></td>
-          <td>W</td>
-          <td>2</td>
-          <td>32</td>
-          <td>30</td>
-          <td>94.00%</td>
-          <td>61.15</td>
-        </tr>
-        
-        <tr>
-          <td><a href="/schedule/2023-24.html">2023-24</a></td>
-          <td><a href="/boxscores/202312180WPG.html">12/18/2023</a></td>
-          <td><a href="/teams/MTL.html">MTL</a></td>
-          <td>@</td>
-          <td><a href="/teams/WPG.html">WPG</a></td>
-          <td>W</td>
-          <td>2</td>
-          <td>32</td>
-          <td>30</td>
-          <td>94.00%</td>
-          <td>61.15</td>
-        </tr>
-        
-        <tr>
-          <td><a href="/schedule/2023-24.html">2023-24</a></td>
-          <td><a href="/boxscores/202312300FLA.html">12/30/2023</a></td>
-          <td><a href="/teams/MTL.html">MTL</a></td>
-          <td>@</td>
-          <td><a href="/teams/FLA.html">FLA</a></td>
-          <td>L</td>
-          <td>3</td>
-          <td>25</td>
-          <td>22</td>
-          <td>88.00%</td>
-          <td>58.93</td>
-        </tr>
-        
-        <tr>
-          <td><a href="/schedule/2023-24.html">2023-24</a></td>
-          <td><a href="/boxscores/202312300FLA.html">12/30/2023</a></td>
-          <td><a href="/teams/MTL.html">MTL</a></td>
-          <td>@</td>
-          <td><a href="/teams/FLA.html">FLA</a></td>
-          <td>L</td>
-          <td>3</td>
-          <td>25</td>
-          <td>22</td>
-          <td>88.00%</td>
-          <td>58.93</td>
-        </tr>
-        
-        <tr>
-          <td><a href="/schedule/2023-24.html">2023-24</a></td>
-          <td><a href="/boxscores/202401040MTL.html">1/4/2024</a></td>
-          <td><a href="/teams/MTL.html">MTL</a></td>
-          <td>vs</td>
-          <td><a href="/teams/BUF.html">BUF</a></td>
-          <td>L</td>
-          <td>5</td>
-          <td>37</td>
-          <td>32</td>
-          <td>87.00%</td>
-          <td>59.43</td>
-        </tr>
-        
-        <tr>
-          <td><a href="/schedule/2023-24.html">2023-24</a></td>
-          <td><a href="/boxscores/202401040MTL.html">1/4/2024</a></td>
-          <td><a href="/teams/MTL.html">MTL</a></td>
-          <td>vs</td>
-          <td><a href="/teams/BUF.html">BUF</a></td>
-          <td>L</td>
-          <td>5</td>
-          <td>37</td>
-          <td>32</td>
-          <td>87.00%</td>
-          <td>59.43</td>
-        </tr>
-        
-        <tr>
-          <td><a href="/schedule/2023-24.html">2023-24</a></td>
-          <td><a href="/boxscores/202401150MTL.html">1/15/2024</a></td>
-          <td><a href="/teams/MTL.html">MTL</a></td>
-          <td>vs</td>
-          <td><a href="/teams/COL.html">COL</a></td>
-          <td>W</td>
-          <td>3</td>
-          <td>35</td>
-          <td>32</td>
-          <td>91.00%</td>
-          <td>60.0</td>
-        </tr>
-        
-        <tr>
-          <td><a href="/schedule/2023-24.html">2023-24</a></td>
-          <td><a href="/boxscores/202401150MTL.html">1/15/2024</a></td>
-          <td><a href="/teams/MTL.html">MTL</a></td>
-          <td>vs</td>
-          <td><a href="/teams/COL.html">COL</a></td>
-          <td>W</td>
-          <td>3</td>
-          <td>35</td>
-          <td>32</td>
-          <td>91.00%</td>
-          <td>60.0</td>
-        </tr>
-        
-        <tr>
-          <td><a href="/schedule/2023-24.html">2023-24</a></td>
-          <td><a href="/boxscores/202401230MTL.html">1/23/2024</a></td>
-          <td><a href="/teams/MTL.html">MTL</a></td>
-          <td>vs</td>
-          <td><a href="/teams/OTT.html">OTT</a></td>
-          <td>L</td>
-          <td>3</td>
-          <td>27</td>
-          <td>24</td>
-          <td>89.00%</td>
-          <td>58.47</td>
-        </tr>
-        
-        <tr>
-          <td><a href="/schedule/2023-24.html">2023-24</a></td>
-          <td><a href="/boxscores/202401230MTL.html">1/23/2024</a></td>
-          <td><a href="/teams/MTL.html">MTL</a></td>
-          <td>vs</td>
-          <td><a href="/teams/OTT.html">OTT</a></td>
-          <td>L</td>
-          <td>3</td>
-          <td>27</td>
-          <td>24</td>
-          <td>89.00%</td>
-          <td>58.47</td>
-        </tr>
-        
-        <tr>
-          <td><a href="/schedule/2023-24.html">2023-24</a></td>
-          <td><a href="/boxscores/202401270PIT.html">1/27/2024</a></td>
-          <td><a href="/teams/MTL.html">MTL</a></td>
-          <td>@</td>
-          <td><a href="/teams/PIT.html">PIT</a></td>
-          <td>L-OT</td>
-          <td>3</td>
-          <td>33</td>
-          <td>30</td>
-          <td>91.00%</td>
-          <td>62.0</td>
-        </tr>
-        
-        <tr>
-          <td><a href="/schedule/2023-24.html">2023-24</a></td>
-          <td><a href="/boxscores/202401270PIT.html">1/27/2024</a></td>
-          <td><a href="/teams/MTL.html">MTL</a></td>
-          <td>@</td>
-          <td><a href="/teams/PIT.html">PIT</a></td>
-          <td>L-OT</td>
-          <td>3</td>
-          <td>33</td>
-          <td>30</td>
-          <td>91.00%</td>
-          <td>62.0</td>
-        </tr>
-        
-        <tr>
-          <td><a href="/schedule/2023-24.html">2023-24</a></td>
-          <td><a href="/boxscores/202402110MTL.html">2/11/2024</a></td>
-          <td><a href="/teams/MTL.html">MTL</a></td>
-          <td>vs</td>
-          <td><a href="/teams/STL.html">STL</a></td>
-          <td>L</td>
-          <td>7</td>
-          <td>36</td>
-          <td>29</td>
-          <td>81.00%</td>
-          <td>60.0</td>
-        </tr>
-        
-        <tr>
-          <td><a href="/schedule/2023-24.html">2023-24</a></td>
-          <td><a href="/boxscores/202402110MTL.html">2/11/2024</a></td>
-          <td><a href="/teams/MTL.html">MTL</a></td>
-          <td>vs</td>
-          <td><a href="/teams/STL.html">STL</a></td>
-          <td>L</td>
-          <td>7</td>
-          <td>36</td>
-          <td>29</td>
-          <td>81.00%</td>
-          <td>60.0</td>
-        </tr>
-        
-        <tr>
-          <td><a href="/schedule/2023-24.html">2023-24</a></td>
-          <td><a href="/boxscores/202402170MTL.html">2/17/2024</a></td>
-          <td><a href="/teams/MTL.html">MTL</a></td>
-          <td>vs</td>
-          <td><a href="/teams/WSH.html">WSH</a></td>
-          <td>L</td>
-          <td>4</td>
-          <td>34</td>
-          <td>30</td>
-          <td>88.00%</td>
-          <td>57.67</td>
-        </tr>
-        
-        <tr>
-          <td><a href="/schedule/2023-24.html">2023-24</a></td>
-          <td><a href="/boxscores/202402170MTL.html">2/17/2024</a></td>
-          <td><a href="/teams/MTL.html">MTL</a></td>
-          <td>vs</td>
-          <td><a href="/teams/WSH.html">WSH</a></td>
-          <td>L</td>
-          <td>4</td>
-          <td>34</td>
-          <td>30</td>
-          <td>88.00%</td>
-          <td>57.67</td>
-        </tr>
-        
-        <tr>
-          <td><a href="/schedule/2023-24.html">2023-24</a></td>
-          <td><a href="/boxscores/202402240NJD.html">2/24/2024</a></td>
-          <td><a href="/teams/MTL.html">MTL</a></td>
-          <td>@</td>
-          <td><a href="/teams/NJD.html">NJD</a></td>
-          <td>L</td>
-          <td>4</td>
-          <td>24</td>
-          <td>20</td>
-          <td>83.00%</td>
-          <td>57.8</td>
-        </tr>
-        
-        <tr>
-          <td><a href="/schedule/2023-24.html">2023-24</a></td>
-          <td><a href="/boxscores/202402240NJD.html">2/24/2024</a></td>
-          <td><a href="/teams/MTL.html">MTL</a></td>
-          <td>@</td>
-          <td><a href="/teams/NJD.html">NJD</a></td>
-          <td>L</td>
-          <td>4</td>
-          <td>24</td>
-          <td>20</td>
-          <td>83.00%</td>
-          <td>57.8</td>
-        </tr>
-        
-        <tr>
-          <td><a href="/schedule/2023-24.html">2023-24</a></td>
-          <td><a href="/boxscores/202403050NSH.html">3/5/2024</a></td>
-          <td><a href="/teams/MTL.html">MTL</a></td>
-          <td>@</td>
-          <td><a href="/teams/NSH.html">NSH</a></td>
-          <td>W</td>
-          <td>3</td>
-          <td>28</td>
-          <td>25</td>
-          <td>89.00%</td>
-          <td>60.28</td>
-        </tr>
-        
-        <tr>
-          <td><a href="/schedule/2023-24.html">2023-24</a></td>
-          <td><a href="/boxscores/202403050NSH.html">3/5/2024</a></td>
-          <td><a href="/teams/MTL.html">MTL</a></td>
-          <td>@</td>
-          <td><a href="/teams/NSH.html">NSH</a></td>
-          <td>W</td>
-          <td>3</td>
-          <td>28</td>
-          <td>25</td>
-          <td>89.00%</td>
-          <td>60.28</td>
-        </tr>
-        
-        <tr>
-          <td><a href="/schedule/2023-24.html">2023-24</a></td>
-          <td><a href="/boxscores/202403140DAL.html">3/14/2024</a></td>
-          <td><a href="/teams/NJD.html">NJD</a></td>
-          <td>@</td>
-          <td><a href="/teams/DAL.html">DAL</a></td>
-          <td>W</td>
-          <td>2</td>
-          <td>37</td>
-          <td>35</td>
-          <td>95.00%</td>
-          <td>60.0</td>
-        </tr>
-        
-        <tr>
-          <td><a href="/schedule/2023-24.html">2023-24</a></td>
-          <td><a href="/boxscores/202403140DAL.html">3/14/2024</a></td>
-          <td><a href="/teams/NJD.html">NJD</a></td>
-          <td>@</td>
-          <td><a href="/teams/DAL.html">DAL</a></td>
-          <td>W</td>
-          <td>2</td>
-          <td>37</td>
-          <td>35</td>
-          <td>95.00%</td>
-          <td>60.0</td>
-        </tr>
-        
-        <tr>
-          <td><a href="/schedule/2023-24.html">2023-24</a></td>
-          <td><a href="/boxscores/202403170VEG.html">3/17/2024</a></td>
-          <td><a href="/teams/NJD.html">NJD</a></td>
-          <td>@</td>
-          <td><a href="/teams/VEG.html">VEG</a></td>
-          <td>L</td>
-          <td>2</td>
-          <td>36</td>
-          <td>34</td>
-          <td>94.00%</td>
-          <td>58.68</td>
-        </tr>
-        
-        <tr>
-          <td><a href="/schedule/2023-24.html">2023-24</a></td>
-          <td><a href="/boxscores/202403170VEG.html">3/17/2024</a></td>
-          <td><a href="/teams/NJD.html">NJD</a></td>
-          <td>@</td>
-          <td><a href="/teams/VEG.html">VEG</a></td>
-          <td>L</td>
-          <td>2</td>
-          <td>36</td>
-          <td>34</td>
-          <td>94.00%</td>
-          <td>58.68</td>
-        </tr>
-        
-        <tr>
-          <td><a href="/schedule/2023-24.html">2023-24</a></td>
-          <td><a href="/boxscores/202403190NJD.html">3/19/2024</a></td>
-          <td><a href="/teams/NJD.html">NJD</a></td>
-          <td>vs</td>
-          <td><a href="/teams/PIT.html">PIT</a></td>
-          <td>W</td>
-          <td>2</td>
-          <td>38</td>
-          <td>36</td>
-          <td>95.00%</td>
-          <td>60.0</td>
-        </tr>
-        
-        <tr>
-          <td><a href="/schedule/2023-24.html">2023-24</a></td>
-          <td><a href="/boxscores/202403190NJD.html">3/19/2024</a></td>
-          <td><a href="/teams/NJD.html">NJD</a></td>
-          <td>vs</td>
-          <td><a href="/teams/PIT.html">PIT</a></td>
-          <td>W</td>
-          <td>2</td>
-          <td>38</td>
-          <td>36</td>
-          <td>95.00%</td>
-          <td>60.0</td>
-        </tr>
-        
-        <tr>
-          <td><a href="/schedule/2023-24.html">2023-24</a></td>
-          <td><a href="/boxscores/202403210NJD.html">3/21/2024</a></td>
-          <td><a href="/teams/NJD.html">NJD</a></td>
-          <td>vs</td>
-          <td><a href="/teams/WPG.html">WPG</a></td>
-          <td>W</td>
-          <td>1</td>
-          <td>19</td>
-          <td>18</td>
-          <td>95.00%</td>
-          <td>60.0</td>
-        </tr>
-        
-        <tr>
-          <td><a href="/schedule/2023-24.html">2023-24</a></td>
-          <td><a href="/boxscores/202403210NJD.html">3/21/2024</a></td>
-          <td><a href="/teams/NJD.html">NJD</a></td>
-          <td>vs</td>
-          <td><a href="/teams/WPG.html">WPG</a></td>
-          <td>W</td>
-          <td>1</td>
-          <td>19</td>
-          <td>18</td>
-          <td>95.00%</td>
-          <td>60.0</td>
-        </tr>
-        
-        <tr>
-          <td><a href="/schedule/2023-24.html">2023-24</a></td>
-          <td><a href="/boxscores/202403230NJD.html">3/23/2024</a></td>
-          <td><a href="/teams/NJD.html">NJD</a></td>
-          <td>vs</td>
-          <td><a href="/teams/OTT.html">OTT</a></td>
-          <td>L</td>
-          <td>5</td>
-          <td>25</td>
-          <td>20</td>
-          <td>80.00%</td>
-          <td>60.0</td>
-        </tr>
-        
-        <tr>
-          <td><a href="/schedule/2023-24.html">2023-24</a></td>
-          <td><a href="/boxscores/202403230NJD.html">3/23/2024</a></td>
-          <td><a href="/teams/NJD.html">NJD</a></td>
-          <td>vs</td>
-          <td><a href="/teams/OTT.html">OTT</a></td>
-          <td>L</td>
-          <td>5</td>
-          <td>25</td>
-          <td>20</td>
-          <td>80.00%</td>
-          <td>60.0</td>
-        </tr>
-        
-        <tr>
-          <td><a href="/schedule/2023-24.html">2023-24</a></td>
-          <td><a href="/boxscores/202403260TOR.html">3/26/2024</a></td>
-          <td><a href="/teams/NJD.html">NJD</a></td>
-          <td>@</td>
-          <td><a href="/teams/TOR.html">TOR</a></td>
-          <td>W</td>
-          <td>3</td>
-          <td>45</td>
-          <td>42</td>
-          <td>93.00%</td>
-          <td>60.0</td>
-        </tr>
-        
-        <tr>
-          <td><a href="/schedule/2023-24.html">2023-24</a></td>
-          <td><a href="/boxscores/202403260TOR.html">3/26/2024</a></td>
-          <td><a href="/teams/NJD.html">NJD</a></td>
-          <td>@</td>
-          <td><a href="/teams/TOR.html">TOR</a></td>
-          <td>W</td>
-          <td>3</td>
-          <td>45</td>
-          <td>42</td>
-          <td>93.00%</td>
-          <td>60.0</td>
-        </tr>
-        
-        <tr>
-          <td><a href="/schedule/2023-24.html">2023-24</a></td>
-          <td><a href="/boxscores/202403290BUF.html">3/29/2024</a></td>
-          <td><a href="/teams/NJD.html">NJD</a></td>
-          <td>@</td>
-          <td><a href="/teams/BUF.html">BUF</a></td>
-          <td>L</td>
-          <td>3</td>
-          <td>34</td>
-          <td>31</td>
-          <td>91.00%</td>
-          <td>58.38</td>
-        </tr>
-        
-        <tr>
-          <td><a href="/schedule/2023-24.html">2023-24</a></td>
-          <td><a href="/boxscores/202403290BUF.html">3/29/2024</a></td>
-          <td><a href="/teams/NJD.html">NJD</a></td>
-          <td>@</td>
-          <td><a href="/teams/BUF.html">BUF</a></td>
-          <td>L</td>
-          <td>3</td>
-          <td>34</td>
-          <td>31</td>
-          <td>91.00%</td>
-          <td>58.38</td>
-        </tr>
-        
-        <tr>
-          <td><a href="/schedule/2023-24.html">2023-24</a></td>
-          <td><a href="/boxscores/202404020NJD.html">4/2/2024</a></td>
-          <td><a href="/teams/NJD.html">NJD</a></td>
-          <td>vs</td>
-          <td><a href="/teams/PIT.html">PIT</a></td>
-          <td>L</td>
-          <td>5</td>
-          <td>20</td>
-          <td>15</td>
-          <td>75.00%</td>
-          <td>59.25</td>
-        </tr>
-        
-        <tr>
-          <td><a href="/schedule/2023-24.html">2023-24</a></td>
-          <td><a href="/boxscores/202404020NJD.html">4/2/2024</a></td>
-          <td><a href="/teams/NJD.html">NJD</a></td>
-          <td>vs</td>
-          <td><a href="/teams/PIT.html">PIT</a></td>
-          <td>L</td>
-          <td>5</td>
-          <td>20</td>
-          <td>15</td>
-          <td>75.00%</td>
-          <td>59.25</td>
-        </tr>
-        
-        <tr>
-          <td><a href="/schedule/2023-24.html">2023-24</a></td>
-          <td><a href="/boxscores/202404060OTT.html">4/6/2024</a></td>
-          <td><a href="/teams/NJD.html">NJD</a></td>
-          <td>@</td>
-          <td><a href="/teams/OTT.html">OTT</a></td>
-          <td>W</td>
-          <td>3</td>
-          <td>28</td>
-          <td>25</td>
-          <td>89.00%</td>
-          <td>60.0</td>
-        </tr>
-        
-        <tr>
-          <td><a href="/schedule/2023-24.html">2023-24</a></td>
-          <td><a href="/boxscores/202404060OTT.html">4/6/2024</a></td>
-          <td><a href="/teams/NJD.html">NJD</a></td>
-          <td>@</td>
-          <td><a href="/teams/OTT.html">OTT</a></td>
-          <td>W</td>
-          <td>3</td>
-          <td>28</td>
-          <td>25</td>
-          <td>89.00%</td>
-          <td>60.0</td>
-        </tr>
-        
-        <tr>
-          <td><a href="/schedule/2023-24.html">2023-24</a></td>
-          <td><a href="/boxscores/202404070NJD.html">4/7/2024</a></td>
-          <td><a href="/teams/NJD.html">NJD</a></td>
-          <td>vs</td>
-          <td><a href="/teams/NSH.html">NSH</a></td>
-          <td>L-SO</td>
-          <td>1</td>
-          <td>30</td>
-          <td>29</td>
-          <td>97.00%</td>
-          <td>56.35</td>
-        </tr>
-        
-        <tr>
-          <td><a href="/schedule/2023-24.html">2023-24</a></td>
-          <td><a href="/boxscores/202404070NJD.html">4/7/2024</a></td>
-          <td><a href="/teams/NJD.html">NJD</a></td>
-          <td>vs</td>
-          <td><a href="/teams/NSH.html">NSH</a></td>
-          <td>L-SO</td>
-          <td>1</td>
-          <td>30</td>
-          <td>29</td>
-          <td>97.00%</td>
-          <td>56.35</td>
-        </tr>
-        
-        <tr>
-          <td><a href="/schedule/2023-24.html">2023-24</a></td>
-          <td><a href="/boxscores/202404090NJD.html">4/9/2024</a></td>
-          <td><a href="/teams/NJD.html">NJD</a></td>
-          <td>vs</td>
-          <td><a href="/teams/TOR.html">TOR</a></td>
-          <td>L</td>
-          <td>4</td>
-          <td>38</td>
-          <td>34</td>
-          <td>90.00%</td>
-          <td>57.88</td>
-        </tr>
-        
-        <tr>
-          <td><a href="/schedule/2023-24.html">2023-24</a></td>
-          <td><a href="/boxscores/202404090NJD.html">4/9/2024</a></td>
-          <td><a href="/teams/NJD.html">NJD</a></td>
-          <td>vs</td>
-          <td><a href="/teams/TOR.html">TOR</a></td>
-          <td>L</td>
-          <td>4</td>
-          <td>38</td>
-          <td>34</td>
-          <td>90.00%</td>
-          <td>57.88</td>
-        </tr>
-        
-        <tr>
-          <td><a href="/schedule/2023-24.html">2023-24</a></td>
-          <td><a href="/boxscores/202404110TOR.html">4/11/2024</a></td>
-          <td><a href="/teams/NJD.html">NJD</a></td>
-          <td>@</td>
-          <td><a href="/teams/TOR.html">TOR</a></td>
-          <td>W</td>
-          <td>5</td>
-          <td>32</td>
-          <td>27</td>
-          <td>84.00%</td>
-          <td>60.0</td>
-        </tr>
-        
-        <tr>
-          <td><a href="/schedule/2023-24.html">2023-24</a></td>
-          <td><a href="/boxscores/202404110TOR.html">4/11/2024</a></td>
-          <td><a href="/teams/NJD.html">NJD</a></td>
-          <td>@</td>
-          <td><a href="/teams/TOR.html">TOR</a></td>
-          <td>W</td>
-          <td>5</td>
-          <td>32</td>
-          <td>27</td>
-          <td>84.00%</td>
-          <td>60.0</td>
-        </tr>
-        
-        <tr>
-          <td><a href="/schedule/2023-24.html">2023-24</a></td>
-          <td><a href="/boxscores/202404150NJD.html">4/15/2024</a></td>
-          <td><a href="/teams/NJD.html">NJD</a></td>
-          <td>vs</td>
-          <td><a href="/teams/NYI.html">NYI</a></td>
-          <td>L</td>
-          <td>4</td>
-          <td>19</td>
-          <td>15</td>
-          <td>79.00%</td>
-          <td>60.0</td>
-        </tr>
-        
-        <tr>
-          <td><a href="/schedule/2023-24.html">2023-24</a></td>
-          <td><a href="/boxscores/202404150NJD.html">4/15/2024</a></td>
-          <td><a href="/teams/NJD.html">NJD</a></td>
-          <td>vs</td>
-          <td><a href="/teams/NYI.html">NYI</a></td>
-          <td>L</td>
-          <td>4</td>
-          <td>19</td>
-          <td>15</td>
-          <td>79.00%</td>
-          <td>60.0</td>
-        </tr>
-        
-    </tbody>
-  </table>
+</main>
 </body>
 </html>
-    

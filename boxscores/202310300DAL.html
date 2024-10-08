@@ -1,153 +1,110 @@
-
-    <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Game 202310300DAL Boxscore</title>
-        <link rel="stylesheet" href="/assets/styles.css">
-        <script src="/assets/searchBar.js" defer></script>
-        <script src="/assets/tableSort.js"></script>
-        <style>
-            tr:hover {background-color: #F0FFF0;}
-        </style>
-    </head>
-    <body>
-        <nav id="navbar">
-            <a href="/">Home</a>
-            <a href="/players/">Players</a>
-            <a href="/teams/">Teams</a>
-            <a href="/leaders/">Leaders</a>
-            <a href="/probabilities/">Probabilities</a>
-            <a href="/boxscores/">Boxscores</a>
-            <a href="/schedule/">Schedule</a>
-
-            <div class="search-container">
-                <input type="text" id="searchInput" placeholder="Search players or teams..." oninput="searchEntities()" />
-                <ul id="suggestions"></ul>
-            </div>
-        </nav>
-
-        <main id="content">
-            <h1>Game 202310300DAL Boxscore</h1>
-
-            <h2>Skaters</h2>
-            <table id="202310300DAL_skaters" border="1">
-                <thead>
-                    <tr>
-                        <th>Date</th><th>Home Team</th><th>Away Team</th><th>Player</th><th>Team</th><th>G</th><th>A</th><th>PTS</th>
-                        <th>+/-</th><th>PIM</th><th>EVG</th><th>PPG</th><th>SHG</th><th>GWG</th><th>EV Assist</th><th>PP Assist</th>
-                        <th>SH Assist</th><th>SOG</th><th>S%</th><th>SHFT</th><th>TOI</th><th>iCF</th><th>SAT‑F</th><th>SAT‑A</th>
-                        <th>CF%</th><th>CRel%</th><th>ZSO</th><th>ZSD</th><th>oZS%</th><th>HIT</th><th>BLK</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr><td><a href="/boxscores/202310300DAL.html">10/30/2023</a></td><td><a href="/teams/DAL.html">DAL</a></td><td><a href="/teams/CBJ.html">CBJ</a></td><td><a href="/players/Jake Bean.html">Jake Bean</a></td><td><a href="/teams/CBJ.html">CBJ</a></td><td>0</td><td>0</td><td>0</td><td>-1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>20</td><td>15.33</td><td>2</td><td>12</td><td>12</td><td>50</td><td>7.8</td><td>2</td><td>5</td><td>28.6</td><td>0</td><td>2</td></tr>
-<tr><td><a href="/boxscores/202310300DAL.html">10/30/2023</a></td><td><a href="/teams/DAL.html">DAL</a></td><td><a href="/teams/CBJ.html">CBJ</a></td><td><a href="/players/Emil Bemström.html">Emil Bemström</a></td><td><a href="/teams/CBJ.html">CBJ</a></td><td>0</td><td>0</td><td>0</td><td>-1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>21</td><td>15.22</td><td>3</td><td>16</td><td>16</td><td>50</td><td>8.4</td><td>7</td><td>4</td><td>63.6</td><td>1</td><td>1</td></tr>
-<tr><td><a href="/boxscores/202310300DAL.html">10/30/2023</a></td><td><a href="/teams/DAL.html">DAL</a></td><td><a href="/teams/CBJ.html">CBJ</a></td><td><a href="/players/Justin Danforth.html">Justin Danforth</a></td><td><a href="/teams/CBJ.html">CBJ</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>17</td><td>11.42</td><td>0</td><td>8</td><td>15</td><td>34.8</td><td>-10.7</td><td>0</td><td>4</td><td>0</td><td>1</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202310300DAL.html">10/30/2023</a></td><td><a href="/teams/DAL.html">DAL</a></td><td><a href="/teams/CBJ.html">CBJ</a></td><td><a href="/players/Adam Fantilli.html">Adam Fantilli</a></td><td><a href="/teams/CBJ.html">CBJ</a></td><td>0</td><td>1</td><td>1</td><td>-1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>2</td><td>0</td><td>20</td><td>15.53</td><td>3</td><td>16</td><td>16</td><td>50</td><td>8.4</td><td>9</td><td>4</td><td>69.2</td><td>2</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202310300DAL.html">10/30/2023</a></td><td><a href="/teams/DAL.html">DAL</a></td><td><a href="/teams/CBJ.html">CBJ</a></td><td><a href="/players/Johnny Gaudreau.html">Johnny Gaudreau</a></td><td><a href="/teams/CBJ.html">CBJ</a></td><td>0</td><td>0</td><td>0</td><td>-1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>2</td><td>0</td><td>23</td><td>19.18</td><td>3</td><td>19</td><td>18</td><td>51.4</td><td>10.8</td><td>9</td><td>2</td><td>81.8</td><td>0</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202310300DAL.html">10/30/2023</a></td><td><a href="/teams/DAL.html">DAL</a></td><td><a href="/teams/CBJ.html">CBJ</a></td><td><a href="/players/Erik Gudbranson.html">Erik Gudbranson</a></td><td><a href="/teams/CBJ.html">CBJ</a></td><td>0</td><td>0</td><td>0</td><td>-1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>24</td><td>19.27</td><td>1</td><td>13</td><td>21</td><td>38.2</td><td>-7.3</td><td>2</td><td>7</td><td>22.2</td><td>1</td><td>3</td></tr>
-<tr><td><a href="/boxscores/202310300DAL.html">10/30/2023</a></td><td><a href="/teams/DAL.html">DAL</a></td><td><a href="/teams/CBJ.html">CBJ</a></td><td><a href="/players/Boone Jenner.html">Boone Jenner</a></td><td><a href="/teams/CBJ.html">CBJ</a></td><td>0</td><td>0</td><td>0</td><td>-2</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>4</td><td>0</td><td>23</td><td>19.17</td><td>7</td><td>20</td><td>26</td><td>43.5</td><td>-0.2</td><td>10</td><td>2</td><td>83.3</td><td>1</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202310300DAL.html">10/30/2023</a></td><td><a href="/teams/DAL.html">DAL</a></td><td><a href="/teams/CBJ.html">CBJ</a></td><td><a href="/players/David Jiříček.html">David Jiříček</a></td><td><a href="/teams/CBJ.html">CBJ</a></td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>20</td><td>15.2</td><td>1</td><td>16</td><td>14</td><td>53.3</td><td>12.5</td><td>4</td><td>2</td><td>66.7</td><td>1</td><td>1</td></tr>
-<tr><td><a href="/boxscores/202310300DAL.html">10/30/2023</a></td><td><a href="/teams/DAL.html">DAL</a></td><td><a href="/teams/CBJ.html">CBJ</a></td><td><a href="/players/Kent Johnson.html">Kent Johnson</a></td><td><a href="/teams/CBJ.html">CBJ</a></td><td>0</td><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>1</td><td>0</td><td>20</td><td>14.52</td><td>3</td><td>17</td><td>12</td><td>58.6</td><td>19.2</td><td>4</td><td>3</td><td>57.1</td><td>0</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202310300DAL.html">10/30/2023</a></td><td><a href="/teams/DAL.html">DAL</a></td><td><a href="/teams/CBJ.html">CBJ</a></td><td><a href="/players/Sean Kuraly.html">Sean Kuraly</a></td><td><a href="/teams/CBJ.html">CBJ</a></td><td>1</td><td>0</td><td>1</td><td>0</td><td>2</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>4</td><td>25</td><td>22</td><td>13.18</td><td>6</td><td>10</td><td>22</td><td>31.2</td><td>-16.3</td><td>0</td><td>7</td><td>0</td><td>3</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202310300DAL.html">10/30/2023</a></td><td><a href="/teams/DAL.html">DAL</a></td><td><a href="/teams/CBJ.html">CBJ</a></td><td><a href="/players/Mathieu Olivier.html">Mathieu Olivier</a></td><td><a href="/teams/CBJ.html">CBJ</a></td><td>0</td><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>17</td><td>12</td><td>0</td><td>9</td><td>15</td><td>37.5</td><td>-7.5</td><td>0</td><td>4</td><td>0</td><td>6</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202310300DAL.html">10/30/2023</a></td><td><a href="/teams/DAL.html">DAL</a></td><td><a href="/teams/CBJ.html">CBJ</a></td><td><a href="/players/Ivan Provorov.html">Ivan Provorov</a></td><td><a href="/teams/CBJ.html">CBJ</a></td><td>0</td><td>1</td><td>1</td><td>-1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>2</td><td>0</td><td>23</td><td>22.97</td><td>6</td><td>21</td><td>27</td><td>43.8</td><td>0.3</td><td>5</td><td>5</td><td>50</td><td>0</td><td>2</td></tr>
-<tr><td><a href="/boxscores/202310300DAL.html">10/30/2023</a></td><td><a href="/teams/DAL.html">DAL</a></td><td><a href="/teams/CBJ.html">CBJ</a></td><td><a href="/players/Jack Roslovic.html">Jack Roslovic</a></td><td><a href="/teams/CBJ.html">CBJ</a></td><td>0</td><td>0</td><td>0</td><td>-2</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>24</td><td>20.28</td><td>6</td><td>22</td><td>27</td><td>44.9</td><td>2</td><td>8</td><td>1</td><td>88.9</td><td>0</td><td>1</td></tr>
-<tr><td><a href="/boxscores/202310300DAL.html">10/30/2023</a></td><td><a href="/teams/DAL.html">DAL</a></td><td><a href="/teams/CBJ.html">CBJ</a></td><td><a href="/players/Damon Severson.html">Damon Severson</a></td><td><a href="/teams/CBJ.html">CBJ</a></td><td>1</td><td>0</td><td>1</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>100</td><td>26</td><td>21.77</td><td>1</td><td>24</td><td>35</td><td>40.7</td><td>-5.2</td><td>13</td><td>6</td><td>68.4</td><td>0</td><td>4</td></tr>
-<tr><td><a href="/boxscores/202310300DAL.html">10/30/2023</a></td><td><a href="/teams/DAL.html">DAL</a></td><td><a href="/teams/CBJ.html">CBJ</a></td><td><a href="/players/Cole Sillinger.html">Cole Sillinger</a></td><td><a href="/teams/CBJ.html">CBJ</a></td><td>0</td><td>1</td><td>1</td><td>0</td><td>4</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>3</td><td>0</td><td>21</td><td>13.27</td><td>4</td><td>13</td><td>12</td><td>52</td><td>10.3</td><td>4</td><td>4</td><td>50</td><td>1</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202310300DAL.html">10/30/2023</a></td><td><a href="/teams/DAL.html">DAL</a></td><td><a href="/teams/CBJ.html">CBJ</a></td><td><a href="/players/Alexandre Texier.html">Alexandre Texier</a></td><td><a href="/teams/CBJ.html">CBJ</a></td><td>0</td><td>0</td><td>0</td><td>-2</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>20</td><td>12.83</td><td>3</td><td>10</td><td>24</td><td>29.4</td><td>-19.1</td><td>4</td><td>7</td><td>36.4</td><td>1</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202310300DAL.html">10/30/2023</a></td><td><a href="/teams/DAL.html">DAL</a></td><td><a href="/teams/CBJ.html">CBJ</a></td><td><a href="/players/Dmitri Voronkov.html">Dmitri Voronkov</a></td><td><a href="/teams/CBJ.html">CBJ</a></td><td>1</td><td>0</td><td>1</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>100</td><td>20</td><td>13.97</td><td>1</td><td>17</td><td>14</td><td>54.8</td><td>14.6</td><td>6</td><td>2</td><td>75</td><td>0</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202310300DAL.html">10/30/2023</a></td><td><a href="/teams/DAL.html">DAL</a></td><td><a href="/teams/CBJ.html">CBJ</a></td><td><a href="/players/Zach Werenski.html">Zach Werenski</a></td><td><a href="/teams/CBJ.html">CBJ</a></td><td>0</td><td>1</td><td>1</td><td>-1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>3</td><td>0</td><td>26</td><td>21.68</td><td>8</td><td>28</td><td>38</td><td>42.4</td><td>-2.4</td><td>13</td><td>7</td><td>65</td><td>1</td><td>1</td></tr>
-<tr><td><a href="/boxscores/202310300DAL.html">10/30/2023</a></td><td><a href="/teams/DAL.html">DAL</a></td><td><a href="/teams/CBJ.html">CBJ</a></td><td><a href="/players/Elvis Merzļikins.html">Elvis Merzļikins</a></td><td><a href="/teams/CBJ.html">CBJ</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>5</td><td>57.22</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202310300DAL.html">10/30/2023</a></td><td><a href="/teams/DAL.html">DAL</a></td><td><a href="/teams/CBJ.html">CBJ</a></td><td><a href="/players/--.html">--</a></td><td><a href="/teams/--.html">--</a></td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td></tr>
-<tr><td><a href="/boxscores/202310300DAL.html">10/30/2023</a></td><td><a href="/teams/DAL.html">DAL</a></td><td><a href="/teams/CBJ.html">CBJ</a></td><td><a href="/players/Jamie Benn.html">Jamie Benn</a></td><td><a href="/teams/DAL.html">DAL</a></td><td>0</td><td>2</td><td>2</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>2</td><td>0</td><td>0</td><td>1</td><td>0</td><td>19</td><td>15.02</td><td>4</td><td>20</td><td>13</td><td>60.6</td><td>5.6</td><td>3</td><td>4</td><td>42.9</td><td>0</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202310300DAL.html">10/30/2023</a></td><td><a href="/teams/DAL.html">DAL</a></td><td><a href="/teams/CBJ.html">CBJ</a></td><td><a href="/players/Evgenii Dadonov.html">Evgenii Dadonov</a></td><td><a href="/teams/DAL.html">DAL</a></td><td>1</td><td>1</td><td>2</td><td>2</td><td>0</td><td>1</td><td>0</td><td>0</td><td>1</td><td>1</td><td>0</td><td>0</td><td>2</td><td>50</td><td>15</td><td>11.53</td><td>3</td><td>15</td><td>11</td><td>57.7</td><td>1.6</td><td>1</td><td>4</td><td>20</td><td>1</td><td>1</td></tr>
-<tr><td><a href="/boxscores/202310300DAL.html">10/30/2023</a></td><td><a href="/teams/DAL.html">DAL</a></td><td><a href="/teams/CBJ.html">CBJ</a></td><td><a href="/players/Ty Dellandrea.html">Ty Dellandrea</a></td><td><a href="/teams/DAL.html">DAL</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>17</td><td>13.9</td><td>5</td><td>12</td><td>11</td><td>52.2</td><td>-5.1</td><td>3</td><td>7</td><td>30</td><td>2</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202310300DAL.html">10/30/2023</a></td><td><a href="/teams/DAL.html">DAL</a></td><td><a href="/teams/CBJ.html">CBJ</a></td><td><a href="/players/Matt Duchene.html">Matt Duchene</a></td><td><a href="/teams/DAL.html">DAL</a></td><td>1</td><td>0</td><td>1</td><td>1</td><td>2</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>4</td><td>25</td><td>18</td><td>14.45</td><td>9</td><td>30</td><td>18</td><td>62.5</td><td>9.6</td><td>7</td><td>4</td><td>63.6</td><td>0</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202310300DAL.html">10/30/2023</a></td><td><a href="/teams/DAL.html">DAL</a></td><td><a href="/teams/CBJ.html">CBJ</a></td><td><a href="/players/Radek Faksa.html">Radek Faksa</a></td><td><a href="/teams/DAL.html">DAL</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>16</td><td>12.85</td><td>2</td><td>15</td><td>9</td><td>62.5</td><td>7.5</td><td>3</td><td>7</td><td>30</td><td>0</td><td>1</td></tr>
-<tr><td><a href="/boxscores/202310300DAL.html">10/30/2023</a></td><td><a href="/teams/DAL.html">DAL</a></td><td><a href="/teams/CBJ.html">CBJ</a></td><td><a href="/players/Jani Hakanpää.html">Jani Hakanpää</a></td><td><a href="/teams/DAL.html">DAL</a></td><td>0</td><td>0</td><td>0</td><td>2</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>21</td><td>19.12</td><td>1</td><td>12</td><td>28</td><td>30</td><td>-37.7</td><td>0</td><td>11</td><td>0</td><td>0</td><td>4</td></tr>
-<tr><td><a href="/boxscores/202310300DAL.html">10/30/2023</a></td><td><a href="/teams/DAL.html">DAL</a></td><td><a href="/teams/CBJ.html">CBJ</a></td><td><a href="/players/Thomas Harley.html">Thomas Harley</a></td><td><a href="/teams/DAL.html">DAL</a></td><td>1</td><td>0</td><td>1</td><td>1</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>2</td><td>50</td><td>22</td><td>19.42</td><td>3</td><td>26</td><td>25</td><td>51</td><td>-8.8</td><td>4</td><td>9</td><td>30.8</td><td>0</td><td>3</td></tr>
-<tr><td><a href="/boxscores/202310300DAL.html">10/30/2023</a></td><td><a href="/teams/DAL.html">DAL</a></td><td><a href="/teams/CBJ.html">CBJ</a></td><td><a href="/players/Miro Heiskanen.html">Miro Heiskanen</a></td><td><a href="/teams/DAL.html">DAL</a></td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>25</td><td>24.05</td><td>5</td><td>42</td><td>19</td><td>68.9</td><td>23.1</td><td>11</td><td>7</td><td>61.1</td><td>0</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202310300DAL.html">10/30/2023</a></td><td><a href="/teams/DAL.html">DAL</a></td><td><a href="/teams/CBJ.html">CBJ</a></td><td><a href="/players/Roope Hintz.html">Roope Hintz</a></td><td><a href="/teams/DAL.html">DAL</a></td><td>1</td><td>1</td><td>2</td><td>-1</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>1</td><td>100</td><td>23</td><td>17.25</td><td>3</td><td>17</td><td>16</td><td>51.5</td><td>-6.5</td><td>5</td><td>5</td><td>50</td><td>1</td><td>1</td></tr>
-<tr><td><a href="/boxscores/202310300DAL.html">10/30/2023</a></td><td><a href="/teams/DAL.html">DAL</a></td><td><a href="/teams/CBJ.html">CBJ</a></td><td><a href="/players/Wyatt Johnston.html">Wyatt Johnston</a></td><td><a href="/teams/DAL.html">DAL</a></td><td>1</td><td>1</td><td>2</td><td>2</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>2</td><td>50</td><td>20</td><td>15.52</td><td>3</td><td>18</td><td>14</td><td>56.2</td><td>-0.2</td><td>2</td><td>4</td><td>33.3</td><td>1</td><td>1</td></tr>
-<tr><td><a href="/boxscores/202310300DAL.html">10/30/2023</a></td><td><a href="/teams/DAL.html">DAL</a></td><td><a href="/teams/CBJ.html">CBJ</a></td><td><a href="/players/Esa Lindell.html">Esa Lindell</a></td><td><a href="/teams/DAL.html">DAL</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>3</td><td>0</td><td>22</td><td>20.53</td><td>8</td><td>19</td><td>16</td><td>54.3</td><td>-2.8</td><td>3</td><td>4</td><td>42.9</td><td>3</td><td>1</td></tr>
-<tr><td><a href="/boxscores/202310300DAL.html">10/30/2023</a></td><td><a href="/teams/DAL.html">DAL</a></td><td><a href="/teams/CBJ.html">CBJ</a></td><td><a href="/players/Nils Lundkvist.html">Nils Lundkvist</a></td><td><a href="/teams/DAL.html">DAL</a></td><td>0</td><td>1</td><td>1</td><td>-1</td><td>2</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>1</td><td>0</td><td>19</td><td>14.35</td><td>2</td><td>18</td><td>10</td><td>64.3</td><td>10</td><td>5</td><td>2</td><td>71.4</td><td>1</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202310300DAL.html">10/30/2023</a></td><td><a href="/teams/DAL.html">DAL</a></td><td><a href="/teams/CBJ.html">CBJ</a></td><td><a href="/players/Mason Marchment.html">Mason Marchment</a></td><td><a href="/teams/DAL.html">DAL</a></td><td>0</td><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>2</td><td>0</td><td>18</td><td>16.07</td><td>6</td><td>29</td><td>21</td><td>58</td><td>2.6</td><td>7</td><td>4</td><td>63.6</td><td>0</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202310300DAL.html">10/30/2023</a></td><td><a href="/teams/DAL.html">DAL</a></td><td><a href="/teams/CBJ.html">CBJ</a></td><td><a href="/players/Joe Pavelski.html">Joe Pavelski</a></td><td><a href="/teams/DAL.html">DAL</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>3</td><td>0</td><td>21</td><td>17.83</td><td>3</td><td>19</td><td>14</td><td>57.6</td><td>1.6</td><td>5</td><td>4</td><td>55.6</td><td>0</td><td>1</td></tr>
-<tr><td><a href="/boxscores/202310300DAL.html">10/30/2023</a></td><td><a href="/teams/DAL.html">DAL</a></td><td><a href="/teams/CBJ.html">CBJ</a></td><td><a href="/players/Jason Robertson.html">Jason Robertson</a></td><td><a href="/teams/DAL.html">DAL</a></td><td>0</td><td>2</td><td>2</td><td>1</td><td>2</td><td>0</td><td>0</td><td>0</td><td>0</td><td>2</td><td>0</td><td>0</td><td>2</td><td>0</td><td>22</td><td>17.05</td><td>4</td><td>19</td><td>16</td><td>54.3</td><td>-2.8</td><td>5</td><td>5</td><td>50</td><td>0</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202310300DAL.html">10/30/2023</a></td><td><a href="/teams/DAL.html">DAL</a></td><td><a href="/teams/CBJ.html">CBJ</a></td><td><a href="/players/Tyler Seguin.html">Tyler Seguin</a></td><td><a href="/teams/DAL.html">DAL</a></td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>5</td><td>0</td><td>19</td><td>14.98</td><td>7</td><td>26</td><td>18</td><td>59.1</td><td>4</td><td>6</td><td>4</td><td>60</td><td>0</td><td>1</td></tr>
-<tr><td><a href="/boxscores/202310300DAL.html">10/30/2023</a></td><td><a href="/teams/DAL.html">DAL</a></td><td><a href="/teams/CBJ.html">CBJ</a></td><td><a href="/players/Craig Smith.html">Craig Smith</a></td><td><a href="/teams/DAL.html">DAL</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>15</td><td>11.57</td><td>3</td><td>14</td><td>9</td><td>60.9</td><td>5.4</td><td>4</td><td>5</td><td>44.4</td><td>1</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202310300DAL.html">10/30/2023</a></td><td><a href="/teams/DAL.html">DAL</a></td><td><a href="/teams/CBJ.html">CBJ</a></td><td><a href="/players/Ryan Suter.html">Ryan Suter</a></td><td><a href="/teams/DAL.html">DAL</a></td><td>0</td><td>1</td><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>2</td><td>0</td><td>21</td><td>18.95</td><td>4</td><td>23</td><td>16</td><td>59</td><td>3.7</td><td>6</td><td>7</td><td>46.2</td><td>2</td><td>3</td></tr>
-<tr><td><a href="/boxscores/202310300DAL.html">10/30/2023</a></td><td><a href="/teams/DAL.html">DAL</a></td><td><a href="/teams/CBJ.html">CBJ</a></td><td><a href="/players/Jake Oettinger.html">Jake Oettinger</a></td><td><a href="/teams/DAL.html">DAL</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>4</td><td>59.57</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202310300DAL.html">10/30/2023</a></td><td><a href="/teams/DAL.html">DAL</a></td><td><a href="/teams/CBJ.html">CBJ</a></td><td><a href="/players/--.html">--</a></td><td><a href="/teams/--.html">--</a></td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td></tr>
-
-                </tbody>
-            </table>
-
-            <h2>Goalies</h2>
-            <table id="202310300DAL_goalies" border="1">
-                <thead>
-                    <tr>
-                        <th>Home Team</th><th>Away Team</th><th>Goalie</th><th>Team</th><th>DEC</th><th>GA</th><th>SA</th><th>SV</th>
-                        <th>SV%</th><th>SO</th><th>PIM</th><th>Goalie TOI</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr><td><a href="/teams/DAL.html">DAL</a></td><td><a href="/teams/CBJ.html">CBJ</a></td><td><a href="/players/merzlel01.html">Elvis Merzļikins</a></td><td><a href="/teams/CBJ.html">CBJ</a></td><td>L</td><td>4</td><td>32</td><td>28</td><td>0.875</td><td>0</td><td>0</td><td>57:13:00</td></tr>
-<tr><td><a href="/teams/DAL.html">DAL</a></td><td><a href="/teams/CBJ.html">CBJ</a></td><td><a href="/players/--.html">Empty Net</a></td><td><a href="/teams/CBJ.html">CBJ</a></td><td>--</td><td>1</td><td>1</td><td>0</td><td>0.0</td><td>0</td><td>0</td><td>0</td></tr>
-<tr><td><a href="/teams/DAL.html">DAL</a></td><td><a href="/teams/CBJ.html">CBJ</a></td><td><a href="/players/oettija01.html">Jake Oettinger</a></td><td><a href="/teams/DAL.html">DAL</a></td><td>W</td><td>3</td><td>25</td><td>22</td><td>0.88</td><td>0</td><td>0</td><td>59:34:00</td></tr>
-
-                </tbody>
-            </table>
-
-            <h2>Scoring</h2>
-            <table id="202310300DAL_scoring" border="1">
-                <thead>
-                    <tr>
-                        <th>Home Team</th><th>Away Team</th><th>Period</th><th>Time</th><th>Team</th><th>Info</th>
-                        <th>Scorer</th><th>Assist1</th><th>Assist2</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr><td><a href="/teams/DAL.html">DAL</a></td><td><a href="/teams/CBJ.html">CBJ</a></td><td>1st Period</td><td>1st Period</td><td><a href="/teams/1st Period.html">1st Period</a></td><td>1st Period</td><td><a href="/players/1st Period.html">1st Period</a></td><td><a href="/players/1st Period.html">1st Period</a></td><td><a href="/players/1st Period.html">1st Period</a></td></tr>
-<tr><td><a href="/teams/DAL.html">DAL</a></td><td><a href="/teams/CBJ.html">CBJ</a></td><td>1st Period</td><td>0:27</td><td><a href="/teams/DAL.html">DAL</a></td><td>--</td><td><a href="/players/Thomas Harley.html">Thomas Harley</a></td><td><a href="/players/Jason Robertson.html">Jason Robertson</a></td><td><a href="/players/Roope Hintz.html">Roope Hintz</a></td></tr>
-<tr><td><a href="/teams/DAL.html">DAL</a></td><td><a href="/teams/CBJ.html">CBJ</a></td><td>1st Period</td><td>4:37</td><td><a href="/teams/CBJ.html">CBJ</a></td><td>--</td><td><a href="/players/Dmitri Voronkov.html">Dmitri Voronkov</a></td><td><a href="/players/Cole Sillinger.html">Cole Sillinger</a></td><td><a href="/players/Kent Johnson.html">Kent Johnson</a></td></tr>
-<tr><td><a href="/teams/DAL.html">DAL</a></td><td><a href="/teams/CBJ.html">CBJ</a></td><td>1st Period</td><td>13:41</td><td><a href="/teams/CBJ.html">CBJ</a></td><td>--</td><td><a href="/players/Damon Severson.html">Damon Severson</a></td><td><a href="/players/Adam Fantilli.html">Adam Fantilli</a></td><td><a href="/players/Zach Werenski.html">Zach Werenski</a></td></tr>
-<tr><td><a href="/teams/DAL.html">DAL</a></td><td><a href="/teams/CBJ.html">CBJ</a></td><td>2nd Period</td><td>2nd Period</td><td><a href="/teams/2nd Period.html">2nd Period</a></td><td>2nd Period</td><td><a href="/players/2nd Period.html">2nd Period</a></td><td><a href="/players/2nd Period.html">2nd Period</a></td><td><a href="/players/2nd Period.html">2nd Period</a></td></tr>
-<tr><td><a href="/teams/DAL.html">DAL</a></td><td><a href="/teams/CBJ.html">CBJ</a></td><td>2nd Period</td><td>5:52</td><td><a href="/teams/DAL.html">DAL</a></td><td>--</td><td><a href="/players/Roope Hintz.html">Roope Hintz</a></td><td><a href="/players/Jason Robertson.html">Jason Robertson</a></td><td><a href="/players/Nils Lundkvist.html">Nils Lundkvist</a></td></tr>
-<tr><td><a href="/teams/DAL.html">DAL</a></td><td><a href="/teams/CBJ.html">CBJ</a></td><td>3rd Period</td><td>3rd Period</td><td><a href="/teams/3rd Period.html">3rd Period</a></td><td>3rd Period</td><td><a href="/players/3rd Period.html">3rd Period</a></td><td><a href="/players/3rd Period.html">3rd Period</a></td><td><a href="/players/3rd Period.html">3rd Period</a></td></tr>
-<tr><td><a href="/teams/DAL.html">DAL</a></td><td><a href="/teams/CBJ.html">CBJ</a></td><td>3rd Period</td><td>2:49</td><td><a href="/teams/DAL.html">DAL</a></td><td>--</td><td><a href="/players/Matt Duchene.html">Matt Duchene</a></td><td><a href="/players/Ryan Suter.html">Ryan Suter</a></td><td><a href="/players/Mason Marchment.html">Mason Marchment</a></td></tr>
-<tr><td><a href="/teams/DAL.html">DAL</a></td><td><a href="/teams/CBJ.html">CBJ</a></td><td>3rd Period</td><td>12:39</td><td><a href="/teams/DAL.html">DAL</a></td><td>--</td><td><a href="/players/Evgenii Dadonov.html">Evgenii Dadonov</a></td><td><a href="/players/Wyatt Johnston.html">Wyatt Johnston</a></td><td><a href="/players/Jamie Benn.html">Jamie Benn</a></td></tr>
-<tr><td><a href="/teams/DAL.html">DAL</a></td><td><a href="/teams/CBJ.html">CBJ</a></td><td>3rd Period</td><td>16:21</td><td><a href="/teams/DAL.html">DAL</a></td><td>EN</td><td><a href="/players/Wyatt Johnston.html">Wyatt Johnston</a></td><td><a href="/players/Evgenii Dadonov.html">Evgenii Dadonov</a></td><td><a href="/players/Jamie Benn.html">Jamie Benn</a></td></tr>
-<tr><td><a href="/teams/DAL.html">DAL</a></td><td><a href="/teams/CBJ.html">CBJ</a></td><td>3rd Period</td><td>17:10</td><td><a href="/teams/CBJ.html">CBJ</a></td><td>--</td><td><a href="/players/Sean Kuraly.html">Sean Kuraly</a></td><td><a href="/players/Ivan Provorov.html">Ivan Provorov</a></td><td><a href="/players/Mathieu Olivier.html">Mathieu Olivier</a></td></tr>
-
-                </tbody>
-            </table>
-
-            <h2>Penalties</h2>
-            <table id="202310300DAL_penalties" border="1">
-                <thead>
-                    <tr>
-                        <th>Home Team</th><th>Away Team</th><th>Period</th><th>Time</th><th>Team</th><th>Player</th>
-                        <th>Penalty</th><th>PIM</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr><td><a href="/teams/DAL.html">DAL</a></td><td><a href="/teams/CBJ.html">CBJ</a></td><td>1st Period</td><td>1st Period</td><td><a href="/teams/1st Period.html">1st Period</a></td><td><a href="/players/1st Period.html">1st Period</a></td><td>1st Period</td><td>1st Period</td></tr>
-<tr><td><a href="/teams/DAL.html">DAL</a></td><td><a href="/teams/CBJ.html">CBJ</a></td><td>1st Period</td><td>1:46</td><td><a href="/teams/DAL.html">DAL</a></td><td><a href="/players/Nils Lundkvist.html">Nils Lundkvist</a></td><td>Tripping</td><td>2 min</td></tr>
-<tr><td><a href="/teams/DAL.html">DAL</a></td><td><a href="/teams/CBJ.html">CBJ</a></td><td>1st Period</td><td>8:16</td><td><a href="/teams/CBJ.html">CBJ</a></td><td><a href="/players/Sean Kuraly.html">Sean Kuraly</a></td><td>High Sticking</td><td>2 min</td></tr>
-<tr><td><a href="/teams/DAL.html">DAL</a></td><td><a href="/teams/CBJ.html">CBJ</a></td><td>1st Period</td><td>13:08</td><td><a href="/teams/CBJ.html">CBJ</a></td><td><a href="/players/Cole Sillinger.html">Cole Sillinger</a></td><td>Delay of Game</td><td>2 min</td></tr>
-<tr><td><a href="/teams/DAL.html">DAL</a></td><td><a href="/teams/CBJ.html">CBJ</a></td><td>1st Period</td><td>13:27</td><td><a href="/teams/DAL.html">DAL</a></td><td><a href="/players/Matt Duchene.html">Matt Duchene</a></td><td>Holding Stick</td><td>2 min</td></tr>
-<tr><td><a href="/teams/DAL.html">DAL</a></td><td><a href="/teams/CBJ.html">CBJ</a></td><td>2nd Period</td><td>2nd Period</td><td><a href="/teams/2nd Period.html">2nd Period</a></td><td><a href="/players/2nd Period.html">2nd Period</a></td><td>2nd Period</td><td>2nd Period</td></tr>
-<tr><td><a href="/teams/DAL.html">DAL</a></td><td><a href="/teams/CBJ.html">CBJ</a></td><td>2nd Period</td><td>12:34</td><td><a href="/teams/DAL.html">DAL</a></td><td><a href="/players/Jason Robertson.html">Jason Robertson</a></td><td>Cross Checking</td><td>2 min</td></tr>
-<tr><td><a href="/teams/DAL.html">DAL</a></td><td><a href="/teams/CBJ.html">CBJ</a></td><td>3rd Period</td><td>3rd Period</td><td><a href="/teams/3rd Period.html">3rd Period</a></td><td><a href="/players/3rd Period.html">3rd Period</a></td><td>3rd Period</td><td>3rd Period</td></tr>
-<tr><td><a href="/teams/DAL.html">DAL</a></td><td><a href="/teams/CBJ.html">CBJ</a></td><td>3rd Period</td><td>9:10</td><td><a href="/teams/CBJ.html">CBJ</a></td><td><a href="/players/Cole Sillinger.html">Cole Sillinger</a></td><td>High Sticking</td><td>2 min</td></tr>
-
-                </tbody>
-            </table>
-        </main>
-    </body>
-    </html>
-    
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Columbus Blue Jackets at Dallas Stars: October 30, 2023</title>
+<link rel="stylesheet" href="/assets/styles.css">
+<script src="/assets/searchBar.js"></script>
+<script src="/assets/tableSort.js"></script>
+</head>
+<body>
+<nav id="navbar">
+<ul>
+<li><a href="/">Home</a></li>
+<li><a href="/players/">Players</a></li>
+<li><a href="/teams/">Teams</a></li>
+<li><a href="/probabilities/">Probabilities</a></li>
+<li><a href="/boxscores/">Boxscores</a></li>
+<li><a href="/versus/">Head to Head Stats</a></li>
+<li><a href="/leaders/">Leaders</a></li>
+<li><a href="/seasons/2025/schedule.html">Schedule and Results</a></li>
+<li><a href="/seasons/2025/standings.html">Current Standings</a></li>
+<li><a href="/seasons/2025/rosters.html">Team Rosters</a></li>
+<li>
+<input type="text" id="searchBar" placeholder="Search for players or teams..." oninput="performSearch()" autocomplete="off">
+<div id="searchResults" class="dropdown"></div>
+<button id="searchButton" onclick="handleSearch()">Search</button>
+</li>
+</ul>
+</nav>
+<main id="content">
+<div class="scorebox">
+<div class="team"><div><a href="/teams/CBJ.html">CBJ</a></div><div class="score">3</div></div>
+<div class="team"><div><a href="/teams/DAL.html">DAL</a></div><div class="score">5</div></div>
+<div class="date">October 30, 2023</div>
+</div>
+<table id="CBJ_skaters">
+<tr><th>Team</th><th>Player</th><th>G</th><th>A</th><th>PTS</th><th>SOG</th><th>HIT</th><th>BLK</th><th>TOI</th><th>PIM</th><th>SAT-F</th><th>SAT-A</th><th>CF%</th><th>CRel%</th></tr>
+<tr><td><a href="/teams/CBJ.html">CBJ</a></td><td><a href="/players/fantiad01.html">Adam Fantilli</a></td><td>0</td><td>1</td><td>1</td><td>2</td><td>2</td><td>0</td><td>15.53</td><td>0</td><td>16</td><td>16</td><td>50.00%</td><td>8.40%</td></tr>
+<tr><td><a href="/teams/CBJ.html">CBJ</a></td><td><a href="/players/texieal01.html">Alexandre Texier</a></td><td>0</td><td>0</td><td>0</td><td>1</td><td>1</td><td>0</td><td>12.83</td><td>0</td><td>10</td><td>24</td><td>29.40%</td><td>-19.10%</td></tr>
+<tr><td><a href="/teams/CBJ.html">CBJ</a></td><td><a href="/players/jennebo01.html">Boone Jenner</a></td><td>0</td><td>0</td><td>0</td><td>4</td><td>1</td><td>0</td><td>19.17</td><td>0</td><td>20</td><td>26</td><td>43.50%</td><td>-0.20%</td></tr>
+<tr><td><a href="/teams/CBJ.html">CBJ</a></td><td><a href="/players/sillico01.html">Cole Sillinger</a></td><td>0</td><td>1</td><td>1</td><td>3</td><td>1</td><td>0</td><td>13.27</td><td>4</td><td>13</td><td>12</td><td>52.00%</td><td>10.30%</td></tr>
+<tr><td><a href="/teams/CBJ.html">CBJ</a></td><td><a href="/players/severda01.html">Damon Severson</a></td><td>1</td><td>0</td><td>1</td><td>1</td><td>0</td><td>4</td><td>21.77</td><td>0</td><td>24</td><td>35</td><td>40.70%</td><td>-5.20%</td></tr>
+<tr><td><a href="/teams/CBJ.html">CBJ</a></td><td><a href="/players/jiricda01.html">David Jiříček</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>1</td><td>15.2</td><td>0</td><td>16</td><td>14</td><td>53.30%</td><td>12.50%</td></tr>
+<tr><td><a href="/teams/CBJ.html">CBJ</a></td><td><a href="/players/vorondi01.html">Dmitri Voronkov</a></td><td>1</td><td>0</td><td>1</td><td>1</td><td>0</td><td>0</td><td>13.97</td><td>0</td><td>17</td><td>14</td><td>54.80%</td><td>14.60%</td></tr>
+<tr><td><a href="/teams/CBJ.html">CBJ</a></td><td><a href="/players/bemstem01.html">Emil Bemström</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>1</td><td>15.22</td><td>0</td><td>16</td><td>16</td><td>50.00%</td><td>8.40%</td></tr>
+<tr><td><a href="/teams/CBJ.html">CBJ</a></td><td><a href="/players/gudbrer01.html">Erik Gudbranson</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>3</td><td>19.27</td><td>0</td><td>13</td><td>21</td><td>38.20%</td><td>-7.30%</td></tr>
+<tr><td><a href="/teams/CBJ.html">CBJ</a></td><td><a href="/players/provoiv01.html">Ivan Provorov</a></td><td>0</td><td>1</td><td>1</td><td>2</td><td>0</td><td>2</td><td>22.97</td><td>0</td><td>21</td><td>27</td><td>43.80%</td><td>0.30%</td></tr>
+<tr><td><a href="/teams/CBJ.html">CBJ</a></td><td><a href="/players/rosloja01.html">Jack Roslovic</a></td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>1</td><td>20.28</td><td>0</td><td>22</td><td>27</td><td>44.90%</td><td>2.00%</td></tr>
+<tr><td><a href="/teams/CBJ.html">CBJ</a></td><td><a href="/players/beanja01.html">Jake Bean</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>2</td><td>15.33</td><td>0</td><td>12</td><td>12</td><td>50.00%</td><td>7.80%</td></tr>
+<tr><td><a href="/teams/CBJ.html">CBJ</a></td><td><a href="/players/gaudrjo01.html">Johnny Gaudreau</a></td><td>0</td><td>0</td><td>0</td><td>2</td><td>0</td><td>0</td><td>19.18</td><td>0</td><td>19</td><td>18</td><td>51.40%</td><td>10.80%</td></tr>
+<tr><td><a href="/teams/CBJ.html">CBJ</a></td><td><a href="/players/danfoju01.html">Justin Danforth</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>11.42</td><td>0</td><td>8</td><td>15</td><td>34.80%</td><td>-10.70%</td></tr>
+<tr><td><a href="/teams/CBJ.html">CBJ</a></td><td><a href="/players/johnske01.html">Kent Johnson</a></td><td>0</td><td>1</td><td>1</td><td>1</td><td>0</td><td>0</td><td>14.52</td><td>0</td><td>17</td><td>12</td><td>58.60%</td><td>19.20%</td></tr>
+<tr><td><a href="/teams/CBJ.html">CBJ</a></td><td><a href="/players/olivima01.html">Mathieu Olivier</a></td><td>0</td><td>1</td><td>1</td><td>0</td><td>6</td><td>0</td><td>12.0</td><td>0</td><td>9</td><td>15</td><td>37.50%</td><td>-7.50%</td></tr>
+<tr><td><a href="/teams/CBJ.html">CBJ</a></td><td><a href="/players/kuralse01.html">Sean Kuraly</a></td><td>1</td><td>0</td><td>1</td><td>4</td><td>3</td><td>0</td><td>13.18</td><td>2</td><td>10</td><td>22</td><td>31.20%</td><td>-16.30%</td></tr>
+<tr><td><a href="/teams/CBJ.html">CBJ</a></td><td><a href="/players/werenza01.html">Zach Werenski</a></td><td>0</td><td>1</td><td>1</td><td>3</td><td>1</td><td>1</td><td>21.68</td><td>0</td><td>28</td><td>38</td><td>42.40%</td><td>-2.40%</td></tr>
+</table>
+<table id="DAL_skaters">
+<tr><th>Team</th><th>Player</th><th>G</th><th>A</th><th>PTS</th><th>SOG</th><th>HIT</th><th>BLK</th><th>TOI</th><th>PIM</th><th>SAT-F</th><th>SAT-A</th><th>CF%</th><th>CRel%</th></tr>
+<tr><td><a href="/teams/DAL.html">DAL</a></td><td><a href="/players/smithcr01.html">Craig Smith</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>11.57</td><td>0</td><td>14</td><td>9</td><td>60.90%</td><td>5.40%</td></tr>
+<tr><td><a href="/teams/DAL.html">DAL</a></td><td><a href="/players/lindees01.html">Esa Lindell</a></td><td>0</td><td>0</td><td>0</td><td>3</td><td>3</td><td>1</td><td>20.53</td><td>0</td><td>19</td><td>16</td><td>54.30%</td><td>-2.80%</td></tr>
+<tr><td><a href="/teams/DAL.html">DAL</a></td><td><a href="/players/dadonev01.html">Evgenii Dadonov</a></td><td>1</td><td>1</td><td>2</td><td>2</td><td>1</td><td>1</td><td>11.53</td><td>0</td><td>15</td><td>11</td><td>57.70%</td><td>1.60%</td></tr>
+<tr><td><a href="/teams/DAL.html">DAL</a></td><td><a href="/players/bennja01.html">Jamie Benn</a></td><td>0</td><td>2</td><td>2</td><td>1</td><td>0</td><td>0</td><td>15.02</td><td>0</td><td>20</td><td>13</td><td>60.60%</td><td>5.60%</td></tr>
+<tr><td><a href="/teams/DAL.html">DAL</a></td><td><a href="/players/hakanja01.html">Jani Hakanpää</a></td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>4</td><td>19.12</td><td>0</td><td>12</td><td>28</td><td>30.00%</td><td>-37.70%</td></tr>
+<tr><td><a href="/teams/DAL.html">DAL</a></td><td><a href="/players/roberja01.html">Jason Robertson</a></td><td>0</td><td>2</td><td>2</td><td>2</td><td>0</td><td>0</td><td>17.05</td><td>2</td><td>19</td><td>16</td><td>54.30%</td><td>-2.80%</td></tr>
+<tr><td><a href="/teams/DAL.html">DAL</a></td><td><a href="/players/paveljo01.html">Joe Pavelski</a></td><td>0</td><td>0</td><td>0</td><td>3</td><td>0</td><td>1</td><td>17.83</td><td>0</td><td>19</td><td>14</td><td>57.60%</td><td>1.60%</td></tr>
+<tr><td><a href="/teams/DAL.html">DAL</a></td><td><a href="/players/marchma01.html">Mason Marchment</a></td><td>0</td><td>1</td><td>1</td><td>2</td><td>0</td><td>0</td><td>16.07</td><td>0</td><td>29</td><td>21</td><td>58.00%</td><td>2.60%</td></tr>
+<tr><td><a href="/teams/DAL.html">DAL</a></td><td><a href="/players/duchema01.html">Matt Duchene</a></td><td>1</td><td>0</td><td>1</td><td>4</td><td>0</td><td>0</td><td>14.45</td><td>2</td><td>30</td><td>18</td><td>62.50%</td><td>9.60%</td></tr>
+<tr><td><a href="/teams/DAL.html">DAL</a></td><td><a href="/players/heiskmi01.html">Miro Heiskanen</a></td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>24.05</td><td>0</td><td>42</td><td>19</td><td>68.90%</td><td>23.10%</td></tr>
+<tr><td><a href="/teams/DAL.html">DAL</a></td><td><a href="/players/lundkni01.html">Nils Lundkvist</a></td><td>0</td><td>1</td><td>1</td><td>1</td><td>1</td><td>0</td><td>14.35</td><td>2</td><td>18</td><td>10</td><td>64.30%</td><td>10.00%</td></tr>
+<tr><td><a href="/teams/DAL.html">DAL</a></td><td><a href="/players/faksara01.html">Radek Faksa</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>12.85</td><td>0</td><td>15</td><td>9</td><td>62.50%</td><td>7.50%</td></tr>
+<tr><td><a href="/teams/DAL.html">DAL</a></td><td><a href="/players/hintzro01.html">Roope Hintz</a></td><td>1</td><td>1</td><td>2</td><td>1</td><td>1</td><td>1</td><td>17.25</td><td>0</td><td>17</td><td>16</td><td>51.50%</td><td>-6.50%</td></tr>
+<tr><td><a href="/teams/DAL.html">DAL</a></td><td><a href="/players/suterry01.html">Ryan Suter</a></td><td>0</td><td>1</td><td>1</td><td>2</td><td>2</td><td>3</td><td>18.95</td><td>0</td><td>23</td><td>16</td><td>59.00%</td><td>3.70%</td></tr>
+<tr><td><a href="/teams/DAL.html">DAL</a></td><td><a href="/players/harleth01.html">Thomas Harley</a></td><td>1</td><td>0</td><td>1</td><td>2</td><td>0</td><td>3</td><td>19.42</td><td>0</td><td>26</td><td>25</td><td>51.00%</td><td>-8.80%</td></tr>
+<tr><td><a href="/teams/DAL.html">DAL</a></td><td><a href="/players/dellaty01.html">Ty Dellandrea</a></td><td>0</td><td>0</td><td>0</td><td>1</td><td>2</td><td>0</td><td>13.9</td><td>0</td><td>12</td><td>11</td><td>52.20%</td><td>-5.10%</td></tr>
+<tr><td><a href="/teams/DAL.html">DAL</a></td><td><a href="/players/seguity01.html">Tyler Seguin</a></td><td>0</td><td>0</td><td>0</td><td>5</td><td>0</td><td>1</td><td>14.98</td><td>0</td><td>26</td><td>18</td><td>59.10%</td><td>4.00%</td></tr>
+<tr><td><a href="/teams/DAL.html">DAL</a></td><td><a href="/players/johnswy01.html">Wyatt Johnston</a></td><td>1</td><td>1</td><td>2</td><td>2</td><td>1</td><td>1</td><td>15.52</td><td>0</td><td>18</td><td>14</td><td>56.20%</td><td>-0.20%</td></tr>
+</table>
+<table id="CBJ_goalies">
+<tr><th>Team</th><th>Goalie</th><th>DEC</th><th>GA</th><th>SA</th><th>SV</th><th>SV%</th><th>SO</th><th>PIM</th><th>TOI</th></tr>
+<tr><td><a href="/teams/CBJ.html">CBJ</a></td><td><a href="/players/merzlel01.html">Elvis Merzļikins</a></td><td>L</td><td>4</td><td>32</td><td>28</td><td>87.50%</td><td>0</td><td>0</td><td>57.22</td></tr>
+<tr><td><a href="/teams/CBJ.html">CBJ</a></td><td><a href="/players/nan.html">Empty Net</a></td><td>--</td><td>1</td><td>1</td><td>0</td><td>0.00%</td><td>0</td><td>0</td><td>0.0</td></tr>
+</table>
+<table id="DAL_goalies">
+<tr><th>Team</th><th>Goalie</th><th>DEC</th><th>GA</th><th>SA</th><th>SV</th><th>SV%</th><th>SO</th><th>PIM</th><th>TOI</th></tr>
+<tr><td><a href="/teams/DAL.html">DAL</a></td><td><a href="/players/oettija01.html">Jake Oettinger</a></td><td>W</td><td>3</td><td>25</td><td>22</td><td>88.00%</td><td>0</td><td>0</td><td>59.57</td></tr>
+</table>
+<table id="scoring">
+<tr><th>Team</th><th>Time</th><th>Info</th><th>Scorer</th><th>Assist 1</th><th>Assist 2</th></tr>
+<tr><td><a href="/teams/DAL.html">DAL</a></td><td>0.45</td><td>--</td><td><a href="/players/harleth01.html">Thomas Harley</a></td><td><a href="/players/roberja01.html">Jason Robertson</a></td><td><a href="/players/hintzro01.html">Roope Hintz</a></td></tr>
+<tr><td><a href="/teams/CBJ.html">CBJ</a></td><td>4.62</td><td>--</td><td><a href="/players/vorondi01.html">Dmitri Voronkov</a></td><td><a href="/players/sillico01.html">Cole Sillinger</a></td><td><a href="/players/johnske01.html">Kent Johnson</a></td></tr>
+<tr><td><a href="/teams/CBJ.html">CBJ</a></td><td>13.68</td><td>--</td><td><a href="/players/severda01.html">Damon Severson</a></td><td><a href="/players/fantiad01.html">Adam Fantilli</a></td><td><a href="/players/werenza01.html">Zach Werenski</a></td></tr>
+<tr><td><a href="/teams/DAL.html">DAL</a></td><td>25.87</td><td>--</td><td><a href="/players/hintzro01.html">Roope Hintz</a></td><td><a href="/players/roberja01.html">Jason Robertson</a></td><td><a href="/players/lundkni01.html">Nils Lundkvist</a></td></tr>
+<tr><td><a href="/teams/DAL.html">DAL</a></td><td>42.82</td><td>--</td><td><a href="/players/duchema01.html">Matt Duchene</a></td><td><a href="/players/suterry01.html">Ryan Suter</a></td><td><a href="/players/marchma01.html">Mason Marchment</a></td></tr>
+<tr><td><a href="/teams/DAL.html">DAL</a></td><td>52.65</td><td>--</td><td><a href="/players/dadonev01.html">Evgenii Dadonov</a></td><td><a href="/players/johnswy01.html">Wyatt Johnston</a></td><td><a href="/players/bennja01.html">Jamie Benn</a></td></tr>
+<tr><td><a href="/teams/DAL.html">DAL</a></td><td>56.35</td><td>EN</td><td><a href="/players/johnswy01.html">Wyatt Johnston</a></td><td><a href="/players/dadonev01.html">Evgenii Dadonov</a></td><td><a href="/players/bennja01.html">Jamie Benn</a></td></tr>
+<tr><td><a href="/teams/CBJ.html">CBJ</a></td><td>57.17</td><td>--</td><td><a href="/players/kuralse01.html">Sean Kuraly</a></td><td><a href="/players/provoiv01.html">Ivan Provorov</a></td><td><a href="/players/olivima01.html">Mathieu Olivier</a></td></tr>
+</table>
+<table id="penalties">
+<tr><th>Team</th><th>Time</th><th>Player</th><th>Penalty</th><th>PIM</th></tr>
+<tr><td><a href="/teams/DAL.html">DAL</a></td><td>1.77</td><td><a href="/players/lundkni01.html">Nils Lundkvist</a></td><td>Tripping</td><td>2 min</td></tr>
+<tr><td><a href="/teams/CBJ.html">CBJ</a></td><td>8.27</td><td><a href="/players/kuralse01.html">Sean Kuraly</a></td><td>High Sticking</td><td>2 min</td></tr>
+<tr><td><a href="/teams/CBJ.html">CBJ</a></td><td>13.13</td><td><a href="/players/sillico01.html">Cole Sillinger</a></td><td>Delay of Game</td><td>2 min</td></tr>
+<tr><td><a href="/teams/DAL.html">DAL</a></td><td>13.45</td><td><a href="/players/duchema01.html">Matt Duchene</a></td><td>Holding Stick</td><td>2 min</td></tr>
+<tr><td><a href="/teams/DAL.html">DAL</a></td><td>32.57</td><td><a href="/players/roberja01.html">Jason Robertson</a></td><td>Cross Checking</td><td>2 min</td></tr>
+<tr><td><a href="/teams/CBJ.html">CBJ</a></td><td>49.17</td><td><a href="/players/sillico01.html">Cole Sillinger</a></td><td>High Sticking</td><td>2 min</td></tr>
+</table>
+</main>
+</body>
+</html>

@@ -1,150 +1,107 @@
-
-    <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Game 202311090BOS Boxscore</title>
-        <link rel="stylesheet" href="/assets/styles.css">
-        <script src="/assets/searchBar.js" defer></script>
-        <script src="/assets/tableSort.js"></script>
-        <style>
-            tr:hover {background-color: #F0FFF0;}
-        </style>
-    </head>
-    <body>
-        <nav id="navbar">
-            <a href="/">Home</a>
-            <a href="/players/">Players</a>
-            <a href="/teams/">Teams</a>
-            <a href="/leaders/">Leaders</a>
-            <a href="/probabilities/">Probabilities</a>
-            <a href="/boxscores/">Boxscores</a>
-            <a href="/schedule/">Schedule</a>
-
-            <div class="search-container">
-                <input type="text" id="searchInput" placeholder="Search players or teams..." oninput="searchEntities()" />
-                <ul id="suggestions"></ul>
-            </div>
-        </nav>
-
-        <main id="content">
-            <h1>Game 202311090BOS Boxscore</h1>
-
-            <h2>Skaters</h2>
-            <table id="202311090BOS_skaters" border="1">
-                <thead>
-                    <tr>
-                        <th>Date</th><th>Home Team</th><th>Away Team</th><th>Player</th><th>Team</th><th>G</th><th>A</th><th>PTS</th>
-                        <th>+/-</th><th>PIM</th><th>EVG</th><th>PPG</th><th>SHG</th><th>GWG</th><th>EV Assist</th><th>PP Assist</th>
-                        <th>SH Assist</th><th>SOG</th><th>S%</th><th>SHFT</th><th>TOI</th><th>iCF</th><th>SAT‑F</th><th>SAT‑A</th>
-                        <th>CF%</th><th>CRel%</th><th>ZSO</th><th>ZSD</th><th>oZS%</th><th>HIT</th><th>BLK</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr><td><a href="/boxscores/202311090BOS.html">11/9/2023</a></td><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/teams/NYI.html">NYI</a></td><td><a href="/players/Sebastian Aho (NYI).html">Sebastian Aho (NYI)</a></td><td><a href="/teams/NYI.html">NYI</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>2</td><td>0</td><td>24</td><td>18.52</td><td>7</td><td>21</td><td>16</td><td>56.8</td><td>8.6</td><td>10</td><td>3</td><td>76.9</td><td>0</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202311090BOS.html">11/9/2023</a></td><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/teams/NYI.html">NYI</a></td><td><a href="/players/Mathew Barzal.html">Mathew Barzal</a></td><td><a href="/teams/NYI.html">NYI</a></td><td>0</td><td>1</td><td>1</td><td>-1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>2</td><td>0</td><td>22</td><td>19.2</td><td>4</td><td>22</td><td>15</td><td>59.5</td><td>12.4</td><td>9</td><td>4</td><td>69.2</td><td>0</td><td>1</td></tr>
-<tr><td><a href="/boxscores/202311090BOS.html">11/9/2023</a></td><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/teams/NYI.html">NYI</a></td><td><a href="/players/Samuel Bolduc.html">Samuel Bolduc</a></td><td><a href="/teams/NYI.html">NYI</a></td><td>0</td><td>0</td><td>0</td><td>-2</td><td>2</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>2</td><td>0</td><td>24</td><td>14.42</td><td>5</td><td>14</td><td>13</td><td>51.9</td><td>1.4</td><td>1</td><td>6</td><td>14.3</td><td>1</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202311090BOS.html">11/9/2023</a></td><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/teams/NYI.html">NYI</a></td><td><a href="/players/Casey Cizikas.html">Casey Cizikas</a></td><td><a href="/teams/NYI.html">NYI</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>22</td><td>11.87</td><td>2</td><td>11</td><td>13</td><td>45.8</td><td>-6.2</td><td>0</td><td>9</td><td>0</td><td>1</td><td>1</td></tr>
-<tr><td><a href="/boxscores/202311090BOS.html">11/9/2023</a></td><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/teams/NYI.html">NYI</a></td><td><a href="/players/Cal Clutterbuck.html">Cal Clutterbuck</a></td><td><a href="/teams/NYI.html">NYI</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>20</td><td>10.37</td><td>1</td><td>9</td><td>11</td><td>45</td><td>-7</td><td>0</td><td>8</td><td>0</td><td>7</td><td>1</td></tr>
-<tr><td><a href="/boxscores/202311090BOS.html">11/9/2023</a></td><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/teams/NYI.html">NYI</a></td><td><a href="/players/Noah Dobson.html">Noah Dobson</a></td><td><a href="/teams/NYI.html">NYI</a></td><td>0</td><td>1</td><td>1</td><td>-1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>3</td><td>0</td><td>25</td><td>21.37</td><td>4</td><td>28</td><td>18</td><td>60.9</td><td>16.2</td><td>11</td><td>6</td><td>64.7</td><td>1</td><td>1</td></tr>
-<tr><td><a href="/boxscores/202311090BOS.html">11/9/2023</a></td><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/teams/NYI.html">NYI</a></td><td><a href="/players/Hudson Fasching.html">Hudson Fasching</a></td><td><a href="/teams/NYI.html">NYI</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>20</td><td>13.95</td><td>1</td><td>9</td><td>8</td><td>52.9</td><td>2.4</td><td>2</td><td>3</td><td>40</td><td>0</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202311090BOS.html">11/9/2023</a></td><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/teams/NYI.html">NYI</a></td><td><a href="/players/Simon Holmström.html">Simon Holmström</a></td><td><a href="/teams/NYI.html">NYI</a></td><td>1</td><td>0</td><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>2</td><td>50</td><td>23</td><td>14.28</td><td>3</td><td>11</td><td>10</td><td>52.4</td><td>1.9</td><td>2</td><td>7</td><td>22.2</td><td>0</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202311090BOS.html">11/9/2023</a></td><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/teams/NYI.html">NYI</a></td><td><a href="/players/Bo Horvat.html">Bo Horvat</a></td><td><a href="/teams/NYI.html">NYI</a></td><td>0</td><td>0</td><td>0</td><td>-1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>2</td><td>0</td><td>22</td><td>18.37</td><td>4</td><td>21</td><td>13</td><td>61.8</td><td>15.2</td><td>9</td><td>4</td><td>69.2</td><td>0</td><td>1</td></tr>
-<tr><td><a href="/boxscores/202311090BOS.html">11/9/2023</a></td><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/teams/NYI.html">NYI</a></td><td><a href="/players/Anders Lee.html">Anders Lee</a></td><td><a href="/teams/NYI.html">NYI</a></td><td>0</td><td>0</td><td>0</td><td>-3</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>2</td><td>0</td><td>19</td><td>14.83</td><td>4</td><td>20</td><td>21</td><td>48.8</td><td>-3.1</td><td>6</td><td>1</td><td>85.7</td><td>2</td><td>1</td></tr>
-<tr><td><a href="/boxscores/202311090BOS.html">11/9/2023</a></td><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/teams/NYI.html">NYI</a></td><td><a href="/players/Matt Martin.html">Matt Martin</a></td><td><a href="/teams/NYI.html">NYI</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>16</td><td>10.3</td><td>0</td><td>10</td><td>7</td><td>58.8</td><td>9.3</td><td>0</td><td>5</td><td>0</td><td>5</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202311090BOS.html">11/9/2023</a></td><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/teams/NYI.html">NYI</a></td><td><a href="/players/Scott Mayfield.html">Scott Mayfield</a></td><td><a href="/teams/NYI.html">NYI</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>3</td><td>0</td><td>26</td><td>19.32</td><td>6</td><td>17</td><td>23</td><td>42.5</td><td>-12.4</td><td>2</td><td>9</td><td>18.2</td><td>2</td><td>1</td></tr>
-<tr><td><a href="/boxscores/202311090BOS.html">11/9/2023</a></td><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/teams/NYI.html">NYI</a></td><td><a href="/players/Brock Nelson.html">Brock Nelson</a></td><td><a href="/teams/NYI.html">NYI</a></td><td>1</td><td>0</td><td>1</td><td>-3</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>100</td><td>20</td><td>18.02</td><td>3</td><td>25</td><td>25</td><td>50</td><td>-1.4</td><td>7</td><td>3</td><td>70</td><td>0</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202311090BOS.html">11/9/2023</a></td><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/teams/NYI.html">NYI</a></td><td><a href="/players/Jean-Gabriel Pageau.html">Jean-Gabriel Pageau</a></td><td><a href="/teams/NYI.html">NYI</a></td><td>0</td><td>1</td><td>1</td><td>1</td><td>2</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>1</td><td>0</td><td>25</td><td>14.88</td><td>1</td><td>12</td><td>11</td><td>52.2</td><td>1.7</td><td>2</td><td>7</td><td>22.2</td><td>3</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202311090BOS.html">11/9/2023</a></td><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/teams/NYI.html">NYI</a></td><td><a href="/players/Kyle Palmieri.html">Kyle Palmieri</a></td><td><a href="/teams/NYI.html">NYI</a></td><td>0</td><td>0</td><td>0</td><td>-3</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>20</td><td>18.47</td><td>3</td><td>27</td><td>26</td><td>50.9</td><td>0.2</td><td>7</td><td>3</td><td>70</td><td>1</td><td>3</td></tr>
-<tr><td><a href="/boxscores/202311090BOS.html">11/9/2023</a></td><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/teams/NYI.html">NYI</a></td><td><a href="/players/Ryan Pulock.html">Ryan Pulock</a></td><td><a href="/teams/NYI.html">NYI</a></td><td>0</td><td>0</td><td>0</td><td>-1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>31</td><td>20.48</td><td>4</td><td>18</td><td>21</td><td>46.2</td><td>-6.8</td><td>3</td><td>6</td><td>33.3</td><td>0</td><td>2</td></tr>
-<tr><td><a href="/boxscores/202311090BOS.html">11/9/2023</a></td><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/teams/NYI.html">NYI</a></td><td><a href="/players/Alexander Romanov.html">Alexander Romanov</a></td><td><a href="/teams/NYI.html">NYI</a></td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>30</td><td>23.62</td><td>6</td><td>20</td><td>28</td><td>41.7</td><td>-15.1</td><td>3</td><td>9</td><td>25</td><td>3</td><td>3</td></tr>
-<tr><td><a href="/boxscores/202311090BOS.html">11/9/2023</a></td><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/teams/NYI.html">NYI</a></td><td><a href="/players/Oliver Wahlstrom.html">Oliver Wahlstrom</a></td><td><a href="/teams/NYI.html">NYI</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>2</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>3</td><td>0</td><td>20</td><td>14.9</td><td>4</td><td>14</td><td>11</td><td>56</td><td>6.5</td><td>7</td><td>3</td><td>70</td><td>2</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202311090BOS.html">11/9/2023</a></td><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/teams/NYI.html">NYI</a></td><td><a href="/players/Ilya Sorokin.html">Ilya Sorokin</a></td><td><a href="/teams/NYI.html">NYI</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>4</td><td>58.85</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202311090BOS.html">11/9/2023</a></td><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/teams/NYI.html">NYI</a></td><td><a href="/players/--.html">--</a></td><td><a href="/teams/--.html">--</a></td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td></tr>
-<tr><td><a href="/boxscores/202311090BOS.html">11/9/2023</a></td><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/teams/NYI.html">NYI</a></td><td><a href="/players/John Beecher.html">John Beecher</a></td><td><a href="/teams/BOS.html">BOS</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>17</td><td>10.68</td><td>0</td><td>6</td><td>8</td><td>42.9</td><td>-7.1</td><td>1</td><td>2</td><td>33.3</td><td>0</td><td>1</td></tr>
-<tr><td><a href="/boxscores/202311090BOS.html">11/9/2023</a></td><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/teams/NYI.html">NYI</a></td><td><a href="/players/Patrick Brown.html">Patrick Brown</a></td><td><a href="/teams/BOS.html">BOS</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>16</td><td>11.38</td><td>2</td><td>7</td><td>9</td><td>43.8</td><td>-6.2</td><td>1</td><td>1</td><td>50</td><td>6</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202311090BOS.html">11/9/2023</a></td><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/teams/NYI.html">NYI</a></td><td><a href="/players/Brandon Carlo.html">Brandon Carlo</a></td><td><a href="/teams/BOS.html">BOS</a></td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>3</td><td>0</td><td>29</td><td>21.18</td><td>5</td><td>15</td><td>35</td><td>30</td><td>-32.5</td><td>5</td><td>9</td><td>35.7</td><td>1</td><td>4</td></tr>
-<tr><td><a href="/boxscores/202311090BOS.html">11/9/2023</a></td><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/teams/NYI.html">NYI</a></td><td><a href="/players/Charlie Coyle.html">Charlie Coyle</a></td><td><a href="/teams/BOS.html">BOS</a></td><td>3</td><td>1</td><td>4</td><td>3</td><td>0</td><td>2</td><td>1</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>6</td><td>50</td><td>25</td><td>17.3</td><td>8</td><td>23</td><td>25</td><td>47.9</td><td>-2.1</td><td>3</td><td>11</td><td>21.4</td><td>0</td><td>2</td></tr>
-<tr><td><a href="/boxscores/202311090BOS.html">11/9/2023</a></td><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/teams/NYI.html">NYI</a></td><td><a href="/players/Jake DeBrusk.html">Jake DeBrusk</a></td><td><a href="/teams/BOS.html">BOS</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>2</td><td>0</td><td>22</td><td>14.43</td><td>3</td><td>9</td><td>14</td><td>39.1</td><td>-12.4</td><td>6</td><td>2</td><td>75</td><td>2</td><td>2</td></tr>
-<tr><td><a href="/boxscores/202311090BOS.html">11/9/2023</a></td><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/teams/NYI.html">NYI</a></td><td><a href="/players/Derek Forbort.html">Derek Forbort</a></td><td><a href="/teams/BOS.html">BOS</a></td><td>0</td><td>0</td><td>0</td><td>2</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>27</td><td>17.52</td><td>1</td><td>15</td><td>19</td><td>44.1</td><td>-7</td><td>3</td><td>6</td><td>33.3</td><td>1</td><td>1</td></tr>
-<tr><td><a href="/boxscores/202311090BOS.html">11/9/2023</a></td><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/teams/NYI.html">NYI</a></td><td><a href="/players/Trent Frederic.html">Trent Frederic</a></td><td><a href="/teams/BOS.html">BOS</a></td><td>1</td><td>1</td><td>2</td><td>2</td><td>2</td><td>1</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>2</td><td>50</td><td>20</td><td>13.23</td><td>2</td><td>17</td><td>20</td><td>45.9</td><td>-4.7</td><td>1</td><td>5</td><td>16.7</td><td>4</td><td>2</td></tr>
-<tr><td><a href="/boxscores/202311090BOS.html">11/9/2023</a></td><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/teams/NYI.html">NYI</a></td><td><a href="/players/Danton Heinen.html">Danton Heinen</a></td><td><a href="/teams/BOS.html">BOS</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>22</td><td>13.47</td><td>1</td><td>7</td><td>11</td><td>38.9</td><td>-12.1</td><td>6</td><td>2</td><td>75</td><td>3</td><td>2</td></tr>
-<tr><td><a href="/boxscores/202311090BOS.html">11/9/2023</a></td><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/teams/NYI.html">NYI</a></td><td><a href="/players/Hampus Lindholm.html">Hampus Lindholm</a></td><td><a href="/teams/BOS.html">BOS</a></td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>2</td><td>0</td><td>28</td><td>22.95</td><td>4</td><td>24</td><td>22</td><td>52.2</td><td>4.8</td><td>7</td><td>7</td><td>50</td><td>0</td><td>1</td></tr>
-<tr><td><a href="/boxscores/202311090BOS.html">11/9/2023</a></td><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/teams/NYI.html">NYI</a></td><td><a href="/players/Mason Lohrei.html">Mason Lohrei</a></td><td><a href="/teams/BOS.html">BOS</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>3</td><td>0</td><td>28</td><td>18.48</td><td>5</td><td>15</td><td>19</td><td>44.1</td><td>-7</td><td>6</td><td>3</td><td>66.7</td><td>1</td><td>2</td></tr>
-<tr><td><a href="/boxscores/202311090BOS.html">11/9/2023</a></td><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/teams/NYI.html">NYI</a></td><td><a href="/players/Brad Marchand.html">Brad Marchand</a></td><td><a href="/teams/BOS.html">BOS</a></td><td>0</td><td>2</td><td>2</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>1</td><td>0</td><td>2</td><td>0</td><td>24</td><td>20.15</td><td>6</td><td>28</td><td>18</td><td>60.9</td><td>18.8</td><td>12</td><td>7</td><td>63.2</td><td>2</td><td>1</td></tr>
-<tr><td><a href="/boxscores/202311090BOS.html">11/9/2023</a></td><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/teams/NYI.html">NYI</a></td><td><a href="/players/Ian Mitchell.html">Ian Mitchell</a></td><td><a href="/teams/BOS.html">BOS</a></td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>2</td><td>0</td><td>25</td><td>18.32</td><td>2</td><td>21</td><td>14</td><td>60</td><td>15.2</td><td>6</td><td>5</td><td>54.5</td><td>0</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202311090BOS.html">11/9/2023</a></td><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/teams/NYI.html">NYI</a></td><td><a href="/players/David Pastrňák.html">David Pastrňák</a></td><td><a href="/teams/BOS.html">BOS</a></td><td>1</td><td>2</td><td>3</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>1</td><td>1</td><td>1</td><td>0</td><td>5</td><td>20</td><td>23</td><td>20.12</td><td>10</td><td>25</td><td>17</td><td>59.5</td><td>15.7</td><td>12</td><td>7</td><td>63.2</td><td>0</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202311090BOS.html">11/9/2023</a></td><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/teams/NYI.html">NYI</a></td><td><a href="/players/Matthew Poitras.html">Matthew Poitras</a></td><td><a href="/teams/BOS.html">BOS</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>23</td><td>14.5</td><td>3</td><td>11</td><td>12</td><td>47.8</td><td>-1.7</td><td>6</td><td>1</td><td>85.7</td><td>1</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202311090BOS.html">11/9/2023</a></td><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/teams/NYI.html">NYI</a></td><td><a href="/players/Kevin Shattenkirk.html">Kevin Shattenkirk</a></td><td><a href="/teams/BOS.html">BOS</a></td><td>0</td><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>1</td><td>0</td><td>23</td><td>18.58</td><td>1</td><td>19</td><td>13</td><td>59.4</td><td>13.8</td><td>9</td><td>2</td><td>81.8</td><td>0</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202311090BOS.html">11/9/2023</a></td><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/teams/NYI.html">NYI</a></td><td><a href="/players/Oskar Steen.html">Oskar Steen</a></td><td><a href="/teams/BOS.html">BOS</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>17</td><td>11.83</td><td>2</td><td>9</td><td>8</td><td>52.9</td><td>4.3</td><td>1</td><td>1</td><td>50</td><td>5</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202311090BOS.html">11/9/2023</a></td><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/teams/NYI.html">NYI</a></td><td><a href="/players/James van Riemsdyk.html">James van Riemsdyk</a></td><td><a href="/teams/BOS.html">BOS</a></td><td>0</td><td>2</td><td>2</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>2</td><td>0</td><td>0</td><td>3</td><td>0</td><td>22</td><td>16.08</td><td>4</td><td>25</td><td>22</td><td>53.2</td><td>6.5</td><td>3</td><td>5</td><td>37.5</td><td>0</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202311090BOS.html">11/9/2023</a></td><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/teams/NYI.html">NYI</a></td><td><a href="/players/Pavel Zacha.html">Pavel Zacha</a></td><td><a href="/teams/BOS.html">BOS</a></td><td>0</td><td>1</td><td>1</td><td>-1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>1</td><td>0</td><td>24</td><td>18.68</td><td>1</td><td>24</td><td>19</td><td>55.8</td><td>10.2</td><td>12</td><td>3</td><td>80</td><td>0</td><td>1</td></tr>
-<tr><td><a href="/boxscores/202311090BOS.html">11/9/2023</a></td><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/teams/NYI.html">NYI</a></td><td><a href="/players/Linus Ullmark.html">Linus Ullmark</a></td><td><a href="/teams/BOS.html">BOS</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>3</td><td>60</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202311090BOS.html">11/9/2023</a></td><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/teams/NYI.html">NYI</a></td><td><a href="/players/--.html">--</a></td><td><a href="/teams/--.html">--</a></td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td></tr>
-
-                </tbody>
-            </table>
-
-            <h2>Goalies</h2>
-            <table id="202311090BOS_goalies" border="1">
-                <thead>
-                    <tr>
-                        <th>Home Team</th><th>Away Team</th><th>Goalie</th><th>Team</th><th>DEC</th><th>GA</th><th>SA</th><th>SV</th>
-                        <th>SV%</th><th>SO</th><th>PIM</th><th>Goalie TOI</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/teams/NYI.html">NYI</a></td><td><a href="/players/sorokil01.html">Ilya Sorokin</a></td><td><a href="/teams/NYI.html">NYI</a></td><td>L</td><td>4</td><td>34</td><td>30</td><td>0.882</td><td>0</td><td>0</td><td>58:51:00</td></tr>
-<tr><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/teams/NYI.html">NYI</a></td><td><a href="/players/--.html">Empty Net</a></td><td><a href="/teams/NYI.html">NYI</a></td><td>--</td><td>1</td><td>1</td><td>0</td><td>0.0</td><td>0</td><td>0</td><td>0</td></tr>
-<tr><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/teams/NYI.html">NYI</a></td><td><a href="/players/ullmali01.html">Linus Ullmark</a></td><td><a href="/teams/BOS.html">BOS</a></td><td>W</td><td>2</td><td>29</td><td>27</td><td>0.931</td><td>0</td><td>0</td><td>60:00:00</td></tr>
-
-                </tbody>
-            </table>
-
-            <h2>Scoring</h2>
-            <table id="202311090BOS_scoring" border="1">
-                <thead>
-                    <tr>
-                        <th>Home Team</th><th>Away Team</th><th>Period</th><th>Time</th><th>Team</th><th>Info</th>
-                        <th>Scorer</th><th>Assist1</th><th>Assist2</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/teams/NYI.html">NYI</a></td><td>1st Period</td><td>1st Period</td><td><a href="/teams/1st Period.html">1st Period</a></td><td>1st Period</td><td><a href="/players/1st Period.html">1st Period</a></td><td><a href="/players/1st Period.html">1st Period</a></td><td><a href="/players/1st Period.html">1st Period</a></td></tr>
-<tr><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/teams/NYI.html">NYI</a></td><td>1st Period</td><td>14:05</td><td><a href="/teams/BOS.html">BOS</a></td><td>--</td><td><a href="/players/Trent Frederic.html">Trent Frederic</a></td><td><a href="/players/James van Riemsdyk.html">James van Riemsdyk</a></td><td><a href="/players/Charlie Coyle.html">Charlie Coyle</a></td></tr>
-<tr><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/teams/NYI.html">NYI</a></td><td>1st Period</td><td>17:23</td><td><a href="/teams/NYI.html">NYI</a></td><td>PP</td><td><a href="/players/Brock Nelson.html">Brock Nelson</a></td><td><a href="/players/Noah Dobson.html">Noah Dobson</a></td><td><a href="/players/Mathew Barzal.html">Mathew Barzal</a></td></tr>
-<tr><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/teams/NYI.html">NYI</a></td><td>2nd Period</td><td>2nd Period</td><td><a href="/teams/2nd Period.html">2nd Period</a></td><td>2nd Period</td><td><a href="/players/2nd Period.html">2nd Period</a></td><td><a href="/players/2nd Period.html">2nd Period</a></td><td><a href="/players/2nd Period.html">2nd Period</a></td></tr>
-<tr><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/teams/NYI.html">NYI</a></td><td>2nd Period</td><td>6:06</td><td><a href="/teams/BOS.html">BOS</a></td><td>PP</td><td><a href="/players/Charlie Coyle.html">Charlie Coyle</a></td><td><a href="/players/Pavel Zacha.html">Pavel Zacha</a></td><td><a href="/players/David Pastrňák.html">David Pastrňák</a></td></tr>
-<tr><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/teams/NYI.html">NYI</a></td><td>3rd Period</td><td>3rd Period</td><td><a href="/teams/3rd Period.html">3rd Period</a></td><td>3rd Period</td><td><a href="/players/3rd Period.html">3rd Period</a></td><td><a href="/players/3rd Period.html">3rd Period</a></td><td><a href="/players/3rd Period.html">3rd Period</a></td></tr>
-<tr><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/teams/NYI.html">NYI</a></td><td>3rd Period</td><td>2:50</td><td><a href="/teams/NYI.html">NYI</a></td><td>SH</td><td><a href="/players/Simon Holmström.html">Simon Holmström</a></td><td><a href="/players/Jean-Gabriel Pageau.html">Jean-Gabriel Pageau</a></td><td><a href="/players/Jean-Gabriel Pageau.html">Jean-Gabriel Pageau</a></td></tr>
-<tr><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/teams/NYI.html">NYI</a></td><td>3rd Period</td><td>3:33</td><td><a href="/teams/BOS.html">BOS</a></td><td>PP</td><td><a href="/players/David Pastrňák.html">David Pastrňák</a></td><td><a href="/players/Kevin Shattenkirk.html">Kevin Shattenkirk</a></td><td><a href="/players/Brad Marchand.html">Brad Marchand</a></td></tr>
-<tr><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/teams/NYI.html">NYI</a></td><td>3rd Period</td><td>9:26</td><td><a href="/teams/BOS.html">BOS</a></td><td>--</td><td><a href="/players/Charlie Coyle.html">Charlie Coyle</a></td><td><a href="/players/James van Riemsdyk.html">James van Riemsdyk</a></td><td><a href="/players/Trent Frederic.html">Trent Frederic</a></td></tr>
-<tr><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/teams/NYI.html">NYI</a></td><td>3rd Period</td><td>18:39</td><td><a href="/teams/BOS.html">BOS</a></td><td>EN</td><td><a href="/players/Charlie Coyle.html">Charlie Coyle</a></td><td><a href="/players/David Pastrňák.html">David Pastrňák</a></td><td><a href="/players/Brad Marchand.html">Brad Marchand</a></td></tr>
-
-                </tbody>
-            </table>
-
-            <h2>Penalties</h2>
-            <table id="202311090BOS_penalties" border="1">
-                <thead>
-                    <tr>
-                        <th>Home Team</th><th>Away Team</th><th>Period</th><th>Time</th><th>Team</th><th>Player</th>
-                        <th>Penalty</th><th>PIM</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/teams/NYI.html">NYI</a></td><td>1st Period</td><td>1st Period</td><td><a href="/teams/1st Period.html">1st Period</a></td><td><a href="/players/1st Period.html">1st Period</a></td><td>1st Period</td><td>1st Period</td></tr>
-<tr><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/teams/NYI.html">NYI</a></td><td>1st Period</td><td>16:17</td><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/players/Trent Frederic.html">Trent Frederic</a></td><td>Cross Checking</td><td>2 min</td></tr>
-<tr><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/teams/NYI.html">NYI</a></td><td>2nd Period</td><td>2nd Period</td><td><a href="/teams/2nd Period.html">2nd Period</a></td><td><a href="/players/2nd Period.html">2nd Period</a></td><td>2nd Period</td><td>2nd Period</td></tr>
-<tr><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/teams/NYI.html">NYI</a></td><td>2nd Period</td><td>4:59</td><td><a href="/teams/NYI.html">NYI</a></td><td><a href="/players/Jean-Gabriel Pageau.html">Jean-Gabriel Pageau</a></td><td>Holding</td><td>2 min</td></tr>
-<tr><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/teams/NYI.html">NYI</a></td><td>3rd Period</td><td>3rd Period</td><td><a href="/teams/3rd Period.html">3rd Period</a></td><td><a href="/players/3rd Period.html">3rd Period</a></td><td>3rd Period</td><td>3rd Period</td></tr>
-<tr><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/teams/NYI.html">NYI</a></td><td>3rd Period</td><td>2:40</td><td><a href="/teams/NYI.html">NYI</a></td><td><a href="/players/Oliver Wahlstrom.html">Oliver Wahlstrom</a></td><td>Tripping</td><td>2 min</td></tr>
-<tr><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/teams/NYI.html">NYI</a></td><td>3rd Period</td><td>15:16</td><td><a href="/teams/NYI.html">NYI</a></td><td><a href="/players/Samuel Bolduc.html">Samuel Bolduc</a></td><td>High Sticking</td><td>2 min</td></tr>
-
-                </tbody>
-            </table>
-        </main>
-    </body>
-    </html>
-    
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>New York Islanders at Boston Bruins: November 09, 2023</title>
+<link rel="stylesheet" href="/assets/styles.css">
+<script src="/assets/searchBar.js"></script>
+<script src="/assets/tableSort.js"></script>
+</head>
+<body>
+<nav id="navbar">
+<ul>
+<li><a href="/">Home</a></li>
+<li><a href="/players/">Players</a></li>
+<li><a href="/teams/">Teams</a></li>
+<li><a href="/probabilities/">Probabilities</a></li>
+<li><a href="/boxscores/">Boxscores</a></li>
+<li><a href="/versus/">Head to Head Stats</a></li>
+<li><a href="/leaders/">Leaders</a></li>
+<li><a href="/seasons/2025/schedule.html">Schedule and Results</a></li>
+<li><a href="/seasons/2025/standings.html">Current Standings</a></li>
+<li><a href="/seasons/2025/rosters.html">Team Rosters</a></li>
+<li>
+<input type="text" id="searchBar" placeholder="Search for players or teams..." oninput="performSearch()" autocomplete="off">
+<div id="searchResults" class="dropdown"></div>
+<button id="searchButton" onclick="handleSearch()">Search</button>
+</li>
+</ul>
+</nav>
+<main id="content">
+<div class="scorebox">
+<div class="team"><div><a href="/teams/NYI.html">NYI</a></div><div class="score">2</div></div>
+<div class="team"><div><a href="/teams/BOS.html">BOS</a></div><div class="score">5</div></div>
+<div class="date">November 09, 2023</div>
+</div>
+<table id="NYI_skaters">
+<tr><th>Team</th><th>Player</th><th>G</th><th>A</th><th>PTS</th><th>SOG</th><th>HIT</th><th>BLK</th><th>TOI</th><th>PIM</th><th>SAT-F</th><th>SAT-A</th><th>CF%</th><th>CRel%</th></tr>
+<tr><td><a href="/teams/NYI.html">NYI</a></td><td><a href="/players/romanal01.html">Alexander Romanov</a></td><td>0</td><td>0</td><td>0</td><td>1</td><td>3</td><td>3</td><td>23.62</td><td>0</td><td>20</td><td>28</td><td>41.70%</td><td>-15.10%</td></tr>
+<tr><td><a href="/teams/NYI.html">NYI</a></td><td><a href="/players/leean01.html">Anders Lee</a></td><td>0</td><td>0</td><td>0</td><td>2</td><td>2</td><td>1</td><td>14.83</td><td>0</td><td>20</td><td>21</td><td>48.80%</td><td>-3.10%</td></tr>
+<tr><td><a href="/teams/NYI.html">NYI</a></td><td><a href="/players/horvabo01.html">Bo Horvat</a></td><td>0</td><td>0</td><td>0</td><td>2</td><td>0</td><td>1</td><td>18.37</td><td>0</td><td>21</td><td>13</td><td>61.80%</td><td>15.20%</td></tr>
+<tr><td><a href="/teams/NYI.html">NYI</a></td><td><a href="/players/nelsobr01.html">Brock Nelson</a></td><td>1</td><td>0</td><td>1</td><td>1</td><td>0</td><td>0</td><td>18.02</td><td>0</td><td>25</td><td>25</td><td>50.00%</td><td>-1.40%</td></tr>
+<tr><td><a href="/teams/NYI.html">NYI</a></td><td><a href="/players/cluttca01.html">Cal Clutterbuck</a></td><td>0</td><td>0</td><td>0</td><td>1</td><td>7</td><td>1</td><td>10.37</td><td>0</td><td>9</td><td>11</td><td>45.00%</td><td>-7.00%</td></tr>
+<tr><td><a href="/teams/NYI.html">NYI</a></td><td><a href="/players/cizikca01.html">Casey Cizikas</a></td><td>0</td><td>0</td><td>0</td><td>1</td><td>1</td><td>1</td><td>11.87</td><td>0</td><td>11</td><td>13</td><td>45.80%</td><td>-6.20%</td></tr>
+<tr><td><a href="/teams/NYI.html">NYI</a></td><td><a href="/players/faschhu01.html">Hudson Fasching</a></td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>13.95</td><td>0</td><td>9</td><td>8</td><td>52.90%</td><td>2.40%</td></tr>
+<tr><td><a href="/teams/NYI.html">NYI</a></td><td><a href="/players/pageaje01.html">Jean-Gabriel Pageau</a></td><td>0</td><td>1</td><td>1</td><td>1</td><td>3</td><td>0</td><td>14.88</td><td>2</td><td>12</td><td>11</td><td>52.20%</td><td>1.70%</td></tr>
+<tr><td><a href="/teams/NYI.html">NYI</a></td><td><a href="/players/palmiky01.html">Kyle Palmieri</a></td><td>0</td><td>0</td><td>0</td><td>1</td><td>1</td><td>3</td><td>18.47</td><td>0</td><td>27</td><td>26</td><td>50.90%</td><td>0.20%</td></tr>
+<tr><td><a href="/teams/NYI.html">NYI</a></td><td><a href="/players/barzama01.html">Mathew Barzal</a></td><td>0</td><td>1</td><td>1</td><td>2</td><td>0</td><td>1</td><td>19.2</td><td>0</td><td>22</td><td>15</td><td>59.50%</td><td>12.40%</td></tr>
+<tr><td><a href="/teams/NYI.html">NYI</a></td><td><a href="/players/martima02.html">Matt Martin</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>5</td><td>0</td><td>10.3</td><td>0</td><td>10</td><td>7</td><td>58.80%</td><td>9.30%</td></tr>
+<tr><td><a href="/teams/NYI.html">NYI</a></td><td><a href="/players/dobsono01.html">Noah Dobson</a></td><td>0</td><td>1</td><td>1</td><td>3</td><td>1</td><td>1</td><td>21.37</td><td>0</td><td>28</td><td>18</td><td>60.90%</td><td>16.20%</td></tr>
+<tr><td><a href="/teams/NYI.html">NYI</a></td><td><a href="/players/wahlsol01.html">Oliver Wahlstrom</a></td><td>0</td><td>0</td><td>0</td><td>3</td><td>2</td><td>0</td><td>14.9</td><td>2</td><td>14</td><td>11</td><td>56.00%</td><td>6.50%</td></tr>
+<tr><td><a href="/teams/NYI.html">NYI</a></td><td><a href="/players/pulocry01.html">Ryan Pulock</a></td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>2</td><td>20.48</td><td>0</td><td>18</td><td>21</td><td>46.20%</td><td>-6.80%</td></tr>
+<tr><td><a href="/teams/NYI.html">NYI</a></td><td><a href="/players/boldusa01.html">Samuel Bolduc</a></td><td>0</td><td>0</td><td>0</td><td>2</td><td>1</td><td>0</td><td>14.42</td><td>2</td><td>14</td><td>13</td><td>51.90%</td><td>1.40%</td></tr>
+<tr><td><a href="/teams/NYI.html">NYI</a></td><td><a href="/players/mayfisc01.html">Scott Mayfield</a></td><td>0</td><td>0</td><td>0</td><td>3</td><td>2</td><td>1</td><td>19.32</td><td>0</td><td>17</td><td>23</td><td>42.50%</td><td>-12.40%</td></tr>
+<tr><td><a href="/teams/NYI.html">NYI</a></td><td><a href="/players/ahose02.html">Sebastian Aho (NYI)</a></td><td>0</td><td>0</td><td>0</td><td>2</td><td>0</td><td>0</td><td>18.52</td><td>0</td><td>21</td><td>16</td><td>56.80%</td><td>8.60%</td></tr>
+<tr><td><a href="/teams/NYI.html">NYI</a></td><td><a href="/players/holmssi01.html">Simon Holmström</a></td><td>1</td><td>0</td><td>1</td><td>2</td><td>0</td><td>0</td><td>14.28</td><td>0</td><td>11</td><td>10</td><td>52.40%</td><td>1.90%</td></tr>
+</table>
+<table id="BOS_skaters">
+<tr><th>Team</th><th>Player</th><th>G</th><th>A</th><th>PTS</th><th>SOG</th><th>HIT</th><th>BLK</th><th>TOI</th><th>PIM</th><th>SAT-F</th><th>SAT-A</th><th>CF%</th><th>CRel%</th></tr>
+<tr><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/players/marchbr03.html">Brad Marchand</a></td><td>0</td><td>2</td><td>2</td><td>2</td><td>2</td><td>1</td><td>20.15</td><td>0</td><td>28</td><td>18</td><td>60.90%</td><td>18.80%</td></tr>
+<tr><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/players/carlobr01.html">Brandon Carlo</a></td><td>0</td><td>0</td><td>0</td><td>3</td><td>1</td><td>4</td><td>21.18</td><td>0</td><td>15</td><td>35</td><td>30.00%</td><td>-32.50%</td></tr>
+<tr><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/players/coylech01.html">Charlie Coyle</a></td><td>3</td><td>1</td><td>4</td><td>6</td><td>0</td><td>2</td><td>17.3</td><td>0</td><td>23</td><td>25</td><td>47.90%</td><td>-2.10%</td></tr>
+<tr><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/players/heineda01.html">Danton Heinen</a></td><td>0</td><td>0</td><td>0</td><td>1</td><td>3</td><td>2</td><td>13.47</td><td>0</td><td>7</td><td>11</td><td>38.90%</td><td>-12.10%</td></tr>
+<tr><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/players/pastrda01.html">David Pastrňák</a></td><td>1</td><td>2</td><td>3</td><td>5</td><td>0</td><td>0</td><td>20.12</td><td>0</td><td>25</td><td>17</td><td>59.50%</td><td>15.70%</td></tr>
+<tr><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/players/forbode01.html">Derek Forbort</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>1</td><td>17.52</td><td>0</td><td>15</td><td>19</td><td>44.10%</td><td>-7.00%</td></tr>
+<tr><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/players/lindhha01.html">Hampus Lindholm</a></td><td>0</td><td>0</td><td>0</td><td>2</td><td>0</td><td>1</td><td>22.95</td><td>0</td><td>24</td><td>22</td><td>52.20%</td><td>4.80%</td></tr>
+<tr><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/players/mitchia01.html">Ian Mitchell</a></td><td>0</td><td>0</td><td>0</td><td>2</td><td>0</td><td>0</td><td>18.32</td><td>0</td><td>21</td><td>14</td><td>60.00%</td><td>15.20%</td></tr>
+<tr><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/players/debruja01.html">Jake DeBrusk</a></td><td>0</td><td>0</td><td>0</td><td>2</td><td>2</td><td>2</td><td>14.43</td><td>0</td><td>9</td><td>14</td><td>39.10%</td><td>-12.40%</td></tr>
+<tr><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/players/vanrija01.html">James van Riemsdyk</a></td><td>0</td><td>2</td><td>2</td><td>3</td><td>0</td><td>0</td><td>16.08</td><td>0</td><td>25</td><td>22</td><td>53.20%</td><td>6.50%</td></tr>
+<tr><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/players/beechjo01.html">John Beecher</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>10.68</td><td>0</td><td>6</td><td>8</td><td>42.90%</td><td>-7.10%</td></tr>
+<tr><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/players/shattke01.html">Kevin Shattenkirk</a></td><td>0</td><td>1</td><td>1</td><td>1</td><td>0</td><td>0</td><td>18.58</td><td>0</td><td>19</td><td>13</td><td>59.40%</td><td>13.80%</td></tr>
+<tr><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/players/lohrema01.html">Mason Lohrei</a></td><td>0</td><td>0</td><td>0</td><td>3</td><td>1</td><td>2</td><td>18.48</td><td>0</td><td>15</td><td>19</td><td>44.10%</td><td>-7.00%</td></tr>
+<tr><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/players/poitrma01.html">Matthew Poitras</a></td><td>0</td><td>0</td><td>0</td><td>1</td><td>1</td><td>0</td><td>14.5</td><td>0</td><td>11</td><td>12</td><td>47.80%</td><td>-1.70%</td></tr>
+<tr><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/players/steenos01.html">Oskar Steen</a></td><td>0</td><td>0</td><td>0</td><td>1</td><td>5</td><td>0</td><td>11.83</td><td>0</td><td>9</td><td>8</td><td>52.90%</td><td>4.30%</td></tr>
+<tr><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/players/brownpa02.html">Patrick Brown</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>6</td><td>0</td><td>11.38</td><td>0</td><td>7</td><td>9</td><td>43.80%</td><td>-6.20%</td></tr>
+<tr><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/players/zachapa01.html">Pavel Zacha</a></td><td>0</td><td>1</td><td>1</td><td>1</td><td>0</td><td>1</td><td>18.68</td><td>0</td><td>24</td><td>19</td><td>55.80%</td><td>10.20%</td></tr>
+<tr><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/players/fredetr01.html">Trent Frederic</a></td><td>1</td><td>1</td><td>2</td><td>2</td><td>4</td><td>2</td><td>13.23</td><td>2</td><td>17</td><td>20</td><td>45.90%</td><td>-4.70%</td></tr>
+</table>
+<table id="NYI_goalies">
+<tr><th>Team</th><th>Goalie</th><th>DEC</th><th>GA</th><th>SA</th><th>SV</th><th>SV%</th><th>SO</th><th>PIM</th><th>TOI</th></tr>
+<tr><td><a href="/teams/NYI.html">NYI</a></td><td><a href="/players/sorokil01.html">Ilya Sorokin</a></td><td>L</td><td>4</td><td>34</td><td>30</td><td>88.20%</td><td>0</td><td>0</td><td>58.85</td></tr>
+<tr><td><a href="/teams/NYI.html">NYI</a></td><td><a href="/players/nan.html">Empty Net</a></td><td>--</td><td>1</td><td>1</td><td>0</td><td>0.00%</td><td>0</td><td>0</td><td>0.0</td></tr>
+</table>
+<table id="BOS_goalies">
+<tr><th>Team</th><th>Goalie</th><th>DEC</th><th>GA</th><th>SA</th><th>SV</th><th>SV%</th><th>SO</th><th>PIM</th><th>TOI</th></tr>
+<tr><td><a href="/teams/BOS.html">BOS</a></td><td><a href="/players/ullmali01.html">Linus Ullmark</a></td><td>W</td><td>2</td><td>29</td><td>27</td><td>93.10%</td><td>0</td><td>0</td><td>60.0</td></tr>
+</table>
+<table id="scoring">
+<tr><th>Team</th><th>Time</th><th>Info</th><th>Scorer</th><th>Assist 1</th><th>Assist 2</th></tr>
+<tr><td><a href="/teams/BOS.html">BOS</a></td><td>14.08</td><td>--</td><td><a href="/players/fredetr01.html">Trent Frederic</a></td><td><a href="/players/vanrija01.html">James van Riemsdyk</a></td><td><a href="/players/coylech01.html">Charlie Coyle</a></td></tr>
+<tr><td><a href="/teams/NYI.html">NYI</a></td><td>17.38</td><td>PP</td><td><a href="/players/nelsobr01.html">Brock Nelson</a></td><td><a href="/players/dobsono01.html">Noah Dobson</a></td><td><a href="/players/barzama01.html">Mathew Barzal</a></td></tr>
+<tr><td><a href="/teams/BOS.html">BOS</a></td><td>26.1</td><td>PP</td><td><a href="/players/coylech01.html">Charlie Coyle</a></td><td><a href="/players/zachapa01.html">Pavel Zacha</a></td><td><a href="/players/pastrda01.html">David Pastrňák</a></td></tr>
+<tr><td><a href="/teams/NYI.html">NYI</a></td><td>42.83</td><td>SH</td><td><a href="/players/holmssi01.html">Simon Holmström</a></td><td><a href="/players/pageaje01.html">Jean-Gabriel Pageau</a></td><td><a href="/players/pageaje01.html">Jean-Gabriel Pageau</a></td></tr>
+<tr><td><a href="/teams/BOS.html">BOS</a></td><td>43.55</td><td>PP</td><td><a href="/players/pastrda01.html">David Pastrňák</a></td><td><a href="/players/shattke01.html">Kevin Shattenkirk</a></td><td><a href="/players/marchbr03.html">Brad Marchand</a></td></tr>
+<tr><td><a href="/teams/BOS.html">BOS</a></td><td>49.43</td><td>--</td><td><a href="/players/coylech01.html">Charlie Coyle</a></td><td><a href="/players/vanrija01.html">James van Riemsdyk</a></td><td><a href="/players/fredetr01.html">Trent Frederic</a></td></tr>
+<tr><td><a href="/teams/BOS.html">BOS</a></td><td>58.65</td><td>EN</td><td><a href="/players/coylech01.html">Charlie Coyle</a></td><td><a href="/players/pastrda01.html">David Pastrňák</a></td><td><a href="/players/marchbr03.html">Brad Marchand</a></td></tr>
+</table>
+<table id="penalties">
+<tr><th>Team</th><th>Time</th><th>Player</th><th>Penalty</th><th>PIM</th></tr>
+<tr><td><a href="/teams/BOS.html">BOS</a></td><td>16.28</td><td><a href="/players/fredetr01.html">Trent Frederic</a></td><td>Cross Checking</td><td>2 min</td></tr>
+<tr><td><a href="/teams/NYI.html">NYI</a></td><td>24.98</td><td><a href="/players/pageaje01.html">Jean-Gabriel Pageau</a></td><td>Holding</td><td>2 min</td></tr>
+<tr><td><a href="/teams/NYI.html">NYI</a></td><td>42.67</td><td><a href="/players/wahlsol01.html">Oliver Wahlstrom</a></td><td>Tripping</td><td>2 min</td></tr>
+<tr><td><a href="/teams/NYI.html">NYI</a></td><td>55.27</td><td><a href="/players/boldusa01.html">Samuel Bolduc</a></td><td>High Sticking</td><td>2 min</td></tr>
+</table>
+</main>
+</body>
+</html>

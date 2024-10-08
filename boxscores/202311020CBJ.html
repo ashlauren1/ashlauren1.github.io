@@ -1,154 +1,111 @@
-
-    <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Game 202311020CBJ Boxscore</title>
-        <link rel="stylesheet" href="/assets/styles.css">
-        <script src="/assets/searchBar.js" defer></script>
-        <script src="/assets/tableSort.js"></script>
-        <style>
-            tr:hover {background-color: #F0FFF0;}
-        </style>
-    </head>
-    <body>
-        <nav id="navbar">
-            <a href="/">Home</a>
-            <a href="/players/">Players</a>
-            <a href="/teams/">Teams</a>
-            <a href="/leaders/">Leaders</a>
-            <a href="/probabilities/">Probabilities</a>
-            <a href="/boxscores/">Boxscores</a>
-            <a href="/schedule/">Schedule</a>
-
-            <div class="search-container">
-                <input type="text" id="searchInput" placeholder="Search players or teams..." oninput="searchEntities()" />
-                <ul id="suggestions"></ul>
-            </div>
-        </nav>
-
-        <main id="content">
-            <h1>Game 202311020CBJ Boxscore</h1>
-
-            <h2>Skaters</h2>
-            <table id="202311020CBJ_skaters" border="1">
-                <thead>
-                    <tr>
-                        <th>Date</th><th>Home Team</th><th>Away Team</th><th>Player</th><th>Team</th><th>G</th><th>A</th><th>PTS</th>
-                        <th>+/-</th><th>PIM</th><th>EVG</th><th>PPG</th><th>SHG</th><th>GWG</th><th>EV Assist</th><th>PP Assist</th>
-                        <th>SH Assist</th><th>SOG</th><th>S%</th><th>SHFT</th><th>TOI</th><th>iCF</th><th>SAT‑F</th><th>SAT‑A</th>
-                        <th>CF%</th><th>CRel%</th><th>ZSO</th><th>ZSD</th><th>oZS%</th><th>HIT</th><th>BLK</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr><td><a href="/boxscores/202311020CBJ.html">11/2/2023</a></td><td><a href="/teams/CBJ.html">CBJ</a></td><td><a href="/teams/TBL.html">TBL</a></td><td><a href="/players/Alex Barré-Boulet.html">Alex Barré-Boulet</a></td><td><a href="/teams/TBL.html">TBL</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>18</td><td>13.32</td><td>3</td><td>18</td><td>16</td><td>52.9</td><td>-0.6</td><td>4</td><td>2</td><td>66.7</td><td>0</td><td>1</td></tr>
-<tr><td><a href="/boxscores/202311020CBJ.html">11/2/2023</a></td><td><a href="/teams/CBJ.html">CBJ</a></td><td><a href="/teams/TBL.html">TBL</a></td><td><a href="/players/Erik Černák.html">Erik Černák</a></td><td><a href="/teams/TBL.html">TBL</a></td><td>0</td><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>1</td><td>0</td><td>23</td><td>18.27</td><td>1</td><td>17</td><td>26</td><td>39.5</td><td>-20.3</td><td>4</td><td>13</td><td>23.5</td><td>1</td><td>3</td></tr>
-<tr><td><a href="/boxscores/202311020CBJ.html">11/2/2023</a></td><td><a href="/teams/CBJ.html">CBJ</a></td><td><a href="/teams/TBL.html">TBL</a></td><td><a href="/players/Anthony Cirelli.html">Anthony Cirelli</a></td><td><a href="/teams/TBL.html">TBL</a></td><td>0</td><td>0</td><td>0</td><td>-2</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>24</td><td>19.45</td><td>2</td><td>21</td><td>22</td><td>48.8</td><td>-6.6</td><td>3</td><td>13</td><td>18.8</td><td>0</td><td>2</td></tr>
-<tr><td><a href="/boxscores/202311020CBJ.html">11/2/2023</a></td><td><a href="/teams/CBJ.html">CBJ</a></td><td><a href="/teams/TBL.html">TBL</a></td><td><a href="/players/Calvin de Haan.html">Calvin de Haan</a></td><td><a href="/teams/TBL.html">TBL</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>2</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>20</td><td>16.52</td><td>4</td><td>20</td><td>12</td><td>62.5</td><td>12</td><td>2</td><td>8</td><td>20</td><td>3</td><td>1</td></tr>
-<tr><td><a href="/boxscores/202311020CBJ.html">11/2/2023</a></td><td><a href="/teams/CBJ.html">CBJ</a></td><td><a href="/teams/TBL.html">TBL</a></td><td><a href="/players/Michael Eyssimont.html">Michael Eyssimont</a></td><td><a href="/teams/TBL.html">TBL</a></td><td>0</td><td>0</td><td>0</td><td>-1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>10</td><td>7.42</td><td>2</td><td>6</td><td>8</td><td>42.9</td><td>-11.6</td><td>1</td><td>3</td><td>25</td><td>1</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202311020CBJ.html">11/2/2023</a></td><td><a href="/teams/CBJ.html">CBJ</a></td><td><a href="/teams/TBL.html">TBL</a></td><td><a href="/players/Luke Glendening.html">Luke Glendening</a></td><td><a href="/teams/TBL.html">TBL</a></td><td>0</td><td>0</td><td>0</td><td>-1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>17</td><td>8.87</td><td>0</td><td>4</td><td>12</td><td>25</td><td>-32.1</td><td>1</td><td>8</td><td>11.1</td><td>2</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202311020CBJ.html">11/2/2023</a></td><td><a href="/teams/CBJ.html">CBJ</a></td><td><a href="/teams/TBL.html">TBL</a></td><td><a href="/players/Brandon Hagel.html">Brandon Hagel</a></td><td><a href="/teams/TBL.html">TBL</a></td><td>0</td><td>0</td><td>0</td><td>-2</td><td>2</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>20</td><td>17.37</td><td>4</td><td>23</td><td>12</td><td>65.7</td><td>16.7</td><td>4</td><td>6</td><td>40</td><td>0</td><td>1</td></tr>
-<tr><td><a href="/boxscores/202311020CBJ.html">11/2/2023</a></td><td><a href="/teams/CBJ.html">CBJ</a></td><td><a href="/teams/TBL.html">TBL</a></td><td><a href="/players/Victor Hedman.html">Victor Hedman</a></td><td><a href="/teams/TBL.html">TBL</a></td><td>0</td><td>0</td><td>0</td><td>-2</td><td>2</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>2</td><td>0</td><td>27</td><td>23.15</td><td>3</td><td>27</td><td>32</td><td>45.8</td><td>-13.4</td><td>9</td><td>12</td><td>42.9</td><td>1</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202311020CBJ.html">11/2/2023</a></td><td><a href="/teams/CBJ.html">CBJ</a></td><td><a href="/teams/TBL.html">TBL</a></td><td><a href="/players/Tanner Jeannot.html">Tanner Jeannot</a></td><td><a href="/teams/TBL.html">TBL</a></td><td>0</td><td>0</td><td>0</td><td>-1</td><td>2</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>19</td><td>12.6</td><td>3</td><td>18</td><td>9</td><td>66.7</td><td>16.7</td><td>2</td><td>5</td><td>28.6</td><td>3</td><td>1</td></tr>
-<tr><td><a href="/boxscores/202311020CBJ.html">11/2/2023</a></td><td><a href="/teams/CBJ.html">CBJ</a></td><td><a href="/teams/TBL.html">TBL</a></td><td><a href="/players/Nikita Kucherov.html">Nikita Kucherov</a></td><td><a href="/teams/TBL.html">TBL</a></td><td>0</td><td>0</td><td>0</td><td>-2</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>5</td><td>0</td><td>20</td><td>20.07</td><td>13</td><td>29</td><td>18</td><td>61.7</td><td>12.8</td><td>9</td><td>5</td><td>64.3</td><td>1</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202311020CBJ.html">11/2/2023</a></td><td><a href="/teams/CBJ.html">CBJ</a></td><td><a href="/teams/TBL.html">TBL</a></td><td><a href="/players/Waltteri Merela.html">Waltteri Merela</a></td><td><a href="/teams/TBL.html">TBL</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>2</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>15</td><td>9.82</td><td>2</td><td>5</td><td>11</td><td>31.2</td><td>-25.1</td><td>1</td><td>6</td><td>14.3</td><td>3</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202311020CBJ.html">11/2/2023</a></td><td><a href="/teams/CBJ.html">CBJ</a></td><td><a href="/teams/TBL.html">TBL</a></td><td><a href="/players/Nick Paul.html">Nick Paul</a></td><td><a href="/teams/TBL.html">TBL</a></td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>3</td><td>0</td><td>23</td><td>18.92</td><td>8</td><td>32</td><td>18</td><td>64</td><td>16.9</td><td>14</td><td>6</td><td>70</td><td>1</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202311020CBJ.html">11/2/2023</a></td><td><a href="/teams/CBJ.html">CBJ</a></td><td><a href="/teams/TBL.html">TBL</a></td><td><a href="/players/Nicklaus Perbix.html">Nicklaus Perbix</a></td><td><a href="/teams/TBL.html">TBL</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>2</td><td>0</td><td>19</td><td>14.57</td><td>2</td><td>15</td><td>19</td><td>44.1</td><td>-12.3</td><td>8</td><td>6</td><td>57.1</td><td>0</td><td>2</td></tr>
-<tr><td><a href="/boxscores/202311020CBJ.html">11/2/2023</a></td><td><a href="/teams/CBJ.html">CBJ</a></td><td><a href="/teams/TBL.html">TBL</a></td><td><a href="/players/Brayden Point.html">Brayden Point</a></td><td><a href="/teams/TBL.html">TBL</a></td><td>0</td><td>0</td><td>0</td><td>-2</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>20</td><td>19.35</td><td>3</td><td>27</td><td>17</td><td>61.4</td><td>11.9</td><td>9</td><td>5</td><td>64.3</td><td>0</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202311020CBJ.html">11/2/2023</a></td><td><a href="/teams/CBJ.html">CBJ</a></td><td><a href="/teams/TBL.html">TBL</a></td><td><a href="/players/Darren Raddysh.html">Darren Raddysh</a></td><td><a href="/teams/TBL.html">TBL</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>21</td><td>16.73</td><td>5</td><td>22</td><td>10</td><td>68.8</td><td>20.3</td><td>4</td><td>5</td><td>44.4</td><td>0</td><td>2</td></tr>
-<tr><td><a href="/boxscores/202311020CBJ.html">11/2/2023</a></td><td><a href="/teams/CBJ.html">CBJ</a></td><td><a href="/teams/TBL.html">TBL</a></td><td><a href="/players/Mikhail Sergachev.html">Mikhail Sergachev</a></td><td><a href="/teams/TBL.html">TBL</a></td><td>0</td><td>0</td><td>0</td><td>-1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>2</td><td>0</td><td>26</td><td>23.43</td><td>7</td><td>25</td><td>24</td><td>51</td><td>-3.7</td><td>11</td><td>8</td><td>57.9</td><td>0</td><td>1</td></tr>
-<tr><td><a href="/boxscores/202311020CBJ.html">11/2/2023</a></td><td><a href="/teams/CBJ.html">CBJ</a></td><td><a href="/teams/TBL.html">TBL</a></td><td><a href="/players/Conor Sheary.html">Conor Sheary</a></td><td><a href="/teams/TBL.html">TBL</a></td><td>1</td><td>0</td><td>1</td><td>1</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>100</td><td>18</td><td>13.1</td><td>2</td><td>18</td><td>19</td><td>48.6</td><td>-6.5</td><td>10</td><td>5</td><td>66.7</td><td>1</td><td>2</td></tr>
-<tr><td><a href="/boxscores/202311020CBJ.html">11/2/2023</a></td><td><a href="/teams/CBJ.html">CBJ</a></td><td><a href="/teams/TBL.html">TBL</a></td><td><a href="/players/Steven Stamkos.html">Steven Stamkos</a></td><td><a href="/teams/TBL.html">TBL</a></td><td>1</td><td>1</td><td>2</td><td>1</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>6</td><td>16.7</td><td>22</td><td>20.37</td><td>8</td><td>30</td><td>19</td><td>61.2</td><td>12.4</td><td>15</td><td>6</td><td>71.4</td><td>0</td><td>1</td></tr>
-<tr><td><a href="/boxscores/202311020CBJ.html">11/2/2023</a></td><td><a href="/teams/CBJ.html">CBJ</a></td><td><a href="/teams/TBL.html">TBL</a></td><td><a href="/players/Matt Tomkins.html">Matt Tomkins</a></td><td><a href="/teams/TBL.html">TBL</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>7</td><td>57.78</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202311020CBJ.html">11/2/2023</a></td><td><a href="/teams/CBJ.html">CBJ</a></td><td><a href="/teams/TBL.html">TBL</a></td><td><a href="/players/--.html">--</a></td><td><a href="/teams/--.html">--</a></td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td></tr>
-<tr><td><a href="/boxscores/202311020CBJ.html">11/2/2023</a></td><td><a href="/teams/CBJ.html">CBJ</a></td><td><a href="/teams/TBL.html">TBL</a></td><td><a href="/players/Jake Bean.html">Jake Bean</a></td><td><a href="/teams/CBJ.html">CBJ</a></td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>3</td><td>0</td><td>16</td><td>10.73</td><td>5</td><td>17</td><td>18</td><td>48.6</td><td>2.6</td><td>9</td><td>5</td><td>64.3</td><td>0</td><td>4</td></tr>
-<tr><td><a href="/boxscores/202311020CBJ.html">11/2/2023</a></td><td><a href="/teams/CBJ.html">CBJ</a></td><td><a href="/teams/TBL.html">TBL</a></td><td><a href="/players/Emil Bemström.html">Emil Bemström</a></td><td><a href="/teams/CBJ.html">CBJ</a></td><td>0</td><td>1</td><td>1</td><td>-1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>1</td><td>0</td><td>13</td><td>11.68</td><td>3</td><td>15</td><td>15</td><td>50</td><td>4.3</td><td>7</td><td>3</td><td>70</td><td>0</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202311020CBJ.html">11/2/2023</a></td><td><a href="/teams/CBJ.html">CBJ</a></td><td><a href="/teams/TBL.html">TBL</a></td><td><a href="/players/Justin Danforth.html">Justin Danforth</a></td><td><a href="/teams/CBJ.html">CBJ</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>20</td><td>12.85</td><td>5</td><td>12</td><td>21</td><td>36.4</td><td>-13.6</td><td>4</td><td>8</td><td>33.3</td><td>1</td><td>2</td></tr>
-<tr><td><a href="/boxscores/202311020CBJ.html">11/2/2023</a></td><td><a href="/teams/CBJ.html">CBJ</a></td><td><a href="/teams/TBL.html">TBL</a></td><td><a href="/players/Adam Fantilli.html">Adam Fantilli</a></td><td><a href="/teams/CBJ.html">CBJ</a></td><td>0</td><td>1</td><td>1</td><td>-1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>4</td><td>0</td><td>13</td><td>11.7</td><td>6</td><td>13</td><td>16</td><td>44.8</td><td>-2.4</td><td>7</td><td>3</td><td>70</td><td>0</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202311020CBJ.html">11/2/2023</a></td><td><a href="/teams/CBJ.html">CBJ</a></td><td><a href="/teams/TBL.html">TBL</a></td><td><a href="/players/Johnny Gaudreau.html">Johnny Gaudreau</a></td><td><a href="/teams/CBJ.html">CBJ</a></td><td>1</td><td>0</td><td>1</td><td>2</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>3</td><td>33.3</td><td>23</td><td>19.05</td><td>6</td><td>22</td><td>16</td><td>57.9</td><td>15.6</td><td>10</td><td>6</td><td>62.5</td><td>0</td><td>1</td></tr>
-<tr><td><a href="/boxscores/202311020CBJ.html">11/2/2023</a></td><td><a href="/teams/CBJ.html">CBJ</a></td><td><a href="/teams/TBL.html">TBL</a></td><td><a href="/players/Erik Gudbranson.html">Erik Gudbranson</a></td><td><a href="/teams/CBJ.html">CBJ</a></td><td>1</td><td>0</td><td>1</td><td>3</td><td>0</td><td>1</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>1</td><td>100</td><td>22</td><td>18.27</td><td>2</td><td>24</td><td>33</td><td>42.1</td><td>-7.9</td><td>9</td><td>10</td><td>47.4</td><td>0</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202311020CBJ.html">11/2/2023</a></td><td><a href="/teams/CBJ.html">CBJ</a></td><td><a href="/teams/TBL.html">TBL</a></td><td><a href="/players/Boone Jenner.html">Boone Jenner</a></td><td><a href="/teams/CBJ.html">CBJ</a></td><td>1</td><td>1</td><td>2</td><td>2</td><td>2</td><td>1</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>2</td><td>50</td><td>24</td><td>18.32</td><td>2</td><td>20</td><td>19</td><td>51.3</td><td>6.5</td><td>10</td><td>9</td><td>52.6</td><td>1</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202311020CBJ.html">11/2/2023</a></td><td><a href="/teams/CBJ.html">CBJ</a></td><td><a href="/teams/TBL.html">TBL</a></td><td><a href="/players/David Jiříček.html">David Jiříček</a></td><td><a href="/teams/CBJ.html">CBJ</a></td><td>0</td><td>0</td><td>0</td><td>-1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>17</td><td>14.48</td><td>2</td><td>9</td><td>15</td><td>37.5</td><td>-11.1</td><td>6</td><td>4</td><td>60</td><td>2</td><td>4</td></tr>
-<tr><td><a href="/boxscores/202311020CBJ.html">11/2/2023</a></td><td><a href="/teams/CBJ.html">CBJ</a></td><td><a href="/teams/TBL.html">TBL</a></td><td><a href="/players/Kent Johnson.html">Kent Johnson</a></td><td><a href="/teams/CBJ.html">CBJ</a></td><td>0</td><td>0</td><td>0</td><td>-2</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>10</td><td>8.75</td><td>1</td><td>10</td><td>14</td><td>41.7</td><td>-6</td><td>4</td><td>2</td><td>66.7</td><td>0</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202311020CBJ.html">11/2/2023</a></td><td><a href="/teams/CBJ.html">CBJ</a></td><td><a href="/teams/TBL.html">TBL</a></td><td><a href="/players/Sean Kuraly.html">Sean Kuraly</a></td><td><a href="/teams/CBJ.html">CBJ</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>2</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>20</td><td>13.23</td><td>1</td><td>12</td><td>22</td><td>35.3</td><td>-15.2</td><td>4</td><td>11</td><td>26.7</td><td>0</td><td>1</td></tr>
-<tr><td><a href="/boxscores/202311020CBJ.html">11/2/2023</a></td><td><a href="/teams/CBJ.html">CBJ</a></td><td><a href="/teams/TBL.html">TBL</a></td><td><a href="/players/Kirill Marchenko.html">Kirill Marchenko</a></td><td><a href="/teams/CBJ.html">CBJ</a></td><td>1</td><td>0</td><td>1</td><td>1</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>6</td><td>16.7</td><td>19</td><td>16.22</td><td>8</td><td>22</td><td>9</td><td>71</td><td>31.6</td><td>9</td><td>0</td><td>100</td><td>0</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202311020CBJ.html">11/2/2023</a></td><td><a href="/teams/CBJ.html">CBJ</a></td><td><a href="/teams/TBL.html">TBL</a></td><td><a href="/players/Ivan Provorov.html">Ivan Provorov</a></td><td><a href="/teams/CBJ.html">CBJ</a></td><td>0</td><td>1</td><td>1</td><td>-1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>25</td><td>25.38</td><td>0</td><td>18</td><td>36</td><td>33.3</td><td>-22.3</td><td>7</td><td>10</td><td>41.2</td><td>2</td><td>4</td></tr>
-<tr><td><a href="/boxscores/202311020CBJ.html">11/2/2023</a></td><td><a href="/teams/CBJ.html">CBJ</a></td><td><a href="/teams/TBL.html">TBL</a></td><td><a href="/players/Jack Roslovic.html">Jack Roslovic</a></td><td><a href="/teams/CBJ.html">CBJ</a></td><td>0</td><td>0</td><td>0</td><td>2</td><td>2</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>2</td><td>0</td><td>22</td><td>17.4</td><td>4</td><td>19</td><td>15</td><td>55.9</td><td>12.3</td><td>10</td><td>7</td><td>58.8</td><td>0</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202311020CBJ.html">11/2/2023</a></td><td><a href="/teams/CBJ.html">CBJ</a></td><td><a href="/teams/TBL.html">TBL</a></td><td><a href="/players/Damon Severson.html">Damon Severson</a></td><td><a href="/teams/CBJ.html">CBJ</a></td><td>0</td><td>1</td><td>1</td><td>1</td><td>2</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>1</td><td>0</td><td>27</td><td>21.35</td><td>4</td><td>23</td><td>18</td><td>56.1</td><td>13.5</td><td>7</td><td>7</td><td>50</td><td>0</td><td>1</td></tr>
-<tr><td><a href="/boxscores/202311020CBJ.html">11/2/2023</a></td><td><a href="/teams/CBJ.html">CBJ</a></td><td><a href="/teams/TBL.html">TBL</a></td><td><a href="/players/Cole Sillinger.html">Cole Sillinger</a></td><td><a href="/teams/CBJ.html">CBJ</a></td><td>0</td><td>1</td><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>2</td><td>0</td><td>20</td><td>15.25</td><td>4</td><td>17</td><td>15</td><td>53.1</td><td>8.4</td><td>4</td><td>0</td><td>100</td><td>2</td><td>2</td></tr>
-<tr><td><a href="/boxscores/202311020CBJ.html">11/2/2023</a></td><td><a href="/teams/CBJ.html">CBJ</a></td><td><a href="/teams/TBL.html">TBL</a></td><td><a href="/players/Alexandre Texier.html">Alexandre Texier</a></td><td><a href="/teams/CBJ.html">CBJ</a></td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>22</td><td>17.67</td><td>1</td><td>14</td><td>31</td><td>31.1</td><td>-23.3</td><td>4</td><td>12</td><td>25</td><td>2</td><td>1</td></tr>
-<tr><td><a href="/boxscores/202311020CBJ.html">11/2/2023</a></td><td><a href="/teams/CBJ.html">CBJ</a></td><td><a href="/teams/TBL.html">TBL</a></td><td><a href="/players/Dmitri Voronkov.html">Dmitri Voronkov</a></td><td><a href="/teams/CBJ.html">CBJ</a></td><td>0</td><td>1</td><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>1</td><td>0</td><td>20</td><td>14.1</td><td>5</td><td>20</td><td>8</td><td>71.4</td><td>31.2</td><td>8</td><td>0</td><td>100</td><td>1</td><td>1</td></tr>
-<tr><td><a href="/boxscores/202311020CBJ.html">11/2/2023</a></td><td><a href="/teams/CBJ.html">CBJ</a></td><td><a href="/teams/TBL.html">TBL</a></td><td><a href="/players/Zach Werenski.html">Zach Werenski</a></td><td><a href="/teams/CBJ.html">CBJ</a></td><td>0</td><td>1</td><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>1</td><td>0</td><td>30</td><td>25.57</td><td>4</td><td>26</td><td>23</td><td>53.1</td><td>10.1</td><td>10</td><td>8</td><td>55.6</td><td>1</td><td>1</td></tr>
-<tr><td><a href="/boxscores/202311020CBJ.html">11/2/2023</a></td><td><a href="/teams/CBJ.html">CBJ</a></td><td><a href="/teams/TBL.html">TBL</a></td><td><a href="/players/Elvis Merzļikins.html">Elvis Merzļikins</a></td><td><a href="/teams/CBJ.html">CBJ</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>3</td><td>60</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
-<tr><td><a href="/boxscores/202311020CBJ.html">11/2/2023</a></td><td><a href="/teams/CBJ.html">CBJ</a></td><td><a href="/teams/TBL.html">TBL</a></td><td><a href="/players/--.html">--</a></td><td><a href="/teams/--.html">--</a></td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td></tr>
-
-                </tbody>
-            </table>
-
-            <h2>Goalies</h2>
-            <table id="202311020CBJ_goalies" border="1">
-                <thead>
-                    <tr>
-                        <th>Home Team</th><th>Away Team</th><th>Goalie</th><th>Team</th><th>DEC</th><th>GA</th><th>SA</th><th>SV</th>
-                        <th>SV%</th><th>SO</th><th>PIM</th><th>Goalie TOI</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr><td><a href="/teams/CBJ.html">CBJ</a></td><td><a href="/teams/TBL.html">TBL</a></td><td><a href="/players/tomkima01.html">Matt Tomkins</a></td><td><a href="/teams/TBL.html">TBL</a></td><td>L</td><td>3</td><td>27</td><td>24</td><td>0.889</td><td>0</td><td>0</td><td>57:47:00</td></tr>
-<tr><td><a href="/teams/CBJ.html">CBJ</a></td><td><a href="/teams/TBL.html">TBL</a></td><td><a href="/players/--.html">Empty Net</a></td><td><a href="/teams/TBL.html">TBL</a></td><td>--</td><td>1</td><td>1</td><td>0</td><td>0.0</td><td>0</td><td>0</td><td>0</td></tr>
-<tr><td><a href="/teams/CBJ.html">CBJ</a></td><td><a href="/teams/TBL.html">TBL</a></td><td><a href="/players/merzlel01.html">Elvis Merzļikins</a></td><td><a href="/teams/CBJ.html">CBJ</a></td><td>W</td><td>2</td><td>29</td><td>27</td><td>0.931</td><td>0</td><td>0</td><td>60:00:00</td></tr>
-
-                </tbody>
-            </table>
-
-            <h2>Scoring</h2>
-            <table id="202311020CBJ_scoring" border="1">
-                <thead>
-                    <tr>
-                        <th>Home Team</th><th>Away Team</th><th>Period</th><th>Time</th><th>Team</th><th>Info</th>
-                        <th>Scorer</th><th>Assist1</th><th>Assist2</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr><td><a href="/teams/CBJ.html">CBJ</a></td><td><a href="/teams/TBL.html">TBL</a></td><td>1st Period</td><td>1st Period</td><td><a href="/teams/1st Period.html">1st Period</a></td><td>1st Period</td><td><a href="/players/1st Period.html">1st Period</a></td><td><a href="/players/1st Period.html">1st Period</a></td><td><a href="/players/1st Period.html">1st Period</a></td></tr>
-<tr><td><a href="/teams/CBJ.html">CBJ</a></td><td><a href="/teams/TBL.html">TBL</a></td><td>1st Period</td><td>6:29</td><td><a href="/teams/CBJ.html">CBJ</a></td><td>--</td><td><a href="/players/Kirill Marchenko.html">Kirill Marchenko</a></td><td><a href="/players/Dmitri Voronkov.html">Dmitri Voronkov</a></td><td><a href="/players/Cole Sillinger.html">Cole Sillinger</a></td></tr>
-<tr><td><a href="/teams/CBJ.html">CBJ</a></td><td><a href="/teams/TBL.html">TBL</a></td><td>2nd Period</td><td>2nd Period</td><td><a href="/teams/2nd Period.html">2nd Period</a></td><td>2nd Period</td><td><a href="/players/2nd Period.html">2nd Period</a></td><td><a href="/players/2nd Period.html">2nd Period</a></td><td><a href="/players/2nd Period.html">2nd Period</a></td></tr>
-<tr><td><a href="/teams/CBJ.html">CBJ</a></td><td><a href="/teams/TBL.html">TBL</a></td><td>2nd Period</td><td>2:53</td><td><a href="/teams/TBL.html">TBL</a></td><td>--</td><td><a href="/players/Steven Stamkos.html">Steven Stamkos</a></td><td><a href="/players/--.html">--</a></td><td><a href="/players/--.html">--</a></td></tr>
-<tr><td><a href="/teams/CBJ.html">CBJ</a></td><td><a href="/teams/TBL.html">TBL</a></td><td>2nd Period</td><td>4:42</td><td><a href="/teams/TBL.html">TBL</a></td><td>--</td><td><a href="/players/Conor Sheary.html">Conor Sheary</a></td><td><a href="/players/Steven Stamkos.html">Steven Stamkos</a></td><td><a href="/players/Erik Černák.html">Erik Černák</a></td></tr>
-<tr><td><a href="/teams/CBJ.html">CBJ</a></td><td><a href="/teams/TBL.html">TBL</a></td><td>3rd Period</td><td>3rd Period</td><td><a href="/teams/3rd Period.html">3rd Period</a></td><td>3rd Period</td><td><a href="/players/3rd Period.html">3rd Period</a></td><td><a href="/players/3rd Period.html">3rd Period</a></td><td><a href="/players/3rd Period.html">3rd Period</a></td></tr>
-<tr><td><a href="/teams/CBJ.html">CBJ</a></td><td><a href="/teams/TBL.html">TBL</a></td><td>3rd Period</td><td>6:41</td><td><a href="/teams/CBJ.html">CBJ</a></td><td>--</td><td><a href="/players/Boone Jenner.html">Boone Jenner</a></td><td><a href="/players/Zach Werenski.html">Zach Werenski</a></td><td><a href="/players/Damon Severson.html">Damon Severson</a></td></tr>
-<tr><td><a href="/teams/CBJ.html">CBJ</a></td><td><a href="/teams/TBL.html">TBL</a></td><td>3rd Period</td><td>9:24</td><td><a href="/teams/CBJ.html">CBJ</a></td><td>--</td><td><a href="/players/Erik Gudbranson.html">Erik Gudbranson</a></td><td><a href="/players/Emil Bemström.html">Emil Bemström</a></td><td><a href="/players/Adam Fantilli.html">Adam Fantilli</a></td></tr>
-<tr><td><a href="/teams/CBJ.html">CBJ</a></td><td><a href="/teams/TBL.html">TBL</a></td><td>3rd Period</td><td>17:49</td><td><a href="/teams/CBJ.html">CBJ</a></td><td>EN</td><td><a href="/players/Johnny Gaudreau.html">Johnny Gaudreau</a></td><td><a href="/players/Ivan Provorov.html">Ivan Provorov</a></td><td><a href="/players/Boone Jenner.html">Boone Jenner</a></td></tr>
-
-                </tbody>
-            </table>
-
-            <h2>Penalties</h2>
-            <table id="202311020CBJ_penalties" border="1">
-                <thead>
-                    <tr>
-                        <th>Home Team</th><th>Away Team</th><th>Period</th><th>Time</th><th>Team</th><th>Player</th>
-                        <th>Penalty</th><th>PIM</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr><td><a href="/teams/CBJ.html">CBJ</a></td><td><a href="/teams/TBL.html">TBL</a></td><td>1st Period</td><td>1st Period</td><td><a href="/teams/1st Period.html">1st Period</a></td><td><a href="/players/1st Period.html">1st Period</a></td><td>1st Period</td><td>1st Period</td></tr>
-<tr><td><a href="/teams/CBJ.html">CBJ</a></td><td><a href="/teams/TBL.html">TBL</a></td><td>1st Period</td><td>18:42</td><td><a href="/teams/CBJ.html">CBJ</a></td><td><a href="/players/Sean Kuraly.html">Sean Kuraly</a></td><td>Tripping</td><td>2 min</td></tr>
-<tr><td><a href="/teams/CBJ.html">CBJ</a></td><td><a href="/teams/TBL.html">TBL</a></td><td>2nd Period</td><td>2nd Period</td><td><a href="/teams/2nd Period.html">2nd Period</a></td><td><a href="/players/2nd Period.html">2nd Period</a></td><td>2nd Period</td><td>2nd Period</td></tr>
-<tr><td><a href="/teams/CBJ.html">CBJ</a></td><td><a href="/teams/TBL.html">TBL</a></td><td>2nd Period</td><td>7:09</td><td><a href="/teams/CBJ.html">CBJ</a></td><td><a href="/players/Damon Severson.html">Damon Severson</a></td><td>High Sticking</td><td>2 min</td></tr>
-<tr><td><a href="/teams/CBJ.html">CBJ</a></td><td><a href="/teams/TBL.html">TBL</a></td><td>2nd Period</td><td>10:18</td><td><a href="/teams/CBJ.html">CBJ</a></td><td><a href="/players/Boone Jenner.html">Boone Jenner</a></td><td>Unsportsmanlike Conduct</td><td>2 min</td></tr>
-<tr><td><a href="/teams/CBJ.html">CBJ</a></td><td><a href="/teams/TBL.html">TBL</a></td><td>2nd Period</td><td>10:18</td><td><a href="/teams/TBL.html">TBL</a></td><td><a href="/players/Waltteri Merela.html">Waltteri Merela</a></td><td>Interference</td><td>2 min</td></tr>
-<tr><td><a href="/teams/CBJ.html">CBJ</a></td><td><a href="/teams/TBL.html">TBL</a></td><td>2nd Period</td><td>13:24</td><td><a href="/teams/CBJ.html">CBJ</a></td><td><a href="/players/Jack Roslovic.html">Jack Roslovic</a></td><td>Slashing</td><td>2 min</td></tr>
-<tr><td><a href="/teams/CBJ.html">CBJ</a></td><td><a href="/teams/TBL.html">TBL</a></td><td>2nd Period</td><td>18:10</td><td><a href="/teams/TBL.html">TBL</a></td><td><a href="/players/Calvin de Haan.html">Calvin de Haan</a></td><td>Tripping</td><td>2 min</td></tr>
-<tr><td><a href="/teams/CBJ.html">CBJ</a></td><td><a href="/teams/TBL.html">TBL</a></td><td>3rd Period</td><td>3rd Period</td><td><a href="/teams/3rd Period.html">3rd Period</a></td><td><a href="/players/3rd Period.html">3rd Period</a></td><td>3rd Period</td><td>3rd Period</td></tr>
-<tr><td><a href="/teams/CBJ.html">CBJ</a></td><td><a href="/teams/TBL.html">TBL</a></td><td>3rd Period</td><td>3:46</td><td><a href="/teams/TBL.html">TBL</a></td><td><a href="/players/Tanner Jeannot.html">Tanner Jeannot</a></td><td>Hooking</td><td>2 min</td></tr>
-<tr><td><a href="/teams/CBJ.html">CBJ</a></td><td><a href="/teams/TBL.html">TBL</a></td><td>3rd Period</td><td>12:52</td><td><a href="/teams/TBL.html">TBL</a></td><td><a href="/players/Brandon Hagel.html">Brandon Hagel</a></td><td>Holding</td><td>2 min</td></tr>
-<tr><td><a href="/teams/CBJ.html">CBJ</a></td><td><a href="/teams/TBL.html">TBL</a></td><td>3rd Period</td><td>19:05</td><td><a href="/teams/TBL.html">TBL</a></td><td><a href="/players/Victor Hedman.html">Victor Hedman</a></td><td>Holding</td><td>2 min</td></tr>
-
-                </tbody>
-            </table>
-        </main>
-    </body>
-    </html>
-    
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tampa Bay Lightning at Columbus Blue Jackets: November 02, 2023</title>
+<link rel="stylesheet" href="/assets/styles.css">
+<script src="/assets/searchBar.js"></script>
+<script src="/assets/tableSort.js"></script>
+</head>
+<body>
+<nav id="navbar">
+<ul>
+<li><a href="/">Home</a></li>
+<li><a href="/players/">Players</a></li>
+<li><a href="/teams/">Teams</a></li>
+<li><a href="/probabilities/">Probabilities</a></li>
+<li><a href="/boxscores/">Boxscores</a></li>
+<li><a href="/versus/">Head to Head Stats</a></li>
+<li><a href="/leaders/">Leaders</a></li>
+<li><a href="/seasons/2025/schedule.html">Schedule and Results</a></li>
+<li><a href="/seasons/2025/standings.html">Current Standings</a></li>
+<li><a href="/seasons/2025/rosters.html">Team Rosters</a></li>
+<li>
+<input type="text" id="searchBar" placeholder="Search for players or teams..." oninput="performSearch()" autocomplete="off">
+<div id="searchResults" class="dropdown"></div>
+<button id="searchButton" onclick="handleSearch()">Search</button>
+</li>
+</ul>
+</nav>
+<main id="content">
+<div class="scorebox">
+<div class="team"><div><a href="/teams/TBL.html">TBL</a></div><div class="score">2</div></div>
+<div class="team"><div><a href="/teams/CBJ.html">CBJ</a></div><div class="score">4</div></div>
+<div class="date">November 02, 2023</div>
+</div>
+<table id="TBL_skaters">
+<tr><th>Team</th><th>Player</th><th>G</th><th>A</th><th>PTS</th><th>SOG</th><th>HIT</th><th>BLK</th><th>TOI</th><th>PIM</th><th>SAT-F</th><th>SAT-A</th><th>CF%</th><th>CRel%</th></tr>
+<tr><td><a href="/teams/TBL.html">TBL</a></td><td><a href="/players/barreal01.html">Alex Barré-Boulet</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>13.32</td><td>0</td><td>18</td><td>16</td><td>52.90%</td><td>-0.60%</td></tr>
+<tr><td><a href="/teams/TBL.html">TBL</a></td><td><a href="/players/cirelan01.html">Anthony Cirelli</a></td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>2</td><td>19.45</td><td>0</td><td>21</td><td>22</td><td>48.80%</td><td>-6.60%</td></tr>
+<tr><td><a href="/teams/TBL.html">TBL</a></td><td><a href="/players/hagelbr01.html">Brandon Hagel</a></td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>1</td><td>17.37</td><td>2</td><td>23</td><td>12</td><td>65.70%</td><td>16.70%</td></tr>
+<tr><td><a href="/teams/TBL.html">TBL</a></td><td><a href="/players/pointbr01.html">Brayden Point</a></td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>19.35</td><td>0</td><td>27</td><td>17</td><td>61.40%</td><td>11.90%</td></tr>
+<tr><td><a href="/teams/TBL.html">TBL</a></td><td><a href="/players/dehaaca01.html">Calvin de Haan</a></td><td>0</td><td>0</td><td>0</td><td>1</td><td>3</td><td>1</td><td>16.52</td><td>2</td><td>20</td><td>12</td><td>62.50%</td><td>12.00%</td></tr>
+<tr><td><a href="/teams/TBL.html">TBL</a></td><td><a href="/players/shearco01.html">Conor Sheary</a></td><td>1</td><td>0</td><td>1</td><td>1</td><td>1</td><td>2</td><td>13.1</td><td>0</td><td>18</td><td>19</td><td>48.60%</td><td>-6.50%</td></tr>
+<tr><td><a href="/teams/TBL.html">TBL</a></td><td><a href="/players/raddyda01.html">Darren Raddysh</a></td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>2</td><td>16.73</td><td>0</td><td>22</td><td>10</td><td>68.80%</td><td>20.30%</td></tr>
+<tr><td><a href="/teams/TBL.html">TBL</a></td><td><a href="/players/cernaer01.html">Erik Černák</a></td><td>0</td><td>1</td><td>1</td><td>1</td><td>1</td><td>3</td><td>18.27</td><td>0</td><td>17</td><td>26</td><td>39.50%</td><td>-20.30%</td></tr>
+<tr><td><a href="/teams/TBL.html">TBL</a></td><td><a href="/players/glendlu01.html">Luke Glendening</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>2</td><td>0</td><td>8.87</td><td>0</td><td>4</td><td>12</td><td>25.00%</td><td>-32.10%</td></tr>
+<tr><td><a href="/teams/TBL.html">TBL</a></td><td><a href="/players/eyssimi01.html">Michael Eyssimont</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>7.42</td><td>0</td><td>6</td><td>8</td><td>42.90%</td><td>-11.60%</td></tr>
+<tr><td><a href="/teams/TBL.html">TBL</a></td><td><a href="/players/sergami01.html">Mikhail Sergachev</a></td><td>0</td><td>0</td><td>0</td><td>2</td><td>0</td><td>1</td><td>23.43</td><td>0</td><td>25</td><td>24</td><td>51.00%</td><td>-3.70%</td></tr>
+<tr><td><a href="/teams/TBL.html">TBL</a></td><td><a href="/players/paulni01.html">Nick Paul</a></td><td>0</td><td>0</td><td>0</td><td>3</td><td>1</td><td>0</td><td>18.92</td><td>0</td><td>32</td><td>18</td><td>64.00%</td><td>16.90%</td></tr>
+<tr><td><a href="/teams/TBL.html">TBL</a></td><td><a href="/players/perbini01.html">Nicklaus Perbix</a></td><td>0</td><td>0</td><td>0</td><td>2</td><td>0</td><td>2</td><td>14.57</td><td>0</td><td>15</td><td>19</td><td>44.10%</td><td>-12.30%</td></tr>
+<tr><td><a href="/teams/TBL.html">TBL</a></td><td><a href="/players/kucheni01.html">Nikita Kucherov</a></td><td>0</td><td>0</td><td>0</td><td>5</td><td>1</td><td>0</td><td>20.07</td><td>0</td><td>29</td><td>18</td><td>61.70%</td><td>12.80%</td></tr>
+<tr><td><a href="/teams/TBL.html">TBL</a></td><td><a href="/players/stamkst01.html">Steven Stamkos</a></td><td>1</td><td>1</td><td>2</td><td>6</td><td>0</td><td>1</td><td>20.37</td><td>0</td><td>30</td><td>19</td><td>61.20%</td><td>12.40%</td></tr>
+<tr><td><a href="/teams/TBL.html">TBL</a></td><td><a href="/players/jeannta01.html">Tanner Jeannot</a></td><td>0</td><td>0</td><td>0</td><td>1</td><td>3</td><td>1</td><td>12.6</td><td>2</td><td>18</td><td>9</td><td>66.70%</td><td>16.70%</td></tr>
+<tr><td><a href="/teams/TBL.html">TBL</a></td><td><a href="/players/hedmavi01.html">Victor Hedman</a></td><td>0</td><td>0</td><td>0</td><td>2</td><td>1</td><td>0</td><td>23.15</td><td>2</td><td>27</td><td>32</td><td>45.80%</td><td>-13.40%</td></tr>
+<tr><td><a href="/teams/TBL.html">TBL</a></td><td><a href="/players/merelwa01.html">Waltteri Merela</a></td><td>0</td><td>0</td><td>0</td><td>1</td><td>3</td><td>0</td><td>9.82</td><td>2</td><td>5</td><td>11</td><td>31.20%</td><td>-25.10%</td></tr>
+</table>
+<table id="CBJ_skaters">
+<tr><th>Team</th><th>Player</th><th>G</th><th>A</th><th>PTS</th><th>SOG</th><th>HIT</th><th>BLK</th><th>TOI</th><th>PIM</th><th>SAT-F</th><th>SAT-A</th><th>CF%</th><th>CRel%</th></tr>
+<tr><td><a href="/teams/CBJ.html">CBJ</a></td><td><a href="/players/fantiad01.html">Adam Fantilli</a></td><td>0</td><td>1</td><td>1</td><td>4</td><td>0</td><td>0</td><td>11.7</td><td>0</td><td>13</td><td>16</td><td>44.80%</td><td>-2.40%</td></tr>
+<tr><td><a href="/teams/CBJ.html">CBJ</a></td><td><a href="/players/texieal01.html">Alexandre Texier</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>2</td><td>1</td><td>17.67</td><td>0</td><td>14</td><td>31</td><td>31.10%</td><td>-23.30%</td></tr>
+<tr><td><a href="/teams/CBJ.html">CBJ</a></td><td><a href="/players/jennebo01.html">Boone Jenner</a></td><td>1</td><td>1</td><td>2</td><td>2</td><td>1</td><td>0</td><td>18.32</td><td>2</td><td>20</td><td>19</td><td>51.30%</td><td>6.50%</td></tr>
+<tr><td><a href="/teams/CBJ.html">CBJ</a></td><td><a href="/players/sillico01.html">Cole Sillinger</a></td><td>0</td><td>1</td><td>1</td><td>2</td><td>2</td><td>2</td><td>15.25</td><td>0</td><td>17</td><td>15</td><td>53.10%</td><td>8.40%</td></tr>
+<tr><td><a href="/teams/CBJ.html">CBJ</a></td><td><a href="/players/severda01.html">Damon Severson</a></td><td>0</td><td>1</td><td>1</td><td>1</td><td>0</td><td>1</td><td>21.35</td><td>2</td><td>23</td><td>18</td><td>56.10%</td><td>13.50%</td></tr>
+<tr><td><a href="/teams/CBJ.html">CBJ</a></td><td><a href="/players/jiricda01.html">David Jiříček</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>2</td><td>4</td><td>14.48</td><td>0</td><td>9</td><td>15</td><td>37.50%</td><td>-11.10%</td></tr>
+<tr><td><a href="/teams/CBJ.html">CBJ</a></td><td><a href="/players/vorondi01.html">Dmitri Voronkov</a></td><td>0</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>14.1</td><td>0</td><td>20</td><td>8</td><td>71.40%</td><td>31.20%</td></tr>
+<tr><td><a href="/teams/CBJ.html">CBJ</a></td><td><a href="/players/bemstem01.html">Emil Bemström</a></td><td>0</td><td>1</td><td>1</td><td>1</td><td>0</td><td>0</td><td>11.68</td><td>0</td><td>15</td><td>15</td><td>50.00%</td><td>4.30%</td></tr>
+<tr><td><a href="/teams/CBJ.html">CBJ</a></td><td><a href="/players/gudbrer01.html">Erik Gudbranson</a></td><td>1</td><td>0</td><td>1</td><td>1</td><td>0</td><td>0</td><td>18.27</td><td>0</td><td>24</td><td>33</td><td>42.10%</td><td>-7.90%</td></tr>
+<tr><td><a href="/teams/CBJ.html">CBJ</a></td><td><a href="/players/provoiv01.html">Ivan Provorov</a></td><td>0</td><td>1</td><td>1</td><td>0</td><td>2</td><td>4</td><td>25.38</td><td>0</td><td>18</td><td>36</td><td>33.30%</td><td>-22.30%</td></tr>
+<tr><td><a href="/teams/CBJ.html">CBJ</a></td><td><a href="/players/rosloja01.html">Jack Roslovic</a></td><td>0</td><td>0</td><td>0</td><td>2</td><td>0</td><td>0</td><td>17.4</td><td>2</td><td>19</td><td>15</td><td>55.90%</td><td>12.30%</td></tr>
+<tr><td><a href="/teams/CBJ.html">CBJ</a></td><td><a href="/players/beanja01.html">Jake Bean</a></td><td>0</td><td>0</td><td>0</td><td>3</td><td>0</td><td>4</td><td>10.73</td><td>0</td><td>17</td><td>18</td><td>48.60%</td><td>2.60%</td></tr>
+<tr><td><a href="/teams/CBJ.html">CBJ</a></td><td><a href="/players/gaudrjo01.html">Johnny Gaudreau</a></td><td>1</td><td>0</td><td>1</td><td>3</td><td>0</td><td>1</td><td>19.05</td><td>0</td><td>22</td><td>16</td><td>57.90%</td><td>15.60%</td></tr>
+<tr><td><a href="/teams/CBJ.html">CBJ</a></td><td><a href="/players/danfoju01.html">Justin Danforth</a></td><td>0</td><td>0</td><td>0</td><td>1</td><td>1</td><td>2</td><td>12.85</td><td>0</td><td>12</td><td>21</td><td>36.40%</td><td>-13.60%</td></tr>
+<tr><td><a href="/teams/CBJ.html">CBJ</a></td><td><a href="/players/johnske01.html">Kent Johnson</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>8.75</td><td>0</td><td>10</td><td>14</td><td>41.70%</td><td>-6.00%</td></tr>
+<tr><td><a href="/teams/CBJ.html">CBJ</a></td><td><a href="/players/marchki01.html">Kirill Marchenko</a></td><td>1</td><td>0</td><td>1</td><td>6</td><td>0</td><td>0</td><td>16.22</td><td>0</td><td>22</td><td>9</td><td>71.00%</td><td>31.60%</td></tr>
+<tr><td><a href="/teams/CBJ.html">CBJ</a></td><td><a href="/players/kuralse01.html">Sean Kuraly</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>13.23</td><td>2</td><td>12</td><td>22</td><td>35.30%</td><td>-15.20%</td></tr>
+<tr><td><a href="/teams/CBJ.html">CBJ</a></td><td><a href="/players/werenza01.html">Zach Werenski</a></td><td>0</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>25.57</td><td>0</td><td>26</td><td>23</td><td>53.10%</td><td>10.10%</td></tr>
+</table>
+<table id="TBL_goalies">
+<tr><th>Team</th><th>Goalie</th><th>DEC</th><th>GA</th><th>SA</th><th>SV</th><th>SV%</th><th>SO</th><th>PIM</th><th>TOI</th></tr>
+<tr><td><a href="/teams/TBL.html">TBL</a></td><td><a href="/players/tomkima01.html">Matt Tomkins</a></td><td>L</td><td>3</td><td>27</td><td>24</td><td>88.90%</td><td>0</td><td>0</td><td>57.78</td></tr>
+<tr><td><a href="/teams/TBL.html">TBL</a></td><td><a href="/players/nan.html">Empty Net</a></td><td>--</td><td>1</td><td>1</td><td>0</td><td>0.00%</td><td>0</td><td>0</td><td>0.0</td></tr>
+</table>
+<table id="CBJ_goalies">
+<tr><th>Team</th><th>Goalie</th><th>DEC</th><th>GA</th><th>SA</th><th>SV</th><th>SV%</th><th>SO</th><th>PIM</th><th>TOI</th></tr>
+<tr><td><a href="/teams/CBJ.html">CBJ</a></td><td><a href="/players/merzlel01.html">Elvis Merzļikins</a></td><td>W</td><td>2</td><td>29</td><td>27</td><td>93.10%</td><td>0</td><td>0</td><td>60.0</td></tr>
+</table>
+<table id="scoring">
+<tr><th>Team</th><th>Time</th><th>Info</th><th>Scorer</th><th>Assist 1</th><th>Assist 2</th></tr>
+<tr><td><a href="/teams/CBJ.html">CBJ</a></td><td>6.48</td><td>--</td><td><a href="/players/marchki01.html">Kirill Marchenko</a></td><td><a href="/players/vorondi01.html">Dmitri Voronkov</a></td><td><a href="/players/sillico01.html">Cole Sillinger</a></td></tr>
+<tr><td><a href="/teams/TBL.html">TBL</a></td><td>22.88</td><td>--</td><td><a href="/players/stamkst01.html">Steven Stamkos</a></td><td><a href="/players/--.html">--</a></td><td><a href="/players/--.html">--</a></td></tr>
+<tr><td><a href="/teams/TBL.html">TBL</a></td><td>24.7</td><td>--</td><td><a href="/players/shearco01.html">Conor Sheary</a></td><td><a href="/players/stamkst01.html">Steven Stamkos</a></td><td><a href="/players/cernaer01.html">Erik Černák</a></td></tr>
+<tr><td><a href="/teams/CBJ.html">CBJ</a></td><td>46.68</td><td>--</td><td><a href="/players/jennebo01.html">Boone Jenner</a></td><td><a href="/players/werenza01.html">Zach Werenski</a></td><td><a href="/players/severda01.html">Damon Severson</a></td></tr>
+<tr><td><a href="/teams/CBJ.html">CBJ</a></td><td>49.4</td><td>--</td><td><a href="/players/gudbrer01.html">Erik Gudbranson</a></td><td><a href="/players/bemstem01.html">Emil Bemström</a></td><td><a href="/players/fantiad01.html">Adam Fantilli</a></td></tr>
+<tr><td><a href="/teams/CBJ.html">CBJ</a></td><td>57.82</td><td>EN</td><td><a href="/players/gaudrjo01.html">Johnny Gaudreau</a></td><td><a href="/players/provoiv01.html">Ivan Provorov</a></td><td><a href="/players/jennebo01.html">Boone Jenner</a></td></tr>
+</table>
+<table id="penalties">
+<tr><th>Team</th><th>Time</th><th>Player</th><th>Penalty</th><th>PIM</th></tr>
+<tr><td><a href="/teams/CBJ.html">CBJ</a></td><td>18.7</td><td><a href="/players/kuralse01.html">Sean Kuraly</a></td><td>Tripping</td><td>2 min</td></tr>
+<tr><td><a href="/teams/CBJ.html">CBJ</a></td><td>27.15</td><td><a href="/players/severda01.html">Damon Severson</a></td><td>High Sticking</td><td>2 min</td></tr>
+<tr><td><a href="/teams/CBJ.html">CBJ</a></td><td>30.3</td><td><a href="/players/jennebo01.html">Boone Jenner</a></td><td>Unsportsmanlike Conduct</td><td>2 min</td></tr>
+<tr><td><a href="/teams/TBL.html">TBL</a></td><td>30.3</td><td><a href="/players/merelwa01.html">Waltteri Merela</a></td><td>Interference</td><td>2 min</td></tr>
+<tr><td><a href="/teams/CBJ.html">CBJ</a></td><td>33.4</td><td><a href="/players/rosloja01.html">Jack Roslovic</a></td><td>Slashing</td><td>2 min</td></tr>
+<tr><td><a href="/teams/TBL.html">TBL</a></td><td>38.17</td><td><a href="/players/dehaaca01.html">Calvin de Haan</a></td><td>Tripping</td><td>2 min</td></tr>
+<tr><td><a href="/teams/TBL.html">TBL</a></td><td>43.77</td><td><a href="/players/jeannta01.html">Tanner Jeannot</a></td><td>Hooking</td><td>2 min</td></tr>
+<tr><td><a href="/teams/TBL.html">TBL</a></td><td>52.87</td><td><a href="/players/hagelbr01.html">Brandon Hagel</a></td><td>Holding</td><td>2 min</td></tr>
+<tr><td><a href="/teams/TBL.html">TBL</a></td><td>59.08</td><td><a href="/players/hedmavi01.html">Victor Hedman</a></td><td>Holding</td><td>2 min</td></tr>
+</table>
+</main>
+</body>
+</html>
