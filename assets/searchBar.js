@@ -1,29 +1,3 @@
-#searchResults {
-    position: absolute;
-    background-color: white;
-    border: 1px solid #ccc;
-    width: 100%;
-    max-height: 200px;
-    overflow-y: auto;
-    z-index: 1000;
-}
-
-#searchResults div {
-    padding: 10px;
-    cursor: pointer;
-}
-
-#searchResults div:hover, .highlighted {
-    background-color: #f1f1f1;
-}
-
-#searchResults a {
-    text-decoration: none;
-    color: black;
-    display: block;
-}
-
-
 let players = [];
 let teams = [];
 let selectedIndex = -1; // For keeping track of selected suggestion
