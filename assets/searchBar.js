@@ -3,50 +3,50 @@ let teams = [];
 let selectedIndex = -1; // For keeping track of selected suggestion
 
 // Fetch players and teams data
-fetch('/assets/players.json')
+fetch("/assets/players.json")
     .then(response => response.json())
     .then(data => {
         players = data;
     })
-    .catch(error => console.error('Error loading players data:', error));
+    .catch(error => console.error("Error loading players data:", error));
 
-fetch('/assets/teams.json')
+fetch("/assets/teams.json")
     .then(response => response.json())
     .then(data => {
         teams = data;
     })
-    .catch(error => console.error('Error loading teams data:', error));
+    .catch(error => console.error("Error loading teams data:", error));
 
-fetch('players.json')
+fetch("players.json")
     .then(response => response.json())
     .then(data => {
         players = data;
     })
-    .catch(error => console.error('Error loading players data:', error));
+    .catch(error => console.error("Error loading players data:", error));
 
-fetch('teams.json')
+fetch("teams.json")
     .then(response => response.json())
     .then(data => {
         teams = data;
     })
-    .catch(error => console.error('Error loading teams data:', error));
+    .catch(error => console.error("Error loading teams data:", error));
 
 // Handle key navigation and suggestions
-document.getElementById('searchBar').addEventListener('keydown', function(event) {
-    const resultsContainer = document.getElementById('searchResults');
-    const suggestions = resultsContainer.querySelectorAll('div');
+document.getElementById("searchBar").addEventListener("keydown", function(event) {
+    const resultsContainer = document.getElementById("searchResults");
+    const suggestions = resultsContainer.querySelectorAll("div");
 
     if (suggestions.length === 0) return;  // Add this line to avoid errors if there are no suggestions
 
-    if (event.key === 'ArrowDown') {
+    if (event.key === "ArrowDown") {
         selectedIndex = (selectedIndex + 1) % suggestions.length;
         highlightSuggestion(suggestions);
-    } else if (event.key === 'ArrowUp') {
+    } else if (event.key === "ArrowUp") {
         selectedIndex = (selectedIndex - 1 + suggestions.length) % suggestions.length;
         highlightSuggestion(suggestions);
-    } else if (event.key === 'Enter') {
+    } else if (event.key === "Enter") {
         if (selectedIndex >= 0 && suggestions[selectedIndex]) {
-            window.location.href = suggestions[selectedIndex].querySelector('a').href;
+            window.location.href = suggestions[selectedIndex].querySelector("a").href;
         } else {
             handleSearch();  // Perform full search if no suggestion selected
         }
@@ -56,14 +56,14 @@ document.getElementById('searchBar').addEventListener('keydown', function(event)
 
 function highlightSuggestion(suggestions) {
     suggestions.forEach((suggestion, index) => {
-        suggestion.classList.toggle('highlighted', index === selectedIndex);
+        suggestion.classList.toggle("highlighted", index === selectedIndex);
     });
 }
 
 function performSearch() {
-    const input = document.getElementById('searchBar').value.toLowerCase();
-    const resultsContainer = document.getElementById('searchResults');
-    resultsContainer.innerHTML = ''; // Clear previous results
+    const input = document.getElementById("searchBar").value.toLowerCase();
+    const resultsContainer = document.getElementById("searchResults");
+    resultsContainer.innerHTML = ""; // Clear previous results
     selectedIndex = -1; // Reset selected suggestion index
 
     if (input.length === 0) {
@@ -81,27 +81,27 @@ function performSearch() {
 
     // Display suggestions for players
     filteredPlayers.forEach(player => {
-        const resultItem = document.createElement('div');
+        const resultItem = document.createElement("div");
         resultItem.innerHTML = "<a href="${player.url}">${player.name}</a>";
-        resultItem.addEventListener('click', () => window.location.href = player.url);
+        resultItem.addEventListener("click", () => window.location.href = player.url);
         resultsContainer.appendChild(resultItem);
     });
 
     // Display suggestions for teams
     filteredTeams.forEach(team => {
-        const resultItem = document.createElement('div');
+        const resultItem = document.createElement("div");
         resultItem.innerHTML = "<a href="${team.url}">${team.name}</a>";
-        resultItem.addEventListener('click', () => window.location.href = team.url);
+        resultItem.addEventListener("click", () => window.location.href = team.url);
         resultsContainer.appendChild(resultItem);
     });
 
-    resultsContainer.style.display = 'block';
+    resultsContainer.style.display = "block";
 }
 
 function handleSearch() {
-    const input = document.getElementById('searchBar').value.toLowerCase();
-    const resultsContainer = document.getElementById('searchResults');
-    resultsContainer.innerHTML = ''; // Clear previous results
+    const input = document.getElementById("searchBar").value.toLowerCase();
+    const resultsContainer = document.getElementById("searchResults");
+    resultsContainer.innerHTML = ""; // Clear previous results
 
     // Filter players and teams
     const filteredPlayers = players.filter(player => 
@@ -113,7 +113,7 @@ function handleSearch() {
     );
 
     // Display all results on a new search results page
-    let resultsHTML = '';
+    let resultsHTML = "";
     filteredPlayers.forEach(player => {
         resultsHTML += `<div><a href="${player.url}">${player.name}</a></div>`;
     });
@@ -126,15 +126,15 @@ function handleSearch() {
     window.location.href = `/search-results.html?q=${input}`;  // Example redirect to a results page
 
     // Alternatively, you can append these results to a container on the same page:
-    document.getElementById('searchResultsContainer').innerHTML = resultsHTML;
+    document.getElementById("searchResultsContainer").innerHTML = resultsHTML;
 }
 
-document.addEventListener('click', function(event) {
-    const searchBar = document.getElementById('searchBar');
-    const resultsContainer = document.getElementById('searchResults');
+document.addEventListener("click", function(event) {
+    const searchBar = document.getElementById("searchBar");
+    const resultsContainer = document.getElementById("searchResults");
 
     // Hide search results if clicked outside of the search bar or results
     if (!searchBar.contains(event.target) && !resultsContainer.contains(event.target)) {
-        resultsContainer.style.display = 'none';
+        resultsContainer.style.display = "none";
     }
 });
