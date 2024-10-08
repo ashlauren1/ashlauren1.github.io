@@ -84,14 +84,14 @@
                 // Display filtered players
                 filteredPlayers.forEach(player => {
                     const playerItem = document.createElement('div');
-                    playerItem.innerHTML = `<a href="${player.url}">${player.name}</a>`;
+                    playerItem.innerHTML = "<a href="${player.url}">${player.name}</a>";
                     resultsContainer.appendChild(playerItem);
                 });
 
                 // Display filtered teams
                 filteredTeams.forEach(team => {
                     const teamItem = document.createElement('div');
-                    teamItem.innerHTML = `<a href="${team.url}">${team.name}</a>`;
+                    teamItem.innerHTML = "<a href="${team.url}">${team.name}</a>";
                     resultsContainer.appendChild(teamItem);
                 });
             }

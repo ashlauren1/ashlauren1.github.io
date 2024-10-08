@@ -127,7 +127,7 @@ function performSearch() {
     // Display suggestions for players
     filteredPlayers.forEach(player => {
         const resultItem = document.createElement('div');
-        resultItem.innerHTML = `<a href="${player.url}">${player.name}</a>`;
+        resultItem.innerHTML = "<a href="${player.url}">${player.name}</a>";
         resultItem.addEventListener('click', () => window.location.href = player.url);
         resultsContainer.appendChild(resultItem);
     });
@@ -135,7 +135,7 @@ function performSearch() {
     // Display suggestions for teams
     filteredTeams.forEach(team => {
         const resultItem = document.createElement('div');
-        resultItem.innerHTML = `<a href="${team.url}">${team.name}</a>`;
+        resultItem.innerHTML = "<a href="${team.url}">${team.name}</a>";
         resultItem.addEventListener('click', () => window.location.href = team.url);
         resultsContainer.appendChild(resultItem);
     });
@@ -160,11 +160,11 @@ function handleSearch() {
     // Display all results on a new search results page
     let resultsHTML = '';
     filteredPlayers.forEach(player => {
-        resultsHTML += `<div><a href="${player.url}">${player.name}</a></div>`;
+        resultsHTML += "<div><a href="${player.url}">${player.name}</a></div>";
     });
 
     filteredTeams.forEach(team => {
-        resultsHTML += `<div><a href="${team.url}">${team.name}</a></div>`;
+        resultsHTML += "<div><a href="${team.url}">${team.name}</a></div>";
     });
 
     // Redirect or display the results somewhere on the page

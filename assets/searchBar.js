@@ -68,7 +68,7 @@ function performSearch() {
     // Display suggestions for players
     filteredPlayers.forEach(player => {
         const resultItem = document.createElement('div');
-        resultItem.innerHTML = `<a href="${player.url}">${player.name}</a>`;
+        resultItem.innerHTML = "<a href="${player.url}">${player.name}</a>";
         resultItem.addEventListener('click', () => window.location.href = player.url);
         resultsContainer.appendChild(resultItem);
     });
@@ -76,7 +76,7 @@ function performSearch() {
     // Display suggestions for teams
     filteredTeams.forEach(team => {
         const resultItem = document.createElement('div');
-        resultItem.innerHTML = `<a href="${team.url}">${team.name}</a>`;
+        resultItem.innerHTML = "<a href="${team.url}">${team.name}</a>";
         resultItem.addEventListener('click', () => window.location.href = team.url);
         resultsContainer.appendChild(resultItem);
     });
@@ -109,10 +109,10 @@ function handleSearch() {
     });
 
     // Redirect or display the results somewhere on the page
-    window.location.href = `/search-results?q=${input}`;  // Example redirect to a results page
+    window.location.href = `/search-results.html?q=${input}`;  // Example redirect to a results page
 
     // Alternatively, you can append these results to a container on the same page:
-    // document.getElementById('searchResultsContainer').innerHTML = resultsHTML;
+    document.getElementById('searchResultsContainer').innerHTML = resultsHTML;
 }
 
 document.addEventListener('click', function(event) {
