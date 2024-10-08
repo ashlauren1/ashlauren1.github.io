@@ -17,6 +17,20 @@ fetch('/assets/teams.json')
     })
     .catch(error => console.error('Error loading teams data:', error));
 
+fetch('players.json')
+    .then(response => response.json())
+    .then(data => {
+        players = data;
+    })
+    .catch(error => console.error('Error loading players data:', error));
+
+fetch('teams.json')
+    .then(response => response.json())
+    .then(data => {
+        teams = data;
+    })
+    .catch(error => console.error('Error loading teams data:', error));
+
 // Handle key navigation and suggestions
 document.getElementById('searchBar').addEventListener('keydown', function(event) {
     const resultsContainer = document.getElementById('searchResults');
